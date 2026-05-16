@@ -1,0 +1,30 @@
+# Local environment
+.env
+.env.*
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (asset generation scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (none used, but ignore preemptively)
+node_modules/
+npm-debug.log*
+
+# Netlify CLI local state
+.netlify/
+
+# Agent working directories
+.claude/
+
+# Logs
+*.log

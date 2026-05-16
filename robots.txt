@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wvaihub.com/sitemap.xml
+Sitemap: https://wvaihub.com/assets/sitemap.xml

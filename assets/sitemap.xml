@@ -7,7 +7,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://wvaihub.com/og-image.png</image:loc>
+      <image:loc>https://wvaihub.com/assets/og-image.png</image:loc>
       <image:title>West Virginia's AI Frontier</image:title>
       <image:caption>Interactive map of AI innovation hubs across West Virginia.</image:caption>
     </image:image>
