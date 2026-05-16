@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="WV AI Innovation Index" width="100%">
+  <img src="assets/readme-banner.png" alt="WV-AI-HUB" width="100%">
 </p>
 
-# WV AI Innovation Index
+# WV-AI-HUB
 
 > An interactive map of AI innovation across West Virginia — twelve hubs, 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems.
 
