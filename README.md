@@ -85,8 +85,8 @@ The whole point of releasing the source is so anyone can clone this and stand up
 
 1. **Fork and clone**
    ```bash
-   gh repo fork m0ntan1/WV-AI-HUB-INDEX --clone
-   cd WV-AI-HUB-INDEX
+   gh repo fork m0ntan1/WV-AI-HUB --clone
+   cd WV-AI-HUB
    ```
 
 2. **Replace the geographic polygon.** Open `index.html` and find `const WV = [ ... ];` (around line 800). This is a list of `[longitude, latitude]` pairs tracing the WV state boundary. Replace it with your region's outline. Free sources:

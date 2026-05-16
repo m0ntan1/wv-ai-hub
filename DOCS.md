@@ -1,4 +1,4 @@
-# WV-AI-HUB-INDEX Documentation
+# WV-AI-HUB Documentation
 
 This repository is dedicated to creating an interactive index or visualization of AI innovation hubs across West Virginia. The goal is to help stakeholders, residents, and researchers understand the geographic distribution of key AI-related resources, institutions, and communities within the Mountain State.
 
@@ -17,8 +17,8 @@ This repository is dedicated to creating an interactive index or visualization o
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/m0ntan1/WV-AI-HUB-INDEX.git
-   cd WV-AI-HUB-INDEX
+   git clone https://github.com/m0ntan1/WV-AI-HUB.git
+   cd WV-AI-HUB
    ```
 
 2. **Open in VS Code**
