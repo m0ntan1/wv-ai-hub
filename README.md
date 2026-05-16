@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="WV-AI-HUB — Mountain State AI Frontier" width="100%">
+  <img src="assets/readme-banner.png" alt="WV-AI-HUB: Mountain State AI Frontier" width="100%">
 </p>
 
 # WV-AI-HUB
 
-> An interactive map of AI innovation across West Virginia — twelve hubs, 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems. Open source, fork-friendly, and built to be adapted for any state, county, school, or community.
+> An interactive map of AI innovation across West Virginia. Twelve hubs and 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems. Open source, fork-friendly, and built to be adapted for any state, county, school, or community.
 
 **🌐 Live: [wvaihub.com](https://wvaihub.com)** &nbsp;·&nbsp; Curated by [MØNTAN1.com](https://montaniai.com).
 
@@ -14,10 +14,10 @@ The site is a single static HTML file. No framework, no build step, no backend. 
 
 ## What's inside
 
-- **5 Major Hubs** — Morgantown · Fairmont · Charleston · Huntington · Berkeley County
-- **7 Emerging Hubs** — Parkersburg · Wheeling · Weirton · Princeton · Beckley · Clarksburg · Tucker County
+- **5 Major Hubs.** Morgantown · Fairmont · Charleston · Huntington · Berkeley County
+- **7 Emerging Hubs.** Parkersburg · Wheeling · Weirton · Princeton · Beckley · Clarksburg · Tucker County
 - **53+ Stories** across WVU & Marshall research, state AI policy (HB 2014, HB 4983, HB 5690), data-center buildouts, startup accelerators, and community organizing
-- **Workforce Development** panel with **27 resource cards** across Jobs · Education · Events · Grants — spanning AI, Tech, Bitcoin, Solar, and Just Transition
+- **Workforce Development** panel with **27 resource cards** across Jobs · Education · Events · Grants, spanning AI, Tech, Bitcoin, Solar, and Just Transition
 
 ---
 
@@ -39,10 +39,10 @@ VS Code users can install the **Live Server** extension and right-click `index.h
 ```
 .
 ├── index.html                  Entire site (HTML + CSS + JS, ~1900 lines)
-├── robots.txt                  Crawler directives → points to assets/sitemap.xml
+├── robots.txt                  Crawler directives, points to assets/sitemap.xml
 ├── DOCS.md                     Notes on the canvas-map rendering
 ├── README.md                   This file
-├── LICENSE                     (TBD — see License section)
+├── LICENSE                     (TBD, see License section below)
 └── assets/
     ├── og-image.png            1200×630 social preview card
     ├── favicon.svg             Vector favicon
@@ -55,8 +55,8 @@ VS Code users can install the **Live Server** extension and right-click `index.h
     ├── montani-badge{,-dark}.png  Footer credit (light/dark mode)
     └── scripts/
         ├── generate_og.py            Rebuilds og-image.png from the WV polygon in index.html
-        ├── generate_favicons.py      Rebuilds the favicon set + apple-touch + PWA icons
-        ├── generate_readme_assets.py Rebuilds the README banner + MØNTAN1 badge
+        ├── generate_favicons.py      Rebuilds the favicon set, apple-touch, and PWA icons
+        ├── generate_readme_assets.py Rebuilds the README banner and MØNTAN1 badge
         └── fonts/                    Bundled brand fonts (OFL): Instrument Serif, JetBrains Mono, DM Sans
 ```
 
@@ -90,21 +90,21 @@ The whole point of releasing the source is so anyone can clone this and stand up
    ```
 
 2. **Replace the geographic polygon.** Open `index.html` and find `const WV = [ ... ];` (around line 800). This is a list of `[longitude, latitude]` pairs tracing the WV state boundary. Replace it with your region's outline. Free sources:
-   - **US states / counties / school districts** — [US Census TIGER/Line shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html), converted to GeoJSON via [mapshaper.org](https://mapshaper.org)
-   - **Cities or neighborhoods** — [OpenStreetMap](https://www.openstreetmap.org) → search → export polygon
-   - **Custom regions** — draw in [geojson.io](https://geojson.io) and copy the coordinates
+   - **US states / counties / school districts.** [US Census TIGER/Line shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html), converted to GeoJSON via [mapshaper.org](https://mapshaper.org).
+   - **Cities or neighborhoods.** [OpenStreetMap](https://www.openstreetmap.org) → search → export polygon.
+   - **Custom regions.** Draw in [geojson.io](https://geojson.io) and copy the coordinates.
 
 3. **Update the hub data.** In `index.html` find the three JS arrays:
-   - `const HUBS = [...]` — your 4–6 major hubs (name, lat, lng, story count, optional `capital: true`)
-   - `const TOP10 = [...]` — your secondary cities (rendered as smaller dots between hubs)
-   - `const TOWNS = [...]` — your tertiary towns (rendered as faint background dots)
+   - `const HUBS = [...]` for your 4 to 6 major hubs (name, lat, lng, story count, optional `capital: true`).
+   - `const TOP10 = [...]` for your secondary cities (rendered as smaller dots between hubs).
+   - `const TOWNS = [...]` for your tertiary towns (rendered as faint background dots).
 
 4. **Rewrite the content sections.** Each `<section class="city-section">` is one major hub. Each `<div class="story-item">` is one story. Each `<div class="future-hub-card">` is an emerging hub. The Workforce Development section uses `<div class="wf-card">` blocks grouped into four `<div class="wf-panel">` panels.
 
 5. **Update branding.** In `index.html`:
    - `<title>`, `<meta name="description">`, OG/Twitter tags
    - Hero text: "West Virginia's AI Frontier"
-   - Footer: "Montani Semper Liberi" + curator name
+   - Footer: "Montani Semper Liberi" and curator name
    - JSON-LD `Organization` block: name, url, email, sameAs links
    - CSS color variables in `:root { ... }` if you want a different palette
 
@@ -117,12 +117,12 @@ The whole point of releasing the source is so anyone can clone this and stand up
    ```
 
 7. **Deploy.** The site is pure static files. Easiest options:
-   - **Netlify** — `npx netlify deploy --prod --dir=.` or connect the GitHub repo for auto-deploy
-   - **Cloudflare Pages** — connect GitHub repo in dashboard, framework preset "None"
-   - **GitHub Pages** — enable in repo settings, branch `main`, folder `/` (root)
-   - **Vercel** — `vercel --prod`
+   - **Netlify.** `npx netlify deploy --prod --dir=.` or connect the GitHub repo for auto-deploy.
+   - **Cloudflare Pages.** Connect the GitHub repo in the dashboard, framework preset "None".
+   - **GitHub Pages.** Enable in repo settings, branch `main`, folder `/` (root).
+   - **Vercel.** `vercel --prod`.
 
-8. **Point a domain.** Netlify and Cloudflare Pages both give you free HTTPS + custom domain.
+8. **Point a domain.** Netlify and Cloudflare Pages both give you free HTTPS and custom domain.
 
 ### Curation philosophy
 
@@ -134,13 +134,13 @@ If you fork this, **keep your sources clickable.** That's what separates a commu
 
 ## Local AI assistance
 
-This index was built and continues to be maintained with Claude Code, an agentic AI from Anthropic. The repo's commit history shows the iteration: news refreshes, the move to a unified Workforce Development section, the em-dash + AI-prose sweep, the SEO and OG-image pass. If you're forking this and want the same workflow, the relevant capabilities are:
+This index was built and continues to be maintained with Claude Code, an agentic AI from Anthropic. The repo's commit history shows the iteration: news refreshes, the move to a unified Workforce Development section, the prose-style sweep that removed em dashes and AI-stilted phrasing, the SEO and OG-image pass. If you're forking this and want the same workflow, the relevant capabilities are:
 
-- **Single-file editing at scale** — Claude Code can rewrite, sort, and resync the city sections and JS arrays in one pass.
-- **Source verification** — instruct it to WebFetch every source URL and report broken / stale / contradicted entries before you trust them.
-- **Asset regeneration** — the Python scripts in `assets/scripts/` were generated and revised by Claude Code; rerun them whenever your underlying data changes.
+- **Single-file editing at scale.** Claude Code can rewrite, sort, and resync the city sections and JS arrays in one pass.
+- **Source verification.** Instruct it to WebFetch every source URL and report broken, stale, or contradicted entries before you trust them.
+- **Asset regeneration.** The Python scripts in `assets/scripts/` were generated and revised by Claude Code; rerun them whenever your underlying data changes.
 
-You don't need an AI agent to fork this — the source is plain HTML — but it makes the per-region customization fast.
+You don't need an AI agent to fork this since the source is plain HTML, but it makes per-region customization fast.
 
 ---
 
@@ -154,7 +154,7 @@ Brand fonts in `assets/scripts/fonts/` are distributed under the SIL Open Font L
 
 ## Credits
 
-Curated by **[MØNTAN1.com](https://montaniai.com)** — Rick Thomas's Morgantown-based Bitcoin and AI consultancy, which also runs the Mountain State Freedom Tech meetup (formerly HODL in the Holler) at [meetup.com/msft-wv](https://www.meetup.com/msft-wv/) and the parent Bitcoin-focused practice at [montanibitcoin.com](https://montanibitcoin.com). Contact: [rick@montaniai.com](mailto:rick@montaniai.com).
+Curated by **[MØNTAN1.com](https://montaniai.com)**, Rick Thomas's Morgantown-based Bitcoin and AI consultancy, which also runs the Mountain State Freedom Tech meetup (formerly HODL in the Holler) at [meetup.com/msft-wv](https://www.meetup.com/msft-wv/) and the parent Bitcoin-focused practice at [montanibitcoin.com](https://montanibitcoin.com). Contact: [rick@montaniai.com](mailto:rick@montaniai.com).
 
 *Montani Semper Liberi.*
 
