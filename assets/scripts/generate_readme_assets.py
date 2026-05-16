@@ -6,7 +6,7 @@ import math
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-REPO = Path("/Users/m0ntan1/github/WV-AI-HUB-INDEX/.claude/worktrees/wonderful-stonebraker-8196a5")
+REPO = Path(__file__).resolve().parent.parent.parent
 FONTS = Path(__file__).parent / "fonts"
 ASSETS = REPO / "assets"
 ASSETS.mkdir(exist_ok=True)
@@ -111,8 +111,8 @@ mono_url = ImageFont.truetype(str(FONTS / "JetBrainsMono-Regular.ttf"), 16)
 sans = ImageFont.truetype(str(FONTS / "DMSans-Regular.ttf"), 18)
 
 # Tag
-draw.text((60, 50), "WV  AI  INNOVATION  INDEX", font=mono_tag, fill=(0, 212, 255, 200))
-draw.line([(60, 75), (200, 75)], fill=(0, 212, 255, 100), width=1)
+draw.text((60, 50), "WV-AI-HUB  /  OPEN  SOURCE  INDEX", font=mono_tag, fill=(0, 212, 255, 200))
+draw.line([(60, 75), (260, 75)], fill=(0, 212, 255, 100), width=1)
 
 # Title
 draw.text((60, 110), "Mountain State", font=serif, fill=WHITE)
