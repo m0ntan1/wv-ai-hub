@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-REPO = Path("/Users/m0ntan1/github/WV-AI-HUB-INDEX/.claude/worktrees/wonderful-stonebraker-8196a5")
+REPO = Path(__file__).resolve().parent.parent.parent
 FONTS = Path(__file__).parent / "fonts"
 
 # --- Brand

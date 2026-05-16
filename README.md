@@ -6,7 +6,7 @@
 
 > An interactive map of AI innovation across West Virginia — twelve hubs, 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems.
 
-**🌐 Live: [wvaihub.com](https://wvaihub.com)** &nbsp;·&nbsp; Curated by Mountain State Freedom Tech.
+**🌐 Live: [wvaihub.com](https://wvaihub.com)** &nbsp;·&nbsp; Curated by [MØNTAN1.com](https://montaniai.com).
 
 The site is a single static HTML file. No framework, no build step, no backend. Drop it on any static host (Netlify, Cloudflare Pages, GitHub Pages, S3) and it works. The WV outline is rendered from real geographic coordinates on an HTML `<canvas>`. All content lives inline in `index.html` so the whole project can be read top-to-bottom in one file.
 
@@ -154,7 +154,7 @@ Brand fonts in `assets/scripts/fonts/` are distributed under the SIL Open Font L
 
 ## Credits
 
-Curated by **Mountain State Freedom Tech** (formerly HODL in the Holler), the Morgantown Bitcoin and freedom-tech meetup operated by [MØNTAN1 Consulting](https://montanibitcoin.com). Contact: [rick@montaniai.com](mailto:rick@montaniai.com).
+Curated by **[MØNTAN1.com](https://montaniai.com)** — Rick Thomas's Morgantown-based Bitcoin and AI consultancy, which also runs the Mountain State Freedom Tech meetup (formerly HODL in the Holler) at [meetup.com/msft-wv](https://www.meetup.com/msft-wv/) and the parent Bitcoin-focused practice at [montanibitcoin.com](https://montanibitcoin.com). Contact: [rick@montaniai.com](mailto:rick@montaniai.com).
 
 *Montani Semper Liberi.*
 

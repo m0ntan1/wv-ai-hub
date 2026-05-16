@@ -4,7 +4,7 @@
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFilter
 
-REPO = Path("/Users/m0ntan1/github/WV-AI-HUB-INDEX/.claude/worktrees/wonderful-stonebraker-8196a5")
+REPO = Path(__file__).resolve().parent.parent.parent
 
 BG = (5, 10, 18, 255)
 CYAN = (0, 212, 255)
