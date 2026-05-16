@@ -130,6 +130,12 @@ Every story on this index links to a public, verifiable source (news article, un
 
 If you fork this, **keep your sources clickable.** That's what separates a community index from a marketing page.
 
+### Continuous curation
+
+The site is designed to update itself. The complete monthly-refresh prompt lives at [`.github/PROMPTS/news-refresh.md`](.github/PROMPTS/news-refresh.md) and is the entire instruction set: any scheduled AI agent (Cowork scheduled task, Claude Code `/schedule`, GitHub Actions running Claude, or equivalent) can execute it against this repo with no other context. The agent searches for new sourced stories, verifies existing links, applies the project's style guide, regenerates the OG image if counts changed, and opens a PR for human review. **A human still merges.** Recommended cadence: first Monday of each month.
+
+If you fork the repo, edit the regions list at the top of the prompt and you're done.
+
 ---
 
 ## Local AI assistance
