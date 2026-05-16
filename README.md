@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="WV-AI-HUB" width="100%">
+  <img src="assets/readme-banner.png" alt="WV-AI-HUB — Mountain State AI Frontier" width="100%">
 </p>
 
 # WV-AI-HUB
 
-> An interactive map of AI innovation across West Virginia — twelve hubs, 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems.
+> An interactive map of AI innovation across West Virginia — twelve hubs, 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems. Open source, fork-friendly, and built to be adapted for any state, county, school, or community.
 
 **🌐 Live: [wvaihub.com](https://wvaihub.com)** &nbsp;·&nbsp; Curated by [MØNTAN1.com](https://montaniai.com).
 
