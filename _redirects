@@ -1,0 +1,13 @@
+# Preserve legacy paths after the /assets/ restructure so cached social
+# previews, bookmarked URLs, and search-engine results continue to resolve.
+
+/og-image.png            /assets/og-image.png            301
+/favicon.svg             /assets/favicon.svg             301
+/favicon-16x16.png       /assets/favicon-16x16.png       301
+/favicon-32x32.png       /assets/favicon-32x32.png       301
+/favicon-48x48.png       /assets/favicon-48x48.png       301
+/apple-touch-icon.png    /assets/apple-touch-icon.png    301
+/icon-192.png            /assets/icon-192.png            301
+/icon-512.png            /assets/icon-512.png            301
+/site.webmanifest        /assets/site.webmanifest        301
+/sitemap.xml             /assets/sitemap.xml             301
