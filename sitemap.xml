@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://wvaihub.com/</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://wvaihub.com/og-image.png</image:loc>
+      <image:title>West Virginia's AI Frontier</image:title>
+      <image:caption>Interactive map of AI innovation hubs across West Virginia.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#sec-morgantown</loc>
+    <lastmod>2026-05-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#sec-fairmont</loc>
+    <lastmod>2026-05-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#sec-charleston</loc>
+    <lastmod>2026-05-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#sec-huntington</loc>
+    <lastmod>2026-05-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#sec-berkeley</loc>
+    <lastmod>2026-05-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
