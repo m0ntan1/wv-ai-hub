@@ -466,6 +466,15 @@ a.tag:hover { color: var(--fg); }
 .up { color: var(--ok); font-family: var(--mono); font-size: .92em; } .down { color: var(--alarm); font-family: var(--mono); font-size: .92em; }
 .co-foot { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: auto; padding-top: 4px; }
 .co-f { font-family: var(--mono); font-size: 10.5px; color: var(--fg-3); letter-spacing: .03em; }
+.co-sig { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tchip, .cchip { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .03em; border: 1px solid var(--rule-2); border-radius: 4px; padding: 1px 6px; color: var(--fg-2); white-space: nowrap; }
+.cchip { border-color: color-mix(in srgb, var(--copper) 60%, transparent); color: var(--copper); }
+.cat-list { list-style: none; display: grid; max-width: 860px; }
+.cat { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; padding: 9px 0; border-top: 1px solid var(--rule); font-size: 14.5px; }
+.cat-d { font-family: var(--mono); font-size: 11.5px; color: var(--copper); text-transform: uppercase; letter-spacing: .04em; padding-top: 2px; }
+.cat-d small { display: block; color: var(--fg-3); font-size: 10.5px; text-transform: none; }
+.cat-d.none { color: var(--fg-3); }
+.cat-d.past { color: var(--fg-3); text-decoration: line-through; }
 .hchip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; border: 1px solid currentColor; border-radius: 999px; padding: 2px 8px; white-space: nowrap; }
 .hchip b { font-weight: 700; } .hchip small { font-size: 9.5px; opacity: .8; text-transform: lowercase; letter-spacing: .02em; }
 .hchip.t-dim { border-style: dashed; }
@@ -619,6 +628,7 @@ a.staff:hover { border-color: var(--fg-3); border-top-color: var(--who); }
   .cf-stamps { align-items: flex-start; flex-direction: row; flex-wrap: wrap; }
   .facts > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .co-charts { grid-template-columns: minmax(0, 1fr); }
+  .cat { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .mercer-stamp { margin-left: 0; }
   .rook-read { padding: 14px 14px 12px; }
   .rc-stats { grid-template-columns: repeat(2, 1fr); }

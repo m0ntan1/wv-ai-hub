@@ -228,6 +228,17 @@ if CO:
         for f in c.get('facts', []):
             if not f.get('k') or not f.get('v'): err(f'{w}: bad fact {f!r}')
         if c.get('facts') and not c.get('factsAsOf'): err(f'{w}: curated facts need factsAsOf (which filing, which period)')
+        if 'watch' in c: err(f'{w}: "watch" was replaced by "catalysts" (each with t, src, and an optional date)')
+        for x in c.get('catalysts', []):
+            if not x.get('t'): err(f'{w}: catalyst without text')
+            sources_ok([x.get('src')] if x.get('src') else [], f"{w}/catalyst {x.get('t', '')[:40]}")
+            if x.get('d'):
+                is_date(x['d'], f'{w}/catalyst')
+                if len(x['d']) == 10 and x['d'] < TODAY:
+                    warn(f"{w}: catalyst date {x['d']} has passed ({x['t'][:50]}). Record what happened and remove or update it.")
+            if x.get('verify'): warn(f"{w}: ⚠ Verify still open on a catalyst: {x['verify'][:70]}")
+        for kid in c.get('docket', []):
+            if kid not in {k['id'] for k in DK}: err(f'{w}: unknown docket id {kid!r}')
         if '—' in json.dumps(c, ensure_ascii=False): err(f'{w}: em dash in site text')
         stale(c, w)
         if c.get('verify'): warn(f'{w}: ⚠ Verify still open: {c["verify"][:80]}')
@@ -235,6 +246,9 @@ if CO:
         if not s.get('source', {}).get('url', '').startswith('https://'): err(f"companies/signals/{s.get('id')}: needs a source URL")
         for cid in s.get('companies', []):
             if cid not in CIDS: err(f"companies/signals/{s.get('id')}: unknown company {cid!r}")
+    tr = CO.get('trendRule', {})
+    if tr and not (isinstance(tr.get('pct'), (int, float)) and tr['pct'] > 0 and isinstance(tr.get('quarters'), int) and 1 <= tr['quarters'] <= 4):
+        err('companies.trendRule: pct must be a positive number and quarters 1 to 4')
 
 fp = ROOT / 'data' / 'filings.json'
 if fp.exists():

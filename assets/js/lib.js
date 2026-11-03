@@ -79,6 +79,7 @@ export const EV_TYPES = {
   community: { label: 'Town hall / community', color: 'var(--cyan)' },
   government: { label: 'Government', color: 'var(--fg-2)' },
   developer: { label: 'Developer open house', color: 'var(--fg-3)' },
+  money: { label: 'Money desk catalyst', color: 'var(--copper)' },
 };
 export const STAGES = [
   { id: 'prefiling', label: 'Not yet filed' },

@@ -1,5 +1,6 @@
 {
  "updated": "2026-11-03",
+ "trendRule": {"pct": 10, "quarters": 2, "note": "A trend arrow shows only when a figure is at least pct percent above or below the same quarter a year earlier for this many quarters in a row."},
  "note": "The Money Desk roster. Hand-curated: a company enters only with a sourced reason. tools/fetch_filings.py reads the sec.cik fields and fills data/filings.json. Health reads are editorial and change only with the editor's approval (status 'pending' until then).",
  "tranches": [
   {"id": "industry", "name": "The Industry", "blurb": "The weather the whole buildout flies in: how fast the biggest buyers are spending, what power and gas cost, and what money costs. Every number comes from a government source or a company filing."},
@@ -68,11 +69,11 @@
     "Building and running its own power plants at sites like Monarch.",
     "Material weaknesses in financial controls."
    ],
-   "watch": [
-    "An amended S-1 with a price range, then a final prospectus (form 424B4) when the IPO prices.",
-    "The Nvidia note sale closing, expected around Nov 16, 2026.",
-    "DEP's decision on Monarch's air permit (R14-0042).",
-    "Any 8-K or amendment announcing financing for the Anthropic build."
+   "catalysts": [
+    {"t": "Nvidia's $1.0 billion note purchase is expected to close", "d": "2026-11-16", "approx": true, "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
+    {"t": "IPO pricing: an amended S-1 with a price range, then a final prospectus (form 424B4)", "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
+    {"t": "Financing for the Anthropic build at Monarch: none committed as of the S-1; watch for an 8-K or amendment announcing it", "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
+    {"t": "DEP decision on Monarch's air permit (R14-0042)", "src": {"label": "Gazette-Mail: Oct 20 permit hearing", "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"}}
    ],
    "health": {"status": "watch", "why": "From its S-1 (six months to June 30, 2026): a net loss of $1,020.1 million on revenue of $140.6 million. The Anthropic build at Monarch depends on financing it had no binding commitments for when it filed, its largest customer was 52% of revenue, and it reports material weaknesses in its financial controls. The filing says an earlier going-concern doubt is resolved by management's plan to defer or cut spending if needed, which is why this is Watch rather than Stressed.", "approved": "2026-11-03"}, "checked": "2026-11-03"
   },
@@ -174,7 +175,7 @@
   },
   {
    "id": "firstenergy", "name": "FirstEnergy (Mon Power, Potomac Edison)", "tranche": "companies", "listing": "public", "ticker": "FE",
-   "sec": {"cik": "0001031296"}, "projects": ["fortmartin", "valleylink"], "node": "monpower",
+   "sec": {"cik": "0001031296"}, "docket": ["frr"], "projects": ["fortmartin", "valleylink"], "node": "monpower",
    "tie": "Its West Virginia utilities want to convert the Fort Martin coal plant to a $2.48 billion gas plant (PSC case 26-0108-E-CN). FirstEnergy is also a partner in the Valley Link 765 kV line.",
    "sources": [
     {"label": "WVPB: Fort Martin", "url": "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/"},
@@ -184,7 +185,7 @@
   },
   {
    "id": "aep", "name": "American Electric Power (Appalachian Power)", "tranche": "companies", "listing": "public", "ticker": "AEP",
-   "sec": {"cik": "0000004904"}, "projects": ["tamarack", "google", "valleylink"],
+   "sec": {"cik": "0000004904"}, "docket": ["frr"], "projects": ["tamarack", "google", "valleylink"],
    "tie": "Its Appalachian Power subsidiary would serve Tamarack over existing lines, and Google's Buffalo site sits next to an Appalachian Power 765 kV line. AEP co-owns Transource, a Valley Link partner.",
    "sources": [
     {"label": "WOWK: Tamarack", "url": "https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/"},
@@ -235,9 +236,9 @@
     "The filing says its long-term compute agreements include minimum purchase commitments and take-or-pay terms that require payment whether or not the capacity is used.",
     "Compute capacity from partners such as Nscale depends on those partners financing and delivering it."
    ],
-   "watch": [
-    "A further amendment with a price range, then the final prospectus.",
-    "Whether Nscale's financing for Monarch closes, since Anthropic's fees accrue only as capacity is delivered."
+   "catalysts": [
+    {"t": "IPO pricing on Nasdaq (ANT): a further amendment with a price range, then the final prospectus", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}},
+    {"t": "Nscale's financing for the Monarch build, since Anthropic's fees accrue only as capacity is delivered and accepted", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}}
    ],
    "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-03"
   },
