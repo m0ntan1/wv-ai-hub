@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:36:29Z",
+ "updated": "2026-11-03T21:06:13Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -158,6 +158,7 @@
      "period": "2026-03-31"
     }
    ],
+   "factsFrom": "0001652044-26-000084",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -520,7 +521,6 @@
      "filed": "2026-10-29"
     }
    },
-   "factsFrom": "0001652044-26-000084",
    "factsChecked": "2026-11-03"
   },
   "firstenergy": {
@@ -649,6 +649,7 @@
      ]
     }
    ],
+   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1008,7 +1009,6 @@
      "filed": "2026-04-28"
     }
    },
-   "factsFrom": "0001031296-26-000144",
    "factsChecked": "2026-11-03"
   },
   "aep": {
@@ -1136,6 +1136,7 @@
      ]
     }
    ],
+   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1480,7 +1481,6 @@
      "filed": "2026-05-05"
     }
    },
-   "factsFrom": "0000004904-26-000072",
    "factsChecked": "2026-11-03"
   },
   "nextera": {
@@ -1628,6 +1628,7 @@
      ]
     }
    ],
+   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1872,7 +1873,6 @@
      "filed": "2026-04-23"
     }
    },
-   "factsFrom": "0000753308-26-000081",
    "factsChecked": "2026-11-03"
   },
   "dominion": {
@@ -2007,6 +2007,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2247,7 +2248,6 @@
      "filed": "2026-05-01"
     }
    },
-   "factsFrom": "0001193125-26-440697",
    "factsChecked": "2026-11-03"
   },
   "anthropic": {
@@ -2400,6 +2400,7 @@
      ]
     }
    ],
+   "factsFrom": "0001045810-26-000075",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2762,7 +2763,6 @@
      "filed": "2026-08-26"
     }
    },
-   "factsFrom": "0001045810-26-000075",
    "factsChecked": "2026-11-03"
   },
   "blackstone": {
@@ -2901,6 +2901,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-340208",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -3263,7 +3264,6 @@
      "filed": "2026-08-07"
     }
    },
-   "factsFrom": "0001193125-26-340208",
    "factsChecked": "2026-11-03"
   },
   "microsoft": {
@@ -3388,6 +3388,7 @@
      "period": "2025-12-31"
     }
    ],
+   "factsFrom": "0001193125-26-436133",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -3745,7 +3746,6 @@
      "filed": "2026-10-28"
     }
    },
-   "factsFrom": "0001193125-26-436133",
    "factsChecked": "2026-11-03"
   },
   "evergy": {
@@ -3881,6 +3881,7 @@
      "period": "2025-12-31"
     }
    ],
+   "factsFrom": "0001711269-26-000100",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4242,7 +4243,6 @@
      "filed": "2026-05-07"
     }
    },
-   "factsFrom": "0001711269-26-000100",
    "factsChecked": "2026-11-03"
   },
   "amazon": {
@@ -4375,6 +4375,7 @@
      ]
     }
    ],
+   "factsFrom": "0001018724-26-000040",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -4732,7 +4733,6 @@
      "filed": "2026-10-30"
     }
    },
-   "factsFrom": "0001018724-26-000040",
    "factsChecked": "2026-11-03"
   },
   "meta": {
@@ -4862,6 +4862,7 @@
      "period": "2025-12-31"
     }
    ],
+   "factsFrom": "0001628280-26-066773",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -5224,7 +5225,6 @@
      "filed": "2026-10-22"
     }
    },
-   "factsFrom": "0001628280-26-066773",
    "factsChecked": "2026-11-03"
   },
   "gev": {
@@ -5348,6 +5348,7 @@
      ]
     }
    ],
+   "factsFrom": "0001996810-26-000163",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -5710,7 +5711,6 @@
      "filed": "2026-10-28"
     }
    },
-   "factsFrom": "0001996810-26-000163",
    "factsChecked": "2026-11-03"
   },
   "caterpillar": {
@@ -5849,6 +5849,7 @@
      ]
     }
    ],
+   "factsFrom": "0000018230-26-000046",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -6211,7 +6212,6 @@
      "filed": "2026-02-13"
     }
    },
-   "factsFrom": "0000018230-26-000046",
    "factsChecked": "2026-11-03"
   },
   "cummins": {
@@ -6314,6 +6314,7 @@
      ]
     }
    ],
+   "factsFrom": "0000026172-26-000029",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -6609,7 +6610,6 @@
      "filed": "2026-08-04"
     }
    },
-   "factsFrom": "0000026172-26-000029",
    "factsChecked": "2026-11-03"
   },
   "eaton": {
@@ -6622,6 +6622,13 @@
     "NYSE"
    ],
    "filings": [
+    {
+     "form": "10-Q",
+     "d": "2026-11-03",
+     "accn": "0001551182-26-000040",
+     "doc": "etn-20260930.htm",
+     "period": "2026-09-30"
+    },
     {
      "form": "8-K",
      "d": "2026-11-03",
@@ -6730,30 +6737,12 @@
       "2.03",
       "9.01"
      ]
-    },
-    {
-     "form": "8-K",
-     "d": "2026-03-02",
-     "accn": "0001140361-26-007362",
-     "doc": "ef20066947_8k.htm",
-     "period": "2026-02-25",
-     "items": [
-      "5.02"
-     ]
     }
    ],
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
      "q": [
-      {
-       "end": "2024-06-30",
-       "v": 6350000000,
-       "accn": "0001551182-25-000028",
-       "form": "10-Q",
-       "filed": "2025-08-05",
-       "start": "2024-04-01"
-      },
       {
        "end": "2024-09-30",
        "v": 6345000000,
@@ -6790,9 +6779,9 @@
       {
        "end": "2025-09-30",
        "v": 6988000000,
-       "accn": "0001551182-25-000036",
+       "accn": "0001551182-26-000040",
        "form": "10-Q",
-       "filed": "2025-11-04",
+       "filed": "2026-11-03",
        "start": "2025-07-01"
       },
       {
@@ -6819,6 +6808,14 @@
        "form": "10-Q",
        "filed": "2026-07-31",
        "start": "2026-04-01"
+      },
+      {
+       "end": "2026-09-30",
+       "v": 8947000000,
+       "accn": "0001551182-26-000040",
+       "form": "10-Q",
+       "filed": "2026-11-03",
+       "start": "2026-07-01"
       }
      ],
      "fy": [
@@ -6848,25 +6845,17 @@
       }
      ],
      "ytd": {
-      "end": "2026-06-30",
-      "v": 15982000000,
-      "accn": "0001551182-26-000030",
+      "end": "2026-09-30",
+      "v": 24929000000,
+      "accn": "0001551182-26-000040",
       "form": "10-Q",
-      "filed": "2026-07-31",
+      "filed": "2026-11-03",
       "start": "2026-01-01"
      }
     },
     "netIncome": {
      "concept": "NetIncomeLoss",
      "q": [
-      {
-       "end": "2024-06-30",
-       "v": 993000000,
-       "accn": "0001551182-25-000028",
-       "form": "10-Q",
-       "filed": "2025-08-05",
-       "start": "2024-04-01"
-      },
       {
        "end": "2024-09-30",
        "v": 1009000000,
@@ -6903,9 +6892,9 @@
       {
        "end": "2025-09-30",
        "v": 1010000000,
-       "accn": "0001551182-25-000036",
+       "accn": "0001551182-26-000040",
        "form": "10-Q",
-       "filed": "2025-11-04",
+       "filed": "2026-11-03",
        "start": "2025-07-01"
       },
       {
@@ -6932,6 +6921,14 @@
        "form": "10-Q",
        "filed": "2026-07-31",
        "start": "2026-04-01"
+      },
+      {
+       "end": "2026-09-30",
+       "v": 1078000000,
+       "accn": "0001551182-26-000040",
+       "form": "10-Q",
+       "filed": "2026-11-03",
+       "start": "2026-07-01"
       }
      ],
      "fy": [
@@ -6961,26 +6958,17 @@
       }
      ],
      "ytd": {
-      "end": "2026-06-30",
-      "v": 1687000000,
-      "accn": "0001551182-26-000030",
+      "end": "2026-09-30",
+      "v": 2765000000,
+      "accn": "0001551182-26-000040",
       "form": "10-Q",
-      "filed": "2026-07-31",
+      "filed": "2026-11-03",
       "start": "2026-01-01"
      }
     },
     "capex": {
      "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
      "q": [
-      {
-       "end": "2024-06-30",
-       "v": 187000000,
-       "accn": "0001551182-25-000028",
-       "form": "10-Q",
-       "filed": "2025-08-05",
-       "start": "2024-03-31",
-       "derived": true
-      },
       {
        "end": "2024-09-30",
        "v": 183000000,
@@ -7019,9 +7007,9 @@
       {
        "end": "2025-09-30",
        "v": 178000000,
-       "accn": "0001551182-25-000036",
+       "accn": "0001551182-26-000040",
        "form": "10-Q",
-       "filed": "2025-11-04",
+       "filed": "2026-11-03",
        "start": "2025-06-30",
        "derived": true
       },
@@ -7049,6 +7037,15 @@
        "form": "10-Q",
        "filed": "2026-07-31",
        "start": "2026-03-31",
+       "derived": true
+      },
+      {
+       "end": "2026-09-30",
+       "v": 275000000,
+       "accn": "0001551182-26-000040",
+       "form": "10-Q",
+       "filed": "2026-11-03",
+       "start": "2026-06-30",
        "derived": true
       }
      ],
@@ -7079,32 +7076,32 @@
       }
      ],
      "ytd": {
-      "end": "2026-06-30",
-      "v": 446000000,
-      "accn": "0001551182-26-000030",
+      "end": "2026-09-30",
+      "v": 721000000,
+      "accn": "0001551182-26-000040",
       "form": "10-Q",
-      "filed": "2026-07-31",
+      "filed": "2026-11-03",
       "start": "2026-01-01"
      }
     },
     "cash": {
      "concept": "CashAndCashEquivalentsAtCarryingValue",
-     "end": "2026-06-30",
-     "v": 483000000,
-     "accn": "0001551182-26-000030",
+     "end": "2026-09-30",
+     "v": 528000000,
+     "accn": "0001551182-26-000040",
      "form": "10-Q",
-     "filed": "2026-07-31"
+     "filed": "2026-11-03"
     },
     "debt": {
      "concept": "LongTermDebt",
-     "end": "2026-06-30",
-     "v": 18520000000,
-     "accn": "0001551182-26-000030",
+     "end": "2026-09-30",
+     "v": 18512000000,
+     "accn": "0001551182-26-000040",
      "form": "10-Q",
-     "filed": "2026-07-31"
+     "filed": "2026-11-03"
     }
    },
-   "factsFrom": "0001551182-26-000030",
+   "factsFrom": "0001551182-26-000040",
    "factsChecked": "2026-11-03"
   },
   "vertiv": {
@@ -7245,6 +7242,7 @@
      ]
     }
    ],
+   "factsFrom": "0001628280-26-067893",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -7604,7 +7602,6 @@
      "filed": "2026-10-28"
     }
    },
-   "factsFrom": "0001628280-26-067893",
    "factsChecked": "2026-11-03"
   },
   "hubbell": {
@@ -7739,6 +7736,7 @@
      "period": "2026-05-05"
     }
    ],
+   "factsFrom": "0001628280-26-067729",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -8094,7 +8092,6 @@
      "filed": "2026-10-28"
     }
    },
-   "factsFrom": "0001628280-26-067729",
    "factsChecked": "2026-11-03"
   },
   "trane": {
@@ -8219,6 +8216,7 @@
      "period": "2025-12-31"
     }
    ],
+   "factsFrom": "0001628280-26-068122",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -8581,7 +8579,6 @@
      "filed": "2026-10-29"
     }
    },
-   "factsFrom": "0001628280-26-068122",
    "factsChecked": "2026-11-03"
   },
   "quanta": {
@@ -8718,6 +8715,7 @@
      "period": "2026-05-21"
     }
    ],
+   "factsFrom": "0001050915-26-000041",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -9080,7 +9078,6 @@
      "filed": "2026-10-29"
     }
    },
-   "factsFrom": "0001050915-26-000041",
    "factsChecked": "2026-11-03"
   },
   "mastec": {
@@ -9220,6 +9217,7 @@
      "period": "2026-03-31"
     }
    ],
+   "factsFrom": "0000015615-26-000125",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -9579,7 +9577,6 @@
      "filed": "2026-10-29"
     }
    },
-   "factsFrom": "0000015615-26-000125",
    "factsChecked": "2026-11-03"
   },
   "eqt": {
@@ -9712,6 +9709,7 @@
      ]
     }
    ],
+   "factsFrom": "0000033213-26-000058",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10074,7 +10072,6 @@
      "filed": "2026-10-28"
     }
    },
-   "factsFrom": "0000033213-26-000058",
    "factsChecked": "2026-11-03"
   },
   "williams": {
@@ -10215,6 +10212,7 @@
      ]
     }
    ],
+   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10577,7 +10575,6 @@
      "filed": "2026-08-03"
     }
    },
-   "factsFrom": "0000107263-26-000036",
    "factsChecked": "2026-11-03"
   },
   "nucor": {
@@ -10709,6 +10706,7 @@
      "period": "2025-12-31"
     }
    ],
+   "factsFrom": "0001193125-26-345891",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -11069,7 +11067,6 @@
      "filed": "2026-08-12"
     }
    },
-   "factsFrom": "0001193125-26-345891",
    "factsChecked": "2026-11-03"
   }
  },

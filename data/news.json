@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:16:37Z",
+ "updated": "2026-11-03T21:04:18Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -48,6 +48,20 @@
    "via": "wboy",
    "seen": "2026-11-03T13:03:33Z",
    "story": "our-protesters-in-barbour-county-gather-to-block-valley-link"
+  },
+  {
+   "id": "-nscales-monarch-compute-campus-project-for-anthropic-report",
+   "d": "2026-11-01T16:01:00Z",
+   "title": "Nvidia in talks to backstop Nscale's Monarch Compute Campus project for Anthropic - report",
+   "url": "https://www.datacenterdynamics.com/en/news/nvidia-in-talks-to-backstop-nscales-monarch-compute-campus-project-for-anthropic-report/",
+   "source": "Datacenter Dynamics",
+   "summary": "Nvidia is said to be in talks to provide financial backing to Nscale for its 460MW data center project being developed for Anthropic. As per a report from The Information, citing people with knowledge ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T21:04:18Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
   },
   {
    "id": "reak-ai-mega-project-behind-nscale-s-50b-ipo-20261101-p61abv",
@@ -224,6 +238,20 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "-us-articles-west-virginia-law-shuts-counties-192300961-html"
+  },
+  {
+   "id": "-data-centers-campbell-county-appomattox-county-october-2026",
+   "d": "2026-10-29T11:55:00Z",
+   "title": "Valley Link aims to meet growing energy demand, but farmers fear losing family land",
+   "url": "https://wset.com/news/local/valley-link-aims-to-meet-growing-energy-demand-but-farmers-fear-losing-family-land-power-electricity-data-centers-campbell-county-appomattox-county-october-2026",
+   "source": "WSET",
+   "summary": "As electricity demand grows to support data centers and other needs, a proposed billion-dollar transmission line is raising concerns.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-03T21:04:18Z",
+   "story": "-data-centers-campbell-county-appomattox-county-october-2026"
   },
   {
    "id": "concerns-help-democratic-women-win-in-deep-red-west-virginia",
