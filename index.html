@@ -52,7 +52,7 @@
       "inLanguage": "en-US", "publisher": { "@id": "https://wvaihub.com/#publisher" } },
     { "@type": "Organization", "@id": "https://wvaihub.com/#publisher", "name": "MØNTAN1",
       "alternateName": ["MØNTAN1.com", "MØNTAN1 Consulting", "Mountain State Freedom Tech", "MSFT-WV", "HODL in the Holler"],
-      "url": "https://montaniai.com", "email": "rick@montaniai.com",
+      "url": "https://montaniai.com", "contactPoint": { "@type": "ContactPoint", "contactType": "general", "url": "https://wvaihub.com/#/contact" },
       "sameAs": ["https://montanibitcoin.com", "https://www.meetup.com/msft-wv/"],
       "areaServed": { "@type": "AdministrativeArea", "name": "West Virginia" },
       "logo": { "@type": "ImageObject", "url": "https://wvaihub.com/assets/icon-512.png", "width": 512, "height": 512 } },
@@ -114,9 +114,20 @@
       <a href="feed.json">Updates feed (JSON)</a>
       <a href="https://github.com/m0ntan1/WV-AI-HUB" target="_blank" rel="noopener">Source code &amp; data</a>
     </div>
-    <p style="margin-top:14px">Curated by <a href="https://montaniai.com" target="_blank" rel="noopener" class="brand-mark">M<span class="slash">Ø</span>NTAN1.com</a> · <a href="mailto:rick@montaniai.com">rick@montaniai.com</a></p>
+    <p style="margin-top:14px">Curated by <a href="https://montaniai.com" target="_blank" rel="noopener" class="brand-mark">M<span class="slash">Ø</span>NTAN1.com</a> · <a href="#/contact">Contact</a></p>
   </div>
 </footer>
+
+<!-- Hidden copy of the contact form so Netlify Forms registers it at deploy time.
+     Field names must match assets/js/views/contact.js exactly. -->
+<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="contact">
+  <input type="hidden" name="subject">
+  <input name="bot-field">
+  <input type="radio" name="topic" value="question"><input type="radio" name="topic" value="tip"><input type="radio" name="topic" value="correction">
+  <textarea name="message"></textarea>
+  <input type="email" name="email">
+</form>
 
 <nav class="tabbar" aria-label="Quick">
   <a href="#/" data-nav=""><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 10l8-6 8 6v10H4z"/></svg>Front</a>

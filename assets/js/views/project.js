@@ -69,7 +69,7 @@ export function project(main, id) {
         <section class="cf-sec" id="s-receipts">
           <div class="sec-h">Receipts · checked ${esc(fmtDate(p.checked))}</div>
           <ul class="src-list">${p.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a><span class="mono dim" style="font-size:11px">${esc(hostOf(s.url))}</span></li>`).join('')}</ul>
-          <p class="dim" style="font-size:13px;margin-top:10px">${rc ? (rc.status === 'ok' ? '<span class="ok">✓ VERIFIED</span> On ' + esc(fmtDate(p.checked)) + ', the key facts on this page were found in the linked sources.' : rc.status === 'verify' ? vfy(rc.note) + ' ' + esc(rc.note) : '') : ''} <a class="src" href="#/receipts">How we check →</a></p>
+          <p class="dim" style="font-size:13px;margin-top:10px">${rc ? (rc.status === 'ok' ? '<span class="ok">✓ VERIFIED</span> On ' + esc(fmtDate(p.checked)) + ', the key facts on this page were found in the linked sources.' : rc.status === 'verify' ? vfy(rc.note) + ' ' + esc(rc.note) : '') : ''} <a class="src" href="#/receipts">How we check →</a> · <a class="src" href="#/contact?topic=correction&about=${encodeURIComponent(p.name)}">Report an error</a></p>
         </section>
 
         <nav class="pager"><a href="#/project/${prev.id}"><span>← Previous</span>${esc(prev.short)}</a><a href="#/project/${next.id}" style="text-align:right"><span>Next →</span>${esc(next.short)}</a></nav>

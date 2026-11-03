@@ -8,6 +8,7 @@ import { calendar } from './views/calendar.js';
 import { people } from './views/people.js';
 import { counties, county } from './views/county.js';
 import { projectsIndex, mapPage, hubs, receipts, notFound } from './views/misc.js';
+import { contact } from './views/contact.js';
 
 const NAV = [['', 'Front'], ['map', 'Map'], ['projects', 'Projects'], ['docket', 'Docket'], ['calendar', 'Calendar'], ['people', 'People'], ['counties', 'Counties'], ['hubs', 'Hubs'], ['receipts', 'Receipts']];
 // Old single-page anchors keep working.
@@ -46,6 +47,7 @@ function render() {
     case 'county': title = county(main, b); break;
     case 'hubs': title = hubs(main); break;
     case 'receipts': title = receipts(main, r.q); break;
+    case 'contact': title = contact(main, r.q); break;
   }
   if (!title) title = notFound(main);
   document.title = title === 'West Virginia AI Watch' ? 'West Virginia AI Watch: Data Centers, PSC Filings, Lawsuits, and Hearings Mapped' : `${title} · WV AI Watch`;
