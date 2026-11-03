@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="ink" data-v="20261103">
+<html lang="en" data-theme="ink" data-v="20261103m">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/watch.css?v=20261103">
+<link rel="stylesheet" href="assets/css/watch.css?v=20261103m">
 <script>
   // Apply the saved theme before first paint (no flash).
   try { if (localStorage.getItem('wvaiwatch.theme') === 'news') document.documentElement.dataset.theme = 'news'; } catch (e) {}
@@ -61,6 +61,7 @@
       "url": "https://wvaihub.com/", "creator": { "@id": "https://wvaihub.com/#publisher" }, "dateModified": "2026-11-03",
       "spatialCoverage": { "@type": "Place", "name": "West Virginia" },
       "distribution": [ { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wvaihub.com/data/projects.json" },
+                        { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://wvaihub.com/data/companies.json" },
                         { "@type": "DataDownload", "encodingFormat": "text/calendar", "contentUrl": "https://wvaihub.com/calendar.ics" } ] }
   ]
 }
@@ -109,6 +110,9 @@
     <p>West Virginia AI Watch. Data updated <span id="updated">Nov 3, 2026</span>. Every item links to its source; items marked ⚠ Verify could not be fully confirmed, so follow the link before relying on them.</p>
     <div class="row">
       <a href="#/receipts">Receipts &amp; method</a>
+      <a href="#/money">Money desk</a>
+      <a href="#/rook">Rook's Read</a>
+      <a href="#/desk">Who makes this</a>
       <a href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/docs/update-plan.md" target="_blank" rel="noopener">How the site is updated</a>
       <a href="calendar.ics">Calendar feed (.ics)</a>
       <a href="feed.json">Updates feed (JSON)</a>
@@ -137,6 +141,6 @@
   <a href="#/counties" data-nav="counties"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Counties</a>
 </nav>
 
-<script type="module" src="assets/js/main.js?v=20261103"></script>
+<script type="module" src="assets/js/main.js?v=20261103m"></script>
 </body>
 </html>

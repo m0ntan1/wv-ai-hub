@@ -381,14 +381,22 @@
   "id": "anthropic",
   "group": "Companies & Counsel",
   "name": "Anthropic",
-  "role": "$44.6B contract for Monarch's first 460 MW building.",
+  "role": "Monarch's anchor tenant: GPU agreements worth up to approximately $44.6B (Nscale S-1). Also filed for its own IPO.",
   "projects": [
    "monarch"
   ],
   "sources": [
    {
+    "label": "Nscale S-1 (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
+   },
+   {
     "label": "TechCrunch",
     "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "label": "Anthropic S-1/A (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
    }
   ]
  },

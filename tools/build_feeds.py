@@ -93,7 +93,8 @@ except ImportError:
 # ---------------------------------------------------------------- sitemap
 lm = meta['updated']
 urls = [('/', '1.0', 'weekly'), ('/calendar.ics', '0.6', 'daily'), ('/feed.json', '0.5', 'daily'), ('/data/projects.json', '0.4', 'weekly'),
-        ('/data/events.json', '0.4', 'daily'), ('/data/docket.json', '0.4', 'weekly')]
+        ('/data/events.json', '0.4', 'daily'), ('/data/docket.json', '0.4', 'weekly'),
+        ('/data/companies.json', '0.4', 'weekly'), ('/data/filings.json', '0.3', 'daily'), ('/data/reads.json', '0.4', 'daily')]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
 for u, pr, cf in urls:
     sm.append(f'  <url><loc>{escape(SITE + u)}</loc><lastmod>{lm}</lastmod><changefreq>{cf}</changefreq><priority>{pr}</priority>'

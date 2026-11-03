@@ -22,7 +22,7 @@
    },
    {
     "k": "Tenants",
-    "v": "Anthropic: $44.6B contract for the first 460 MW building (Nscale IPO filing). Microsoft's 1.35 GW letter of interest was never produced, and Bloomberg reported it walked away."
+    "v": "Anthropic: GPU agreements worth up to approximately $44.6B, in four tranches at Monarch (Nscale S-1). TechCrunch reports the first is a 460 MW building. Microsoft's 1.35 GW letter of interest was never produced, and Bloomberg reported it walked away."
    },
    {
     "k": "People",
@@ -100,9 +100,9 @@
    },
    {
     "d": "2026-09-18",
-    "t": "Nscale's IPO filing shows a $44.6B Anthropic contract for the first 460 MW building.",
+    "t": "Nscale files for an IPO. Its S-1 discloses Anthropic agreements worth up to approximately $44.6B for GPU capacity at Monarch, and no binding financing commitments for the build yet.",
     "kind": "company",
-    "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+    "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
    },
    {
     "d": "2026-10-20",
@@ -129,6 +129,10 @@
    }
   ],
   "sources": [
+   {
+    "label": "Nscale S-1 (SEC)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
+   },
    {
     "label": "Gazette-Mail: Oct 20 hearing",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"

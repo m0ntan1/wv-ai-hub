@@ -6,4 +6,7 @@
   <url><loc>https://wvaihub.com/data/projects.json</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
   <url><loc>https://wvaihub.com/data/events.json</loc><lastmod>2026-11-03</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://wvaihub.com/data/docket.json</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://wvaihub.com/data/companies.json</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://wvaihub.com/data/filings.json</loc><lastmod>2026-11-03</lastmod><changefreq>daily</changefreq><priority>0.3</priority></url>
+  <url><loc>https://wvaihub.com/data/reads.json</loc><lastmod>2026-11-03</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
 </urlset>

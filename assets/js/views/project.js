@@ -3,6 +3,7 @@ import { esc, fmtDate, STATUS, stamp, vfy, srcLink, srcLinks, rx, countyHref, pl
 import { mountMap } from '../map.js';
 import { docketCard, eventRow, standingCard, wireIcs, statusStamp } from '../parts.js';
 import { stories, storyHTML } from './news.js';
+import { projectMoney } from './money.js';
 
 const KIND_COLOR = { certified: 'var(--cyan)', violation: 'var(--alarm)', court: 'var(--legal)', permit: 'var(--grid)', hearing: 'var(--signal)', psc: 'var(--ok)', redaction: 'var(--fg)', protest: 'var(--alarm)', money: 'var(--gas)' };
 
@@ -41,6 +42,7 @@ export function project(main, id) {
           <dl class="facts">${p.facts.map(f => `<div><dt>${esc(f.k)}</dt><dd>${esc(f.v)} ${vfy(f.verify)}</dd></div>`).join('')}</dl>
           ${rx(p.sources, { checked: p.checked, note: rc ? `Verification pass: ${rc.status === 'ok' ? 'every key fact found in the linked sources' : rc.status === 'verify' ? 'could not be fully confirmed (' + rc.note + ')' : rc.status}.` : '' })}
           <div class="latest"><time>Latest · ${esc(p.latest.d)}</time>${esc(p.latest.t)}</div>
+          ${projectMoney(id)}
           ${p.scale ? scaleHTML(p.scale) : ''}
         </section>
 

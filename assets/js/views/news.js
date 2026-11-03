@@ -1,6 +1,7 @@
 // News aggregator: headlines gathered by tools/fetch_news.py (data/news.json), grouped into stories.
 import { D } from '../data.js';
 import { esc, MON } from '../lib.js';
+import { readCard, latestRead } from './reads.js';
 
 const when = iso => { const d = new Date(iso); return isNaN(d) ? '' : MON[d.getMonth()] + ' ' + d.getDate(); };
 export function ago(iso) {
@@ -57,6 +58,7 @@ export function news(main, q) {
       <label>Outlet <select id="nwS"><option value="">All</option>${outlets.map(o => `<option${o === q.get('source') ? ' selected' : ''}>${esc(o)}</option>`).join('')}</select></label>
       <span class="dim mono" id="nwN" style="font-size:12px"></span>
     </div>
+    ${latestRead() ? `<section style="max-width:860px;margin-top:18px">${readCard(latestRead(), { compact: true })}<p class="dim" style="font-size:13px;margin-top:-6px"><a href="#/rook">Every Rook's Read →</a></p></section>` : ''}
     <section class="news-list" id="nwList"></section>
   </div>`;
   const render = () => {

@@ -1,7 +1,13 @@
-# Gathers news headlines every three hours and publishes them (data/news.json only).
-# Approved by the site owner on Nov 3, 2026. No AI model is involved: tools/fetch_news.py
-# is a plain RSS reader with keyword filters. Free on GitHub Actions (public repository).
-# To pause it: Actions tab > update-news > "..." > Disable workflow.
+# Gathers news headlines and SEC/FRED money data every three hours and publishes them
+# (data/news.json and data/filings.json only). News approved by the site owner on Nov 3, 2026;
+# the filings step added the same day for the Money tab. No AI model is involved: both scripts are
+# plain readers (RSS feeds with keyword filters; SEC EDGAR and FRED public data).
+# Free on GitHub Actions (public repository).
+#
+# The SEC requires automated tools to identify themselves. Add a repository secret named
+# SEC_USER_AGENT (Settings > Secrets and variables > Actions) with a value like
+# "WV AI Watch you@example.com". Without it, the filings step skips the SEC and keeps old data.
+# To pause everything: Actions tab > update-news > "..." > Disable workflow.
 name: update-news
 on:
   schedule:
@@ -15,7 +21,7 @@ concurrency:
 jobs:
   news:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,13 +31,19 @@ jobs:
           python-version: '3.12'
       - id: fetch
         run: python3 -I tools/fetch_news.py
+      - id: filings
+        # A failure here (SEC or FRED down) must not block the headlines.
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python3 -I tools/fetch_filings.py
       - run: python3 -I tools/check.py
-      - name: Commit if there are new headlines
+      - name: Commit if anything changed
         run: |
-          if git diff --quiet -- data/news.json; then echo "No new headlines."; exit 0; fi
+          if git diff --quiet -- data/news.json data/filings.json; then echo "Nothing new."; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
-          git commit -m "News: ${{ steps.fetch.outputs.new || 0 }} new headline(s) [automated]"
+          git add data/news.json data/filings.json
+          git commit -m "News: ${{ steps.fetch.outputs.new || 0 }} new headline(s), ${{ steps.filings.outputs.new || 0 }} new filing(s) [automated]"
           git pull --rebase origin main
           git push origin HEAD:main

@@ -194,9 +194,103 @@ if news_path.exists():
     except Exception as ex:
         err(f'data/news.json: cannot parse ({ex})')
 
+# ---------------------------------------------------------------- Money Desk: companies, filings, Rook's Reads
+CO = load('companies') if (ROOT / 'data' / 'companies.json').exists() else None
+CIDS = set()
+if CO:
+    TR = {t['id'] for t in CO.get('tranches', [])}
+    LISTINGS = {'public', 'ipo', 'private', 'foreign', 'public-body'}
+    HEALTH = {'pending', 'stable', 'watch', 'stressed', 'nodata', 'na'}
+    ids_unique(CO['companies'], 'companies')
+    CIDS = {c['id'] for c in CO['companies']}
+    for c in CO['companies']:
+        w = f"companies/{c.get('id')}"
+        for f in ['id', 'name', 'tranche', 'listing', 'tie', 'health', 'checked']:
+            if f not in c: err(f'{w}: missing {f}')
+        for t in [c.get('tranche'), *c.get('also', [])]:
+            if t not in TR: err(f'{w}: unknown tranche {t!r}')
+        if c.get('listing') not in LISTINGS: err(f'{w}: unknown listing {c.get("listing")!r}')
+        if c.get('listing') in ('public', 'ipo') and not (c.get('sec') or {}).get('cik'): warn(f'{w}: a US-listed company with no SEC CIK, so no filings will be collected')
+        cik = (c.get('sec') or {}).get('cik')
+        if cik and not re.match(r'^\d{10}$', cik): err(f'{w}: CIK must be 10 digits with leading zeros, got {cik!r}')
+        for pid in c.get('projects', []):
+            if pid not in PIDS | EXTRA: err(f'{w}: unknown project {pid!r}')
+        if c.get('node') and c['node'] not in nids: err(f'{w}: unknown network node {c["node"]!r}')
+        if c.get('parent') and c['parent'] not in CIDS: err(f'{w}: unknown parent {c["parent"]!r}')
+        h = c.get('health', {})
+        if h.get('status') not in HEALTH: err(f'{w}: unknown health status {h.get("status")!r}')
+        if h.get('status') in ('stable', 'watch', 'stressed'):
+            if not h.get('why') or not h.get('approved'): err(f'{w}: a published health read needs "why" and the editor\'s "approved" date')
+            else: is_date(h['approved'], w + '/health')
+        # Every West Virginia tie needs a source (indicator-only companies are exempt).
+        if c.get('projects'): sources_ok(c.get('sources'), w)
+        else: sources_ok(c.get('sources'), w, required=False) if c.get('sources') else None
+        for f in c.get('facts', []):
+            if not f.get('k') or not f.get('v'): err(f'{w}: bad fact {f!r}')
+        if c.get('facts') and not c.get('factsAsOf'): err(f'{w}: curated facts need factsAsOf (which filing, which period)')
+        if '—' in json.dumps(c, ensure_ascii=False): err(f'{w}: em dash in site text')
+        stale(c, w)
+        if c.get('verify'): warn(f'{w}: ⚠ Verify still open: {c["verify"][:80]}')
+    for s in CO.get('signals', []):
+        if not s.get('source', {}).get('url', '').startswith('https://'): err(f"companies/signals/{s.get('id')}: needs a source URL")
+        for cid in s.get('companies', []):
+            if cid not in CIDS: err(f"companies/signals/{s.get('id')}: unknown company {cid!r}")
+
+fp = ROOT / 'data' / 'filings.json'
+if fp.exists():
+    try:
+        FIL = json.loads(fp.read_text())
+        for cid in FIL.get('sec', {}):
+            if CO and cid not in CIDS: warn(f'filings: data for {cid!r}, which is no longer on the roster (the next collector run drops it)')
+        upd = FIL.get('updated', '')[:10]
+        if upd and upd <= TODAY and (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(upd)).days > 7:
+            warn(f'filings: last collected {upd}. Check the update-news workflow and the SEC_USER_AGENT secret.')
+        if re.search(r'[\w.+-]+@[\w-]+\.[\w.]+', fp.read_text()): err('filings.json contains an email address. The SEC contact must never be written to disk.')
+    except Exception as ex:
+        err(f'data/filings.json: cannot parse ({ex})')
+
+rp = ROOT / 'data' / 'reads.json'
+if rp.exists():
+    try:
+        RD = json.loads(rp.read_text())
+        ids_unique(RD.get('reads', []), 'reads')
+        DIRECTIVE = re.compile(r"\b(buy|sell|short|hold) (the |this |these |its )?(stock|shares|name|dip)\b|\bprice target\b|\b(strong|must) (buy|sell)\b|\byou should (buy|sell|invest)\b|\b(will|is going to) (soar|crash|double|moon)\b|\bundervalued\b|\bovervalued\b", re.I)
+        for r in RD.get('reads', []):
+            w = f"reads/{r.get('id')}"
+            for f in ['id', 'd', 'title', 'body', 'sources', 'mercer']:
+                if f not in r: err(f'{w}: missing {f}')
+            is_date(r.get('d'), w)
+            text = ' '.join(r.get('body', []))
+            words = len(re.findall(r"[\w'’.$%-]+", text))
+            if words > 850: err(f'{w}: {words} words. Rook\'s cap is 850.')
+            if '—' in text or '—' in r.get('title', ''): err(f'{w}: em dash in the Read (site style: none)')
+            m = DIRECTIVE.search(text)
+            if m: err(f'{w}: directive investment language ({m.group(0)!r}). Rewrite as analysis, not advice.')
+            ns = {s.get('n') for s in r.get('sources', [])}
+            used = {int(x) for x in re.findall(r'\[(\d+)\]', text)}
+            for n in used - ns: err(f'{w}: cites [{n}] but has no source {n}')
+            for n in ns - used: warn(f'{w}: source {n} is listed but never cited')
+            for s in r.get('sources', []):
+                if not str(s.get('url', '')).startswith('https://') or not s.get('label'): err(f'{w}: bad source {s!r}')
+            mc = r.get('mercer', {})
+            if mc.get('status') != 'CLEARED': err(f'{w}: only Reads Mercer has CLEARED can publish (status {mc.get("status")!r})')
+            if not mc.get('audit'): err(f'{w}: Mercer\'s makenomistakes audit line is missing')
+            for dn in ('1', '2', '3', '4'):
+                if dn not in mc.get('duties', {}): err(f'{w}: Mercer duty {dn} not recorded')
+            for cid in r.get('companies', []):
+                if CO and cid not in CIDS: err(f'{w}: unknown company {cid!r}')
+            for pid in r.get('projects', []):
+                if pid not in PIDS | EXTRA: err(f'{w}: unknown project {pid!r}')
+            if r.get('audio') and not (ROOT / r['audio']).exists(): err(f'{w}: audio file {r["audio"]} is missing')
+    except Exception as ex:
+        err(f'data/reads.json: cannot parse ({ex})')
+
 # ---------------------------------------------------------------- optional link check
 if a.links:
     urls = set()
+    if CO:
+        for c in CO['companies']: urls.update(s['url'] for s in c.get('sources', []))
+        urls.update(s['source']['url'] for s in CO.get('signals', []))
     for lst in [*(p['sources'] for p in P), *(k['sources'] for k in DK), *(e.get('sources', []) for e in EV), *(x['sources'] for x in PPL), *(l['sources'] for l in LINES)]:
         urls.update(s['url'] for s in lst)
     urls.update(e['src'] for e in NET['edges']); urls.update(x['src'] for x in DESK); urls.update(s['url'] for s in ST)

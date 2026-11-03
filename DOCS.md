@@ -30,14 +30,17 @@ assets/qr/*.svg            County-sheet QR codes, built by tools/build_feeds.py.
 tools/check.py             Validator: run before every publish.
 tools/build_feeds.py       Builds calendar.ics, feed.json, QR codes, sitemap.
 tools/build_geo.py         Builds data/geo.json from Census-derived county GeoJSON (run once; rerun only to change the boundaries).
+tools/fetch_filings.py     Money Desk collector: SEC EDGAR filings and figures plus FRED indicators -> data/filings.json (needs SEC_USER_AGENT).
+tools/voice_read.py        Voices a cleared Rook's Read with ElevenLabs (needs ELEVENLABS_API_KEY and ROOK_VOICE_ID).
 tools/migrate/             One-time migration from the old single-file site (kept as a receipt).
 research/                  Sourced dossier, calendar receipts, PSC watchlist, verification log and scripts.
 design/                    Revamp proposal, concept board, screenshots.
 docs/update-plan.md        How the site is kept current.
+.claude/skills/            Project skills for the scheduled tasks: rooks-read (the daily Read) and makenomistakes (Mercer's audit).
 ```
 
 ### Routes
-Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`, `#/contact`, `#/news`.
+Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`, `#/contact`, `#/news`, `#/money`, `#/company/:id`, `#/rook`, `#/rook/:id`, `#/desk`, `#/desk/rook`, `#/desk/mercer`.
 Query strings work after the route: `#/people?focus=bowles-rice`, `#/calendar?county=Mason`, `#/calendar?e=<event id>`, `#/docket?body=psc`, `#/contact?topic=correction&about=<project>`.
 
 ### Contact form
@@ -106,6 +109,9 @@ All dates are `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` when only the month or year is
 - `receipts.json`: results of the Nov 2026 verification pass (`rows[]` with `sec`, `title`, `status`, `urls`, `note`)
 - `news.json`: built by `tools/fetch_news.py`; don't edit by hand. `{updated, sources[], items[{id, d, title, url, source, summary, projects[], via, seen, story}]}`. `story` groups coverage of the same story (the item whose `id` equals `story` leads)
 - `news-sources.json`: the collector's settings: `feeds` (outlet RSS), `searches` (Bing News RSS, whose links are unwrapped to the publisher), `match` (beat terms), `wv` (West Virginia terms; all 55 county names are added automatically), `projects` (tagging words per project), `preferred` and `syndicators` (which copy leads a story), and `block` (URLs, hosts, or phrases to drop)
+- `companies.json`: the Money Desk roster, hand-curated. `tranches[]` (the four sections), `signals[]` (industry indicators: `kind` is `capex`, `fred` with a FRED series id, or `link`), `secSearch[]` (EDGAR full-text phrases, each tied to a project), and `companies[]`: `{id, name, tranche, also[]?, group?, listing (public, ipo, private, foreign, public-body), ticker?, exchange?, sec.cik? (10 digits), hq?, projects[], node? (people-web id), parent?, tie, sources[], facts[{k, v}]? with factsAsOf, risks[]?, watch[]?, unknown? (what isn't public), irUrl?, verify?, conflict?, selfConflict?, health {status: pending, stable, watch, stressed, nodata, or na; why; approved}, checked}`
+- `filings.json`: built by `tools/fetch_filings.py`; don't edit by hand. `sec.<company id>` has `{cik, name, tickers, exchanges, filings[{form, d, accn, doc, period?, items[]?}], metrics{revenue, netIncome, capex: {concept, q[], fy[], ytd}; cash, debt: {concept, v, end, accn, form}}, factsFrom, factsChecked}`; `search.<phrase>` has `{total, hits[]}`; `fred.<series>` has `{last, yearAgo, monthly[[YYYY-MM, value]]}`. A quarter marked `derived` is a year-to-date figure minus the previous one
+- `reads.json`: Rook's Reads, newest first. `{id, d, title, body[] (plain-text paragraphs with [n] markers), sources[{n, label, url}], companies[], projects[], anthropic, audio, mercer{status, d, tier, audit, duties{1..4}, notes}}`. The site shows only Reads whose `mercer.status` is `CLEARED`. Written by the daily desk task (`.claude/skills/rooks-read/SKILL.md`)
 - `meta.json`: `updated` (bump every shift), site URLs, and the four front-page `stats` (each with its source)
 - `geo.json`: 55 county outlines and the state border (from the U.S. Census Bureau, via plotly/datasets). Built by `tools/build_geo.py`
 - `wv-outline.json`: ordered border ring used by the image scripts in `assets/scripts/`
