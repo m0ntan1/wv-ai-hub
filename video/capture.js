@@ -106,7 +106,10 @@ const want = n => !ONLY || ONLY.has(n);
     const dir = path.join(OUT, name); fs.mkdirSync(dir, { recursive: true });
     const n = Math.round(secs * SCROLL_FPS);
     for (let i = 0; i < n; i++) {
-      await page.evaluate(y => window.scrollTo(0, y), Math.round(dist * ease(i / (n - 1))));
+      // Shooting takes longer than real time per frame, so CSS animations (the top ticker scrolls over 70s) would run
+      // several times too fast on playback. Drive every animation from the frame number instead: real-time speed.
+      await page.evaluate(([y, t]) => { window.scrollTo(0, y); document.getAnimations().forEach(a => { a.pause(); a.currentTime = t; }); },
+        [Math.round(dist * ease(i / (n - 1))), (i * 1000) / SCROLL_FPS]);
       await page.waitForTimeout(30);
       await page.screenshot({ path: path.join(dir, String(i).padStart(4, '0') + '.jpg'), type: 'jpeg', quality: 92 });
     }
@@ -143,6 +146,7 @@ const want = n => !ONLY || ONLY.has(n);
     const n = 3 * FPS;
     for (let i = 0; i < n; i++) {
       await page.mouse.move(box.x + box.width * (0.12 + 0.78 * ease(i / (n - 1))), box.y + box.height * 0.5);
+      await page.evaluate(() => document.getAnimations().forEach(a => { a.pause(); a.currentTime = 0; }));   // hold the ticker still
       await page.waitForTimeout(30);
       await page.screenshot({ path: path.join(dir, String(i).padStart(4, '0') + '.jpg'), type: 'jpeg', quality: 92 });
     }
