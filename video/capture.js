@@ -29,7 +29,8 @@ const STILLS = [
 const SCROLLS = [['seq_monarch', '#/project/monarch', 760, 14], ['seq_docket', '#/docket', 1300, 9], ['seq_calendar', '#/calendar', 700, 8],
   ['seq_money', '#/money', 2600, 20], ['seq_nscale', '#/company/nscale', 1250, 34]];
 
-// Names of private individuals are blurred on screen: the "People" rows on case files list residents.
+// Optional: BLUR_PEOPLE=1 blurs the "People" rows on case files. Off by default: the video shows the site as published,
+// and the site's own naming rule (sourced, from published reporting) is the editor's policy, not the video's.
 async function redact(page) {
   await page.evaluate(() => {
     document.querySelectorAll('.facts > div').forEach(r => {
@@ -43,8 +44,13 @@ async function open(page, hash) {
   catch (e) { await page.waitForLoadState('domcontentloaded'); }   // a preview's drawer can keep a connection open
   await page.waitForTimeout(900);
   // Netlify deploy previews add a "Collaborate on this Deploy Preview" bar in an iframe; it must not appear in the video.
-  await page.addStyleTag({ content: 'iframe[src*="netlify" i]{display:none!important}' });
-  await redact(page);
+  // The preview's CSP can block an injected stylesheet, so remove the bar from the DOM itself (and keep removing it).
+  await page.addStyleTag({ content: 'iframe[src*="netlify" i]{display:none!important}' }).catch(() => {});
+  await page.evaluate(() => {
+    const kill = () => document.querySelectorAll('iframe[src*="netlify" i]').forEach(f => (f.closest('div') || f).remove());
+    kill(); new MutationObserver(kill).observe(document.documentElement, { childList: true, subtree: true });
+  });
+  if (process.env.BLUR_PEOPLE === '1') await redact(page);
 }
 const want = n => !ONLY || ONLY.has(n);
 
@@ -52,6 +58,7 @@ const want = n => !ONLY || ONLY.has(n);
   fs.mkdirSync(OUT, { recursive: true });
   const b = await chromium.launch();
   const ctx = await b.newContext({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1.5 });
+  await ctx.route(/app\.netlify\.com/, r => r.abort());   // the deploy-preview bar loads from here
   const page = await ctx.newPage();
 
   for (const [name, hash] of STILLS) {
@@ -99,7 +106,10 @@ const want = n => !ONLY || ONLY.has(n);
     const dir = path.join(OUT, name); fs.mkdirSync(dir, { recursive: true });
     const n = Math.round(secs * SCROLL_FPS);
     for (let i = 0; i < n; i++) {
-      await page.evaluate(y => window.scrollTo(0, y), Math.round(dist * ease(i / (n - 1))));
+      // Shooting takes longer than real time per frame, so CSS animations (the top ticker scrolls over 70s) would run
+      // several times too fast on playback. Drive every animation from the frame number instead: real-time speed.
+      await page.evaluate(([y, t]) => { window.scrollTo(0, y); document.getAnimations().forEach(a => { a.pause(); a.currentTime = t; }); },
+        [Math.round(dist * ease(i / (n - 1))), (i * 1000) / SCROLL_FPS]);
       await page.waitForTimeout(30);
       await page.screenshot({ path: path.join(dir, String(i).padStart(4, '0') + '.jpg'), type: 'jpeg', quality: 92 });
     }
@@ -136,6 +146,7 @@ const want = n => !ONLY || ONLY.has(n);
     const n = 3 * FPS;
     for (let i = 0; i < n; i++) {
       await page.mouse.move(box.x + box.width * (0.12 + 0.78 * ease(i / (n - 1))), box.y + box.height * 0.5);
+      await page.evaluate(() => document.getAnimations().forEach(a => { a.pause(); a.currentTime = 0; }));   // hold the ticker still
       await page.waitForTimeout(30);
       await page.screenshot({ path: path.join(dir, String(i).padStart(4, '0') + '.jpg'), type: 'jpeg', quality: 92 });
     }

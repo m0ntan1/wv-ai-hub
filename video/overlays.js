@@ -31,6 +31,7 @@ body{background:transparent;font-family:'DM Sans',system-ui,sans-serif;color:var
 .end .u{font-family:'Instrument Serif',serif;font-size:170px;line-height:.95}
 .end .u i{color:var(--cyan)}
 .end .t{font-family:'Instrument Serif',serif;font-style:italic;font-size:64px;color:var(--rook);margin-top:22px}
+.end .m{font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.14em;color:var(--fg2);margin-top:16px;text-transform:uppercase}
 .end .s{font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.06em;color:var(--fg2);margin-top:34px;line-height:1.6;max-width:1000px}
 `;
 

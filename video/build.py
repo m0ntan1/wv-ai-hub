@@ -24,6 +24,7 @@ FONT_B = '/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Bold.ttf'
 FONT_R = '/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Regular.ttf'
 OUTRO_START, OUTRO_LEN, END_CARD_S = 180.0, 23.0, 20.5
 INTRO_VOICE_START, DUCK, OUTRO_DUCK = 3.5, 0.25, 0.30
+OUTRO_GAIN = 0.6   # the outro section of the song is its loudest; keep it from swelling well past Rook's voice
 SAY = {'Nscale': '/ˈɛnskeɪl/', 'House Bill 2014': 'House Bill twenty fourteen'}        # how the voice should say it
 SHOW = {'W V A I hub dot com': 'wvaihub.com'}                                        # how captions should write it
 
@@ -220,7 +221,7 @@ CHIPS = {
     'chip_verify': ('signal', '⚠ Verify = we could not fully confirm this'),
     'chip_certified': ('', 'Certified: 4 · Monarch’s marker shows “under construction”'),
     'chip_hb2014': ('', 'HB 2014: certified data centers skip county zoning'),
-    'chip_docket': ('', '7 PSC dockets · 3 filed court cases · 50+ dates on the calendar'),
+    'chip_docket': ('', '7 PSC dockets · 3 court cases · 50+ public dates'),
     'chip_people': ('', '52 entries · 54 sourced connections'),
     'chip_receipts': ('ok', 'Checked Nov 3, 2026: 183 against linked source · 11 from PSC notices · 8 flagged'),
     'chip_s1': ('', 'Nscale S-1, filed Sep 18, 2026'),
@@ -242,7 +243,7 @@ def overlay_specs(caps, asof):
         {'id': 'bar_disclaimer', 'html': '<div class="bar"><b>◆</b> Analysis for education only. Not investment advice.</div>'},
         {'id': 'asof', 'html': f'<div class="asof">{html.escape(asof)}</div>'},
         {'id': 'title', 'html': '<div class="title"><div class="k">Mapping AI across the Mountain State</div><div class="a">West Virginia\'s</div><div class="b">AI Watch</div></div>'},
-        {'id': 'end_card', 'html': '<div class="end"><div class="u">wvaihub<i>.</i>com</div><div class="t">Montani semper liberi</div>'
+        {'id': 'end_card', 'html': '<div class="end"><div class="u">wvaihub<i>.</i>com</div><div class="t">Mountaineers are always free</div><div class="m">Montani semper liberi &middot; West Virginia state motto</div>'
                                    f'<div class="s">Rook is an AI persona. Synthetic voice.<br>{html.escape(asof)}.</div></div>'},
     ]
     for i, c in enumerate(caps):
@@ -488,7 +489,7 @@ def mix_audio(clips, starts, end_vo8, video_end, song, t1b_end):
     st = int((video_end - OUTRO_LEN) * SR); tt = st / SR + np.arange(m) / SR
     duck = np.where(tt < end_vo8, OUTRO_DUCK, np.minimum(1.0, OUTRO_DUCK + (1 - OUTRO_DUCK) * (tt - end_vo8) / 1.5))
     fade_in = np.clip(np.arange(m) / SR / 1.5, 0, 1)
-    music[st:st + m] += seg * (duck * fade_in)[:, None]
+    music[st:st + m] += seg * (duck * fade_in * OUTRO_GAIN)[:, None]
     mix = music + voice[:, None]
     return mix.astype(np.float32), voice
 
@@ -516,6 +517,7 @@ def main():
     ap.add_argument('--work', required=True); ap.add_argument('--out', required=True)
     ap.add_argument('--placeholder', action='store_true'); ap.add_argument('--draft', action='store_true')
     ap.add_argument('--dump', default=''); ap.add_argument('--no-encode', action='store_true')
+    ap.add_argument('--reuse-chunks', action='store_true', help='skip rendering video chunks that already exist in --work (same plan and timing only)')
     a = ap.parse_args()
     work, out, voice_dir = Path(a.work), Path(a.out), Path(a.voice)
     work.mkdir(parents=True, exist_ok=True); out.mkdir(parents=True, exist_ok=True)
@@ -550,10 +552,13 @@ def main():
     nf = int(video_end * FPS) + 1
     nproc = 4; per = math.ceil(nf / (nproc * 3))
     jobs = [(i, min(nf, i + per), work / f'chunk{i // per:03d}.mp4', scale, crf) for i in range(0, nf, per)]
-    with Pool(nproc, initializer=init_worker, initargs=(str(work), a.footage)) as pool:
-        done = pool.map(render_chunk, jobs, chunksize=1)
+    if a.reuse_chunks and all(j[2].exists() for j in jobs):
+        done = [j[2] for j in jobs]
+    else:
+        with Pool(nproc, initializer=init_worker, initargs=(str(work), a.footage)) as pool:
+            done = pool.map(render_chunk, jobs, chunksize=1)
     with open(work / 'chunks.txt', 'w') as f:
-        for d in done: f.write(f"file '{d}'\n")
+        for d in done: f.write(f"file '{Path(d).resolve()}'\n")   # absolute: ffmpeg resolves relative paths against the list file
     sh(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', str(work / 'chunks.txt'), '-c', 'copy', str(work / 'video.mp4')])
     ln = loudnorm_to_m4a(mix, work / 'audio.m4a')
     final = out / ('rook-video-draft.mp4' if a.draft else 'rook-video.mp4')
