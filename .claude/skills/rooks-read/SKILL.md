@@ -11,7 +11,9 @@ The public site says what this process is (`#/desk`). Keep the work matching tha
 
 ## 0. Set up
 
-1. `git fetch origin main` and start a branch from it: `rook/YYYY-MM-DD` (today's date, Eastern time).
+1. `git fetch origin main`. If this session assigns you a branch name, use that branch; otherwise use `rook/YYYY-MM-DD` (today's date, Eastern time).
+   - If the branch has no open pull request (or its last one was merged), reset it to `origin/main` and work from there.
+   - If it still has an **open** pull request holding an earlier Read the editor hasn't merged, keep that work: rebase the branch onto `origin/main`, add today's Read on top (newest first in `reads.json`), and update that pull request's title and description to cover every Read in it. Never drop or overwrite an unmerged Read.
 2. If today is Saturday or Sunday, stop: no Read on weekends. Monday's Read covers Friday evening through Monday morning.
 3. If `data/reads.json` already has a Read with today's id, stop.
 4. Read `docs/update-plan.md` (verification rules) and `.claude/skills/makenomistakes/SKILL.md` (Mercer's audit). Follow both.
@@ -88,7 +90,7 @@ If `ELEVENLABS_API_KEY` and `ROOK_VOICE_ID` are set and the Read is CLEARED, run
 
 ## 7. Open the pull request
 
-Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`. Never merge it. The body has:
+Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`, or update the open one as described in step 0. Never merge it. The body has:
 
 1. The Read as it will appear, with its numbered sources, and the word count.
 2. Mercer's review: the audit line, the four duty lines, and the outcome. If Anthropic is a subject: a line reading **Anthropic: conflict disclosed**.
