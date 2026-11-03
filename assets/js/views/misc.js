@@ -68,7 +68,7 @@ export function receipts(main, q) {
       <div><b style="color:var(--signal)">${S.verify || 0}</b><span>shown with ⚠ Verify and the reason</span></div>
       <div><b>${S.gap || 0}</b><span>unresolved gaps</span></div>
     </div>
-    <p class="dim" style="font-size:14px">Full method, corrections, and every check: <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/${esc(R.log)}" target="_blank" rel="noopener">verification log ↗</a> · How the site stays current: <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/docs/update-plan.md" target="_blank" rel="noopener">update plan ↗</a> · Turn on <b>Receipts mode</b> in the header to see sources inline across the site.</p>
+    <p class="dim" style="font-size:14px">Full method, corrections, and every check: <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/${esc(R.log)}" target="_blank" rel="noopener">verification log ↗</a> · How the site stays current: <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/docs/update-plan.md" target="_blank" rel="noopener">update plan ↗</a> · Turn on <b>Receipts mode</b> in the header to see sources inline across the site. Spot an error? <a class="src" href="#/contact?topic=correction">Send a correction</a>.</p>
     <section class="sec">
       <div class="cx-toolbar" style="margin-top:0">
         <input class="rc-search" id="rcQ" type="search" placeholder="Search items or sources" aria-label="Search receipts">

@@ -22,6 +22,7 @@ assets/js/
   views/people.js          #/people      connections web (deterministic force layout) and directory
   views/county.js          #/counties, #/county/:slug   county index and printable field sheet
   views/misc.js            #/projects, #/map, #/hubs, #/receipts, 404
+  views/contact.js         #/contact     contact form (Netlify Forms; the hidden copy in index.html registers it at deploy)
 data/*.json                The content. Edit these to update the site.
 calendar.ics, feed.json    Built by tools/build_feeds.py from data/.
 assets/qr/*.svg            County-sheet QR codes, built by tools/build_feeds.py.
@@ -35,8 +36,11 @@ docs/update-plan.md        How the site is kept current.
 ```
 
 ### Routes
-Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`.
-Query strings work after the route: `#/people?focus=bowles-rice`, `#/calendar?county=Mason`, `#/calendar?e=<event id>`, `#/docket?body=psc`.
+Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`, `#/contact`.
+Query strings work after the route: `#/people?focus=bowles-rice`, `#/calendar?county=Mason`, `#/calendar?e=<event id>`, `#/docket?body=psc`, `#/contact?topic=correction&about=<project>`.
+
+### Contact form
+`#/contact` posts to Netlify Forms (form name `contact`). Netlify finds the form by reading the hidden copy at the bottom of `index.html` when it deploys, so if you add or rename a field, change both places. Submissions land in the Netlify dashboard under Forms, behind Akismet spam filtering and a honeypot field. To get them by email, add a notification there (Forms > Submission notifications); the address stays private to Netlify.
 Links from the old one-page site (`#projects`, `#docket`, `#calendar`, `#people`, `#proj-<id>`, `#sec-<city>`) redirect to their new homes.
 
 ### Time travel

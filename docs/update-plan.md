@@ -98,7 +98,7 @@ All data lives in `data/*.json`. The schema for each file is in `DOCS.md`. Times
 | **0. In the repo now** | `tools/check.py` (structure, references, dates, staleness, optional link check), `tools/build_feeds.py` (calendar.ics, feed.json, QR codes, sitemap), and `?today=` time travel for testing | Done |
 | **1. Check every push** | A GitHub Action (`.github/workflows/check.yml`) runs `check.py` and `build_feeds.py` on every push and pull request and fails on errors. Netlify deploy previews show each pull request before merge. | Done. The first run passed on Nov 3, 2026 |
 | **2. Weekly drafted shift** | A scheduled Claude task, Mondays early morning ET. It reads new PSC digests in Gmail, sweeps the sources in section 1, drafts the JSON edits and desk items on a branch, runs the checker, and opens a pull request whose description lists every source. **It never publishes.** You review and merge. | Needs your go-ahead |
-| **3. Reach** | A "Send a tip or correction" link (mailto first, a form later). `calendar.ics` subscriptions and `feed.json` are already live. An email digest built from `feed.json` can come later. | Proposed |
+| **3. Reach** | The contact form at `#/contact` (question, tip, or correction) is live and handled by Netlify Forms. Every case file has a "Report an error" link. `calendar.ics` subscriptions and `feed.json` are live. An email digest built from `feed.json` can come later. | Contact form done; digest proposed |
 
 What stays human: status labels, any new connection in the web, anything about a named private person, and the decision to publish.
 
@@ -160,4 +160,3 @@ From `data/events.json` and `data/docket.json`. The checker warns after each one
 1. **Cadence:** is a Monday shift right, or should it be another day?
 2. **Tier 2:** should I set up the weekly scheduled task that drafts a pull request?
 3. **Corrections:** should corrections get their own section on the Receipts page, or stay in the verification log?
-4. **Tips:** a plain mailto link to start, or a form?
