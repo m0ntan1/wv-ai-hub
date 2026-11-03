@@ -1,0 +1,62 @@
+[
+ {
+  "d": "2026-11-02",
+  "t": "Stop Valley Link peaceful protest at the Barbour County Courthouse in Philippi.",
+  "project": "valleylink",
+  "src": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+ },
+ {
+  "d": "2026-10-31",
+  "t": "NPR takes Ridgeline's dark-sky and ski-area fight national.",
+  "project": "ridgeline",
+  "src": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
+ },
+ {
+  "d": "2026-10-30",
+  "t": "Nvidia is in talks to guarantee billions in construction debt for Monarch's Anthropic building.",
+  "project": "monarch",
+  "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+ },
+ {
+  "d": "2026-10-30",
+  "t": "The DEP closes comments on Monarch air permit R14-0042. A final decision is pending.",
+  "project": "monarch",
+  "src": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+ },
+ {
+  "d": "2026-10-26",
+  "t": "MARL evidentiary hearing opens at the PSC.",
+  "project": "marl",
+  "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+ },
+ {
+  "d": "2026-10-26",
+  "t": "Monroe County residents protest a potential data center outside a landowner's law office in Giles County, VA.",
+  "project": "monroe",
+  "src": "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+ },
+ {
+  "d": "2026-10-09",
+  "t": "AG J.B. McCuskey declines Berkeley County's request for an HB 2014 opinion, citing the Barks case.",
+  "project": "penzance",
+  "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+ },
+ {
+  "d": "2026-09-18",
+  "t": "Nscale's IPO filing shows a $44.6B Anthropic contract for Monarch's first 460 MW building.",
+  "project": "monarch",
+  "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+ },
+ {
+  "d": "2026-09-03",
+  "t": "Monarch and Tamarack are certified at The Greenbrier. Mason County now hosts two High Impact Data Centers.",
+  "project": "monarch",
+  "src": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+ },
+ {
+  "d": "2026-08-26",
+  "t": "The ICA dismisses the Ridgeline air-permit appeals on jurisdiction. The groups say they will refile.",
+  "project": "ridgeline",
+  "src": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+ }
+]

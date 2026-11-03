@@ -1,0 +1,31 @@
+{
+ "updated": "2026-11-03",
+ "version": "2.0.0",
+ "site": "https://wvaihub.com",
+ "repo": "https://github.com/m0ntan1/WV-AI-HUB",
+ "note": "Data as of Nov 3, 2026. See docs/update-plan.md for how this is kept current.",
+ "stats": [
+  {
+   "v": "2.16 GW",
+   "l": "Monarch's off-grid gas microgrid, Mason County",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+   "srcLabel": "Gazette-Mail: permits"
+  },
+  {
+   "v": "864",
+   "l": "reciprocating gas engines in that microgrid",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+   "srcLabel": "Gazette-Mail: permits"
+  },
+  {
+   "v": "2,000+",
+   "l": "protest signatures and letters filed against the MARL line at the PSC",
+   "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745",
+   "srcLabel": "PSC Case 26-0075 (via docket digests)"
+  },
+  {
+   "v": "{events}",
+   "l": "public dates on the calendar, with addresses"
+  }
+ ]
+}

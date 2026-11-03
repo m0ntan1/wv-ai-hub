@@ -1,4 +1,8 @@
-"""Single source for the WV AI Watch calendar.
+"""SUPERSEDED Nov 3, 2026: data/events.json and data/standing.json are now the source of truth
+(see docs/update-plan.md). This file is kept as the receipt for the Nov 2026 calendar research;
+tools/migrate/migrate_v1.py read it once to create those JSON files.
+
+Originally: single source for the WV AI Watch calendar.
 Usage: python3 research/calendar_data.py research/2026-11-calendar.md /tmp/calendar-data.js
 Emits the receipts Markdown and the EVENTS/STANDING block that is pasted into index.html.
 Times are US Eastern. Fields: id, date (YYYY-MM-DD), end, start/endt (HH:MM 24h), label (display

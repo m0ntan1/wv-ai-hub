@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the WV AI Hub Index OG image using the real WV polygon from index.html."""
+"""Generate the WV AI Hub Index OG image using the real WV polygon from data/wv-outline.json."""
 
 import re
 import sys
@@ -19,12 +19,9 @@ WHITE = (255, 255, 255)
 TEXT_DIM = (180, 195, 220)
 TEXT_FADE = (130, 145, 175)
 
-# --- Extract WV polygon from index.html
-html = (REPO / "index.html").read_text()
-m = re.search(r"const WV = \[(.*?)\];", html, re.S)
-if not m:
-    sys.exit("Could not find WV polygon in index.html")
-pairs = re.findall(r"\[(-?\d+\.\d+),(-?\d+\.\d+)\]", m.group(1))
+# --- WV polygon (data/wv-outline.json)
+import json
+pairs = json.loads((REPO / "data" / "wv-outline.json").read_text())["ring"]
 WV_COORDS = [(float(a), float(b)) for a, b in pairs]
 print(f"Loaded {len(WV_COORDS)} WV polygon points")
 

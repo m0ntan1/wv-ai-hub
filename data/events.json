@@ -1,0 +1,998 @@
+[
+ {
+  "id": "election",
+  "date": "2026-11-03",
+  "start": "06:30",
+  "endt": "19:30",
+  "type": "government",
+  "title": "General Election Day",
+  "desc": "HB 2014 (data-center local control) and high-voltage transmission lines are top issues in legislative races.",
+  "county": "Statewide",
+  "host": "WV Secretary of State",
+  "how": "Vote at your assigned polling place, 6:30 a.m. to 7:30 p.m.",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "WV MetroNews",
+    "url": "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   }
+  ]
+ },
+ {
+  "id": "vl-fisher",
+  "date": "2026-11-04",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Fisher",
+  "desc": "First of 12 sessions on preliminary routes for the 765 kV Valley North line. Four more are out of state: Winchester, VA (Nov 5), Lovettsville, VA (Nov 12), and Brunswick, MD (Nov 19).",
+  "venue": "Misty Mountain Event Barn",
+  "address": "430 Misty Mountain Rd., Fisher, WV 26818",
+  "county": "Hardy",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-hambleton",
+  "date": "2026-11-04",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "developer",
+  "title": "Valley Link open house: Hambleton",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Tucker County High School",
+  "address": "116 Mountain Lion Way, Hambleton, WV 26269",
+  "county": "Tucker",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-sissonville",
+  "date": "2026-11-05",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "developer",
+  "title": "Valley Link open house: Sissonville",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Sissonville Middle School",
+  "address": "100 Middle School Ln., Charleston, WV 25312",
+  "county": "Kanawha",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "interims-nov",
+  "date": "2026-11-09",
+  "end": "2026-11-11",
+  "type": "legislature",
+  "title": "Legislative interim meetings",
+  "desc": "Joint interim committees meet between sessions. The Rule-Making Review Committee takes up the PSC's HB 2014 capacity rule on Nov 10 (see that entry).",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Legislature",
+  "how": "Open to the public. Agendas are posted on the Legislature's interim page.",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Legislature: interim schedule",
+    "url": "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   }
+  ]
+ },
+ {
+  "id": "rmr-150csr41",
+  "date": "2026-11-10",
+  "start": "12:00",
+  "endt": "17:00",
+  "type": "legislature",
+  "title": "Rule-Making Review Committee: the PSC's HB 2014 capacity rule",
+  "desc": "On the agenda: 150 CSR 41, the PSC's rules for generating capacity and economic dispatch, written in Case 26-0633-E-GI. This is the rule that made a 69% coal capacity factor a goal instead of a mandate.",
+  "venue": "Senate Judiciary Committee room, State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "Legislative Rule-Making Review Committee",
+  "how": "Open to the public. The committee can recommend the rule be approved, amended, or withdrawn before the 2027 session.",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Interim agenda (Nov 9–11)",
+    "url": "https://www.wvlegislature.gov/committees/interims/intcomsched_agenda.cfm?day1=11/09/2026"
+   },
+   {
+    "label": "West Virginia Watch",
+    "url": "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/"
+   }
+  ]
+ },
+ {
+  "id": "vl-buckhannon",
+  "date": "2026-11-12",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Buckhannon",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "The Event Center at Brushy Fork",
+  "address": "929 Brushy Fork Rd., Buckhannon, WV 26201",
+  "county": "Upshur",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-spencer",
+  "date": "2026-11-17",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Spencer",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Spencer Armory",
+  "address": "206 E. Main St., Spencer, WV 25276",
+  "county": "Roane",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-capon",
+  "date": "2026-11-17",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Capon Bridge",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Capon Bridge Community Complex (Old Capon Bridge Middle School)",
+  "address": "195 Capon School St., Capon Bridge, WV 26711",
+  "county": "Hampshire",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "tu-smallbiz",
+  "date": "2026-11-17",
+  "start": "17:00",
+  "endt": "19:00",
+  "type": "community",
+  "title": "Tucker United small business meeting",
+  "desc": "A meeting for local businesses, hosted by Tucker United and a Thomas business owner.",
+  "venue": "McClumsy",
+  "address": "Front St., Thomas, WV 26292",
+  "county": "Tucker",
+  "host": "Tucker United",
+  "how": "Open to the public.",
+  "project": "ridgeline",
+  "sources": [
+   {
+    "label": "Tucker United events",
+    "url": "https://www.tuckerunited.com/about-7"
+   }
+  ]
+ },
+ {
+  "id": "vl-roanoke",
+  "date": "2026-11-18",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Roanoke",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Stonewall Resort, Roanoke Event Center",
+  "address": "940 Resort Dr., Roanoke, WV 26447",
+  "county": "Lewis",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-ranson",
+  "date": "2026-11-18",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Ranson",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Ranson Civic Center",
+  "address": "432 W. 2nd Ave., Ranson, WV 25438",
+  "county": "Jefferson",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "vl-glenville",
+  "date": "2026-11-19",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Glenville",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Gilmer County Recreation Center",
+  "address": "1365 Sycamore Run, Glenville, WV 26351",
+  "county": "Gilmer",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley Link: open-house schedule",
+    "url": "https://vltransmission.com/valley-north/"
+   },
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "marl-briefs",
+  "date": "2026-11-23",
+  "type": "psc",
+  "title": "MARL initial briefs due (unconfirmed)",
+  "desc": "Parties in PSC Case 26-0075-E-CN file their initial briefs or proposed orders on NextEra's 500 kV line.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "how": "Filed by parties. Anyone can read the briefs on the PSC docket.",
+  "flag": "Date from Valley North Record. No briefing order appeared in PSC docket notices through Nov 2.",
+  "project": "marl",
+  "sources": [
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   },
+   {
+    "label": "PSC docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   }
+  ]
+ },
+ {
+  "id": "irp-data",
+  "date": "2026-12-01",
+  "type": "psc",
+  "title": "Mon Power IRP data due",
+  "desc": "Mon Power and Potomac Edison must file the detailed data behind their Integrated Resource Plan (Case 25-0857-E-IRP), the long-range plan that includes the Fort Martin gas build.",
+  "county": "Statewide",
+  "host": "PSC, Case 25-0857-E-IRP",
+  "how": "Filed by the utilities. Read it on the PSC docket.",
+  "project": "fortmartin",
+  "sources": [
+   {
+    "label": "PSC order, Aug 28, 2026",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562"
+   }
+  ]
+ },
+ {
+  "id": "marl-reply",
+  "date": "2026-12-04",
+  "type": "psc",
+  "title": "MARL reply briefs due (unconfirmed)",
+  "desc": "Reply briefs in PSC Case 26-0075-E-CN.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "flag": "Date from Valley North Record. Not yet confirmed by a PSC order.",
+  "project": "marl",
+  "sources": [
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   }
+  ]
+ },
+ {
+  "id": "interims-dec",
+  "date": "2026-12-06",
+  "end": "2026-12-08",
+  "type": "legislature",
+  "title": "Legislative interim meetings",
+  "desc": "The last interim meetings before the 2027 session.",
+  "venue": "Location to be announced",
+  "county": "Statewide",
+  "host": "WV Legislature",
+  "how": "Open to the public. Agendas are posted about a week ahead.",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Legislature: interim schedule",
+    "url": "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   }
+  ]
+ },
+ {
+  "id": "frr-staff",
+  "date": "2026-12-29",
+  "label": "~Dec 29",
+  "approx": true,
+  "type": "psc",
+  "title": "PSC Staff recommendation on AEP's FRR status",
+  "desc": "Staff's recommendation on whether Appalachian Power and Wheeling Power keep supplying their own capacity (Fixed Resource Requirement) instead of buying in PJM's data-center-driven capacity auction. Due 60 days after the Oct 30 utility responses.",
+  "county": "Statewide",
+  "host": "PSC, Case 25-0450-E-GI",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "PSC docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852"
+   }
+  ]
+ },
+ {
+  "id": "session-open",
+  "date": "2027-01-13",
+  "start": "12:00",
+  "endt": "14:00",
+  "type": "legislature",
+  "title": "2027 Regular Session convenes",
+  "desc": "First session of the 88th Legislature, running Jan 13 to Mar 13. Coalition groups, Democratic delegates, and the WV NAACP are pushing to restore local control under HB 2014.",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Legislature",
+  "how": "Floor sessions and committee meetings are open to the public. Bills can be tracked on wvlegislature.gov.",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "WV Legislature",
+    "url": "https://home.wvlegislature.gov/"
+   }
+  ]
+ },
+ {
+  "id": "affordable-rally",
+  "date": "2027-01-26",
+  "start": "10:00",
+  "endt": "12:00",
+  "type": "protest",
+  "title": "WV Rally for Affordable Energy",
+  "desc": "A rally on electricity costs, data-center expansion, energy infrastructure, and environmental concerns.",
+  "venue": "South Steps, State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Utility Impact Project, with the Valley North Opposition Alliance",
+  "how": "Open to the public.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   }
+  ]
+ },
+ {
+  "id": "fm-deadline",
+  "date": "2027-02-28",
+  "label": "By Feb 2027",
+  "approx": true,
+  "type": "psc",
+  "title": "Fort Martin decision deadline",
+  "desc": "The statutory deadline for the PSC to rule on Mon Power's 1,200 MW gas plant plus 70 MW of solar (Case 26-0108-E-CN). Briefing closed Sep 14, 2026.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0108-E-CN",
+  "project": "fortmartin",
+  "flag": "The Feb 2027 deadline was reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
+  "sources": [
+   {
+    "label": "PSC docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   }
+  ]
+ },
+ {
+  "id": "marl-decision",
+  "date": "2027-03-06",
+  "type": "psc",
+  "title": "MARL decision due",
+  "desc": "The decision date for NextEra's 500 kV line (Case 26-0075-E-CN), set Mar 18 and reaffirmed when the PSC refused to pause the case on Sep 4.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   {
+    "label": "PSC order, Sep 4, 2026",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   }
+  ]
+ },
+ {
+  "id": "session-end",
+  "date": "2027-03-13",
+  "type": "legislature",
+  "title": "2027 Regular Session ends (Day 60)",
+  "county": "Statewide",
+  "host": "WV Legislature",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "MultiState session calendar",
+    "url": "https://www.multistate.us/resources/2027-legislative-session-dates"
+   }
+  ]
+ },
+ {
+  "id": "mp-rate2",
+  "date": "2027-06-01",
+  "type": "psc",
+  "title": "Mon Power rate increase, step 2",
+  "desc": "The second step of Mon Power and Potomac Edison's $75.6M base-rate increase (Case 26-0508-E-42T), about $4.11/month for an average residential customer.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0508-E-42T",
+  "project": "fortmartin",
+  "sources": [
+   {
+    "label": "Legal notice",
+    "url": "https://wvlegals.com/public-service-commission-of-west-virginia-charleston-case-no-26-0508-e-42t-monongahela-power-company-and-the-potomac-edison-company/"
+   }
+  ]
+ },
+ {
+  "id": "tbd-monarch",
+  "tbd": true,
+  "type": "hearing",
+  "title": "Monarch air permit R14-0042: DEP final decision",
+  "desc": "DEP will publish a response-to-comments document and a final determination on the 2.16 GW, 864-engine gas microgrid.",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "WSAZ",
+    "url": "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+   },
+   {
+    "label": "Tracker: permit R14-0042",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ]
+ },
+ {
+  "id": "tbd-ridgeline",
+  "tbd": true,
+  "type": "court",
+  "title": "Ridgeline air-permit appeal refiled",
+  "desc": "Tucker United, WVHC, and Sierra Club plan to refile in circuit court or the Supreme Court of Appeals after the ICA's jurisdictional dismissal.",
+  "county": "Tucker",
+  "host": "Appalachian Mountain Advocates (counsel)",
+  "project": "ridgeline",
+  "sources": [
+   {
+    "label": "WVHC",
+    "url": "https://www.wvhighlands.org/?p=15160"
+   }
+  ]
+ },
+ {
+  "id": "tbd-barks",
+  "tbd": true,
+  "type": "court",
+  "title": "Barks v. Silicon Foundation: next hearing",
+  "desc": "Twelve Warwood residents are challenging HB 2014's constitutionality. The Attorney General has intervened to defend the law.",
+  "venue": "Ohio County Circuit Court",
+  "county": "Ohio",
+  "project": "warwood",
+  "sources": [
+   {
+    "label": "WV MetroNews",
+    "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   }
+  ]
+ },
+ {
+  "id": "tbd-vlapp",
+  "tbd": true,
+  "type": "psc",
+  "title": "Valley Link files its formal PSC application",
+  "desc": "Expected late 2026 or early 2027, with a preferred route in early 2027. It will get a new E-CN case number. Until then, comments go to FP Valley Link 26A.",
+  "county": "Statewide",
+  "host": "Valley Link Transmission Co.",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "How to comment (FP Valley Link 26A)",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   }
+  ]
+ },
+ {
+  "id": "tbd-council",
+  "tbd": true,
+  "type": "government",
+  "title": "Data Center Advisory Council launches",
+  "desc": "Promised in the Governor's Aug 11 plan to recommend setbacks, noise, and site standards. No roster or start date has been published.",
+  "county": "Statewide",
+  "host": "Commerce Dept. Data Economy Office",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/the-same-story-morrisey-data-center-plan-doubles-down-on-industry-regulation-gaps/article_e22e72d4-4aa9-4696-8396-51e98d4f3e08.html"
+   }
+  ]
+ },
+ {
+  "id": "p-stopvl",
+  "date": "2026-11-02",
+  "start": "14:00",
+  "endt": "18:00",
+  "type": "protest",
+  "title": "Stop Valley Link peaceful protest",
+  "desc": "Info table at the gazebo.",
+  "venue": "Barbour County Courthouse",
+  "address": "26 N. Main St., Philippi, WV 26416",
+  "county": "Barbour",
+  "host": "Stop Valley Link",
+  "project": "valleylink",
+  "sources": [
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   }
+  ]
+ },
+ {
+  "id": "p-marl-hearing",
+  "date": "2026-10-26",
+  "end": "2026-11-02",
+  "type": "psc",
+  "title": "MARL evidentiary hearing",
+  "desc": "Six hearing days on NextEra's 500 kV line. NextEra settled with Lake O' Woods Club on Oct 23.",
+  "venue": "Howard M. Cunningham Hearing Room, PSC",
+  "address": "201 Brooks St., Charleston, WV 25301",
+  "county": "Kanawha",
+  "virtual": "Live-streamed",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   {
+    "label": "PSC order, Sep 30",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382"
+   }
+  ]
+ },
+ {
+  "id": "p-monarch-deadline",
+  "date": "2026-10-30",
+  "type": "hearing",
+  "title": "Monarch air permit comment deadline",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "WSAZ",
+    "url": "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+   }
+  ]
+ },
+ {
+  "id": "p-monarch-virtual",
+  "date": "2026-10-29",
+  "type": "hearing",
+  "title": "DEP virtual hearing: Monarch air permit R14-0042",
+  "county": "Mason",
+  "virtual": "Online (registration required)",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   }
+  ]
+ },
+ {
+  "id": "p-digigov",
+  "date": "2026-10-29",
+  "type": "government",
+  "title": "WV Digital Government Summit",
+  "desc": "State and local leaders on AI implementation, digital transformation, and cybersecurity.",
+  "venue": "Charleston",
+  "county": "Kanawha",
+  "host": "GovTech",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "GovTech Events",
+    "url": "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
+   }
+  ]
+ },
+ {
+  "id": "p-monarch-water",
+  "date": "2026-10-26",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "hearing",
+  "title": "DEP water-permit workshop and hearing: Monarch",
+  "venue": "Point Pleasant High School",
+  "address": "280 Scenic Dr., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Water & Waste Management",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "WCHS",
+    "url": "https://wchstv.com/news/local/public-hearing-input-used-in-massive-data-center-state-waters-application-decision"
+   }
+  ]
+ },
+ {
+  "id": "p-monroe",
+  "date": "2026-10-26",
+  "label": "Reported Oct 26",
+  "type": "protest",
+  "title": "Monroe County data center protest",
+  "desc": "Residents rallied in Giles County, VA, outside the office of a landowner whose Monroe County land is rumored as a data center site.",
+  "venue": "Giles County, VA",
+  "county": "Monroe",
+  "project": "monroe",
+  "sources": [
+   {
+    "label": "WVTF / Radio IQ",
+    "url": "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+   }
+  ]
+ },
+ {
+  "id": "p-monarch-air",
+  "date": "2026-10-20",
+  "type": "hearing",
+  "title": "DEP air-permit workshop: Monarch",
+  "desc": "Seven people commented. Most raised health concerns or asked for more time.",
+  "venue": "Point Pleasant High School",
+  "address": "280 Scenic Dr., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   }
+  ]
+ },
+ {
+  "id": "p-tu-townhall",
+  "date": "2026-10-19",
+  "start": "18:00",
+  "endt": "20:00",
+  "type": "community",
+  "title": "Tucker United town hall on Ridgeline",
+  "venue": "Davis Town Hall",
+  "address": "505 William Ave., Davis, WV 26260",
+  "county": "Tucker",
+  "host": "Tucker United",
+  "project": "ridgeline",
+  "sources": [
+   {
+    "label": "Tucker United events",
+    "url": "https://www.tuckerunited.com/about-7"
+   }
+  ]
+ },
+ {
+  "id": "p-capitol-protest",
+  "date": "2026-09-14",
+  "type": "protest",
+  "title": "Data center protest at the State Capitol",
+  "desc": "Residents from Tucker, Mason, and Putnam counties protested data center development.",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Mountain State Spotlight",
+    "url": "https://mountainstatespotlight.org/2026/10/28/data-center-opposition/"
+   }
+  ]
+ },
+ {
+  "id": "p-wvdcap",
+  "date": "2026-09-08",
+  "type": "community",
+  "title": "WV Data Center Accountability Project launches",
+  "desc": "A statewide coalition: WV CAG, Tucker United, Putnam United, Mason WV United, Sierra Club WV, WVHC, and No Data Centers in the Eastern Panhandle.",
+  "venue": "Charleston",
+  "county": "Kanawha",
+  "host": "WVDCAP",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "WV CAG release",
+    "url": "https://wvcag.org/?p=16377"
+   }
+  ]
+ },
+ {
+  "id": "p-marl-order",
+  "date": "2026-09-04",
+  "type": "psc",
+  "title": "PSC refuses to pause or dismiss MARL",
+  "desc": "The Commission denied Staff's motion and the NextEra–Staff schedule change, and ordered a study of the existing Gore–Hampshire right-of-way.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   {
+    "label": "PSC order",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   }
+  ]
+ },
+ {
+  "id": "p-greenbrier",
+  "date": "2026-09-03",
+  "type": "government",
+  "title": "Monarch and Tamarack certified at The Greenbrier",
+  "desc": "Gov. Morrisey announced both Mason County certifications at the WV Chamber's Annual Meeting & Business Summit.",
+  "venue": "The Greenbrier",
+  "address": "White Sulphur Springs, WV",
+  "county": "Greenbrier",
+  "host": "WV Chamber of Commerce",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "Herald-Dispatch",
+    "url": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   }
+  ]
+ },
+ {
+  "id": "p-ica",
+  "date": "2026-08-26",
+  "type": "court",
+  "title": "ICA dismisses Ridgeline air-permit appeals",
+  "desc": "Dismissed on jurisdiction, not the merits.",
+  "county": "Tucker",
+  "host": "WV Intermediate Court of Appeals",
+  "project": "ridgeline",
+  "sources": [
+   {
+    "label": "WTAP",
+    "url": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   }
+  ]
+ },
+ {
+  "id": "p-putnam-res",
+  "date": "2026-08-25",
+  "start": "17:00",
+  "endt": "19:00",
+  "type": "community",
+  "title": "Putnam United resolution at the County Commission",
+  "desc": "Residents asked commissioners for a say in data center decisions.",
+  "venue": "Putnam County Commission",
+  "address": "Winfield, WV",
+  "county": "Putnam",
+  "host": "Putnam United",
+  "project": "google",
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   }
+  ]
+ },
+ {
+  "id": "p-naacp",
+  "date": "2026-08-14",
+  "end": "2026-08-15",
+  "type": "community",
+  "title": "WV NAACP convention calls for a moratorium",
+  "desc": "Delegates unanimously demanded a pause of at least two years on high-impact data centers and microgrids.",
+  "venue": "Huntington",
+  "county": "Cabell",
+  "host": "WV NAACP",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "Black By God",
+    "url": "https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/"
+   }
+  ]
+ },
+ {
+  "id": "p-govplan",
+  "date": "2026-08-11",
+  "type": "government",
+  "title": "Governor unveils the Responsible Data Center Development Plan",
+  "county": "Statewide",
+  "host": "Gov. Patrick Morrisey",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "WDTV",
+    "url": "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
+   }
+  ]
+ },
+ {
+  "id": "p-fm-hearing",
+  "date": "2026-07-15",
+  "start": "17:30",
+  "type": "psc",
+  "title": "Fort Martin public comment hearing (virtual and in person)",
+  "desc": "Public comment on Mon Power and Potomac Edison's certificate application for the roughly 1,200 MW gas plant.",
+  "venue": "PSC headquarters",
+  "address": "201 Brooks St., Charleston, WV 25301",
+  "county": "Kanawha",
+  "host": "PSC, Case 26-0108-E-CN",
+  "project": "fortmartin",
+  "sources": [
+   {
+    "label": "WDTV",
+    "url": "https://www.wdtv.com/2026/05/15/public-hearing-set-monpowers-proposed-gas-plant-mon-county-solar-site-near-davis/"
+   }
+  ]
+ },
+ {
+  "id": "p-psc-rule-hearing",
+  "date": "2026-09-28",
+  "start": "09:30",
+  "endt": "12:00",
+  "type": "psc",
+  "title": "PSC public hearing on HB 2014 generating-capacity rules",
+  "desc": "Public hearing in Case 26-0633-E-GI on the rules that became 150 CSR 41.",
+  "venue": "PSC headquarters",
+  "address": "201 Brooks St., Charleston, WV 25301",
+  "county": "Kanawha",
+  "host": "PSC, Case 26-0633-E-GI",
+  "project": "hb2014",
+  "sources": [
+   {
+    "label": "WDTV",
+    "url": "https://www.wdtv.com/2026/08/20/state-psc-schedules-public-hearing-power-rules-behind-governor-morriseys-data-center-plan/"
+   },
+   {
+    "label": "WVPB",
+    "url": "https://wvpublic.org/story/energy-environment/public-hearing-on-data-center-power-rules-scheduled/"
+   }
+  ]
+ },
+ {
+  "id": "p-canaan",
+  "date": "2026-06-14",
+  "end": "2026-06-16",
+  "type": "legislature",
+  "title": "Interims at Canaan Valley, with Tucker United picnic and Davis panel",
+  "desc": "Tucker United held a solidarity picnic and a roadside protest, Democrats held a press event at Davis Town Hall (Jun 15), and Mountain State Spotlight hosted a panel at Davis Fire Hall.",
+  "venue": "Canaan Valley Resort",
+  "address": "Davis, WV 26260",
+  "county": "Tucker",
+  "host": "WV Legislature",
+  "project": "ridgeline",
+  "sources": [
+   {
+    "label": "WVHC update",
+    "url": "https://www.wvhighlands.org/?p=15053"
+   },
+   {
+    "label": "Mountain State Spotlight",
+    "url": "https://mountainstatespotlight.org/2026/06/16/tucker-county-panel-discussion/"
+   }
+  ]
+ },
+ {
+  "id": "p-monarch-sw",
+  "date": "2026-06-15",
+  "start": "18:00",
+  "endt": "20:00",
+  "type": "hearing",
+  "title": "DEP hearing: Monarch pipeline stormwater permit (WVR312628)",
+  "venue": "Mason County Courthouse",
+  "address": "200 Sixth St., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Water & Waste Management",
+  "project": "monarch",
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   }
+  ]
+ },
+ {
+  "id": "p-warwood",
+  "date": "2026-06-01",
+  "label": "Jun 2026",
+  "approx": true,
+  "type": "community",
+  "title": "Warwood town hall with Del. Shawn Fluharty",
+  "venue": "Warwood Veterans Association",
+  "address": "Wheeling, WV",
+  "county": "Ohio",
+  "project": "warwood",
+  "sources": [
+   {
+    "label": "WTOV9",
+    "url": "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
+   }
+  ]
+ }
+]

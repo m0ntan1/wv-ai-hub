@@ -1,0 +1,595 @@
+[
+ {
+  "id": "barks",
+  "body": "courts",
+  "title": "Barks v. Silicon Foundation",
+  "where": "Ohio Co. Circuit Court",
+  "case": "",
+  "status": "Pending",
+  "stage": "open",
+  "stamp": "Pending",
+  "tone": "legal",
+  "summary": "Twelve Warwood residents argue HB 2014 unconstitutionally strips local land-use and zoning control. AG <strong>J.B. McCuskey</strong>'s office intervened to defend the statute, and on Oct 9 it cited this case in declining Berkeley County's request for a legal opinion.",
+  "projects": [
+   "warwood"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "WV MetroNews, Oct 26, 2026",
+    "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "ridgeline-appeal",
+  "body": "courts",
+  "title": "Tucker United, WVHC & Sierra Club v. DEP (Ridgeline air permit)",
+  "where": "ICA → Circuit Ct. / SCAWV",
+  "case": "",
+  "status": "Refiling",
+  "stage": "closed",
+  "stamp": "Dismissed · refiling",
+  "tone": "alarm",
+  "summary": "On Aug 26 the Intermediate Court of Appeals dismissed both appeals on jurisdiction, not on the merits. Earlier, Judges Daniel Greear and Charles Lorensen recused over ties to Speaker <strong>Roger Hanshaw</strong>'s firm Bowles Rice, and SCAWV refused Fundamental Data's bid to skip the ICA. Appalachian Mountain Advocates says the groups will refile.",
+  "projects": [
+   "ridgeline"
+  ],
+  "counties": [],
+  "next": {
+   "t": "Appeals refiled",
+   "d": ""
+  },
+  "sources": [
+   {
+    "label": "WTAP, Aug 26, 2026",
+    "url": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   },
+   {
+    "label": "Gazette-Mail (recusals)",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "label": "WVHC (refiling)",
+    "url": "https://www.wvhighlands.org/?p=15160"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "mingo-suit",
+  "body": "courts",
+  "title": "Mingo County residents v. TransGas, Army Corps, USFWS & FERC",
+  "where": "U.S. District Ct., S.D. W.Va.",
+  "case": "",
+  "status": "Dismissed w/o prejudice",
+  "stage": "closed",
+  "stamp": "Dismissed w/o prejudice",
+  "tone": "dim",
+  "summary": "Judge <strong>Robert Chambers</strong> dismissed the TransGas claims in March and the agency claims on Jun 22, 2026. Attorney <strong>Stephen New</strong> (Beckley) plans new suits under EPCRA with adjacent residents and has named Penzance and QTS as future targets.",
+  "projects": [
+   "adams-tg",
+   "adams-h"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Charleston Gazette-Mail, Jun 30, 2026",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "county-challenge",
+  "body": "courts",
+  "title": "Possible county challenge to HB 2014",
+  "where": "Putnam & Monongalia Commissions",
+  "case": "",
+  "status": "Under discussion",
+  "stage": "prefiling",
+  "stamp": "Under discussion",
+  "tone": "dim",
+  "summary": "Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed.",
+  "projects": [
+   "google",
+   "fortmartin"
+  ],
+  "counties": [
+   "Putnam",
+   "Monongalia"
+  ],
+  "next": null,
+  "sources": [
+   {
+    "label": "Dominion Post (Sikora)",
+    "url": "https://www.dominionpost.com/2026/08/17/data-centers-in-monongalia-county-unlikely/"
+   },
+   {
+    "label": "Charleston Gazette-Mail, Aug 2026",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "marl",
+  "body": "psc",
+  "title": "MARL 500 kV line (NextEra Energy Transmission MidAtlantic)",
+  "where": "Case 26-0075-E-CN",
+  "case": "Case 26-0075-E-CN",
+  "status": "Decision due Mar 6, 2027",
+  "stage": "briefing",
+  "stamp": "Decision due Mar 6, 2027",
+  "tone": "cyan",
+  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The hearing ran Oct 26–30 and Nov 2 and was live-streamed.",
+  "projects": [
+   "marl"
+  ],
+  "counties": [],
+  "next": {
+   "t": "PSC decision due",
+   "d": "2027-03-06"
+  },
+  "sources": [
+   {
+    "label": "PSC order, Sep 4, 2026",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   },
+   {
+    "label": "Staff testimony",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670106"
+   },
+   {
+    "label": "Docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "fortmartin",
+  "body": "psc",
+  "title": "Fort Martin 1,200 MW gas plant + 70 MW solar ($2.48B)",
+  "where": "Case 26-0108-E-CN",
+  "case": "Case 26-0108-E-CN",
+  "status": "Fully briefed · order pending",
+  "stage": "awaiting",
+  "stamp": "Fully briefed",
+  "tone": "signal",
+  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. A statutory decision deadline of Feb 2027 has been reported.",
+  "projects": [
+   "fortmartin"
+  ],
+  "counties": [],
+  "next": {
+   "t": "Decision deadline (reported)",
+   "d": "2027-02",
+   "verify": true
+  },
+  "sources": [
+   {
+    "label": "Mon Power brief",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669552"
+   },
+   {
+    "label": "Staff brief",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669564"
+   },
+   {
+    "label": "Docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   }
+  ],
+  "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "apco-tariff",
+  "body": "psc",
+  "title": "Appalachian Power / Wheeling Power large-load tariff",
+  "where": "Case 24-0611-E-T-PW",
+  "case": "Case 24-0611-E-T-PW",
+  "status": "Tariff in effect",
+  "stage": "closed",
+  "stamp": "In effect",
+  "tone": "ok",
+  "summary": "Customers of 100 MW or more sign 12-year contracts and pay for at least 80% of contracted demand. ApCo says its contracted WV data-center load is \"more than double\" its 540 MW in Virginia.",
+  "projects": [
+   "tamarack",
+   "warwood"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Cardinal News, Jul 31, 2026",
+    "url": "https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/"
+   },
+   {
+    "label": "WVPB (12-yr / 80% terms)",
+    "url": "https://wvpublic.org/story/energy-environment/compromise-proposed-in-psc-case-involving-data-centers/"
+   },
+   {
+    "label": "Tracker (approval)",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "frr",
+  "body": "psc",
+  "title": "PJM capacity market investigation: AEP's \"FRR\" status and Mon Power bidding",
+  "where": "Case 25-0450-E-GI",
+  "case": "Case 25-0450-E-GI",
+  "status": "Staff rec. ~Dec 29",
+  "stage": "open",
+  "stamp": "Staff rec ~Dec 29",
+  "tone": "signal",
+  "summary": "Should Appalachian Power and Wheeling Power keep supplying their own capacity (Fixed Resource Requirement) instead of buying in PJM's auction, where data-center demand is pushing prices up? Mon Power responded Oct 22 and ApCo/WPCo Oct 30. Staff's recommendation is due 60 days later. Intervenors: the Consumer Advocate and WVEUG.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": {
+   "t": "PSC Staff recommendation",
+   "d": "2026-12-29"
+  },
+  "sources": [
+   {
+    "label": "ApCo response, Oct 30",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673326"
+   },
+   {
+    "label": "Docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "irp",
+  "body": "psc",
+  "title": "Mon Power / Potomac Edison Integrated Resource Plan",
+  "where": "Case 25-0857-E-IRP",
+  "case": "Case 25-0857-E-IRP",
+  "status": "Data due Dec 1",
+  "stage": "open",
+  "stamp": "Data due Dec 1",
+  "tone": "signal",
+  "summary": "On Aug 28 the Commission ordered the detailed data behind the IRP's summary tables and charts filed by Dec 1, 2026, with an updated plan due Dec 1, 2028.",
+  "projects": [
+   "fortmartin"
+  ],
+  "counties": [],
+  "next": {
+   "t": "IRP data due",
+   "d": "2026-12-01"
+  },
+  "sources": [
+   {
+    "label": "PSC order, Aug 28, 2026",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "capacity-rule",
+  "body": "psc",
+  "title": "HB 2014 generating-capacity rules: 69% coal capacity factor becomes \"a goal, not a mandate\"",
+  "where": "Case 26-0633-E-GI",
+  "case": "Case 26-0633-E-GI",
+  "status": "Rule to Legislature",
+  "stage": "open",
+  "stamp": "At Legislature · Nov 10",
+  "tone": "signal",
+  "summary": "The PSC's general investigation into the rules HB 2014 requires for electric generating capacity. After taking public comment in September, the PSC filed revised rules in October, drawing partly on joint amendments from Appalachian Power and Mon Power. Next stop: the Legislature's Rule-Making Review Committee, then the 2027 session.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": {
+   "t": "Rule-Making Review Committee",
+   "d": "2026-11-10"
+  },
+  "sources": [
+   {
+    "label": "West Virginia Watch, Oct 20, 2026",
+    "url": "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/"
+   },
+   {
+    "label": "WVPB (case no.)",
+    "url": "https://wvpublic.org/story/energy-environment/public-hearing-on-data-center-power-rules-scheduled/"
+   },
+   {
+    "label": "News and Sentinel (amendments)",
+    "url": "https://www.newsandsentinel.com/news/business/2026/10/w-va-public-service-commission-releases-proposed-rules-for-power-plant-capacity/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "valleylink",
+  "body": "psc",
+  "title": "Valley Link 765 kV: protests before the formal application",
+  "where": "FP Valley Link 26A",
+  "case": "FP Valley Link 26A",
+  "status": "Pre-filing comment file",
+  "stage": "prefiling",
+  "stamp": "Pre-filing",
+  "tone": "grid",
+  "summary": "On Sep 14, 2026 the PSC opened this file so residents can comment before Valley Link (Dominion / FirstEnergy / Transource) files for a certificate. It is not the official case. The real application will get its own number, expected late 2026 or early 2027, with a preferred route due early 2027. The Barbour, Upshur, Lewis, and Preston County Commissions oppose the line.",
+  "projects": [
+   "valleylink"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Dominion Post, Sep 16, 2026",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   },
+   {
+    "label": "WDTV (Upshur)",
+    "url": "https://www.wdtv.com/2026/07/17/upshur-county-commission-opposes-valley-north-transmission-project/"
+   },
+   {
+    "label": "WMRA (county opposition)",
+    "url": "https://www.wmra.org/2026-08-25/the-growing-county-government-opposition-to-valley-link"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "monarch-air",
+  "body": "dep",
+  "title": "Monarch Cloud Campus LLC: 2.16 GW, 864 gas engines",
+  "where": "Air permit R14-0042",
+  "case": "Air permit R14-0042",
+  "status": "Awaiting final determination",
+  "stage": "awaiting",
+  "stamp": "Awaiting decision",
+  "tone": "signal",
+  "summary": "DEP's preliminary finding is that the plant meets requirements, and it is classed as a \"major stationary source.\" The Oct 20 workshop was at Point Pleasant HS, the virtual hearing was Oct 29, and comments closed Oct 30. Engineers: Joe Kessler and Edward Andrews.",
+  "projects": [
+   "monarch"
+  ],
+  "counties": [],
+  "next": {
+   "t": "DEP final decision",
+   "d": ""
+  },
+  "sources": [
+   {
+    "label": "Charleston Gazette-Mail, Oct 2026",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   },
+   {
+    "label": "Gazette-Mail (major source)",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "label": "Tracker (R14-0042)",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "monarch-enforcement",
+  "body": "dep",
+  "title": "Monarch violations: sediment, flooding, dust",
+  "where": "DEP Water & DAQ",
+  "case": "",
+  "status": "Enforcement",
+  "stage": "open",
+  "stamp": "Enforcement",
+  "tone": "alarm",
+  "summary": "Notices on May 28, Jun 4, and Jun 10, an early-July enforcement order, and an Aug 11 particulate-dust letter from DAQ Director <strong>Laura Crowder</strong>. Runoff flooded about six homes on May 23–24.",
+  "projects": [
+   "monarch"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Charleston Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "google-air",
+  "body": "dep",
+  "title": "Buffalo campus: 288 diesel generators, 128 cooling towers",
+  "where": "Google / Cumulus Group LLC",
+  "case": "",
+  "status": "Application filed Jul 22",
+  "stage": "open",
+  "stamp": "Application filed Jul 22",
+  "tone": "signal",
+  "summary": "Projected 249 tons/yr of NOx. The Army Corps application shows 34+ acres of wetlands and 45,000+ feet of streams affected.",
+  "projects": [
+   "google"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Charleston Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "adams-air",
+  "body": "dep",
+  "title": "TransGas Adams Fork plants, Mingo County",
+  "where": "Air permits R13-3714 / R13-3715",
+  "case": "Air permits R13-3714 / R13-3715",
+  "status": "Issued Oct 2025",
+  "stage": "closed",
+  "stamp": "Issued Oct 2025",
+  "tone": "dim",
+  "summary": "Two gas plants with 117 engines each to power data centers at Twisted Gun (Wharncliffe) and Harless Industrial Park (Holden).",
+  "projects": [
+   "adams-tg",
+   "adams-h"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Global Energy Monitor",
+    "url": "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus"
+   },
+   {
+    "label": "Tracker (permit nos.)",
+    "url": "https://nearbydatacenters.org/wv/"
+   },
+   {
+    "label": "WV Watch (sites)",
+    "url": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"
+   },
+   {
+    "label": "Gazette-Mail (117 engines)",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "hb2014",
+  "body": "legislature",
+  "title": "Power Generation and Consumption Act",
+  "where": "HB 2014",
+  "case": "HB 2014",
+  "status": "Law · 2025",
+  "stage": "closed",
+  "stamp": "Law · 2025",
+  "tone": "dim",
+  "summary": "Creates High Impact Data Center (≥90 MW) certification and microgrid districts of up to 2,250 acres, and preempts county and city zoning. Host counties get 30% of the property-tax revenue. Signed by Gov. <strong>Patrick Morrisey</strong> on Apr 30, 2025.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "WV Legislature",
+    "url": "https://bills.wvlegislature.gov/bill/history/2025/rs/HB2014"
+   },
+   {
+    "label": "WVCBP (30% / local control)",
+    "url": "https://wvpolicy.org/five-ways-hb-2014-harms-communities-local-governments-and-schools/"
+   },
+   {
+    "label": "Tracker (90 MW, 2,250 acres, Apr 30)",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "hb4983",
+  "body": "legislature",
+  "title": "Certification rule + confidentiality",
+  "where": "HB 4983",
+  "case": "HB 4983",
+  "status": "Law · 2026",
+  "stage": "closed",
+  "stamp": "Law · 2026",
+  "tone": "dim",
+  "summary": "Approves rule 145 CSR 20 and keeps certification petitions confidential. The House passed it 78-16. Local-control bills HB 5620 and SB 658, and the water-notice bill HB 5590, all died.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Mountain State Spotlight",
+    "url": "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/"
+   },
+   {
+    "label": "Gazette-Mail (78-16)",
+    "url": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   },
+   {
+    "label": "Tracker (bill list)",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "gov-plan",
+  "body": "legislature",
+  "title": "Responsible Data Center Development Plan",
+  "where": "Governor's plan",
+  "case": "",
+  "status": "Policy · Aug 11, 2026",
+  "stage": "closed",
+  "stamp": "Adopted Aug 11",
+  "tone": "dim",
+  "summary": "Seven principles over 20 years, run by the Data Economy Office (Director <strong>Chris Morris</strong>). It promises a Data Center Advisory Council on setbacks and noise. No roster has been published.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": null,
+  "sources": [
+   {
+    "label": "Plan (PDF)",
+    "url": "https://westvirginia.gov/wp-content/uploads/2026/08/Data-Center-Principles-August-2026-FINAL-8-26.pdf"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "reform",
+  "body": "legislature",
+  "title": "Repeal or amend HB 2014",
+  "where": "Reform push",
+  "case": "",
+  "status": "2027 session",
+  "stage": "prefiling",
+  "stamp": "2027 session",
+  "tone": "legal",
+  "summary": "Democratic Chair <strong>Mike Pushkin</strong>, Del. <strong>Shawn Fluharty</strong>, the WV NAACP (moratorium resolution), and the WVDCAP coalition are pushing local control, water protections, and a fairer county revenue share.",
+  "projects": [
+   "hb2014"
+  ],
+  "counties": [],
+  "next": {
+   "t": "2027 Regular Session convenes",
+   "d": "2027-01-13"
+  },
+  "sources": [
+   {
+    "label": "WV MetroNews, Oct 30, 2026",
+    "url": "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   },
+   {
+    "label": "Black By God (NAACP)",
+    "url": "https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/"
+   },
+   {
+    "label": "WV CAG (WVDCAP)",
+    "url": "https://wvcag.org/?p=16377"
+   },
+   {
+    "label": "WVPB (Fluharty)",
+    "url": "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/"
+   }
+  ],
+  "checked": "2026-11-03"
+ }
+]

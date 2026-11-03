@@ -21,9 +21,8 @@ TEXT_DIM = (180, 195, 220)
 RED_SLASH = (220, 38, 38)
 
 # Extract WV polygon
-html = (REPO / "index.html").read_text()
-m = re.search(r"const WV = \[(.*?)\];", html, re.S)
-pairs = re.findall(r"\[(-?\d+\.\d+),(-?\d+\.\d+)\]", m.group(1))
+import json
+pairs = json.loads((REPO / "data" / "wv-outline.json").read_text())["ring"]
 WV_COORDS = [(float(a), float(b)) for a, b in pairs]
 
 # ============================================================

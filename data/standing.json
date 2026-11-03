@@ -1,0 +1,188 @@
+[
+ {
+  "body": "Berkeley County Commission",
+  "county": "Berkeley",
+  "rule": "Weekly on Thursdays (the time is on each agenda)",
+  "where": "Commission Chambers, 400 W. Stephen St., Suite 205, Martinsburg",
+  "next": "Nov 5",
+  "projects": [
+   "penzance",
+   "qts"
+  ],
+  "url": "https://www.berkeleywv.org/agendacenter"
+ },
+ {
+  "body": "Grant County Commission",
+  "county": "Grant",
+  "rule": "2nd and 4th Tuesdays (inferred from posted agenda dates)",
+  "where": "5 Highland Ave., Petersburg",
+  "projects": [
+   "ridgeline"
+  ],
+  "verify": "The county does not publish a schedule; this pattern is inferred from its posted agendas.",
+  "url": "https://www.grantcountywv.org/agencies/agendas/CommissionAgendas.php",
+  "note": "Ridgeline could expand into Grant County."
+ },
+ {
+  "body": "Hampshire County Commission",
+  "county": "Hampshire",
+  "rule": "Set at the first meeting of each year. Agendas are posted 3 business days ahead.",
+  "where": "Romney",
+  "projects": [
+   "marl",
+   "valleylink"
+  ],
+  "url": "http://hampshirewv.com/CommAgenda.html"
+ },
+ {
+  "body": "Jefferson County Commission",
+  "county": "Jefferson",
+  "rule": "1st Thursday 9:30 a.m. and 3rd Thursday 6:00 p.m. (5th Thursday 9:30 a.m.)",
+  "where": "Charles Town",
+  "next": "Nov 5 (9:30 a.m.)",
+  "projects": [
+   "qts",
+   "summit"
+  ],
+  "url": "https://www.jeffersoncountywv.org/county-government/elected-officials/county-commission/meeting-session-information"
+ },
+ {
+  "body": "Marion County Commission",
+  "county": "Marion",
+  "rule": "2nd and 4th Wednesdays, 10:00 a.m.",
+  "where": "J. Harper Meredith Building, 4th floor, Fairmont",
+  "projects": [
+   "hoglick"
+  ],
+  "url": "https://www.marioncountywv.com/departments/county_commission/index.php"
+ },
+ {
+  "body": "Mason County Commission",
+  "county": "Mason",
+  "rule": "Thursdays, 4:00 p.m. (dates on the county calendar)",
+  "where": "Mason County Courthouse, 200 Sixth St., Point Pleasant",
+  "projects": [
+   "monarch",
+   "tamarack"
+  ],
+  "url": "https://masoncountywv.gov/calendar/"
+ },
+ {
+  "body": "Mineral County Commission",
+  "county": "Mineral",
+  "rule": "Usually the 2nd Tuesday at 8:30 a.m. and the 4th Tuesday at 4:30 p.m. (inferred from posted agendas)",
+  "where": "Administrative Annex, 68 Armstrong St., Keyser. Zoom offered.",
+  "projects": [
+   "marl"
+  ],
+  "verify": "The county does not publish a schedule; this pattern is inferred from its posted agendas.",
+  "url": "https://www.mineralwv.gov/agendas-minutes/"
+ },
+ {
+  "body": "Mingo County Commission",
+  "county": "Mingo",
+  "rule": "Tuesdays, 4:30 p.m. (from a past notice; confirm locally)",
+  "where": "Room 308-B, 78 E. 2nd Ave., Williamson",
+  "projects": [
+   "adams-tg",
+   "adams-h"
+  ],
+  "url": "https://mingocountywv.com/",
+  "verify": "The county website is under construction, and we could not confirm a current schedule. Call the county clerk before attending."
+ },
+ {
+  "body": "Monongalia County Commission",
+  "county": "Monongalia",
+  "rule": "Every Wednesday, 10:00 a.m.",
+  "where": "County Courthouse, 2nd floor, 243 High St., Morgantown",
+  "projects": [
+   "fortmartin",
+   "marl"
+  ],
+  "url": "https://www.monongaliacounty.gov/commission/meeting_schedule/index.php"
+ },
+ {
+  "body": "Monroe County Commission",
+  "county": "Monroe",
+  "rule": "1st Wednesday, 9:00 a.m.",
+  "where": "Monroe County Courthouse, Union",
+  "next": "Nov 4",
+  "projects": [
+   "monroe"
+  ],
+  "url": "https://www.monroecountywv.gov/commission/meeting-datespress-releasesminutes/60"
+ },
+ {
+  "body": "Ohio County Commission",
+  "county": "Ohio",
+  "rule": "Tuesdays, 8:00 a.m. (check the county calendar)",
+  "where": "Room 215, City-County Building, 1500 Chapline St., Wheeling",
+  "projects": [
+   "warwood"
+  ],
+  "url": "https://www.ohiocountywv.gov/calendar"
+ },
+ {
+  "body": "Wheeling City Council",
+  "county": "Ohio",
+  "rule": "1st and 3rd Tuesdays, 5:30 p.m.",
+  "where": "Council Chambers, City-County Building, Wheeling",
+  "next": "Nov 4 (moved for the election) and Nov 17",
+  "projects": [
+   "warwood"
+  ],
+  "url": "https://www.wheelingwv.gov/departments/citycouncil/councilmeetings",
+  "note": "The Warwood project is described as under 90 MW, so the city, not HB 2014, has oversight."
+ },
+ {
+  "body": "Preston County Commission",
+  "county": "Preston",
+  "rule": "Tuesdays 9:30 a.m.; the last Tuesday of the month at 6:00 p.m.",
+  "where": "Suite 202, Kingwood",
+  "projects": [
+   "marl"
+  ],
+  "url": "https://www.prestoncountywv.gov/197/County-Commission"
+ },
+ {
+  "body": "Putnam County Commission",
+  "county": "Putnam",
+  "rule": "2nd Tuesday 9:00 a.m. and last Tuesday 5:00 p.m.",
+  "where": "Putnam County Justice Building, Winfield",
+  "projects": [
+   "google"
+  ],
+  "url": "https://putnamcountywv.gov/commission/"
+ },
+ {
+  "body": "Putnam County Development Authority",
+  "county": "Putnam",
+  "rule": "3rd Tuesday, 4:30 p.m.",
+  "where": "Putnam County",
+  "projects": [
+   "google"
+  ],
+  "url": "https://pcda.org/meetings/",
+  "note": "It helped direct Google's first round of community investments."
+ },
+ {
+  "body": "Tucker County Commission",
+  "county": "Tucker",
+  "rule": "2nd Wednesday 9:00 a.m. and 4th Wednesday 4:00 p.m.",
+  "where": "Courthouse courtroom, 215 1st St., Parsons",
+  "projects": [
+   "ridgeline"
+  ],
+  "url": "https://tuckercountycommission.com/county-commission"
+ },
+ {
+  "body": "Tucker County Development Authority",
+  "county": "Tucker",
+  "rule": "3rd Thursday, 6:00 p.m.",
+  "where": "National Youth Science Foundation Building, 494 Riverstone Rd., Davis",
+  "projects": [
+   "ridgeline"
+  ],
+  "url": "https://tuckerwv.com/about-us/meeting-information/"
+ }
+]
