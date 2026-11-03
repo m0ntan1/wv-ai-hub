@@ -23,6 +23,7 @@ assets/js/
   views/county.js          #/counties, #/county/:slug   county index and printable field sheet
   views/misc.js            #/projects, #/map, #/hubs, #/receipts, 404
   views/contact.js         #/contact     contact form (Netlify Forms; the hidden copy in index.html registers it at deploy)
+  views/news.js            #/news        news aggregator, plus the front-page "In the news" section and each case file's news
 data/*.json                The content. Edit these to update the site.
 calendar.ics, feed.json    Built by tools/build_feeds.py from data/.
 assets/qr/*.svg            County-sheet QR codes, built by tools/build_feeds.py.
@@ -36,7 +37,7 @@ docs/update-plan.md        How the site is kept current.
 ```
 
 ### Routes
-Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`, `#/contact`.
+Hash routes, so any static host works: `#/`, `#/map`, `#/projects`, `#/project/:id`, `#/docket`, `#/calendar`, `#/people`, `#/counties`, `#/county/:slug`, `#/hubs`, `#/receipts`, `#/contact`, `#/news`.
 Query strings work after the route: `#/people?focus=bowles-rice`, `#/calendar?county=Mason`, `#/calendar?e=<event id>`, `#/docket?body=psc`, `#/contact?topic=correction&about=<project>`.
 
 ### Contact form
@@ -103,6 +104,8 @@ All dates are `YYYY-MM-DD`, or `YYYY-MM` / `YYYY` when only the month or year is
 - `desk.json`: dated desk log for the ticker, front page, and feed `{d, t, project?, src}`
 - `hubs.json`: the "other AI story" pages `{id, name, tag, pop?, major, lat?, lng?, stories[{title, html, sources[]}]}`
 - `receipts.json`: results of the Nov 2026 verification pass (`rows[]` with `sec`, `title`, `status`, `urls`, `note`)
+- `news.json`: built by `tools/fetch_news.py`; don't edit by hand. `{updated, sources[], items[{id, d, title, url, source, summary, projects[], via, seen, story}]}`. `story` groups coverage of the same story (the item whose `id` equals `story` leads)
+- `news-sources.json`: the collector's settings: `feeds` (outlet RSS), `searches` (Bing News RSS, whose links are unwrapped to the publisher), `match` (beat terms), `wv` (West Virginia terms; all 55 county names are added automatically), `projects` (tagging words per project), `preferred` and `syndicators` (which copy leads a story), and `block` (URLs, hosts, or phrases to drop)
 - `meta.json`: `updated` (bump every shift), site URLs, and the four front-page `stats` (each with its source)
 - `geo.json`: 55 county outlines and the state border (from the U.S. Census Bureau, via plotly/datasets). Built by `tools/build_geo.py`
 - `wv-outline.json`: ordered border ring used by the image scripts in `assets/scripts/`

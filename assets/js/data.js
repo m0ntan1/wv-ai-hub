@@ -6,11 +6,14 @@ export const D = {};
 
 export async function loadData() {
   const v = document.documentElement.dataset.v || '';
+  // News is optional (a fork may not have run the collector yet), so it never blocks the site.
+  const newsP = fetch(`data/news.json${v ? '?v=' + v : ''}`).then(r => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] }));
   const got = await Promise.all(FILES.map(f => fetch(`data/${f}.json${v ? '?v=' + v : ''}`).then(r => {
     if (!r.ok) throw new Error(`data/${f}.json: HTTP ${r.status}`);
     return r.json();
   })));
   FILES.forEach((f, i) => { D[f] = got[i]; });
+  D.news = await newsP;
   derive();
   return D;
 }
