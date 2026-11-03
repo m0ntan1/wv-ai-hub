@@ -13,7 +13,7 @@
 4. Pulled calendar items (hearings, protests, town halls, open houses) and flagged those that are past vs. upcoming relative to **Nov 3, 2026 (Election Day)**.
 
 **Hard blocks (could not do)**
-- Could not query the PSC e-filing system, DEP permit database, or court dockets directly. Docket statuses come from reporting and public notices, not the dockets themselves.
+- PSC docket status now comes from the curator's PSC Case Subscription emails (see §4b), which link to primary PSC documents. Direct access to psc.state.wv.us is blocked from this environment (403/503, then an IP block notice through Firecrawl). The DEP permit database and court dockets were still not queried directly.
 - Several pages returned 403/404/503 (West Virginia Watch on two stories, NPR on Oct 31). Their facts come from search summaries and syndicated copies only.
 - Election results for Nov 3, 2026 were not available at time of writing.
 
@@ -130,7 +130,7 @@
 - Sources: [WVTF/Radio IQ](https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center), [Mountain Messenger](https://mountainmessenger.com/?p=100074)
 
 ### 2.12 Power and grid projects driven by data-center load
-- **Fort Martin gas addition (Monongalia Co.):** Mon Power / Potomac Edison (FirstEnergy). 1,200 MW gas plus 70 MW solar, $2.48B. Filed Feb 2026. Public comment hearing Jul 15 and evidentiary hearing Jul 16. **No PSC decision yet**, with a statutory deadline of Feb 2027. Sierra Club WV contests "abandonment" cost recovery and notes no signed data-center contract. [WVPB](https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/), [Sierra Club](https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant)
+- **Fort Martin gas addition (Monongalia Co.) · PSC Case 26-0108-E-CN:** Mon Power / Potomac Edison (FirstEnergy). Fully briefed Sep 14, 2026 (see §4b). 1,200 MW gas plus 70 MW solar, $2.48B. Filed Feb 2026. Public comment hearing Jul 15 and evidentiary hearing Jul 16. **No PSC decision yet**, with a statutory deadline of Feb 2027. Sierra Club WV contests "abandonment" cost recovery and notes no signed data-center contract. [WVPB](https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/), [Sierra Club](https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant)
 - **MARL – Mid-Atlantic Resiliency Link (PSC Case 26-0075-E-CN):** NextEra Energy Transmission MidAtlantic. 500 kV, ~58.9 WV miles across Monongalia, Preston, Mineral, and Hampshire. 190+ landowner intervenors. PSC staff analyst Daniel Egnatoff recommended denial. Evidentiary hearings ended Oct 30 (one listing shows Nov 2). **Initial briefs due Nov 23, replies Dec 4, decision expected ~Mar 6, 2027.** [Valley North Record](https://valleynorthrecord.substack.com/p/regional-osint-db7), [WV Legals notice](https://wvlegals.com/?p=201001)
 - **Valley Link / "Valley North" 765 kV:** A Dominion, FirstEnergy Transmission, and Transource (AEP/Evergy) joint venture. Runs from the John Amos plant (Putnam) east toward Frederick Co., MD, with a Hardy Co. substation. Preliminary corridors through 14–20 WV counties. No PSC application yet, and a preferred route is expected early 2027. County commissions opposed: Barbour, Upshur, Lewis, Preston. State Sen. **Robbie Morris** opposes it. Ag Commissioner **Kent Leonhardt** has raised concerns. Ken Burns has publicly opposed it. [WDTV](https://www.wdtv.com/2026/07/17/upshur-county-commission-opposes-valley-north-transmission-project/), [WMRA](https://www.wmra.org/2026-08-25/the-growing-county-government-opposition-to-valley-link), [Cardinal News](https://cardinalnews.org/2026/06/02/valley-link-says-its-new-transmission-line-plan-would-impact-fewer-people-opponents-vow-to-continue-fighting-it/)
 - **ApCo/Wheeling Power large-load tariff (PSC Case 24-0611-E-T-PW):** ≥100 MW customers get 12-year contracts with an 80% minimum demand charge. ApCo says it has contracted "more than double" its 540 MW Virginia data-center load in WV. [WVPB](https://wvpublic.org/story/energy-environment/compromise-proposed-in-psc-case-involving-data-centers/), [Cardinal News](https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/)
@@ -194,11 +194,59 @@
 
 ---
 
+## 4b. PSC docket record (primary source: PSC Case Subscription digests)
+
+**Source and method.** 61 daily "[PSC Docket] Activities On" digests sent by the PSC's Case Subscription System (`docketnotify@psc.state.wv.us`) to the curator's inbox, Aug 4 – Nov 2, 2026, under a subscription labeled "Maidsville / Fort Martin CPCN." I read 30 digests: every one containing a Commission order, Staff filing, brief, or hearing notice. The other 31 are protest and support letters and returned mail. Each fact below links to the public PSC document the digest pointed to. One case page (25-0450) was confirmed directly through Firecrawl before the PSC site began returning "This IP Address may be forbidden," so I stopped scraping.
+
+**Privacy rule applied.** The digests name hundreds of private residents who filed protest letters, petitions, or testimony. This dossier and the site name only government bodies, PSC staff, companies, organizations, and counsel. Individual residents are reported as counts.
+
+### Case 26-0075-E-CN · MARL 500 kV (NextEra Energy Transmission MidAtlantic, "NEET MA") · [case](https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745)
+| Date | Event | Doc |
+|---|---|---|
+| Mar 18, 2026 | Commission sets the procedural schedule: Staff and intervenor testimony due Sep 8, evidentiary hearing Oct 26 – Nov 2, **decision due Mar 6, 2027** | (cited in Sep 4 order) |
+| Aug 10 | Commission order rules on the remaining intervention petitions, denies an intervenor's bid to overturn a waiver of Tariff Rule 20.1, and directs NEET MA to file limited financial information | [order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=668435) |
+| Aug 19 | **PSC Staff moves to require NEET MA to toll the case, or in the alternative to dismiss it.** Further Joint Staff Memo by Victoria Wilson, Lucas Head, and Kathryn (Katie) Campbell | [motion](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=668998) · [memo](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669005) |
+| Aug 31 | NEET MA and Staff file a joint motion to amend the schedule. NEET MA files a conditional motion to toll. | [joint motion](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669596) · [toll](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669597) |
+| Sep 3 | The County Commissions and Ponderosa Pastures Corp. oppose the schedule change. Counsel appears for the Hampshire and Mineral County Commissions. | [response](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669827) |
+| **Sep 4** | **Commission denies Staff's motion, the joint motion, and NEET MA's toll motion. Schedule and Mar 6, 2027 decision date stand.** Separately orders NEET MA to analyze sharing or widening the existing **Gore–Hampshire right-of-way** within 10 days, and to disclose maps of cultural and archaeological sites and protected-species habitat (under a confidentiality agreement). Defers a request that SHPO, the DNR Natural Heritage Program, and USFWS review the project. | [schedule order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977) · [ROW order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669976) |
+| Sep 8 | Testimony deadline. **Staff files the direct testimony of Daniel W. Egnatoff.** About 45 intervenor testimonies are filed, including from the Harrison and Hampshire County Commissions (witness J. Logan Mantz), WATI (Catherine M. Kunkel, Anthony Campbell), and Lake O' Woods Club (4 witnesses). WVEUG files a letter in lieu of testimony. | [Staff](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670106) · [WATI](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670088) |
+| Sep 14 | NEET MA files its Gore–Hampshire right-of-way feasibility analysis | [analysis](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670471) |
+| Sep 30 | Commission sets the witness schedule for the **Oct 26–30 and Nov 2** hearing. The hearing is **live-streamed** to the public. | [order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382) |
+| Oct 2 | NEET MA files a **Second Route Revision Supplement** | [filing](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671497) |
+| Oct 5 | **Jefferson County Commission files a protest letter.** A petition with 136 signatures is filed. | [protest](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671649) |
+| Oct 6–7 | WVEUG adds counsel, with Derrick Price Williamson admitted pro hac vice. NEET MA and WATI file rebuttal testimony. | [NEET rebuttal](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671804) · [WATI rebuttal](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671803) |
+| Oct 19 | Commission revises the witness schedule, sets rules for admitting testimony without an appearance, rules on Lake O' Woods Club's protective-treatment motion, and reminds parties that companies and counties need licensed counsel | [order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=672381) |
+| Oct 23 | NEET MA reports an **agreement with Lake O' Woods Club** and asks to release its witnesses. NEET MA also responds to intervenor motions for water-resource and road-restoration conditions. | [letter](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=672934) |
+| Oct 28–29 | **Friends of the Cheat** files comments. **Hampshire County Farmland Protection Board** files a protest. | [FOC](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673159) · [HCFPB](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673222) |
+| Oct 26 – Nov 2 | Evidentiary hearing week, with dozens of letters a day. Protest filings far outnumber support. | — |
+
+**Volume.** Across the 30 digests read, petitions and bulk letter filings add up to **more than 2,000 protest signatures and letters**, including single filings of 356, 342, 310, 295, 159, and 155. About a dozen support letters were filed. The PSC's official count page for support versus protest was blocked from this environment.
+
+**Not confirmed by the digests.** The Nov 23 initial-brief and Dec 4 reply-brief dates come from Valley North Record. No briefing order appeared in the digests through Nov 2.
+
+### Case 26-0108-E-CN · Fort Martin CPCN (Mon Power & Potomac Edison) · [case](https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785)
+- **This is the Fort Martin 1,200 MW gas plant case.** The dossier previously lacked its case number.
+- **Aug 28, 2026 initial briefs:** Mon Power/PE, PSC Staff, the Consumer Advocate Division (CAD), WV Energy Users Group (WVEUG), the Sierra Club, **CAG/SUN/EEWV** (WV Citizen Action Group, Solar United Neighbors, Energy Efficient WV), **WV Coal Association**, **Gas and Oil Association of WV**, **WV Manufacturers Association**, and **WV Building & Construction Trades Council AFL-CIO with GOA of WV**. [Mon Power brief](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669552) · [Staff brief](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669564) · [Sierra Club brief](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669561)
+- **Sep 14 reply briefs:** Mon Power/PE, CAG/SUN/EEWV, CAD, WVEUG, and WV Coal Association. [Mon Power reply](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670444)
+- **Status:** Fully briefed and awaiting a Commission order. Since Sep 14 only public letters have been filed (about 17 protests and 1 support letter in the digests read).
+
+### Case 25-0450-E-GI · PJM capacity market / FRR General Investigation · [case](https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852)
+- **Parties:** Appalachian Power, Wheeling Power, and Mon Power. Intervenors are the Consumer Advocate Division and WVEUG.
+- **What it is:** Opened May 2025 to ask whether APCo/WPCo should keep **Fixed Resource Requirement** status (supplying their own capacity instead of buying in PJM's auction), how AEP bids and allocates capacity among its operating companies, and how Mon Power participates in PJM's capacity market. This matters because data-center load growth is driving PJM capacity prices.
+- **Jun 17, 2026 order:** Utilities must answer the Commission's questions by Oct 30, 2026. **Staff's recommendation is due 60 days after the responses (about Dec 29, 2026).**
+- **Oct 22:** Mon Power responds. [response](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=672741)
+- **Oct 30:** APCo/WPCo respond. [response](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673326)
+
+### Case 25-0857-E-IRP · Mon Power & Potomac Edison Integrated Resource Plan · [case](https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85369)
+- **Aug 28, 2026 order:** Utilities must file the detailed data behind their IRP summary tables and charts **by Dec 1, 2026**, and an updated IRP on **Dec 1, 2028**. [order](https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562)
+
+---
+
 ## 5. Open questions / next research pass
 - Monarch R14-0042 final determination date.
 - Whether Tucker United has refiled, and in which court.
 - Barks v. Silicon Foundation: judge, hearing dates.
-- Fort Martin PSC case number and order.
+- Fort Martin (26-0108-E-CN) final order. The case number is now found, and the case is fully briefed.
 - Valley Link's full WV open-house schedule.
 - Google air permit public-comment window.
 - Data Center Advisory Council roster.
