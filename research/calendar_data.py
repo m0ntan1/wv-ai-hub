@@ -98,7 +98,9 @@ EVENTS = [
   dict(id='fm-deadline', date='2027-02-28', label='By Feb 2027', approx=True, type='psc',
        title='Fort Martin decision deadline',
        desc='The statutory deadline for the PSC to rule on Mon Power\'s 1,200 MW gas plant plus 70 MW of solar (Case 26-0108-E-CN). Briefing closed Sep 14, 2026.',
-       county='Statewide', host='PSC, Case 26-0108-E-CN', project='fortmartin', sources=[['PSC docket', PSC_CASE + '85785']]),
+       county='Statewide', host='PSC, Case 26-0108-E-CN', project='fortmartin',
+       flag='The Feb 2027 deadline was reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.',
+       sources=[['PSC docket', PSC_CASE + '85785']]),
   dict(id='marl-decision', date='2027-03-06', type='psc',
        title='MARL decision due',
        desc='The decision date for NextEra\'s 500 kV line (Case 26-0075-E-CN), set Mar 18 and reaffirmed when the PSC refused to pause the case on Sep 4.',
@@ -115,7 +117,7 @@ EVENTS = [
   dict(id='tbd-monarch', tbd=True, type='hearing', title='Monarch air permit R14-0042: DEP final decision',
        desc='DEP will publish a response-to-comments document and a final determination on the 2.16 GW, 864-engine gas microgrid.',
        county='Mason', host='WV DEP Division of Air Quality', project='monarch',
-       sources=[['WSAZ', 'https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/']]),
+       sources=[['WSAZ', 'https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/'], ['Tracker: permit R14-0042', 'https://nearbydatacenters.org/wv/']]),
   dict(id='tbd-ridgeline', tbd=True, type='court', title='Ridgeline air-permit appeal refiled',
        desc='Tucker United, WVHC, and Sierra Club plan to refile in circuit court or the Supreme Court of Appeals after the ICA\'s jurisdictional dismissal.',
        county='Tucker', host='Appalachian Mountain Advocates (counsel)', project='ridgeline',
@@ -191,13 +193,18 @@ EVENTS = [
        project='google', sources=[['Gazette-Mail', 'https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html']]),
   dict(id='p-naacp', date='2026-08-14', end='2026-08-15', type='community', title='WV NAACP convention calls for a moratorium',
        desc='Delegates unanimously demanded a pause of at least two years on high-impact data centers and microgrids.', venue='Huntington', county='Cabell', host='WV NAACP',
-       project='hb2014', sources=[['The Fulcrum', 'https://thefulcrum.us/community/west-virginia-naacp-data-center-moratorium-call']]),
+       project='hb2014', sources=[['Black By God', 'https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/']]),
   dict(id='p-govplan', date='2026-08-11', type='government', title='Governor unveils the Responsible Data Center Development Plan',
        county='Statewide', host='Gov. Patrick Morrisey', project='hb2014',
        sources=[['WDTV', 'https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/']]),
-  dict(id='p-fm-hearing', date='2026-07-15', end='2026-07-16', type='psc', title='Fort Martin public-comment and evidentiary hearings',
-       venue='Howard M. Cunningham Hearing Room, PSC', address=PSC_HQ, county='Kanawha', host='PSC, Case 26-0108-E-CN', project='fortmartin',
-       sources=[['Dominion Post', 'https://www.dominionpost.com/?p=566179']]),
+  dict(id='p-fm-hearing', date='2026-07-15', start='17:30', type='psc', title='Fort Martin public comment hearing (virtual and in person)',
+       desc='Public comment on Mon Power and Potomac Edison\'s certificate application for the roughly 1,200 MW gas plant.',
+       venue='PSC headquarters', address=PSC_HQ, county='Kanawha', host='PSC, Case 26-0108-E-CN', project='fortmartin',
+       sources=[['WDTV', 'https://www.wdtv.com/2026/05/15/public-hearing-set-monpowers-proposed-gas-plant-mon-county-solar-site-near-davis/']]),
+  dict(id='p-psc-rule-hearing', date='2026-09-28', start='09:30', endt='12:00', type='psc', title='PSC public hearing on HB 2014 generating-capacity rules',
+       desc='Public hearing in Case 26-0633-E-GI on the rules that became 150 CSR 41.',
+       venue='PSC headquarters', address=PSC_HQ, county='Kanawha', host='PSC, Case 26-0633-E-GI', project='hb2014',
+       sources=[['WDTV', 'https://www.wdtv.com/2026/08/20/state-psc-schedules-public-hearing-power-rules-behind-governor-morriseys-data-center-plan/'], ['WVPB', 'https://wvpublic.org/story/energy-environment/public-hearing-on-data-center-power-rules-scheduled/']]),
   dict(id='p-canaan', date='2026-06-14', end='2026-06-16', type='legislature', title='Interims at Canaan Valley, with Tucker United picnic and Davis panel',
        desc='Tucker United held a solidarity picnic and a roadside protest, Democrats held a press event at Davis Town Hall (Jun 15), and Mountain State Spotlight hosted a panel at Davis Fire Hall.',
        venue='Canaan Valley Resort', address='Davis, WV 26260', county='Tucker', host='WV Legislature', project='ridgeline',
@@ -212,23 +219,23 @@ EVENTS = [
 
 # Standing public meetings: rule as published. next = only dates seen posted.
 STANDING = [
-  dict(body='Berkeley County Commission', county='Berkeley', rule='Thursdays, 9:30 a.m. (most weeks; check the agenda center)', where='Commission Chambers, 400 W. Stephen St., Suite 205, Martinsburg', next='Nov 5', projects=['penzance', 'qts'], url='https://www.berkeleywv.org/agendacenter'),
-  dict(body='Grant County Commission', county='Grant', rule='2nd and 4th Tuesdays (based on posted agendas)', where='5 Highland Ave., Petersburg', projects=['ridgeline'], url='https://www.grantcountywv.org/agencies/agendas/CommissionAgendas.php', note='Ridgeline could expand into Grant County.'),
+  dict(body='Berkeley County Commission', county='Berkeley', rule='Weekly on Thursdays (the time is on each agenda)', where='Commission Chambers, 400 W. Stephen St., Suite 205, Martinsburg', next='Nov 5', projects=['penzance', 'qts'], url='https://www.berkeleywv.org/agendacenter'),
+  dict(body='Grant County Commission', county='Grant', rule='2nd and 4th Tuesdays (inferred from posted agenda dates)', where='5 Highland Ave., Petersburg', projects=['ridgeline'], verify='The county does not publish a schedule; this pattern is inferred from its posted agendas.', url='https://www.grantcountywv.org/agencies/agendas/CommissionAgendas.php', note='Ridgeline could expand into Grant County.'),
   dict(body='Hampshire County Commission', county='Hampshire', rule='Set at the first meeting of each year. Agendas are posted 3 business days ahead.', where='Romney', projects=['marl', 'valleylink'], url='http://hampshirewv.com/CommAgenda.html'),
   dict(body='Jefferson County Commission', county='Jefferson', rule='1st Thursday 9:30 a.m. and 3rd Thursday 6:00 p.m. (5th Thursday 9:30 a.m.)', where='Charles Town', next='Nov 5 (9:30 a.m.)', projects=['qts', 'summit'], url='https://www.jeffersoncountywv.org/county-government/elected-officials/county-commission/meeting-session-information'),
   dict(body='Marion County Commission', county='Marion', rule='2nd and 4th Wednesdays, 10:00 a.m.', where='J. Harper Meredith Building, 4th floor, Fairmont', projects=['hoglick'], url='https://www.marioncountywv.com/departments/county_commission/index.php'),
   dict(body='Mason County Commission', county='Mason', rule='Thursdays, 4:00 p.m. (dates on the county calendar)', where='Mason County Courthouse, 200 Sixth St., Point Pleasant', projects=['monarch', 'tamarack'], url='https://masoncountywv.gov/calendar/'),
-  dict(body='Mineral County Commission', county='Mineral', rule='Usually the 2nd Tuesday at 8:30 a.m. and the 4th Tuesday at 4:30 p.m. (based on posted agendas)', where='Administrative Annex, 68 Armstrong St., Keyser. Zoom offered.', projects=['marl'], url='https://www.mineralwv.gov/agendas-minutes/'),
-  dict(body='Mingo County Commission', county='Mingo', rule='Tuesdays, 4:30 p.m. (from a past notice; confirm locally)', where='Room 308-B, 78 E. 2nd Ave., Williamson', projects=['adams-tg', 'adams-h'], url='https://mingocountywv.com/'),
+  dict(body='Mineral County Commission', county='Mineral', rule='Usually the 2nd Tuesday at 8:30 a.m. and the 4th Tuesday at 4:30 p.m. (inferred from posted agendas)', where='Administrative Annex, 68 Armstrong St., Keyser. Zoom offered.', projects=['marl'], verify='The county does not publish a schedule; this pattern is inferred from its posted agendas.', url='https://www.mineralwv.gov/agendas-minutes/'),
+  dict(body='Mingo County Commission', county='Mingo', rule='Tuesdays, 4:30 p.m. (from a past notice; confirm locally)', where='Room 308-B, 78 E. 2nd Ave., Williamson', projects=['adams-tg', 'adams-h'], url='https://mingocountywv.com/', verify='The county website is under construction, and we could not confirm a current schedule. Call the county clerk before attending.'),
   dict(body='Monongalia County Commission', county='Monongalia', rule='Every Wednesday, 10:00 a.m.', where='County Courthouse, 2nd floor, 243 High St., Morgantown', projects=['fortmartin', 'marl'], url='https://www.monongaliacounty.gov/commission/meeting_schedule/index.php'),
-  dict(body='Monroe County Commission', county='Monroe', rule='1st Wednesday, 9:00 a.m.', where='Monroe County Courthouse, Union', next='Nov 4', projects=['monroe'], url='https://www.monroecountywv.gov/commission/commission-meetings/149'),
+  dict(body='Monroe County Commission', county='Monroe', rule='1st Wednesday, 9:00 a.m.', where='Monroe County Courthouse, Union', next='Nov 4', projects=['monroe'], url='https://www.monroecountywv.gov/commission/meeting-datespress-releasesminutes/60'),
   dict(body='Ohio County Commission', county='Ohio', rule='Tuesdays, 8:00 a.m. (check the county calendar)', where='Room 215, City-County Building, 1500 Chapline St., Wheeling', projects=['warwood'], url='https://www.ohiocountywv.gov/calendar'),
-  dict(body='Wheeling City Council', county='Ohio', rule='1st and 3rd Tuesdays, 5:30 p.m.', where='Council Chambers, City-County Building, Wheeling', next='Nov 4 (moved for the election) and Nov 17', projects=['warwood'], url='https://www.wheelingwv.gov/meetings', note='The Warwood project is described as under 90 MW, so the city, not HB 2014, has oversight.'),
+  dict(body='Wheeling City Council', county='Ohio', rule='1st and 3rd Tuesdays, 5:30 p.m.', where='Council Chambers, City-County Building, Wheeling', next='Nov 4 (moved for the election) and Nov 17', projects=['warwood'], url='https://www.wheelingwv.gov/departments/citycouncil/councilmeetings', note='The Warwood project is described as under 90 MW, so the city, not HB 2014, has oversight.'),
   dict(body='Preston County Commission', county='Preston', rule='Tuesdays 9:30 a.m.; the last Tuesday of the month at 6:00 p.m.', where='Suite 202, Kingwood', projects=['marl'], url='https://www.prestoncountywv.gov/197/County-Commission'),
-  dict(body='Putnam County Commission', county='Putnam', rule='2nd Tuesday 9:00 a.m. and last Tuesday 5:00 p.m.', where='Winfield', projects=['google'], url='https://putnamcountywv.gov/commission/'),
+  dict(body='Putnam County Commission', county='Putnam', rule='2nd Tuesday 9:00 a.m. and last Tuesday 5:00 p.m.', where='Putnam County Justice Building, Winfield', projects=['google'], url='https://putnamcountywv.gov/commission/'),
   dict(body='Putnam County Development Authority', county='Putnam', rule='3rd Tuesday, 4:30 p.m.', where='Putnam County', projects=['google'], url='https://pcda.org/meetings/', note='It helped direct Google\'s first round of community investments.'),
   dict(body='Tucker County Commission', county='Tucker', rule='2nd Wednesday 9:00 a.m. and 4th Wednesday 4:00 p.m.', where='Courthouse courtroom, 215 1st St., Parsons', projects=['ridgeline'], url='https://tuckercountycommission.com/county-commission'),
-  dict(body='Tucker County Development Authority', county='Tucker', rule='3rd Thursday, 6:00 p.m.', where='NYSF Building, 494 Riverstone Rd., Davis', projects=['ridgeline'], url='https://tuckerwv.com/'),
+  dict(body='Tucker County Development Authority', county='Tucker', rule='3rd Thursday, 6:00 p.m.', where='National Youth Science Foundation Building, 494 Riverstone Rd., Davis', projects=['ridgeline'], url='https://tuckerwv.com/about-us/meeting-information/'),
 ]
 
 def main(md_path, js_path):
@@ -281,7 +288,7 @@ This file is generated from the same data that powers the site's Calendar sectio
 ## Standing public meetings ({len(STANDING)})
 | Body | County | Schedule (as published) | Where | Next posted | Related | Source |
 |---|---|---|---|---|---|---|
-""" + '\n'.join(f"| {s['body']} | {s['county']} | {s['rule']} | {s['where']} | {s.get('next','-')} | {', '.join(s['projects'])}{(' · ' + s['note']) if s.get('note') else ''} | [link]({s['url']}) |" for s in STANDING) + """
+""" + '\n'.join(f"| {s['body']} | {s['county']} | {s['rule']} | {s['where']} | {s.get('next','-')} | {', '.join(s['projects'])}{(' · ' + s['note']) if s.get('note') else ''}{(' · ⚠ ' + s['verify']) if s.get('verify') else ''} | [link]({s['url']}) |" for s in STANDING) + """
 
 ## Open items
 - Hampshire County Commission's 2026 meeting calendar was not found online.
