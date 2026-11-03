@@ -12,6 +12,12 @@ Every claim on wvaihub.com was checked against the source it links to. **202 ite
 4. **PSC items.** These were checked against the PSC Case Subscription docket digests in the curator's inbox. Those digests are the PSC's own notices, and each links to the filed document.
 
 ## Corrections made
+**Corrected Nov 3, 2026 (found by an independent audit of the Rook video script, then checked against DEP's own notice)**
+- Monarch air permit R14-0042: written comments are due before 5 p.m. on Nov 13, 2026, not Oct 30 as the site said. Source: DEP's notice, dated 9/29/2026 ([dep.wv.gov](https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx)). The earlier date came from newspaper coverage and a data-center tracker. Fixed in the Monarch case file, the docket card (now "Public comment open"), the calendar, the desk log, and the Receipts row.
+- Monarch air permit application date: Apr 17, 2026, per the same DEP notice (the site said Apr 20).
+- Front-page stat "public dates on the calendar, with addresses": only about half of the entries carry an address, so it now reads "with addresses where we have them".
+- The desk page said new SEC filings are gathered for "every company on the Money tab". Fifteen of the 40 are private, foreign, or a public body with no SEC filings, so it now says "that files with the SEC".
+
 **Removed**
 - The June 2026 Mountain State Freedom Tech meetup story, at the curator's request.
 - The "Alpha Innovations AI-driven IT services" story. alphainnovations.com is now a domain for sale, so the claim can't be supported.

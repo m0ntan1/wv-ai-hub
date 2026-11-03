@@ -1,5 +1,11 @@
 [
  {
+  "d": "2026-11-03",
+  "t": "Correction: DEP's own notice says written comments on Monarch's air permit R14-0042 are due before 5 p.m. Nov 13, not Oct 30 as earlier reported.",
+  "project": "monarch",
+  "src": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
+ },
+ {
   "d": "2026-11-02",
   "t": "Stop Valley Link peaceful protest at the Barbour County Courthouse in Philippi.",
   "project": "valleylink",
@@ -16,12 +22,6 @@
   "t": "Nvidia is in talks to guarantee billions in construction debt for Monarch's Anthropic building.",
   "project": "monarch",
   "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
- },
- {
-  "d": "2026-10-30",
-  "t": "The DEP closes comments on Monarch air permit R14-0042. A final decision is pending.",
-  "project": "monarch",
-  "src": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
  },
  {
   "d": "2026-10-26",
