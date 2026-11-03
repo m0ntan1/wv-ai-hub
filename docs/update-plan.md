@@ -96,13 +96,13 @@ All data lives in `data/*.json`. The schema for each file is in `DOCS.md`. Times
 | Tier | What | Status |
 |---|---|---|
 | **0. In the repo now** | `tools/check.py` (structure, references, dates, staleness, optional link check), `tools/build_feeds.py` (calendar.ics, feed.json, QR codes, sitemap), and `?today=` time travel for testing | Done |
-| **1. Check every push** | A GitHub Action runs `check.py` and `build_feeds.py` on every push and pull request and fails on errors. Netlify deploy previews show each pull request before merge. | Ready to add (workflow file below) |
+| **1. Check every push** | A GitHub Action (`.github/workflows/check.yml`) runs `check.py` and `build_feeds.py` on every push and pull request and fails on errors. Netlify deploy previews show each pull request before merge. | Done. The first run passed on Nov 3, 2026 |
 | **2. Weekly drafted shift** | A scheduled Claude task, Mondays early morning ET. It reads new PSC digests in Gmail, sweeps the sources in section 1, drafts the JSON edits and desk items on a branch, runs the checker, and opens a pull request whose description lists every source. **It never publishes.** You review and merge. | Needs your go-ahead |
 | **3. Reach** | A "Send a tip or correction" link (mailto first, a form later). `calendar.ics` subscriptions and `feed.json` are already live. An email digest built from `feed.json` can come later. | Proposed |
 
 What stays human: status labels, any new connection in the web, anything about a named private person, and the decision to publish.
 
-### Tier 1 workflow file (`.github/workflows/check.yml`)
+### Tier 1 workflow (now in `.github/workflows/check.yml`)
 ```yaml
 name: check-data
 on: [push, pull_request]
@@ -148,7 +148,6 @@ From `data/events.json` and `data/docket.json`. The checker warns after each one
 **Hard blocks**
 - **Tier 2 needs your approval.** A scheduled task runs in your account and reads your Gmail PSC digests. I won't create it unless you say so.
 - **The PSC website blocks automated access** from this environment. PSC facts come from your subscription emails, so a missed email means a missed update.
-- **The workflow file needs workflow permission on the repository.** If a push that adds it is refused, add the file through GitHub's web editor instead.
 - **Some county sites don't publish schedules** (Mingo's is under construction; Grant and Mineral are inferred from agendas). Those stay ⚠ Verify until someone calls the clerk.
 
 **Soft assumptions (overrule any of these)**
