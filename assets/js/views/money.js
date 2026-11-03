@@ -12,7 +12,7 @@ const ITEMS = { '1.01': 'material agreement', '1.02': 'agreement ended', '1.03':
 const LOUD = new Set(['1.03', '2.03', '2.04', '2.05', '2.06', '3.01', '4.01', '4.02']);
 export const HEALTH = {
   stable: { label: 'Stable', tone: 'ok', def: 'Filings show revenue and cash that comfortably cover obligations, with no going-concern, default, or restatement flags.' },
-  watch: { label: 'Watch', tone: 'signal', def: 'Something in the filings needs watching: heavy losses, reliance on financing not yet committed, customer concentration, or a material weakness.' },
+  watch: { label: 'Watch', tone: 'signal', def: 'Something in the filings needs watching: heavy losses, reliance on financing not yet committed, customer concentration, a material weakness, or large fixed spending commitments relative to revenue.' },
   stressed: { label: 'Stressed', tone: 'alarm', def: 'Filings show acute strain: going-concern doubt that is not resolved, a missed payment or covenant breach, a restatement, or a ratings or listing notice.' },
   pending: { label: 'Health: pending', tone: 'dim', def: 'Not rated yet. The editor has not approved a health read for this company.' },
   nodata: { label: 'No public financials', tone: 'dim', def: 'Privately held, so there are no filings to read.' },
@@ -245,6 +245,7 @@ export function company(main, id) {
         <div class="card side-health"><div class="kicker">Health read</div><p style="margin-top:8px">${healthChip(c)}</p>
           <p class="dim" style="font-size:13.5px;margin-top:8px">${esc(c.health?.why || h.def)}</p>
           ${c.health?.approved ? `<p class="dim mono" style="font-size:11px;margin-top:8px">Approved by the editor ${esc(fmtDate(c.health.approved))}</p>` : ''}
+          ${['stable', 'watch', 'stressed'].includes(c.health?.status) ? '<p class="dim" style="font-size:12px;margin-top:8px">Basis: the company\'s own SEC filings (figures and the past year\'s 8-K reports). Not a full review of every filing. Analysis, not investment advice.</p>' : ''}
           <p style="margin-top:10px"><a class="src" href="#/money#how">How health reads work</a></p></div>
         ${r?.filings?.length ? `<div class="card" style="margin-top:14px"><div class="kicker">Recent SEC filings</div><ul class="fil-list sm" style="margin-top:8px">${r.filings.slice(0, 8).map(f => filingRow({ ...f, id: c.id, cik: r.cik }, false)).join('')}</ul>
           <div class="srcs"><a class="src" href="${esc(edgarUrl(r.cik))}" target="_blank" rel="noopener">All filings ↗</a></div></div>` : ''}
