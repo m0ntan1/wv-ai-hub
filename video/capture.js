@@ -43,7 +43,12 @@ async function open(page, hash) {
   catch (e) { await page.waitForLoadState('domcontentloaded'); }   // a preview's drawer can keep a connection open
   await page.waitForTimeout(900);
   // Netlify deploy previews add a "Collaborate on this Deploy Preview" bar in an iframe; it must not appear in the video.
-  await page.addStyleTag({ content: 'iframe[src*="netlify" i]{display:none!important}' });
+  // The preview's CSP can block an injected stylesheet, so remove the bar from the DOM itself (and keep removing it).
+  await page.addStyleTag({ content: 'iframe[src*="netlify" i]{display:none!important}' }).catch(() => {});
+  await page.evaluate(() => {
+    const kill = () => document.querySelectorAll('iframe[src*="netlify" i]').forEach(f => (f.closest('div') || f).remove());
+    kill(); new MutationObserver(kill).observe(document.documentElement, { childList: true, subtree: true });
+  });
   await redact(page);
 }
 const want = n => !ONLY || ONLY.has(n);
@@ -52,6 +57,7 @@ const want = n => !ONLY || ONLY.has(n);
   fs.mkdirSync(OUT, { recursive: true });
   const b = await chromium.launch();
   const ctx = await b.newContext({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1.5 });
+  await ctx.route(/app\.netlify\.com/, r => r.abort());   // the deploy-preview bar loads from here
   const page = await ctx.newPage();
 
   for (const [name, hash] of STILLS) {

@@ -220,7 +220,7 @@ CHIPS = {
     'chip_verify': ('signal', '⚠ Verify = we could not fully confirm this'),
     'chip_certified': ('', 'Certified: 4 · Monarch’s marker shows “under construction”'),
     'chip_hb2014': ('', 'HB 2014: certified data centers skip county zoning'),
-    'chip_docket': ('', '7 PSC dockets · 3 filed court cases · 50+ dates on the calendar'),
+    'chip_docket': ('', '7 PSC dockets · 3 court cases · 50+ public dates'),
     'chip_people': ('', '52 entries · 54 sourced connections'),
     'chip_receipts': ('ok', 'Checked Nov 3, 2026: 183 against linked source · 11 from PSC notices · 8 flagged'),
     'chip_s1': ('', 'Nscale S-1, filed Sep 18, 2026'),
