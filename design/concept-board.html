@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch Desk Concept Board</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   WV AI WATCH · "THE WATCH DESK" · CONCEPT BOARD v1 (Nov 3, 2026)
+   Static mockup. Every fact on this board comes from the verified site
+   data (index.html, research/). Nothing here is wired to the live site.
+   ===================================================================== */
+:root{
+  --ink:#0B0D10; --ink-2:#12151A; --ink-3:#1A1E25; --rule:#2A2F38;
+  --paper:#EDE8DC; --paper-dim:#A9A497; --paper-faint:#6E6A61;
+  --cyan:#00D4FF; --signal:#FFB020; --alarm:#FF5C5C; --gas:#FF8A3D;
+  --grid:#5AA9FF; --legal:#C084FC; --ok:#5BD69A;
+  --news:#F3EFE6; --news-ink:#111111; --news-rule:#CFC8B8;
+  --serif:'Instrument Serif',Georgia,serif;
+  --sans:'DM Sans',system-ui,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --board:#24272D;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--board)}
+body{background:var(--board);color:var(--paper);font-family:var(--sans);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.mono{font-family:var(--mono)}
+.serif{font-family:var(--serif)}
+
+/* ---------- board chrome ---------- */
+.board{max-width:1520px;margin:0 auto;padding:56px 40px 96px}
+.board-head{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:end;border-bottom:1px solid #3a3f48;padding-bottom:36px;margin-bottom:56px}
+.board-kicker{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--signal)}
+.board-title{font-family:var(--serif);font-weight:400;font-size:88px;line-height:.92;letter-spacing:-.01em;margin:14px 0 18px}
+.board-title em{color:var(--cyan)}
+.board-dek{font-size:18px;color:var(--paper-dim);max-width:640px}
+.principles{list-style:none;counter-reset:p;display:grid;gap:8px}
+.principles li{counter-increment:p;display:grid;grid-template-columns:34px 1fr;font-size:14px;color:var(--paper-dim)}
+.principles li::before{content:counter(p,decimal-leading-zero);font-family:var(--mono);font-size:12px;color:var(--cyan);padding-top:2px}
+.principles b{color:var(--paper);font-weight:600}
+
+.frame{margin:0 0 88px}
+.frame-label{display:flex;gap:18px;align-items:baseline;margin-bottom:16px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-dim)}
+.frame-label .n{color:var(--signal);font-weight:700}
+.frame-label .t{color:var(--paper);letter-spacing:.06em}
+.frame-label .note{margin-left:auto;text-transform:none;letter-spacing:0;font-family:var(--sans);font-size:13px;color:var(--paper-faint);max-width:620px;text-align:right}
+.frame-row{display:grid;grid-template-columns:390px 1fr;gap:56px;align-items:center}
+
+/* browser + phone chrome */
+.browser{background:var(--ink);border-radius:12px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 1px #000}
+.browser-bar{height:38px;background:#16191E;display:flex;align-items:center;gap:8px;padding:0 14px;border-bottom:1px solid #000}
+.browser-bar i{width:11px;height:11px;border-radius:50%;background:#3A3F48;display:block}
+.browser-bar .url{margin-left:18px;flex:1;max-width:520px;height:22px;border-radius:6px;background:#0E1013;font-family:var(--mono);font-size:11px;color:var(--paper-faint);display:flex;align-items:center;padding:0 10px}
+.phone{width:390px;background:var(--ink);border-radius:44px;padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.45),0 0 0 2px #000,inset 0 0 0 2px #2A2F38}
+.phone-screen{border-radius:32px;overflow:hidden;background:var(--ink);height:800px;position:relative}
+.notch{width:120px;height:30px;background:#000;border-radius:0 0 18px 18px;margin:0 auto;position:relative;z-index:3}
+
+/* ---------- shared site components ---------- */
+.topo{background-image:radial-gradient(ellipse at 20% 0%,rgba(0,212,255,.06),transparent 55%),repeating-radial-gradient(circle at 78% 30%,transparent 0 22px,rgba(237,232,220,.025) 23px,transparent 24px)}
+.nav{display:flex;align-items:center;gap:28px;padding:16px 36px;border-bottom:1px solid var(--rule)}
+.logo{font-family:var(--mono);font-size:13px;font-weight:700;letter-spacing:.14em;color:var(--paper)}
+.logo b{color:var(--cyan)}
+.nav a{font-size:13px;text-decoration:none;color:var(--paper-dim)}
+.nav a.on{color:var(--paper)}
+.nav .sp{flex:1}
+.toggle{display:flex;gap:2px;background:var(--ink-3);border:1px solid var(--rule);border-radius:999px;padding:3px;font-family:var(--mono);font-size:11px}
+.toggle span{padding:4px 10px;border-radius:999px;color:var(--paper-dim)}
+.toggle span.on{background:var(--paper);color:var(--ink)}
+
+.ticker{display:flex;align-items:center;gap:0;height:34px;background:var(--ink-2);border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:12px;overflow:hidden;white-space:nowrap}
+.ticker .live{background:var(--alarm);color:#000;font-weight:700;height:100%;display:flex;align-items:center;padding:0 14px;letter-spacing:.12em}
+.ticker .live::before{content:'';width:7px;height:7px;border-radius:50%;background:#000;margin-right:8px;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.2}}
+.ticker .item{padding:0 22px;border-right:1px solid var(--rule);color:var(--paper-dim)}
+.ticker .item b{color:var(--signal);font-weight:500;margin-right:8px}
+
+.vfy{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.06em;color:#000;background:var(--signal);border-radius:3px;padding:1px 6px;vertical-align:2px;text-transform:uppercase}
+.rcpt{font-family:var(--mono);font-size:11px;color:var(--cyan);text-decoration:none;border-bottom:1px dotted rgba(0,212,255,.5)}
+.ok{font-family:var(--mono);font-size:10px;color:var(--ok);letter-spacing:.06em}
+
+.stamp{display:inline-block;white-space:nowrap;font-family:var(--mono);font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px 4px;border:2px solid currentColor;border-radius:4px;transform:rotate(-3deg);position:relative;line-height:1.15;
+  -webkit-mask-image:radial-gradient(circle at 30% 40%,#000 60%,rgba(0,0,0,.75) 61%,#000 75%);mask-image:radial-gradient(circle at 30% 40%,#000 60%,rgba(0,0,0,.75) 61%,#000 75%)}
+.stamp.alarm{color:var(--alarm)} .stamp.cyan{color:var(--cyan)} .stamp.legal{color:var(--legal)}
+.stamp.signal{color:var(--signal)} .stamp.dim{color:var(--paper-dim)} .stamp.ok{color:var(--ok);font-size:11px}
+.stamp.big{font-size:15px;padding:8px 14px 7px;border-width:3px}
+
+.redact{display:inline-block;background:#000;color:transparent;border-radius:1px;height:1.05em;vertical-align:-2px;box-shadow:0 0 0 1px #000;position:relative}
+.redact-block{border:1px dashed #3a3f48;border-radius:8px;padding:14px 16px;background:repeating-linear-gradient(-45deg,transparent 0 8px,rgba(255,255,255,.015) 8px 16px)}
+.redact-block .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper-faint);margin-bottom:8px}
+.redact-block .why{font-family:var(--mono);font-size:11px;color:var(--signal);margin-top:10px}
+
+.chip{display:flex;flex-direction:column;gap:2px;min-width:0;padding:12px 14px 12px;border:1px solid var(--rule);border-radius:10px;background:var(--ink-2);position:relative;overflow:hidden}
+.chip .cd{font-family:var(--mono);font-weight:700;font-size:26px;line-height:1;color:var(--paper)}
+.chip .cd small{font-size:11px;font-weight:500;letter-spacing:.1em;color:var(--paper-dim);margin-left:4px}
+.chip .what{font-size:12.5px;line-height:1.3;color:var(--paper-dim)}
+.chip .when{font-family:var(--mono);font-size:10.5px;color:var(--paper-faint);letter-spacing:.04em}
+.chip::after{content:'';position:absolute;left:0;bottom:0;height:3px;background:var(--c,var(--cyan));width:var(--w,100%)}
+.chip.hot{border-color:rgba(255,92,92,.55);background:linear-gradient(180deg,rgba(255,92,92,.10),var(--ink-2))}
+.chip.hot .cd{color:var(--alarm)}
+
+/* ---------- FRAME 1: front page ---------- */
+.fp-mast{padding:30px 36px 0;display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.fp-dateline{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--paper-dim)}
+.fp-dateline b{color:var(--signal);font-weight:500}
+.fp-title{font-family:var(--serif);font-weight:400;font-size:104px;line-height:.86;letter-spacing:-.015em;margin-top:10px}
+.fp-title em{font-style:italic;color:var(--cyan)}
+.fp-sub{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--paper-dim);text-align:right;line-height:1.7}
+.fp-sub b{display:block;color:var(--paper);font-weight:500}
+.fp-rule{height:0;border-top:3px double var(--paper-faint);margin:22px 36px 0}
+.cd-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;padding:16px 36px}
+.cd-head{display:flex;align-items:center;gap:10px;padding:18px 36px 0;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim)}
+.cd-head::after{content:'';flex:1;border-top:1px solid var(--rule)}
+.cd-head .ics{color:var(--cyan);letter-spacing:.06em;text-transform:none;order:3}
+.fp-body{display:grid;grid-template-columns:440px 1fr;gap:28px;padding:10px 36px 30px}
+.fp-hed{font-family:var(--serif);font-size:46px;line-height:1.02;font-weight:400;letter-spacing:-.005em}
+.fp-hed span{color:var(--paper-dim)}
+.fp-dek{margin-top:14px;color:var(--paper-dim);font-size:15px}
+.fp-stats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:10px;overflow:hidden;margin-top:22px}
+.fp-stats div{background:var(--ink);padding:14px 16px}
+.fp-stats b{display:block;font-family:var(--mono);font-size:30px;font-weight:700;line-height:1.05;color:var(--paper)}
+.fp-stats span{font-size:12px;color:var(--paper-dim);line-height:1.3;display:block;margin-top:4px}
+.fp-latest{margin-top:22px}
+.fp-latest h4{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim);margin-bottom:8px;display:flex;justify-content:space-between}
+.fp-latest li{list-style:none;display:grid;grid-template-columns:62px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--rule);font-size:13.5px;line-height:1.35}
+.fp-latest li time{font-family:var(--mono);font-size:11px;color:var(--signal);padding-top:2px}
+
+.mapcard{background:var(--ink-2);border:1px solid var(--rule);border-radius:14px;padding:14px 16px 0;position:relative;overflow:hidden}
+.map-top{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-family:var(--mono);font-size:11px}
+.layer{padding:4px 10px;border-radius:999px;border:1px solid var(--rule);color:var(--paper-dim)}
+.layer.on{border-color:var(--paper-faint);color:var(--paper);background:var(--ink-3)}
+.layer i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0}
+.map-top .sp{flex:1}
+.mapsvg{display:block;width:100%;height:auto;margin-top:6px}
+.scrub{border-top:1px solid var(--rule);margin:0 -16px;padding:14px 22px 16px;background:var(--ink)}
+.scrub-row{display:flex;align-items:center;gap:14px}
+.play{width:34px;height:34px;border-radius:50%;background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:12px;flex:none}
+.track{position:relative;flex:1;height:44px}
+.track .base{position:absolute;left:0;right:0;top:20px;height:3px;background:var(--rule);border-radius:2px}
+.track .fill{position:absolute;left:0;top:20px;height:3px;background:linear-gradient(90deg,var(--cyan),var(--signal));border-radius:2px}
+.track .tick{position:absolute;top:13px;width:1px;height:17px;background:var(--paper-faint)}
+.track .tick span{position:absolute;top:21px;left:0;transform:translateX(-50%);white-space:nowrap;font-family:var(--mono);font-size:9.5px;color:var(--paper-faint)}
+.track .tick.future{background:var(--rule)}
+.track .tick:first-of-type span,.track .tick.first span{transform:none}
+.track .tick.last span{transform:translateX(-100%)}
+.track .handle{position:absolute;top:10px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:var(--signal);box-shadow:0 0 0 5px rgba(255,176,32,.22)}
+.track .handle::after{content:'TODAY';position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:9.5px;font-weight:700;color:var(--signal);letter-spacing:.1em}
+.scrub-cap{margin-top:12px;font-size:13px;color:var(--paper-dim);display:flex;gap:10px}
+.scrub-cap b{font-family:var(--mono);font-size:11px;color:var(--signal);font-weight:500;padding-top:2px;white-space:nowrap}
+
+/* phone */
+.m-nav{display:flex;justify-content:space-between;align-items:center;padding:6px 18px 10px;border-bottom:1px solid var(--rule)}
+.m-nav .burger{width:20px;height:12px;border-top:2px solid var(--paper);border-bottom:2px solid var(--paper);position:relative}
+.m-nav .burger::after{content:'';position:absolute;left:0;right:0;top:3px;border-top:2px solid var(--paper)}
+.m-mast{padding:18px 18px 0}
+.m-mast .fp-title{font-size:58px}
+.m-cd{display:flex;gap:8px;overflow:hidden;padding:14px 18px}
+.m-cd .chip{min-width:150px}
+.m-week{padding:2px 18px}
+.m-week h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim);margin:8px 0 4px}
+.m-ev{display:grid;grid-template-columns:44px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--rule)}
+.m-ev .d{font-family:var(--mono);text-align:center;line-height:1}
+.m-ev .d b{display:block;font-size:22px;color:var(--paper)}
+.m-ev .d span{font-size:10px;letter-spacing:.1em;color:var(--signal)}
+.m-ev .t{font-size:13.5px;line-height:1.3}
+.m-ev .w{font-size:11.5px;color:var(--paper-dim);margin-top:3px}
+.m-tab{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--rule);background:rgba(11,13,16,.96);padding:10px 4px 22px;font-family:var(--mono);font-size:9.5px;text-align:center;color:var(--paper-faint);letter-spacing:.04em}
+.m-tab span.on{color:var(--cyan)}
+.m-tab i{display:block;width:18px;height:18px;margin:0 auto 4px;border:1.5px solid currentColor;border-radius:5px}
+
+/* ---------- FRAME 2: case file ---------- */
+.cf{padding:0 0 30px}
+.cf-crumb{padding:16px 36px 0;font-family:var(--mono);font-size:11px;color:var(--paper-faint);letter-spacing:.06em}
+.cf-crumb a{text-decoration:none;color:var(--paper-dim)}
+.cf-head{display:grid;grid-template-columns:1fr auto;gap:30px;padding:12px 36px 18px;align-items:start}
+.cf-title{font-family:var(--serif);font-weight:400;font-size:72px;line-height:.92}
+.cf-meta{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13.5px;color:var(--paper-dim)}
+.cf-meta b{color:var(--paper);font-weight:600}
+.cf-stamps{display:flex;flex-direction:column;align-items:flex-end;gap:12px;padding-top:12px}
+.tabs{display:flex;gap:4px;padding:0 36px;border-bottom:1px solid var(--rule)}
+.tab{position:relative;padding:10px 18px 9px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--paper-dim);background:var(--ink-2);border:1px solid var(--rule);border-bottom:none;border-radius:8px 8px 0 0;top:1px}
+.tab.on{background:var(--ink);color:var(--paper);border-color:var(--paper-faint);border-bottom:1px solid var(--ink)}
+.tab .ct{font-size:10px;color:var(--paper-faint);margin-left:6px}
+.cf-grid{display:grid;grid-template-columns:1fr 1.05fr 340px;gap:28px;padding:24px 36px 0}
+.h5{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim);margin-bottom:12px;display:flex;justify-content:space-between;gap:10px}
+.tl{list-style:none;position:relative;padding-left:22px}
+.tl::before{content:'';position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--rule)}
+.tl li{position:relative;padding:0 0 13px;font-size:13.5px;line-height:1.35}
+.tl li::before{content:'';position:absolute;left:-21px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--ink);border:2px solid var(--c,var(--paper-faint))}
+.tl li time{display:block;font-family:var(--mono);font-size:10.5px;color:var(--c,var(--paper-faint));letter-spacing:.06em;margin-bottom:1px}
+.tl li.next::before{background:var(--signal);border-color:var(--signal);box-shadow:0 0 0 5px rgba(255,176,32,.2)}
+.tl li.next{color:var(--paper)}
+.engines{display:grid;grid-template-columns:repeat(48,1fr);gap:3px;padding:14px;background:var(--ink-2);border:1px solid var(--rule);border-radius:10px}
+.engines i{aspect-ratio:1;border-radius:50%;background:var(--gas);opacity:.9}
+.engines i.d{background:var(--alarm);box-shadow:0 0 0 2px rgba(255,92,92,.25)}
+.eng-cap{display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;gap:16px}
+.eng-cap b{font-family:var(--mono);font-size:44px;line-height:1;color:var(--gas)}
+.eng-cap span{font-size:12.5px;color:var(--paper-dim);line-height:1.35}
+.bars{margin-top:22px;display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:62px 1fr 76px;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;color:var(--paper-dim)}
+.bar .b{height:14px;background:var(--ink-3);border-radius:3px;overflow:hidden}
+.bar .b i{display:block;height:100%;background:var(--alarm);opacity:.85}
+.bar .v{text-align:right;color:var(--paper)}
+.side-box{border:1px solid var(--rule);border-radius:12px;padding:16px;background:var(--ink-2);margin-bottom:16px}
+.side-box.act{border-color:rgba(0,212,255,.45);background:linear-gradient(180deg,rgba(0,212,255,.07),var(--ink-2))}
+.side-box p{font-size:13.5px;line-height:1.4;color:var(--paper-dim)}
+.side-box p b{color:var(--paper)}
+.btn{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11.5px;padding:8px 12px;border-radius:7px;border:1px solid var(--rule);color:var(--paper);background:var(--ink);margin:10px 6px 0 0;text-decoration:none}
+.btn.pri{background:var(--cyan);color:#000;border-color:var(--cyan);font-weight:700}
+.src li{list-style:none;display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-top:1px solid var(--rule);font-size:12.5px;color:var(--paper-dim)}
+
+/* ---------- FRAME 3: docket board ---------- */
+.dk{padding:26px 36px 32px}
+.dk-hed{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:20px}
+.dk-hed h2{font-family:var(--serif);font-weight:400;font-size:56px;line-height:.95}
+.dk-hed p{color:var(--paper-dim);font-size:14px;max-width:520px}
+.dk-filters{display:flex;gap:6px;font-family:var(--mono);font-size:11px}
+.cols{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.col{background:var(--ink-2);border:1px solid var(--rule);border-radius:12px;padding:12px;min-height:520px}
+.col-h{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--paper-dim);padding:2px 4px 12px;border-bottom:1px solid var(--rule);margin-bottom:12px}
+.col-h b{color:var(--paper)}
+.card{background:var(--ink);border:1px solid var(--rule);border-left:3px solid var(--c,var(--paper-faint));border-radius:8px;padding:12px 12px 12px;margin-bottom:12px;position:relative}
+.card .no{font-family:var(--mono);font-size:10px;color:var(--paper-faint);letter-spacing:.04em}
+.card h6{font-size:13.5px;font-weight:600;line-height:1.3;margin:4px 0 6px;color:var(--paper)}
+.card p{font-size:12px;line-height:1.38;color:var(--paper-dim)}
+.card .st{margin-top:10px}
+.card .tag{display:inline-block;font-family:var(--mono);font-size:9.5px;padding:1px 6px;border-radius:3px;background:var(--ink-3);color:var(--paper-dim);margin-right:4px;letter-spacing:.04em}
+
+/* ---------- FRAME 4: connections ---------- */
+.cx{display:grid;grid-template-columns:1fr 340px;gap:0}
+.cx-main{padding:24px 0 0 36px}
+.cx-main h2{font-family:var(--serif);font-weight:400;font-size:56px;line-height:.95}
+.cx-main .dek{color:var(--paper-dim);font-size:14px;max-width:640px;margin-top:8px}
+.cxsvg{display:block;width:100%;height:auto;margin-top:6px}
+.cx-side{border-left:1px solid var(--rule);padding:24px 24px;background:var(--ink-2)}
+.cx-side .who{font-family:var(--serif);font-size:34px;line-height:1}
+.cx-side .role{font-size:13px;color:var(--paper-dim);margin-top:6px}
+.cx-side .edge{padding:12px 0;border-top:1px solid var(--rule);font-size:13px;line-height:1.38}
+.cx-side .edge b{color:var(--paper)}
+.cx-side .edge .rcpt{display:inline-block;margin-top:5px}
+.cx-side .caveat{margin-top:16px;font-size:12px;color:var(--paper-faint);line-height:1.45;border:1px dashed var(--rule);border-radius:8px;padding:10px 12px}
+
+/* ---------- FRAME 5: county sheet (newsprint) ---------- */
+.print-wrap{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:start}
+.sheet{width:816px;min-height:1056px;background:var(--news);color:var(--news-ink);padding:48px 54px;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative;
+  background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1.2px);background-size:4px 4px}
+.sh-top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:4px solid var(--news-ink);padding-bottom:12px}
+.sh-k{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase}
+.sh-title{font-family:var(--serif);font-size:66px;line-height:.9;font-weight:400;margin-top:6px}
+.sh-title em{font-style:italic}
+.qr{width:92px;height:92px;display:grid;grid-template-columns:repeat(21,1fr);background:#fff;padding:5px;border:1px solid #000}
+.qr i{background:#000}.qr i.w{background:transparent}
+.qr-cap{font-family:var(--mono);font-size:9px;text-align:center;margin-top:4px;letter-spacing:.04em}
+.sh-strip{display:flex;gap:0;border-bottom:1px solid var(--news-ink);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em}
+.sh-strip span{white-space:nowrap;padding:7px 12px 7px 0;margin-right:12px;border-right:1px solid var(--news-rule)}
+.sh-cols{display:grid;grid-template-columns:1.15fr 1fr;gap:30px;margin-top:20px}
+.sh h3{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;border-bottom:1px solid var(--news-ink);padding-bottom:5px;margin:0 0 10px}
+.sh-proj{padding:0 0 14px;margin-bottom:14px;border-bottom:1px solid var(--news-rule)}
+.sh-proj h4{font-family:var(--serif);font-size:30px;font-weight:400;line-height:1;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.sh-proj p{font-size:12.5px;line-height:1.42;margin-top:6px}
+.sh-proj .stamp{font-size:10px;transform:rotate(-2deg)}
+.sh-box{border:2px solid var(--news-ink);padding:12px 14px;margin-bottom:14px}
+.sh-box h5{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+.sh-box p,.sh-box li{font-size:12.5px;line-height:1.42}
+.sh-box ul{padding-left:16px}
+.sh-big{font-family:var(--serif);font-size:30px;line-height:1.02}
+.sh-foot{position:absolute;left:54px;right:54px;bottom:34px;border-top:1px solid var(--news-ink);padding-top:8px;display:flex;justify-content:space-between;font-family:var(--mono);font-size:9.5px;letter-spacing:.06em}
+.sh .vfyp{font-family:var(--mono);font-size:9.5px;font-weight:700;border:1.5px solid #000;padding:0 4px;border-radius:2px}
+.print-notes{font-size:14px;color:var(--paper-dim);max-width:460px}
+.print-notes h3{font-family:var(--serif);font-weight:400;font-size:40px;line-height:1;color:var(--paper);margin-bottom:14px}
+.print-notes li{margin:0 0 10px 18px}
+.print-notes b{color:var(--paper)}
+
+/* ---------- FRAME 6: style tile ---------- */
+.tile{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:20px}
+.tbox{background:var(--ink);border-radius:14px;padding:22px;border:1px solid #000}
+.tbox h4{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--paper-dim);margin-bottom:14px}
+.sw{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.sw div{border-radius:8px;height:74px;padding:8px;display:flex;flex-direction:column;justify-content:flex-end;font-family:var(--mono);font-size:10px;line-height:1.3;border:1px solid rgba(255,255,255,.08)}
+.type-a{font-family:var(--serif);font-size:64px;line-height:.9}
+.type-a em{color:var(--cyan)}
+.type-b{font-family:var(--mono);font-size:13px;color:var(--paper-dim);margin-top:14px;line-height:1.6}
+.type-c{font-size:15px;margin-top:14px;color:var(--paper-dim)}
+.comp{display:flex;flex-wrap:wrap;gap:16px 18px;align-items:center}
+.decisions{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:20px}
+.dec{background:var(--ink);border:1px solid #000;border-radius:12px;padding:16px}
+.dec .q{font-family:var(--mono);font-size:10.5px;color:var(--signal);letter-spacing:.12em}
+.dec h5{font-family:var(--serif);font-weight:400;font-size:24px;line-height:1.05;margin:6px 0 8px}
+.dec p{font-size:12.5px;color:var(--paper-dim);line-height:1.4}
+.dec .rec{margin-top:10px;font-family:var(--mono);font-size:10.5px;color:var(--cyan)}
+.board-foot{border-top:1px solid #3a3f48;padding-top:20px;font-size:12.5px;color:var(--paper-faint);display:flex;justify-content:space-between;gap:30px}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="board">
+
+<!-- ============================== HEADER ============================== -->
+<header class="board-head">
+  <div>
+    <div class="board-kicker">WV AI Watch · Revamp concept board v1 · Nov 3, 2026</div>
+    <h1 class="board-title">The <em>Watch Desk</em>.</h1>
+    <p class="board-dek">A night-shift newsroom for West Virginia's AI buildout. It leads with what is happening and when you can show up, makes the scale physical, and puts a receipt on every claim. Every number on this board comes from the verified research; nothing here is wired to the live site yet.</p>
+  </div>
+  <ol class="principles">
+    <li><span><b>Lead with what's live.</b> The first screen answers "what's happening this week, and where can I be?"</span></li>
+    <li><span><b>One spine: place × time.</b> A map with a time scrubber ties projects, hearings, permits, and protests together.</span></li>
+    <li><span><b>Everything is a case file.</b> One link per project, with its timeline, permits, cases, people, and dates.</span></li>
+    <li><span><b>Make the scale physical.</b> 864 engines is abstract. 864 dots is not.</span></li>
+    <li><span><b>Follow the connections.</b> People, firms, projects, and cases, with a source on every line.</span></li>
+    <li><span><b>Receipts are a feature.</b> Verification status rides on every item. ⚠ Verify is honest and visible.</span></li>
+    <li><span><b>Built for showing up.</b> Countdown urgency, .ics on every date, a printable sheet per county.</span></li>
+  </ol>
+</header>
+
+<!-- ============================== FRAME 1 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">01</span><span class="t">Front page · desktop</span><span class="note">Countdown chips are computed from the viewer's date. The map autoplays the scrubber once on load, from 2025 to today, then rests.</span></div>
+  <div class="browser">
+    <div class="browser-bar"><i></i><i></i><i></i><div class="url">wvaihub.com</div></div>
+    <div class="topo">
+      <nav class="nav">
+        <span class="logo">WV <b>AI</b> WATCH</span>
+        <a class="on" href="#">Front</a><a href="#">Map</a><a href="#">Projects</a><a href="#">Docket</a><a href="#">Calendar</a><a href="#">People</a><a href="#">Counties</a><a href="#">Receipts</a>
+        <span class="sp"></span>
+        <span class="toggle"><span class="on">Ink</span><span>Newsprint</span></span>
+        <span class="toggle"><span>Receipts</span><span class="on">Off</span></span>
+      </nav>
+      <div class="ticker">
+        <span class="live">LATEST</span>
+        <span class="item"><b>NOV 2</b>Stop Valley Link peaceful protest</span>
+        <span class="item"><b>OCT 31</b>NPR takes Ridgeline's dark-sky fight national</span>
+        <span class="item"><b>OCT 30</b>Nvidia weighs guaranteeing Monarch construction debt</span>
+        <span class="item"><b>OCT 30</b>Monarch air-permit comments close</span>
+        <span class="item"><b>OCT 26</b>MARL evidentiary hearing opens</span>
+      </div>
+      <div class="fp-mast">
+        <div>
+          <div class="fp-dateline">Tuesday, November 3, 2026 · <b>Election Day</b></div>
+          <h2 class="fp-title">West Virginia's<br><em>AI Watch</em></h2>
+        </div>
+        <div class="fp-sub"><b>Mapping AI Across the Mountain State</b>13 projects · 7 PSC dockets · 3 court cases<br>Every claim sourced · ⚠ marks the unconfirmed</div>
+      </div>
+      <div class="fp-rule"></div>
+      <div class="cd-head">Next times you can show up <a class="ics rcpt" href="#">Subscribe to all dates (.ics)</a></div>
+      <div class="cd-strip">
+        <div class="chip hot" style="--c:var(--alarm)"><span class="cd">1<small>DAY</small></span><span class="what">Valley Link open houses: Fisher &amp; Hambleton</span><span class="when">WED NOV 4 · then 8 more</span></div>
+        <div class="chip" style="--c:var(--legal);--w:92%"><span class="cd">7<small>DAYS</small></span><span class="what">Rule-Making Review Committee takes up the PSC's HB 2014 capacity rule</span><span class="when">TUE NOV 10 · STATE CAPITOL</span></div>
+        <div class="chip" style="--c:var(--signal);--w:78%"><span class="cd">20<small>DAYS</small></span><span class="what">MARL initial briefs due <span class="vfy">⚠ Verify</span></span><span class="when">MON NOV 23 · PSC 26-0075</span></div>
+        <div class="chip" style="--c:var(--grid);--w:70%"><span class="cd">28<small>DAYS</small></span><span class="what">Mon Power must file the data behind its resource plan</span><span class="when">TUE DEC 1 · PSC 25-0857</span></div>
+        <div class="chip" style="--c:var(--grid);--w:18%"><span class="cd">123<small>DAYS</small></span><span class="what">PSC decision due on the MARL 500 kV line</span><span class="when">SAT MAR 6, 2027 · PSC 26-0075</span></div>
+      </div>
+      <div class="fp-body">
+        <div>
+          <h3 class="fp-hed">13 projects. 4 certified by the state. <span>For those 4, no county zoning vote.</span></h3>
+          <p class="fp-dek">HB 2014 lets certified data centers and their microgrids skip county and city zoning. Here is everything that has been announced, permitted, protested, or sued over since. <a class="rcpt" href="#">Receipt: HB 2014 summary ↗</a></p>
+          <div class="fp-stats">
+            <div><b>2.16 GW</b><span>Monarch's off-grid gas microgrid, Mason County</span></div>
+            <div><b>864</b><span>reciprocating gas engines in that microgrid</span></div>
+            <div><b>2,000+</b><span>protest signatures and letters filed against the MARL line at the PSC</span></div>
+            <div><b>51</b><span>public dates on the calendar, with addresses</span></div>
+          </div>
+          <div class="fp-latest">
+            <h4><span>On the desk</span><span class="ok">✓ ALL SOURCED</span></h4>
+            <ul>
+              <li><time>OCT 30</time><span>Nvidia is in talks to guarantee billions in construction debt for Monarch's Anthropic building. <a class="rcpt" href="#">TechCrunch ↗</a></span></li>
+              <li><time>OCT 30</time><span>The DEP closes comments on Monarch air permit R14-0042 after hearings Oct 20 and Oct 29. A final decision is pending.</span></li>
+              <li><time>SEP 18</time><span>Nscale's IPO filing shows a $44.6B Anthropic contract for Monarch's first 460 MW building.</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mapcard">
+          <div class="map-top">
+            <span class="layer on"><i style="background:var(--alarm)"></i>Construction</span>
+            <span class="layer on"><i style="background:var(--cyan)"></i>Certified</span>
+            <span class="layer on"><i style="background:var(--legal)"></i>Contested</span>
+            <span class="layer on"><i style="background:var(--paper-dim)"></i>Proposed</span>
+            <span class="layer on"><i style="background:var(--gas)"></i>Power</span>
+            <span class="layer on"><i style="background:var(--grid)"></i>Lines</span>
+            <span class="layer">Counties</span><span class="layer">Hearings</span>
+          </div>
+          <svg class="mapsvg" id="map1" viewBox="-30 -10 980 830" aria-label="Map of West Virginia with 13 projects"></svg>
+          <div class="scrub">
+            <div class="scrub-row">
+              <span class="play">▶</span>
+              <div class="track" id="track"></div>
+            </div>
+            <div class="scrub-cap"><b>NOV 3, 2026</b><span>13 on the map: 1 under construction, 3 more certified, 4 contested, 3 proposed, 1 rumored, 1 power plant. Drag back to Sep 3, 2026 to watch Monarch and Tamarack get certified at The Greenbrier.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============================== FRAME 1b ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">01b</span><span class="t">Front page · phone</span><span class="note">Same data, phone-first. Most people will open this from a shared link in a group chat.</span></div>
+  <div class="frame-row">
+  <div class="phone">
+    <div class="phone-screen topo">
+      <div class="notch"></div>
+      <div class="m-nav"><span class="logo">WV <b>AI</b> WATCH</span><span class="burger"></span></div>
+      <div class="ticker" style="height:30px;font-size:11px"><span class="live" style="padding:0 10px">LATEST</span><span class="item"><b>NOV 2</b>Stop Valley Link protest</span></div>
+      <div class="m-mast">
+        <div class="fp-dateline" style="font-size:10px">Tue, Nov 3, 2026 · <b>Election Day</b></div>
+        <h2 class="fp-title" style="margin-top:8px">West<br>Virginia's<br><em>AI Watch</em></h2>
+      </div>
+      <div class="m-cd">
+        <div class="chip hot" style="--c:var(--alarm)"><span class="cd">1<small>DAY</small></span><span class="what">Valley Link open houses</span><span class="when">NOV 4 · FISHER, HAMBLETON</span></div>
+        <div class="chip" style="--c:var(--legal);--w:92%"><span class="cd">7<small>DAYS</small></span><span class="what">Capacity rule at the Legislature</span><span class="when">NOV 10 · CAPITOL</span></div>
+      </div>
+      <div class="m-week">
+        <h4>This week near you · Mason Co. ▾</h4>
+        <div class="m-ev"><div class="d"><span>THU</span><b>5</b></div><div><div class="t">Mason County Commission</div><div class="w">4:00 p.m. · Courthouse, 200 Sixth St., Point Pleasant</div></div></div>
+        <div class="m-ev"><div class="d"><span>THU</span><b>5</b></div><div><div class="t">Valley Link open house: Sissonville</div><div class="w">Developer-run · Kanawha Co.</div></div></div>
+        <div class="m-ev"><div class="d"><span>TBD</span><b>·</b></div><div><div class="t">DEP final decision: Monarch air permit R14-0042</div><div class="w">Comments closed Oct 30 · we'll post it here</div></div></div>
+      </div>
+      <div class="m-tab"><span class="on"><i></i>Front</span><span><i></i>Map</span><span><i></i>Dates</span><span><i></i>Docket</span><span><i></i>My county</span></div>
+    </div>
+  </div>
+  <div class="print-notes" style="max-width:none">
+    <h3>On a phone, the desk becomes a pocket briefing.</h3>
+    <ul>
+      <li><b>Countdown chips</b> scroll sideways. The most urgent one is always first and turns red inside 48 hours.</li>
+      <li><b>"This week near you"</b> remembers one county (stored only on the device) and lists its standing meetings and nearby hearings with addresses.</li>
+      <li><b>Bottom tab bar</b> with five destinations: Front, Map, Dates, Docket, My county.</li>
+      <li><b>Every row is a deep link.</b> Tap a date to add it to the phone's calendar; tap a project to open its case file.</li>
+      <li><b>Unknown dates say so.</b> "Date TBD" rows stay on the list so a pending decision never drops out of sight.</li>
+    </ul>
+  </div>
+  </div>
+</section>
+
+<!-- ============================== FRAME 2 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">02</span><span class="t">Case file · #/project/monarch</span><span class="note">One shareable link per project. Today the same Monarch facts sit in four different sections. The case file pulls them into one dossier.</span></div>
+  <div class="browser">
+    <div class="browser-bar"><i></i><i></i><i></i><div class="url">wvaihub.com/#/project/monarch</div></div>
+    <div class="cf">
+      <div class="cf-crumb"><a href="#">Projects</a> / <a href="#">Mason County</a> / Monarch</div>
+      <div class="cf-head">
+        <div>
+          <h2 class="cf-title">Monarch Compute Campus</h2>
+          <div class="cf-meta">
+            <span><b>Nscale</b> (UK) via Monarch Cloud Campus LLC</span>
+            <span>Off Ohio River Road (WV-62), near Point Pleasant</span>
+            <span>Up to <b>2,250 acres</b></span>
+            <span>Phase 1: <b>1.35 GW</b> of compute, <b>$69.2B</b> (Nscale's figure)</span>
+          </div>
+        </div>
+        <div class="cf-stamps">
+          <span class="stamp alarm big">Under construction</span>
+          <span class="stamp cyan">Certified Sep 3, 2026</span>
+        </div>
+      </div>
+      <div class="tabs">
+        <span class="tab on">Overview</span><span class="tab">Timeline<span class="ct">12</span></span><span class="tab">Permits &amp; cases<span class="ct">3</span></span><span class="tab">People<span class="ct">11</span></span><span class="tab">Take part<span class="ct">2</span></span><span class="tab">Receipts<span class="ct">8 ✓</span></span>
+      </div>
+      <div class="cf-grid">
+        <div>
+          <div class="h5"><span>Timeline</span><span style="color:var(--paper-faint)">2026</span></div>
+          <ol class="tl">
+            <li style="--c:var(--paper-dim)"><time>MAR</time>Nscale acquires AIPCorp, a Fidelis New Energy / 8090 Industries affiliate.</li>
+            <li style="--c:var(--grid)"><time>APR 20</time>Air permit R14-0042 application filed with the DEP.</li>
+            <li style="--c:var(--alarm)"><time>MAY 5</time>DEP dust warning.</li>
+            <li style="--c:var(--alarm)"><time>MAY 23–24</time>Silt-fence failure floods about 6 homes in Meadowlands Estates.</li>
+            <li style="--c:var(--grid)"><time>JUN 15</time>Hearing on stormwater permit WVR312628 for the pipeline.</li>
+            <li style="--c:var(--alarm)"><time>AUG 11</time>Particulate violation letter from DAQ Director Laura Crowder.</li>
+            <li style="--c:var(--cyan)"><time>SEP 3</time>Certified as a High Impact Data Center.</li>
+            <li style="--c:var(--paper-dim)"><time>SEP 18</time>Nscale IPO filing: Anthropic signs $44.6B for the first 460 MW building.</li>
+            <li style="--c:var(--grid)"><time>OCT 20 · OCT 29</time>DEP air-permit workshop at Point Pleasant High School, then a virtual hearing.</li>
+            <li style="--c:var(--paper-dim)"><time>OCT 30</time>Comments close. Nvidia reported in talks to guarantee construction debt.</li>
+            <li class="next"><time style="color:var(--signal)">NEXT · DATE TBD</time>DEP final decision on R14-0042.</li>
+          </ol>
+        </div>
+        <div>
+          <div class="h5"><span>Scale, made physical</span><a class="rcpt" href="#">Gazette-Mail: permits ↗</a></div>
+          <div class="engines" id="engines"></div>
+          <div class="eng-cap"><b>864</b><span>Each orange dot is one reciprocating gas engine in the 2.16 GW off-grid microgrid. The 12 red dots are its diesel generators.</span></div>
+          <div class="bars">
+            <div class="h5" style="margin:6px 0 2px"><span>Projected emissions, tons per year</span></div>
+            <div class="bar"><span>CO</span><span class="b"><i style="width:100%"></i></span><span class="v">1,043 t</span></div>
+            <div class="bar"><span>VOC</span><span class="b"><i style="width:86.3%"></i></span><span class="v">900 t</span></div>
+            <div class="bar"><span>NOx</span><span class="b"><i style="width:48.5%"></i></span><span class="v">506 t</span></div>
+            <div class="bar"><span>PM2.5</span><span class="b"><i style="width:3.6%"></i></span><span class="v">38 t</span></div>
+          </div>
+        </div>
+        <div>
+          <div class="side-box act">
+            <div class="h5" style="color:var(--cyan)"><span>Take part</span></div>
+            <p><b>Air-permit comments closed Oct 30.</b> The next public body with a standing meeting is the <b>Mason County Commission</b>: Thursdays, 4:00 p.m., Mason County Courthouse, 200 Sixth St., Point Pleasant.</p>
+            <a class="btn pri" href="#">＋ Add to calendar</a><a class="btn" href="#">⎙ Mason County sheet</a>
+          </div>
+          <div class="redact-block">
+            <div class="lbl">Certification petition</div>
+            <div><span class="redact" style="width:92%"></span><br><span class="redact" style="width:64%"></span> <span class="redact" style="width:28%"></span><br><span class="redact" style="width:80%"></span></div>
+            <div class="why">Withheld. Petitions are confidential under HB 4983 (2026).</div>
+          </div>
+          <div class="side-box" style="margin-top:16px">
+            <div class="h5"><span>Receipts</span><span class="ok">8 OF 8 ✓</span></div>
+            <ul class="src">
+              <li><span>Gazette-Mail: Oct 20 hearing</span><span class="ok">✓</span></li>
+              <li><span>TechCrunch: Nvidia</span><span class="ok">✓</span></li>
+              <li><span>Gazette-Mail: violations</span><span class="ok">✓</span></li>
+              <li><span>Herald-Dispatch: certification</span><span class="ok">✓</span></li>
+              <li><span>+ 4 more</span><a class="rcpt" href="#">All ↗</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FRAME 3 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">03</span><span class="t">Docket · stage board · #/docket</span><span class="note">Courts, PSC, and DEP cases as a board. Each card carries a rubber stamp with its current state and its case number. Cards move right as fights advance.</span></div>
+  <div class="browser">
+    <div class="browser-bar"><i></i><i></i><i></i><div class="url">wvaihub.com/#/docket</div></div>
+    <div class="dk">
+      <div class="dk-hed">
+        <h2>Where every fight stands</h2>
+        <div>
+          <p>12 matters across the PSC, the courts, and the DEP. Dates come from PSC docket notices and court reporting; anything we could not confirm wears ⚠.</p>
+          <div class="dk-filters" style="margin-top:10px"><span class="layer on">All</span><span class="layer">PSC</span><span class="layer">Courts</span><span class="layer">DEP</span><span class="layer">Legislature</span></div>
+        </div>
+      </div>
+      <div class="cols">
+        <div class="col">
+          <div class="col-h"><span>Not yet filed</span><b>2</b></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC · FP VALLEY LINK 26A</div><h6>Valley Link 765 kV line</h6><p>Comment file opened Sep 14 so residents can weigh in before Dominion, FirstEnergy, and Transource apply. Formal case expected late 2026 or early 2027.</p><div class="st"><span class="stamp" style="color:var(--grid)">Pre-filing</span></div></div>
+          <div class="card" style="--c:var(--legal)"><div class="no">PUTNAM + MONONGALIA CO.</div><h6>Possible county challenge to HB 2014</h6><p>Putnam President Andy Skidmore says the counties have discussed suing. No suit has been filed.</p><div class="st"><span class="stamp dim">Under discussion</span></div></div>
+        </div>
+        <div class="col">
+          <div class="col-h"><span>Open · in progress</span><b>4</b></div>
+          <div class="card" style="--c:var(--legal)"><div class="no">OHIO CO. CIRCUIT COURT</div><h6>Barks v. Silicon Foundation</h6><p>Twelve Warwood residents argue HB 2014 unconstitutionally strips local zoning. The AG's office intervened to defend the law.</p><div class="st"><span class="stamp legal">Pending</span></div></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC 26-0633-E-GI</div><h6>HB 2014 capacity rule</h6><p>The 69% coal capacity factor becomes "a goal, not a mandate." Revised rule filed in October.</p><div class="st"><span class="stamp signal">At Legislature · Nov 10</span></div></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC 25-0857-E-IRP</div><h6>Mon Power resource plan</h6><p>Commission ordered the data behind the plan's tables and charts.</p><div class="st"><span class="stamp signal">Data due Dec 1</span></div></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC 25-0450-E-GI</div><h6>AEP's "FRR" status in PJM</h6><p>ApCo/WPCo answered Oct 30. Staff's recommendation is next.</p><div class="st"><span class="stamp signal">Staff rec ~Dec 29</span></div></div>
+        </div>
+        <div class="col">
+          <div class="col-h"><span>Briefing</span><b>1</b></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC 26-0075-E-CN</div><h6>MARL 500 kV line · NextEra</h6><p>About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. The Commission refused to pause or dismiss on Sep 4. Evidentiary hearing opened Oct 26.</p><p style="margin-top:6px">Briefs Nov 23 and Dec 4 <span class="vfy">⚠ Verify</span></p><div class="st"><span class="stamp cyan">Decision due Mar 6, 2027</span></div></div>
+        </div>
+        <div class="col">
+          <div class="col-h"><span>Awaiting decision</span><b>2</b></div>
+          <div class="card" style="--c:var(--gas)"><div class="no">PSC 26-0108-E-CN</div><h6>Fort Martin: 1,200 MW gas + 70 MW solar, $2.48B</h6><p>Ten parties filed initial briefs Aug 28. Decision deadline reported as Feb 2027 <span class="vfy">⚠ Verify</span></p><div class="st"><span class="stamp signal">Fully briefed</span></div></div>
+          <div class="card" style="--c:var(--alarm)"><div class="no">DEP · AIR PERMIT R14-0042</div><h6>Monarch microgrid: 864 gas engines</h6><p>DEP's preliminary finding says it meets requirements. Comments closed Oct 30.</p><div class="st"><span class="stamp signal">Awaiting decision</span></div></div>
+        </div>
+        <div class="col">
+          <div class="col-h"><span>Decided · closed</span><b>3</b></div>
+          <div class="card" style="--c:var(--legal)"><div class="no">ICA · RIDGELINE AIR PERMIT</div><h6>Tucker United, WVHC &amp; Sierra Club v. DEP</h6><p>Dismissed Aug 26 on jurisdiction, not the merits. Groups say they will refile.</p><div class="st"><span class="stamp alarm">Dismissed · refiling</span></div></div>
+          <div class="card" style="--c:var(--legal)"><div class="no">U.S. DIST. CT. S.D. W.VA.</div><h6>Mingo residents v. TransGas et al.</h6><p>Judge Robert Chambers dismissed the last claims Jun 22. Attorney Stephen New plans new EPCRA suits.</p><div class="st"><span class="stamp dim">Dismissed w/o prejudice</span></div></div>
+          <div class="card" style="--c:var(--grid)"><div class="no">PSC 24-0611-E-T-PW</div><h6>ApCo / Wheeling Power large-load tariff</h6><p>100 MW+ customers sign 12-year contracts and pay for at least 80% of contracted demand.</p><div class="st"><span class="stamp ok">In effect</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FRAME 4 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">04</span><span class="t">People · connections web · #/people</span><span class="note">The most pointed view on the site, so it is the most careful one. A line means only what its label says, and every line opens its source.</span></div>
+  <div class="browser">
+    <div class="browser-bar"><i></i><i></i><i></i><div class="url">wvaihub.com/#/people?focus=bowles-rice</div></div>
+    <div class="cx">
+      <div class="cx-main">
+        <h2>Who shows up where</h2>
+        <p class="dek">People, firms, companies, projects, and cases. Click any node to focus it. Here: <b style="color:var(--paper)">Bowles Rice</b>, a law firm that turns up on two different projects in our sources.</p>
+        <svg class="cxsvg" id="cx" viewBox="0 0 1100 720"></svg>
+      </div>
+      <aside class="cx-side">
+        <div class="h5"><span>Focused</span><span>Law firm</span></div>
+        <div class="who">Bowles Rice</div>
+        <div class="role">Charleston law firm. 3 named attorneys, 2 projects in our sources.</div>
+        <div class="edge"><b>Roger Hanshaw</b>, House Speaker (R-Clay) and a Bowles Rice attorney, became counsel to Fundamental Data (Ridgeline) on Mar 16, 2026.<br><a class="rcpt" href="#">Gazette-Mail ↗</a> <span class="ok">✓</span></div>
+        <div class="edge"><b>William Lorensen</b>, a Bowles Rice attorney on the Ridgeline case. His father, ICA Judge <b>Charles Lorensen</b>, recused from the appeal.<br><a class="rcpt" href="#">Gazette-Mail (recusals) ↗</a> <span class="ok">✓</span></div>
+        <div class="edge"><b>Peter Markham</b> wrote to the DEP for MGS CNP 1 LLC, a Fidelis New Energy affiliate, saying its Mason County project had shifted from hydrogen to data centers. That site became Monarch.<br><a class="rcpt" href="#">Gazette-Mail (permits) ↗</a> <span class="ok">✓</span></div>
+        <div class="caveat">A connection is a documented relationship, not an accusation. Lawyers represent clients; the board shows who represented whom, and when, and links the reporting.</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FRAME 5 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">05</span><span class="t">County sheet · print · #/county/mason</span><span class="note">Newsprint theme, letter size. Built for the commission meeting: everything on one page, plus a QR code back to the live case files.</span></div>
+  <div class="print-wrap">
+    <div class="sheet sh">
+      <div class="sh-top">
+        <div>
+          <div class="sh-k">WV AI Watch · County field sheet</div>
+          <div class="sh-title">Mason <em>County</em></div>
+        </div>
+        <div><div class="qr" id="qr"></div><div class="qr-cap">wvaihub.com/#/county/mason</div></div>
+      </div>
+      <div class="sh-strip"><span>PRINTED NOV 3, 2026</span><span>2 PROJECTS</span><span>BOTH STATE-CERTIFIED</span><span style="border:none">COUNTY ZONING PREEMPTED (HB 2014)</span></div>
+      <div class="sh-cols">
+        <div>
+          <h3>Projects in the county</h3>
+          <div class="sh-proj">
+            <h4>Monarch Compute Campus <span class="stamp" style="color:#B3261E">Under construction</span></h4>
+            <p><b>Nscale</b> (UK) via Monarch Cloud Campus LLC. Up to 2,250 acres off Ohio River Road (WV-62) near Point Pleasant. Phase 1: 1.35 GW of compute with a 2.16 GW off-grid gas microgrid of 864 engines. Anthropic holds a $44.6B contract for the first 460 MW building.</p>
+            <p><b>Open item:</b> DEP air permit R14-0042, comments closed Oct 30, final decision pending. <b>Record:</b> DEP dust and sediment violations May through Aug; about 6 homes flooded May 23–24.</p>
+          </div>
+          <div class="sh-proj" style="border:none">
+            <h4>Project Tamarack <span class="stamp" style="color:#0B6E8A">Certified</span></h4>
+            <p><b>Starwood Digital Ventures</b> (CEO Anthony Balestrieri). West Columbia. $12B, about 2.16 GW from the grid over existing Appalachian Power lines, no on-site plant. 1,000+ construction and 300+ permanent jobs claimed. Certified Sep 3, 2026; no construction timeline released.</p>
+          </div>
+          <h3 style="margin-top:6px">Who to know</h3>
+          <p style="font-size:12.5px;line-height:1.5">Mason WV United (Elaine Matheny) · Nscale: Daniel Shapiro, Chief Power Officer · Monarch: William Calhoun; Jason Bechtle, site manager · DEP DAQ: Joe Kessler, Edward Andrews (permit engineers)</p>
+        </div>
+        <div>
+          <div class="sh-box">
+            <h5>Where to show up</h5>
+            <div class="sh-big">Mason County Commission</div>
+            <p style="margin-top:6px"><b>Thursdays, 4:00 p.m.</b> (dates on the county calendar)<br>Mason County Courthouse, 200 Sixth St., Point Pleasant</p>
+          </div>
+          <div class="sh-box">
+            <h5>Watch for</h5>
+            <ul>
+              <li>DEP's final decision on Monarch air permit R14-0042</li>
+              <li>Tamarack's promised Mason County Community Advisory Group</li>
+              <li>Monarch home buyout: offers open to Jun 30, 2028</li>
+            </ul>
+          </div>
+          <div class="sh-box" style="border-style:dashed">
+            <h5>Know the law</h5>
+            <p><b>HB 2014 (2025)</b> lets certified projects skip county zoning and sends 30% of their property tax to the host county. <b>HB 4983 (2026)</b> keeps certification petitions confidential.</p>
+          </div>
+          <p style="font-size:10.5px;font-family:var(--mono);line-height:1.5">Every line on this sheet is sourced at wvaihub.com/#/receipts. Items marked <span class="vfyp">VERIFY</span> could not be confirmed. None on this sheet.</p>
+        </div>
+      </div>
+      <div class="sh-foot"><span>WV AI WATCH · MONTANI SEMPER LIBERI</span><span>CURATED BY MØNTAN1.COM · PAGE 1 OF 1</span></div>
+    </div>
+    <div class="print-notes">
+      <h3>Why a printable sheet?</h3>
+      <ul>
+        <li>Commission meetings are where residents can still speak. A one-pager travels better than a link.</li>
+        <li>Generated from the same data as the site. Change a record once, and the case file, calendar, and sheet all update.</li>
+        <li><b>Print CSS</b> flips to the newsprint theme, drops the nav, and adds the QR code. No PDF tooling needed.</li>
+        <li>One sheet for each of the <b>17 counties</b> with standing meetings in the calendar.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FRAME 6 ============================== -->
+<section class="frame">
+  <div class="frame-label"><span class="n">06</span><span class="t">Style tile · "ink &amp; signal"</span><span class="note">Darker and warmer than today's navy glow. Keeps the brand fonts and the cyan. Adds a signal amber for deadlines and a stamp vocabulary for status.</span></div>
+  <div class="tile">
+    <div class="tbox">
+      <h4>Palette</h4>
+      <div class="sw">
+        <div style="background:#0B0D10;color:#EDE8DC">ink<br>#0B0D10</div>
+        <div style="background:#EDE8DC;color:#0B0D10">paper<br>#EDE8DC</div>
+        <div style="background:#00D4FF;color:#000">cyan · brand<br>#00D4FF</div>
+        <div style="background:#FFB020;color:#000">signal · deadlines<br>#FFB020</div>
+        <div style="background:#FF5C5C;color:#000">alarm · violations<br>#FF5C5C</div>
+        <div style="background:#FF8A3D;color:#000">gas<br>#FF8A3D</div>
+        <div style="background:#5AA9FF;color:#000">grid · lines<br>#5AA9FF</div>
+        <div style="background:#C084FC;color:#000">legal · contested<br>#C084FC</div>
+      </div>
+      <div class="sw" style="margin-top:10px;grid-template-columns:1fr 1fr">
+        <div style="background:#F3EFE6;color:#111">newsprint paper<br>#F3EFE6</div>
+        <div style="background:#111;color:#F3EFE6">newsprint ink<br>#111111</div>
+      </div>
+    </div>
+    <div class="tbox">
+      <h4>Type</h4>
+      <div class="type-a">Mapping <em>AI</em></div>
+      <div class="type-b">JETBRAINS MONO · DATA, STAMPS, DATES<br>PSC 26-0075-E-CN · DUE MAR 6, 2027</div>
+      <div class="type-c">DM Sans for body copy. Instrument Serif carries the editorial voice in headlines; mono carries the telemetry.</div>
+    </div>
+    <div class="tbox">
+      <h4>Components</h4>
+      <div class="comp">
+        <span class="stamp alarm">Under construction</span>
+        <span class="stamp cyan">Certified</span>
+        <span class="stamp legal">Pending</span>
+        <span class="stamp signal">Awaiting decision</span>
+        <span class="stamp ok">In effect</span>
+        <span class="vfy">⚠ Verify</span>
+        <a class="rcpt" href="#">Source ↗</a>
+        <span class="ok">✓ VERIFIED</span>
+      </div>
+      <div class="chip" style="--c:var(--legal);--w:92%;margin-top:16px;max-width:240px"><span class="cd">7<small>DAYS</small></span><span class="what">Countdown chip</span><span class="when">BAR = TIME LEFT</span></div>
+      <div class="redact-block" style="margin-top:14px"><div class="lbl">Redaction bar</div><span class="redact" style="width:70%"></span> <span class="redact" style="width:20%"></span><div class="why">Only where the law actually withholds it.</div></div>
+    </div>
+  </div>
+
+  <div class="decisions">
+    <div class="dec"><div class="q">DECISION 1</div><h5>Default theme</h5><p>Dark "ink &amp; signal," or light "newsprint"? The other stays as a toggle either way.</p><div class="rec">→ Recommend: ink</div></div>
+    <div class="dec"><div class="q">DECISION 2</div><h5>Map engine</h5><p>Keep the custom-drawn map and add county lines, or switch to MapLibre with roads and terrain?</p><div class="rec">→ Recommend: custom + counties</div></div>
+    <div class="dec"><div class="q">DECISION 3</div><h5>Innovation hubs</h5><p>Demote to a "The other AI story" page, or retire them?</p><div class="rec">→ Recommend: demote</div></div>
+    <div class="dec"><div class="q">DECISION 4</div><h5>Data files</h5><p>Split the inline arrays into /data/*.json, or stay one file?</p><div class="rec">→ Recommend: split</div></div>
+    <div class="dec"><div class="q">DECISION 5</div><h5>Connections web</h5><p>Map lawyers and firms across projects? It is all sourced, and it is the sharpest edge on the site.</p><div class="rec">→ Your call</div></div>
+  </div>
+</section>
+
+<footer class="board-foot">
+  <span>Concept board v1 · static mockup · data as of Nov 3, 2026 · sources: research/2026-11-wv-ai-watch-dossier.md and research/2026-11-verification-log.md</span>
+  <span>WV AI Watch · Montani Semper Liberi</span>
+</footer>
+</div>
+
+<script>
+const GEO = {"d":"M0.0,580.2 L6.6,562.2 L11.9,548.2 L8.7,530.0 L9.1,520.9 L46.3,517.9 L63.1,494.7 L85.2,478.1 L83.5,450.2 L82.6,428.5 L97.2,400.9 L110.5,379.7 L124.7,386.4 L132.6,406.0 L145.7,405.4 L161.7,402.0 L157.6,394.7 L154.1,374.5 L160.6,365.8 L162.8,341.6 L173.2,328.0 L192.8,321.6 L213.9,291.0 L231.6,304.7 L259.9,294.3 L275.1,280.8 L295.5,256.1 L320.1,240.1 L329.8,220.3 L325.4,202.9 L338.7,180.1 L343.8,171.5 L348.1,153.6 L348.4,134.8 L354.1,114.5 L366.7,90.2 L369.9,87.8 L370.0,60.4 L373.8,42.4 L362.0,16.1 L374.6,3.6 L388.3,0.0 L388.2,215.5 L578.8,215.6 L577.8,260.1 L577.1,304.1 L577.1,322.8 L578.9,337.2 L583.6,334.7 L588.2,330.1 L589.1,328.9 L593.1,325.6 L594.1,323.5 L595.1,322.2 L596.1,322.3 L601.8,318.0 L602.7,316.0 L612.4,314.8 L616.7,307.3 L619.5,305.4 L619.1,301.1 L623.4,300.5 L624.0,299.6 L625.7,299.7 L632.1,294.5 L632.8,292.3 L636.7,287.2 L638.6,289.7 L639.9,287.1 L643.3,283.2 L644.6,282.1 L647.3,277.6 L647.0,276.2 L647.1,273.2 L653.8,272.3 L657.3,271.5 L673.8,281.6 L673.3,278.9 L673.4,276.5 L681.7,269.0 L685.5,264.6 L685.4,262.0 L689.6,258.4 L693.1,253.5 L697.7,249.4 L700.8,242.2 L702.3,237.3 L703.4,235.4 L708.8,233.7 L713.0,241.9 L706.5,243.7 L714.6,247.2 L716.2,252.5 L728.8,259.4 L733.8,258.3 L740.5,260.1 L748.2,262.7 L764.5,260.7 L766.9,256.2 L772.4,256.5 L771.4,247.8 L769.5,239.2 L778.6,238.2 L783.8,234.5 L807.9,229.7 L822.5,222.8 L840.0,233.9 L856.5,242.0 L858.9,240.1 L870.1,244.3 L879.9,246.2 L873.3,258.5 L880.3,260.4 L886.8,269.7 L886.1,271.8 L885.4,277.3 L892.8,284.7 L895.5,299.2 L900.0,309.5 L892.8,322.0 L890.6,326.3 L886.5,335.7 L881.1,350.9 L814.5,299.5 L784.9,276.4 L785.3,279.1 L785.1,285.3 L786.0,293.7 L782.5,301.0 L785.2,304.3 L785.6,304.9 L780.8,312.7 L776.0,319.1 L775.3,320.0 L772.1,324.5 L774.8,328.4 L770.0,338.9 L770.4,339.8 L771.2,339.9 L770.8,342.1 L774.9,345.7 L762.9,358.9 L758.1,361.8 L752.5,369.0 L748.1,380.8 L740.3,391.6 L737.0,390.6 L735.3,389.1 L732.0,392.8 L726.9,399.3 L718.5,406.5 L710.8,407.2 L696.1,429.3 L667.0,420.2 L666.1,422.4 L660.6,434.1 L656.5,438.4 L650.1,451.7 L642.9,466.0 L637.7,477.5 L637.0,480.4 L628.3,496.7 L628.1,501.7 L621.6,513.3 L616.2,517.2 L614.2,521.7 L609.9,522.5 L561.4,487.7 L545.7,484.9 L544.8,486.0 L544.4,488.2 L544.1,496.8 L543.4,500.7 L538.4,505.5 L538.2,509.6 L539.5,517.4 L532.2,532.2 L527.5,536.0 L525.9,537.3 L525.5,538.6 L519.0,546.2 L520.1,551.3 L517.0,560.9 L511.9,563.2 L498.4,576.2 L498.4,578.1 L498.5,580.4 L498.0,582.4 L498.0,582.8 L496.2,585.9 L496.6,594.8 L487.9,610.9 L485.9,616.1 L476.5,627.5 L461.7,643.3 L459.0,645.9 L451.7,652.4 L449.1,658.1 L443.2,664.7 L441.8,669.7 L442.4,670.2 L442.6,671.2 L443.5,672.6 L440.1,673.0 L439.0,674.5 L437.5,677.0 L437.1,683.4 L429.0,692.4 L442.8,707.4 L423.1,722.3 L423.3,728.0 L431.5,729.6 L426.6,736.8 L416.1,741.0 L414.0,744.2 L389.7,741.7 L385.5,743.4 L369.3,753.1 L366.7,754.5 L346.9,765.6 L339.8,762.2 L330.3,755.2 L325.4,758.2 L327.9,773.4 L309.9,785.4 L301.1,784.5 L234.2,775.6 L232.8,776.9 L227.7,782.9 L225.1,789.0 L221.2,790.8 L220.9,790.7 L219.2,791.1 L218.4,791.1 L209.7,795.6 L207.8,798.7 L198.3,806.0 L175.5,806.6 L175.4,805.2 L164.5,796.7 L162.7,792.3 L157.9,789.7 L155.3,788.0 L147.8,788.7 L148.0,788.1 L144.2,782.9 L142.5,781.6 L139.7,777.0 L136.8,776.9 L135.9,774.8 L130.6,770.2 L129.7,768.1 L129.7,767.3 L130.0,763.9 L131.6,758.3 L128.9,753.4 L125.4,749.4 L123.3,748.8 L121.2,747.5 L118.9,744.8 L118.4,743.9 L118.9,741.4 L122.5,740.3 L122.9,739.8 L126.1,739.4 L127.8,736.7 L129.6,732.9 L127.8,730.2 L125.4,729.2 L123.2,729.4 L120.8,727.6 L118.1,727.4 L113.0,728.4 L108.8,730.6 L104.2,724.5 L98.5,724.4 L91.1,721.7 L88.9,715.6 L88.9,711.8 L87.6,709.2 L85.6,702.8 L80.4,707.8 L78.3,707.5 L73.8,699.5 L64.9,697.9 L62.0,696.1 L63.3,689.9 L57.6,679.1 L60.6,675.3 L55.9,672.7 L48.6,666.2 L42.8,658.3 L41.8,653.7 L43.1,651.1 L40.5,646.8 L31.9,642.5 L29.8,637.4 L28.2,634.4 L31.4,629.4 L29.1,623.6 L22.0,616.9 L16.8,603.3 L4.0,591.0 L0.0,580.2 Z","pts":{"monarch":{"short":"Monarch","st":"construction","x":95.6,"y":413.2},"tamarack":{"short":"Tamarack","st":"certified","x":119.4,"y":392.1},"google":{"short":"Google","st":"certified","x":121.2,"y":474.3},"ridgeline":{"short":"Ridgeline","st":"contested","x":578.2,"y":352.1},"adams-tg":{"short":"Adams Fork \u00b7 Twisted Gun","st":"contested","x":124.9,"y":706.9},"adams-h":{"short":"Adams Fork \u00b7 Harless","st":"contested","x":106.6,"y":659.9},"penzance":{"short":"Penzance","st":"certified","x":861.5,"y":260.5},"qts":{"short":"QTS","st":"proposed","x":868.8,"y":291.0},"summit":{"short":"Summit Point","st":"proposed","x":856.6,"y":329.8},"hoglick":{"short":"Hog Lick","st":"proposed","x":451.2,"y":282.8},"warwood":{"short":"Warwood","st":"contested","x":354.3,"y":126.6},"monroe":{"short":"Monroe Co.","st":"rumored","x":346.1,"y":736.3},"fortmartin":{"short":"Fort Martin","st":"grid","x":495.9,"y":218.2}},"lines":{"marl":"495.9,218.2 552.6,244.1 620.2,274.6 675.1,284.0 748.2,300.4 784.8,314.5","valleylink":"150.5,509.5 236.4,443.8 309.5,420.3 364.3,436.7 400.9,385.0 464.9,366.2 528.8,349.8 583.7,356.8 665.9,373.3 748.2,326.3 857.9,302.8 899.9,307.5"}};
+const NS = 'http://www.w3.org/2000/svg';
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const ST = { construction:'--alarm', certified:'--cyan', contested:'--legal', proposed:'--paper-dim', rumored:'--paper-faint', grid:'--gas' };
+
+/* ---- map ---- */
+(function map(){
+  const s = document.getElementById('map1');
+  const defs = el('defs', {}, s);
+  const g = el('radialGradient', { id:'glow' }, defs);
+  el('stop', { offset:'0%', 'stop-color':css('--cyan'), 'stop-opacity':.10 }, g);
+  el('stop', { offset:'100%', 'stop-color':css('--cyan'), 'stop-opacity':0 }, g);
+  const pat = el('pattern', { id:'hatch', width:7, height:7, patternUnits:'userSpaceOnUse', patternTransform:'rotate(35)' }, defs);
+  el('line', { x1:0, y1:0, x2:0, y2:7, stroke:'rgba(237,232,220,.05)', 'stroke-width':2 }, pat);
+  el('path', { d:GEO.d, fill:'#11151B', stroke:'rgba(237,232,220,.55)', 'stroke-width':1.6, 'stroke-linejoin':'round' }, s);
+  el('path', { d:GEO.d, fill:'url(#hatch)' }, s);
+  // lines
+  const L = { marl:{ c:'--grid', lbl:'MARL 500 kV', x:566, y:224, dash:'' }, valleylink:{ c:'--grid', lbl:'Valley Link 765 kV (pre-filing)', x:232, y:484, dash:'7 6' } };
+  for (const k in GEO.lines) {
+    const pts = GEO.lines[k];
+    el('polyline', { points:pts, fill:'none', stroke:css(L[k].c), 'stroke-width':3, 'stroke-opacity':.85, 'stroke-dasharray':L[k].dash, 'stroke-linecap':'round', 'stroke-linejoin':'round' }, s);
+    const t = el('text', { x:L[k].x, y:L[k].y, fill:css(L[k].c), 'font-family':'JetBrains Mono', 'font-size':15 }, s); t.textContent = L[k].lbl;
+  }
+  // points
+  const OFF = { monarch:[18,8,'start'], tamarack:[18,-8,'start'], google:[18,6,'start'], 'adams-h':[18,-2,'start'], 'adams-tg':[18,8,'start'],
+    penzance:[-18,2,'end'], qts:[-18,6,'end'], summit:[-18,10,'end'], hoglick:[-18,6,'end'], ridgeline:[14,-16,'start'], warwood:[18,6,'start'], monroe:[18,6,'start'], fortmartin:[-16,-12,'end'] };
+  const NAMES = { 'adams-tg':'Adams Fork · Twisted Gun', 'adams-h':'Adams Fork · Harless', monroe:'Monroe Co. (rumored)' };
+  for (const id in GEO.pts) {
+    const p = GEO.pts[id], c = css(ST[p.st]);
+    if (id === 'monarch' || id === 'tamarack') { el('circle', { cx:p.x, cy:p.y, r:34, fill:'url(#glow)' }, s); }
+    if (p.st === 'construction') {
+      const r = el('circle', { cx:p.x, cy:p.y, r:10, fill:'none', stroke:c, 'stroke-width':2 }, s);
+      r.innerHTML = '<animate attributeName="r" values="9;26" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.2s" repeatCount="indefinite"/>';
+    }
+    if (p.st === 'grid') el('rect', { x:p.x-7, y:p.y-7, width:14, height:14, fill:c, transform:`rotate(45 ${p.x} ${p.y})` }, s);
+    else el('circle', { cx:p.x, cy:p.y, r: p.st === 'rumored' ? 6 : 8, fill: p.st === 'rumored' ? 'none' : c, stroke: p.st === 'rumored' ? c : '#0B0D10', 'stroke-width': p.st === 'rumored' ? 2 : 2.5, 'stroke-dasharray': p.st === 'rumored' ? '3 3' : '' }, s);
+    const o = OFF[id] || [16,6,'start'];
+    const t = el('text', { x:p.x+o[0], y:p.y+o[1], stroke:'#11151B', 'stroke-width':5, 'paint-order':'stroke', 'stroke-linejoin':'round', fill:css('--paper'), 'font-family':'DM Sans', 'font-size':17, 'font-weight':500, 'text-anchor':o[2] }, s);
+    t.textContent = NAMES[id] || p.short;
+    if (id === 'summit') { const v = el('text', { x:p.x+o[0], y:p.y+o[1]+18, fill:css('--signal'), 'font-family':'JetBrains Mono', 'font-size':12, 'text-anchor':'end' }, s); v.textContent = '⚠ VERIFY'; }
+  }
+  // county callout
+  const cx = el('g', {}, s);
+  el('line', { x1:96, y1:413, x2:250, y2:560, stroke:css('--paper-faint'), 'stroke-width':1 }, cx);
+  el('rect', { x:250, y:548, width:262, height:62, rx:6, fill:'#0B0D10', stroke:css('--rule') }, cx);
+  const a = el('text', { x:262, y:572, fill:css('--paper'), 'font-family':'JetBrains Mono', 'font-size':13, 'font-weight':700 }, cx); a.textContent = 'MASON COUNTY · 2 CERTIFIED';
+  const b = el('text', { x:262, y:594, fill:css('--paper-dim'), 'font-family':'DM Sans', 'font-size':14 }, cx); b.textContent = 'Monarch + Tamarack · both certified Sep 3';
+})();
+
+/* ---- scrubber ---- */
+(function scrub(){
+  const t = document.getElementById('track');
+  const start = Date.UTC(2025,0,1), end = Date.UTC(2027,5,1), pct = d => ((d - start) / (end - start) * 100);
+  t.innerHTML = '<div class="base"></div>';
+  const today = Date.UTC(2026,10,3);
+  const fill = document.createElement('div'); fill.className = 'fill'; fill.style.width = pct(today) + '%'; t.appendChild(fill);
+  [[Date.UTC(2025,0,1),'2025 · HB 2014 LAW'],[Date.UTC(2026,1,1),'FEB 2026 · PENZANCE'],[Date.UTC(2026,2,27),''],[Date.UTC(2026,7,26),'AUG 26 · ICA RULING'],[Date.UTC(2026,8,3),''],[Date.UTC(2027,2,6),'MAR 6, 2027 · MARL']]
+    .forEach(([d, l]) => { const k = document.createElement('div'); k.className = 'tick' + (d > today ? ' future' : '') + (d === start ? ' first' : ''); k.style.left = pct(d) + '%'; if (l) k.innerHTML = `<span>${l}</span>`; t.appendChild(k); });
+  const h = document.createElement('div'); h.className = 'handle'; h.style.left = pct(today) + '%'; t.appendChild(h);
+})();
+
+/* ---- engines ---- */
+(function eng(){
+  const e = document.getElementById('engines'); let h = '';
+  for (let i = 0; i < 864; i++) h += '<i></i>';
+  for (let i = 0; i < 12; i++) h += '<i class="d"></i>';
+  e.innerHTML = h;
+})();
+
+/* ---- connections web (hand-placed; each label position set to avoid collisions) ---- */
+(function web(){
+  const s = document.getElementById('cx');
+  const C = { person:'--paper', firm:'--signal', company:'--cyan', project:'--alarm', case:'--legal', group:'--ok' };
+  // id: x, y, title, subtitle, kind, radius, label [x, y, anchor] (subtitle sits 16px under the title)
+  const N = {
+    br:{ x:540, y:370, t:'Bowles Rice', k:'firm', r:30, l:[540,424,'middle'] },
+    hanshaw:{ x:420, y:230, t:'Roger Hanshaw', s:'House Speaker', k:'person', l:[400,236,'end'] },
+    wlor:{ x:330, y:450, t:'William Lorensen', s:'attorney', k:'person', l:[330,484,'middle'] },
+    markham:{ x:650, y:220, t:'Peter Markham', s:'attorney', k:'person', l:[650,182,'middle'] },
+    clor:{ x:300, y:580, t:'Judge Charles Lorensen', s:'ICA judge · recused', k:'person', l:[300,614,'middle'] },
+    fd:{ x:300, y:110, t:'Fundamental Data', k:'company', l:[300,82,'middle'] },
+    ridge:{ x:90, y:260, t:'Ridgeline', s:'Tucker Co.', k:'project', l:[90,296,'middle'] },
+    ica:{ x:100, y:440, t:'ICA appeal', s:'dismissed Aug 26', k:'case', l:[122,446,'start'] },
+    groups:{ x:110, y:660, t:'Tucker United · WVHC · Sierra Club', k:'group', l:[20,694,'start'] },
+    ama:{ x:600, y:660, t:'Appalachian Mountain Advocates', k:'group', l:[600,694,'middle'] },
+    mgs:{ x:840, y:220, t:'MGS CNP 1 LLC', s:'Fidelis affiliate', k:'company', l:[840,166,'middle'] },
+    fidelis:{ x:1010, y:130, t:'Fidelis New Energy', k:'company', l:[1010,98,'middle'] },
+    aip:{ x:1010, y:300, t:'AIPCorp', s:'Fidelis / 8090 affiliate', k:'company', l:[1010,334,'middle'] },
+    monarch:{ x:900, y:420, t:'Monarch', s:'Mason Co.', k:'project', r:18, l:[900,462,'middle'] },
+    nscale:{ x:1010, y:480, t:'Nscale', k:'company', l:[1010,514,'middle'] },
+    anth:{ x:760, y:560, t:'Anthropic', k:'company', l:[760,594,'middle'] },
+    nvda:{ x:1010, y:630, t:'Nvidia', k:'company', l:[1010,664,'middle'] },
+  };
+  const E = [ // [from, to, label, t = where the label sits along the line]
+    ['hanshaw','br','attorney at',.5],['wlor','br','attorney at',.5],['markham','br','attorney at',.5],
+    ['hanshaw','fd','counsel since Mar 16',.5],['fd','ridge','developer',.5],['wlor','ridge','on the case',.5],
+    ['clor','wlor','father of',.4],['clor','ica','recused',.5],['ica','ridge','air permit',.5],
+    ['groups','ica','appellants',.5],['ama','groups','represents',.5],
+    ['markham','mgs','wrote to DEP for',.5],['mgs','fidelis','affiliate',.62],['aip','fidelis','affiliate',.5],
+    ['mgs','monarch','site became',.5],['nscale','aip','acquired Mar 2026',.5],['nscale','monarch','developer',.35],
+    ['anth','monarch','$44.6B contract',.4],['nvda','nscale','debt guarantee talks',.5],
+  ];
+  const focus = new Set(['br','hanshaw','wlor','markham']);
+  const near = new Set(['fd','ridge','mgs','clor','ica','monarch']);
+  for (const [a, b, l, f] of E) {
+    const A = N[a], B = N[b], hot = focus.has(a) || focus.has(b);
+    el('line', { x1:A.x, y1:A.y, x2:B.x, y2:B.y, stroke: hot ? css('--signal') : '#3A404A', 'stroke-width': hot ? 2.2 : 1.4 }, s);
+    const mx = A.x + (B.x - A.x) * f, my = A.y + (B.y - A.y) * f, tw = l.length * 6.7 + 10;
+    el('rect', { x:mx - tw/2, y:my - 9, width:tw, height:17, rx:3, fill:'#0B0D10' }, s);
+    const t = el('text', { x:mx, y:my + 4, 'text-anchor':'middle', fill: hot ? css('--signal') : css('--paper-dim'), 'font-family':'JetBrains Mono', 'font-size':11 }, s); t.textContent = l;
+  }
+  for (const id in N) {
+    const n = N[id], c = css(C[n.k]), r = n.r || 12, dim = !focus.has(id) && !near.has(id);
+    if (n.k === 'firm') el('circle', { cx:n.x, cy:n.y, r:r + 14, fill:'none', stroke:c, 'stroke-opacity':.3, 'stroke-width':8 }, s);
+    if (n.k === 'project') el('rect', { x:n.x - r, y:n.y - r, width:r*2, height:r*2, rx:4, fill:c, 'fill-opacity': dim ? .45 : 1 }, s);
+    else el('circle', { cx:n.x, cy:n.y, r, fill: n.k === 'person' ? '#0B0D10' : c, stroke:c, 'stroke-width':2.5, 'fill-opacity': dim ? .45 : 1, 'stroke-opacity': dim ? .6 : 1 }, s);
+    const [lx, ly, an] = n.l;
+    const t = el('text', { x:lx, y:ly, stroke:'#0B0D10', 'stroke-width':5, 'paint-order':'stroke', 'stroke-linejoin':'round', 'text-anchor':an, fill: dim ? css('--paper-dim') : css('--paper'), 'font-family':'DM Sans', 'font-size': n.k === 'firm' ? 20 : 15, 'font-weight':600 }, s); t.textContent = n.t;
+    if (n.s) { const u = el('text', { x:lx, y:ly + 16, stroke:'#0B0D10', 'stroke-width':5, 'paint-order':'stroke', 'stroke-linejoin':'round', 'text-anchor':an, fill:css('--paper-faint'), 'font-family':'JetBrains Mono', 'font-size':11 }, s); u.textContent = n.s; }
+  }
+  [['person','Person'],['firm','Law firm'],['company','Company'],['project','Project'],['case','Case'],['group','Group']].forEach(([k, l], i) => {
+    const x = 14 + i * 104; el('circle', { cx:x, cy:22, r:6, fill: k === 'person' ? '#0B0D10' : css(C[k]), stroke:css(C[k]), 'stroke-width':2 }, s);
+    const t = el('text', { x:x + 12, y:26, fill:css('--paper-dim'), 'font-family':'JetBrains Mono', 'font-size':11 }, s); t.textContent = l;
+  });
+})();
+
+/* ---- decorative QR (placeholder pattern, not a real code) ---- */
+(function qr(){
+  const q = document.getElementById('qr'); let h = ''; let seed = 7;
+  const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+  for (let y = 0; y < 21; y++) for (let x = 0; x < 21; x++) {
+    const inF = (fx, fy) => x >= fx && x < fx + 7 && y >= fy && y < fy + 7;
+    let on;
+    if (inF(0,0) || inF(14,0) || inF(0,14)) { const fx = x < 7 ? 0 : 14, fy = y < 7 ? 0 : 14, lx = x - (x >= 14 ? 14 : 0), ly = y - (y >= 14 ? 14 : 0); on = lx === 0 || lx === 6 || ly === 0 || ly === 6 || (lx >= 2 && lx <= 4 && ly >= 2 && ly <= 4); }
+    else on = rnd() > .52;
+    h += on ? '<i></i>' : '<i class="w"></i>';
+  }
+  q.innerHTML = h;
+})();
+</script>
+</body>
+</html>
