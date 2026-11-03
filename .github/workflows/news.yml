@@ -1,0 +1,37 @@
+# Gathers news headlines every three hours and publishes them (data/news.json only).
+# Approved by the site owner on Nov 3, 2026. No AI model is involved: tools/fetch_news.py
+# is a plain RSS reader with keyword filters. Free on GitHub Actions (public repository).
+# To pause it: Actions tab > update-news > "..." > Disable workflow.
+name: update-news
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # every 3 hours, at :17 past (UTC)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: fetch
+        run: python3 -I tools/fetch_news.py
+      - run: python3 -I tools/check.py
+      - name: Commit if there are new headlines
+        run: |
+          if git diff --quiet -- data/news.json; then echo "No new headlines."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "News: ${{ steps.fetch.outputs.new || 0 }} new headline(s) [automated]"
+          git pull --rebase origin main
+          git push origin HEAD:main
