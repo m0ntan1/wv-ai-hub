@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T13:06:25Z",
+ "updated": "2026-11-03T13:51:28Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -102,6 +102,18 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "nia-expands-data-center-footprint-with-streamlined-approvals",
+   "d": "2026-10-30T08:18:00Z",
+   "title": "West Virginia expands data center footprint with streamlined approvals",
+   "url": "https://cryptobriefing.com/west-virginia-expands-data-center-footprint-with-streamlined-approvals/",
+   "source": "Crypto Briefing",
+   "summary": "West Virginia expands its data center footprint with streamlined approvals. Louisiana data center moratorium by December 2026 at 4.1% YES.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:51:28Z",
+   "story": "nia-expands-data-center-footprint-with-streamlined-approvals"
   },
   {
    "id": "l-third-rail-west-virginia-is-grabbing-it-anyway-ar-aa2gqind",
