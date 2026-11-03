@@ -98,8 +98,8 @@ All data lives in `data/*.json`. The schema for each file is in `DOCS.md`. Times
 |---|---|---|
 | **0. In the repo now** | `tools/check.py` (structure, references, dates, staleness, optional link check), `tools/build_feeds.py` (calendar.ics, feed.json, QR codes, sitemap), and `?today=` time travel for testing | Done |
 | **1. Check every push** | A GitHub Action (`.github/workflows/check.yml`) runs `check.py` and `build_feeds.py` on every push and pull request and fails on errors. Netlify deploy previews show each pull request before merge. | Done. The first run passed on Nov 3, 2026 |
-| **1b. News refresh on a schedule** | A GitHub Action runs `tools/fetch_news.py` every few hours and commits `data/news.json` when there are new headlines, so the news section stays current between shifts. Headlines only; nothing else changes. | Needs your go-ahead (it publishes on its own) |
-| **2. Weekly drafted shift** | A scheduled Claude task, Mondays early morning ET. It reads new PSC digests in Gmail, sweeps the sources in section 1, drafts the JSON edits and desk items on a branch, runs the checker, and opens a pull request whose description lists every source. **It never publishes.** You review and merge. | Needs your go-ahead |
+| **1b. News refresh on a schedule** | `.github/workflows/news.yml` runs `tools/fetch_news.py` every 3 hours (at :17 past, UTC) and commits `data/news.json` when there are new headlines, so the news section stays current between shifts. Headlines only; nothing else changes. No AI model is involved, and it is free on GitHub Actions for a public repository. Pause it from the Actions tab. | Done. Approved Nov 3, 2026 |
+| **2. Weekly drafted shift** | A scheduled Claude task ("WV AI Watch: weekly desk shift (draft PR)"), **Mondays at 5:43 a.m. Eastern, on Sonnet 5.5**. It reads new PSC digests in Gmail, the week's headlines in `news.json`, and the official pages; drafts the JSON edits and desk items on a `desk/<date>` branch; runs the checker; and opens a pull request whose description lists every source plus a "Needs your call" section for status changes, new connections, and anything about a named person. **It never merges or publishes.** You review and merge. | Scheduled. First run Nov 9, 2026. Gmail access still to be attached (section 7) |
 | **3. Reach** | The contact form at `#/contact` (question, tip, or correction) is live and handled by Netlify Forms. Every case file has a "Report an error" link. `calendar.ics` subscriptions and `feed.json` are live. An email digest built from `feed.json` can come later. | Contact form done; digest proposed |
 
 What stays human: status labels, any new connection in the web, anything about a named private person, and the decision to publish.
@@ -148,7 +148,7 @@ From `data/events.json` and `data/docket.json`. The checker warns after each one
 ## 7. Blocks and assumptions
 
 **Hard blocks**
-- **Tier 2 needs your approval.** A scheduled task runs in your account and reads your Gmail PSC digests. I won't create it unless you say so.
+- **The weekly task does not have Gmail yet.** It was created from a session that could not pass connectors along, so it runs without Gmail and will skip the PSC step (it says so in each pull request). To fix it, open the task in claude.ai (Routines / scheduled tasks) and add the Gmail connector there.
 - **The PSC website blocks automated access** from this environment. PSC facts come from your subscription emails, so a missed email means a missed update.
 - **Some county sites don't publish schedules** (Mingo's is under construction; Grant and Mineral are inferred from agendas). Those stay ⚠ Verify until someone calls the clerk.
 
@@ -156,9 +156,10 @@ From `data/events.json` and `data/docket.json`. The checker warns after each one
 - About 60–90 minutes a week, on Mondays, plus same-day updates.
 - Netlify keeps auto-deploying `main`, as it has so far.
 - All times are Eastern. Readers' "today" comes from their own clock.
-- Browsers may cache the site's scripts for a while after a deploy. When a release changes code (not just data), bump the `?v=` value in `index.html`.
+- Netlify tells browsers to recheck every file on each visit (`max-age=0, must-revalidate`), so deploys show up right away. The `?v=` value in `index.html` only matters if that ever changes.
 
-## 8. Decisions for you
-1. **Cadence:** is a Monday shift right, or should it be another day?
-2. **Tier 2:** should I set up the weekly scheduled task that drafts a pull request?
-3. **Corrections:** should corrections get their own section on the Receipts page, or stay in the verification log?
+## 8. Decisions
+**Made (Nov 3, 2026):** the weekly shift runs Mondays; the weekly drafted pull request is on (Sonnet 5.5); headlines refresh automatically every 3 hours; tips and corrections come in through the contact form.
+
+**Still open:**
+1. **Corrections:** should corrections get their own section on the Receipts page, or stay in the verification log?
