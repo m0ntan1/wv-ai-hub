@@ -243,7 +243,7 @@ def overlay_specs(caps, asof):
         {'id': 'bar_disclaimer', 'html': '<div class="bar"><b>◆</b> Analysis for education only. Not investment advice.</div>'},
         {'id': 'asof', 'html': f'<div class="asof">{html.escape(asof)}</div>'},
         {'id': 'title', 'html': '<div class="title"><div class="k">Mapping AI across the Mountain State</div><div class="a">West Virginia\'s</div><div class="b">AI Watch</div></div>'},
-        {'id': 'end_card', 'html': '<div class="end"><div class="u">wvaihub<i>.</i>com</div><div class="t">Montani semper liberi</div>'
+        {'id': 'end_card', 'html': '<div class="end"><div class="u">wvaihub<i>.</i>com</div><div class="t">Mountaineers are always free</div><div class="m">Montani semper liberi &middot; West Virginia state motto</div>'
                                    f'<div class="s">Rook is an AI persona. Synthetic voice.<br>{html.escape(asof)}.</div></div>'},
     ]
     for i, c in enumerate(caps):
