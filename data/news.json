@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T13:51:28Z",
+ "updated": "2026-11-03T16:16:37Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -326,6 +326,20 @@
    "story": "-45-billion-ai-deal-nvidia-could-be-a-big-winner-ar-aa2fgcva"
   },
   {
+   "id": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal",
+   "d": "2026-10-20T02:45:00Z",
+   "title": "Nscale and Anthropic reportedly in talks over second $45bn deal",
+   "url": "https://thenextweb.com/news/nscale-and-anthropic-reportedly-in-talks-over-second-45bn-deal",
+   "source": "The Next Web",
+   "summary": "Nscale is in talks to sell Anthropic a second $45bn block of AI computing capacity at its West Virginia campus, Bloomberg reported.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T16:16:37Z",
+   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+  },
+  {
    "id": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk",
    "d": "2026-10-19T19:32:03Z",
    "title": "PSC modifies coal-fired plant mandate",
@@ -580,6 +594,20 @@
    "via": "wvhc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "rding-fundamental-datas-control-of-proposed-power-plant-site"
+  },
+  {
+   "id": "ticles-barbour-county-citizens-voice-concerns-152713000-html",
+   "d": "2026-07-16T08:27:00Z",
+   "title": "Barbour County citizens voice concerns at Valley Link’s Open House",
+   "url": "https://www.aol.com/articles/barbour-county-citizens-voice-concerns-152713000.html",
+   "source": "AOL",
+   "summary": "PHILIPPI, W.Va. (WBOY) — With tensions rising around Valley Link’s Valley North Transmission Line Project, the company decided to host multiple open houses to answer questions regarding the ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-03T16:16:37Z",
+   "story": "ticles-barbour-county-citizens-voice-concerns-152713000-html"
   },
   {
    "id": "ticles-concerned-barbour-county-citizens-meet-222727000-html",
