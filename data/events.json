@@ -636,18 +636,20 @@
  },
  {
   "id": "p-monarch-deadline",
-  "date": "2026-10-30",
+  "date": "2026-11-13",
   "type": "hearing",
-  "title": "Monarch air permit comment deadline",
+  "title": "Monarch air permit: written comments due before 5 p.m.",
   "county": "Mason",
   "host": "WV DEP Division of Air Quality",
   "project": "monarch",
   "sources": [
    {
-    "label": "WSAZ",
-    "url": "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+    "label": "DEP: public comment and meetings, Monarch (notice dated 9/29/2026)",
+    "url": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    }
-  ]
+  ],
+  "desc": "Written comments on air permit R14-0042 must be received by the DEP Division of Air Quality before 5:00 p.m. DEP says only comments received by then, or given orally at the Oct 20 and Oct 29 meetings, are considered before the final decision.",
+  "how": "Follow the DEP's instructions on its notice page. Comments must be received, not just sent, before 5 p.m."
  },
  {
   "id": "p-monarch-virtual",

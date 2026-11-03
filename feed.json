@@ -7,6 +7,17 @@
  "language": "en-US",
  "items": [
   {
+   "id": "2026-11-03-correction-dep-s-own-notice-says-written-comment",
+   "url": "https://wvaihub.com/#/project/monarch",
+   "external_url": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx",
+   "title": "Correction: DEP's own notice says written comments on Monarch's air permit R14-0042 are due before 5 p.m. Nov 13, not Oct 30 as earlier reported.",
+   "content_text": "Correction: DEP's own notice says written comments on Monarch's air permit R14-0042 are due before 5 p.m. Nov 13, not Oct 30 as earlier reported. Source: https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx",
+   "date_published": "2026-11-03T12:00:00-05:00",
+   "tags": [
+    "monarch"
+   ]
+  },
+  {
    "id": "2026-11-02-stop-valley-link-peaceful-protest-at-the-barbour",
    "url": "https://wvaihub.com/",
    "external_url": "https://valleynorthrecord.substack.com/p/regional-osint-db7",
@@ -34,17 +45,6 @@
    "external_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
    "title": "Nvidia is in talks to guarantee billions in construction debt for Monarch's Anthropic building.",
    "content_text": "Nvidia is in talks to guarantee billions in construction debt for Monarch's Anthropic building. Source: https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-   "date_published": "2026-10-30T12:00:00-05:00",
-   "tags": [
-    "monarch"
-   ]
-  },
-  {
-   "id": "2026-10-30-the-dep-closes-comments-on-monarch-air-permit-r1",
-   "url": "https://wvaihub.com/#/project/monarch",
-   "external_url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
-   "title": "The DEP closes comments on Monarch air permit R14-0042. A final decision is pending.",
-   "content_text": "The DEP closes comments on Monarch air permit R14-0042. A final decision is pending. Source: https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
    "date_published": "2026-10-30T12:00:00-05:00",
    "tags": [
     "monarch"

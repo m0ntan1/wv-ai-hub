@@ -30,12 +30,12 @@
    },
    {
     "k": "Permits",
-    "v": "Air permit R14-0042: comments closed Oct 30, final decision pending. DEP violations for sediment and dust May through Aug. About 6 homes flooded May 23–24."
+    "v": "Air permit R14-0042: written comments are due before 5 p.m. Nov 13, 2026 (DEP notice); no final decision yet. DEP violations for sediment and dust May through Aug. About 6 homes flooded May 23–24."
    }
   ],
   "latest": {
    "d": "Oct 30, 2026",
-   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). The same day, the DEP air-permit comment period closed after hearings Oct 20 and Oct 29."
+   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). DEP's written comment period on the air permit stays open until Nov 13, after meetings on Oct 20 and Oct 29."
   },
   "history": [
    {
@@ -63,10 +63,10 @@
     "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
    },
    {
-    "d": "2026-04-20",
+    "d": "2026-04-17",
     "t": "Air permit R14-0042 application filed with the DEP.",
     "kind": "permit",
-    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+    "src": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    },
    {
     "d": "2026-05-05",
@@ -118,9 +118,16 @@
    },
    {
     "d": "2026-10-30",
-    "t": "Comment period closes. Nvidia is reported in talks to guarantee construction debt.",
+    "t": "Nvidia is reported in talks to guarantee construction debt.",
     "kind": "company",
     "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "d": "2026-11-13",
+    "t": "Written comments on air permit R14-0042 are due before 5 p.m.",
+    "kind": "permit",
+    "src": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx",
+    "next": true
    },
    {
     "t": "DEP final decision on air permit R14-0042.",
@@ -129,6 +136,10 @@
    }
   ],
   "sources": [
+   {
+    "label": "DEP: public comment and meetings, Monarch (notice dated 9/29/2026)",
+    "url": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
+   },
    {
     "label": "Nscale S-1 (SEC)",
     "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"

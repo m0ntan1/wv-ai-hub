@@ -68,7 +68,7 @@ export function desk(main, who) {
     <section class="sec">
       <div class="sec-h">How a Read gets made</div>
       <ol class="steps">
-        <li><b>Every three hours.</b> Two scripts, with no AI involved, gather headlines from local and national outlets and new SEC filings for every company on the <a href="#/money">Money</a> tab.</li>
+        <li><b>Every three hours.</b> Two scripts, with no AI involved, gather headlines from local and national outlets, and new SEC filings for every company on the <a href="#/money">Money</a> tab that files with the SEC.</li>
         <li><b>Weekday mornings.</b> Rook reads the past day's headlines and filings and the site's own case files, then drafts a Read of up to 850 words, with a numbered source for every fact.</li>
         <li><b>Same run.</b> Mercer audits the draft (every claim checked against its source, then a second, independent auditor) and applies his four duties. He stamps it CLEARED, CONDITIONAL, or HOLD.</li>
         <li><b>The editor.</b> The draft arrives as a pull request with Mercer's review attached. Nothing publishes until Rick Thomas reads it and merges it. A HOLD never ships.</li>

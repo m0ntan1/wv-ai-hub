@@ -1526,7 +1526,7 @@
    "sec": "project",
    "title": "Monarch Compute Campus",
    "status": "ok",
-   "note": "",
+   "note": " Permits fact and application date corrected Nov 3, 2026 from DEP's notice.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
     "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
@@ -1535,7 +1535,8 @@
     "https://nearbydatacenters.org/wv/",
     "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
     "https://www.banthebots.org/explainers/ai-data-centers-in-west-virginia",
-    "https://wvcag.org/?p=16377"
+    "https://wvcag.org/?p=16377",
+    "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    ],
    "method": [
     "page"
@@ -2123,9 +2124,9 @@
    "sec": "event",
    "title": "Monarch air permit comment deadline",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 3, 2026: DEP's notice gives 5 p.m. Nov 13. It was earlier reported as Oct 30.",
    "urls": [
-    "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+    "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    ],
    "method": [
     "page"

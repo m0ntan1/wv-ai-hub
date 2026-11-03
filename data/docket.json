@@ -352,19 +352,23 @@
   "where": "Air permit R14-0042",
   "case": "Air permit R14-0042",
   "status": "Awaiting final determination",
-  "stage": "awaiting",
-  "stamp": "Awaiting decision",
+  "stage": "open",
+  "stamp": "Public comment open",
   "tone": "signal",
-  "summary": "DEP's preliminary finding is that the plant meets requirements, and it is classed as a \"major stationary source.\" The Oct 20 workshop was at Point Pleasant HS, the virtual hearing was Oct 29, and comments closed Oct 30. Engineers: Joe Kessler and Edward Andrews.",
+  "summary": "DEP's preliminary finding is that the plant meets requirements, and it is classed as a \"major stationary source.\" The Oct 20 workshop was at Point Pleasant HS, the virtual hearing was Oct 29, and written comments are due before 5 p.m. Nov 13, 2026. DEP's notice says only comments received by then, or given orally at the meetings, are considered before final action. Engineers: Joe Kessler and Edward Andrews.",
   "projects": [
    "monarch"
   ],
   "counties": [],
   "next": {
-   "t": "DEP final decision",
-   "d": ""
+   "t": "Written comments due, 5 p.m.",
+   "d": "2026-11-13"
   },
   "sources": [
+   {
+    "label": "DEP: public comment and meetings, Monarch (notice dated 9/29/2026)",
+    "url": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
+   },
    {
     "label": "Charleston Gazette-Mail, Oct 2026",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
