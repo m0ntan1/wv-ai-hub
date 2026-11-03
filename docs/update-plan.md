@@ -174,7 +174,7 @@ What stays human: status labels, any new connection in the web, anything about a
 
 ### The Money Desk rules
 - **Roster** (`data/companies.json`): a company joins only with a sourced tie to a West Virginia project, or as a labeled industry indicator. Private companies get "what isn't public" instead of a guess. Facts typed from an S-1 carry `factsAsOf`.
-- **Health reads** (Stable / Watch / Stressed) describe financial condition from filings, never motives. They start as "Read pending" and change only when you approve one: set `health.status`, `health.why`, and `health.approved` (the checker refuses a published read without them).
+- **Health reads** (Stable / Watch / Stressed) describe financial condition from filings, never motives. They start as "Health: pending" and change only when you approve one: set `health.status`, `health.why`, and `health.approved` (the checker refuses a published read without them).
 - **Rook's Read** must pass `tools/check.py`: 850 words at most, a source for every `[n]`, Mercer CLEARED, no em dashes, no buy/sell or price-target language.
 - **The Anthropic conflict:** Rook and Mercer run on Claude, made by Anthropic, Monarch's anchor tenant. Anthropic is covered like every other company, with a standing disclosure on every Read and on the Money tab, a stronger one on its own page, and figures only from its own filings.
 - **The weekly shift** also looks at `data/filings.json` for roster companies with a new S-1/A, final prospectus (424B4), or an 8-K with items 1.03, 2.03 to 2.06, 3.01, or 4.02, and proposes updates to the curated facts under "Needs your call".

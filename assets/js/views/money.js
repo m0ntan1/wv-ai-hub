@@ -14,7 +14,7 @@ export const HEALTH = {
   stable: { label: 'Stable', tone: 'ok', def: 'Filings show revenue and cash that comfortably cover obligations, with no going-concern, default, or restatement flags.' },
   watch: { label: 'Watch', tone: 'signal', def: 'Something in the filings needs watching: heavy losses, reliance on financing not yet committed, customer concentration, or a material weakness.' },
   stressed: { label: 'Stressed', tone: 'alarm', def: 'Filings show acute strain: going-concern doubt that is not resolved, a missed payment or covenant breach, a restatement, or a ratings or listing notice.' },
-  pending: { label: 'Read pending', tone: 'dim', def: 'The editor has not yet approved a health read for this company.' },
+  pending: { label: 'Health: pending', tone: 'dim', def: 'Not rated yet. The editor has not approved a health read for this company.' },
   nodata: { label: 'No public financials', tone: 'dim', def: 'Privately held, so there are no filings to read.' },
   na: { label: 'Not rated', tone: 'dim', def: 'Tracked as an indicator or a public body, not rated.' },
 };
