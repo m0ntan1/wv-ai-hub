@@ -17,6 +17,7 @@ The site is only useful if its dates are right this week. Countdown chips, the "
 | **Courts** (Barks v. Silicon Foundation; Ridgeline appeals being refiled; new EPCRA suits in Mingo) | `docket.json`, project `timeline` | Court reporting by the reporters below, plus counsel's public updates (WVHC, Appalachian Mountain Advocates) | Every two weeks, or on news |
 | **County commissions** (17 bodies in 14 counties) | `standing.json` (`next`), `events.json` (any data-center agenda item) | The agenda link stored on each record in `standing.json` | Weekly |
 | **Governor / Commerce** (certifications, the Data Center Advisory Council) | New projects, `history`, `timeline` | governor.wv.gov releases | On news |
+| **News aggregator** (`tools/fetch_news.py`): 18 outlet feeds plus Bing News searches, filtered to this beat and grouped by story | `news.json` (front page "In the news", `#/news`, case files) | Automatic: just run the script | Each shift, or on a schedule (see section 5) |
 | **Reporters and outlets**: Mike Tony (Gazette-Mail), Chris Schulz and Curtis Tate (WVPB), Brad McElhinny (MetroNews), Dan Parks (Country Roads News), Steve Pearson (Observer), WV Watch, Mountain State Spotlight, Valley North Record | `desk.json`, project `latest` and `timeline` | One Google Alert per project name and docket number, delivered as RSS | Weekly |
 | **Community groups**: Tucker United, Mason WV United, Putnam United, WVDCAP, Stop Valley Link, WV CAG | `events.json` (town halls, protests) | Their sites and public event pages | Weekly |
 | **Developers** (Valley Link open houses, Nscale) | `events.json`, labeled `developer` | Developer sites | Weekly |
@@ -35,7 +36,7 @@ python3 -I tools/check.py
 2. **PSC.** Work through new digests. Move docket cards (`stage`, `stamp`, `next`), add hearings and deadlines to `events.json`, and add one `desk.json` line per real development.
 3. **DEP and Legislature.** Add hearings and comment deadlines. Update permit cards.
 4. **Counties.** Open the agenda link for each of the 17 standing meetings. Update or clear `next`. Any data-center item becomes an event.
-5. **News sweep.** Write 3–5 desk items. Update `latest` on the projects that moved. Add timeline items, each with its own `src`.
+5. **News sweep.** Run `python3 -I tools/fetch_news.py`, then read the new headlines on `#/news`. Promote what matters into 3–5 desk items (with the story itself as the source), and add any off-topic URL or phrase to `block` in `data/news-sources.json`. Update `latest` on the projects that moved. Add timeline items, each with its own `src`.
 6. **Stamp what you re-checked.** Set `checked` to today on every record you confirmed against its source, and bump `meta.updated`.
 7. **Check again** until it reports 0 errors.
 8. **Build the published files:**
@@ -97,6 +98,7 @@ All data lives in `data/*.json`. The schema for each file is in `DOCS.md`. Times
 |---|---|---|
 | **0. In the repo now** | `tools/check.py` (structure, references, dates, staleness, optional link check), `tools/build_feeds.py` (calendar.ics, feed.json, QR codes, sitemap), and `?today=` time travel for testing | Done |
 | **1. Check every push** | A GitHub Action (`.github/workflows/check.yml`) runs `check.py` and `build_feeds.py` on every push and pull request and fails on errors. Netlify deploy previews show each pull request before merge. | Done. The first run passed on Nov 3, 2026 |
+| **1b. News refresh on a schedule** | A GitHub Action runs `tools/fetch_news.py` every few hours and commits `data/news.json` when there are new headlines, so the news section stays current between shifts. Headlines only; nothing else changes. | Needs your go-ahead (it publishes on its own) |
 | **2. Weekly drafted shift** | A scheduled Claude task, Mondays early morning ET. It reads new PSC digests in Gmail, sweeps the sources in section 1, drafts the JSON edits and desk items on a branch, runs the checker, and opens a pull request whose description lists every source. **It never publishes.** You review and merge. | Needs your go-ahead |
 | **3. Reach** | The contact form at `#/contact` (question, tip, or correction) is live and handled by Netlify Forms. Every case file has a "Report an error" link. `calendar.ics` subscriptions and `feed.json` are live. An email digest built from `feed.json` can come later. | Contact form done; digest proposed |
 

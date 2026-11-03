@@ -2,6 +2,7 @@ import { D } from '../data.js';
 import { esc, fmtDate, STATUS, stamp, vfy, srcLink, srcLinks, rx, countyHref, plural, icsDownload, hostOf } from '../lib.js';
 import { mountMap } from '../map.js';
 import { docketCard, eventRow, standingCard, wireIcs, statusStamp } from '../parts.js';
+import { stories, storyHTML } from './news.js';
 
 const KIND_COLOR = { certified: 'var(--cyan)', violation: 'var(--alarm)', court: 'var(--legal)', permit: 'var(--grid)', hearing: 'var(--signal)', psc: 'var(--ok)', redaction: 'var(--fg)', protest: 'var(--alarm)', money: 'var(--gas)' };
 
@@ -19,7 +20,8 @@ export function project(main, id) {
   const standing = D.standing.filter(s => s.projects.includes(id) || p.counties.includes(s.county));
   const rc = D.receiptFor('project', p.name);
   const cert = p.timeline.find(t => t.kind === 'certified');
-  const tabs = [['overview', 'Overview'], ['timeline', 'Timeline', p.timeline.length], ['cases', 'Permits & cases', docket.length], ['people', 'People', people.length + edges.length], ['take-part', 'Take part', upcoming.length + standing.length], ['receipts', 'Receipts', p.sources.length]];
+  const press = stories({ project: id });
+  const tabs = [['overview', 'Overview'], ['timeline', 'Timeline', p.timeline.length], ['cases', 'Permits & cases', docket.length], ['people', 'People', people.length + edges.length], ['take-part', 'Take part', upcoming.length + standing.length], ...(press.length ? [['news', 'In the news', press.length]] : []), ['receipts', 'Receipts', p.sources.length]];
 
   main.innerHTML = `<div class="wrap">
     <div class="crumb"><a href="#/projects">Projects</a> / ${p.counties.map(c => `<a href="${countyHref(c)}">${esc(c)} County</a>`).join(' · ')} / ${esc(p.short)}</div>
@@ -65,6 +67,12 @@ export function project(main, id) {
           ${tbd.map(eventRow).join('')}
           ${standing.length ? `<div class="cx-st-grid">${standing.map(standingCard).join('')}</div>` : ''}
         </section>
+
+        ${press.length ? `<section class="cf-sec" id="s-news">
+          <div class="sec-h">In the news <a class="src act" href="#/news?project=${id}">All ${press.length} →</a></div>
+          <div class="news-list">${press.slice(0, 6).map(s => storyHTML(s, { tags: false })).join('')}</div>
+          <p class="dim" style="font-size:12.5px;margin-top:8px">Headlines are each outlet's own words, not checked by us.</p>
+        </section>` : ''}
 
         <section class="cf-sec" id="s-receipts">
           <div class="sec-h">Receipts · checked ${esc(fmtDate(p.checked))}</div>

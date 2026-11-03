@@ -1,0 +1,296 @@
+{
+ "note": "Config for tools/fetch_news.py, run every few hours by .github/workflows/news.yml. An item is kept only if its title or summary (1) matches a 'match' term and (2) mentions West Virginia: a 'wv' term, any WV county ('<name> county', from data/geo.json), or a tracked project. Add a URL, host, or phrase to 'block' to drop matching items for good.",
+ "feeds": [
+  {
+   "id": "gazette",
+   "name": "Charleston Gazette-Mail",
+   "url": "https://www.wvgazettemail.com/search/?f=rss&t=article&q=%22data+center%22&l=50&s=start_time&sd=desc"
+  },
+  {
+   "id": "gazette-grid",
+   "name": "Charleston Gazette-Mail",
+   "url": "https://www.wvgazettemail.com/search/?f=rss&t=article&q=microgrid+OR+%22Valley+Link%22+OR+%22Fort+Martin%22&l=30&s=start_time&sd=desc"
+  },
+  {
+   "id": "herald-dispatch",
+   "name": "The Herald-Dispatch",
+   "url": "https://www.herald-dispatch.com/search/?f=rss&t=article&q=%22data+center%22&l=30&s=start_time&sd=desc"
+  },
+  {
+   "id": "wvwatch",
+   "name": "West Virginia Watch",
+   "url": "https://westvirginiawatch.com/feed/"
+  },
+  {
+   "id": "spotlight",
+   "name": "Mountain State Spotlight",
+   "url": "https://mountainstatespotlight.org/feed/"
+  },
+  {
+   "id": "metronews",
+   "name": "WV MetroNews",
+   "url": "https://wvmetronews.com/feed/"
+  },
+  {
+   "id": "dompost",
+   "name": "The Dominion Post",
+   "url": "https://www.dominionpost.com/feed/"
+  },
+  {
+   "id": "observer",
+   "name": "The Observer",
+   "url": "https://observerwv.com/feed/"
+  },
+  {
+   "id": "countryroads",
+   "name": "Country Roads News",
+   "url": "https://countryroads.substack.com/feed"
+  },
+  {
+   "id": "valleynorth",
+   "name": "Valley North Record",
+   "url": "https://valleynorthrecord.substack.com/feed"
+  },
+  {
+   "id": "wvhc",
+   "name": "WV Highlands Conservancy",
+   "url": "https://www.wvhighlands.org/feed/"
+  },
+  {
+   "id": "wvcag",
+   "name": "WV Citizen Action Group",
+   "url": "https://wvcag.org/feed/"
+  },
+  {
+   "id": "wowk",
+   "name": "WOWK 13",
+   "url": "https://www.wowktv.com/feed/"
+  },
+  {
+   "id": "wtrf",
+   "name": "WTRF 7",
+   "url": "https://www.wtrf.com/feed/"
+  },
+  {
+   "id": "wboy",
+   "name": "WBOY 12",
+   "url": "https://www.wboy.com/feed/"
+  },
+  {
+   "id": "wsaz",
+   "name": "WSAZ",
+   "url": "https://www.wsaz.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "id": "wdtv",
+   "name": "WDTV 5",
+   "url": "https://www.wdtv.com/arc/outboundfeeds/rss/?outputType=xml"
+  },
+  {
+   "id": "wtap",
+   "name": "WTAP",
+   "url": "https://www.wtap.com/arc/outboundfeeds/rss/?outputType=xml"
+  }
+ ],
+ "searches": [
+  {
+   "id": "bing-dc",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22West+Virginia%22+%22data+center%22&format=rss"
+  },
+  {
+   "id": "bing-microgrid",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22West+Virginia%22+microgrid&format=rss"
+  },
+  {
+   "id": "bing-nscale",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=Nscale+%22West+Virginia%22&format=rss"
+  },
+  {
+   "id": "bing-ridgeline",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22Fundamental+Data%22+Tucker&format=rss"
+  },
+  {
+   "id": "bing-valleylink",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22Valley+Link%22+transmission+%22West+Virginia%22&format=rss"
+  },
+  {
+   "id": "bing-marl",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22Mid-Atlantic+Resiliency+Link%22&format=rss"
+  },
+  {
+   "id": "bing-hb2014",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22HB+2014%22+%22West+Virginia%22&format=rss"
+  },
+  {
+   "id": "bing-fortmartin",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22Fort+Martin%22+Mon+Power&format=rss"
+  }
+ ],
+ "match": [
+  "data center",
+  "data centers",
+  "datacenter",
+  "data-center",
+  "hyperscale",
+  "microgrid",
+  "hb 2014",
+  "house bill 2014",
+  "high impact data",
+  "nscale",
+  "monarch compute",
+  "fundamental data",
+  "transgas",
+  "adams fork",
+  "penzance",
+  "project tamarack",
+  "starwood digital",
+  "qts",
+  "silicon foundation",
+  "hog lick",
+  "valley link",
+  "mid-atlantic resiliency link",
+  "marl ",
+  "fort martin",
+  "large load",
+  "large-load",
+  "ai campus",
+  "artificial intelligence campus"
+ ],
+ "wv": [
+  "west virginia",
+  "w.va.",
+  "w. va.",
+  "wva ",
+  "wv ",
+  "mountain state",
+  "charleston, w",
+  "morgantown",
+  "huntington, w",
+  "wheeling",
+  "parkersburg",
+  "martinsburg",
+  "beckley",
+  "fairmont",
+  "clarksburg",
+  "point pleasant",
+  "davis, w",
+  "thomas, w",
+  "maidsville",
+  "philippi",
+  "buckhannon",
+  "kearneysville",
+  "bedington",
+  "falling waters",
+  "williamson",
+  "white hall"
+ ],
+ "projects": {
+  "monarch": [
+   "nscale",
+   "monarch",
+   "mason county data",
+   "point pleasant",
+   "aipcorp",
+   "fidelis"
+  ],
+  "tamarack": [
+   "tamarack",
+   "starwood",
+   "west columbia"
+  ],
+  "google": [
+   "google buffalo",
+   "google's buffalo",
+   "google data center",
+   "cumulus group",
+   "buffalo, w"
+  ],
+  "ridgeline": [
+   "ridgeline",
+   "fundamental data",
+   "tucker united",
+   "tucker county data center",
+   "tucker county power plant"
+  ],
+  "adams-tg": [
+   "adams fork",
+   "transgas",
+   "twisted gun",
+   "wharncliffe",
+   "mingo"
+  ],
+  "penzance": [
+   "penzance",
+   "bedington"
+  ],
+  "qts": [
+   "qts",
+   "kearneysville"
+  ],
+  "summit": [
+   "summit point"
+  ],
+  "hoglick": [
+   "hog lick",
+   "white hall"
+  ],
+  "warwood": [
+   "warwood",
+   "silicon foundation",
+   "centre foundry",
+   "barks"
+  ],
+  "monroe": [
+   "monroe county"
+  ],
+  "fortmartin": [
+   "fort martin"
+  ],
+  "marl": [
+   "marl ",
+   "mid-atlantic resiliency",
+   "nextera"
+  ],
+  "valleylink": [
+   "valley link",
+   "valley north"
+  ]
+ },
+ "block": [
+  "androguider.com"
+ ],
+ "syndicators": [
+  "yahoo.com",
+  "msn.com",
+  "aol.com",
+  "newsbreak.com",
+  "ground.news"
+ ],
+ "preferred": [
+  "techcrunch.com",
+  "reuters.com",
+  "npr.org",
+  "apnews.com",
+  "bloomberg.com",
+  "theinformation.com",
+  "nytimes.com",
+  "washingtonpost.com",
+  "wsj.com",
+  "cnn.com",
+  "marketwatch.com",
+  "wvpublic.org",
+  "register-herald.com",
+  "wvnews.com",
+  "newsandsentinel.com",
+  "theintermountain.com",
+  "theet.com"
+ ]
+}

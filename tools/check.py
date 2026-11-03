@@ -177,6 +177,23 @@ for x in DESK:
     if x.get('project') and x['project'] not in PIDS | EXTRA: err(f"desk/{x.get('d')}: unknown project {x['project']!r}")
 if META.get('updated', '') < max(x['d'] for x in DESK): warn('meta.updated is older than the newest desk item; bump meta.updated')
 
+# ---------------------------------------------------------------- news (optional; built by tools/fetch_news.py)
+news_path = ROOT / 'data' / 'news.json'
+if news_path.exists():
+    try:
+        NEWS = json.loads(news_path.read_text())
+        for i in NEWS.get('items', []):
+            w = f"news/{i.get('id')}"
+            if not i.get('title') or not str(i.get('url', '')).startswith(('https://', 'http://')) or not i.get('source'): err(f'{w}: needs title, url, and source')
+            if not re.match(r'^\d{4}-\d{2}-\d{2}T', str(i.get('d', ''))): err(f'{w}: bad timestamp {i.get("d")!r}')
+            for pid in i.get('projects', []):
+                if pid not in PIDS | EXTRA: err(f'{w}: unknown project tag {pid!r}')
+        upd = NEWS.get('updated', '')[:10]
+        if upd and upd <= TODAY and (datetime.date.fromisoformat(TODAY) - datetime.date.fromisoformat(upd)).days > 7:
+            warn(f'news: last gathered {upd}. Run python3 -I tools/fetch_news.py to refresh the headlines.')
+    except Exception as ex:
+        err(f'data/news.json: cannot parse ({ex})')
+
 # ---------------------------------------------------------------- optional link check
 if a.links:
     urls = set()

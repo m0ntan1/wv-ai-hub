@@ -2,6 +2,7 @@ import { D } from '../data.js';
 import { esc, fmtDate, toDate, DAYS, MONTHS, STAGES, store, srcLink, rx, ymd } from '../lib.js';
 import { mountMap } from '../map.js';
 import { countdownItems, chipsHTML, eventRow, projectCard } from '../parts.js';
+import { stories, storyHTML, newsNote } from './news.js';
 
 export function front(main) {
   const T = D.today, td = toDate(T);
@@ -59,6 +60,12 @@ export function front(main) {
         </div>
       </div>
     </section>
+
+    ${D.news.items && D.news.items.length ? `<section class="sec">
+      <div class="sec-h">In the news <a class="src act" href="#/news">All news →</a></div>
+      <div class="news-grid">${stories().slice(0, 8).map(s => storyHTML(s)).join('')}</div>
+      <p class="dim" style="font-size:12.5px;margin-top:12px">${esc(newsNote())}</p>
+    </section>` : ''}
 
     <section class="sec">
       <div class="sec-h">Every project · open a case file <a class="src act" href="#/projects">All projects →</a></div>

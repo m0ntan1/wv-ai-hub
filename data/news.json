@@ -1,0 +1,627 @@
+{
+ "updated": "2026-11-03T13:06:25Z",
+ "sources": [
+  "Bing News search",
+  "Charleston Gazette-Mail",
+  "Country Roads News",
+  "Mountain State Spotlight",
+  "The Dominion Post",
+  "The Herald-Dispatch",
+  "The Observer",
+  "Valley North Record",
+  "WBOY 12",
+  "WDTV 5",
+  "WOWK 13",
+  "WSAZ",
+  "WTAP",
+  "WTRF 7",
+  "WV Citizen Action Group",
+  "WV Highlands Conservancy",
+  "WV MetroNews",
+  "West Virginia Watch"
+ ],
+ "items": [
+  {
+   "id": "nty-landowners-oppose-proposed-valley-link-transmission-line",
+   "d": "2026-11-03T01:06:54Z",
+   "title": "Barbour County landowners oppose proposed Valley Link transmission line",
+   "url": "https://www.wdtv.com/2026/11/03/barbour-county-landowners-oppose-proposed-valley-link-transmission-line/",
+   "source": "WDTV 5",
+   "summary": "Barbour County landowners gathered Monday to voice opposition to the proposed Valley Link transmission line, saying their farms and livelihoods are at stake.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "wdtv",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "nty-landowners-oppose-proposed-valley-link-transmission-line"
+  },
+  {
+   "id": "our-protesters-in-barbour-county-gather-to-block-valley-link",
+   "d": "2026-11-02T23:12:32Z",
+   "title": "Protesters in Barbour County gather to 'Block Valley Link'",
+   "url": "https://www.wboy.com/news/barbour/protesters-in-barbour-county-gather-to-block-valley-link/",
+   "source": "WBOY 12",
+   "summary": "On Monday afternoon, some Barbour County residents gathered at the county courthouse to protest the upcoming Valley Link project.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "wboy",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "our-protesters-in-barbour-county-gather-to-block-valley-link"
+  },
+  {
+   "id": "reak-ai-mega-project-behind-nscale-s-50b-ipo-20261101-p61abv",
+   "d": "2026-11-01T08:00:00Z",
+   "title": "Inside the make-or-break AI mega-project behind Nscale’s $50b IPO",
+   "url": "https://www.afr.com/technology/inside-the-make-or-break-ai-mega-project-behind-nscale-s-50b-ipo-20261101-p61abv",
+   "source": "Australian Financial Review",
+   "summary": "The Nvidia-backed neocloud’s bet on a West Virginia data centre campus has been hit by construction issues, local opposition and financing risks.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "reak-ai-mega-project-behind-nscale-s-50b-ipo-20261101-p61abv"
+  },
+  {
+   "id": "news-nvidia-nscale-anthropic-data-centre-debt-guarantee",
+   "d": "2026-10-31T03:23:00Z",
+   "title": "Nvidia in talks to guarantee debt for Nscale’s Anthropic data centre",
+   "url": "https://thenextweb.com/news/nvidia-nscale-anthropic-data-centre-debt-guarantee",
+   "source": "The Next Web",
+   "summary": "Nvidia is in talks to guarantee billions in debt for Nscale’s Anthropic data centre. Anthropic can walk away if funding misses a deadline.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "1-nx-s1-5992790-data-centers-west-virginia-skiing-dark-skies",
+   "d": "2026-10-31T03:00:00Z",
+   "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+   "source": "NPR",
+   "summary": "Residents are fighting back against plans for a project that would span thousands of acres near the Monongahela National Forest and popular outdoor recreation, ski areas and dark sky sites.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "1-nx-s1-5992790-data-centers-west-virginia-skiing-dark-skies"
+  },
+  {
+   "id": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+   "d": "2026-10-30T18:20:00Z",
+   "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+   "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+   "source": "TechCrunch",
+   "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "l-third-rail-west-virginia-is-grabbing-it-anyway-ar-aa2gqind",
+   "d": "2026-10-30T08:14:00Z",
+   "title": "Data centers are a political third rail. West Virginia is grabbing it anyway.",
+   "url": "https://www.msn.com/en-us/news/other/data-centers-are-a-political-third-rail-west-virginia-is-grabbing-it-anyway/ar-AA2gqiNd",
+   "source": "MarketWatch on MSN",
+   "summary": "West Virginia wants more data centers, even as other states slam the brakes on them.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "l-third-rail-west-virginia-is-grabbing-it-anyway-ar-aa2gqind"
+  },
+  {
+   "id": "cles-nvidia-weighs-billions-guarantees-nscale-130018460-html",
+   "d": "2026-10-30T06:01:00Z",
+   "title": "Nvidia Weighs Billions in Guarantees for Nscale AI Project",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-weighs-billions-guarantees-nscale-130018460.html",
+   "source": "Yahoo Finance",
+   "summary": "Nvidia is reportedly considering credit guarantees supporting an Anthropic data center being developed by Nscale in West Virginia.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "discusses-guarantees-for-planned-nscale-data-center-3d14bff8",
+   "d": "2026-10-29T22:12:00Z",
+   "title": "Nvidia Weighs Multibillion Credit Guarantees for Nscale AI Campus",
+   "url": "https://ijr.com/discover/nvidia-discusses-guarantees-for-planned-nscale-data-center-3d14bff8",
+   "source": "Independent Journal Review",
+   "summary": "Nvidia is in talks to provide several billion dollars in credit guarantees for Nscale's West Virginia AI data centers, tied to Anthropic's $45 billion compute deal. · 11 sources across the spectrum on ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "antees-for-nscale-s-anthropic-data-center-report-ar-aa2gotne",
+   "d": "2026-10-29T22:02:44Z",
+   "title": "Nvidia weighs billions in credit guarantees for Nscale’s Anthropic data center - report",
+   "url": "https://www.msn.com/en-us/news/other/nvidia-weighs-billions-in-credit-guarantees-for-nscale-s-anthropic-data-center-report/ar-AA2gotNe",
+   "source": "Seeking Alpha on MSN",
+   "summary": "Nvidia (NVDA) is in talks to provide potentially billions of dollars in credit guarantees for a data center project operated by Nscale (NSCL) that Anthropic (ANT) plans to use, Bloomberg reported, ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "ales-deal-with-anthropic-the-information-reports-ar-aa2gmss0",
+   "d": "2026-10-29T18:26:07Z",
+   "title": "Nvidia in talks to give credit support for Nscale's deal with Anthropic, The Information reports",
+   "url": "https://www.msn.com/en-ca/news/other/nvidia-in-talks-to-give-credit-support-for-nscales-deal-with-anthropic-the-information-reports/ar-AA2gmSs0",
+   "source": "Reuters on MSN",
+   "summary": "Oct 29 (Reuters) - Nvidia is in talks to offer AI cloud provider Nscale billions of dollars in credit guarantees to support debt funding for a data center earmarked for Anthropic, The Information ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "nvidia-credit-support-nscale-anthropic-deal",
+   "d": "2026-10-29T15:50:00Z",
+   "title": "Nvidia in talks to back Nscale’s new cloud computing deal with Anthropic",
+   "url": "https://cryptobriefing.com/nvidia-credit-support-nscale-anthropic-deal/",
+   "source": "Crypto Briefing",
+   "summary": "Nvidia is discussing billions in credit support for a potential $45 billion Nscale deal with Anthropic for another 460 MW in West Virginia.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "nvidia-credit-guarantees-nscale-data-center",
+   "d": "2026-10-29T15:47:00Z",
+   "title": "Nvidia in talks to back billions in debt for Nscale data center expansion",
+   "url": "https://cryptobriefing.com/nvidia-credit-guarantees-nscale-data-center/",
+   "source": "Crypto Briefing",
+   "summary": "Nvidia is discussing billions in credit guarantees for Nscale's debt to build a 460-megawatt data center, deepening ties with the UK neocloud.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "-us-articles-west-virginia-law-shuts-counties-192300961-html",
+   "d": "2026-10-29T12:23:00Z",
+   "title": "West Virginia law shuts counties out of data center decisions as residents protest rumored project",
+   "url": "https://www.yahoo.com/news/us/articles/west-virginia-law-shuts-counties-192300961.html",
+   "source": "Yahoo",
+   "summary": "Monroe County Commissioners said they have no detailed information about any proposed data center. In February, however, they said state officials visited the county with a company interested in such ...",
+   "projects": [
+    "monroe"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "-us-articles-west-virginia-law-shuts-counties-192300961-html"
+  },
+  {
+   "id": "concerns-help-democratic-women-win-in-deep-red-west-virginia",
+   "d": "2026-10-29T10:00:22Z",
+   "title": "Can data center concerns help Democratic women win in deep-red West Virginia?",
+   "url": "https://westvirginiawatch.com/2026/10/29/can-data-center-concerns-help-democratic-women-win-in-deep-red-west-virginia/",
+   "source": "West Virginia Watch",
+   "summary": "This story was originally reported by Amanda Becker of The 19th. Meet Amanda and read more of their reporting on gender, politics and policy. EASTERN PANHANDLE, W.Va. — Over and over on a recent October Saturday, Jenny Thacker explained to voters in West Virginia’s Eastern Panhan",
+   "projects": [],
+   "via": "wvwatch",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "concerns-help-democratic-women-win-in-deep-red-west-virginia"
+  },
+  {
+   "id": "ta-centers-article-59e8c4c0-a253-46e2-9bea-14e39f5b263b-html",
+   "d": "2026-10-29T09:30:00Z",
+   "title": "'Tip of the spear': Nucor Steel WV plans fall completion; driven by GM, data centers",
+   "url": "https://www.wvgazettemail.com/business/tip-of-the-spear-nucor-steel-wv-plans-fall-completion-driven-by-gm-data-centers/article_59e8c4c0-a253-46e2-9bea-14e39f5b263b.html",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gazette",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ta-centers-article-59e8c4c0-a253-46e2-9bea-14e39f5b263b-html"
+  },
+  {
+   "id": "2026-10-28-data-center-opposition",
+   "d": "2026-10-28T15:34:59Z",
+   "title": "West Virginia groups and local governments demand data center oversight. The state is continuing to develop them anyway.",
+   "url": "https://mountainstatespotlight.org/2026/10/28/data-center-opposition/",
+   "source": "Mountain State Spotlight",
+   "summary": "West Virginia’s extractive history with developers worries residents as the state signs data center deals with companies West Virginia groups and local governments demand data center oversight. The state is continuing to develop them anyway. appeared first on Mountain State Spotl",
+   "projects": [],
+   "via": "spotlight",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "2026-10-28-data-center-opposition"
+  },
+  {
+   "id": "2026-10-25-politics-data-center-powerline-fight",
+   "d": "2026-10-25T09:00:00Z",
+   "title": "‘We are the extension cord’: Data center boom sparks power line fights hundreds of miles away",
+   "url": "https://www.cnn.com/2026/10/25/politics/data-center-powerline-fight",
+   "source": "CNN",
+   "summary": "In Cat Kemmerling’s dream, she and her husband Rob are sitting in their pickup truck on a cliff on their West Virginia farm, overlooking the Shenandoah River. The truck is falling backwards over the ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "2026-10-25-politics-data-center-powerline-fight"
+  },
+  {
+   "id": "video-west-virginia-gov-highlights-key-175742696-html",
+   "d": "2026-10-21T10:57:00Z",
+   "title": "West Virginia gov highlights the 'key' to growth from AI buildout: 'We must get it right'",
+   "url": "https://finance.yahoo.com/video/west-virginia-gov-highlights-key-175742696.html",
+   "source": "Yahoo Finance",
+   "summary": "Governor Patrick Morrisey discusses West Virginia's rapid emergence as a hyperscale technology and data center hub. He outlines the state's plan to meet the massive energy demands of artificial ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "video-west-virginia-gov-highlights-key-175742696-html"
+  },
+  {
+   "id": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate",
+   "d": "2026-10-20T19:13:38Z",
+   "title": "West Virginia Public Service Commission makes power rule a goal, not a mandate",
+   "url": "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/",
+   "source": "West Virginia Watch",
+   "summary": "Just in time for the winter, West Virginia regulators have tweaked a rule tucked away in the state’s controversial data center law, possibly avoiding hikes in electricity bills.",
+   "projects": [],
+   "via": "wvwatch",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate"
+  },
+  {
+   "id": "erns-surrounding-proposed-mason-county-microgrid-ar-aa2fhby6",
+   "d": "2026-10-20T18:40:56Z",
+   "title": "WVDEP holds meeting on air quality concerns surrounding proposed Mason County microgrid",
+   "url": "https://www.msn.com/en-us/news/other/wvdep-holds-meeting-on-air-quality-concerns-surrounding-proposed-mason-county-microgrid/ar-AA2fHby6",
+   "source": "WOWK-TV on MSN",
+   "summary": "MASON COUNTY, W.Va. (WOWK) – The microgrid that would power three data centers on the Monarch Campus in Mason County and its emissions were the topic of conversation Tuesday night. The West Virginia ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-microgrid",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "erns-surrounding-proposed-mason-county-microgrid-ar-aa2fhby6"
+  },
+  {
+   "id": "-45-billion-ai-deal-nvidia-could-be-a-big-winner-ar-aa2fgcva",
+   "d": "2026-10-20T13:24:01Z",
+   "title": "Anthropic Is in Talks for Another $45 Billion AI Deal. Nvidia Could Be a Big Winner.",
+   "url": "https://www.msn.com/en-us/news/other/anthropic-is-in-talks-for-another-45-billion-ai-deal-nvidia-could-be-a-big-winner/ar-AA2fGCVA",
+   "source": "The Motley Fool on MSN",
+   "summary": "Anthropic’s proposed $45 billion Nscale expansion could help fuel its growth, but it also adds another enormous bill ahead of its anticipated IPO.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "-45-billion-ai-deal-nvidia-could-be-a-big-winner-ar-aa2fgcva"
+  },
+  {
+   "id": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk",
+   "d": "2026-10-19T19:32:03Z",
+   "title": "PSC modifies coal-fired plant mandate",
+   "url": "https://www.msn.com/en-us/news/other/psc-modifies-coal-fired-plant-mandate/ar-AA2fCuSK",
+   "source": "WOWK-TV on MSN",
+   "summary": "CHARLESTON, W.Va. (WOWK) — The West Virginia Public Service Commission (PSC) modified a lesser-known provision of HB 2014 mandating coal-fired plants remain operational 69% of the year. “HB 2014 was ...",
+   "projects": [],
+   "via": "bing-hb2014",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk"
+  },
+  {
+   "id": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w",
+   "d": "2026-10-17T10:08:00Z",
+   "title": "West Virginia's rare chestnut grove could be bulldozed to make room for an AI data center",
+   "url": "https://www.msn.com/en-us/money/general/west-virginia-s-rare-chestnut-grove-could-be-bulldozed-to-make-room-for-an-ai-data-center/ar-AA2es61W",
+   "source": "The Cool Down on MSN",
+   "summary": "The planned campus would span more than 2,250 acres and deliver 8 gigawatts of compute.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w"
+  },
+  {
+   "id": "valley-north-transmission-line-project-has-revised-maps",
+   "d": "2026-10-16T02:27:37Z",
+   "title": "Valley North Transmission Line Project Has Revised Maps",
+   "url": "https://observerwv.com/valley-north-transmission-line-project-has-revised-maps/",
+   "source": "The Observer",
+   "summary": "Earlier this week, Valley Link published a second round of maps for its proposed Valley North 765 kilovolt transmission line. The post Valley North Transmission Line Project Has Revised Maps appeared first on ObserverWV .",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "observer",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "valley-north-transmission-line-project-has-revised-maps"
+  },
+  {
+   "id": "ion-line-moving-forward-despite-local-opposition-ar-aa2dvuzm",
+   "d": "2026-10-09T14:23:29Z",
+   "title": "Plans for Valley Link Transmission Line moving forward despite local opposition",
+   "url": "https://www.msn.com/en-us/news/other/plans-for-valley-link-transmission-line-moving-forward-despite-local-opposition/ar-AA2dVuZm",
+   "source": "Roanoke-Lynchburg WDBJ-TV on MSN",
+   "summary": "The companies behind the project say it is needed to meet Virginia’s growing power needs, even though every county the line would cross has passed a resolution opposing it.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ion-line-moving-forward-despite-local-opposition-ar-aa2dvuzm"
+  },
+  {
+   "id": "p-old-shop-n-save-property-in-davis",
+   "d": "2026-10-04T19:04:41Z",
+   "title": "Old Shop ‘N Save Property in Davis is Subdivided and For Sale",
+   "url": "https://countryroads.substack.com/p/old-shop-n-save-property-in-davis",
+   "source": "Country Roads News",
+   "summary": "Plus, Tucker County Commissioners say they haven’t signed data center secrecy agreements",
+   "projects": [],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-old-shop-n-save-property-in-davis"
+  },
+  {
+   "id": "ublic-comment-on-west-virginia-s-microgrid-rules-ar-aa2d9kye",
+   "d": "2026-09-28T15:05:00Z",
+   "title": "PSC hears public comment on West Virginia’s microgrid rules",
+   "url": "https://www.msn.com/en-us/money/general/psc-hears-public-comment-on-west-virginia-s-microgrid-rules/ar-AA2d9kYe",
+   "source": "MSN",
+   "summary": "CHARLESTON, W.Va. (WBOY) — Could your electric bill increase under House Bill 2014? That was part of the testimony heard Monday by the Public Service Commission of West Virginia (PSC) in Charleston.",
+   "projects": [],
+   "via": "bing-microgrid",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ublic-comment-on-west-virginia-s-microgrid-rules-ar-aa2d9kye"
+  },
+  {
+   "id": "p-county-commission-debate-with-mike",
+   "d": "2026-09-12T19:08:07Z",
+   "title": "County Commission Debate with Mike Rosenau and Jon Bush: Editor’s Note",
+   "url": "https://countryroads.substack.com/p/county-commission-debate-with-mike",
+   "source": "Country Roads News",
+   "summary": "Country Roads News will moderate the October 17 event in Parsons, West Virginia. The proposed data center, Corridor H, and EMS services will be key issues.",
+   "projects": [],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-county-commission-debate-with-mike"
+  },
+  {
+   "id": "p-geologists-study-cites-abandoned",
+   "d": "2026-09-02T13:01:06Z",
+   "title": "Geologists’ Study Cites Abandoned Mine Dangers at Power Plant Site",
+   "url": "https://countryroads.substack.com/p/geologists-study-cites-abandoned",
+   "source": "Country Roads News",
+   "summary": "Fundamental Data says “all areas relevant to its construction plans are stable”",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-geologists-study-cites-abandoned"
+  },
+  {
+   "id": "ter-procedural-dismissals-in-fundamental-data-permit-appeals",
+   "d": "2026-08-28T17:09:45Z",
+   "title": "Groups seek a hearing after procedural dismissals in Fundamental Data permit appeals",
+   "url": "https://www.wvhighlands.org/2026/08/28/groups-seek-a-hearing-after-procedural-dismissals-in-fundamental-data-permit-appeals/",
+   "source": "WV Highlands Conservancy",
+   "summary": "FOR IMMEDIATE RELEASE August 28, 2026 Contact: Olivia Miller, Interim Executive Director, West Virginia Highlands Conservancy, olivia.miller@wvhighlands.org Nikki Forrester, Director of Communications, Tucker United, comms@tuckerunited.com Jim Kotcon, West Virginia Chapter […] Th",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "wvhc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ter-procedural-dismissals-in-fundamental-data-permit-appeals"
+  },
+  {
+   "id": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html",
+   "d": "2026-08-28T08:08:00Z",
+   "title": "W.Va. Intermediate Court dismisses environmental groups’ challenges to Fundamental Data permit",
+   "url": "https://www.register-herald.com/news/state_region/w-va-intermediate-court-dismisses-environmental-groups-challenges-to-fundamental-data-permit/article_8cab2537-09ff-4f66-b690-3a2ea0aa11b1.html",
+   "source": "The Register-Herald",
+   "summary": "CHARLESTON — The West Virginia Intermediate Court of Appeals dismissed two appeals challenging Fundamental Data’s proposed Tucker County data center and power plant this week, ruling that it does not ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-ridgeline",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
+  },
+  {
+   "id": "wv-intermediate-court-dismisses-environmental-202218200-html",
+   "d": "2026-08-27T13:22:00Z",
+   "title": "WV Intermediate Court dismisses environmental groups’ challenges to Fundamental Data permit",
+   "url": "https://www.yahoo.com/news/us/articles/wv-intermediate-court-dismisses-environmental-202218200.html",
+   "source": "Yahoo",
+   "summary": "Add Yahoo as a preferred source to see more of our stories on Google. (Greenleaf123/Getty Images) The West Virginia Intermediate Court of Appeals dismissed two appeals challenging Fundamental Data's ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-ridgeline",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
+  },
+  {
+   "id": "p-top-county-officials-plead-not-guilty",
+   "d": "2026-08-18T16:28:19Z",
+   "title": "Top County Officials Plead Not Guilty to Misdemeanor Charges",
+   "url": "https://countryroads.substack.com/p/top-county-officials-plead-not-guilty",
+   "source": "Country Roads News",
+   "summary": "Plus, new art gallery opens in Canaan Valley, and WV officials uphold Fundamental Data's air quality permit",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-top-county-officials-plead-not-guilty"
+  },
+  {
+   "id": "news-us-articles-wv-dep-says-fundamental-data-100044868-html",
+   "d": "2026-08-17T03:00:00Z",
+   "title": "WV DEP says Fundamental Data controls site of proposed Tucker County data center, power plant",
+   "url": "https://www.yahoo.com/news/us/articles/wv-dep-says-fundamental-data-100044868.html",
+   "source": "Yahoo",
+   "summary": "Add Yahoo as a preferred source to see more of our stories on Google. An anti-data center yard sign sits on the side of the road outside of the Billy Motel & Bar outside of Davis in Tucker County, ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-ridgeline",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "news-us-articles-wv-dep-says-fundamental-data-100044868-html"
+  },
+  {
+   "id": "alley-link-hosts-open-house-about-proposed-transmission-line",
+   "d": "2026-07-29T19:51:00Z",
+   "title": "Valley Link hosts open house about proposed transmission line",
+   "url": "https://www.wsaz.com/2026/07/30/valley-link-hosts-open-house-about-proposed-transmission-line/",
+   "source": "WSAZ",
+   "summary": "POCA, W.Va. (WSAZ) - The Valley Link North project is a 260-mile, high-voltage transmission line spanning from the John Amos power plant in Putnam County all the way to Frederick County, Maryland.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "alley-link-hosts-open-house-about-proposed-transmission-line"
+  },
+  {
+   "id": "p-shame-on-them-governor-morrisey-says",
+   "d": "2026-07-23T20:53:44Z",
+   "title": "\"Shame on Them,\" Governor Morrisey Says of Fundamental Data",
+   "url": "https://countryroads.substack.com/p/shame-on-them-governor-morrisey-says",
+   "source": "Country Roads News",
+   "summary": "The comments are a remarkable public rebuke of a technology developer by a governor who has enthusiastically tried to lure data centers to West Virginia",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-shame-on-them-governor-morrisey-says"
+  },
+  {
+   "id": "p-fundamental-data-distances-itself",
+   "d": "2026-07-23T12:49:59Z",
+   "title": "Fundamental Data Distances Itself From Engineer’s Comments About Legislation",
+   "url": "https://countryroads.substack.com/p/fundamental-data-distances-itself",
+   "source": "Country Roads News",
+   "summary": "Plus, data center opponents share comments from people whose families have lived in Tucker County for multiple generations.",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-fundamental-data-distances-itself"
+  },
+  {
+   "id": "rdrails-in-article-fa600f50-2937-4791-8b26-7b3af8f17016-html",
+   "d": "2026-07-23T05:27:00Z",
+   "title": "Fundamental Data rep says company wrote W.Va. data center law, urges project guardrails in his own town",
+   "url": "https://www.register-herald.com/news/local_news/fundamental-data-rep-says-company-wrote-w-va-data-center-law-urges-project-guardrails-in/article_fa600f50-2937-4791-8b26-7b3af8f17016.html",
+   "source": "The Register-Herald",
+   "summary": "CHARLESTON — While Tucker County residents spent the last year and a half struggling to get answers from Fundamental Data about its proposed data center and power plant complex, a company ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-ridgeline",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "rdrails-in-article-fa600f50-2937-4791-8b26-7b3af8f17016-html"
+  },
+  {
+   "id": "p-we-were-the-guys-that-basically-wrote",
+   "d": "2026-07-21T22:47:58Z",
+   "title": "“We Were the Guys That Basically Wrote the Bill,” Data Center Consultant Says",
+   "url": "https://countryroads.substack.com/p/we-were-the-guys-that-basically-wrote",
+   "source": "Country Roads News",
+   "summary": "The Fundamental Data representative also said the company's proposed facility near Davis and Thomas is \"in the middle of nowhere\"",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "countryroads",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "p-we-were-the-guys-that-basically-wrote"
+  },
+  {
+   "id": "rding-fundamental-datas-control-of-proposed-power-plant-site",
+   "d": "2026-07-17T12:56:56Z",
+   "title": "Community groups urge WVDEP to investigate questions regarding Fundamental Data’s control of proposed power plant site",
+   "url": "https://www.wvhighlands.org/2026/07/17/community-groups-urge-wvdep-to-investigate-questions-regarding-fundamental-datas-control-of-proposed-power-plant-site/",
+   "source": "WV Highlands Conservancy",
+   "summary": "CHARLESTON, W.Va. — Tucker United, the West Virginia Highlands Conservancy and the Sierra Club sent a letter on July 16 asking the West Virginia Department of Environmental Protection to investigate […] The post Community groups urge WVDEP to investigate questions regarding Funda",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "wvhc",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "rding-fundamental-datas-control-of-proposed-power-plant-site"
+  },
+  {
+   "id": "ticles-concerned-barbour-county-citizens-meet-222727000-html",
+   "d": "2026-07-08T15:27:00Z",
+   "title": "Concerned Barbour County citizens meet to discuss Valley North Transmission Line Project",
+   "url": "https://www.aol.com/articles/concerned-barbour-county-citizens-meet-222727000.html",
+   "source": "AOL",
+   "summary": "BELINGTON, W.Va. (WBOY) — With Valley Link proposing to build transmission lines in Barbour County, community members gathered together in Belington on Tuesday night to discuss proposed routes for ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "ticles-concerned-barbour-county-citizens-meet-222727000-html"
+  },
+  {
+   "id": "y-disagree-on-tucker-county-data-center-deadline-ar-aa265kns",
+   "d": "2026-06-19T12:03:00Z",
+   "title": "State, company disagree on Tucker County data center deadline",
+   "url": "https://www.msn.com/en-us/money/other/state-company-disagree-on-tucker-county-data-center-deadline/ar-AA265kNs",
+   "source": "MSN",
+   "summary": "Related video: Data center official discusses Tucker County project. CHARLESTON, W.Va. (WBOY) — The West Virginia Department of Commerce says the company planning to build the Ridgeline power plant ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-ridgeline",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "y-disagree-on-tucker-county-data-center-deadline-ar-aa265kns"
+  },
+  {
+   "id": "-announces-new-microgrid-data-center-application-ar-aa25qfts",
+   "d": "2026-06-11T18:17:00Z",
+   "title": "West Virginia data center government liaison addresses concerns, announces new microgrid data center application",
+   "url": "https://www.msn.com/en-us/news/us/west-virginia-data-center-government-liaison-addresses-concerns-announces-new-microgrid-data-center-application/ar-AA25qFTS",
+   "source": "MSN",
+   "summary": "CHARLESTON, W.Va. (WSAZ) - As neighbors of the data center construction site in Mason County say they face issues with a lack of communication, disruptions and damage from the construction, and a lack ...",
+   "projects": [],
+   "via": "bing-microgrid",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "-announces-new-microgrid-data-center-application-ar-aa25qfts"
+  },
+  {
+   "id": "te-near-davis-after-receiving-74-protest-letters-ar-aa23ikeo",
+   "d": "2026-05-15T11:47:00Z",
+   "title": "Public hearing set on MonPower’s proposed gas plant in Mon County & solar site near Davis after receiving 74 protest letters",
+   "url": "https://www.msn.com/en-us/money/general/public-hearing-set-on-monpower-s-proposed-gas-plant-in-mon-county-solar-site-near-davis-after-receiving-74-protest-letters/ar-AA23iKEO",
+   "source": "MSN",
+   "summary": "BRIDGEPORT, W.Va (WDTV) - A case involving a proposed natural gas facility at the Fort Martin Power Station in Monongalia County and three solar projects — near Albright, adjacent to the Town of Davis ...",
+   "projects": [
+    "fortmartin"
+   ],
+   "via": "bing-fortmartin",
+   "seen": "2026-11-03T13:03:33Z",
+   "story": "te-near-davis-after-receiving-74-protest-letters-ar-aa23ikeo"
+  }
+ ]
+}
