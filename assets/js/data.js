@@ -65,5 +65,19 @@ function derive() {
   // Next big decisions from the docket (dated `next`).
   D.docketNext = D.docket.filter(d => d.next && d.next.d && d.next.d >= T.slice(0, d.next.d.length)).sort((a, b) => a.next.d < b.next.d ? -1 : 1);
   D.daysTo = d => daysBetween(T, d);
+
+  // Money Desk catalysts: events or open questions that could move a company or its West Virginia projects.
+  // Hand-curated ones come from companies.json; dated docket steps on a company's projects (or listed cases) are added.
+  D.catalysts = [];
+  (D.companies.companies || []).forEach(c => {
+    (c.catalysts || []).forEach((x, i) => D.catalysts.push({ ...x, id: `cat-${c.id}-${i}`, cid: c.id, company: c.name, kind: 'company' }));
+    D.docketNext.filter(k => k.projects.some(p => (c.projects || []).includes(p)) || (c.docket || []).includes(k.id))
+      .forEach(k => D.catalysts.push({ id: `dk-${c.id}-${k.id}`, cid: c.id, company: c.name, kind: 'docket', dk: k.id, t: `${k.next.t}: ${k.title}`, d: k.next.d, src: k.sources[0], verify: k.next.verify ? k.verify : null }));
+  });
+  // Dated company catalysts also go on the calendar (kept apart from D.events so counts and "Take part" lists stay about public dates).
+  D.catEvents = D.catalysts.filter(x => x.kind === 'company' && x.d && x.d.length === 10).map(x => ({
+    id: x.id, type: 'money', title: `${x.company}: ${x.t}`, date: x.d, approx: !!x.approx, company: x.cid,
+    desc: "A Money Desk catalyst: an event that could change this company's condition or a West Virginia project, for better or worse.",
+    sources: [x.src], flag: x.verify || null }));
   D.monthsTo = d => (toDate(d) - toDate(T)) / (86400000 * 30.4);
 }

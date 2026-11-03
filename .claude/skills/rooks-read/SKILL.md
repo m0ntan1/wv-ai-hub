@@ -94,6 +94,6 @@ Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull 
 
 1. The Read as it will appear, with its numbered sources, and the word count.
 2. Mercer's review: the audit line, the four duty lines, and the outcome. If Anthropic is a subject: a line reading **Anthropic: conflict disclosed**.
-3. **Health reads:** if a filing in the window changes the picture for a company, propose a change to its health read (Stable / Watch / Stressed, with the one-paragraph reason from the filings). Propose only; never edit `data/companies.json` in this pull request.
+3. **Health reads and catalysts:** if a filing in the window changes the picture for a company, propose a change to its health read (Stable / Watch / Stressed, with the one-paragraph reason from the filings). If you found a new catalyst (an event or open question that could move a company or its projects, for better or worse), propose it with its text, date if any, and source. Propose only; never edit `data/companies.json` in this pull request.
 4. **Needs your call:** anything you were unsure about, and anything from the window you left out and why.
 5. The Netlify deploy preview will appear on the pull request; tell the editor to read the Read there before merging.

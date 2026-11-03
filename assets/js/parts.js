@@ -65,6 +65,7 @@ export function eventCard(e) {
       ${e.flag ? `<p class="cx-line"><b>Note</b>${esc(e.flag)}</p>` : ''}
       <div class="cx-links">
         ${e.project ? `<a href="${D.projLink(e.project)}">${esc(D.projName(e.project))} →</a>` : ''}
+        ${e.company && D.coById[e.company] ? `<a href="#/company/${esc(e.company)}">${esc(D.coById[e.company].name)} on the Money tab →</a>` : ''}
         ${(e.sources || []).map(s => srcLink(s)).join('')}
         ${canIcs(e) && !past ? `<button type="button" class="cx-ics" data-ics="${esc(e.id)}">+ Add to calendar</button>` : ''}
       </div>

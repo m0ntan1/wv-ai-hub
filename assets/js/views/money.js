@@ -5,6 +5,7 @@ import { esc, fmtDate, MON, srcLink, srcLinks, vfy, stamp, plural } from '../lib
 import { chartBox, mountCharts, fmtVal } from '../charts.js';
 import { stories, storyHTML } from './news.js';
 import { readCard } from './reads.js';
+import { chipsHTML } from '../parts.js';
 
 const FORMS = { '10-K': 'Annual report', '10-K/A': 'Annual report (amended)', '10-Q': 'Quarterly report', '10-Q/A': 'Quarterly report (amended)', '8-K': 'Current report', '8-K/A': 'Current report (amended)', '20-F': 'Annual report', '6-K': 'Current report', 'S-1': 'IPO registration', 'S-1/A': 'IPO registration (amended)', 'F-1': 'IPO registration', 'F-1/A': 'IPO registration (amended)', '424B4': 'Final prospectus: offering priced', '424B1': 'Final prospectus: offering priced', 'DEF 14A': 'Proxy statement' };
 const ITEMS = { '1.01': 'material agreement', '1.02': 'agreement ended', '1.03': 'bankruptcy', '2.01': 'deal completed', '2.02': 'results', '2.03': 'new debt', '2.04': 'debt trigger', '2.05': 'restructuring', '2.06': 'impairment', '3.01': 'listing notice', '3.02': 'unregistered share sale', '3.03': 'shareholder rights change', '4.01': 'auditor change', '4.02': 'restatement', '5.02': 'officer or director change', '5.03': 'bylaws change', '5.07': 'shareholder vote', '7.01': 'disclosure', '8.01': 'other event' };
@@ -12,7 +13,7 @@ const ITEMS = { '1.01': 'material agreement', '1.02': 'agreement ended', '1.03':
 const LOUD = new Set(['1.03', '2.03', '2.04', '2.05', '2.06', '3.01', '4.01', '4.02']);
 export const HEALTH = {
   stable: { label: 'Stable', tone: 'ok', def: 'Filings show revenue and cash that comfortably cover obligations, with no going-concern, default, or restatement flags.' },
-  watch: { label: 'Watch', tone: 'signal', def: 'Something in the filings needs watching: heavy losses, reliance on financing not yet committed, customer concentration, or a material weakness.' },
+  watch: { label: 'Watch', tone: 'signal', def: 'Something in the filings needs watching: heavy losses, reliance on financing not yet committed, customer concentration, a material weakness, or large fixed spending commitments relative to revenue.' },
   stressed: { label: 'Stressed', tone: 'alarm', def: 'Filings show acute strain: going-concern doubt that is not resolved, a missed payment or covenant breach, a restatement, or a ratings or listing notice.' },
   pending: { label: 'Health: pending', tone: 'dim', def: 'Not rated yet. The editor has not approved a health read for this company.' },
   nodata: { label: 'No public financials', tone: 'dim', def: 'Privately held, so there are no filings to read.' },
@@ -42,6 +43,53 @@ function yoy(q, key = 'v') {
   return { pct: (last[key] / prev[key] - 1) * 100, prev };
 }
 const pctTxt = p => (p >= 0 ? '+' : '−') + Math.abs(p).toFixed(0) + '%';
+// ---------------------------------------------------------------- trends and catalysts
+// A trend arrow is plain arithmetic on filed numbers: it shows only when a figure has been at least `pct` percent
+// above (or below) the same quarter a year earlier for `quarters` quarters in a row, so one choppy quarter shows nothing.
+const RULE = () => D.companies.trendRule || { pct: 10, quarters: 2 };
+function yoyAt(q, i) {
+  const p = q[i], t = new Date(p.end); t.setFullYear(t.getFullYear() - 1);
+  const prev = q.find(x => Math.abs(new Date(x.end) - t) < 12 * 86400000);
+  return prev && prev.v > 0 && p.v >= 0 ? (p.v / prev.v - 1) * 100 : null;
+}
+export function trendOf(q) {
+  const R = RULE();
+  if (!q || q.length < R.quarters + 4) return null;
+  const ys = Array.from({ length: R.quarters }, (_, k) => yoyAt(q, q.length - 1 - k));
+  if (ys.some(y => y === null)) return null;
+  if (ys.every(y => y >= R.pct)) return { dir: 'up', pct: ys[0] };
+  if (ys.every(y => y <= -R.pct)) return { dir: 'down', pct: ys[0] };
+  return null;
+}
+function trendChips(c) {
+  const m = sec(c.id)?.metrics, R = RULE();
+  if (!m) return '';
+  return [['revenue', 'Revenue'], ['capex', 'Capex']].map(([k, l]) => {
+    const t = trendOf(m[k]?.q);
+    return t ? `<span class="tchip" title="${esc(`${l} ${t.dir === 'up' ? 'above' : 'below'} the same quarter a year earlier by at least ${R.pct}% for ${R.quarters} quarters in a row. Latest: ${pctTxt(t.pct)}.`)}">${t.dir === 'up' ? '▲' : '▼'} ${l} ${pctTxt(t.pct)}</span>` : '';
+  }).join('');
+}
+const catsFor = cid => (D.catalysts || []).filter(x => x.cid === cid);
+const comingCats = list => list.filter(x => x.d && x.d.length === 10 && x.d >= D.today).sort((a, b) => a.d < b.d ? -1 : 1);
+const daysTxt = (x) => { const n = D.daysTo(x.d); return n === 0 ? 'today' : (x.approx ? '~' : '') + n + (n === 1 ? ' day' : ' days'); };
+function catChip(c) {
+  const list = catsFor(c.id);
+  if (!list.length) return '';
+  const next = comingCats(list)[0];
+  return next ? `<span class="cchip" title="${esc('Next catalyst: ' + next.t)}">⏱ ${esc(daysTxt(next))}</span>` : `<span class="cchip" title="Catalysts to watch, no date yet">⏱ ${list.length} to watch</span>`;
+}
+function catalystsHTML(c) {
+  const list = catsFor(c.id);
+  if (!list.length) return '';
+  const dated = list.filter(x => x.d).sort((a, b) => a.d < b.d ? -1 : 1), undated = list.filter(x => !x.d);
+  const when = x => !x.d ? '<span class="cat-d none">No date yet</span>'
+    : x.d.length === 10 && x.d >= D.today ? `<span class="cat-d">${x.approx ? 'About ' : ''}${esc(fmtDate(x.d, { year: x.d.slice(0, 4) !== D.today.slice(0, 4) }))}<small>${esc(daysTxt(x))}</small></span>`
+    : x.d.length === 10 ? `<span class="cat-d past">Passed ${esc(fmtDate(x.d))}</span>` : `<span class="cat-d">${esc(fmtDate(x.d))}</span>`;
+  return `<section class="cf-sec" id="s-catalysts"><div class="sec-h">Catalysts</div>
+    <p class="dim" style="font-size:13.5px;margin-bottom:8px;max-width:760px">Events and open questions that could change this company's condition or its West Virginia projects, for better or worse. Each has a source. Dated ones also appear on the <a href="#/calendar">calendar</a>.</p>
+    <ul class="cat-list">${[...dated, ...undated].map(x => `<li class="cat">${when(x)}<span>${esc(x.t)} ${vfy(x.verify)} ${srcLink(x.src)}${x.kind === 'docket' ? ` <a class="tag" href="#/docket#dk-${esc(x.dk)}">On the docket</a>` : ''}</span></li>`).join('')}</ul></section>`;
+}
+
 function latestFiling(c) { const f = sec(c.id)?.filings?.[0]; return f ? `${esc(f.form)} · ${esc(fmtDate(f.d, { year: false }))}` : ''; }
 function headline(c) {
   const m = sec(c.id)?.metrics;
@@ -58,6 +106,7 @@ export function coCard(c) {
     <h3>${esc(c.name)}</h3>
     <p>${esc(c.tie.split('. ')[0].replace(/\.$/, ''))}.</p>
     ${headline(c)}
+    ${trendChips(c) || catChip(c) ? `<div class="co-sig">${trendChips(c)}${catChip(c)}</div>` : ''}
     <div class="co-foot">${(c.projects || []).filter(p => D.byId[p] || p === 'marl' || p === 'valleylink').map(p => `<span class="tag">${esc(D.projName(p))}</span>`).join('')}${latestFiling(c) ? `<span class="co-f">Latest: ${latestFiling(c)}</span>` : c.listing === 'private' ? '<span class="co-f">No SEC filings</span>' : ''}</div>
   </a>`;
 }
@@ -97,6 +146,15 @@ function fredCard(s) {
   </article>`;
 }
 
+/** "Coming up": the next dated catalysts across the whole roster (a docket step shared by several companies shows once). */
+function comingHTML() {
+  const seen = new Set();
+  const list = comingCats(D.catalysts || []).filter(x => { const k = x.dk || x.id; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 5);
+  if (!list.length) return '';
+  const items = list.map(x => ({ d: x.d, what: x.kind === 'docket' ? x.t : `${x.company}: ${x.t}`, when: fmtDate(x.d) + (x.approx ? ' (approx.)' : ''), href: x.kind === 'docket' ? `#/docket#dk-${x.dk}` : `#/company/${x.cid}`, tone: 'gas', verify: x.verify }));
+  return `<section class="sec" style="padding-bottom:0"><div class="sec-h">Coming up: catalysts <a class="src act" href="#/calendar">Calendar →</a></div><div class="chips">${chipsHTML(items)}</div></section>`;
+}
+
 // ---------------------------------------------------------------- index
 export function money(main, q) {
   const C = D.companies.companies, T = D.companies.tranches;
@@ -112,6 +170,7 @@ export function money(main, q) {
     </header>
     ${disclaimer(false)}
     <nav class="pills" style="margin:18px 0 4px" aria-label="Tranches">${T.map(t => `<a class="pill" href="#/money#tr-${t.id}">${esc(t.name)}</a>`).join('')}<a class="pill" href="#/money#latest-filings">Latest filings</a><a class="pill" href="#/money#how">How this works</a></nav>
+    ${comingHTML()}
     ${reads.length ? `<section class="sec" style="padding-bottom:0">${readCard(reads[0], { compact: true })}</section>` : ''}
 
     <section class="sec" id="tr-industry">
@@ -194,6 +253,7 @@ function metricsHTML(c) {
   });
   return `<section class="cf-sec" id="s-figures">
     <div class="sec-h">From the filings <a class="src act" href="${esc(edgarUrl(r.cik))}" target="_blank" rel="noopener">All filings on EDGAR ↗</a></div>
+    ${trendChips(c) ? `<div class="co-sig" style="margin-bottom:10px">${trendChips(c)}<span class="dim" style="font-size:12px">Trend arrows appear only after ${RULE().quarters} quarters in a row at least ${RULE().pct}% above or below a year earlier.</span></div>` : ''}
     ${lag ? `<p class="lagnote">The SEC's structured data does not yet include the ${esc(per.form)} filed ${esc(fmtDate(per.d))} for the period ending ${esc(fmtDate(per.period))}, so these figures stop earlier. <a href="${esc(filingUrl(r.cik, per))}" target="_blank" rel="noopener">Read that filing ↗</a></p>` : ''}
     <dl class="facts">${rows.join('')}</dl>
     ${charts.length ? `<div class="co-charts">${charts.join('')}</div>` : ''}
@@ -237,7 +297,7 @@ export function company(main, id) {
         ${metricsHTML(c)}
         ${c.unknown ? `<section class="cf-sec"><div class="redact-block"><div class="lbl">What isn't public</div><p>${esc(c.unknown)}</p>${c.irUrl ? `<div class="srcs">${srcLink({ label: 'Investor relations', url: c.irUrl })}</div>` : ''}</div></section>` : ''}
         ${c.risks ? `<section class="cf-sec"><div class="sec-h">Risks the filing names</div><ul class="bul">${c.risks.map(x => `<li>${esc(x)}</li>`).join('')}</ul><p class="dim" style="font-size:12.5px">Paraphrased from the filing's own risk factors; not a complete list.</p></section>` : ''}
-        ${c.watch ? `<section class="cf-sec"><div class="sec-h">What to watch</div><ul class="bul">${c.watch.map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>` : ''}
+        ${catalystsHTML(c)}
         ${myReads.length ? `<section class="cf-sec"><div class="sec-h">Rook's Reads on ${esc(c.name.split(' (')[0])}</div>${myReads.slice(0, 3).map(x => readCard(x, { compact: true })).join('')}</section>` : ''}
         ${press.length ? `<section class="cf-sec"><div class="sec-h">In the news <a class="src act" href="#/news?q=${encodeURIComponent(c.name.split(' (')[0].split(' /')[0])}">More →</a></div>${press.map(s => storyHTML(s)).join('')}</section>` : ''}
       </div>
@@ -245,6 +305,7 @@ export function company(main, id) {
         <div class="card side-health"><div class="kicker">Health read</div><p style="margin-top:8px">${healthChip(c)}</p>
           <p class="dim" style="font-size:13.5px;margin-top:8px">${esc(c.health?.why || h.def)}</p>
           ${c.health?.approved ? `<p class="dim mono" style="font-size:11px;margin-top:8px">Approved by the editor ${esc(fmtDate(c.health.approved))}</p>` : ''}
+          ${['stable', 'watch', 'stressed'].includes(c.health?.status) ? '<p class="dim" style="font-size:12px;margin-top:8px">Basis: the company\'s own SEC filings (figures and the past year\'s 8-K reports). Not a full review of every filing. Analysis, not investment advice.</p>' : ''}
           <p style="margin-top:10px"><a class="src" href="#/money#how">How health reads work</a></p></div>
         ${r?.filings?.length ? `<div class="card" style="margin-top:14px"><div class="kicker">Recent SEC filings</div><ul class="fil-list sm" style="margin-top:8px">${r.filings.slice(0, 8).map(f => filingRow({ ...f, id: c.id, cik: r.cik }, false)).join('')}</ul>
           <div class="srcs"><a class="src" href="${esc(edgarUrl(r.cik))}" target="_blank" rel="noopener">All filings ↗</a></div></div>` : ''}

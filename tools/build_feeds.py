@@ -33,8 +33,14 @@ def fold(line):
     out.append(line)
     return '\r\n'.join(out)
 stamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+# Money Desk catalysts with a firm date go on the calendar too (same ids the site uses: cat-<company>-<index>).
+companies = load('companies') if (DATA / 'companies.json').exists() else {'companies': []}
+catalyst_events = [{'id': f"cat-{c['id']}-{i}", 'title': f"{c['name']}: {x['t']}", 'date': x['d'], 'approx': x.get('approx'),
+                    'desc': 'A Money Desk catalyst: an event that could change this company\'s condition or a West Virginia project, for better or worse.',
+                    'flag': x.get('verify'), 'sources': [x['src']], 'link': f"#/company/{c['id']}"}
+                   for c in companies['companies'] for i, x in enumerate(c.get('catalysts', [])) if len(x.get('d') or '') == 10]
 vevents = []
-for e in events:
+for e in events + catalyst_events:
     if not e.get('date') or e.get('tbd') or e.get('approx'):
         continue
     d = e['date'].replace('-', '')

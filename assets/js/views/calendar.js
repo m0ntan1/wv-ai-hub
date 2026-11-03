@@ -4,8 +4,10 @@ import { eventCard, standingCard, wireIcs } from '../parts.js';
 
 export function calendar(main, q) {
   const cx = { view: store.get('calview') === 'month' ? 'month' : 'agenda', type: 'all', county: q.get('county') || 'all', project: q.get('project') || 'all', showPast: false, sel: null };
+  // Public dates plus the Money Desk's dated company catalysts.
+  const EV = [...D.events, ...(D.catEvents || [])].sort((a, b) => ((a.date || '9999') + (a.start || '')) < ((b.date || '9999') + (b.start || '')) ? -1 : 1);
   const t = toDate(D.today); cx.month = new Date(t.getFullYear(), t.getMonth(), 1, 12);
-  const counts = {}; D.events.forEach(e => { counts[e.type] = (counts[e.type] || 0) + 1; });
+  const counts = {}; EV.forEach(e => { counts[e.type] = (counts[e.type] || 0) + 1; });
   const counties = [...new Set([...D.events.map(e => e.county), ...D.standing.map(s => s.county)].filter(Boolean))].sort((a, b) => a === 'Statewide' ? -1 : b === 'Statewide' ? 1 : a.localeCompare(b));
   const pids = [...new Set([...D.events.map(e => e.project), ...D.standing.flatMap(s => s.projects)].filter(Boolean))].sort((a, b) => D.projName(a).localeCompare(D.projName(b)));
 
@@ -25,7 +27,7 @@ export function calendar(main, q) {
       <button type="button" class="btn" id="cxIcsAll">Download upcoming</button>
     </div>
     <div class="pills" id="cxTypes" role="group" aria-label="Filter by event type">
-      <button type="button" class="pill" data-t="all" aria-pressed="true">All types · ${D.events.length}</button>
+      <button type="button" class="pill" data-t="all" aria-pressed="true">All types · ${EV.length}</button>
       ${Object.keys(EV_TYPES).filter(k => counts[k]).map(k => `<button type="button" class="pill" data-t="${k}" aria-pressed="false"><i style="background:${EV_TYPES[k].color}"></i>${EV_TYPES[k].label} · ${counts[k]}</button>`).join('')}
     </div>
     <div id="cxBody"></div>
@@ -40,7 +42,7 @@ export function calendar(main, q) {
   const monthLabel = k => MONTHS[+k.slice(5, 7) - 1] + ' ' + k.slice(0, 4);
   const group = evs => { const g = new Map(); evs.forEach(e => { const k = e.date.slice(0, 7); if (!g.has(k)) g.set(k, []); g.get(k).push(e); }); return g; };
   function agenda() {
-    const evs = D.events.filter(match);
+    const evs = EV.filter(match);
     const up = evs.filter(e => e.date && !e.tbd && !D.isPast(e)), tbd = evs.filter(e => e.tbd), past = evs.filter(D.isPast).reverse();
     let h = '';
     group(up).forEach((list, k) => { h += `<div class="cx-group"><div class="cx-group-h">${monthLabel(k)}<span>${list.length} event${list.length > 1 ? 's' : ''}</span></div>${list.map(eventCard).join('')}</div>`; });
@@ -52,7 +54,7 @@ export function calendar(main, q) {
   function month() {
     const m = cx.month, y = m.getFullYear(), mo = m.getMonth();
     const first = new Date(y, mo, 1, 12), start = new Date(first); start.setDate(1 - first.getDay());
-    const dated = D.events.filter(e => e.date && !e.tbd && !e.approx && match(e));
+    const dated = EV.filter(e => e.date && !e.tbd && !e.approx && match(e));
     const on = d => dated.filter(e => e.date <= d && d <= (e.end || e.date));
     let cells = DOW.map(d => `<div class="cx-dow">${d}</div>`).join('');
     for (let i = 0; i < 42; i++) {
@@ -82,7 +84,7 @@ export function calendar(main, q) {
   main.querySelector('#cxCounty').addEventListener('change', ev => { cx.county = ev.target.value; render(); });
   main.querySelector('#cxProject').addEventListener('change', ev => { cx.project = ev.target.value; render(); });
   main.querySelector('#cxPast').addEventListener('change', ev => { cx.showPast = ev.target.checked; render(); });
-  main.querySelector('#cxIcsAll').addEventListener('click', () => { const evs = D.events.filter(e => canIcs(e) && !D.isPast(e) && match(e)); if (evs.length) icsDownload(evs, 'wv-ai-watch-upcoming.ics'); });
+  main.querySelector('#cxIcsAll').addEventListener('click', () => { const evs = EV.filter(e => canIcs(e) && !D.isPast(e) && match(e)); if (evs.length) icsDownload(evs, 'wv-ai-watch-upcoming.ics'); });
   main.querySelector('#cxBody').addEventListener('click', ev => {
     const nav = ev.target.closest('[data-nav]');
     if (nav) { cx.month = new Date(cx.month.getFullYear(), cx.month.getMonth() + Number(nav.dataset.nav), 1, 12); cx.sel = null; render(); return; }
@@ -90,11 +92,11 @@ export function calendar(main, q) {
     if (day) { cx.sel = day.dataset.day; render(); main.querySelector('#cxDay')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   });
   wireIcs(main, icsDownload);
-  if (D.events.some(e => e.date === D.today)) cx.sel = D.today;
+  if (EV.some(e => e.date === D.today)) cx.sel = D.today;
   render();
   const focusId = q.get('e');
   if (focusId) {
-    const e = D.events.find(x => x.id === focusId);
+    const e = EV.find(x => x.id === focusId);
     if (e && D.isPast(e)) { cx.showPast = true; main.querySelector('#cxPast').checked = true; render(); }
     setTimeout(() => { const el = main.querySelector('#ev-' + CSS.escape(focusId)); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--signal)'; el.style.outlineOffset = '6px'; } }, 60);
   }
