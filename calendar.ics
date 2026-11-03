@@ -1,0 +1,690 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WV AI Watch//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WV AI Watch
+X-WR-CALDESC:Hearings\, meetings\, deadlines\, and protests in West Virginia's data center and grid fights.
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:election@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261103T063000
+DTEND;TZID=America/New_York:20261103T193000
+SUMMARY:General Election Day
+DESCRIPTION:HB 2014 (data-center local control) and high-voltage transmiss
+ ion lines are top issues in legislative races.\nHow to take part: Vote at
+  your assigned polling place\, 6:30 a.m. to 7:30 p.m.\nWV MetroNews: http
+ s://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-
+ issues-driving-voter-turnout-in-west-virginia/\nVia WV AI Watch: https://
+ wvaihub.com/#/calendar?e=election
+URL:https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-hig
+ hlight-issues-driving-voter-turnout-in-west-virginia/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-fisher@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261104T160000
+DTEND;TZID=America/New_York:20261104T190000
+SUMMARY:Valley Link open house: Fisher
+LOCATION:Misty Mountain Event Barn\, 430 Misty Mountain Rd.\, Fisher\, WV 
+ 26818
+DESCRIPTION:First of 12 sessions on preliminary routes for the 765 kV Vall
+ ey North line. Four more are out of state: Winchester\, VA (Nov 5)\, Love
+ ttsville\, VA (Nov 12)\, and Brunswick\, MD (Nov 19).\nHow to take part: 
+ Drop in any time during the window. This is a developer event\, not a PSC
+  hearing. To put comments on the official record\, file with the PSC unde
+ r FP Valley Link 26A.\nValley Link: open-house schedule: https://vltransm
+ ission.com/valley-north/\nHow to comment (FP Valley Link 26A): https://ww
+ w.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmi
+ ssion-line-protests/\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=v
+ l-fisher
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-hambleton@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261104T170000
+DTEND;TZID=America/New_York:20261104T200000
+SUMMARY:Valley Link open house: Hambleton
+LOCATION:Tucker County High School\, 116 Mountain Lion Way\, Hambleton\, W
+ V 26269
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-hambleton
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-sissonville@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261105T170000
+DTEND;TZID=America/New_York:20261105T200000
+SUMMARY:Valley Link open house: Sissonville
+LOCATION:Sissonville Middle School\, 100 Middle School Ln.\, Charleston\, 
+ WV 25312
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-sissonville
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:interims-nov@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261112
+SUMMARY:Legislative interim meetings
+LOCATION:State Capitol\, 1900 Kanawha Blvd. E.\, Charleston\, WV 25305
+DESCRIPTION:Joint interim committees meet between sessions. The Rule-Makin
+ g Review Committee takes up the PSC's HB 2014 capacity rule on Nov 10 (se
+ e that entry).\nHow to take part: Open to the public. Agendas are posted 
+ on the Legislature's interim page.\nLegislature: interim schedule: https:
+ //www.wvlegislature.gov/committees/interims/interims.cfm\nVia WV AI Watch
+ : https://wvaihub.com/#/calendar?e=interims-nov
+URL:https://www.wvlegislature.gov/committees/interims/interims.cfm
+END:VEVENT
+BEGIN:VEVENT
+UID:rmr-150csr41@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261110T120000
+DTEND;TZID=America/New_York:20261110T170000
+SUMMARY:Rule-Making Review Committee: the PSC's HB 2014 capacity rule
+LOCATION:Senate Judiciary Committee room\, State Capitol\, 1900 Kanawha Bl
+ vd. E.\, Charleston\, WV 25305
+DESCRIPTION:On the agenda: 150 CSR 41\, the PSC's rules for generating cap
+ acity and economic dispatch\, written in Case 26-0633-E-GI. This is the r
+ ule that made a 69% coal capacity factor a goal instead of a mandate.\nHo
+ w to take part: Open to the public. The committee can recommend the rule 
+ be approved\, amended\, or withdrawn before the 2027 session.\nInterim ag
+ enda (Nov 9–11): https://www.wvlegislature.gov/committees/interims/intc
+ omsched_agenda.cfm?day1=11/09/2026\nWest Virginia Watch: https://westvirg
+ iniawatch.com/2026/10/20/west-virginia-public-service-commission-makes-po
+ wer-rule-a-goal-not-a-mandate/\nVia WV AI Watch: https://wvaihub.com/#/ca
+ lendar?e=rmr-150csr41
+URL:https://www.wvlegislature.gov/committees/interims/intcomsched_agenda.c
+ fm?day1=11/09/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-buckhannon@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261112T160000
+DTEND;TZID=America/New_York:20261112T190000
+SUMMARY:Valley Link open house: Buckhannon
+LOCATION:The Event Center at Brushy Fork\, 929 Brushy Fork Rd.\, Buckhanno
+ n\, WV 26201
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-buckhannon
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-spencer@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261117T160000
+DTEND;TZID=America/New_York:20261117T190000
+SUMMARY:Valley Link open house: Spencer
+LOCATION:Spencer Armory\, 206 E. Main St.\, Spencer\, WV 25276
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-spencer
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-capon@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261117T160000
+DTEND;TZID=America/New_York:20261117T190000
+SUMMARY:Valley Link open house: Capon Bridge
+LOCATION:Capon Bridge Community Complex (Old Capon Bridge Middle School)\,
+  195 Capon School St.\, Capon Bridge\, WV 26711
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-capon
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:tu-smallbiz@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261117T170000
+DTEND;TZID=America/New_York:20261117T190000
+SUMMARY:Tucker United small business meeting
+LOCATION:McClumsy\, Front St.\, Thomas\, WV 26292
+DESCRIPTION:A meeting for local businesses\, hosted by Tucker United and a
+  Thomas business owner.\nHow to take part: Open to the public.\nTucker Un
+ ited events: https://www.tuckerunited.com/about-7\nVia WV AI Watch: https
+ ://wvaihub.com/#/calendar?e=tu-smallbiz
+URL:https://www.tuckerunited.com/about-7
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-roanoke@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261118T160000
+DTEND;TZID=America/New_York:20261118T190000
+SUMMARY:Valley Link open house: Roanoke
+LOCATION:Stonewall Resort\, Roanoke Event Center\, 940 Resort Dr.\, Roanok
+ e\, WV 26447
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-roanoke
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-ranson@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261118T160000
+DTEND;TZID=America/New_York:20261118T190000
+SUMMARY:Valley Link open house: Ranson
+LOCATION:Ranson Civic Center\, 432 W. 2nd Ave.\, Ranson\, WV 25438
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-ranson
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:vl-glenville@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261119T160000
+DTEND;TZID=America/New_York:20261119T190000
+SUMMARY:Valley Link open house: Glenville
+LOCATION:Gilmer County Recreation Center\, 1365 Sycamore Run\, Glenville\,
+  WV 26351
+DESCRIPTION:Valley Link (Dominion\, FirstEnergy\, Transource) shows prelim
+ inary route options for the 765 kV Valley North line and takes feedback.\
+ nHow to take part: Drop in any time during the window. This is a develope
+ r event\, not a PSC hearing. To put comments on the official record\, fil
+ e with the PSC under FP Valley Link 26A.\nValley Link: open-house schedul
+ e: https://vltransmission.com/valley-north/\nHow to comment (FP Valley Li
+ nk 26A): https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-
+ valley-link-transmission-line-protests/\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=vl-glenville
+URL:https://vltransmission.com/valley-north/
+END:VEVENT
+BEGIN:VEVENT
+UID:marl-briefs@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:MARL initial briefs due (unconfirmed)
+DESCRIPTION:Parties in PSC Case 26-0075-E-CN file their initial briefs or 
+ proposed orders on NextEra's 500 kV line.\nHow to take part: Filed by par
+ ties. Anyone can read the briefs on the PSC docket.\nNote: Date from Vall
+ ey North Record. No briefing order appeared in PSC docket notices through
+  Nov 2.\nValley North Record: https://valleynorthrecord.substack.com/p/re
+ gional-osint-db7\nPSC docket: https://www.psc.state.wv.us/scripts/WebDock
+ et/viewCaseForWebViewForm.cfm?CaseID=85745\nVia WV AI Watch: https://wvai
+ hub.com/#/calendar?e=marl-briefs
+URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
+END:VEVENT
+BEGIN:VEVENT
+UID:irp-data@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Mon Power IRP data due
+DESCRIPTION:Mon Power and Potomac Edison must file the detailed data behin
+ d their Integrated Resource Plan (Case 25-0857-E-IRP)\, the long-range pl
+ an that includes the Fort Martin gas build.\nHow to take part: Filed by t
+ he utilities. Read it on the PSC docket.\nPSC order\, Aug 28\, 2026: http
+ s://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID
+ =669562\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=irp-data
+URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
+ ivityID=669562
+END:VEVENT
+BEGIN:VEVENT
+UID:marl-reply@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:MARL reply briefs due (unconfirmed)
+DESCRIPTION:Reply briefs in PSC Case 26-0075-E-CN.\nNote: Date from Valley
+  North Record. Not yet confirmed by a PSC order.\nValley North Record: ht
+ tps://valleynorthrecord.substack.com/p/regional-osint-db7\nVia WV AI Watc
+ h: https://wvaihub.com/#/calendar?e=marl-reply
+URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
+END:VEVENT
+BEGIN:VEVENT
+UID:interims-dec@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261209
+SUMMARY:Legislative interim meetings
+LOCATION:Location to be announced
+DESCRIPTION:The last interim meetings before the 2027 session.\nHow to tak
+ e part: Open to the public. Agendas are posted about a week ahead.\nLegis
+ lature: interim schedule: https://www.wvlegislature.gov/committees/interi
+ ms/interims.cfm\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=interi
+ ms-dec
+URL:https://www.wvlegislature.gov/committees/interims/interims.cfm
+END:VEVENT
+BEGIN:VEVENT
+UID:session-open@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20270113T120000
+DTEND;TZID=America/New_York:20270113T140000
+SUMMARY:2027 Regular Session convenes
+LOCATION:State Capitol\, 1900 Kanawha Blvd. E.\, Charleston\, WV 25305
+DESCRIPTION:First session of the 88th Legislature\, running Jan 13 to Mar 
+ 13. Coalition groups\, Democratic delegates\, and the WV NAACP are pushin
+ g to restore local control under HB 2014.\nHow to take part: Floor sessio
+ ns and committee meetings are open to the public. Bills can be tracked on
+  wvlegislature.gov.\nWV Legislature: https://home.wvlegislature.gov/\nVia
+  WV AI Watch: https://wvaihub.com/#/calendar?e=session-open
+URL:https://home.wvlegislature.gov/
+END:VEVENT
+BEGIN:VEVENT
+UID:affordable-rally@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20270126T100000
+DTEND;TZID=America/New_York:20270126T120000
+SUMMARY:WV Rally for Affordable Energy
+LOCATION:South Steps\, State Capitol\, 1900 Kanawha Blvd. E.\, Charleston\
+ , WV 25305
+DESCRIPTION:A rally on electricity costs\, data-center expansion\, energy 
+ infrastructure\, and environmental concerns.\nHow to take part: Open to t
+ he public.\nValley North Record: https://valleynorthrecord.substack.com/p
+ /regional-osint-db7\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=af
+ fordable-rally
+URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
+END:VEVENT
+BEGIN:VEVENT
+UID:marl-decision@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:MARL decision due
+DESCRIPTION:The decision date for NextEra's 500 kV line (Case 26-0075-E-CN
+ )\, set Mar 18 and reaffirmed when the PSC refused to pause the case on S
+ ep 4.\nPSC order\, Sep 4\, 2026: https://www.psc.state.wv.us/scripts/WebD
+ ocket/ViewDocument.cfm?CaseActivityID=669977\nVia WV AI Watch: https://wv
+ aihub.com/#/calendar?e=marl-decision
+URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
+ ivityID=669977
+END:VEVENT
+BEGIN:VEVENT
+UID:session-end@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:2027 Regular Session ends (Day 60)
+DESCRIPTION:MultiState session calendar: https://www.multistate.us/resourc
+ es/2027-legislative-session-dates\nVia WV AI Watch: https://wvaihub.com/#
+ /calendar?e=session-end
+URL:https://www.multistate.us/resources/2027-legislative-session-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:mp-rate2@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Mon Power rate increase\, step 2
+DESCRIPTION:The second step of Mon Power and Potomac Edison's $75.6M base-
+ rate increase (Case 26-0508-E-42T)\, about $4.11/month for an average res
+ idential customer.\nLegal notice: https://wvlegals.com/public-service-com
+ mission-of-west-virginia-charleston-case-no-26-0508-e-42t-monongahela-pow
+ er-company-and-the-potomac-edison-company/\nVia WV AI Watch: https://wvai
+ hub.com/#/calendar?e=mp-rate2
+URL:https://wvlegals.com/public-service-commission-of-west-virginia-charle
+ ston-case-no-26-0508-e-42t-monongahela-power-company-and-the-potomac-edis
+ on-company/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-stopvl@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261102T140000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Stop Valley Link peaceful protest
+LOCATION:Barbour County Courthouse\, 26 N. Main St.\, Philippi\, WV 26416
+DESCRIPTION:Info table at the gazebo.\nValley North Record: https://valley
+ northrecord.substack.com/p/regional-osint-db7\nVia WV AI Watch: https://w
+ vaihub.com/#/calendar?e=p-stopvl
+URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
+END:VEVENT
+BEGIN:VEVENT
+UID:p-marl-hearing@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261103
+SUMMARY:MARL evidentiary hearing
+LOCATION:Howard M. Cunningham Hearing Room\, PSC\, 201 Brooks St.\, Charle
+ ston\, WV 25301\, Live-streamed
+DESCRIPTION:Six hearing days on NextEra's 500 kV line. NextEra settled wit
+ h Lake O' Woods Club on Oct 23.\nPSC order\, Sep 30: https://www.psc.stat
+ e.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382\nVia WV 
+ AI Watch: https://wvaihub.com/#/calendar?e=p-marl-hearing
+URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
+ ivityID=671382
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monarch-deadline@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Monarch air permit comment deadline
+DESCRIPTION:WSAZ: https://www.wsaz.com/2026/10/21/data-center-air-pollutio
+ n-permit-under-public-review/\nVia WV AI Watch: https://wvaihub.com/#/cal
+ endar?e=p-monarch-deadline
+URL:https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under
+ -public-review/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monarch-virtual@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:DEP virtual hearing: Monarch air permit R14-0042
+LOCATION:Online (registration required)
+DESCRIPTION:Gazette-Mail: https://www.wvgazettemail.com/news/energy_and_en
+ vironment/health-concerns-aired-during-meeting-on-mason-data-center-permi
+ t-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html\nVia WV AI Wa
+ tch: https://wvaihub.com/#/calendar?e=p-monarch-virtual
+URL:https://www.wvgazettemail.com/news/energy_and_environment/health-conce
+ rns-aired-during-meeting-on-mason-data-center-permit-request/article_58c6
+ 3958-762f-4a29-a524-87d3b91ed179.html
+END:VEVENT
+BEGIN:VEVENT
+UID:p-digigov@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:WV Digital Government Summit
+LOCATION:Charleston
+DESCRIPTION:State and local leaders on AI implementation\, digital transfo
+ rmation\, and cybersecurity.\nGovTech Events: https://events.govtech.com/
+ West-Virginia-Digital-Government-Summit\nVia WV AI Watch: https://wvaihub
+ .com/#/calendar?e=p-digigov
+URL:https://events.govtech.com/West-Virginia-Digital-Government-Summit
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monarch-water@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261026T170000
+DTEND;TZID=America/New_York:20261026T200000
+SUMMARY:DEP water-permit workshop and hearing: Monarch
+LOCATION:Point Pleasant High School\, 280 Scenic Dr.\, Point Pleasant\, WV
+  25550
+DESCRIPTION:WCHS: https://wchstv.com/news/local/public-hearing-input-used-
+ in-massive-data-center-state-waters-application-decision\nVia WV AI Watch
+ : https://wvaihub.com/#/calendar?e=p-monarch-water
+URL:https://wchstv.com/news/local/public-hearing-input-used-in-massive-dat
+ a-center-state-waters-application-decision
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monroe@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Monroe County data center protest
+LOCATION:Giles County\, VA
+DESCRIPTION:Residents rallied in Giles County\, VA\, outside the office of
+  a landowner whose Monroe County land is rumored as a data center site.\n
+ WVTF / Radio IQ: https://www.wvtf.org/news/2026-10-26/residents-gather-in
+ -giles-to-protest-potential-monroe-county-data-center\nVia WV AI Watch: h
+ ttps://wvaihub.com/#/calendar?e=p-monroe
+URL:https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-prot
+ est-potential-monroe-county-data-center
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monarch-air@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DEP air-permit workshop: Monarch
+LOCATION:Point Pleasant High School\, 280 Scenic Dr.\, Point Pleasant\, WV
+  25550
+DESCRIPTION:Seven people commented. Most raised health concerns or asked f
+ or more time.\nGazette-Mail: https://www.wvgazettemail.com/news/energy_an
+ d_environment/health-concerns-aired-during-meeting-on-mason-data-center-p
+ ermit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html\nVia WV A
+ I Watch: https://wvaihub.com/#/calendar?e=p-monarch-air
+URL:https://www.wvgazettemail.com/news/energy_and_environment/health-conce
+ rns-aired-during-meeting-on-mason-data-center-permit-request/article_58c6
+ 3958-762f-4a29-a524-87d3b91ed179.html
+END:VEVENT
+BEGIN:VEVENT
+UID:p-tu-townhall@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20261019T180000
+DTEND;TZID=America/New_York:20261019T200000
+SUMMARY:Tucker United town hall on Ridgeline
+LOCATION:Davis Town Hall\, 505 William Ave.\, Davis\, WV 26260
+DESCRIPTION:Tucker United events: https://www.tuckerunited.com/about-7\nVi
+ a WV AI Watch: https://wvaihub.com/#/calendar?e=p-tu-townhall
+URL:https://www.tuckerunited.com/about-7
+END:VEVENT
+BEGIN:VEVENT
+UID:p-capitol-protest@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Data center protest at the State Capitol
+LOCATION:State Capitol\, 1900 Kanawha Blvd. E.\, Charleston\, WV 25305
+DESCRIPTION:Residents from Tucker\, Mason\, and Putnam counties protested 
+ data center development.\nMountain State Spotlight: https://mountainstate
+ spotlight.org/2026/10/28/data-center-opposition/\nVia WV AI Watch: https:
+ //wvaihub.com/#/calendar?e=p-capitol-protest
+URL:https://mountainstatespotlight.org/2026/10/28/data-center-opposition/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-wvdcap@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:WV Data Center Accountability Project launches
+LOCATION:Charleston
+DESCRIPTION:A statewide coalition: WV CAG\, Tucker United\, Putnam United\
+ , Mason WV United\, Sierra Club WV\, WVHC\, and No Data Centers in the Ea
+ stern Panhandle.\nWV CAG release: https://wvcag.org/?p=16377\nVia WV AI W
+ atch: https://wvaihub.com/#/calendar?e=p-wvdcap
+URL:https://wvcag.org/?p=16377
+END:VEVENT
+BEGIN:VEVENT
+UID:p-marl-order@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:PSC refuses to pause or dismiss MARL
+DESCRIPTION:The Commission denied Staff's motion and the NextEra–Staff s
+ chedule change\, and ordered a study of the existing Gore–Hampshire rig
+ ht-of-way.\nPSC order: https://www.psc.state.wv.us/scripts/WebDocket/View
+ Document.cfm?CaseActivityID=669977\nVia WV AI Watch: https://wvaihub.com/
+ #/calendar?e=p-marl-order
+URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
+ ivityID=669977
+END:VEVENT
+BEGIN:VEVENT
+UID:p-greenbrier@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Monarch and Tamarack certified at The Greenbrier
+LOCATION:The Greenbrier\, White Sulphur Springs\, WV
+DESCRIPTION:Gov. Morrisey announced both Mason County certifications at th
+ e WV Chamber's Annual Meeting & Business Summit.\nHerald-Dispatch: https:
+ //www.herald-dispatch.com/business/morrisey-hails-state-certifications-fo
+ r-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2
+ ff4b193a6ae.html\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=p-gre
+ enbrier
+URL:https://www.herald-dispatch.com/business/morrisey-hails-state-certific
+ ations-for-two-mason-county-data-center-projects/article_924875e0-77b4-45
+ ab-9115-2ff4b193a6ae.html
+END:VEVENT
+BEGIN:VEVENT
+UID:p-ica@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:ICA dismisses Ridgeline air-permit appeals
+DESCRIPTION:Dismissed on jurisdiction\, not the merits.\nWTAP: https://www
+ .wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-l
+ awsuits-over-tucker-county-data-center-plant/\nVia WV AI Watch: https://w
+ vaihub.com/#/calendar?e=p-ica
+URL:https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environm
+ ental-groups-lawsuits-over-tucker-county-data-center-plant/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-putnam-res@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20260825T170000
+DTEND;TZID=America/New_York:20260825T190000
+SUMMARY:Putnam United resolution at the County Commission
+LOCATION:Putnam County Commission\, Winfield\, WV
+DESCRIPTION:Residents asked commissioners for a say in data center decisio
+ ns.\nGazette-Mail: https://www.wvgazettemail.com/news/energy_and_environm
+ ent/monarch-google-data-center-project-environmental-dangers-driving-resi
+ dent-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html\nVia WV
+  AI Watch: https://wvaihub.com/#/calendar?e=p-putnam-res
+URL:https://www.wvgazettemail.com/news/energy_and_environment/monarch-goog
+ le-data-center-project-environmental-dangers-driving-resident-opposition/
+ article_b35e6ed1-15af-4975-9772-54b89bb5a013.html
+END:VEVENT
+BEGIN:VEVENT
+UID:p-naacp@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260816
+SUMMARY:WV NAACP convention calls for a moratorium
+LOCATION:Huntington
+DESCRIPTION:Delegates unanimously demanded a pause of at least two years o
+ n high-impact data centers and microgrids.\nBlack By God: https://blackby
+ god.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgr
+ ids-opposes-hb-2014/\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=p
+ -naacp
+URL:https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-da
+ ta-centers-microgrids-opposes-hb-2014/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-govplan@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Governor unveils the Responsible Data Center Development Plan
+DESCRIPTION:WDTV: https://www.wdtv.com/2026/08/11/west-virginia-unveils-20
+ -year-responsible-data-center-development-plan/\nVia WV AI Watch: https:/
+ /wvaihub.com/#/calendar?e=p-govplan
+URL:https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsi
+ ble-data-center-development-plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-fm-hearing@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20260715T173000
+DTEND;TZID=America/New_York:20260715T193000
+SUMMARY:Fort Martin public comment hearing (virtual and in person)
+LOCATION:PSC headquarters\, 201 Brooks St.\, Charleston\, WV 25301
+DESCRIPTION:Public comment on Mon Power and Potomac Edison's certificate a
+ pplication for the roughly 1\,200 MW gas plant.\nWDTV: https://www.wdtv.c
+ om/2026/05/15/public-hearing-set-monpowers-proposed-gas-plant-mon-county-
+ solar-site-near-davis/\nVia WV AI Watch: https://wvaihub.com/#/calendar?e
+ =p-fm-hearing
+URL:https://www.wdtv.com/2026/05/15/public-hearing-set-monpowers-proposed-
+ gas-plant-mon-county-solar-site-near-davis/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-psc-rule-hearing@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20260928T093000
+DTEND;TZID=America/New_York:20260928T120000
+SUMMARY:PSC public hearing on HB 2014 generating-capacity rules
+LOCATION:PSC headquarters\, 201 Brooks St.\, Charleston\, WV 25301
+DESCRIPTION:Public hearing in Case 26-0633-E-GI on the rules that became 1
+ 50 CSR 41.\nWDTV: https://www.wdtv.com/2026/08/20/state-psc-schedules-pub
+ lic-hearing-power-rules-behind-governor-morriseys-data-center-plan/\nWVPB
+ : https://wvpublic.org/story/energy-environment/public-hearing-on-data-ce
+ nter-power-rules-scheduled/\nVia WV AI Watch: https://wvaihub.com/#/calen
+ dar?e=p-psc-rule-hearing
+URL:https://www.wdtv.com/2026/08/20/state-psc-schedules-public-hearing-pow
+ er-rules-behind-governor-morriseys-data-center-plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:p-canaan@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260617
+SUMMARY:Interims at Canaan Valley\, with Tucker United picnic and Davis pa
+ nel
+LOCATION:Canaan Valley Resort\, Davis\, WV 26260
+DESCRIPTION:Tucker United held a solidarity picnic and a roadside protest\
+ , Democrats held a press event at Davis Town Hall (Jun 15)\, and Mountain
+  State Spotlight hosted a panel at Davis Fire Hall.\nWVHC update: https:/
+ /www.wvhighlands.org/?p=15053\nMountain State Spotlight: https://mountain
+ statespotlight.org/2026/06/16/tucker-county-panel-discussion/\nVia WV AI 
+ Watch: https://wvaihub.com/#/calendar?e=p-canaan
+URL:https://www.wvhighlands.org/?p=15053
+END:VEVENT
+BEGIN:VEVENT
+UID:p-monarch-sw@wvaihub.com
+DTSTAMP:20261103T122651Z
+DTSTART;TZID=America/New_York:20260615T180000
+DTEND;TZID=America/New_York:20260615T200000
+SUMMARY:DEP hearing: Monarch pipeline stormwater permit (WVR312628)
+LOCATION:Mason County Courthouse\, 200 Sixth St.\, Point Pleasant\, WV 255
+ 50
+DESCRIPTION:Gazette-Mail: https://www.wvgazettemail.com/news/energy_and_en
+ vironment/new-permits-eyed-for-mason-co-data-center-tied-project-after-ei
+ ght-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html\n
+ Via WV AI Watch: https://wvaihub.com/#/calendar?e=p-monarch-sw
+URL:https://www.wvgazettemail.com/news/energy_and_environment/new-permits-
+ eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/
+ article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html
+END:VEVENT
+END:VCALENDAR

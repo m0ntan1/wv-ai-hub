@@ -21,9 +21,8 @@ TEXT_DIM = (180, 195, 220)
 RED_SLASH = (220, 38, 38)
 
 # Extract WV polygon
-html = (REPO / "index.html").read_text()
-m = re.search(r"const WV = \[(.*?)\];", html, re.S)
-pairs = re.findall(r"\[(-?\d+\.\d+),(-?\d+\.\d+)\]", m.group(1))
+import json
+pairs = json.loads((REPO / "data" / "wv-outline.json").read_text())["ring"]
 WV_COORDS = [(float(a), float(b)) for a, b in pairs]
 
 # ============================================================
@@ -111,19 +110,19 @@ mono_url = ImageFont.truetype(str(FONTS / "JetBrainsMono-Regular.ttf"), 16)
 sans = ImageFont.truetype(str(FONTS / "DMSans-Regular.ttf"), 18)
 
 # Tag
-draw.text((60, 50), "WV-AI-HUB  /  OPEN  SOURCE  INDEX", font=mono_tag, fill=(0, 212, 255, 200))
+draw.text((60, 50), "WV-AI-HUB  /  OPEN  SOURCE  WATCH", font=mono_tag, fill=(0, 212, 255, 200))
 draw.line([(60, 75), (260, 75)], fill=(0, 212, 255, 100), width=1)
 
 # Title
 draw.text((60, 110), "Mountain State", font=serif, fill=WHITE)
-# Italic "Frontier" with subtle glow
+# Italic "AI Watch" with subtle glow
 ai_glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 agd = ImageDraw.Draw(ai_glow)
-agd.text((60, 195), "AI Frontier.", font=serif_it, fill=(0, 212, 255, 200))
+agd.text((60, 195), "AI Watch.", font=serif_it, fill=(0, 212, 255, 200))
 ai_glow_b = ai_glow.filter(ImageFilter.GaussianBlur(radius=10))
 img = Image.alpha_composite(img, ai_glow_b)
 draw = ImageDraw.Draw(img)
-draw.text((60, 195), "AI Frontier.", font=serif_it, fill=(56, 189, 248, 255))
+draw.text((60, 195), "AI Watch.", font=serif_it, fill=(56, 189, 248, 255))
 
 # URL
 draw.text((60, 295), "wvaihub.com", font=mono_url, fill=(0, 212, 255, 200))

@@ -1,15 +1,28 @@
 {
-  "name": "WV AI Innovation Index",
-  "short_name": "WV AI Index",
-  "description": "Interactive map of AI innovation hubs across West Virginia.",
+  "name": "WV AI Watch",
+  "short_name": "WV AI Watch",
+  "description": "Mapping AI across West Virginia: data center projects, PSC filings, lawsuits, hearings, and innovation hubs.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#050a12",
   "theme_color": "#050a12",
   "icons": [
-    { "src": "/assets/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
-    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "/assets/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }

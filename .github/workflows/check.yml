@@ -1,0 +1,17 @@
+# Runs the data checker and rebuilds the published files on every push and pull request.
+# A failing check means data/ has an error (missing source, bad date, broken reference). See docs/update-plan.md.
+name: check-data
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install segno
+      - run: python3 -I tools/check.py
+      - run: python3 -I tools/build_feeds.py
+      - name: Published files up to date?
+        run: git diff --stat -- calendar.ics assets/qr assets/sitemap.xml

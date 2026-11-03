@@ -1,0 +1,140 @@
+[
+ {
+  "id": "marl",
+  "name": "MARL 500 kV (NextEra) · PSC 26-0075-E-CN",
+  "note": "Monongalia → Preston → Mineral → Hampshire. 190+ landowner intervenors. PSC staff recommended denial. Commission refused to pause the case Sep 4. Decision due Mar 6, 2027.",
+  "pts": [
+   [
+    -79.93,
+    39.71
+   ],
+   [
+    -79.62,
+    39.6
+   ],
+   [
+    -79.25,
+    39.47
+   ],
+   [
+    -78.95,
+    39.43
+   ],
+   [
+    -78.55,
+    39.36
+   ],
+   [
+    -78.35,
+    39.3
+   ]
+  ],
+  "short": "MARL 500 kV",
+  "status": "psc",
+  "appears": "2026-01",
+  "appears_note": "Early 2026: PSC Case 26-0075-E-CN opened (date from the case number).",
+  "counties": [
+   "Monongalia",
+   "Preston",
+   "Mineral",
+   "Hampshire"
+  ],
+  "sources": [
+   {
+    "label": "PSC docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   },
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   }
+  ]
+ },
+ {
+  "id": "valleylink",
+  "name": "Valley Link 765 kV (preliminary corridor)",
+  "note": "Dominion / FirstEnergy / Transource JV. From the Amos plant (Putnam) east to Frederick Co., MD. Barbour, Upshur, Lewis, and Preston commissions opposed. No formal PSC application yet. Comments go to PSC file FP Valley Link 26A (opened Sep 14).",
+  "pts": [
+   [
+    -81.82,
+    38.47
+   ],
+   [
+    -81.35,
+    38.75
+   ],
+   [
+    -80.95,
+    38.85
+   ],
+   [
+    -80.65,
+    38.78
+   ],
+   [
+    -80.45,
+    39
+   ],
+   [
+    -80.1,
+    39.08
+   ],
+   [
+    -79.75,
+    39.15
+   ],
+   [
+    -79.45,
+    39.12
+   ],
+   [
+    -79,
+    39.05
+   ],
+   [
+    -78.55,
+    39.25
+   ],
+   [
+    -77.95,
+    39.35
+   ],
+   [
+    -77.72,
+    39.33
+   ]
+  ],
+  "short": "Valley Link 765 kV",
+  "status": "prefiling",
+  "appears": "2026-09-14",
+  "appears_note": "Sep 14, 2026: the PSC opens comment file FP Valley Link 26A.",
+  "counties": [
+   "Putnam",
+   "Kanawha",
+   "Roane",
+   "Gilmer",
+   "Lewis",
+   "Upshur",
+   "Barbour",
+   "Preston",
+   "Tucker",
+   "Grant",
+   "Hardy",
+   "Hampshire"
+  ],
+  "sources": [
+   {
+    "label": "Valley North Record",
+    "url": "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   },
+   {
+    "label": "Dominion Post, Sep 16, 2026",
+    "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   },
+   {
+    "label": "WMRA (county opposition)",
+    "url": "https://www.wmra.org/2026-08-25/the-growing-county-government-opposition-to-valley-link"
+   }
+  ]
+ }
+]

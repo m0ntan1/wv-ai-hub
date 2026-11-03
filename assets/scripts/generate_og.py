@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the WV AI Hub Index OG image using the real WV polygon from index.html."""
+"""Generate the WV AI Hub Index OG image using the real WV polygon from data/wv-outline.json."""
 
 import re
 import sys
@@ -19,12 +19,9 @@ WHITE = (255, 255, 255)
 TEXT_DIM = (180, 195, 220)
 TEXT_FADE = (130, 145, 175)
 
-# --- Extract WV polygon from index.html
-html = (REPO / "index.html").read_text()
-m = re.search(r"const WV = \[(.*?)\];", html, re.S)
-if not m:
-    sys.exit("Could not find WV polygon in index.html")
-pairs = re.findall(r"\[(-?\d+\.\d+),(-?\d+\.\d+)\]", m.group(1))
+# --- WV polygon (data/wv-outline.json)
+import json
+pairs = json.loads((REPO / "data" / "wv-outline.json").read_text())["ring"]
 WV_COORDS = [(float(a), float(b)) for a, b in pairs]
 print(f"Loaded {len(WV_COORDS)} WV polygon points")
 
@@ -159,7 +156,7 @@ sans_num = ImageFont.truetype(str(FONTS / "DMSans-Medium.ttf"), 56)
 mono_tag = ImageFont.truetype(str(FONTS / "JetBrainsMono-Regular.ttf"), 13)
 
 # Top-left tag
-draw.text((72, 70), "WV  AI  INDEX  /  2026", font=mono_tag,
+draw.text((72, 70), "WV  AI  WATCH  /  2026", font=mono_tag,
           fill=(0, 212, 255, 180))
 # Faint horizontal line under tag
 draw.line([(72, 96), (200, 96)], fill=(0, 212, 255, 100), width=1)
@@ -169,27 +166,27 @@ draw.text((72, 180), "West Virginia's", font=serif_big, fill=WHITE)
 # Italic colored second line with glow
 ai_glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 agdraw = ImageDraw.Draw(ai_glow)
-agdraw.text((72, 280), "AI Frontier", font=serif_italic, fill=(0, 212, 255, 200))
+agdraw.text((72, 280), "AI Watch", font=serif_italic, fill=(0, 212, 255, 200))
 ai_glow_blurred = ai_glow.filter(ImageFilter.GaussianBlur(radius=12))
 img = Image.alpha_composite(img, ai_glow_blurred)
 draw = ImageDraw.Draw(img)
-draw.text((72, 280), "AI Frontier", font=serif_italic, fill=(56, 189, 248, 255))
+draw.text((72, 280), "AI Watch", font=serif_italic, fill=(56, 189, 248, 255))
 
 # Subtitle
-draw.text((76, 400), "MAPPING  INNOVATION  ACROSS  THE  MOUNTAIN  STATE",
+draw.text((76, 400), "MAPPING  AI  ACROSS  THE  MOUNTAIN  STATE",
           font=mono_sub, fill=TEXT_DIM)
 
 # Stats row
-draw.text((72, 460), "12", font=sans_num, fill=CYAN)
-bbox = draw.textbbox((0, 0), "12", font=sans_num)
+draw.text((72, 460), "13", font=sans_num, fill=CYAN)
+bbox = draw.textbbox((0, 0), "13", font=sans_num)
 w11 = bbox[2] - bbox[0]
-draw.text((72 + w11 + 14, 488), "Innovation Hubs", font=sans_body, fill=TEXT_DIM)
+draw.text((72 + w11 + 14, 488), "Projects Watched", font=sans_body, fill=TEXT_DIM)
 
 stat2_x = 72 + w11 + 14 + 200
-draw.text((stat2_x, 460), "53", font=sans_num, fill=CYAN)
-bbox2 = draw.textbbox((0, 0), "53", font=sans_num)
+draw.text((stat2_x, 460), "4", font=sans_num, fill=CYAN)
+bbox2 = draw.textbbox((0, 0), "4", font=sans_num)
 w40 = bbox2[2] - bbox2[0]
-draw.text((stat2_x + w40 + 14, 488), "Stories Tracked", font=sans_body, fill=TEXT_DIM)
+draw.text((stat2_x + w40 + 14, 488), "State-Certified", font=sans_body, fill=TEXT_DIM)
 
 # Bottom URL
 draw.line([(72, 555), (130, 555)], fill=(0, 212, 255, 200), width=2)

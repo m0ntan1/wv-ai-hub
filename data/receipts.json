@@ -1,0 +1,2574 @@
+{
+ "checked": "2026-11-03",
+ "summary": {
+  "ok": 183,
+  "psc": 11,
+  "verify": 8
+ },
+ "rows": [
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU launches M.S. in Artificial Intelligence.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://lcsee.statler.wvu.edu/",
+    "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU launches Strategic Compass seed innovation fund.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvutoday.wvu.edu/stories/2026/02/20/wvu-to-seed-innovation-in-support-of-strategic-compass"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "1Mby1M Virtual Accelerator and AI Mentor launches for WV.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "Anurag Srivastava leads WVU cyber-power research.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://directory.statler.wvu.edu/faculty-staff-directory/anurag-srivastava"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "Data Driven WV pairs students with real-world AI work.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvutoday.wvu.edu/resources/wvu-assistant-professor-helps-students-build-solve-and-create-with-applied-ai-and-data-analytics"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU BOG approves new AI and Smart Systems tracks.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU F1Tenth team takes second nationally.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU AI Symposium 2025.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "GATC Health expands AI drug discovery.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.govtech.com/artificial-intelligence/ai-is-the-latest-tool-in-w-va-s-fight-against-opioid-use"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Fairmont",
+   "title": "NOAA Fairmont facility deemed mission-critical.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Fairmont",
+   "title": "NOAA's Rhea supercomputer comes online at NESCC Fairmont.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.hpcwire.com/off-the-wire/noaa-expands-hpc-capabilities-with-100m-investment-in-rhea-supercomputer/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Fairmont",
+   "title": "NASA Katherine Johnson IV&V Facility.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.nasa.gov/katherine-johnson-ivv-facility/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Fairmont",
+   "title": "I-79 Technology Park and NOAA supercomputing.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvexecutive.com/the-future-is-data/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Morrisey unveils a 20-year data center plan.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "WV Digital Government Summit returns to Charleston.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Morrisey closes 2026 session: 12 vetoes, 10 bills unsigned.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.theintelligencer.net/news/top-headlines/2026/04/morrisey-finishes-work-on-legislation-with-12-vetoes-10-bills-not-signed/",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "HB 4983 clears House 78-16: data-center confidentiality.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Legislature blocks local-control restoration bills.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "State AI Task Force ongoing oversight.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://technology.wv.gov/policy-governance/artificial-intelligence"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "S.O.LO: WV's first government AI chatbot.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.bowlesrice.com/views-and-visions/how-ai-is-transforming-government-services-in-wv"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "WV named among 16 states for OpenAI's Stargate project.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://fortune.com/2025/02/06/openai-stargate-ai-data-centers-locations-search/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "TechConnect WV: 20+ years of tech innovation.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://techconnectwv.org/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "WVIAIS: AI consulting for small business.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wviais.com/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Quality Insights gifts $1.2M to Marshall iCenter.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marshall.edu/news/2026/02/quality-insights-gift/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall University's AI governance.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marshall.edu/ai/aboutai/",
+    "https://www.marshall.edu/ai/training/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "IDEA District and the $45M Institute for Cyber Security.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marshall.edu/news/2025/12/marshall-university-provides-update-on-transformative-idea-district-development/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall and Intuit forge a strategic partnership.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marshall.edu/news/2025/03/marshall-university-and-intuit-forge-strategic-partnership-to-enhance-education-and-economic-development-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall's first gBETA cohort.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marshall.edu/news/2025/06/marshall-university-icenter-launches-inaugural-gbeta-accelerator-cohort-to-fuel-statewide-innovation/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Generation WV AI workforce panel.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://generationwv.org/ai-ready-workforce/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "Residents call for protections as data-center buildout accelerates.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginiawatch.com/2026/03/31/empty-promises-residents-lament-lack-of-protections-as-data-center-developments-unfold-across-wv/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "$4 billion Penzance data center announced.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "Nscale takes over Monarch; Anthropic signs on.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "HB 2014: Certified Microgrid Program.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "Microgrid revenue reinvestment.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "Berkeley County asks the AG how HB 2014 preemption works. The AG declines.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Parkersburg",
+   "title": "WVU-P Innovation and Technology Center opens.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wtap.com/2025/08/18/wvu-ps-innovation-technology-center-opens-classes/",
+    "https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Wheeling",
+   "title": "WV Digital Government Summit, Wheeling participation.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Wheeling",
+   "title": "Emerging IT-enabled services hub.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Weirton",
+   "title": "Form Energy lands $1B Google deal.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://techstartups.com/2026/02/26/form-energy-lands-1b-google-deal-for-100-hour-iron-air-battery-eyes-ipo/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Weirton",
+   "title": "Weirton plant targets 500 MW a year by 2028.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wtrf.com/top-stories/form-energy-in-weirton-to-build-batteries-for-largest-energy-storage-project-announced/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Princeton",
+   "title": "State guidance brings AI into classrooms.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvva.com/2026/03/02/west-virginia-department-education-moves-integrate-ai-tools-classrooms/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Princeton",
+   "title": "Mercer County trains teachers on AI.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvva.com/2026/08/17/mercer-county-schools-trains-teachers-ai-back-to-school-assembly/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Beckley",
+   "title": "WVU Tech hosts Governor's Computer Science Institute.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvutech.edu/news/2025/10/29/wvu-tech-to-host-governor-s-computer-science-institute-for-next-three-years"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Beckley",
+   "title": "WVU Tech President joins national AI Leadership Council.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvutech.edu/news/fall-2024/09/06/wvu-tech-president-t-ramon-stuart-ph-d-appointed-to-rnl-s-ai-leadership-council"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Clarksburg",
+   "title": "TekSynap acquires JBA, strengthening FBI tech support.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://teksynap.com/teksynap-corporation-acquires-jba-inc/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Clarksburg",
+   "title": "FBI CJIS Division in Clarksburg.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.fbi.gov/services/cjis"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Tucker County",
+   "title": "Ridgeline appeals tossed on jurisdiction; groups vow to refile.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Tucker County",
+   "title": "Harvard study projects $19M to $35M in health damages.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-report-projects-up-to-35m-in-health-damages-from-expected-tucker-co-data-center/article_0e44b758-b9d7-4040-92fa-ddf7db274333.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Tucker County",
+   "title": "Groups appeal for blacked-out Ridgeline permit data.",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvpublic.org/story/energy-environment/citizen-groups-appeal-for-information-on-tucker-county-data-center/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Barks v. Silicon Foundation",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Tucker United, WVHC & Sierra Club v. DEP (Ridgeline air permit)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html",
+    "https://www.wvhighlands.org/?p=15160"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Mingo County residents v. TransGas, Army Corps, USFWS & FERC",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Possible county challenge to HB 2014",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.dominionpost.com/2026/08/17/data-centers-in-monongalia-county-unlikely/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "MARL 500 kV line (NextEra Energy Transmission MidAtlantic)",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670106",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Fort Martin 1,200 MW gas plant + 70 MW solar ($2.48B)",
+   "status": "verify",
+   "note": "Briefs verified via PSC notices; the Feb 2027 deadline is flagged ⚠ Verify.",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669552",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669564",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Appalachian Power / Wheeling Power large-load tariff",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/",
+    "https://wvpublic.org/story/energy-environment/compromise-proposed-in-psc-case-involving-data-centers/",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "PJM capacity market investigation: AEP's \"FRR\" status and Mon Power bidding",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673326",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Mon Power / Potomac Edison Integrated Resource Plan",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "HB 2014 generating-capacity rules: 69% coal capacity factor becomes \"a goal, not a mandate",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/",
+    "https://wvpublic.org/story/energy-environment/public-hearing-on-data-center-power-rules-scheduled/",
+    "https://www.newsandsentinel.com/news/business/2026/10/w-va-public-service-commission-releases-proposed-rules-for-power-plant-capacity/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Valley Link 765 kV: protests before the formal application",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/",
+    "https://www.wdtv.com/2026/07/17/upshur-county-commission-opposes-valley-north-transmission-project/",
+    "https://www.wmra.org/2026-08-25/the-growing-county-government-opposition-to-valley-link"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Monarch Cloud Campus LLC: 2.16 GW, 864 gas engines",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Monarch violations: sediment, flooding, dust",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Buffalo campus: 288 diesel generators, 128 cooling towers",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "TransGas Adams Fork plants, Mingo County",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus",
+    "https://nearbydatacenters.org/wv/",
+    "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Power Generation and Consumption Act",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://bills.wvlegislature.gov/bill/history/2025/rs/HB2014",
+    "https://wvpolicy.org/five-ways-hb-2014-harms-communities-local-governments-and-schools/",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Certification rule + confidentiality",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/",
+    "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Responsible Data Center Development Plan",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginia.gov/wp-content/uploads/2026/08/Data-Center-Principles-August-2026-FINAL-8-26.pdf"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "docket",
+   "title": "Repeal or amend HB 2014",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/",
+    "https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/",
+    "https://wvcag.org/?p=16377",
+    "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Gov. Patrick Morrisey Championed HB 2014. Announces certifications. Herald-Dispatch ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "AG J.B. McCuskey Defending HB 2014 in Barks. Declined the Berkeley Co. opinion request. Me",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Speaker Roger Hanshaw (R-Clay) Bowles Rice counsel to Fundamental Data since Mar 2026. Gaz",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Chris Morris Director, Commerce Dept. Data Economy Office. State plan (PDF) ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginia.gov/wp-content/uploads/2026/08/Data-Center-Principles-August-2026-FINAL-8-26.pdf"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Nick Preservati Commerce Deputy Secretary. Issued, then rescinded, a notice to Fundamental",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Laura Crowder DEP Division of Air Quality Director. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Joe Kessler · Edward Andrews DEP NSR permitting (Monarch). Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Daniel Egnatoff PSC staff witness. Recommended denial of MARL. Valley North Record ↗ PSC d",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Victoria Wilson · Lucas Head · Katie Campbell PSC Staff. Joint staff memos on MARL and the",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Sen. Randy Smith (R-Tucker) Called opponents \"vacation homeowners.\" Country Roads News ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://countryroads.substack.com/p/data-center-story-archive"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Sen. Robbie Morris Opposes Valley Link. My Buckhannon ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.mybuckhannon.com/state-sen-robbie-morris-opposes-valley-north-transmission-line/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Kent Leonhardt Agriculture Commissioner. Concerns about transmission lines. MetroNews ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Del. Shawn Fluharty (D-Ohio) Warwood town halls. HB 2014 critic. WVPB ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Mike Pushkin WV Democratic Party Chair. Wants HB 2014 repealed. MetroNews ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Dels. Evan Hansen, JB Akers, Sean Hornbuckle, Kayla Young, Anitra Hamilton Attended the Tu",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvhighlands.org/?p=15053"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Rep. Riley Moore · Ace Parsi WV-2 race. Moore co-sponsors the Ratepayer Protection Act; Pa",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginiawatch.com/2026/10/02/candidates-for-wvs-2nd-congressional-district-seat-support-different-legislation-for-data-centers/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Andy Skidmore Putnam County Commission President. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Eddie Gochenour Berkeley County Commission President. Called himself \"very optimistic\" abo",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Cara Keys Jefferson County Commissioner. Critic of HB 2014's missing setbacks. Observer ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://observerwv.com/state-proposes-rule-for-fast-tracking-data-center-projects/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Sean Sikora Monongalia County Commissioner. Dominion Post ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.dominionpost.com/2026/08/17/data-centers-in-monongalia-county-unlikely/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Jefferson, Hampshire, Mineral & Harrison County Commissions Filed protests or testimony in",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Judge Robert Chambers U.S. District Court. Dismissed the Mingo suit. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Chief Justice C. Haley Bunn Appointed replacement ICA judges in the Ridgeline appeal. Gaze",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Nscale Daniel Shapiro (Chief Power Officer), William Calhoun, Jason Bechtle. Monarch. Hera",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html",
+    "https://www.banthebots.org/explainers/ai-data-centers-in-west-virginia"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Anthropic $44.6B contract for Monarch's first 460 MW building. TechCrunch ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Nvidia Weighing a debt guarantee for Monarch (Oct 30). TechCrunch ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Fidelis New Energy / AIPCorp / 8090 Industries Original Monarch developers. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+    "https://www.banthebots.org/explainers/ai-data-centers-in-west-virginia"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Starwood Digital Ventures CEO Anthony Balestrieri. Project Tamarack. Herald-Dispatch ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Google / Cumulus Group LLC Buffalo campus. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Penzance / Bedington Owner LLC Berkeley campus. Observer ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Fundamental Data Casey Chapman. Ridgeline. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "TransGas Development Systems CEO Adam Victor. Adams Fork. Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Silicon Foundation Energy / Stokes Inc. Warwood. Herald-Star ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.heraldstaronline.com/news/local-news/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Hog Lick Aggregates President Brian Redmond. WDTV ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "QTS · Ryan Stuart Development Eastern Panhandle sites. Observer ↗ Tracker ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Bowles Rice Roger Hanshaw, William Lorensen, Peter Markham. Gazette-Mail ↗ Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Fort Martin intervenors WV Coal Association, Gas & Oil Association of WV, WV Manufacturers",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Utilities Appalachian Power (AEP), Mon Power / Potomac Edison (FirstEnergy), NextEra (MARL",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/",
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "WV Data Center Accountability Project Statewide coalition (wvdcap.org). WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvdcap.org/",
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "WV Citizen Action Group Morgan King, Jillian Welsh. WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Tucker United Director Amy Margolies. WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "WV Highlands Conservancy Olivia Miller, Luanne McGovern. WV CAG ↗ WVHC ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377",
+    "https://www.wvhighlands.org/?p=15053"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Sierra Club WV Jim Kotcon, Conservation Chair. WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Putnam United Heather Ransom, Jessica Lacy, Joseph DeGroff. WV CAG ↗ Gazette-Mail ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Mason WV United Elaine Matheny. WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "No Data Centers in the Eastern Panhandle Rupok Bhuiyan. WV CAG ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "WV NAACP President Loretta Young. Black By God ↗",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Energy Efficient WV Emmett Pepper. Co-intervenor in the Fort Martin case with CAG and Sola",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wchstv.com/news/local/two-wv-data-centers-approved-but-neither-plans-microgrids-under-hb-2014",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "MARL intervenors WATI (Tony Campbell), Friends of the Cheat, Hampshire County Farmland Pro",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Appalachian Mountain Advocates · Stephen P. New & Assoc. Counsel for residents. WVHC ↗ Gaz",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvhighlands.org/?p=15160",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Stop Valley Link · Valley North Opposition Alliance · WV Utility Impact Project Valley Nor",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "people",
+   "title": "Reporters to follow Mike Tony (Gazette-Mail), Chris Schulz & Curtis Tate (WVPB), Brad McEl",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html",
+    "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/",
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/",
+    "https://www.wvhighlands.org/?p=15053",
+    "https://wvpublic.org/story/energy-environment/first-energy-ceo-says-gas-will-replace-mon-power-coal-plants/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Monarch Compute Campus",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
+    "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html",
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html",
+    "https://nearbydatacenters.org/wv/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+    "https://www.banthebots.org/explainers/ai-data-centers-in-west-virginia",
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Project Tamarack",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/",
+    "https://www.wsaz.com/2026/09/04/total-shocker-residents-react-second-data-center-coming-mason-county/",
+    "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/",
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html",
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Google Buffalo Campus",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county",
+    "https://wvmetronews.com/2026/04/14/putnam-county-residents-speak-out-about-proposed-google-data-center-near-buffalo/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html",
+    "https://wvmetronews.com/2026/03/29/googles-proposed-data-center-in-buffalo-draws-both-support-and-concern/",
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Ridgeline (Fundamental Data)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+    "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html",
+    "https://countryroads.substack.com/p/data-center-story-archive",
+    "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/",
+    "https://countryroads.substack.com/p/data-center-developer-reveals-plan",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-report-projects-up-to-35m-in-health-damages-from-expected-tucker-co-data-center/article_0e44b758-b9d7-4040-92fa-ddf7db274333.html",
+    "https://www.wvhighlands.org/?p=15053"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Adams Fork Energy Campus · Twisted Gun",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html",
+    "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/",
+    "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Adams Fork Energy Campus · Harless",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/",
+    "https://www.herald-dispatch.com/news/dep-to-hold-meeting-on-permit-requests-for-gas-powered-mingo-county-data-center-sites/article_06330c90-3488-4504-9a10-da0d2996d76b.html",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Penzance Bedington Campus",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact",
+    "https://wvcag.org/?p=16377",
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/",
+    "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "QTS Kearneysville Campus",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved",
+    "https://baxtel.com/campus/qts-kearneysville-campus",
+    "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Summit Point Site",
+   "status": "verify",
+   "note": "Single secondary source (tracker); no filing or news confirmation found.",
+   "urls": [
+    "https://nearbydatacenters.org/wv/",
+    "https://observerwv.com/tag/summit-point-utility-project/",
+    "https://observerwv.com/state-proposes-rule-for-fast-tracking-data-center-projects/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Hog Lick Data Center & Microgrid",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/",
+    "https://res.cloudinary.com/jll-global-sandbox/image/upload/v1755553007/MyListing/public/prod/property-875565/hog-lick-appalachian-mega-site-data-center-08-13-2025.pdf"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Centre Foundry Data Center",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/",
+    "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling",
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/",
+    "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty",
+    "https://www.heraldstaronline.com/news/local-news/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/",
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Monroe County (rumored)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center",
+    "https://mountainmessenger.com/?p=100074"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "project",
+   "title": "Fort Martin Gas Addition",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/",
+    "https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670444",
+    "https://www.dominionpost.com/?p=557367"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "General Election Day",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Fisher",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Hambleton",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Sissonville",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Legislative interim meetings",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Rule-Making Review Committee: the PSC's HB 2014 capacity rule",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvlegislature.gov/committees/interims/intcomsched_agenda.cfm?day1=11/09/2026",
+    "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Buckhannon",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Spencer",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Capon Bridge",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Tucker United small business meeting",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.tuckerunited.com/about-7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Roanoke",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Ranson",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link open house: Glenville",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://vltransmission.com/valley-north/",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "MARL initial briefs due (unconfirmed)",
+   "status": "verify",
+   "note": "Date from Valley North Record; no PSC briefing order seen.",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Mon Power IRP data due",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "MARL reply briefs due (unconfirmed)",
+   "status": "verify",
+   "note": "Date from Valley North Record; no PSC briefing order seen.",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Legislative interim meetings",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "PSC Staff recommendation on AEP's FRR status",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "2027 Regular Session convenes",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://home.wvlegislature.gov/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "WV Rally for Affordable Energy",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Fort Martin decision deadline",
+   "status": "verify",
+   "note": "Feb 2027 deadline reported by Dominion Post; article not retrievable.",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   ],
+   "method": []
+  },
+  {
+   "sec": "event",
+   "title": "MARL decision due",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "2027 Regular Session ends (Day 60)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.multistate.us/resources/2027-legislative-session-dates"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Mon Power rate increase, step 2",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvlegals.com/public-service-commission-of-west-virginia-charleston-case-no-26-0508-e-42t-monongahela-power-company-and-the-potomac-edison-company/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Monarch air permit R14-0042: DEP final decision",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/",
+    "https://nearbydatacenters.org/wv/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Ridgeline air-permit appeal refiled",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvhighlands.org/?p=15160"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Barks v. Silicon Foundation: next hearing",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Valley Link files its formal PSC application",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Data Center Advisory Council launches",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/the-same-story-morrisey-data-center-plan-doubles-down-on-industry-regulation-gaps/article_e22e72d4-4aa9-4696-8396-51e98d4f3e08.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Stop Valley Link peaceful protest",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "MARL evidentiary hearing",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Monarch air permit comment deadline",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "DEP virtual hearing: Monarch air permit R14-0042",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "WV Digital Government Summit",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "DEP water-permit workshop and hearing: Monarch",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wchstv.com/news/local/public-hearing-input-used-in-massive-data-center-state-waters-application-decision"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Monroe County data center protest",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "DEP air-permit workshop: Monarch",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Tucker United town hall on Ridgeline",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.tuckerunited.com/about-7"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Data center protest at the State Capitol",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://mountainstatespotlight.org/2026/10/28/data-center-opposition/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "WV Data Center Accountability Project launches",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wvcag.org/?p=16377"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "PSC refuses to pause or dismiss MARL",
+   "status": "psc",
+   "note": "",
+   "urls": [
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   ],
+   "method": [
+    "psc-notice"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Monarch and Tamarack certified at The Greenbrier",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "ICA dismisses Ridgeline air-permit appeals",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Putnam United resolution at the County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "WV NAACP convention calls for a moratorium",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-data-centers-microgrids-opposes-hb-2014/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Governor unveils the Responsible Data Center Development Plan",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Fort Martin public comment hearing (virtual and in person)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/05/15/public-hearing-set-monpowers-proposed-gas-plant-mon-county-solar-site-near-davis/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "PSC public hearing on HB 2014 generating-capacity rules",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wdtv.com/2026/08/20/state-psc-schedules-public-hearing-power-rules-behind-governor-morriseys-data-center-plan/",
+    "https://wvpublic.org/story/energy-environment/public-hearing-on-data-center-power-rules-scheduled/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Interims at Canaan Valley, with Tucker United picnic and Davis panel",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvhighlands.org/?p=15053",
+    "https://mountainstatespotlight.org/2026/06/16/tucker-county-panel-discussion/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "DEP hearing: Monarch pipeline stormwater permit (WVR312628)",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "event",
+   "title": "Warwood town hall with Del. Shawn Fluharty",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Berkeley County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.berkeleywv.org/agendacenter"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Grant County Commission",
+   "status": "verify",
+   "note": "Schedule inferred from posted agenda dates.",
+   "urls": [
+    "https://www.grantcountywv.org/agencies/agendas/CommissionAgendas.php"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Hampshire County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "http://hampshirewv.com/CommAgenda.html"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Jefferson County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.jeffersoncountywv.org/county-government/elected-officials/county-commission/meeting-session-information"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Marion County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.marioncountywv.com/departments/county_commission/index.php"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Mason County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://masoncountywv.gov/calendar/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Mineral County Commission",
+   "status": "verify",
+   "note": "Schedule inferred from posted agenda dates.",
+   "urls": [
+    "https://www.mineralwv.gov/agendas-minutes/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Mingo County Commission",
+   "status": "verify",
+   "note": "County website under construction; schedule from an old notice.",
+   "urls": [
+    "https://mingocountywv.com/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Monongalia County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.monongaliacounty.gov/commission/meeting_schedule/index.php"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Monroe County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.monroecountywv.gov/commission/meeting-datespress-releasesminutes/60"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Ohio County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.ohiocountywv.gov/calendar"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Wheeling City Council",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.wheelingwv.gov/departments/citycouncil/councilmeetings"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Preston County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://www.prestoncountywv.gov/197/County-Commission"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Putnam County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://putnamcountywv.gov/commission/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Putnam County Development Authority",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://pcda.org/meetings/"
+   ],
+   "method": [
+    "extract",
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Tucker County Commission",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://tuckercountycommission.com/county-commission"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "standing",
+   "title": "Tucker County Development Authority",
+   "status": "ok",
+   "note": "",
+   "urls": [
+    "https://tuckerwv.com/about-us/meeting-information/"
+   ],
+   "method": [
+    "page"
+   ]
+  }
+ ],
+ "log": "research/2026-11-verification-log.md"
+}

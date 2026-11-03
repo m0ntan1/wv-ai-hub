@@ -1,0 +1,1328 @@
+[
+ {
+  "id": "monarch",
+  "short": "Monarch",
+  "name": "Monarch Compute Campus",
+  "status": "construction",
+  "place": "Mason Co. · Point Pleasant",
+  "counties": [
+   "Mason"
+  ],
+  "lat": 38.88,
+  "lng": -82.12,
+  "developer": "Nscale (UK) via Monarch Cloud Campus LLC. Acquired AIPCorp from Fidelis New Energy / 8090 Industries, Mar 2026.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "Up to 2,250 acres. Phase 1: 1.35 GW of compute, $69.2B, 4,375 construction / 645 permanent jobs. Path to 8+ GW."
+   },
+   {
+    "k": "Power",
+    "v": "2.16 GW off-grid gas microgrid with 864 reciprocating engines, plus diesel backup."
+   },
+   {
+    "k": "Tenants",
+    "v": "Anthropic: $44.6B contract for the first 460 MW building (Nscale IPO filing). Microsoft's 1.35 GW letter of interest was never produced, and Bloomberg reported it walked away."
+   },
+   {
+    "k": "People",
+    "v": "Daniel Shapiro (Nscale CPO), William Calhoun, Jason Bechtle (site mgr). Residents Kimberly Mattox, Stephanie Butcher, Joshua Jeffers. Mason WV United (Elaine Matheny)."
+   },
+   {
+    "k": "Permits",
+    "v": "Air permit R14-0042: comments closed Oct 30, final decision pending. DEP violations for sediment and dust May through Aug. About 6 homes flooded May 23–24."
+   }
+  ],
+  "latest": {
+   "d": "Oct 30, 2026",
+   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). The same day, the DEP air-permit comment period closed after hearings Oct 20 and Oct 29."
+  },
+  "history": [
+   {
+    "d": "2026-03",
+    "status": "proposed",
+    "t": "Nscale buys AIPCorp; the Mason County site becomes an AI campus"
+   },
+   {
+    "d": "2026-05-05",
+    "status": "construction",
+    "t": "Site work under way: DEP dust warning"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2023",
+    "t": "The WV EDA approves a forgivable $62.5M loan to Fidelis subsidiary Mountaineer GigaSystem LLC for an earlier hydrogen plan on the site. $25M was paid out and the second tranche was waived.",
+    "kind": "money",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "d": "2026-03",
+    "t": "Nscale acquires AIPCorp (American Intelligence & Power Corp.), a Fidelis New Energy / 8090 Industries affiliate.",
+    "kind": "company",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "d": "2026-04-20",
+    "t": "Air permit R14-0042 application filed with the DEP.",
+    "kind": "permit",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "d": "2026-05-05",
+    "t": "DEP dust warning.",
+    "kind": "violation",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "d": "2026-05-23",
+    "t": "A silt-fence failure floods about 6 homes in Meadowlands Estates and on University Lane (May 23–24).",
+    "kind": "violation",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "d": "2026-06-15",
+    "t": "Hearing on stormwater permit WVR312628 for a 556.5-acre pipeline disturbance in Putnam and Mason.",
+    "kind": "permit",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "d": "2026-08-11",
+    "t": "Particulate violation letter from DAQ Director Laura Crowder.",
+    "kind": "violation",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "d": "2026-09-03",
+    "t": "Certified as a High Impact Data Center at the WV Chamber summit at The Greenbrier.",
+    "kind": "certified",
+    "src": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   },
+   {
+    "d": "2026-09-18",
+    "t": "Nscale's IPO filing shows a $44.6B Anthropic contract for the first 460 MW building.",
+    "kind": "company",
+    "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "d": "2026-10-20",
+    "t": "DEP air-permit workshop at Point Pleasant High School.",
+    "kind": "hearing",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   },
+   {
+    "d": "2026-10-29",
+    "t": "DEP virtual public hearing on the air permit.",
+    "kind": "hearing",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   },
+   {
+    "d": "2026-10-30",
+    "t": "Comment period closes. Nvidia is reported in talks to guarantee construction debt.",
+    "kind": "company",
+    "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "t": "DEP final decision on air permit R14-0042.",
+    "kind": "permit",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "Gazette-Mail: Oct 20 hearing",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   },
+   {
+    "label": "TechCrunch: Nvidia",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "label": "Gazette-Mail: violations",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "label": "Herald-Dispatch: certification",
+    "url": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   },
+   {
+    "label": "Tracker: permit R14-0042",
+    "url": "https://nearbydatacenters.org/wv/"
+   },
+   {
+    "label": "Gazette-Mail: permits",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   },
+   {
+    "label": "Ban the Bots tracker",
+    "url": "https://www.banthebots.org/explainers/ai-data-centers-in-west-virginia"
+   },
+   {
+    "label": "WV CAG: Mason WV United",
+    "url": "https://wvcag.org/?p=16377"
+   }
+  ],
+  "checked": "2026-11-03",
+  "scale": {
+   "n": 864,
+   "unit": "reciprocating gas engines",
+   "color": "gas",
+   "extra": {
+    "n": 12,
+    "unit": "diesel generators",
+    "color": "alarm"
+   },
+   "caption": "Each orange dot is one gas engine in the 2.16 GW off-grid microgrid. The 12 red dots are its diesel generators.",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+   "bars": {
+    "title": "Projected emissions, tons per year",
+    "rows": [
+     [
+      "CO",
+      1043
+     ],
+     [
+      "VOC",
+      900
+     ],
+     [
+      "NOx",
+      506
+     ],
+     [
+      "PM2.5",
+      38
+     ]
+    ],
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   }
+  },
+  "redactions": [
+   {
+    "label": "Certification petition",
+    "why": "Confidential under HB 4983 (2026).",
+    "src": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   }
+  ]
+ },
+ {
+  "id": "tamarack",
+  "short": "Tamarack",
+  "name": "Project Tamarack",
+  "status": "certified",
+  "place": "Mason Co. · West Columbia",
+  "counties": [
+   "Mason"
+  ],
+  "lat": 38.97,
+  "lng": -81.99,
+  "developer": "Starwood Digital Ventures (Starwood Capital Group, Miami Beach). CEO Anthony Balestrieri.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "$12B. 1,000+ construction jobs and 300+ permanent."
+   },
+   {
+    "k": "Power",
+    "v": "About 2.16 GW from the grid over existing Appalachian Power infrastructure. No on-site plant. Closed-loop cooling."
+   },
+   {
+    "k": "Context",
+    "v": "Starwood's 1.2 GW \"Project Washington\" was denied in Delaware, and a board upheld the denial in March 2026."
+   },
+   {
+    "k": "People",
+    "v": "Gov. Patrick Morrisey: \"West Virginia electricity bills are not going up from these announcements. Period.\" Resident Kimberly Mattox lives a quarter mile away."
+   }
+  ],
+  "latest": {
+   "d": "Sep 3, 2026",
+   "t": "Certified as a High Impact Data Center at the WV Chamber summit at The Greenbrier. Residents called it a \"total shocker.\" No construction timeline has been released."
+  },
+  "history": [
+   {
+    "d": "2026-09-03",
+    "status": "certified",
+    "t": "Certified at the WV Chamber summit"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-03",
+    "t": "A Delaware board upholds the denial of Starwood's 1.2 GW \"Project Washington.\"",
+    "kind": "context",
+    "src": "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/"
+   },
+   {
+    "d": "2026-09-03",
+    "t": "Certified as a High Impact Data Center at The Greenbrier.",
+    "kind": "certified",
+    "src": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   },
+   {
+    "d": "2026-09-04",
+    "t": "Residents call it a \"total shocker.\"",
+    "kind": "community",
+    "src": "https://www.wsaz.com/2026/09/04/total-shocker-residents-react-second-data-center-coming-mason-county/"
+   },
+   {
+    "t": "Construction timeline. None has been released.",
+    "kind": "permit",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "WOWK",
+    "url": "https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/"
+   },
+   {
+    "label": "WSAZ",
+    "url": "https://www.wsaz.com/2026/09/04/total-shocker-residents-react-second-data-center-coming-mason-county/"
+   },
+   {
+    "label": "WV Watch",
+    "url": "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/"
+   },
+   {
+    "label": "Herald-Dispatch",
+    "url": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   },
+   {
+    "label": "Gazette-Mail: Oct 20 hearing",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   }
+  ],
+  "checked": "2026-11-03",
+  "redactions": [
+   {
+    "label": "Certification petition",
+    "why": "Confidential under HB 4983 (2026).",
+    "src": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   }
+  ]
+ },
+ {
+  "id": "google",
+  "short": "Google",
+  "name": "Google Buffalo Campus",
+  "status": "certified",
+  "place": "Putnam Co. · Buffalo",
+  "counties": [
+   "Putnam"
+  ],
+  "lat": 38.62,
+  "lng": -81.98,
+  "developer": "Google, via affiliate Cumulus Group LLC.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "About 1,700 acres along Charleston Rd / WV-62, next to a 765 kV ApCo line. The Army Corps filing shows 8 buildings."
+   },
+   {
+    "k": "Power",
+    "v": "Grid. Google says it pays for power and for water/sewer upgrades. 288 diesel emergency generators and 128 cooling towers in the DEP air application (Jul 22)."
+   },
+   {
+    "k": "Impacts",
+    "v": "34+ acres of wetlands and 45,000+ ft of streams affected. Projected 249 t/yr NOx."
+   },
+   {
+    "k": "People",
+    "v": "Commission President Andy Skidmore. Putnam United (Heather Ransom, Jessica Lacy, Joseph DeGroff). Residents Melanie and Tim Lacy, Barbie Fronk, Ashley Armstrong, Dr. Kyle McCausland."
+   }
+  ],
+  "latest": {
+   "d": "Aug 2026",
+   "t": "Putnam United brought a resolution to the County Commission asking for resident input. The Gazette-Mail found certification followed six-plus months of closed-door meetings, revealed through FOIA."
+  },
+  "history": [
+   {
+    "d": "2026-03-27",
+    "status": "certified",
+    "t": "Announced and certified"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-03-27",
+    "t": "Gov. Morrisey announces the Google campus, already certified after six-plus months of closed-door meetings (revealed later by a Gazette-Mail FOIA).",
+    "kind": "certified",
+    "src": "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county"
+   },
+   {
+    "d": "2026-03-29",
+    "t": "Support and concern; the site sits next to a 765 kV ApCo line.",
+    "kind": "community",
+    "src": "https://wvmetronews.com/2026/03/29/googles-proposed-data-center-in-buffalo-draws-both-support-and-concern/"
+   },
+   {
+    "d": "2026-04-14",
+    "t": "Putnam County residents speak out.",
+    "kind": "community",
+    "src": "https://wvmetronews.com/2026/04/14/putnam-county-residents-speak-out-about-proposed-google-data-center-near-buffalo/"
+   },
+   {
+    "d": "2026-07-22",
+    "t": "DEP air permit application: 288 diesel emergency generators and 128 cooling towers.",
+    "kind": "permit",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "d": "2026-08-25",
+    "t": "Putnam United brings a resolution to the County Commission asking for resident input.",
+    "kind": "community",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "t": "DEP decision on the air permit application.",
+    "kind": "permit",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "Governor",
+    "url": "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county"
+   },
+   {
+    "label": "MetroNews",
+    "url": "https://wvmetronews.com/2026/04/14/putnam-county-residents-speak-out-about-proposed-google-data-center-near-buffalo/"
+   },
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "label": "MetroNews: 765 kV line",
+    "url": "https://wvmetronews.com/2026/03/29/googles-proposed-data-center-in-buffalo-draws-both-support-and-concern/"
+   },
+   {
+    "label": "WV CAG: Putnam United",
+    "url": "https://wvcag.org/?p=16377"
+   }
+  ],
+  "checked": "2026-11-03",
+  "scale": {
+   "n": 288,
+   "unit": "diesel emergency generators",
+   "color": "alarm",
+   "extra": {
+    "n": 128,
+    "unit": "cooling towers",
+    "color": "grid"
+   },
+   "caption": "Each red dot is one 2,750 kW diesel emergency generator in the DEP air application. Blue dots are its 128 cooling towers.",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+  },
+  "redactions": [
+   {
+    "label": "Certification petition",
+    "why": "Confidential under HB 4983 (2026).",
+    "src": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   }
+  ]
+ },
+ {
+  "id": "ridgeline",
+  "short": "Ridgeline",
+  "name": "Ridgeline (Fundamental Data)",
+  "status": "contested",
+  "place": "Tucker / Grant Co. · Davis–Thomas",
+  "counties": [
+   "Tucker",
+   "Grant"
+  ],
+  "lat": 39.14,
+  "lng": -79.48,
+  "developer": "Fundamental Data LLC (Purcellville, VA). Responsible individual Casey Chapman. Counsel: Speaker Roger Hanshaw (Bowles Rice).",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "Starts at 291 acres and could reach 10,000. Reporting has described up to 5.2 GW. Target: 2028."
+   },
+   {
+    "k": "Power",
+    "v": "About 785 MW gas plant with diesel backup (three 10M-gallon tanks). About 1.3 GW of solar floated."
+   },
+   {
+    "k": "Legal",
+    "v": "Air Quality Board upheld the permit Feb 5. ICA dismissed appeals on jurisdiction Aug 26, and the groups say they will refile. The Commerce violation notice (Jun 18) was rescinded Jul 1."
+   },
+   {
+    "k": "People",
+    "v": "Tucker United (Amy Margolies), WV Highlands Conservancy (Olivia Miller), Sierra Club WV. Davis Council voted 5-0 against. Sen. Randy Smith called opponents \"vacation homeowners.\""
+   }
+  ],
+  "latest": {
+   "d": "Oct 31, 2026",
+   "t": "NPR national feature on threats to dark skies, ski areas, and the Monongahela National Forest. A Sep 2 geologists' study flagged mine-subsidence and methane risk. A Harvard Dominici Lab study projects $19–35M in health damages."
+  },
+  "history": [
+   {
+    "d": "2025-05",
+    "status": "proposed",
+    "t": "Davis Town Council votes 5-0 to oppose"
+   },
+   {
+    "d": "2026-03-12",
+    "status": "contested",
+    "t": "Groups appeal the air permit"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-05",
+    "t": "Davis Town Council votes 5-0 to oppose the project.",
+    "kind": "community",
+    "src": "https://countryroads.substack.com/p/data-center-story-archive"
+   },
+   {
+    "d": "2025-10",
+    "t": "Groups appeal for emissions data and design details blacked out of the air permit application.",
+    "kind": "redaction",
+    "src": "https://wvpublic.org/story/energy-environment/citizen-groups-appeal-for-information-on-tucker-county-data-center/"
+   },
+   {
+    "d": "2026-02-05",
+    "t": "The Air Quality Board upholds the air permit.",
+    "kind": "permit",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-03-12",
+    "t": "Tucker United, WV Highlands Conservancy, and Sierra Club appeal to the Intermediate Court of Appeals.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-03-16",
+    "t": "House Speaker Roger Hanshaw (Bowles Rice) becomes counsel to Fundamental Data.",
+    "kind": "people",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-04-20",
+    "t": "ICA Judges Daniel Greear and Charles Lorensen recuse. Chief Justice C. Haley Bunn appoints three replacements.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-06-03",
+    "t": "The Supreme Court of Appeals denies Fundamental Data's bid to skip the ICA.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-06-18",
+    "t": "Commerce issues a notice that the company missed the certification deadline. It is rescinded Jul 1–2.",
+    "kind": "government",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-08-17",
+    "t": "The DEP accepts a redacted purchase agreement as proof of site control.",
+    "kind": "redaction",
+    "src": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/"
+   },
+   {
+    "d": "2026-08-26",
+    "t": "The ICA dismisses both appeals on jurisdiction, not on the merits. The groups say they will refile.",
+    "kind": "court",
+    "src": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   },
+   {
+    "d": "2026-10-31",
+    "t": "NPR national feature on dark skies, ski areas, and the Monongahela National Forest.",
+    "kind": "media",
+    "src": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
+   },
+   {
+    "t": "Appeals refiled in circuit court or at the Supreme Court of Appeals.",
+    "kind": "court",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "NPR",
+    "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
+   },
+   {
+    "label": "WTAP: ICA ruling",
+    "url": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   },
+   {
+    "label": "Gazette-Mail: legal",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "label": "Country Roads News",
+    "url": "https://countryroads.substack.com/p/data-center-story-archive"
+   },
+   {
+    "label": "POWER: site control, 785 MW",
+    "url": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/"
+   },
+   {
+    "label": "Country Roads: solar plan",
+    "url": "https://countryroads.substack.com/p/data-center-developer-reveals-plan"
+   },
+   {
+    "label": "Gazette-Mail: health study",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-report-projects-up-to-35m-in-health-damages-from-expected-tucker-co-data-center/article_0e44b758-b9d7-4040-92fa-ddf7db274333.html"
+   },
+   {
+    "label": "WVHC update",
+    "url": "https://www.wvhighlands.org/?p=15053"
+   }
+  ],
+  "checked": "2026-11-03",
+  "scale": {
+   "n": 30,
+   "unit": "million gallons of diesel storage",
+   "color": "gas",
+   "big": true,
+   "caption": "Each block is 1 million gallons of diesel storage: three 10-million-gallon tanks backing a 785 MW gas plant.",
+   "src": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/"
+  },
+  "redactions": [
+   {
+    "label": "Air permit application: emissions data and design details",
+    "why": "Blacked out by the company. Citizen groups appealed for their release (Oct 2025).",
+    "src": "https://wvpublic.org/story/energy-environment/citizen-groups-appeal-for-information-on-tucker-county-data-center/"
+   },
+   {
+    "label": "Purchase agreement used as proof of site control",
+    "why": "Accepted by the DEP in redacted form on Aug 17, 2026.",
+    "src": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/"
+   }
+  ]
+ },
+ {
+  "id": "adams-tg",
+  "short": "Adams Fork · Twisted Gun",
+  "name": "Adams Fork Energy Campus · Twisted Gun",
+  "status": "contested",
+  "place": "Mingo Co. · Wharncliffe",
+  "counties": [
+   "Mingo"
+  ],
+  "lat": 37.63,
+  "lng": -81.96,
+  "developer": "TransGas Development Systems LLC (New York City). CEO Adam Victor.",
+  "facts": [
+   {
+    "k": "Power",
+    "v": "Gas plant with 117 engines and about 2,457 MW (trackers range from 1,200 to 2,850 MW). Data center on the Twisted Gun Golf Course. Mine-pool water for cooling."
+   },
+   {
+    "k": "Permits",
+    "v": "DEP air permits R13-3714 / R13-3715 issued Oct 2025. The legacy ammonia-plant permit status is unclear."
+   },
+   {
+    "k": "Legal",
+    "v": "Federal suit by 10 residents (S.D. W.Va.) dismissed without prejudice by Judge Robert Chambers, Jun 22, 2026. Attorney Stephen New plans EPCRA suits."
+   }
+  ],
+  "latest": {
+   "d": "Jun 22, 2026",
+   "t": "Judge Chambers dismissed the claims against the Army Corps, Fish & Wildlife, and FERC (no final agency action). Plaintiffs can refile."
+  },
+  "history": [
+   {
+    "d": "2025-10",
+    "status": "proposed",
+    "t": "DEP issues air permits"
+   },
+   {
+    "d": "2025-12-03",
+    "status": "contested",
+    "t": "Residents file a federal suit"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-10",
+    "t": "DEP issues air permits R13-3714 / R13-3715 for two gas plants with 117 engines each.",
+    "kind": "permit",
+    "src": "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus"
+   },
+   {
+    "d": "2025-12-03",
+    "t": "Ten residents sue TransGas, the Army Corps, Fish & Wildlife, and FERC in federal court.",
+    "kind": "court",
+    "src": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"
+   },
+   {
+    "d": "2026-03",
+    "t": "Judge Robert Chambers dismisses the claims against TransGas.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "d": "2026-06-22",
+    "t": "The agency claims are dismissed without prejudice. Plaintiffs can refile.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "t": "New suits under EPCRA, which attorney Stephen New says he plans.",
+    "kind": "court",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "Gazette-Mail",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   },
+   {
+    "label": "WV Watch: lawsuit",
+    "url": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"
+   },
+   {
+    "label": "GEM wiki",
+    "url": "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus"
+   },
+   {
+    "label": "Tracker: permit numbers",
+    "url": "https://nearbydatacenters.org/wv/"
+   }
+  ],
+  "checked": "2026-11-03",
+  "scale": {
+   "n": 117,
+   "unit": "gas engines at this plant",
+   "color": "gas",
+   "caption": "Each dot is one of the 117 engines in the Twisted Gun plant. The Harless plant has another 117.",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+  }
+ },
+ {
+  "id": "adams-h",
+  "short": "Adams Fork · Harless",
+  "name": "Adams Fork Energy Campus · Harless",
+  "status": "contested",
+  "place": "Mingo Co. · Holden",
+  "counties": [
+   "Mingo",
+   "Logan"
+  ],
+  "lat": 37.83,
+  "lng": -82.06,
+  "developer": "TransGas Development Systems LLC (New York City). CEO Adam Victor.",
+  "facts": [
+   {
+    "k": "Power",
+    "v": "Second gas plant (117 engines, about 2,457 MW per DEP filings) serving a data center at Harless Industrial Park near the Mingo–Logan line."
+   },
+   {
+    "k": "Permits",
+    "v": "Paired with the Twisted Gun permits (R13-3714 / R13-3715)."
+   },
+   {
+    "k": "People",
+    "v": "Residents raised concerns about air quality for older mine veterans and water depletion. Counsel: Stephen P. New & Associates (Beckley)."
+   }
+  ],
+  "latest": {
+   "d": "Dec 2025",
+   "t": "DEP filings describe the plant powering a data center near the Mingo–Logan county line at Harless Industrial Park. Residents' federal suit over the project was dismissed without prejudice in June 2026."
+  },
+  "history": [
+   {
+    "d": "2025-10",
+    "status": "proposed",
+    "t": "DEP issues air permits"
+   },
+   {
+    "d": "2025-12-03",
+    "status": "contested",
+    "t": "Residents file a federal suit"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-10",
+    "t": "DEP issues the paired air permits R13-3714 / R13-3715.",
+    "kind": "permit",
+    "src": "https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus"
+   },
+   {
+    "d": "2025-12-03",
+    "t": "Residents sue in federal court over the project.",
+    "kind": "court",
+    "src": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"
+   },
+   {
+    "d": "2026-06-22",
+    "t": "The suit is dismissed without prejudice.",
+    "kind": "court",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   }
+  ],
+  "sources": [
+   {
+    "label": "WV Watch",
+    "url": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"
+   },
+   {
+    "label": "Herald-Dispatch",
+    "url": "https://www.herald-dispatch.com/news/dep-to-hold-meeting-on-permit-requests-for-gas-powered-mingo-county-data-center-sites/article_06330c90-3488-4504-9a10-da0d2996d76b.html"
+   },
+   {
+    "label": "Gazette-Mail: dismissal, mine-pool water",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   }
+  ],
+  "checked": "2026-11-03",
+  "scale": {
+   "n": 117,
+   "unit": "gas engines at this plant",
+   "color": "gas",
+   "caption": "Each dot is one of the 117 engines in the Harless plant. The Twisted Gun plant has another 117.",
+   "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+  }
+ },
+ {
+  "id": "penzance",
+  "short": "Penzance",
+  "name": "Penzance Bedington Campus",
+  "status": "certified",
+  "place": "Berkeley Co. · Bedington / Falling Waters",
+  "counties": [
+   "Berkeley"
+  ],
+  "lat": 39.53,
+  "lng": -77.93,
+  "developer": "Penzance (Washington, D.C.), via Bedington Owner LLC.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "$4B, 548 acres, 1.9M sq ft, 600 MW IT. About 1,000 construction and 125 full-time jobs."
+   },
+   {
+    "k": "Power",
+    "v": "Grid-connected. No microgrid."
+   },
+   {
+    "k": "Status",
+    "v": "First certified \"High Impact\" project under HB 2014 (Feb 2026). DEP stormwater construction permit application accepted Jul 2026."
+   },
+   {
+    "k": "People",
+    "v": "Commission President Eddie Gochenour (\"very optimistic\"). No Data Centers in the Eastern Panhandle (Rupok Bhuiyan)."
+   }
+  ],
+  "latest": {
+   "d": "Oct 9, 2026",
+   "t": "AG J.B. McCuskey declined Berkeley County's 10-page request for guidance on HB 2014 preemption of its stormwater MS4 duties, citing the pending Barks lawsuit."
+  },
+  "history": [
+   {
+    "d": "2026-02",
+    "status": "certified",
+    "t": "First certification under HB 2014"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-02",
+    "t": "Gov. Morrisey announces WV's first certified \"High Impact\" data center: $4B, 548 acres, 600 MW.",
+    "kind": "certified",
+    "src": "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
+   },
+   {
+    "d": "2026-07-29",
+    "t": "The DEP accepts the stormwater construction permit application as complete (Jul 29–30).",
+    "kind": "permit",
+    "src": "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
+   },
+   {
+    "d": "2026-09-18",
+    "t": "Berkeley County asks the Attorney General how HB 2014 affects its stormwater duties.",
+    "kind": "government",
+    "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "d": "2026-10-09",
+    "t": "AG J.B. McCuskey declines, citing the pending Barks lawsuit.",
+    "kind": "government",
+    "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Governor's Office",
+    "url": "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
+   },
+   {
+    "label": "WV CAG: Eastern Panhandle group",
+    "url": "https://wvcag.org/?p=16377"
+   },
+   {
+    "label": "MetroNews: AG",
+    "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "label": "Observer",
+    "url": "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
+   }
+  ],
+  "checked": "2026-11-03",
+  "redactions": [
+   {
+    "label": "Certification petition",
+    "why": "Confidential under HB 4983 (2026).",
+    "src": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
+   }
+  ]
+ },
+ {
+  "id": "qts",
+  "short": "QTS",
+  "name": "QTS Kearneysville Campus",
+  "status": "proposed",
+  "place": "Berkeley / Jefferson line",
+  "counties": [
+   "Berkeley",
+   "Jefferson"
+  ],
+  "lat": 39.4,
+  "lng": -77.89,
+  "developer": "QTS Data Centers (Blackstone portfolio company).",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "About 300 acres across two counties: two buildings, a switching station, and a water tank."
+   },
+   {
+    "k": "Status",
+    "v": "Berkeley Planning Commission approved the concept plan (Mar 2025). Jefferson County had received no plans."
+   },
+   {
+    "k": "Legal",
+    "v": "Attorney Stephen New has named QTS as a target for future suits."
+   }
+  ],
+  "latest": {
+   "d": "2025–26",
+   "t": "Trackers list the first building for 2028. No 2026 Jefferson County filing found."
+  },
+  "history": [
+   {
+    "d": "2025-03",
+    "status": "proposed",
+    "t": "Berkeley planners approve the concept plan"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-03",
+    "t": "The Berkeley County Planning Commission approves the concept plan.",
+    "kind": "permit",
+    "src": "https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved"
+   },
+   {
+    "t": "Any Jefferson County filing. None found as of Nov 2026.",
+    "kind": "permit",
+    "next": true
+   }
+  ],
+  "sources": [
+   {
+    "label": "Observer",
+    "url": "https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved"
+   },
+   {
+    "label": "Baxtel",
+    "url": "https://baxtel.com/campus/qts-kearneysville-campus"
+   },
+   {
+    "label": "Gazette-Mail: planned suits",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "summit",
+  "short": "Summit Point",
+  "name": "Summit Point Site",
+  "status": "proposed",
+  "place": "Jefferson Co. · Summit Point",
+  "counties": [
+   "Jefferson"
+  ],
+  "lat": 39.235,
+  "lng": -77.957,
+  "developer": "Ryan Stuart Development.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "About 235 acres (thinly sourced)."
+   },
+   {
+    "k": "Status",
+    "v": "Developer presentation to the Charles Town Utility Board reported Apr 29, 2026. No state filing found."
+   },
+   {
+    "k": "People",
+    "v": "Jefferson Commissioner Cara Keys has criticized HB 2014 for its missing setbacks and groundwater protections."
+   }
+  ],
+  "latest": {
+   "d": "Apr 2026",
+   "t": "The utility board is also weighing a separate Summit Point water and sewer grant. Its link to the site is unconfirmed."
+  },
+  "history": [
+   {
+    "d": "2026-04-29",
+    "status": "proposed",
+    "t": "Presentation to the Charles Town Utility Board reported"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-04-29",
+    "t": "A developer presentation to the Charles Town Utility Board is reported.",
+    "kind": "company",
+    "src": "https://nearbydatacenters.org/wv/",
+    "verify": "Single tracker source; no filing or news story found."
+   }
+  ],
+  "sources": [
+   {
+    "label": "nearbydatacenters",
+    "url": "https://nearbydatacenters.org/wv/"
+   },
+   {
+    "label": "Observer",
+    "url": "https://observerwv.com/tag/summit-point-utility-project/"
+   },
+   {
+    "label": "Observer: Cara Keys",
+    "url": "https://observerwv.com/state-proposes-rule-for-fast-tracking-data-center-projects/"
+   }
+  ],
+  "checked": "2026-11-03",
+  "verify": "The site, acreage, and utility-board presentation come from one data-center tracker. We found no filing or news story confirming them."
+ },
+ {
+  "id": "hoglick",
+  "short": "Hog Lick",
+  "name": "Hog Lick Data Center & Microgrid",
+  "status": "proposed",
+  "place": "Marion Co. · White Hall",
+  "counties": [
+   "Marion"
+  ],
+  "lat": 39.435,
+  "lng": -80.175,
+  "developer": "Hog Lick Aggregates (limestone and sandstone quarry). President Brian Redmond.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "277-acre site in White Hall (WDTV). The company's sales listing advertises about 300 acres, about 350 more for expansion, and power options up to 1 GW."
+   },
+   {
+    "k": "Power",
+    "v": "Natural gas and/or the grid, with geothermal cooling. The listing describes a closed-loop geothermal heat sink."
+   },
+   {
+    "k": "Status",
+    "v": "Redmond says the feasibility study is preliminary. The proposal has drawn criticism on social media."
+   }
+  ],
+  "latest": {
+   "d": "May 2026",
+   "t": "Feasibility study announced. No state filing found."
+  },
+  "history": [
+   {
+    "d": "2026-05-05",
+    "status": "proposed",
+    "t": "Feasibility study announced"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-08",
+    "t": "A company sales listing advertises about 300 acres and power options up to 1 GW.",
+    "kind": "company",
+    "src": "https://res.cloudinary.com/jll-global-sandbox/image/upload/v1755553007/MyListing/public/prod/property-875565/hog-lick-appalachian-mega-site-data-center-08-13-2025.pdf"
+   },
+   {
+    "d": "2026-05-05",
+    "t": "Hog Lick Aggregates announces a feasibility study for a 277-acre site in White Hall.",
+    "kind": "company",
+    "src": "https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/"
+   }
+  ],
+  "sources": [
+   {
+    "label": "WDTV",
+    "url": "https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/"
+   },
+   {
+    "label": "Company sales listing (JLL, PDF)",
+    "url": "https://res.cloudinary.com/jll-global-sandbox/image/upload/v1755553007/MyListing/public/prod/property-875565/hog-lick-appalachian-mega-site-data-center-08-13-2025.pdf"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "warwood",
+  "short": "Warwood",
+  "name": "Centre Foundry Data Center",
+  "status": "contested",
+  "place": "Ohio Co. · Wheeling (Warwood)",
+  "counties": [
+   "Ohio"
+  ],
+  "lat": 40.1,
+  "lng": -80.705,
+  "developer": "Silicon Foundation Energy, with Stokes Inc. (SC). Bought the 15-acre former Centre Foundry for $1.5M.",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "Stated range of 10 MW, then 20–30 MW, then 100 MW. Later described as 50 MW, which is under HB 2014's 90 MW line and so subject to City of Wheeling review."
+   },
+   {
+    "k": "Power",
+    "v": "Grid plus gas backup. Closed-loop Ohio River water cooling."
+   },
+   {
+    "k": "Legal",
+    "v": "Barks v. Silicon Foundation (Ohio Co. Circuit Court): 12 residents challenge HB 2014's constitutionality. The AG intervened to defend."
+   },
+   {
+    "k": "People",
+    "v": "Del. Shawn Fluharty (D-Ohio) held town halls at the Warwood Veterans Assn. and Waterfront Hall. Resident Amanda McWhorter (WVDCAP)."
+   }
+  ],
+  "latest": {
+   "d": "Oct 2026",
+   "t": "The AG's office is defending HB 2014 in Barks and cited the case when declining Berkeley County's opinion request."
+  },
+  "history": [
+   {
+    "d": "2026-06",
+    "status": "contested",
+    "t": "Town halls; residents challenge HB 2014 in court"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-06",
+    "t": "Del. Shawn Fluharty holds a town hall at the Warwood Veterans Association. Stokes Inc. says the site will build modules for data centers.",
+    "kind": "community",
+    "src": "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
+   },
+   {
+    "t": "Twelve residents file Barks v. Silicon Foundation in Ohio County Circuit Court, challenging HB 2014 (filing date not confirmed).",
+    "kind": "court",
+    "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "t": "The project is revised to 50 MW, under the 90 MW HB 2014 line, so the City of Wheeling keeps review.",
+    "kind": "company",
+    "src": "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty"
+   },
+   {
+    "d": "2026-10-09",
+    "t": "The AG's office cites Barks in declining Berkeley County's opinion request.",
+    "kind": "court",
+    "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   }
+  ],
+  "sources": [
+   {
+    "label": "WVPB",
+    "url": "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/"
+   },
+   {
+    "label": "WTOV9: town hall",
+    "url": "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
+   },
+   {
+    "label": "MetroNews: Barks",
+    "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "label": "WTOV9: revised to 50 MW",
+    "url": "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty"
+   },
+   {
+    "label": "Herald-Star: Stokes Inc.",
+    "url": "https://www.heraldstaronline.com/news/local-news/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/"
+   },
+   {
+    "label": "WV CAG: McWhorter",
+    "url": "https://wvcag.org/?p=16377"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "monroe",
+  "short": "Monroe Co.",
+  "name": "Monroe County (rumored)",
+  "status": "rumored",
+  "place": "Monroe Co. · near Ballard",
+  "counties": [
+   "Monroe"
+  ],
+  "lat": 37.505,
+  "lng": -80.75,
+  "developer": "Unnamed. Company representatives have toured sites around the state.",
+  "facts": [
+   {
+    "k": "Status",
+    "v": "No filing. The County Commission said in Feb 2026 that authority now sits with the state and referred residents to legislators."
+   },
+   {
+    "k": "People",
+    "v": "Protesters gathered outside the Giles Co., VA law office of landowner Jason Buckland. Residents started a \"Monroe County Bill of Rights\" petition."
+   }
+  ],
+  "latest": {
+   "d": "Oct 26, 2026",
+   "t": "Residents protested concerns about farmland, noise, and pollution: \"We do not want these centers where we live.\""
+  },
+  "history": [
+   {
+    "d": "2026-02",
+    "status": "rumored",
+    "t": "County says authority now sits with the state"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-02",
+    "t": "The County Commission says authority now sits with the state and refers residents to legislators.",
+    "kind": "government",
+    "src": "https://mountainmessenger.com/?p=100074"
+   },
+   {
+    "d": "2026-10-26",
+    "t": "Residents protest outside the Giles County, VA law office of landowner Jason Buckland.",
+    "kind": "protest",
+    "src": "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+   }
+  ],
+  "sources": [
+   {
+    "label": "WVTF / Radio IQ",
+    "url": "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+   },
+   {
+    "label": "Mountain Messenger",
+    "url": "https://mountainmessenger.com/?p=100074"
+   }
+  ],
+  "checked": "2026-11-03"
+ },
+ {
+  "id": "fortmartin",
+  "short": "Fort Martin",
+  "name": "Fort Martin Gas Addition",
+  "status": "grid",
+  "place": "Monongalia Co. · Maidsville",
+  "counties": [
+   "Monongalia"
+  ],
+  "lat": 39.71,
+  "lng": -79.93,
+  "developer": "Mon Power & Potomac Edison (FirstEnergy).",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "1,200 MW gas plus 70 MW solar, $2.48B. Construction 2027, online by end of 2031."
+   },
+   {
+    "k": "PSC",
+    "v": "Case 26-0108-E-CN. Hearings Jul 15–16. Initial briefs Aug 28, reply briefs Sep 14. Statutory decision deadline Feb 2027.",
+    "verify": "The Feb 2027 deadline was reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket."
+   },
+   {
+    "k": "Parties",
+    "v": "PSC Staff, Consumer Advocate, WVEUG, Sierra Club, CAG / Solar United Neighbors / Energy Efficient WV, WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Sierra Club contests \"abandonment\" cost recovery and notes no data-center contract has been signed."
+   }
+  ],
+  "latest": {
+   "d": "Sep 14, 2026",
+   "t": "Briefing closed. The case is with the Commission, and only public letters have been filed since. Related: Mon Power must file detailed IRP data by Dec 1 (Case 25-0857-E-IRP)."
+  },
+  "history": [
+   {
+    "d": "2026-02",
+    "status": "grid",
+    "t": "Mon Power files at the PSC"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-02",
+    "t": "Mon Power / Potomac Edison file PSC Case 26-0108-E-CN: 1,200 MW gas plus 70 MW solar, $2.48B.",
+    "kind": "psc",
+    "src": "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/"
+   },
+   {
+    "d": "2026-06",
+    "t": "Sierra Club WV files testimony contesting cost recovery.",
+    "kind": "psc",
+    "src": "https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant"
+   },
+   {
+    "d": "2026-07-15",
+    "t": "Public comment hearing.",
+    "kind": "hearing",
+    "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   },
+   {
+    "d": "2026-08-28",
+    "t": "Ten parties file initial briefs.",
+    "kind": "psc",
+    "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   },
+   {
+    "d": "2026-09-14",
+    "t": "Reply briefs close. The case is fully briefed.",
+    "kind": "psc",
+    "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   },
+   {
+    "d": "2027-02",
+    "t": "Decision deadline reported by the Dominion Post.",
+    "kind": "psc",
+    "next": true,
+    "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket."
+   }
+  ],
+  "sources": [
+   {
+    "label": "WVPB",
+    "url": "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/"
+   },
+   {
+    "label": "Sierra Club",
+    "url": "https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant"
+   },
+   {
+    "label": "PSC docket",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   },
+   {
+    "label": "Mon Power reply brief",
+    "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670444"
+   },
+   {
+    "label": "Dominion Post: timeline",
+    "url": "https://www.dominionpost.com/?p=557367"
+   }
+  ],
+  "checked": "2026-11-03"
+ }
+]
