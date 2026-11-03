@@ -10,7 +10,7 @@
  "signals": [
   {"id": "capex", "name": "Hyperscaler capital spending", "kind": "capex", "companies": ["alphabet", "microsoft", "amazon", "meta"],
    "what": "Cash spent on property and equipment each quarter by Alphabet, Microsoft, Amazon, and Meta, as reported in their SEC filings.",
-   "why": "These four are the biggest buyers of data-center capacity. If their spending slows, every speculative campus gets harder to finance.",
+   "why": "These four are among the largest buyers of data-center capacity. If their spending slows, a speculative campus gets harder to finance.",
    "source": {"label": "SEC EDGAR (XBRL)", "url": "https://www.sec.gov/edgar/search/"}},
   {"id": "henryhub", "name": "Henry Hub natural gas", "kind": "fred", "fred": "DHHNGSP", "unit": "$/MMBtu", "dp": 2,
    "what": "The benchmark U.S. spot price for natural gas, daily, from the U.S. Energy Information Administration (via FRED).",
@@ -26,7 +26,7 @@
    "source": {"label": "FRED: DGS10 (Federal Reserve)", "url": "https://fred.stlouisfed.org/series/DGS10"}},
   {"id": "pjm", "name": "PJM capacity prices", "kind": "link",
    "what": "Prices from PJM's capacity auctions, which pay power plants to be available in the 13-state grid that includes West Virginia.",
-   "why": "Data-center demand is a major reason capacity prices have risen, and those costs reach household bills. PJM publishes results as reports; we link to them rather than retype them.",
+   "why": "Capacity costs are passed through to retail electric bills, so this is where data-center growth can reach what everyone pays. PJM publishes results as reports; we link to them rather than retype them.",
    "source": {"label": "PJM: capacity market (RPM)", "url": "https://www.pjm.com/markets-and-operations/rpm"}}
  ],
  "secSearch": [
