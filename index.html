@@ -591,7 +591,7 @@ a.story-source::before {
   font-weight: 500;
 }
 
-/* ─── WORKFORCE DEV NAV BUTTONS ─── */
+/* ─── NAV BUTTONS ─── */
 .legend-actions {
   display: flex;
   gap: 8px;
@@ -619,140 +619,6 @@ a.story-source::before {
   color: #fff;
 }
 .wf-nav-btn:active { transform: translateY(1px); }
-
-/* ─── WORKFORCE DEVELOPMENT SECTION ─── */
-.workforce-section {
-  padding: 96px 0 64px;
-  border-top: 1px solid rgba(0,212,255,0.08);
-  background: radial-gradient(ellipse at top, rgba(0,212,255,0.04), transparent 60%);
-}
-.workforce-header {
-  text-align: center;
-  padding: 0 32px 48px;
-  max-width: 880px;
-  margin: 0 auto;
-}
-.workforce-header .section-tag {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.3em;
-  color: var(--blue-electric);
-  margin-bottom: 12px;
-  text-transform: uppercase;
-}
-.workforce-header h2 {
-  font-family: 'Instrument Serif', serif;
-  font-weight: 400;
-  font-size: clamp(2rem, 4.5vw, 3.2rem);
-  color: #fff;
-  line-height: 1.1;
-  margin-bottom: 10px;
-}
-.workforce-header h2 em { color: var(--blue-electric); font-style: italic; }
-.workforce-subtitle {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.7rem;
-  color: var(--text-secondary);
-  letter-spacing: 0.12em;
-  margin-bottom: 28px;
-}
-.wf-subnav, .wf-subnav-inline {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 4px;
-}
-.wf-subnav-inline { margin-top: 28px; padding-top: 28px; border-top: 1px solid rgba(0,212,255,0.06); }
-
-.wf-panel {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 56px 48px;
-  scroll-margin-top: 80px;
-}
-.wf-panel + .wf-panel { border-top: 1px solid rgba(0,212,255,0.06); }
-.wf-panel-title {
-  font-family: 'Instrument Serif', serif;
-  font-weight: 400;
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
-  color: #fff;
-  margin-bottom: 28px;
-  letter-spacing: -0.01em;
-}
-.wf-panel-title .num {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.55em;
-  color: var(--blue-electric);
-  letter-spacing: 0.2em;
-  margin-right: 14px;
-  vertical-align: 0.18em;
-}
-.wf-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 18px;
-}
-.wf-card {
-  background: var(--bg-card);
-  border: 1px solid rgba(0,212,255,0.08);
-  border-radius: 10px;
-  padding: 18px 20px 16px;
-  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-}
-.wf-card:hover {
-  border-color: rgba(0,212,255,0.28);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0,212,255,0.08);
-}
-.wf-chips {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-.wf-chip {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.55rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  padding: 3px 8px;
-  border-radius: 3px;
-  border: 1px solid currentColor;
-  background: transparent;
-  opacity: 0.92;
-}
-.wf-chip.ai      { color: #00d4ff; }
-.wf-chip.tech    { color: #7dd3fc; }
-.wf-chip.btc     { color: #f7931a; }
-.wf-chip.solar   { color: #fbbf24; }
-.wf-chip.civic   { color: rgba(200,215,240,0.65); }
-.wf-chip.gov     { color: rgba(200,215,240,0.65); }
-.wf-chip.research{ color: #a78bfa; }
-.wf-chip.transition { color: #34d399; }
-.wf-card-title {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: rgba(0,180,255,0.78);
-  line-height: 1.3;
-  margin-bottom: 6px;
-}
-.wf-card-desc {
-  font-size: 0.82rem;
-  line-height: 1.55;
-  color: var(--text-primary);
-  margin-bottom: 10px;
-}
-.wf-card-link {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.6rem;
-  color: rgba(0,180,255,0.65);
-  letter-spacing: 0.04em;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.wf-card-link:hover { color: var(--accent); text-decoration: underline; }
 
 /* ─── AI WATCH: PROJECTS / DOCKET / CALENDAR / PEOPLE ─── */
 :root {
@@ -998,7 +864,7 @@ a.story-source::before {
 .wc-sources a:hover { color: var(--accent); text-decoration: underline; }
 
 /* Docket */
-.docket-grid, .cal-grid, .people-grid {
+.docket-grid, .people-grid {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 48px;
@@ -1006,7 +872,6 @@ a.story-source::before {
   gap: 28px;
 }
 .docket-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-.cal-grid { grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
 .people-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .docket-title {
   font-family: 'Instrument Serif', serif;
@@ -1037,9 +902,9 @@ a.story-source::before {
   margin-bottom: 6px;
 }
 .docket-name { font-weight: 600; font-size: 0.92rem; color: rgba(0,180,255,0.9); line-height: 1.35; margin-bottom: 6px; }
-.docket-item p, .cal-body { font-size: 0.82rem; line-height: 1.6; color: var(--text-primary); }
-.docket-item strong, .cal-body strong { color: #fff; font-weight: 600; }
-.docket-item .story-source, .cal-body .story-source { display:inline-block; margin-top: 6px; }
+.docket-item p { font-size: 0.82rem; line-height: 1.6; color: var(--text-primary); }
+.docket-item strong { color: #fff; font-weight: 600; }
+.docket-item .story-source { display:inline-block; margin-top: 6px; }
 .pill {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.55rem;
@@ -1060,24 +925,6 @@ a.story-source::before {
 .pill.dep     { color: var(--st-certified); }
 .pill.protest { color: var(--st-construction); }
 .pill.gov     { color: #7dd3fc; }
-
-/* Calendar */
-.cal-item {
-  display: grid;
-  grid-template-columns: 84px 1fr;
-  gap: 14px;
-  border-top: 1px solid rgba(0,212,255,0.08);
-  padding: 14px 0;
-}
-.cal-date {
-  font-family: 'Instrument Serif', serif;
-  font-size: 1.25rem;
-  color: var(--blue-electric);
-  line-height: 1.1;
-}
-.cal-date span { display:block; font-family:'JetBrains Mono',monospace; font-size: 0.58rem; color: var(--text-secondary); letter-spacing: 0.12em; margin-top: 3px; }
-.cal-item.past .cal-date { color: rgba(200,215,240,0.55); }
-.cal-body .pill { display:inline-block; margin-bottom: 4px; }
 
 /* People */
 .people-head {
@@ -1104,20 +951,132 @@ a.story-source::before {
 
 @media (max-width: 900px) {
   .watch-stats { grid-template-columns: repeat(2, 1fr); }
-  .watch-map-wrap, .watch-cards, .docket-grid, .cal-grid, .people-grid { padding: 0 16px; }
+  .watch-map-wrap, .watch-cards, .docket-grid, .people-grid { padding: 0 16px; }
   #watchMap { aspect-ratio: 4 / 3; }
   .watch-cards { grid-template-columns: 1fr; }
-  .cal-grid { grid-template-columns: 1fr; }
   .watch-header { padding: 0 16px 32px; }
   .legend-bar .logo { font-size: 1rem; }
   .legend-actions { overflow-x: auto; max-width: 70vw; scrollbar-width: none; }
   .legend-actions::-webkit-scrollbar { display: none; }
 }
 @media (max-width: 480px) {
-  .cal-item { grid-template-columns: 64px 1fr; gap: 10px; }
   .wc-facts li { padding-left: 0; padding-top: 18px; }
   .wc-facts li b { top: 3px; }
 }
+
+/* Calendar (agenda + month + standing) */
+.cx-toolbar {
+  max-width: 1240px; margin: 0 auto; padding: 0 48px 16px;
+  display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between;
+}
+.cx-views { display: inline-flex; border: 1px solid rgba(0,212,255,0.3); border-radius: 999px; overflow: hidden; }
+.cx-view {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 8px 16px; background: transparent; color: var(--text-secondary); border: 0; cursor: pointer;
+}
+.cx-view[aria-pressed="true"] { background: rgba(0,212,255,0.14); color: #fff; }
+.cx-selects { display: flex; flex-wrap: wrap; gap: 10px; }
+.cx-selects label, .cx-past {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-secondary); display: inline-flex; align-items: center; gap: 8px;
+}
+.cx-selects select {
+  font-family: 'DM Sans', sans-serif; font-size: 0.8rem; text-transform: none; letter-spacing: 0;
+  background: var(--bg-card); color: var(--text-primary); border: 1px solid rgba(0,212,255,0.25);
+  border-radius: 6px; padding: 6px 8px; max-width: 200px;
+}
+.cx-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.cx-past input { accent-color: var(--blue-electric); width: 16px; height: 16px; }
+.cx-view:focus-visible, .cx-selects select:focus-visible, .cx-day:focus-visible, .cx-ics:focus-visible, .cx-nav:focus-visible { outline: 2px solid var(--blue-electric); outline-offset: 2px; }
+
+.cx-wrap { max-width: 1240px; margin: 0 auto; padding: 0 48px; }
+.cx-group { margin-top: 26px; }
+.cx-group-h {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.66rem; letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--blue-electric); padding-bottom: 8px; border-bottom: 1px solid rgba(0,212,255,0.15);
+  display: flex; justify-content: space-between; gap: 10px;
+}
+.cx-group-h span { color: var(--text-dim); letter-spacing: 0.12em; }
+.cx-empty { color: var(--text-secondary); font-size: 0.85rem; padding: 18px 0; }
+
+.cx-ev {
+  display: grid; grid-template-columns: 76px 1fr; gap: 18px;
+  padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.cx-ev.past { opacity: 0.72; }
+.cx-date { border-left: 3px solid var(--ev); padding-left: 10px; line-height: 1.1; }
+.cx-date .d { display:block; font-family: 'Instrument Serif', serif; font-size: 1.7rem; color: #fff; }
+.cx-date .d.sm { font-size: 1.1rem; }
+.cx-date .w { display:block; font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.14em; color: var(--text-secondary); text-transform: uppercase; margin-top: 4px; }
+.cx-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin-bottom: 6px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--text-secondary); text-transform: uppercase; }
+.cx-type { color: var(--ev); border: 1px solid currentColor; border-radius: 3px; padding: 2px 7px; letter-spacing: 0.12em; }
+.cx-flag { color: var(--st-certified); }
+.cx-title { font-size: 1rem; font-weight: 600; color: #fff; line-height: 1.35; margin-bottom: 4px; }
+.cx-desc { font-size: 0.84rem; line-height: 1.6; color: var(--text-primary); margin-bottom: 6px; }
+.cx-line { font-size: 0.8rem; line-height: 1.55; color: var(--text-secondary); margin-bottom: 4px; }
+.cx-line b { font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); margin-right: 6px; }
+.cx-links { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 8px; }
+.cx-links a { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: rgba(0,180,255,0.75); text-decoration: none; }
+.cx-links a:hover { color: var(--accent); text-decoration: underline; }
+.cx-links a.rel { color: #fff; border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; padding: 3px 9px; }
+.cx-ics {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.58rem; letter-spacing: 0.1em; text-transform: uppercase;
+  background: transparent; color: var(--blue-electric); border: 1px dashed rgba(0,212,255,0.4); border-radius: 999px;
+  padding: 4px 10px; cursor: pointer;
+}
+.cx-ics:hover { background: rgba(0,212,255,0.1); }
+
+/* Month grid */
+.cx-month { margin-top: 10px; }
+.cx-mhead { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.cx-mhead h3 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 1.6rem; color: #fff; }
+.cx-nav {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--blue-electric); background: transparent;
+  border: 1px solid rgba(0,212,255,0.3); border-radius: 999px; padding: 6px 14px; cursor: pointer;
+}
+.cx-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.cx-dow { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.14em; color: var(--text-dim); text-align: center; padding: 4px 0; }
+.cx-day {
+  min-height: 78px; background: var(--bg-card); border: 1px solid rgba(0,212,255,0.06); border-radius: 6px;
+  padding: 6px; text-align: left; color: var(--text-secondary); font: inherit; display: flex; flex-direction: column; gap: 4px; min-width: 0;
+}
+.cx-day.out { opacity: 0.3; }
+.cx-day.has { cursor: pointer; border-color: rgba(0,212,255,0.2); }
+.cx-day.has:hover { border-color: var(--blue-electric); }
+.cx-day.today { box-shadow: inset 0 0 0 1px var(--blue-electric); }
+.cx-day.sel { background: rgba(0,212,255,0.12); border-color: var(--blue-electric); }
+.cx-day .n { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-primary); }
+.cx-dots { display: flex; flex-wrap: wrap; gap: 3px; }
+.cx-dots i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
+.cx-chiplist { display: flex; flex-direction: column; gap: 2px; }
+.cx-chip { font-size: 0.62rem; line-height: 1.25; color: var(--text-primary); border-left: 2px solid var(--ev); padding-left: 4px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cx-daylist { margin-top: 14px; }
+
+/* Standing meetings */
+.cx-standing { margin-top: 56px; }
+.cx-note { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; max-width: 820px; margin-bottom: 18px; }
+.cx-standing-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }
+.cx-st { background: var(--bg-card); border: 1px solid rgba(0,212,255,0.08); border-radius: 10px; padding: 14px 16px; }
+.cx-st h4 { font-size: 0.9rem; color: #fff; font-weight: 600; margin-bottom: 2px; }
+.cx-st .c { font-family: 'JetBrains Mono', monospace; font-size: 0.56rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue-electric); margin-bottom: 8px; }
+.cx-st p { font-size: 0.78rem; line-height: 1.5; color: var(--text-secondary); margin-bottom: 4px; }
+.cx-st p b { color: var(--text-primary); font-weight: 600; }
+.cx-st a { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; color: rgba(0,180,255,0.75); text-decoration: none; }
+
+@media (max-width: 900px) {
+  .cx-toolbar, .cx-wrap { padding-left: 16px; padding-right: 16px; }
+  .cx-ev { grid-template-columns: 58px 1fr; gap: 12px; }
+  .cx-date .d { font-size: 1.4rem; }
+  .cx-day { min-height: 44px; padding: 4px; }
+  .cx-chiplist { display: none; }
+  .cx-selects { width: 100%; flex-direction: column; }
+  .cx-selects label { justify-content: space-between; width: 100%; }
+  .cx-selects select { max-width: none; flex: 1; margin-left: 12px; }
+}
+
+.cx-dots em { font-style: normal; font-size: 0.55rem; color: var(--text-secondary); }
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
@@ -1125,7 +1084,6 @@ a.story-source::before {
   .city-map-panel { max-width: 100%; aspect-ratio: 4/3; order: -1; }
   .legend-items { display: none; }
   .hero-content h1 { font-size: 2rem; }
-  .wf-panel { padding: 40px 24px; }
   .wf-nav-btn { font-size: 0.55rem; padding: 5px 9px; letter-spacing: 0.1em; }
 }
 @media (max-width: 560px) {
@@ -1164,7 +1122,6 @@ a.story-source::before {
     <a href="#calendar" class="wf-nav-btn">Calendar</a>
     <a href="#people" class="wf-nav-btn">People</a>
     <a href="#sec-morgantown" class="wf-nav-btn">Hubs</a>
-    <a href="#workforce" class="wf-nav-btn">Workforce</a>
   </div>
 </div>
 
@@ -1342,37 +1299,36 @@ a.story-source::before {
   <div class="watch-header">
     <div class="section-tag">· Calendar ·</div>
     <h2>Meetings, hearings, <em>protests &amp; town halls</em></h2>
-    <p class="watch-lede">Upcoming dates you can show up for, and what happened recently. Developer open houses are labeled as such. They are not official hearings.</p>
+    <p class="watch-lede">Every public date in West Virginia's data center and grid fights: hearings, comment deadlines, PSC and court dates, legislative meetings, rallies, town halls, and the standing county meetings where residents can speak. Past events archive themselves. Developer open houses are labeled; they are not official hearings. All times Eastern.</p>
   </div>
-  <div class="cal-grid">
-    <div class="cal-col">
-      <h3 class="docket-title"><span class="num">↗</span>Upcoming</h3>
-      <div class="cal-item"><div class="cal-date">Nov 3<span>2026</span></div><div class="cal-body"><span class="pill civic">Election</span><strong>General Election Day.</strong> HB 2014 and transmission lines are top issues in legislative races. Polls are open 6:30 a.m. to 7:30 p.m. <a class="story-source" href="https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/" target="_blank" rel="noopener">MetroNews →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Nov 4–19<span>2026</span></div><div class="cal-body"><span class="pill dev">Developer open house</span><strong>Valley Link 765 kV open houses.</strong> Twelve drop-in sessions across WV, VA, and MD, starting Nov 4 in Fisher (Hardy Co.) and Hambleton (Tucker Co.). To put a comment on the record with the PSC, file under <strong>FP Valley Link 26A</strong>. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a> <a class="story-source" href="https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/" target="_blank" rel="noopener">How to comment →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Nov 23<span>2026</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>MARL initial briefs due</strong> in Case 26-0075-E-CN, with replies Dec 4, per Valley North Record. No briefing order had appeared in the PSC's docket notices through Nov 2. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Dec 1<span>2026</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>Mon Power / Potomac Edison IRP data due</strong> in Case 25-0857-E-IRP: the detailed numbers behind their long-term resource plan. <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562" target="_blank" rel="noopener">PSC order →</a></div></div>
-      <div class="cal-item"><div class="cal-date">~Dec 29<span>2026</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>Staff recommendation on AEP's FRR status</strong> and Mon Power's PJM capacity bidding (Case 25-0450-E-GI), due 60 days after the Oct 30 utility responses. <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852" target="_blank" rel="noopener">Docket →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Jan<span>2027</span></div><div class="cal-body"><span class="pill civic">Legislature</span><strong>2027 Regular Session opens.</strong> The HB 2014 local-control fight returns, led by WVDCAP, Democratic delegates, and the WV NAACP. <a class="story-source" href="https://www.wvhighlands.org/?p=15053" target="_blank" rel="noopener">WV Highlands Conservancy →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Jan 26<span>2027</span></div><div class="cal-body"><span class="pill protest">Rally</span><strong>WV Rally for Affordable Energy,</strong> 10 a.m. to noon, State Capitol South Steps. Organized by the WV Utility Impact Project, with the Valley North Opposition Alliance. Topics: power bills and data-center expansion. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
-      <div class="cal-item"><div class="cal-date">By Feb<span>2027</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>Fort Martin gas plant decision deadline</strong> (Case 26-0108-E-CN, fully briefed Sep 14). <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785" target="_blank" rel="noopener">Docket →</a></div></div>
-      <div class="cal-item"><div class="cal-date">Mar 6<span>2027</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>MARL decision due,</strong> as set by the Commission's Mar 18 schedule and reaffirmed Sep 4. <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977" target="_blank" rel="noopener">PSC order →</a></div></div>
-      <div class="cal-item"><div class="cal-date">TBD</div><div class="cal-body"><span class="pill dep">DEP</span><strong>Monarch air permit R14-0042 final decision.</strong> DEP will publish a response-to-comments document. <a class="story-source" href="https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/" target="_blank" rel="noopener">WSAZ →</a></div></div>
+
+  <div class="cx-toolbar">
+    <div class="cx-views" role="group" aria-label="Calendar view">
+      <button type="button" class="cx-view" data-view="agenda" aria-pressed="true">Agenda</button>
+      <button type="button" class="cx-view" data-view="month" aria-pressed="false">Month</button>
     </div>
-    <div class="cal-col">
-      <h3 class="docket-title"><span class="num">↙</span>Recent</h3>
-      <div class="cal-item past"><div class="cal-date">Nov 2</div><div class="cal-body"><span class="pill protest">Protest</span><strong>Stop Valley Link peaceful protest,</strong> 2 to 6 p.m., Barbour County Courthouse, Philippi. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Source →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Oct 26 – Nov 2</div><div class="cal-body"><span class="pill psc">PSC hearing</span><strong>MARL evidentiary hearing,</strong> Charleston, live-streamed. NextEra reached an agreement with Lake O' Woods Club on Oct 23. Friends of the Cheat and the Hampshire County Farmland Protection Board filed during hearing week. <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382" target="_blank" rel="noopener">PSC order →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Oct 29–30</div><div class="cal-body"><span class="pill dep">DEP hearing</span><strong>Monarch air permit virtual hearing</strong> (Oct 29). The comment period closed Oct 30. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Oct 26</div><div class="cal-body"><span class="pill protest">Protest</span><strong>Monroe County data center protest,</strong> held in Giles Co., VA outside the law office of landowner Jason Buckland, where a project near Ballard is rumored. The same week, DEP held its water-permit hearing for Monarch at Point Pleasant HS. <a class="story-source" href="https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center" target="_blank" rel="noopener">WVTF →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Oct 20</div><div class="cal-body"><span class="pill dep">DEP workshop</span><strong>Monarch air-permit workshop,</strong> Point Pleasant High School. Residents Kimberly Mattox and Stephanie Butcher raised health, flooding, and dust concerns. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Sep 8</div><div class="cal-body"><span class="pill civic">Coalition</span><strong>WV Data Center Accountability Project launches</strong> in Charleston: WV CAG, Tucker United, Putnam United, Mason WV United, Sierra Club WV, WVHC, and No Data Centers in the Eastern Panhandle. <a class="story-source" href="https://wvcag.org/?p=16377" target="_blank" rel="noopener">WV CAG →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Sep 4</div><div class="cal-body"><span class="pill psc">PSC order</span><strong>Commission refuses to pause or dismiss MARL.</strong> It denied Staff's Aug 19 motion and the NextEra–Staff schedule change, and ordered a study of the existing Gore–Hampshire right-of-way. <a class="story-source" href="https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977" target="_blank" rel="noopener">PSC order →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Sep 3</div><div class="cal-body"><span class="pill gov">Announcement</span><strong>Morrisey certifies Monarch and Tamarack</strong> at the WV Chamber summit at The Greenbrier: "West Virginia electricity bills are not going up from these announcements. Period." <a class="story-source" href="https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html" target="_blank" rel="noopener">Herald-Dispatch →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Aug 25</div><div class="cal-body"><span class="pill civic">Commission</span><strong>Putnam United brings a resolution</strong> to the County Commission asking for residents' input on data-center decisions. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Aug 14–15</div><div class="cal-body"><span class="pill civic">Resolution</span><strong>WV NAACP convention (Huntington)</strong> unanimously demands a moratorium of at least two years on data centers and microgrids. Signed by President Loretta Young. <a class="story-source" href="https://thefulcrum.us/community/west-virginia-naacp-data-center-moratorium-call" target="_blank" rel="noopener">The Fulcrum →</a></div></div>
-      <div class="cal-item past"><div class="cal-date">Jun 2026</div><div class="cal-body"><span class="pill civic">Town hall</span><strong>Warwood town hall</strong> at the Warwood Veterans Association with Del. Shawn Fluharty. Also in June: the Democratic caucus press event at Davis Town Hall and the Mountain State Spotlight data-center panel at Davis Fire Hall. <a class="story-source" href="https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling" target="_blank" rel="noopener">WTOV9 →</a></div></div>
+    <div class="cx-selects">
+      <label>County <select id="cxCounty"></select></label>
+      <label>Project <select id="cxProject"></select></label>
+    </div>
+    <div class="cx-actions">
+      <label class="cx-past"><input type="checkbox" id="cxShowPast"> Show past</label>
+      <button type="button" id="cxIcsAll" class="wf-nav-btn">Download upcoming (.ics)</button>
     </div>
   </div>
+  <div class="watch-filters" id="cxTypes" role="group" aria-label="Filter by event type"></div>
+
+  <div class="cx-wrap">
+    <div id="cxMonth" class="cx-month" hidden></div>
+    <div id="cxAgenda" class="cx-agenda" aria-live="polite"></div>
+  </div>
+
+  <div class="cx-wrap cx-standing">
+    <h3 class="docket-title"><span class="num">↻</span>Standing public meetings</h3>
+    <p class="cx-note">Regular county commission, city council, and development authority meetings in every county with a mapped project. Most include public comment. Schedules are as each body publishes them, so confirm the agenda before you go. "Next posted" appears only when the body has published the date.</p>
+    <div id="cxStanding" class="cx-standing-grid"></div>
+  </div>
+  <noscript><p class="watch-lede">The calendar needs JavaScript. The full event list is in <a href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/research/2026-11-calendar.md">research/2026-11-calendar.md</a>.</p></noscript>
 </section>
 
 <section class="watch-section alt" id="people">
@@ -1653,231 +1609,6 @@ a.story-source::before {
     </div>
   </div>
 </div>
-
-<!-- WORKFORCE DEVELOPMENT -->
-<section class="workforce-section" id="workforce">
-  <div class="workforce-header">
-    <div class="section-tag">· Workforce Development ·</div>
-    <h2>Building the Mountain State's <em>AI Future</em></h2>
-    <p class="workforce-subtitle">Jobs · Education · Events · Grants &nbsp;·&nbsp; AI, Tech, Bitcoin, and Solar</p>
-    <div class="wf-subnav">
-      <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-      <a href="#wf-education" class="wf-nav-btn">Education</a>
-      <a href="#wf-events" class="wf-nav-btn">Events</a>
-      <a href="#wf-grants" class="wf-nav-btn">Grants</a>
-    </div>
-  </div>
-
-  <div id="wf-jobs" class="wf-panel">
-    <h3 class="wf-panel-title"><span class="num">01</span>Jobs</h3>
-    <div class="wf-cards">
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span></div>
-        <div class="wf-card-title">Generation WV Career Connector</div>
-        <div class="wf-card-desc">Centralized WV tech job board built with TechConnect WV. Talent search and recruitment services for in-state employers, with pathways for young West Virginians staying in or returning to the state.</div>
-        <a class="wf-card-link" href="https://generationwv.org/our-work/career-opportunities/" target="_blank">generationwv.org →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">WorkForce West Virginia</div>
-        <div class="wf-card-desc">Statewide job-seeker portal. Listings span tech, healthcare, manufacturing, and AI roles, with resume, training, and unemployment services bundled in.</div>
-        <a class="wf-card-link" href="https://workforcewv.org/job-seeker/find-a-job/" target="_blank">workforcewv.org →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip gov">Gov</span></div>
-        <div class="wf-card-title">jobs.wv.gov (State of West Virginia)</div>
-        <div class="wf-card-desc">Public-sector openings including WV Office of Technology, Secretary of State digital roles, and agency IT positions. The S.O.LO chatbot team and AI Task Force-adjacent work live here.</div>
-        <a class="wf-card-link" href="https://www.jobs.wv.gov/" target="_blank">jobs.wv.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">Indeed: AI roles in WV</div>
-        <div class="wf-card-desc">Live listings (around 53 AI positions in WV as of May 2026): AI specialists, data scientists, ML engineers, technical product managers at CVS Health, WVU, regional integrators, and growing startups.</div>
-        <a class="wf-card-link" href="https://www.indeed.com/q-artificial-intelligence-l-west-virginia-jobs.html" target="_blank">indeed.com →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip solar">Solar</span></div>
-        <div class="wf-card-title">Solar Installation Technician at Eastern WV CTC</div>
-        <div class="wf-card-desc">Workforce-education track placing graduates into utility-scale and residential solar installation. Short program length, hands-on, anchored in the Eastern Panhandle.</div>
-        <a class="wf-card-link" href="https://easternwv.edu/workforce-education/solar-technician/" target="_blank">easternwv.edu →</a>
-      </div>
-    </div>
-    <div class="wf-subnav-inline">
-      <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-      <a href="#wf-education" class="wf-nav-btn">Education</a>
-      <a href="#wf-events" class="wf-nav-btn">Events</a>
-      <a href="#wf-grants" class="wf-nav-btn">Grants</a>
-    </div>
-  </div>
-
-  <div id="wf-education" class="wf-panel">
-    <h3 class="wf-panel-title"><span class="num">02</span>Education</h3>
-    <div class="wf-cards">
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">WVU M.S. in Artificial Intelligence</div>
-        <div class="wf-card-desc">Fully online graduate program from the Statler College's Lane Department. Coursework spans machine learning, cybersecurity, intelligent systems, and energy applications. Enrollment opened Spring 2026 alongside companion M.S. tracks in Applied AI &amp; Data Analytics and AI Marketing.</div>
-        <a class="wf-card-link" href="https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms" target="_blank">online.wvu.edu →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span><span class="wf-chip tech">Tech</span></div>
-        <div class="wf-card-title">Marshall iCenter gBETA Accelerator</div>
-        <div class="wf-card-desc">Founder-track program with gener8tor for AI and tech startups. Quality Insights' $1.2M gift in Feb 2026 expanded the iCenter to two cohorts per year and added a new gALPHA ideation track.</div>
-        <a class="wf-card-link" href="https://www.marshall.edu/icenter/gbeta-accelerator/" target="_blank">marshall.edu/icenter →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">Marshall University Generative AI program</div>
-        <div class="wf-card-desc">President Smith's Presidential Task Force on AI (2023) runs three sub-committees, partners with Coursera's Career Academy for 6,000+ AI courses, and is building academic AI integration for faculty and students.</div>
-        <a class="wf-card-link" href="https://www.marshall.edu/ai/" target="_blank">marshall.edu/ai →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span></div>
-        <div class="wf-card-title">WVU-P Innovation and Technology Center</div>
-        <div class="wf-card-desc">$35M Vienna campus redeveloped from the former Ohio Valley University. CS, cybersecurity, network admin, and additive manufacturing programs. 159 students at the August 2025 launch.</div>
-        <a class="wf-card-link" href="https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/" target="_blank">News &amp; Sentinel →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">WVU Tech Governor's CS Institute</div>
-        <div class="wf-card-desc">Residential summer program for WV high schoolers on the Beckley campus. AI, coding, and drone programming. Three-year commitment starting summer 2026.</div>
-        <a class="wf-card-link" href="https://www.wvutech.edu/news/2025/10/29/wvu-tech-to-host-governor-s-computer-science-institute-for-next-three-years" target="_blank">wvutech.edu →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip solar">Solar</span></div>
-        <div class="wf-card-title">ACT Now Coalition: West Edge Solar Training</div>
-        <div class="wf-card-desc">Federally funded solar training covering renewable energy modules, OSHA 10, worksite safety, mental health, financial literacy, and resume building. Built for the coalfields region.</div>
-        <a class="wf-card-link" href="https://actnowwv.org/west-edge-solar-training/" target="_blank">actnowwv.org →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip solar">Solar</span><span class="wf-chip transition">Just Transition</span></div>
-        <div class="wf-card-title">Just Transition Center, Logan, WV</div>
-        <div class="wf-card-desc">25,000 sq ft redevelopment of the old Miner's Academy in Logan, training biomanufacturers, technologists, solar installers, and green-collar contractors for a coal-to-clean workforce.</div>
-        <a class="wf-card-link" href="https://www.brookings.edu/articles/catalyzing-a-just-transition-from-coal-to-clean-energy-in-west-virginias-coalfields/" target="_blank">Brookings overview →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span><span class="wf-chip solar">Solar</span></div>
-        <div class="wf-card-title">WVU-P Renewable Energy Programs</div>
-        <div class="wf-card-desc">Continuing-education tracks in renewable energy and construction trades. A skills bridge for tradespeople moving into solar, wind, and energy-efficiency roles.</div>
-        <a class="wf-card-link" href="https://careertraining.wvup.edu/construction-and-trades-renewable-energy-programs/" target="_blank">careertraining.wvup.edu →</a>
-      </div>
-    </div>
-    <div class="wf-subnav-inline">
-      <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-      <a href="#wf-education" class="wf-nav-btn">Education</a>
-      <a href="#wf-events" class="wf-nav-btn">Events</a>
-      <a href="#wf-grants" class="wf-nav-btn">Grants</a>
-    </div>
-  </div>
-
-  <div id="wf-events" class="wf-panel">
-    <h3 class="wf-panel-title"><span class="num">03</span>Events &amp; Public Meetings</h3>
-    <div class="wf-cards">
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip btc">BTC</span><span class="wf-chip civic">Civic</span></div>
-        <div class="wf-card-title">Mountain State Freedom Tech (MSFT-WV)</div>
-        <div class="wf-card-desc">Morgantown's Bitcoin and freedom-tech meetup, formerly HODL in the Holler, run by <a href="https://montanibitcoin.com" target="_blank" rel="noopener">MØNTAN1 Consulting</a>. Upcoming: "Code is not a Crime: Free Samourai" on June 11, 2026 at Short Story Brewing in Westover.</div>
-        <a class="wf-card-link" href="https://www.meetup.com/msft-wv/" target="_blank">meetup.com/msft-wv →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip btc">BTC</span></div>
-        <div class="wf-card-title">Charleston Bitcoin Meetup</div>
-        <div class="wf-card-desc">In-person meetup for Bitcoin enthusiasts, builders, and the curious in the Kanawha Valley. Lightning, sovereignty, custody, and policy talk over food.</div>
-        <a class="wf-card-link" href="https://www.meetup.com/charleston-bitcoin-meetup/" target="_blank">meetup.com/charleston-bitcoin-meetup →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span><span class="wf-chip gov">Gov</span></div>
-        <div class="wf-card-title">WV Digital Government Summit</div>
-        <div class="wf-card-desc">Annual statewide convening of state and local government leaders, sponsors, and technology partners. October 29, 2026 in Charleston.</div>
-        <a class="wf-card-link" href="https://events.govtech.com/West-Virginia-Digital-Government-Summit" target="_blank">events.govtech.com →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span><span class="wf-chip research">Research</span></div>
-        <div class="wf-card-title">WVU AI Symposium</div>
-        <div class="wf-card-desc">Annual research showcase covering dermatological AI analysis, anti-cancer peptide design, autonomous manufacturing algorithms, and broadband equity mapping for rural Appalachia.</div>
-        <a class="wf-card-link" href="https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/" target="_blank">hsc.wvu.edu →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip civic">Civic</span></div>
-        <div class="wf-card-title">Tucker United Events</div>
-        <div class="wf-card-desc">Community potlucks, roundtables, and teach-ins on the Fundamental Data Ridgeline proposal. Open to the public; the group books presentations with churches and community organizations.</div>
-        <a class="wf-card-link" href="https://www.tuckerunited.com/about-7" target="_blank">tuckerunited.com →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip civic">Civic</span></div>
-        <div class="wf-card-title">Tucker County Commission</div>
-        <div class="wf-card-desc">Twice-monthly public meetings at the Tucker County Courthouse in Parsons. Public comment period included in every meeting; agendas published in advance.</div>
-        <a class="wf-card-link" href="https://tuckercountycommission.com/agendas" target="_blank">tuckercountycommission.com/agendas →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip civic">Civic</span></div>
-        <div class="wf-card-title">Tucker County Development Authority</div>
-        <div class="wf-card-desc">Third Thursday of every month, 6:00 PM at the NYSF Building (494 Riverstone Road, Davis). Economic-development decisions including data-center incentive discussions.</div>
-        <a class="wf-card-link" href="https://tuckerwv.com/about-us/meeting-information/" target="_blank">tuckerwv.com →</a>
-      </div>
-    </div>
-    <div class="wf-subnav-inline">
-      <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-      <a href="#wf-education" class="wf-nav-btn">Education</a>
-      <a href="#wf-events" class="wf-nav-btn">Events</a>
-      <a href="#wf-grants" class="wf-nav-btn">Grants</a>
-    </div>
-  </div>
-
-  <div id="wf-grants" class="wf-panel">
-    <h3 class="wf-panel-title"><span class="num">04</span>Grants &amp; Funding</h3>
-    <div class="wf-cards">
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span></div>
-        <div class="wf-card-title">EDA AI Upskill Accelerator Pilot Program</div>
-        <div class="wf-card-desc">$25M NOFO announced May 11, 2026 by the US Department of Commerce. Funds workforce training in in-demand AI skills critical to business outcomes. Apply at eda.gov/ai-upskill.</div>
-        <a class="wf-card-link" href="https://www.eda.gov/news/press-release/2026/05/11/us-department-commerce-announces-25-million-notice-funding" target="_blank">eda.gov press release →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip tech">Tech</span></div>
-        <div class="wf-card-title">EDA Good Jobs Challenge</div>
-        <div class="wf-card-desc">$500M EDA program funding regional workforce training systems with deep employer partnerships in tech-based industries. Multi-year and renewable.</div>
-        <a class="wf-card-link" href="https://www.eda.gov/funding/funding-opportunities/all-opportunities" target="_blank">eda.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip transition">Just Transition</span></div>
-        <div class="wf-card-title">ARC POWER Initiative</div>
-        <div class="wf-card-desc">Appalachian Regional Commission funding for coal-impacted communities expanding into new sectors including clean energy, tech, and tourism. Annual application cycle.</div>
-        <a class="wf-card-link" href="https://www.arc.gov/grants-and-opportunities/" target="_blank">arc.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip transition">Just Transition</span></div>
-        <div class="wf-card-title">ARC WORC: Workforce Opportunity for Rural Communities</div>
-        <div class="wf-card-desc">ARC partners with the US Department of Labor on training and support for dislocated, new, and incumbent workers across rural Appalachia. Tracks include tech and clean energy.</div>
-        <a class="wf-card-link" href="https://www.arc.gov/grants-and-opportunities/" target="_blank">arc.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip gov">Gov</span></div>
-        <div class="wf-card-title">WV Grants Portal: ARC Federal Grant Program</div>
-        <div class="wf-card-desc">State-administered intake for ARC funds. Applications run through WV's Office of Federal Grants Management; deadlines typically end of March each year.</div>
-        <a class="wf-card-link" href="https://grants.wv.gov/grants/Pages/grantdetails.aspx?grantid=93" target="_blank">grants.wv.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip gov">Gov</span></div>
-        <div class="wf-card-title">WV Secretary of State: Funding &amp; Grant Resources</div>
-        <div class="wf-card-desc">Directory of state and federal funding for WV businesses, nonprofits, and local governments. Updated quarterly; bookmark this page for new tech and workforce RFPs.</div>
-        <a class="wf-card-link" href="https://sos.wv.gov/business/general-information/funding-grant-resources" target="_blank">sos.wv.gov →</a>
-      </div>
-      <div class="wf-card">
-        <div class="wf-chips"><span class="wf-chip ai">AI</span><span class="wf-chip research">Research</span></div>
-        <div class="wf-card-title">WVU Strategic Compass Seed Innovation Fund</div>
-        <div class="wf-card-desc">President Benson's seed funding for projects across education, discovery, health, and service. Open to interdisciplinary teams; AI and computational projects encouraged.</div>
-        <a class="wf-card-link" href="https://wvutoday.wvu.edu/stories/2026/02/20/wvu-to-seed-innovation-in-support-of-strategic-compass" target="_blank">wvutoday.wvu.edu →</a>
-      </div>
-    </div>
-    <div class="wf-subnav-inline">
-      <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-      <a href="#wf-education" class="wf-nav-btn">Education</a>
-      <a href="#wf-events" class="wf-nav-btn">Events</a>
-      <a href="#wf-grants" class="wf-nav-btn">Grants</a>
-    </div>
-  </div>
-</section>
 
 <!-- FOOTER -->
 <footer class="page-footer">
@@ -3094,6 +2825,1417 @@ function initWatch(){
 }
 document.addEventListener('DOMContentLoaded', initWatch);
 if(document.readyState !== 'loading') initWatch();
+
+// ═══════════════════════════════════════════
+// CALENDAR DATA (source: research/calendar_data.py, which also writes research/2026-11-calendar.md)
+// Times are US Eastern. approx/tbd items are excluded from .ics downloads.
+// ═══════════════════════════════════════════
+const EVENTS = [
+ {
+  "id": "election",
+  "date": "2026-11-03",
+  "start": "06:30",
+  "endt": "19:30",
+  "type": "government",
+  "title": "General Election Day",
+  "desc": "HB 2014 (data-center local control) and high-voltage transmission lines are top issues in legislative races.",
+  "county": "Statewide",
+  "host": "WV Secretary of State",
+  "how": "Vote at your assigned polling place, 6:30 a.m. to 7:30 p.m.",
+  "project": "hb2014",
+  "sources": [
+   [
+    "WV MetroNews",
+    "https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-fisher",
+  "date": "2026-11-04",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Fisher",
+  "desc": "First of 12 sessions on preliminary routes for the 765 kV Valley North line. Four more are out of state: Winchester, VA (Nov 5), Lovettsville, VA (Nov 12), and Brunswick, MD (Nov 19).",
+  "venue": "Misty Mountain Event Barn",
+  "address": "430 Misty Mountain Rd., Fisher, WV 26818",
+  "county": "Hardy",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-hambleton",
+  "date": "2026-11-04",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "developer",
+  "title": "Valley Link open house: Hambleton",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Tucker County High School",
+  "address": "116 Mountain Lion Way, Hambleton, WV 26269",
+  "county": "Tucker",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-sissonville",
+  "date": "2026-11-05",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "developer",
+  "title": "Valley Link open house: Sissonville",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Sissonville Middle School",
+  "address": "100 Middle School Ln., Charleston, WV 25312",
+  "county": "Kanawha",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "interims-nov",
+  "date": "2026-11-09",
+  "end": "2026-11-11",
+  "type": "legislature",
+  "title": "Legislative interim meetings",
+  "desc": "Joint interim committees meet between sessions. The Rule-Making Review Committee takes up the PSC's HB 2014 capacity rule on Nov 10 (see that entry).",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Legislature",
+  "how": "Open to the public. Agendas are posted on the Legislature's interim page.",
+  "project": "hb2014",
+  "sources": [
+   [
+    "Legislature: interim schedule",
+    "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   ]
+  ]
+ },
+ {
+  "id": "rmr-150csr41",
+  "date": "2026-11-10",
+  "start": "12:00",
+  "endt": "17:00",
+  "type": "legislature",
+  "title": "Rule-Making Review Committee: the PSC's HB 2014 capacity rule",
+  "desc": "On the agenda: 150 CSR 41, the PSC's rules for generating capacity and economic dispatch, written in Case 26-0633-E-GI. This is the rule that made a 69% coal capacity factor a goal instead of a mandate.",
+  "venue": "Senate Judiciary Committee room, State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "Legislative Rule-Making Review Committee",
+  "how": "Open to the public. The committee can recommend the rule be approved, amended, or withdrawn before the 2027 session.",
+  "project": "hb2014",
+  "sources": [
+   [
+    "Interim agenda (Nov 9–11)",
+    "https://www.wvlegislature.gov/committees/interims/intcomsched_agenda.cfm?day1=11/09/2026"
+   ],
+   [
+    "West Virginia Watch",
+    "https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-buckhannon",
+  "date": "2026-11-12",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Buckhannon",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "The Event Center at Brushy Fork",
+  "address": "929 Brushy Fork Rd., Buckhannon, WV 26201",
+  "county": "Upshur",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-spencer",
+  "date": "2026-11-17",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Spencer",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Spencer Armory",
+  "address": "206 E. Main St., Spencer, WV 25276",
+  "county": "Roane",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-capon",
+  "date": "2026-11-17",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Capon Bridge",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Capon Bridge Community Complex (Old Capon Bridge Middle School)",
+  "address": "195 Capon School St., Capon Bridge, WV 26711",
+  "county": "Hampshire",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "tu-smallbiz",
+  "date": "2026-11-17",
+  "start": "17:00",
+  "endt": "19:00",
+  "type": "community",
+  "title": "Tucker United small business meeting",
+  "desc": "A meeting for local businesses, hosted by Tucker United and a Thomas business owner.",
+  "venue": "McClumsy",
+  "address": "Front St., Thomas, WV 26292",
+  "county": "Tucker",
+  "host": "Tucker United",
+  "how": "Open to the public.",
+  "project": "ridgeline",
+  "sources": [
+   [
+    "Tucker United events",
+    "https://www.tuckerunited.com/about-7"
+   ]
+  ]
+ },
+ {
+  "id": "vl-roanoke",
+  "date": "2026-11-18",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Roanoke",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Stonewall Resort, Roanoke Event Center",
+  "address": "940 Resort Dr., Roanoke, WV 26447",
+  "county": "Lewis",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-ranson",
+  "date": "2026-11-18",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Ranson",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Ranson Civic Center",
+  "address": "432 W. 2nd Ave., Ranson, WV 25438",
+  "county": "Jefferson",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "vl-glenville",
+  "date": "2026-11-19",
+  "start": "16:00",
+  "endt": "19:00",
+  "type": "developer",
+  "title": "Valley Link open house: Glenville",
+  "desc": "Valley Link (Dominion, FirstEnergy, Transource) shows preliminary route options for the 765 kV Valley North line and takes feedback.",
+  "venue": "Gilmer County Recreation Center",
+  "address": "1365 Sycamore Run, Glenville, WV 26351",
+  "county": "Gilmer",
+  "host": "Valley Link Transmission Co.",
+  "how": "Drop in any time during the window. This is a developer event, not a PSC hearing. To put comments on the official record, file with the PSC under FP Valley Link 26A.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley Link: open-house schedule",
+    "https://vltransmission.com/valley-north/"
+   ],
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "marl-briefs",
+  "date": "2026-11-23",
+  "type": "psc",
+  "title": "MARL initial briefs due (unconfirmed)",
+  "desc": "Parties in PSC Case 26-0075-E-CN file their initial briefs or proposed orders on NextEra's 500 kV line.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "how": "Filed by parties. Anyone can read the briefs on the PSC docket.",
+  "flag": "Date from Valley North Record. No briefing order appeared in PSC docket notices through Nov 2.",
+  "project": "marl",
+  "sources": [
+   [
+    "Valley North Record",
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ],
+   [
+    "PSC docket",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   ]
+  ]
+ },
+ {
+  "id": "irp-data",
+  "date": "2026-12-01",
+  "type": "psc",
+  "title": "Mon Power IRP data due",
+  "desc": "Mon Power and Potomac Edison must file the detailed data behind their Integrated Resource Plan (Case 25-0857-E-IRP), the long-range plan that includes the Fort Martin gas build.",
+  "county": "Statewide",
+  "host": "PSC, Case 25-0857-E-IRP",
+  "how": "Filed by the utilities. Read it on the PSC docket.",
+  "project": "fortmartin",
+  "sources": [
+   [
+    "PSC order, Aug 28, 2026",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669562"
+   ]
+  ]
+ },
+ {
+  "id": "marl-reply",
+  "date": "2026-12-04",
+  "type": "psc",
+  "title": "MARL reply briefs due (unconfirmed)",
+  "desc": "Reply briefs in PSC Case 26-0075-E-CN.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "flag": "Date from Valley North Record. Not yet confirmed by a PSC order.",
+  "project": "marl",
+  "sources": [
+   [
+    "Valley North Record",
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ]
+  ]
+ },
+ {
+  "id": "interims-dec",
+  "date": "2026-12-06",
+  "end": "2026-12-08",
+  "type": "legislature",
+  "title": "Legislative interim meetings",
+  "desc": "The last interim meetings before the 2027 session.",
+  "venue": "Location to be announced",
+  "county": "Statewide",
+  "host": "WV Legislature",
+  "how": "Open to the public. Agendas are posted about a week ahead.",
+  "project": "hb2014",
+  "sources": [
+   [
+    "Legislature: interim schedule",
+    "https://www.wvlegislature.gov/committees/interims/interims.cfm"
+   ]
+  ]
+ },
+ {
+  "id": "frr-staff",
+  "date": "2026-12-29",
+  "label": "~Dec 29",
+  "approx": true,
+  "type": "psc",
+  "title": "PSC Staff recommendation on AEP's FRR status",
+  "desc": "Staff's recommendation on whether Appalachian Power and Wheeling Power keep supplying their own capacity (Fixed Resource Requirement) instead of buying in PJM's data-center-driven capacity auction. Due 60 days after the Oct 30 utility responses.",
+  "county": "Statewide",
+  "host": "PSC, Case 25-0450-E-GI",
+  "project": "hb2014",
+  "sources": [
+   [
+    "PSC docket",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=84852"
+   ]
+  ]
+ },
+ {
+  "id": "session-open",
+  "date": "2027-01-13",
+  "start": "12:00",
+  "endt": "14:00",
+  "type": "legislature",
+  "title": "2027 Regular Session convenes",
+  "desc": "First session of the 88th Legislature, running Jan 13 to Mar 13. Coalition groups, Democratic delegates, and the WV NAACP are pushing to restore local control under HB 2014.",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Legislature",
+  "how": "Floor sessions and committee meetings are open to the public. Bills can be tracked on wvlegislature.gov.",
+  "project": "hb2014",
+  "sources": [
+   [
+    "WV Legislature",
+    "https://home.wvlegislature.gov/"
+   ]
+  ]
+ },
+ {
+  "id": "affordable-rally",
+  "date": "2027-01-26",
+  "start": "10:00",
+  "endt": "12:00",
+  "type": "protest",
+  "title": "WV Rally for Affordable Energy",
+  "desc": "A rally on electricity costs, data-center expansion, energy infrastructure, and environmental concerns.",
+  "venue": "South Steps, State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "host": "WV Utility Impact Project, with the Valley North Opposition Alliance",
+  "how": "Open to the public.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley North Record",
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ]
+  ]
+ },
+ {
+  "id": "fm-deadline",
+  "date": "2027-02-28",
+  "label": "By Feb 2027",
+  "approx": true,
+  "type": "psc",
+  "title": "Fort Martin decision deadline",
+  "desc": "The statutory deadline for the PSC to rule on Mon Power's 1,200 MW gas plant plus 70 MW of solar (Case 26-0108-E-CN). Briefing closed Sep 14, 2026.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0108-E-CN",
+  "project": "fortmartin",
+  "sources": [
+   [
+    "PSC docket",
+    "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   ]
+  ]
+ },
+ {
+  "id": "marl-decision",
+  "date": "2027-03-06",
+  "type": "psc",
+  "title": "MARL decision due",
+  "desc": "The decision date for NextEra's 500 kV line (Case 26-0075-E-CN), set Mar 18 and reaffirmed when the PSC refused to pause the case on Sep 4.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   [
+    "PSC order, Sep 4, 2026",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   ]
+  ]
+ },
+ {
+  "id": "session-end",
+  "date": "2027-03-13",
+  "type": "legislature",
+  "title": "2027 Regular Session ends (Day 60)",
+  "county": "Statewide",
+  "host": "WV Legislature",
+  "project": "hb2014",
+  "sources": [
+   [
+    "MultiState session calendar",
+    "https://www.multistate.us/resources/2027-legislative-session-dates"
+   ]
+  ]
+ },
+ {
+  "id": "mp-rate2",
+  "date": "2027-06-01",
+  "type": "psc",
+  "title": "Mon Power rate increase, step 2",
+  "desc": "The second step of Mon Power and Potomac Edison's $75.6M base-rate increase (Case 26-0508-E-42T), about $4.11/month for an average residential customer.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0508-E-42T",
+  "project": "fortmartin",
+  "sources": [
+   [
+    "Legal notice",
+    "https://wvlegals.com/public-service-commission-of-west-virginia-charleston-case-no-26-0508-e-42t-monongahela-power-company-and-the-potomac-edison-company/"
+   ]
+  ]
+ },
+ {
+  "id": "tbd-monarch",
+  "tbd": true,
+  "type": "hearing",
+  "title": "Monarch air permit R14-0042: DEP final decision",
+  "desc": "DEP will publish a response-to-comments document and a final determination on the 2.16 GW, 864-engine gas microgrid.",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   [
+    "WSAZ",
+    "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+   ]
+  ]
+ },
+ {
+  "id": "tbd-ridgeline",
+  "tbd": true,
+  "type": "court",
+  "title": "Ridgeline air-permit appeal refiled",
+  "desc": "Tucker United, WVHC, and Sierra Club plan to refile in circuit court or the Supreme Court of Appeals after the ICA's jurisdictional dismissal.",
+  "county": "Tucker",
+  "host": "Appalachian Mountain Advocates (counsel)",
+  "project": "ridgeline",
+  "sources": [
+   [
+    "WVHC",
+    "https://www.wvhighlands.org/?p=15160"
+   ]
+  ]
+ },
+ {
+  "id": "tbd-barks",
+  "tbd": true,
+  "type": "court",
+  "title": "Barks v. Silicon Foundation: next hearing",
+  "desc": "Twelve Warwood residents are challenging HB 2014's constitutionality. The Attorney General has intervened to defend the law.",
+  "venue": "Ohio County Circuit Court",
+  "county": "Ohio",
+  "project": "warwood",
+  "sources": [
+   [
+    "WV MetroNews",
+    "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   ]
+  ]
+ },
+ {
+  "id": "tbd-vlapp",
+  "tbd": true,
+  "type": "psc",
+  "title": "Valley Link files its formal PSC application",
+  "desc": "Expected late 2026 or early 2027, with a preferred route in early 2027. It will get a new E-CN case number. Until then, comments go to FP Valley Link 26A.",
+  "county": "Statewide",
+  "host": "Valley Link Transmission Co.",
+  "project": "valleylink",
+  "sources": [
+   [
+    "How to comment (FP Valley Link 26A)",
+    "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"
+   ]
+  ]
+ },
+ {
+  "id": "tbd-council",
+  "tbd": true,
+  "type": "government",
+  "title": "Data Center Advisory Council launches",
+  "desc": "Promised in the Governor's Aug 11 plan to recommend setbacks, noise, and site standards. No roster or start date has been published.",
+  "county": "Statewide",
+  "host": "Commerce Dept. Data Economy Office",
+  "project": "hb2014",
+  "sources": [
+   [
+    "Gazette-Mail",
+    "https://www.wvgazettemail.com/news/energy_and_environment/the-same-story-morrisey-data-center-plan-doubles-down-on-industry-regulation-gaps/article_e22e72d4-4aa9-4696-8396-51e98d4f3e08.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-stopvl",
+  "date": "2026-11-02",
+  "start": "14:00",
+  "endt": "18:00",
+  "type": "protest",
+  "title": "Stop Valley Link peaceful protest",
+  "desc": "Info table at the gazebo.",
+  "venue": "Barbour County Courthouse",
+  "address": "26 N. Main St., Philippi, WV 26416",
+  "county": "Barbour",
+  "host": "Stop Valley Link",
+  "project": "valleylink",
+  "sources": [
+   [
+    "Valley North Record",
+    "https://valleynorthrecord.substack.com/p/regional-osint-db7"
+   ]
+  ]
+ },
+ {
+  "id": "p-marl-hearing",
+  "date": "2026-10-26",
+  "end": "2026-11-02",
+  "type": "psc",
+  "title": "MARL evidentiary hearing",
+  "desc": "Six hearing days on NextEra's 500 kV line. NextEra settled with Lake O' Woods Club on Oct 23.",
+  "venue": "Howard M. Cunningham Hearing Room, PSC",
+  "address": "201 Brooks St., Charleston, WV 25301",
+  "county": "Kanawha",
+  "virtual": "Live-streamed",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   [
+    "PSC order, Sep 30",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=671382"
+   ]
+  ]
+ },
+ {
+  "id": "p-monarch-deadline",
+  "date": "2026-10-30",
+  "type": "hearing",
+  "title": "Monarch air permit comment deadline",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   [
+    "WSAZ",
+    "https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/"
+   ]
+  ]
+ },
+ {
+  "id": "p-monarch-virtual",
+  "date": "2026-10-29",
+  "type": "hearing",
+  "title": "DEP virtual hearing: Monarch air permit R14-0042",
+  "county": "Mason",
+  "virtual": "Online (registration required)",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   [
+    "Gazette-Mail",
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-digigov",
+  "date": "2026-10-29",
+  "type": "government",
+  "title": "WV Digital Government Summit",
+  "desc": "State and local leaders on AI implementation, digital transformation, and cybersecurity.",
+  "venue": "Charleston",
+  "county": "Kanawha",
+  "host": "GovTech",
+  "project": "hb2014",
+  "sources": [
+   [
+    "GovTech Events",
+    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
+   ]
+  ]
+ },
+ {
+  "id": "p-monarch-water",
+  "date": "2026-10-26",
+  "start": "17:00",
+  "endt": "20:00",
+  "type": "hearing",
+  "title": "DEP water-permit workshop and hearing: Monarch",
+  "venue": "Point Pleasant High School",
+  "address": "280 Scenic Dr., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Water & Waste Management",
+  "project": "monarch",
+  "sources": [
+   [
+    "WCHS",
+    "https://wchstv.com/news/local/public-hearing-input-used-in-massive-data-center-state-waters-application-decision"
+   ]
+  ]
+ },
+ {
+  "id": "p-monroe",
+  "date": "2026-10-26",
+  "label": "Reported Oct 26",
+  "type": "protest",
+  "title": "Monroe County data center protest",
+  "desc": "Residents rallied in Giles County, VA, outside the office of a landowner whose Monroe County land is rumored as a data center site.",
+  "venue": "Giles County, VA",
+  "county": "Monroe",
+  "project": "monroe",
+  "sources": [
+   [
+    "WVTF / Radio IQ",
+    "https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center"
+   ]
+  ]
+ },
+ {
+  "id": "p-monarch-air",
+  "date": "2026-10-20",
+  "type": "hearing",
+  "title": "DEP air-permit workshop: Monarch",
+  "desc": "Seven people commented. Most raised health concerns or asked for more time.",
+  "venue": "Point Pleasant High School",
+  "address": "280 Scenic Dr., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Division of Air Quality",
+  "project": "monarch",
+  "sources": [
+   [
+    "Gazette-Mail",
+    "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-tu-townhall",
+  "date": "2026-10-19",
+  "start": "18:00",
+  "endt": "20:00",
+  "type": "community",
+  "title": "Tucker United town hall on Ridgeline",
+  "venue": "Davis Town Hall",
+  "address": "505 William Ave., Davis, WV 26260",
+  "county": "Tucker",
+  "host": "Tucker United",
+  "project": "ridgeline",
+  "sources": [
+   [
+    "Tucker United events",
+    "https://www.tuckerunited.com/about-7"
+   ]
+  ]
+ },
+ {
+  "id": "p-capitol-protest",
+  "date": "2026-09-14",
+  "type": "protest",
+  "title": "Data center protest at the State Capitol",
+  "desc": "Residents from Tucker, Mason, and Putnam counties protested data center development.",
+  "venue": "State Capitol",
+  "address": "1900 Kanawha Blvd. E., Charleston, WV 25305",
+  "county": "Kanawha",
+  "project": "hb2014",
+  "sources": [
+   [
+    "Mountain State Spotlight",
+    "https://mountainstatespotlight.org/2026/10/28/data-center-opposition/"
+   ]
+  ]
+ },
+ {
+  "id": "p-wvdcap",
+  "date": "2026-09-08",
+  "type": "community",
+  "title": "WV Data Center Accountability Project launches",
+  "desc": "A statewide coalition: WV CAG, Tucker United, Putnam United, Mason WV United, Sierra Club WV, WVHC, and No Data Centers in the Eastern Panhandle.",
+  "venue": "Charleston",
+  "county": "Kanawha",
+  "host": "WVDCAP",
+  "project": "hb2014",
+  "sources": [
+   [
+    "WV CAG release",
+    "https://wvcag.org/?p=16377"
+   ]
+  ]
+ },
+ {
+  "id": "p-marl-order",
+  "date": "2026-09-04",
+  "type": "psc",
+  "title": "PSC refuses to pause or dismiss MARL",
+  "desc": "The Commission denied Staff's motion and the NextEra–Staff schedule change, and ordered a study of the existing Gore–Hampshire right-of-way.",
+  "county": "Statewide",
+  "host": "PSC, Case 26-0075-E-CN",
+  "project": "marl",
+  "sources": [
+   [
+    "PSC order",
+    "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=669977"
+   ]
+  ]
+ },
+ {
+  "id": "p-greenbrier",
+  "date": "2026-09-03",
+  "type": "government",
+  "title": "Monarch and Tamarack certified at The Greenbrier",
+  "desc": "Gov. Morrisey announced both Mason County certifications at the WV Chamber's Annual Meeting & Business Summit.",
+  "venue": "The Greenbrier",
+  "address": "White Sulphur Springs, WV",
+  "county": "Greenbrier",
+  "host": "WV Chamber of Commerce",
+  "project": "monarch",
+  "sources": [
+   [
+    "Herald-Dispatch",
+    "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-ica",
+  "date": "2026-08-26",
+  "type": "court",
+  "title": "ICA dismisses Ridgeline air-permit appeals",
+  "desc": "Dismissed on jurisdiction, not the merits.",
+  "county": "Tucker",
+  "host": "WV Intermediate Court of Appeals",
+  "project": "ridgeline",
+  "sources": [
+   [
+    "WTAP",
+    "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
+   ]
+  ]
+ },
+ {
+  "id": "p-putnam-res",
+  "date": "2026-08-25",
+  "start": "17:00",
+  "endt": "19:00",
+  "type": "community",
+  "title": "Putnam United resolution at the County Commission",
+  "desc": "Residents asked commissioners for a say in data center decisions.",
+  "venue": "Putnam County Commission",
+  "address": "Winfield, WV",
+  "county": "Putnam",
+  "host": "Putnam United",
+  "project": "google",
+  "sources": [
+   [
+    "Gazette-Mail",
+    "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-naacp",
+  "date": "2026-08-14",
+  "end": "2026-08-15",
+  "type": "community",
+  "title": "WV NAACP convention calls for a moratorium",
+  "desc": "Delegates unanimously demanded a pause of at least two years on high-impact data centers and microgrids.",
+  "venue": "Huntington",
+  "county": "Cabell",
+  "host": "WV NAACP",
+  "project": "hb2014",
+  "sources": [
+   [
+    "The Fulcrum",
+    "https://thefulcrum.us/community/west-virginia-naacp-data-center-moratorium-call"
+   ]
+  ]
+ },
+ {
+  "id": "p-govplan",
+  "date": "2026-08-11",
+  "type": "government",
+  "title": "Governor unveils the Responsible Data Center Development Plan",
+  "county": "Statewide",
+  "host": "Gov. Patrick Morrisey",
+  "project": "hb2014",
+  "sources": [
+   [
+    "WDTV",
+    "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
+   ]
+  ]
+ },
+ {
+  "id": "p-fm-hearing",
+  "date": "2026-07-15",
+  "end": "2026-07-16",
+  "type": "psc",
+  "title": "Fort Martin public-comment and evidentiary hearings",
+  "venue": "Howard M. Cunningham Hearing Room, PSC",
+  "address": "201 Brooks St., Charleston, WV 25301",
+  "county": "Kanawha",
+  "host": "PSC, Case 26-0108-E-CN",
+  "project": "fortmartin",
+  "sources": [
+   [
+    "Dominion Post",
+    "https://www.dominionpost.com/?p=566179"
+   ]
+  ]
+ },
+ {
+  "id": "p-canaan",
+  "date": "2026-06-14",
+  "end": "2026-06-16",
+  "type": "legislature",
+  "title": "Interims at Canaan Valley, with Tucker United picnic and Davis panel",
+  "desc": "Tucker United held a solidarity picnic and a roadside protest, Democrats held a press event at Davis Town Hall (Jun 15), and Mountain State Spotlight hosted a panel at Davis Fire Hall.",
+  "venue": "Canaan Valley Resort",
+  "address": "Davis, WV 26260",
+  "county": "Tucker",
+  "host": "WV Legislature",
+  "project": "ridgeline",
+  "sources": [
+   [
+    "WVHC update",
+    "https://www.wvhighlands.org/?p=15053"
+   ],
+   [
+    "Mountain State Spotlight",
+    "https://mountainstatespotlight.org/2026/06/16/tucker-county-panel-discussion/"
+   ]
+  ]
+ },
+ {
+  "id": "p-monarch-sw",
+  "date": "2026-06-15",
+  "start": "18:00",
+  "endt": "20:00",
+  "type": "hearing",
+  "title": "DEP hearing: Monarch pipeline stormwater permit (WVR312628)",
+  "venue": "Mason County Courthouse",
+  "address": "200 Sixth St., Point Pleasant, WV 25550",
+  "county": "Mason",
+  "host": "WV DEP Water & Waste Management",
+  "project": "monarch",
+  "sources": [
+   [
+    "Gazette-Mail",
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+   ]
+  ]
+ },
+ {
+  "id": "p-warwood",
+  "date": "2026-06-01",
+  "label": "Jun 2026",
+  "approx": true,
+  "type": "community",
+  "title": "Warwood town hall with Del. Shawn Fluharty",
+  "venue": "Warwood Veterans Association",
+  "address": "Wheeling, WV",
+  "county": "Ohio",
+  "project": "warwood",
+  "sources": [
+   [
+    "WTOV9",
+    "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
+   ]
+  ]
+ }
+];
+
+const STANDING = [
+ {
+  "body": "Berkeley County Commission",
+  "county": "Berkeley",
+  "rule": "Thursdays, 9:30 a.m. (most weeks; check the agenda center)",
+  "where": "Commission Chambers, 400 W. Stephen St., Suite 205, Martinsburg",
+  "next": "Nov 5",
+  "projects": [
+   "penzance",
+   "qts"
+  ],
+  "url": "https://www.berkeleywv.org/agendacenter"
+ },
+ {
+  "body": "Grant County Commission",
+  "county": "Grant",
+  "rule": "2nd and 4th Tuesdays (based on posted agendas)",
+  "where": "5 Highland Ave., Petersburg",
+  "projects": [
+   "ridgeline"
+  ],
+  "url": "https://www.grantcountywv.org/agencies/agendas/CommissionAgendas.php",
+  "note": "Ridgeline could expand into Grant County."
+ },
+ {
+  "body": "Hampshire County Commission",
+  "county": "Hampshire",
+  "rule": "Set at the first meeting of each year. Agendas are posted 3 business days ahead.",
+  "where": "Romney",
+  "projects": [
+   "marl",
+   "valleylink"
+  ],
+  "url": "http://hampshirewv.com/CommAgenda.html"
+ },
+ {
+  "body": "Jefferson County Commission",
+  "county": "Jefferson",
+  "rule": "1st Thursday 9:30 a.m. and 3rd Thursday 6:00 p.m. (5th Thursday 9:30 a.m.)",
+  "where": "Charles Town",
+  "next": "Nov 5 (9:30 a.m.)",
+  "projects": [
+   "qts",
+   "summit"
+  ],
+  "url": "https://www.jeffersoncountywv.org/county-government/elected-officials/county-commission/meeting-session-information"
+ },
+ {
+  "body": "Marion County Commission",
+  "county": "Marion",
+  "rule": "2nd and 4th Wednesdays, 10:00 a.m.",
+  "where": "J. Harper Meredith Building, 4th floor, Fairmont",
+  "projects": [
+   "hoglick"
+  ],
+  "url": "https://www.marioncountywv.com/departments/county_commission/index.php"
+ },
+ {
+  "body": "Mason County Commission",
+  "county": "Mason",
+  "rule": "Thursdays, 4:00 p.m. (dates on the county calendar)",
+  "where": "Mason County Courthouse, 200 Sixth St., Point Pleasant",
+  "projects": [
+   "monarch",
+   "tamarack"
+  ],
+  "url": "https://masoncountywv.gov/calendar/"
+ },
+ {
+  "body": "Mineral County Commission",
+  "county": "Mineral",
+  "rule": "Usually the 2nd Tuesday at 8:30 a.m. and the 4th Tuesday at 4:30 p.m. (based on posted agendas)",
+  "where": "Administrative Annex, 68 Armstrong St., Keyser. Zoom offered.",
+  "projects": [
+   "marl"
+  ],
+  "url": "https://www.mineralwv.gov/agendas-minutes/"
+ },
+ {
+  "body": "Mingo County Commission",
+  "county": "Mingo",
+  "rule": "Tuesdays, 4:30 p.m. (from a past notice; confirm locally)",
+  "where": "Room 308-B, 78 E. 2nd Ave., Williamson",
+  "projects": [
+   "adams-tg",
+   "adams-h"
+  ],
+  "url": "https://mingocountywv.com/"
+ },
+ {
+  "body": "Monongalia County Commission",
+  "county": "Monongalia",
+  "rule": "Every Wednesday, 10:00 a.m.",
+  "where": "County Courthouse, 2nd floor, 243 High St., Morgantown",
+  "projects": [
+   "fortmartin",
+   "marl"
+  ],
+  "url": "https://www.monongaliacounty.gov/commission/meeting_schedule/index.php"
+ },
+ {
+  "body": "Monroe County Commission",
+  "county": "Monroe",
+  "rule": "1st Wednesday, 9:00 a.m.",
+  "where": "Monroe County Courthouse, Union",
+  "next": "Nov 4",
+  "projects": [
+   "monroe"
+  ],
+  "url": "https://www.monroecountywv.gov/commission/commission-meetings/149"
+ },
+ {
+  "body": "Ohio County Commission",
+  "county": "Ohio",
+  "rule": "Tuesdays, 8:00 a.m. (check the county calendar)",
+  "where": "Room 215, City-County Building, 1500 Chapline St., Wheeling",
+  "projects": [
+   "warwood"
+  ],
+  "url": "https://www.ohiocountywv.gov/calendar"
+ },
+ {
+  "body": "Wheeling City Council",
+  "county": "Ohio",
+  "rule": "1st and 3rd Tuesdays, 5:30 p.m.",
+  "where": "Council Chambers, City-County Building, Wheeling",
+  "next": "Nov 4 (moved for the election) and Nov 17",
+  "projects": [
+   "warwood"
+  ],
+  "url": "https://www.wheelingwv.gov/meetings",
+  "note": "The Warwood project is described as under 90 MW, so the city, not HB 2014, has oversight."
+ },
+ {
+  "body": "Preston County Commission",
+  "county": "Preston",
+  "rule": "Tuesdays 9:30 a.m.; the last Tuesday of the month at 6:00 p.m.",
+  "where": "Suite 202, Kingwood",
+  "projects": [
+   "marl"
+  ],
+  "url": "https://www.prestoncountywv.gov/197/County-Commission"
+ },
+ {
+  "body": "Putnam County Commission",
+  "county": "Putnam",
+  "rule": "2nd Tuesday 9:00 a.m. and last Tuesday 5:00 p.m.",
+  "where": "Winfield",
+  "projects": [
+   "google"
+  ],
+  "url": "https://putnamcountywv.gov/commission/"
+ },
+ {
+  "body": "Putnam County Development Authority",
+  "county": "Putnam",
+  "rule": "3rd Tuesday, 4:30 p.m.",
+  "where": "Putnam County",
+  "projects": [
+   "google"
+  ],
+  "url": "https://pcda.org/meetings/",
+  "note": "It helped direct Google's first round of community investments."
+ },
+ {
+  "body": "Tucker County Commission",
+  "county": "Tucker",
+  "rule": "2nd Wednesday 9:00 a.m. and 4th Wednesday 4:00 p.m.",
+  "where": "Courthouse courtroom, 215 1st St., Parsons",
+  "projects": [
+   "ridgeline"
+  ],
+  "url": "https://tuckercountycommission.com/county-commission"
+ },
+ {
+  "body": "Tucker County Development Authority",
+  "county": "Tucker",
+  "rule": "3rd Thursday, 6:00 p.m.",
+  "where": "NYSF Building, 494 Riverstone Rd., Davis",
+  "projects": [
+   "ridgeline"
+  ],
+  "url": "https://tuckerwv.com/"
+ }
+];
+
+// ═══════════════════════════════════════════
+// CALENDAR: RENDERING (agenda + month grid + standing meetings + .ics)
+// "Today" comes from the viewer's clock (override for QA with ?today=YYYY-MM-DD),
+// so past events archive themselves without edits.
+// ═══════════════════════════════════════════
+const EV_TYPES = {
+  hearing:     { label:'DEP hearing / comment', color:'#ffb020' },
+  psc:         { label:'PSC',                   color:'#34d399' },
+  court:       { label:'Court',                 color:'#c084fc' },
+  legislature: { label:'Legislature',           color:'#7dd3fc' },
+  protest:     { label:'Protest / rally',       color:'#ff5c7a' },
+  community:   { label:'Town hall / community', color:'#00d4ff' },
+  government:  { label:'Government',            color:'#a5b4fc' },
+  developer:   { label:'Developer open house',  color:'#94a3b8' },
+};
+const EXTRA_PROJECTS = { marl:'MARL 500 kV line', valleylink:'Valley Link 765 kV line', hb2014:'Statewide / HB 2014' };
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+const cx = { view:'agenda', type:'all', county:'all', project:'all', showPast:false, month:null, sel:null };
+
+function cxToday(){
+  try {
+    const q = new URLSearchParams(location.search).get('today');
+    if (q && /^\d{4}-\d{2}-\d{2}$/.test(q)) return q;
+  } catch(e) {}
+  const d = new Date();
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+const TODAY = cxToday();
+const toDate = s => new Date(s+'T12:00:00');
+const ymd = d => d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const isPast = e => !e.tbd && (e.end || e.date) < TODAY;
+const projName = id => (PROJECTS.find(p=>p.id===id)||{}).short || EXTRA_PROJECTS[id] || id;
+const projHref = id => PROJECTS.some(p=>p.id===id) ? '#proj-'+id : '#docket';
+
+function fmt12(t){
+  const [h,m] = t.split(':').map(Number);
+  return { t: ((h%12)||12)+':'+String(m).padStart(2,'0'), ap: h<12 ? 'a.m.' : 'p.m.' };
+}
+function timeRange(e){
+  if (!e.start) return '';
+  const a = fmt12(e.start);
+  if (!e.endt) return a.t+' '+a.ap;
+  const b = fmt12(e.endt);
+  return a.ap===b.ap ? a.t+'–'+b.t+' '+b.ap : a.t+' '+a.ap+'–'+b.t+' '+b.ap;
+}
+function dateBlock(e){
+  if (e.tbd) return '<span class="d sm">TBD</span>';
+  if (e.label) return '<span class="d sm">'+escapeHTML(e.label)+'</span>';
+  const a = toDate(e.date);
+  if (!e.end) return '<span class="d">'+a.getDate()+'</span><span class="w">'+DOW[a.getDay()]+'</span>';
+  const b = toDate(e.end);
+  if (a.getMonth()===b.getMonth())
+    return '<span class="d sm">'+a.getDate()+'–'+b.getDate()+'</span><span class="w">'+DOW[a.getDay()]+'–'+DOW[b.getDay()]+'</span>';
+  return '<span class="d sm">'+MONTHS[a.getMonth()].slice(0,3)+' '+a.getDate()+'–'+MONTHS[b.getMonth()].slice(0,3)+' '+b.getDate()+'</span>';
+}
+function cxMatch(e){
+  return (cx.type==='all' || e.type===cx.type)
+      && (cx.county==='all' || e.county===cx.county)
+      && (cx.project==='all' || e.project===cx.project);
+}
+function evHTML(e){
+  const t = EV_TYPES[e.type] || EV_TYPES.government;
+  const where = [e.venue, e.address].filter(Boolean).join(', ');
+  const tr = timeRange(e);
+  const canIcs = !e.tbd && !e.approx;
+  return `<article class="cx-ev${isPast(e)?' past':''}" style="--ev:${t.color}">
+    <div class="cx-date">${dateBlock(e)}</div>
+    <div>
+      <div class="cx-meta"><span class="cx-type">${t.label}</span>${tr?'<span>'+tr+'</span>':''}<span>${escapeHTML(e.county||'')}${e.county&&e.county!=='Statewide'?' Co.':''}</span>${e.flag?'<span class="cx-flag">⚠ Unconfirmed</span>':''}</div>
+      <h4 class="cx-title">${escapeHTML(e.title)}</h4>
+      ${e.desc?'<p class="cx-desc">'+escapeHTML(e.desc)+'</p>':''}
+      ${where?'<p class="cx-line"><b>Where</b>'+escapeHTML(where)+'</p>':''}
+      ${e.virtual?'<p class="cx-line"><b>Online</b>'+escapeHTML(e.virtual)+'</p>':''}
+      ${e.host?'<p class="cx-line"><b>Host</b>'+escapeHTML(e.host)+'</p>':''}
+      ${e.how?'<p class="cx-line"><b>Take part</b>'+escapeHTML(e.how)+'</p>':''}
+      ${e.flag?'<p class="cx-line"><b>Note</b>'+escapeHTML(e.flag)+'</p>':''}
+      <div class="cx-links">
+        ${e.project?'<a class="rel" href="'+projHref(e.project)+'">'+escapeHTML(projName(e.project))+' →</a>':''}
+        ${(e.sources||[]).map(([l,u])=>'<a href="'+u+'" target="_blank" rel="noopener">'+escapeHTML(l)+' ↗</a>').join('')}
+        ${canIcs && !isPast(e)?'<button type="button" class="cx-ics" data-ics="'+e.id+'">+ Add to calendar</button>':''}
+      </div>
+    </div>
+  </article>`;
+}
+function groupByMonth(evs){
+  const g = new Map();
+  evs.forEach(e=>{ const k=e.date.slice(0,7); if(!g.has(k)) g.set(k,[]); g.get(k).push(e); });
+  return g;
+}
+const monthLabel = k => MONTHS[+k.slice(5,7)-1]+' '+k.slice(0,4);
+const sortKey = e => (e.date||'9999')+(e.start||'00:00');
+
+function renderAgenda(){
+  const box = document.getElementById('cxAgenda');
+  const evs = EVENTS.filter(cxMatch);
+  const up = evs.filter(e=>!e.tbd && !isPast(e)).sort((a,b)=>sortKey(a)<sortKey(b)?-1:1);
+  const tbd = evs.filter(e=>e.tbd);
+  const past = evs.filter(isPast).sort((a,b)=>sortKey(a)>sortKey(b)?-1:1);
+  let html = '';
+  groupByMonth(up).forEach((list,k)=>{
+    html += `<div class="cx-group"><div class="cx-group-h">${monthLabel(k)}<span>${list.length} event${list.length>1?'s':''}</span></div>${list.map(evHTML).join('')}</div>`;
+  });
+  if (!up.length) html += '<p class="cx-empty">No upcoming events match these filters.</p>';
+  if (tbd.length) html += `<div class="cx-group"><div class="cx-group-h">Pending · date TBD<span>${tbd.length}</span></div>${tbd.map(evHTML).join('')}</div>`;
+  if (cx.showPast){
+    groupByMonth(past).forEach((list,k)=>{
+      html += `<div class="cx-group"><div class="cx-group-h">Past · ${monthLabel(k)}<span>${list.length}</span></div>${list.map(evHTML).join('')}</div>`;
+    });
+    if (!past.length) html += '<p class="cx-empty">No past events match these filters.</p>';
+  }
+  box.innerHTML = html;
+}
+
+function renderMonth(){
+  const box = document.getElementById('cxMonth');
+  const m = cx.month;
+  const y = m.getFullYear(), mo = m.getMonth();
+  const first = new Date(y, mo, 1, 12);
+  const start = new Date(first); start.setDate(1 - first.getDay());
+  const dated = EVENTS.filter(e=>!e.tbd && !e.approx && cxMatch(e));
+  const on = d => dated.filter(e=> e.date<=d && d<=(e.end||e.date));
+  let cells = DOW.map(d=>'<div class="cx-dow">'+d+'</div>').join('');
+  for (let i=0;i<42;i++){
+    const d = new Date(start); d.setDate(start.getDate()+i);
+    const k = ymd(d), list = on(k), inMonth = d.getMonth()===mo;
+    if (i>=35 && !inMonth && d.getDay()===0) break;
+    const cls = ['cx-day', inMonth?'':'out', list.length?'has':'', k===TODAY?'today':'', k===cx.sel?'sel':''].filter(Boolean).join(' ');
+    const label = MONTHS[d.getMonth()]+' '+d.getDate()+(list.length?', '+list.length+' event'+(list.length>1?'s':''):'');
+    cells += `<button type="button" class="${cls}" data-day="${k}" aria-label="${label}" ${list.length?'':'tabindex="-1"'}>
+      <span class="n">${d.getDate()}</span>
+      ${list.length?'<span class="cx-dots">'+list.slice(0,4).map(e=>'<i style="background:'+EV_TYPES[e.type].color+'"></i>').join('')+(list.length>4?'<em>+'+(list.length-4)+'</em>':'')+'</span>':''}
+      <span class="cx-chiplist">${list.slice(0,2).map(e=>'<span class="cx-chip" style="--ev:'+EV_TYPES[e.type].color+'">'+escapeHTML(e.title)+'</span>').join('')}</span>
+    </button>`;
+  }
+  const selList = cx.sel ? on(cx.sel) : [];
+  box.innerHTML = `<div class="cx-mhead"><button type="button" class="cx-nav" data-nav="-1" aria-label="Previous month">←</button>
+      <h3>${MONTHS[mo]} ${y}</h3><button type="button" class="cx-nav" data-nav="1" aria-label="Next month">→</button></div>
+    <div class="cx-grid">${cells}</div>
+    <p class="cx-note" style="margin-top:10px">Dots show event types. Select a day to list its events. Items without an exact date appear in Agenda view.</p>
+    <div class="cx-daylist">${cx.sel ? (selList.length ? '<div class="cx-group-h">'+MONTHS[toDate(cx.sel).getMonth()]+' '+toDate(cx.sel).getDate()+'</div>'+selList.map(evHTML).join('') : '<p class="cx-empty">No events that day.</p>') : ''}</div>`;
+}
+
+function renderStanding(){
+  const box = document.getElementById('cxStanding');
+  const list = STANDING.filter(s => (cx.county==='all' || s.county===cx.county) && (cx.project==='all' || s.projects.includes(cx.project)));
+  box.innerHTML = list.length ? list.map(s=>`<div class="cx-st">
+      <h4>${escapeHTML(s.body)}</h4><div class="c">${escapeHTML(s.county)} Co. · ${s.projects.map(projName).map(escapeHTML).join(', ')}</div>
+      <p><b>When</b> ${escapeHTML(s.rule)}</p><p><b>Where</b> ${escapeHTML(s.where)}</p>
+      ${s.next?'<p><b>Next posted</b> '+escapeHTML(s.next)+'</p>':''}
+      ${s.note?'<p>'+escapeHTML(s.note)+'</p>':''}
+      <a href="${s.url}" target="_blank" rel="noopener">Agendas &amp; notices ↗</a></div>`).join('')
+    : '<p class="cx-empty">No standing meetings match these filters.</p>';
+}
+
+function cxRender(){
+  document.getElementById('cxMonth').hidden = cx.view!=='month';
+  document.getElementById('cxAgenda').hidden = cx.view!=='agenda';
+  if (cx.view==='month') renderMonth(); else renderAgenda();
+  renderStanding();
+}
+
+// ── .ics export ───────────────────────────────
+const VTZ = ['BEGIN:VTIMEZONE','TZID:America/New_York','BEGIN:DAYLIGHT','TZOFFSETFROM:-0500','TZOFFSETTO:-0400','TZNAME:EDT','DTSTART:19700308T020000','RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU','END:DAYLIGHT','BEGIN:STANDARD','TZOFFSETFROM:-0400','TZOFFSETTO:-0500','TZNAME:EST','DTSTART:19701101T020000','RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU','END:STANDARD','END:VTIMEZONE'];
+const icsEsc = s => String(s).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n');
+const icsFold = line => { const out=[]; while(line.length>70){ out.push(line.slice(0,70)); line=' '+line.slice(70); } out.push(line); return out.join('\r\n'); };
+function icsEvent(e){
+  const d = e.date.replace(/-/g,'');
+  const L = ['BEGIN:VEVENT','UID:'+e.id+'@wvaihub.com','DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d+/,'')];
+  if (e.start){
+    const s = e.start.replace(':','')+'00';
+    let en = e.endt;
+    if (!en){ const [h,m]=e.start.split(':').map(Number); en = String(Math.min(h+2,23)).padStart(2,'0')+':'+String(m).padStart(2,'0'); }
+    L.push('DTSTART;TZID=America/New_York:'+d+'T'+s, 'DTEND;TZID=America/New_York:'+(e.end||e.date).replace(/-/g,'')+'T'+en.replace(':','')+'00');
+  } else {
+    const end = toDate(e.end||e.date); end.setDate(end.getDate()+1);
+    L.push('DTSTART;VALUE=DATE:'+d, 'DTEND;VALUE=DATE:'+ymd(end).replace(/-/g,''));
+  }
+  L.push('SUMMARY:'+icsEsc(e.title));
+  const loc = [e.venue, e.address, e.virtual].filter(Boolean).join(', ');
+  if (loc) L.push('LOCATION:'+icsEsc(loc));
+  const desc = [e.desc, e.how && 'How to take part: '+e.how, e.flag && 'Note: '+e.flag, ...(e.sources||[]).map(([l,u])=>l+': '+u), 'Via WV AI Watch: https://wvaihub.com/#calendar'].filter(Boolean).join('\n');
+  L.push('DESCRIPTION:'+icsEsc(desc));
+  if (e.sources && e.sources[0]) L.push('URL:'+e.sources[0][1]);
+  L.push('END:VEVENT');
+  return L.map(icsFold).join('\r\n');
+}
+function icsDownload(evs, name){
+  const body = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//WV AI Watch//Calendar//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:WV AI Watch','X-WR-TIMEZONE:America/New_York', ...VTZ].join('\r\n')
+    + '\r\n' + evs.map(icsEvent).join('\r\n') + '\r\nEND:VCALENDAR\r\n';
+  try {
+    const url = URL.createObjectURL(new Blob([body], {type:'text/calendar;charset=utf-8'}));
+    const a = document.createElement('a'); a.href = url; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 500);
+  } catch(err) { console.warn('ics export failed', err); }
+}
+
+// ── wiring ────────────────────────────────────
+let _cxInit = false;
+function initCalendar(){
+  if (_cxInit || !document.getElementById('calendar')) return; _cxInit = true;
+  const t = toDate(TODAY); cx.month = new Date(t.getFullYear(), t.getMonth(), 1, 12);
+  try { const v = localStorage.getItem('wvaiwatch.calview'); if (v==='month'||v==='agenda') cx.view = v; } catch(e) {}
+  // type chips
+  const counts = {}; EVENTS.forEach(e=>counts[e.type]=(counts[e.type]||0)+1);
+  const chips = document.getElementById('cxTypes');
+  chips.innerHTML = '<button type="button" class="watch-filter" data-t="all" aria-pressed="true">All types · '+EVENTS.length+'</button>' +
+    Object.keys(EV_TYPES).filter(k=>counts[k]).map(k=>'<button type="button" class="watch-filter" data-t="'+k+'" aria-pressed="false"><i style="background:'+EV_TYPES[k].color+'"></i>'+EV_TYPES[k].label+' · '+counts[k]+'</button>').join('');
+  chips.addEventListener('click', ev=>{
+    const b = ev.target.closest('[data-t]'); if(!b) return;
+    cx.type = b.dataset.t; chips.querySelectorAll('[data-t]').forEach(x=>x.setAttribute('aria-pressed', x===b)); cxRender();
+  });
+  // selects
+  const counties = [...new Set([...EVENTS.map(e=>e.county), ...STANDING.map(s=>s.county)].filter(Boolean))].sort((a,b)=> a==='Statewide'?-1 : b==='Statewide'?1 : a.localeCompare(b));
+  const cs = document.getElementById('cxCounty');
+  cs.innerHTML = '<option value="all">All counties</option>' + counties.map(c=>'<option value="'+escapeHTML(c)+'">'+escapeHTML(c==='Statewide'?c:c+' Co.')+'</option>').join('');
+  cs.addEventListener('change', ()=>{ cx.county = cs.value; cxRender(); });
+  const pids = [...new Set([...EVENTS.map(e=>e.project), ...STANDING.flatMap(s=>s.projects)].filter(Boolean))].sort((a,b)=>projName(a).localeCompare(projName(b)));
+  const ps = document.getElementById('cxProject');
+  ps.innerHTML = '<option value="all">All projects</option>' + pids.map(p=>'<option value="'+p+'">'+escapeHTML(projName(p))+'</option>').join('');
+  ps.addEventListener('change', ()=>{ cx.project = ps.value; cxRender(); });
+  // view toggle
+  document.querySelectorAll('.cx-view').forEach(b=>{
+    b.setAttribute('aria-pressed', b.dataset.view===cx.view);
+    b.addEventListener('click', ()=>{
+      cx.view = b.dataset.view;
+      document.querySelectorAll('.cx-view').forEach(x=>x.setAttribute('aria-pressed', x===b));
+      try { localStorage.setItem('wvaiwatch.calview', cx.view); } catch(e) {}
+      cxRender();
+    });
+  });
+  document.getElementById('cxShowPast').addEventListener('change', ev=>{ cx.showPast = ev.target.checked; cxRender(); });
+  // month nav + day select + ics (delegated)
+  document.getElementById('calendar').addEventListener('click', ev=>{
+    const nav = ev.target.closest('[data-nav]');
+    if (nav){ cx.month = new Date(cx.month.getFullYear(), cx.month.getMonth()+Number(nav.dataset.nav), 1, 12); cx.sel = null; renderMonth(); return; }
+    const day = ev.target.closest('.cx-day.has');
+    if (day){ cx.sel = day.dataset.day; renderMonth(); const dl = document.querySelector('.cx-daylist'); if (dl) dl.scrollIntoView({behavior:'smooth', block:'nearest'}); return; }
+    const ic = ev.target.closest('[data-ics]');
+    if (ic){ const e = EVENTS.find(x=>x.id===ic.dataset.ics); if (e) icsDownload([e], 'wv-ai-watch-'+e.id+'.ics'); }
+  });
+  document.getElementById('cxIcsAll').addEventListener('click', ()=>{
+    const evs = EVENTS.filter(e=>!e.tbd && !e.approx && !isPast(e) && cxMatch(e));
+    if (evs.length) icsDownload(evs, 'wv-ai-watch-upcoming.ics');
+  });
+  if (EVENTS.some(e=>e.date===TODAY)) cx.sel = TODAY;
+  cxRender();
+}
+document.addEventListener('DOMContentLoaded', initCalendar);
+if (document.readyState !== 'loading') initCalendar();
 
 document.addEventListener('DOMContentLoaded', initSections);
 if(document.readyState !== 'loading') initSections();
