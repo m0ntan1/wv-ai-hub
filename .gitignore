@@ -24,7 +24,9 @@ npm-debug.log*
 .netlify/
 
 # Agent working directories
-.claude/
+.claude/*
+# ...except shared project skills (Mercer's makenomistakes audit, from m0ntan1.com)
+!.claude/skills/
 
 # Logs
 *.log

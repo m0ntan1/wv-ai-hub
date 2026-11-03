@@ -16,7 +16,7 @@ The site is only useful if its dates are right this week. Countdown chips, the "
 
 To keep costs down it reads pages with the built-in web fetch first. It uses Firecrawl only for pages that block plain fetching, need JavaScript, or are PDFs, with a hard cap of 25 Firecrawl calls a run. If Firecrawl is out of credits, it carries on without it and says so. It never touches the PSC website, which blocks automated tools; PSC facts come only from your emails.
 
-It marks what it re-confirmed, runs the checker until there are no errors, and rebuilds the calendar feed and county QR codes. Then it opens a pull request titled "Desk shift: week of …" that lists every change with its source.
+It marks what it re-confirmed, runs the checker until there are no errors, and rebuilds the calendar feed and county QR codes. Before anything goes out, it runs **Mercer's makenomistakes audit** (`.claude/skills/makenomistakes`, from [m0ntan1.com](https://m0ntan1.com/skills/makenomistakes)) at the Heavy tier. Every changed fact is re-checked against its source and marked CONFIRMED, CONTRADICTED, or UNVERIFIABLE, and a fresh subagent with no memory of the run audits the work independently. Contradicted facts are fixed before the pull request opens. Unverifiable ones are listed, never buried. Then it opens a pull request titled "Desk shift: week of …" that lists every change with its source and ends with Mercer's audit footer.
 
 It is fenced in by the rules in section 4. It cannot change a project's status, add connections to the people web, or add anything about a named private person; those go into a "Needs your call" list with its suggestion and source. A new docket card for a newly subscribed PSC case also goes under "Needs your call". It never merges. If nothing changed, it opens no pull request and says so.
 
@@ -149,6 +149,7 @@ All data lives in `data/*.json`. The schema for each file is in `DOCS.md`. Times
 7. **Redaction bars only where the law or the filer actually withheld information.**
 8. **Status labels are editorial** (Under construction, Contested, and so on). The dossier says so, and the label changes only with a dated, sourced event in `history`.
 9. **The PSC website blocks automated tools.** Confirm PSC facts from the subscription emails, and say so (`psc-notice` in receipts).
+10. **Nothing ships without an audit.** Every automated run that drafts site content ends with Mercer's makenomistakes audit (`.claude/skills/makenomistakes/SKILL.md`). The author never signs off on its own work, and a failed check must change the outcome: a CONTRADICTED fact is fixed or dropped before the pull request opens. Its footer goes in the pull request description. Run it yourself after hand edits: in Claude Code, type `/makenomistakes`.
 
 ---
 
