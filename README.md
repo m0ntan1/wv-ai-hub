@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/readme-banner.png" alt="WV-AI-HUB: Mountain State AI Frontier" width="100%">
+  <img src="assets/readme-banner.png" alt="WV-AI-HUB: Mountain State AI Watch" width="100%">
 </p>
 
 # WV-AI-HUB
 
-> An interactive map of AI innovation across West Virginia. Twelve hubs and 53+ stories tracking the Mountain State's tech, research, data-center, and workforce ecosystems. Open source, fork-friendly, and built to be adapted for any state, county, school, or community.
+> **West Virginia AI Watch.** Mapping AI across the Mountain State: every data center and AI power project, the PSC filings, DEP permits, lawsuits, hearings, protests, and town halls around them, and the people and companies involved. Plus twelve AI innovation hubs and a workforce directory. Open source, fork-friendly, and built to be adapted for any state, county, school, or community.
 
 **🌐 Live: [wvaihub.com](https://wvaihub.com)** &nbsp;·&nbsp; Curated by [MØNTAN1.com](https://montaniai.com).
 
@@ -14,6 +14,10 @@ The site is a single static HTML file. No framework, no build step, no backend. 
 
 ## What's inside
 
+- **Project Watch.** 13 data center and AI-power projects on a statewide map, color-coded by status (under construction, state-certified, permitted and contested, proposed, rumored, power and grid), plus the MARL and Valley Link transmission corridors. Each card lists developer, scale, power source, permits, lawsuits, named officials and residents, the latest development, and sources.
+- **Docket.** Courts, Public Service Commission cases, DEP permits, and legislation (HB 2014, HB 4983, the Governor's plan).
+- **Calendar.** Upcoming hearings, briefs, open houses, rallies, and the legislative session, plus the last 90 days of protests and town halls.
+- **Who's Who.** Officials, legislators, judges, companies, counsel, and community organizations.
 - **5 Major Hubs.** Morgantown · Fairmont · Charleston · Huntington · Berkeley County
 - **7 Emerging Hubs.** Parkersburg · Wheeling · Weirton · Princeton · Beckley · Clarksburg · Tucker County
 - **53+ Stories** across WVU & Marshall research, state AI policy (HB 2014, HB 4983, HB 5690), data-center buildouts, startup accelerators, and community organizing
@@ -38,7 +42,8 @@ VS Code users can install the **Live Server** extension and right-click `index.h
 
 ```
 .
-├── index.html                  Entire site (HTML + CSS + JS, ~1900 lines)
+├── index.html                  Entire site (HTML + CSS + JS, ~3000 lines)
+├── research/                   Sourced Markdown dossiers behind Project Watch (method, receipts, open questions)
 ├── robots.txt                  Crawler directives, points to assets/sitemap.xml
 ├── DOCS.md                     Notes on the canvas-map rendering
 ├── README.md                   This file
@@ -94,7 +99,9 @@ The whole point of releasing the source is so anyone can clone this and stand up
    - **Cities or neighborhoods.** [OpenStreetMap](https://www.openstreetmap.org) → search → export polygon.
    - **Custom regions.** Draw in [geojson.io](https://geojson.io) and copy the coordinates.
 
-3. **Update the hub data.** In `index.html` find the three JS arrays:
+3. **Update the hub and project data.** In `index.html` find the JS arrays:
+   - `const PROJECTS = [...]` for Project Watch: one object per project (name, status, lat/lng, developer, `facts`, `latest`, `sources`). Map markers, filter chips, and cards all render from it.
+   - `const LINES = [...]` for corridors drawn on the Project Watch map (lists of `[lng, lat]` points).
    - `const HUBS = [...]` for your 4 to 6 major hubs (name, lat, lng, story count, optional `capital: true`).
    - `const TOP10 = [...]` for your secondary cities (rendered as smaller dots between hubs).
    - `const TOWNS = [...]` for your tertiary towns (rendered as faint background dots).
@@ -103,7 +110,7 @@ The whole point of releasing the source is so anyone can clone this and stand up
 
 5. **Update branding.** In `index.html`:
    - `<title>`, `<meta name="description">`, OG/Twitter tags
-   - Hero text: "West Virginia's AI Frontier"
+   - Hero text: "West Virginia's AI Watch"
    - Footer: "Montani Semper Liberi" and curator name
    - JSON-LD `Organization` block: name, url, email, sameAs links
    - CSS color variables in `:root { ... }` if you want a different palette

@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>West Virginia AI Innovation Map: Hubs, Research, and Tech Ecosystems</title>
-<meta name="description" content="Interactive map of AI innovation across West Virginia. 12 hubs covering Morgantown, Charleston, Huntington, Fairmont, Berkeley County, and 7 emerging cities, with 53+ stories on WVU, Marshall, data centers, and statewide AI policy.">
-<meta name="keywords" content="West Virginia AI, WV artificial intelligence, AI innovation map, Mountain State tech, WVU AI, Marshall University AI, WV data centers, West Virginia tech hubs, Appalachian AI, Morgantown AI, Charleston WV tech, Huntington WV tech">
+<title>West Virginia AI Watch: Data Centers, PSC Filings, Lawsuits, and AI Hubs Mapped</title>
+<meta name="description" content="West Virginia AI Watch maps every data center and AI power project in the state: Nscale Monarch, Google Buffalo, Starwood Tamarack, Fundamental Data Ridgeline, TransGas Adams Fork, Penzance and more. PSC filings, DEP permits, lawsuits, hearings, protests, town halls, and the people involved, plus 12 AI innovation hubs.">
+<meta name="keywords" content="West Virginia AI Watch, WV data centers map, HB 2014, PSC West Virginia data center, Monarch Compute Campus, Nscale, Fundamental Data Ridgeline, Tucker United, Google Buffalo WV, Project Tamarack, Adams Fork TransGas, Valley Link, MARL, West Virginia AI, WV artificial intelligence, AI innovation map, Mountain State tech, WVU AI, Marshall University AI, WV data centers, West Virginia tech hubs, Appalachian AI, Morgantown AI, Charleston WV tech, Huntington WV tech">
 <meta name="author" content="MØNTAN1.com">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#050a12">
@@ -20,25 +20,25 @@
 
 <!-- Open Graph / Social Preview -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="WV AI Innovation Index">
+<meta property="og:site_name" content="WV AI Watch">
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://wvaihub.com/">
-<meta property="og:title" content="West Virginia AI Innovation Map: Hubs, Research, and Tech Ecosystems">
-<meta property="og:description" content="Interactive map of AI innovation across West Virginia. 12 hubs and 53+ stories on WVU, Marshall, data centers, and statewide AI policy.">
+<meta property="og:title" content="West Virginia AI Watch: Mapping AI Across the Mountain State">
+<meta property="og:description" content="13 data center and AI power projects mapped, with PSC dockets, DEP permits, court fights, hearings, protests, and the names behind them. Plus 12 AI innovation hubs.">
 <meta property="og:image" content="https://wvaihub.com/assets/og-image.png">
 <meta property="og:image:secure_url" content="https://wvaihub.com/assets/og-image.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="West Virginia's AI Frontier: illustrated state outline with 12 innovation hub markers and 53+ stories tracked.">
+<meta property="og:image:alt" content="West Virginia's AI Watch: state outline map, 13 projects watched, 4 state-certified.">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://wvaihub.com/">
-<meta name="twitter:title" content="West Virginia AI Innovation Map">
-<meta name="twitter:description" content="12 hubs and 53+ stories. Interactive map of AI innovation across the Mountain State.">
+<meta name="twitter:title" content="West Virginia AI Watch">
+<meta name="twitter:description" content="Mapping AI across the Mountain State: data centers, PSC filings, lawsuits, hearings, and the people involved.">
 <meta name="twitter:image" content="https://wvaihub.com/assets/og-image.png">
-<meta name="twitter:image:alt" content="West Virginia's AI Frontier: state outline with hub markers.">
+<meta name="twitter:image:alt" content="West Virginia's AI Watch: state outline map.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,8 +53,8 @@
       "@type": "WebSite",
       "@id": "https://wvaihub.com/#website",
       "url": "https://wvaihub.com/",
-      "name": "WV AI Innovation Index",
-      "description": "Interactive map of AI innovation hubs across West Virginia.",
+      "name": "WV AI Watch",
+      "description": "Mapping AI across West Virginia: data center projects, regulatory dockets, and innovation hubs.",
       "inLanguage": "en-US",
       "publisher": { "@id": "https://wvaihub.com/#publisher" }
     },
@@ -81,7 +81,7 @@
       "@type": "WebPage",
       "@id": "https://wvaihub.com/#webpage",
       "url": "https://wvaihub.com/",
-      "name": "West Virginia AI Innovation Map",
+      "name": "West Virginia AI Watch",
       "isPartOf": { "@id": "https://wvaihub.com/#website" },
       "about": [
         { "@type": "Thing", "name": "Artificial Intelligence" },
@@ -754,6 +754,371 @@ a.story-source::before {
 }
 .wf-card-link:hover { color: var(--accent); text-decoration: underline; }
 
+/* ─── AI WATCH: PROJECTS / DOCKET / CALENDAR / PEOPLE ─── */
+:root {
+  --st-construction: #ff5c7a;
+  --st-certified:    #ffb020;
+  --st-contested:    #c084fc;
+  --st-proposed:     #00d4ff;
+  --st-rumored:      #94a3b8;
+  --st-grid:         #34d399;
+}
+.watch-section {
+  padding: 96px 0 72px;
+  border-top: 1px solid rgba(0,212,255,0.08);
+  scroll-margin-top: 56px;
+}
+.watch-section.alt { background: radial-gradient(ellipse at top, rgba(0,212,255,0.035), transparent 65%); }
+.watch-header {
+  text-align: center;
+  padding: 0 32px 40px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.watch-header .section-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  color: var(--blue-electric);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.watch-header h2 {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+.watch-header h2 em { color: var(--blue-electric); font-style: italic; }
+.watch-lede {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  max-width: 720px;
+  margin: 0 auto;
+}
+.watch-lede a { color: var(--blue-electric); }
+.watch-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 32px;
+}
+.watch-stat {
+  border: 1px solid rgba(0,212,255,0.1);
+  border-radius: 10px;
+  padding: 14px 10px;
+  background: var(--bg-card);
+  display: flex; flex-direction: column; gap: 4px;
+}
+.watch-stat .n {
+  font-family: 'Instrument Serif', serif;
+  font-size: 2.2rem;
+  color: var(--blue-electric);
+  line-height: 1;
+}
+.watch-stat .l {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Map */
+.watch-map-wrap {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto 28px;
+  padding: 0 48px;
+}
+#watchMap {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: block;
+  border: 1px solid rgba(0,212,255,0.1);
+  border-radius: 14px;
+  background: #060d18;
+  cursor: crosshair;
+}
+.watch-tip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 5;
+  max-width: 260px;
+  background: rgba(5,10,18,0.96);
+  border: 1px solid rgba(0,212,255,0.35);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--text-primary);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+}
+.watch-tip b { display:block; color:#fff; font-size: 0.85rem; margin-bottom: 2px; }
+.watch-tip .t-meta { font-family:'JetBrains Mono',monospace; font-size:0.6rem; letter-spacing:0.08em; color: var(--text-secondary); text-transform: uppercase; }
+.watch-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  justify-content: center;
+  margin-top: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+.watch-legend span { display:inline-flex; align-items:center; gap:6px; }
+.watch-legend i { width:9px; height:9px; border-radius:50%; display:inline-block; }
+.watch-legend i.line { width:22px; height:0; border-radius:0; border-top:2px dashed currentColor; }
+.watch-map-note {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+/* Filters */
+.watch-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 0 32px 28px;
+}
+.watch-filter {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,212,255,0.25);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.watch-filter i { width:7px; height:7px; border-radius:50%; display:inline-block; }
+.watch-filter:hover { color: #fff; border-color: var(--blue-electric); }
+.watch-filter[aria-pressed="true"] { color: #fff; background: rgba(0,212,255,0.12); border-color: var(--blue-electric); }
+.watch-filter:focus-visible, .watch-card:focus-visible { outline: 2px solid var(--blue-electric); outline-offset: 2px; }
+
+/* Project cards */
+.watch-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 18px;
+}
+.watch-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(0,212,255,0.08);
+  border-left: 3px solid var(--st, var(--blue-electric));
+  border-radius: 10px;
+  padding: 18px 20px 16px;
+  scroll-margin-top: 90px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+.watch-card:hover, .watch-card.hl {
+  border-color: rgba(0,212,255,0.3);
+  border-left-color: var(--st);
+  box-shadow: 0 6px 26px rgba(0,212,255,0.08);
+}
+.watch-card.hl { transform: translateY(-2px); }
+.watch-card[hidden] { display: none; }
+.wc-top { display:flex; justify-content:space-between; gap:10px; align-items:flex-start; margin-bottom: 8px; }
+.wc-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--st);
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+.wc-county {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  text-align: right;
+}
+.wc-name {
+  font-family: 'Instrument Serif', serif;
+  font-size: 1.45rem;
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.wc-dev { font-size: 0.82rem; color: rgba(0,180,255,0.85); margin-bottom: 10px; }
+.wc-facts { list-style: none; margin: 0 0 10px; padding: 0; }
+.wc-facts li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  padding: 3px 0 3px 74px;
+  position: relative;
+}
+.wc-facts li b {
+  position: absolute; left: 0; top: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.wc-latest {
+  font-size: 0.8rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  background: rgba(0,212,255,0.04);
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.wc-latest .d { font-family:'JetBrains Mono',monospace; font-size:0.6rem; color: var(--blue-electric); letter-spacing: 0.08em; margin-right: 6px; }
+.wc-sources { display:flex; flex-wrap:wrap; gap: 4px 12px; }
+.wc-sources a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  color: rgba(0,180,255,0.7);
+  text-decoration: none;
+}
+.wc-sources a:hover { color: var(--accent); text-decoration: underline; }
+
+/* Docket */
+.docket-grid, .cal-grid, .people-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  gap: 28px;
+}
+.docket-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.cal-grid { grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
+.people-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.docket-title {
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.docket-title .num {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.55em;
+  color: var(--blue-electric);
+  letter-spacing: 0.2em;
+  margin-right: 10px;
+  vertical-align: 0.18em;
+}
+.docket-item {
+  border-top: 1px solid rgba(0,212,255,0.08);
+  padding: 14px 0 16px;
+}
+.docket-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  margin-bottom: 6px;
+}
+.docket-name { font-weight: 600; font-size: 0.92rem; color: rgba(0,180,255,0.9); line-height: 1.35; margin-bottom: 6px; }
+.docket-item p, .cal-body { font-size: 0.82rem; line-height: 1.6; color: var(--text-primary); }
+.docket-item strong, .cal-body strong { color: #fff; font-weight: 600; }
+.docket-item .story-source, .cal-body .story-source { display:inline-block; margin-top: 6px; }
+.pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+  margin-right: 6px;
+}
+.pill.pending { color: var(--st-certified); }
+.pill.closed  { color: var(--st-rumored); }
+.pill.watch   { color: var(--st-contested); }
+.pill.civic   { color: var(--blue-electric); }
+.pill.dev     { color: var(--st-rumored); }
+.pill.psc     { color: var(--st-grid); }
+.pill.dep     { color: var(--st-certified); }
+.pill.protest { color: var(--st-construction); }
+.pill.gov     { color: #7dd3fc; }
+
+/* Calendar */
+.cal-item {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: 14px;
+  border-top: 1px solid rgba(0,212,255,0.08);
+  padding: 14px 0;
+}
+.cal-date {
+  font-family: 'Instrument Serif', serif;
+  font-size: 1.25rem;
+  color: var(--blue-electric);
+  line-height: 1.1;
+}
+.cal-date span { display:block; font-family:'JetBrains Mono',monospace; font-size: 0.58rem; color: var(--text-secondary); letter-spacing: 0.12em; margin-top: 3px; }
+.cal-item.past .cal-date { color: rgba(200,215,240,0.55); }
+.cal-body .pill { display:inline-block; margin-bottom: 4px; }
+
+/* People */
+.people-head {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--blue-electric);
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0,212,255,0.15);
+  margin-bottom: 8px;
+}
+.people-col ul { list-style: none; padding: 0; margin: 0; }
+.people-col li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.people-col li strong { display:block; color: var(--text-primary); font-weight: 600; font-size: 0.84rem; }
+.people-col li a { color: var(--blue-electric); }
+
+@media (max-width: 900px) {
+  .watch-stats { grid-template-columns: repeat(2, 1fr); }
+  .watch-map-wrap, .watch-cards, .docket-grid, .cal-grid, .people-grid { padding: 0 16px; }
+  #watchMap { aspect-ratio: 4 / 3; }
+  .watch-cards { grid-template-columns: 1fr; }
+  .cal-grid { grid-template-columns: 1fr; }
+  .watch-header { padding: 0 16px 32px; }
+  .legend-bar .logo { font-size: 1rem; }
+  .legend-actions { overflow-x: auto; max-width: 70vw; scrollbar-width: none; }
+  .legend-actions::-webkit-scrollbar { display: none; }
+}
+@media (max-width: 480px) {
+  .cal-item { grid-template-columns: 64px 1fr; gap: 10px; }
+  .wc-facts li { padding-left: 0; padding-top: 18px; }
+  .wc-facts li b { top: 3px; }
+}
+
 /* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
   .city-content { grid-template-columns: 1fr; gap: 32px; padding: 0 24px; }
@@ -775,8 +1140,8 @@ a.story-source::before {
 <section class="hero" id="hero">
   <canvas id="heroCanvas"></canvas>
   <div class="hero-content">
-    <div class="hero-subtitle">Mapping Innovation Across the Mountain State</div>
-    <h1>West Virginia's<br><em>AI Frontier</em></h1>
+    <div class="hero-subtitle">Mapping AI Across the Mountain State</div>
+    <h1>West Virginia's<br><em>AI Watch</em></h1>
   </div>
   <div class="scroll-cue">
     <span>Scroll to explore</span>
@@ -786,7 +1151,7 @@ a.story-source::before {
 
 <!-- STICKY NAV -->
 <div class="legend-bar" id="legendBar">
-  <div class="logo">WV <em>AI</em> Index</div>
+  <div class="logo">WV <em>AI</em> Watch</div>
   <div class="legend-items">
     <div class="legend-item"><div class="legend-dot filled"></div> Major Hub</div>
     <div class="legend-item"><div class="legend-dot sm"></div> Emerging Hub</div>
@@ -794,12 +1159,277 @@ a.story-source::before {
     <div class="legend-item"><div class="legend-line"></div> Emerging Link</div>
   </div>
   <div class="legend-actions">
-    <a href="#wf-jobs" class="wf-nav-btn">Jobs</a>
-    <a href="#wf-education" class="wf-nav-btn">Education</a>
-    <a href="#wf-events" class="wf-nav-btn">Events</a>
-    <a href="#wf-grants" class="wf-nav-btn">Grants</a>
+    <a href="#projects" class="wf-nav-btn">Projects</a>
+    <a href="#docket" class="wf-nav-btn">Docket</a>
+    <a href="#calendar" class="wf-nav-btn">Calendar</a>
+    <a href="#people" class="wf-nav-btn">People</a>
+    <a href="#sec-morgantown" class="wf-nav-btn">Hubs</a>
+    <a href="#workforce" class="wf-nav-btn">Workforce</a>
   </div>
 </div>
+
+<!-- ═══════════════════════════════════════════
+     AI WATCH: PROJECTS · DOCKET · CALENDAR · WHO'S WHO
+     Project cards + map markers render from the PROJECTS array in the
+     <script> block below. Full sourcing lives in research/*.md.
+     ═══════════════════════════════════════════ -->
+<section class="watch-section" id="projects">
+  <div class="watch-header">
+    <div class="section-tag">· Project Watch · Updated Nov 3, 2026 ·</div>
+    <h2>Every data center and AI power project <em>in West Virginia</em></h2>
+    <p class="watch-lede">Data centers, the gas plants and microgrids built to power them, and the transmission lines and utility cases they set off. Each entry lists the companies, the officials, the permits, the lawsuits, and the residents organizing around it.</p>
+    <div class="watch-stats">
+      <div class="watch-stat"><span class="n">13</span><span class="l">Projects watched</span></div>
+      <div class="watch-stat"><span class="n">4</span><span class="l">State-certified under HB 2014</span></div>
+      <div class="watch-stat"><span class="n">3</span><span class="l">Court cases filed</span></div>
+      <div class="watch-stat"><span class="n">4</span><span class="l">PSC grid &amp; tariff dockets</span></div>
+    </div>
+  </div>
+
+  <div class="watch-map-wrap">
+    <canvas id="watchMap" aria-label="Map of West Virginia showing data center and power projects by status" role="img"></canvas>
+    <div class="watch-tip" id="watchTip" hidden></div>
+    <div class="watch-legend" id="watchLegend"></div>
+    <p class="watch-map-note">Markers are approximate (town or road level), not parcel boundaries. Transmission corridors are illustrative. Valley Link has no approved route.</p>
+  </div>
+
+  <div class="watch-filters" id="watchFilters" role="toolbar" aria-label="Filter projects by status"></div>
+  <div class="watch-cards" id="watchCards"></div>
+  <noscript><p class="watch-lede">Project cards need JavaScript. The full sourced dossier is in <a href="https://github.com/m0ntan1/WV-AI-HUB/tree/main/research">/research</a>.</p></noscript>
+</section>
+
+<section class="watch-section alt" id="docket">
+  <div class="watch-header">
+    <div class="section-tag">· Legal &amp; Regulatory Docket ·</div>
+    <h2>Courts, PSC filings, permits, <em>and the law</em></h2>
+    <p class="watch-lede">Where the fights are actually decided. Statuses come from public notices and reporting as of Nov 3, 2026. Check the PSC, DEP, and court dockets before relying on a date.</p>
+  </div>
+
+  <div class="docket-grid">
+    <div class="docket-col">
+      <h3 class="docket-title"><span class="num">01</span>Courts</h3>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Pending</span> Ohio Co. Circuit Court</div>
+        <div class="docket-name">Barks v. Silicon Foundation</div>
+        <p>Twelve Warwood residents argue HB 2014 unconstitutionally strips local land-use and zoning control. AG <strong>J.B. McCuskey</strong>'s office intervened to defend the statute, and on Oct 9 it cited this case in declining Berkeley County's request for a legal opinion.</p>
+        <a class="story-source" href="https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/" target="_blank" rel="noopener">WV MetroNews, Oct 26, 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Refiling</span> ICA → Circuit Ct. / SCAWV</div>
+        <div class="docket-name">Tucker United, WVHC &amp; Sierra Club v. DEP (Ridgeline air permit)</div>
+        <p>On Aug 26 the Intermediate Court of Appeals dismissed both appeals on jurisdiction, not on the merits. Earlier, Judges Daniel Greear and Charles Lorensen recused over ties to Speaker <strong>Roger Hanshaw</strong>'s firm Bowles Rice, and SCAWV refused Fundamental Data's bid to skip the ICA. Appalachian Mountain Advocates says the groups will refile.</p>
+        <a class="story-source" href="https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/" target="_blank" rel="noopener">WTAP, Aug 26, 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill closed">Dismissed w/o prejudice</span> U.S. District Ct., S.D. W.Va.</div>
+        <div class="docket-name">Mingo County residents v. TransGas, Army Corps, USFWS &amp; FERC</div>
+        <p>Judge <strong>Robert Chambers</strong> dismissed the TransGas claims in March and the agency claims on Jun 22, 2026. Attorney <strong>Stephen New</strong> (Beckley) plans new suits under EPCRA with adjacent residents and has named Penzance and QTS as future targets.</p>
+        <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html" target="_blank" rel="noopener">Charleston Gazette-Mail, Jun 30, 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill watch">Under discussion</span> Putnam &amp; Monongalia Commissions</div>
+        <div class="docket-name">Possible county challenge to HB 2014</div>
+        <p>Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed.</p>
+        <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html" target="_blank" rel="noopener">Charleston Gazette-Mail, Aug 2026 →</a>
+      </div>
+    </div>
+
+    <div class="docket-col">
+      <h3 class="docket-title"><span class="num">02</span>Public Service Commission</h3>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Briefs Nov 23 / Dec 4</span> Case 26-0075-E-CN</div>
+        <div class="docket-name">MARL 500 kV line (NextEra Energy Transmission MidAtlantic)</div>
+        <p>About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. More than 190 landowners intervened, and PSC staff analyst <strong>Daniel Egnatoff</strong> recommended denial. Evidentiary hearings ended Oct 30. A decision is expected around Mar 6, 2027.</p>
+        <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record, Nov 1, 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Decision by Feb 2027</span> Mon Power / Potomac Edison CPCN</div>
+        <div class="docket-name">Fort Martin 1,200 MW gas plant + 70 MW solar ($2.48B)</div>
+        <p>FirstEnergy's utilities want to add gas generation at the Monongalia County coal station for data-center-era load. Sierra Club WV objects to "abandonment" cost recovery and notes no data-center contract has been signed. Hearings were held Jul 15–16.</p>
+        <a class="story-source" href="https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant" target="_blank" rel="noopener">Sierra Club, Jun 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill closed">Tariff in effect</span> Case 24-0611-E-T-PW</div>
+        <div class="docket-name">Appalachian Power / Wheeling Power large-load tariff</div>
+        <p>Customers of 100 MW or more sign 12-year contracts and pay for at least 80% of contracted demand. ApCo says its contracted WV data-center load is "more than double" its 540 MW in Virginia.</p>
+        <a class="story-source" href="https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/" target="_blank" rel="noopener">Cardinal News, Jul 31, 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill watch">Rule to Legislature</span> HB 2014 coal-capacity rule</div>
+        <div class="docket-name">69% coal capacity factor becomes "a goal, not a mandate"</div>
+        <p>The PSC's modified rule draws partly on joint amendments from Appalachian Power and Mon Power, and goes to legislative rule-making review.</p>
+        <a class="story-source" href="https://westvirginiawatch.com/2026/10/20/west-virginia-public-service-commission-makes-power-rule-a-goal-not-a-mandate/" target="_blank" rel="noopener">West Virginia Watch, Oct 20, 2026 →</a>
+      </div>
+    </div>
+
+    <div class="docket-col">
+      <h3 class="docket-title"><span class="num">03</span>DEP Permits</h3>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Awaiting final determination</span> Air permit R14-0042</div>
+        <div class="docket-name">Monarch Cloud Campus LLC: 2.16 GW, 864 gas engines</div>
+        <p>DEP's preliminary finding is that the plant meets requirements, and it is classed as a "major stationary source." The Oct 20 workshop was at Point Pleasant HS, the virtual hearing was Oct 29, and comments closed Oct 30. Engineers: Joe Kessler and Edward Andrews.</p>
+        <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html" target="_blank" rel="noopener">Charleston Gazette-Mail, Oct 2026 →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill watch">Enforcement</span> DEP Water &amp; DAQ</div>
+        <div class="docket-name">Monarch violations: sediment, flooding, dust</div>
+        <p>Notices on May 28, Jun 4, and Jun 10, an early-July enforcement order, and an Aug 11 particulate-dust letter from DAQ Director <strong>Laura Crowder</strong>. Runoff flooded about six homes on May 23–24.</p>
+        <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html" target="_blank" rel="noopener">Charleston Gazette-Mail →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">Application filed Jul 22</span> Google / Cumulus Group LLC</div>
+        <div class="docket-name">Buffalo campus: 288 diesel generators, 128 cooling towers</div>
+        <p>Projected 249 tons/yr of NOx. The Army Corps application shows 34+ acres of wetlands and 45,000+ feet of streams affected.</p>
+        <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html" target="_blank" rel="noopener">Charleston Gazette-Mail →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill closed">Issued Oct 2025</span> Air permits R13-3714 / R13-3715</div>
+        <div class="docket-name">TransGas Adams Fork plants, Mingo County</div>
+        <p>Two gas plants with 117 engines each to power data centers at Twisted Gun (Wharncliffe) and Harless Industrial Park (Holden).</p>
+        <a class="story-source" href="https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus" target="_blank" rel="noopener">Global Energy Monitor →</a>
+      </div>
+    </div>
+
+    <div class="docket-col">
+      <h3 class="docket-title"><span class="num">04</span>Legislature &amp; Policy</h3>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill closed">Law · 2025</span> HB 2014</div>
+        <div class="docket-name">Power Generation and Consumption Act</div>
+        <p>Creates High Impact Data Center (≥90 MW) certification and microgrid districts of up to 2,250 acres, and preempts county and city zoning. Host counties get 30% of the property-tax revenue. Signed by Gov. <strong>Patrick Morrisey</strong> on Apr 30, 2025.</p>
+        <a class="story-source" href="https://bills.wvlegislature.gov/bill/history/2025/rs/HB2014" target="_blank" rel="noopener">WV Legislature →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill closed">Law · 2026</span> HB 4983</div>
+        <div class="docket-name">Certification rule + confidentiality</div>
+        <p>Approves rule 145 CSR 20 and keeps certification petitions confidential. The House passed it 78-16. Local-control bills HB 5620 and SB 658, and the water-notice bill HB 5590, all died.</p>
+        <a class="story-source" href="https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/" target="_blank" rel="noopener">Mountain State Spotlight →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill watch">Policy · Aug 11, 2026</span> Governor's plan</div>
+        <div class="docket-name">Responsible Data Center Development Plan</div>
+        <p>Seven principles over 20 years, run by the Data Economy Office (Director <strong>Chris Morris</strong>). It promises a Data Center Advisory Council on setbacks and noise. No roster has been published.</p>
+        <a class="story-source" href="https://westvirginia.gov/wp-content/uploads/2026/08/Data-Center-Principles-August-2026-FINAL-8-26.pdf" target="_blank" rel="noopener">Plan (PDF) →</a>
+      </div>
+      <div class="docket-item">
+        <div class="docket-meta"><span class="pill pending">2027 session</span> Reform push</div>
+        <div class="docket-name">Repeal or amend HB 2014</div>
+        <p>Democratic Chair <strong>Mike Pushkin</strong>, Del. <strong>Shawn Fluharty</strong>, the WV NAACP (moratorium resolution), and the WVDCAP coalition are pushing local control, water protections, and a fairer county revenue share.</p>
+        <a class="story-source" href="https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/" target="_blank" rel="noopener">WV MetroNews, Oct 30, 2026 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="watch-section" id="calendar">
+  <div class="watch-header">
+    <div class="section-tag">· Calendar ·</div>
+    <h2>Meetings, hearings, <em>protests &amp; town halls</em></h2>
+    <p class="watch-lede">Upcoming dates you can show up for, and what happened recently. Developer open houses are labeled as such. They are not official hearings.</p>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-col">
+      <h3 class="docket-title"><span class="num">↗</span>Upcoming</h3>
+      <div class="cal-item"><div class="cal-date">Nov 3<span>2026</span></div><div class="cal-body"><span class="pill civic">Election</span><strong>General Election Day.</strong> HB 2014 and transmission lines are top issues in legislative races. Polls are open 6:30 a.m. to 7:30 p.m. <a class="story-source" href="https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-highlight-issues-driving-voter-turnout-in-west-virginia/" target="_blank" rel="noopener">MetroNews →</a></div></div>
+      <div class="cal-item"><div class="cal-date">Nov 4–19<span>2026</span></div><div class="cal-body"><span class="pill dev">Developer open house</span><strong>Valley Link 765 kV open houses.</strong> Twelve drop-in sessions across WV, VA, and MD, starting Nov 4 in Fisher (Hardy Co.) and Hambleton (Tucker Co.). <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
+      <div class="cal-item"><div class="cal-date">Nov 23<span>2026</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>MARL initial briefs due</strong> in Case 26-0075-E-CN. Reply briefs are due Dec 4. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
+      <div class="cal-item"><div class="cal-date">Jan<span>2027</span></div><div class="cal-body"><span class="pill civic">Legislature</span><strong>2027 Regular Session opens.</strong> The HB 2014 local-control fight returns, led by WVDCAP, Democratic delegates, and the WV NAACP. <a class="story-source" href="https://www.wvhighlands.org/?p=15053" target="_blank" rel="noopener">WV Highlands Conservancy →</a></div></div>
+      <div class="cal-item"><div class="cal-date">Jan 26<span>2027</span></div><div class="cal-body"><span class="pill protest">Rally</span><strong>WV Rally for Affordable Energy,</strong> 10 a.m. to noon, State Capitol South Steps. Organized by the WV Utility Impact Project, with the Valley North Opposition Alliance. Topics: power bills and data-center expansion. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
+      <div class="cal-item"><div class="cal-date">By Feb<span>2027</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>Fort Martin gas plant decision deadline</strong> (Mon Power / Potomac Edison). <a class="story-source" href="https://www.dominionpost.com/?p=566179" target="_blank" rel="noopener">Dominion Post →</a></div></div>
+      <div class="cal-item"><div class="cal-date">~Mar 6<span>2027</span></div><div class="cal-body"><span class="pill psc">PSC</span><strong>Anticipated MARL decision.</strong> <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Valley North Record →</a></div></div>
+      <div class="cal-item"><div class="cal-date">TBD</div><div class="cal-body"><span class="pill dep">DEP</span><strong>Monarch air permit R14-0042 final decision.</strong> DEP will publish a response-to-comments document. <a class="story-source" href="https://www.wsaz.com/2026/10/21/data-center-air-pollution-permit-under-public-review/" target="_blank" rel="noopener">WSAZ →</a></div></div>
+    </div>
+    <div class="cal-col">
+      <h3 class="docket-title"><span class="num">↙</span>Recent</h3>
+      <div class="cal-item past"><div class="cal-date">Nov 2</div><div class="cal-body"><span class="pill protest">Protest</span><strong>Stop Valley Link peaceful protest,</strong> 2 to 6 p.m., Barbour County Courthouse, Philippi. <a class="story-source" href="https://valleynorthrecord.substack.com/p/regional-osint-db7" target="_blank" rel="noopener">Source →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Oct 29–30</div><div class="cal-body"><span class="pill dep">DEP hearing</span><strong>Monarch air permit virtual hearing</strong> (Oct 29). The comment period closed Oct 30. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Oct 26</div><div class="cal-body"><span class="pill protest">Protest</span><strong>Monroe County data center protest,</strong> held in Giles Co., VA outside the law office of landowner Jason Buckland, where a project near Ballard is rumored. The same week, DEP held its water-permit hearing for Monarch at Point Pleasant HS. <a class="story-source" href="https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center" target="_blank" rel="noopener">WVTF →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Oct 20</div><div class="cal-body"><span class="pill dep">DEP workshop</span><strong>Monarch air-permit workshop,</strong> Point Pleasant High School. Residents Kimberly Mattox and Stephanie Butcher raised health, flooding, and dust concerns. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Sep 8</div><div class="cal-body"><span class="pill civic">Coalition</span><strong>WV Data Center Accountability Project launches</strong> in Charleston: WV CAG, Tucker United, Putnam United, Mason WV United, Sierra Club WV, WVHC, and No Data Centers in the Eastern Panhandle. <a class="story-source" href="https://wvcag.org/?p=16377" target="_blank" rel="noopener">WV CAG →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Sep 3</div><div class="cal-body"><span class="pill gov">Announcement</span><strong>Morrisey certifies Monarch and Tamarack</strong> at the WV Chamber summit at The Greenbrier: "West Virginia electricity bills are not going up from these announcements. Period." <a class="story-source" href="https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html" target="_blank" rel="noopener">Herald-Dispatch →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Aug 25</div><div class="cal-body"><span class="pill civic">Commission</span><strong>Putnam United brings a resolution</strong> to the County Commission asking for residents' input on data-center decisions. <a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html" target="_blank" rel="noopener">Gazette-Mail →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Aug 14–15</div><div class="cal-body"><span class="pill civic">Resolution</span><strong>WV NAACP convention (Huntington)</strong> unanimously demands a moratorium of at least two years on data centers and microgrids. Signed by President Loretta Young. <a class="story-source" href="https://thefulcrum.us/community/west-virginia-naacp-data-center-moratorium-call" target="_blank" rel="noopener">The Fulcrum →</a></div></div>
+      <div class="cal-item past"><div class="cal-date">Jun 2026</div><div class="cal-body"><span class="pill civic">Town hall</span><strong>Warwood town hall</strong> at the Warwood Veterans Association with Del. Shawn Fluharty. Also in June: the Democratic caucus press event at Davis Town Hall and the Mountain State Spotlight data-center panel at Davis Fire Hall. <a class="story-source" href="https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling" target="_blank" rel="noopener">WTOV9 →</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="watch-section alt" id="people">
+  <div class="watch-header">
+    <div class="section-tag">· Who's Who ·</div>
+    <h2>The names <em>behind the projects</em></h2>
+    <p class="watch-lede">Officials, companies, lawyers, judges, and the residents and groups pushing back. Roles are as reported by the linked sources.</p>
+  </div>
+  <div class="people-grid">
+    <div class="people-col">
+      <h3 class="people-head">State Government</h3>
+      <ul>
+        <li><strong>Gov. Patrick Morrisey</strong> Championed HB 2014. Announces certifications.</li>
+        <li><strong>AG J.B. McCuskey</strong> Defending HB 2014 in Barks. Declined the Berkeley Co. opinion request.</li>
+        <li><strong>Speaker Roger Hanshaw</strong> (R-Clay) Bowles Rice counsel to Fundamental Data since Mar 2026.</li>
+        <li><strong>Chris Morris</strong> Director, Commerce Dept. Data Economy Office.</li>
+        <li><strong>Nick Preservati</strong> Commerce Deputy Secretary. Issued, then rescinded, a notice to Fundamental Data.</li>
+        <li><strong>Laura Crowder</strong> DEP Division of Air Quality Director.</li>
+        <li><strong>Joe Kessler · Edward Andrews</strong> DEP NSR permitting (Monarch).</li>
+        <li><strong>Daniel Egnatoff</strong> PSC staff analyst. Recommended denial of MARL.</li>
+        <li><strong>Sen. Randy Smith</strong> (R-Tucker) Called opponents "vacation homeowners."</li>
+        <li><strong>Sen. Robbie Morris</strong> Opposes Valley Link.</li>
+        <li><strong>Kent Leonhardt</strong> Agriculture Commissioner. Concerns about transmission lines.</li>
+      </ul>
+    </div>
+    <div class="people-col">
+      <h3 class="people-head">Legislators, Counties &amp; Courts</h3>
+      <ul>
+        <li><strong>Del. Shawn Fluharty</strong> (D-Ohio) Warwood town halls. HB 2014 critic.</li>
+        <li><strong>Mike Pushkin</strong> WV Democratic Party Chair. Wants HB 2014 repealed.</li>
+        <li><strong>Dels. Evan Hansen, JB Akers, Sean Hornbuckle, Kayla Young, Anitra Hamilton</strong> Attended the Tucker County events.</li>
+        <li><strong>Rep. Riley Moore · Ace Parsi</strong> WV-2 race. Competing federal data-center bills.</li>
+        <li><strong>Andy Skidmore</strong> Putnam County Commission President.</li>
+        <li><strong>Eddie Gochenour</strong> Berkeley County Commission President.</li>
+        <li><strong>Cara Keys</strong> Jefferson County Commissioner. Critic of HB 2014's missing setbacks.</li>
+        <li><strong>Sean Sikora</strong> Monongalia County Commissioner.</li>
+        <li><strong>Judge Robert Chambers</strong> U.S. District Court. Dismissed the Mingo suit.</li>
+        <li><strong>Chief Justice C. Haley Bunn</strong> Appointed replacement ICA judges in the Ridgeline appeal.</li>
+      </ul>
+    </div>
+    <div class="people-col">
+      <h3 class="people-head">Companies &amp; Counsel</h3>
+      <ul>
+        <li><strong>Nscale</strong> Daniel Shapiro (Chief Power Officer), William Calhoun, Jason Bechtle. Monarch.</li>
+        <li><strong>Anthropic</strong> $44.6B contract for Monarch's first 460 MW building.</li>
+        <li><strong>Nvidia</strong> Weighing a debt guarantee for Monarch (Oct 30).</li>
+        <li><strong>Fidelis New Energy / AIPCorp / 8090 Industries</strong> Original Monarch developers.</li>
+        <li><strong>Starwood Digital Ventures</strong> CEO Anthony Balestrieri. Project Tamarack.</li>
+        <li><strong>Google / Cumulus Group LLC</strong> Buffalo campus.</li>
+        <li><strong>Penzance / Bedington Owner LLC</strong> Berkeley campus.</li>
+        <li><strong>Fundamental Data</strong> Casey Chapman. Ridgeline.</li>
+        <li><strong>TransGas Development Systems</strong> CEO Adam Victor. Adams Fork.</li>
+        <li><strong>Silicon Foundation Energy / Stokes Inc.</strong> Warwood.</li>
+        <li><strong>Hog Lick Aggregates</strong> President Brian Redmond.</li>
+        <li><strong>QTS · Ryan Stuart Development</strong> Eastern Panhandle sites.</li>
+        <li><strong>Bowles Rice</strong> Roger Hanshaw, William Lorensen, Peter Markham.</li>
+        <li><strong>Utilities</strong> Appalachian Power (AEP), Mon Power / Potomac Edison (FirstEnergy), NextEra (MARL), Valley Link (Dominion / FirstEnergy / Transource).</li>
+      </ul>
+    </div>
+    <div class="people-col">
+      <h3 class="people-head">Residents &amp; Organizations</h3>
+      <ul>
+        <li><strong>WV Data Center Accountability Project</strong> Statewide coalition (<a href="https://www.wvdcap.org" target="_blank" rel="noopener">wvdcap.org</a>).</li>
+        <li><strong>WV Citizen Action Group</strong> Morgan King, Jillian Welsh.</li>
+        <li><strong>Tucker United</strong> Director Amy Margolies.</li>
+        <li><strong>WV Highlands Conservancy</strong> Olivia Miller, Luanne McGovern.</li>
+        <li><strong>Sierra Club WV</strong> Jim Kotcon, Conservation Chair.</li>
+        <li><strong>Putnam United</strong> Heather Ransom, Jessica Lacy, Joseph DeGroff.</li>
+        <li><strong>Mason WV United</strong> Elaine Matheny.</li>
+        <li><strong>No Data Centers in the Eastern Panhandle</strong> Rupok Bhuiyan.</li>
+        <li><strong>WV NAACP</strong> President Loretta Young.</li>
+        <li><strong>Energy Efficient WV</strong> Emmett Pepper.</li>
+        <li><strong>Appalachian Mountain Advocates · Stephen P. New &amp; Assoc.</strong> Counsel for residents.</li>
+        <li><strong>Stop Valley Link · Valley North Opposition Alliance · WV Utility Impact Project</strong></li>
+        <li><strong>Reporters to follow</strong> Mike Tony (Gazette-Mail), Chris Schulz &amp; Curtis Tate (WVPB), Brad McElhinny (MetroNews), Dan Parks (Country Roads News), Steve Pearson (Observer).</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <!-- CITY SECTIONS -->
 <section class="city-section" id="sec-morgantown" data-city="morgantown">
@@ -858,9 +1488,10 @@ a.story-source::before {
       <h2 class="city-name">Charleston</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        9 innovation stories
+        10 innovation stories
       </div>
       <div class="stories-list">
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Morrisey unveils a 20-year data center plan.</strong> The Responsible Data Center Development Plan (Aug 11, 2026) sets seven principles, puts Chris Morris's Data Economy Office in charge, and promises an advisory council on setbacks and noise. Critics say it leaves HB 2014's regulatory gaps in place.<a class="story-source" href="https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/" target="_blank">Source: WDTV, Aug 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WV Digital Government Summit returns to Charleston.</strong> State and local government leaders, sponsors, and technology partners convene on October 29, 2026 to plan digital transformation, AI implementation, and cybersecurity strategy.<a class="story-source" href="https://events.govtech.com/West-Virginia-Digital-Government-Summit" target="_blank">Source: GovTech Events, Oct 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Morrisey closes 2026 session: 12 vetoes, 10 bills unsigned.</strong> The Governor finished 2026 regular-session work, with data-center confidentiality (HB 4983) and tax-credit measures (HB 4013) advancing amid contested debate over local control and ratepayer impact.<a class="story-source" href="https://www.theintelligencer.net/news/top-headlines/2026/04/morrisey-finishes-work-on-legislation-with-12-vetoes-10-bills-not-signed/" target="_blank">Source: The Intelligencer, Apr 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>HB 4983 clears House 78-16: data-center confidentiality.</strong> The bill lets the Morrisey administration withhold basic data-center project details from the public. Critics say it shields lawmakers from accountability on a major economic question.<a class="story-source" href="https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html" target="_blank">Source: WV Gazette-Mail, Feb 2026 →</a></div></div>
@@ -916,10 +1547,10 @@ a.story-source::before {
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>One year post-HB 2014: transparency and grid-cost concerns surface.</strong> Ratepayer advocates and Appalachian Power warn that the law's microgrid backup provisions could raise customer bills, while environmental groups flag gaps in air-quality oversight for fast-tracked sites.<a class="story-source" href="https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html" target="_blank">Source: WV Gazette-Mail, Apr 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Residents call for protections as data-center buildout accelerates.</strong> Host communities in Berkeley, Tucker, and Mason counties are organizing for health, noise, and grid-impact protections, citing "empty promises" on community benefit and accountability.<a class="story-source" href="https://westvirginiawatch.com/2026/03/31/empty-promises-residents-lament-lack-of-protections-as-data-center-developments-unfold-across-wv/" target="_blank">Source: West Virginia Watch, Mar 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>$4 billion Penzance data center announced.</strong> Governor Morrisey unveiled WV's first High Impact Intelligence Center, a 548-acre, 1.9M sq ft campus in Falling Waters delivering 600MW of AI and cloud computing capacity. No state funding used.<a class="story-source" href="https://governor.wv.gov/news/press-releases/2026/pages/gov-morrisey-announces-states-first-high-impact-intelligence-center.aspx" target="_blank">Source: Governor's Office, Feb 2026 →</a></div></div>
-        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Fidelis Monarch Campus advances to construction.</strong> American Intelligence and Power Corporation is moving forward with an 8 GW AI Microgrid Platform at the Monarch Cloud Campus in Mason County. Construction timing has not been announced.<a class="story-source" href="https://wvmetronews.com/2026/01/28/fidelis-ready-to-move-forward-with-data-center-power-plant-in-mason-county/" target="_blank">Source: WV MetroNews, Jan 2026 →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Nscale takes over Monarch; Anthropic signs on.</strong> UK-based Nscale bought Fidelis-affiliated AIPCorp in March 2026 and now runs the Mason County Monarch Compute Campus. The phase-one 2.16 GW gas microgrid is under DEP air review, and Anthropic holds a $44.6B contract for the first 460 MW building. See <a href="#proj-monarch">Project Watch</a>.<a class="story-source" href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/" target="_blank">Source: TechCrunch, Oct 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>HB 2014: Certified Microgrid Program.</strong> Effective July 2025, the law set up WV's microgrid certification framework and streamlined permitting for data centers, positioning the state to compete with Northern Virginia's Data Center Alley.<a class="story-source" href="https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill" target="_blank">Source: WV Legislature, 2025 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Microgrid revenue reinvestment.</strong> Data center tax revenue flows 50% to income tax reduction, 30% to host county, 10% per-capita statewide, and 5% each to grid stabilization and economic grants.<a class="story-source" href="https://governor.wv.gov/news/press-releases/2025/pages/data-center-development.aspx" target="_blank">Source: Governor's Office, 2025 →</a></div></div>
-        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Monarch Compute Campus by Fidelis.</strong> A 2,250-acre AI and high-performance computing campus with on-site power generation through the state's microgrid designation, built for long-term scalable growth.<a class="story-source" href="https://fidelisinfrastructure.com/" target="_blank">Source: Fidelis Infrastructure →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Berkeley County asks the AG how HB 2014 preemption works. The AG declines.</strong> County officials sent a 10-page request about stormwater MS4 duties and public service districts around the Penzance site. AG J.B. McCuskey declined on Oct 9, citing the pending Barks lawsuit in Ohio County.<a class="story-source" href="https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/" target="_blank">Source: WV MetroNews, Oct 2026 →</a></div></div>
       </div>
     </div>
   </div>
@@ -990,7 +1621,7 @@ a.story-source::before {
     <h3 class="future-hub-name">Tucker County</h3>
     <div class="future-hub-pop">Pop. 6,762 · Thomas / Davis</div>
     <div class="future-hub-stories">
-      <div class="future-hub-story"><strong>WV Air Quality Board upholds Ridgeline permit; coalition appeals.</strong> The state Air Quality Board sided with developers of the Fundamental Data project. Tucker United, the WV Highlands Conservancy, and the Sierra Club appealed, and state regulators heard two days of evidence in the permit challenge.<a class="story-source" href="https://wvmetronews.com/2026/02/07/air-quality-board-sides-with-developers-of-tucker-county-data-center/" target="_blank">Source: WV MetroNews, Feb 2026 →</a></div>
+      <div class="future-hub-story"><strong>Ridgeline appeals tossed on jurisdiction; groups vow to refile.</strong> The Air Quality Board upheld Fundamental Data's permit in February. On Aug 26 the Intermediate Court of Appeals dismissed the appeals by Tucker United, the WV Highlands Conservancy, and the Sierra Club on jurisdictional grounds, not the merits. NPR covered the fight nationally on Oct 31.<a class="story-source" href="https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/" target="_blank">Source: WTAP, Aug 2026 →</a></div>
       <div class="future-hub-story"><strong>Harvard Dominici Lab study projects $19M to $35M in health damages.</strong> Tucker United commissioned a Harvard T.H. Chan School of Public Health study estimating significant health-related costs from the Ridgeline data center's projected air emissions over its permit lifetime.<a class="story-source" href="https://westvirginiawatch.com/2026/02/20/not-good-economic-growth-residents-call-for-protections-against-proposed-data-centers-in-wv/" target="_blank">Source: West Virginia Watch, Feb 2026 →</a></div>
       <div class="future-hub-story"><strong>Tucker United forms in response to Fundamental Data project.</strong> A grassroots coalition of Tucker County residents organized after HB 2014's passage and Fundamental Data's air-quality permit application for the Ridgeline facility near Thomas, which includes gas turbines and three 10-million-gallon diesel storage tanks. Operation startup is planned for 2027 or 2028.<a class="story-source" href="https://wvpublic.org/story/energy-environment/citizen-groups-appeal-for-information-on-tucker-county-data-center/" target="_blank">Source: WV Public Broadcasting →</a></div>
     </div>
@@ -1225,7 +1856,7 @@ a.story-source::before {
 <!-- FOOTER -->
 <footer class="page-footer">
   <p class="big-text">Montani Semper Liberi</p>
-  <p>West Virginia AI Innovation Index. Data compiled May 2026.</p>
+  <p>West Virginia AI Watch. Project Watch updated November 3, 2026. Hub stories compiled May 2026. <a href="https://github.com/m0ntan1/WV-AI-HUB/tree/main/research" target="_blank" rel="noopener">Sources &amp; method →</a></p>
   <p class="contact-line">Curated by <a href="https://montaniai.com" target="_blank" rel="noopener" class="brand-mark">M<span class="slash">Ø</span>NTAN1.com</a> &nbsp;·&nbsp; <a href="mailto:rick@montaniai.com">rick@montaniai.com</a></p>
 </footer>
 
@@ -1241,7 +1872,7 @@ const WV = [
 const HUBS = [
   { id:'morgantown', name:'Morgantown', lat:39.6295, lng:-79.9559, stories:10 },
   { id:'fairmont', name:'Fairmont', lat:39.4851, lng:-80.1426, stories:4 },
-  { id:'charleston', name:'Charleston', lat:38.3498, lng:-81.6326, stories:9, capital:true },
+  { id:'charleston', name:'Charleston', lat:38.3498, lng:-81.6326, stories:10, capital:true },
   { id:'huntington', name:'Huntington', lat:38.4192, lng:-82.4452, stories:8 },
   { id:'martinsburg', name:'Berkeley Co.', lat:39.4562, lng:-77.9639, stories:7 },
 ];
@@ -2046,6 +2677,395 @@ window.addEventListener('resize', ()=>{
     });
   }, 200);
 });
+
+// ═══════════════════════════════════════════
+// AI WATCH: PROJECT DATA (single source of truth for map + cards)
+// Coordinates are approximate (town/road level). Full sourcing and
+// method notes: research/2026-11-wv-ai-watch-dossier.md
+// ═══════════════════════════════════════════
+const STATUS = {
+  construction: { label:'Under construction · certified', color:'#ff5c7a' },
+  certified:    { label:'State-certified',     color:'#ffb020' },
+  contested:    { label:'Permitted · contested', color:'#c084fc' },
+  proposed:     { label:'Proposed',            color:'#00d4ff' },
+  rumored:      { label:'Rumored',             color:'#94a3b8' },
+  grid:         { label:'Power & grid',        color:'#34d399' },
+};
+
+const PROJECTS = [
+  { id:'monarch', short:'Monarch', name:'Monarch Compute Campus', status:'construction',
+    county:'Mason Co. · Point Pleasant', lat:38.88, lng:-82.12, lx:-1, ly:10,
+    developer:'Nscale (UK) via Monarch Cloud Campus LLC. Acquired AIPCorp from Fidelis New Energy / 8090 Industries, Mar 2026.',
+    facts:[
+      ['Scale','Up to 2,250 acres. Phase 1: 1.35 GW of compute, $69.2B, 4,375 construction / 645 permanent jobs. Path to 8+ GW.'],
+      ['Power','2.16 GW off-grid gas microgrid with 864 reciprocating engines, plus diesel backup.'],
+      ['Tenants','Anthropic: $44.6B contract for the first 460 MW building (Nscale IPO filing). Microsoft\'s 1.35 GW letter of interest was never produced, and Bloomberg reported it walked away.'],
+      ['People','Daniel Shapiro (Nscale CPO), William Calhoun, Jason Bechtle (site mgr). Residents Kimberly Mattox, Stephanie Butcher, Joshua Jeffers. Mason WV United (Elaine Matheny).'],
+      ['Permits','Air permit R14-0042: comments closed Oct 30, final decision pending. DEP violations for sediment and dust May through Aug. About 6 homes flooded May 23–24.'],
+    ],
+    latest:{ d:'Oct 30, 2026', t:'Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). The same day, the DEP air-permit comment period closed after hearings Oct 20 and Oct 29.' },
+    sources:[
+      ['Gazette-Mail: Oct 20 hearing','https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html'],
+      ['TechCrunch: Nvidia','https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/'],
+      ['Gazette-Mail: violations','https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html'],
+      ['Herald-Dispatch: certification','https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html'],
+    ]},
+  { id:'tamarack', short:'Tamarack', name:'Project Tamarack', status:'certified',
+    county:'Mason Co. · West Columbia', lat:38.97, lng:-81.99, lx:1, ly:-6,
+    developer:'Starwood Digital Ventures (Starwood Capital Group, Miami Beach). CEO Anthony Balestrieri.',
+    facts:[
+      ['Scale','$12B. 1,000+ construction jobs and 300+ permanent.'],
+      ['Power','About 2.16 GW from the grid over existing Appalachian Power infrastructure. No on-site plant. Closed-loop cooling.'],
+      ['Context','Starwood\'s 1.2 GW "Project Washington" was denied in Delaware, and a board upheld the denial in March 2026.'],
+      ['People','Gov. Patrick Morrisey: "West Virginia electricity bills are not going up from these announcements. Period." Resident Kimberly Mattox lives a quarter mile away.'],
+    ],
+    latest:{ d:'Sep 3, 2026', t:'Certified as a High Impact Data Center at the WV Chamber summit at The Greenbrier. Residents called it a "total shocker." No construction timeline has been released.' },
+    sources:[
+      ['WOWK','https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/'],
+      ['WSAZ','https://www.wsaz.com/2026/09/04/total-shocker-residents-react-second-data-center-coming-mason-county/'],
+      ['WV Watch','https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/'],
+    ]},
+  { id:'google', short:'Google', name:'Google Buffalo Campus', status:'certified',
+    county:'Putnam Co. · Buffalo', lat:38.62, lng:-81.98, lx:1,
+    developer:'Google, via affiliate Cumulus Group LLC.',
+    facts:[
+      ['Scale','About 1,700 acres along Charleston Rd / WV-62, next to a 765 kV ApCo line. The Army Corps filing shows 8 buildings.'],
+      ['Power','Grid. Google says it pays for power and for water/sewer upgrades. 288 diesel emergency generators and 128 cooling towers in the DEP air application (Jul 22).'],
+      ['Impacts','34+ acres of wetlands and 45,000+ ft of streams affected. Projected 249 t/yr NOx.'],
+      ['People','Commission President Andy Skidmore. Putnam United (Heather Ransom, Jessica Lacy, Joseph DeGroff). Residents Melanie and Tim Lacy, Barbie Fronk, Ashley Armstrong, Dr. Kyle McCausland.'],
+    ],
+    latest:{ d:'Aug 2026', t:'Putnam United brought a resolution to the County Commission asking for resident input. The Gazette-Mail found certification followed six-plus months of closed-door meetings, revealed through FOIA.' },
+    sources:[
+      ['Governor','https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county'],
+      ['MetroNews','https://wvmetronews.com/2026/04/14/putnam-county-residents-speak-out-about-proposed-google-data-center-near-buffalo/'],
+      ['Gazette-Mail','https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html'],
+    ]},
+  { id:'ridgeline', short:'Ridgeline', name:'Ridgeline (Fundamental Data)', status:'contested',
+    county:'Tucker / Grant Co. · Davis–Thomas', lat:39.14, lng:-79.48, lx:1,
+    developer:'Fundamental Data LLC (Purcellville, VA). Responsible individual Casey Chapman. Counsel: Speaker Roger Hanshaw (Bowles Rice).',
+    facts:[
+      ['Scale','Starts at 291 acres and could reach 10,000. Reporting has described up to 5.2 GW. Target: 2028.'],
+      ['Power','About 785 MW gas plant with diesel backup (three 10M-gallon tanks). About 1.3 GW of solar floated.'],
+      ['Legal','Air Quality Board upheld the permit Feb 5. ICA dismissed appeals on jurisdiction Aug 26, and the groups say they will refile. The Commerce violation notice (Jun 18) was rescinded Jul 1.'],
+      ['People','Tucker United (Amy Margolies), WV Highlands Conservancy (Olivia Miller), Sierra Club WV. Davis Council voted 5-0 against. Sen. Randy Smith called opponents "vacation homeowners."'],
+    ],
+    latest:{ d:'Oct 31, 2026', t:'NPR national feature on threats to dark skies, ski areas, and the Monongahela National Forest. A Sep 2 geologists\' study flagged mine-subsidence and methane risk. A Harvard Dominici Lab study projects $19–35M in health damages.' },
+    sources:[
+      ['NPR','https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies'],
+      ['WTAP: ICA ruling','https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/'],
+      ['Gazette-Mail: legal','https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html'],
+      ['Country Roads News','https://countryroads.substack.com/p/data-center-story-archive'],
+    ]},
+  { id:'adams-tg', short:'Adams Fork · Twisted Gun', name:'Adams Fork Energy Campus · Twisted Gun', status:'contested',
+    county:'Mingo Co. · Wharncliffe', lat:37.63, lng:-81.96, lx:1,
+    developer:'TransGas Development Systems LLC (New York City). CEO Adam Victor.',
+    facts:[
+      ['Power','Gas plant with 117 engines and about 2,457 MW (trackers range from 1,200 to 2,850 MW). Data center on the Twisted Gun Golf Course. Mine-pool water for cooling.'],
+      ['Permits','DEP air permits R13-3714 / R13-3715 issued Oct 2025. The legacy ammonia-plant permit status is unclear.'],
+      ['Legal','Federal suit by 10 residents (S.D. W.Va.) dismissed without prejudice by Judge Robert Chambers, Jun 22, 2026. Attorney Stephen New plans EPCRA suits.'],
+    ],
+    latest:{ d:'Jun 22, 2026', t:'Judge Chambers dismissed the claims against the Army Corps, Fish & Wildlife, and FERC (no final agency action). Plaintiffs can refile.' },
+    sources:[
+      ['Gazette-Mail','https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html'],
+      ['WV Watch: lawsuit','https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/'],
+      ['GEM wiki','https://www.gem.wiki/Adams_Fork_Data_Center_Energy_Campus'],
+    ]},
+  { id:'adams-h', short:'Adams Fork · Harless', name:'Adams Fork Energy Campus · Harless', status:'contested',
+    county:'Mingo Co. · Holden', lat:37.83, lng:-82.06, lx:-1,
+    developer:'TransGas Development Systems LLC. Representative Adam Victor Jr.',
+    facts:[
+      ['Power','Second gas plant (117 engines, about 2,457 MW per DEP filings) serving a data center at Harless Industrial Park near the Mingo–Logan line.'],
+      ['Permits','Paired with the Twisted Gun permits (R13-3714 / R13-3715).'],
+      ['People','Residents raised concerns about air quality for older mine veterans and water depletion. Counsel: Stephen P. New & Associates (Beckley).'],
+    ],
+    latest:{ d:'Feb 2026', t:'Adam Victor Jr. declined to say whether TransGas still plans the ammonia plant attached to the original permit.' },
+    sources:[
+      ['WV Watch','https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/'],
+      ['Herald-Dispatch','https://www.herald-dispatch.com/news/dep-to-hold-meeting-on-permit-requests-for-gas-powered-mingo-county-data-center-sites/article_06330c90-3488-4504-9a10-da0d2996d76b.html'],
+    ]},
+  { id:'penzance', short:'Penzance', name:'Penzance Bedington Campus', status:'certified',
+    county:'Berkeley Co. · Bedington / Falling Waters', lat:39.53, lng:-77.93, lx:-1,
+    developer:'Penzance (Washington, D.C.), via Bedington Owner LLC.',
+    facts:[
+      ['Scale','$4B, 548 acres, 1.9M sq ft, 600 MW IT. About 1,000 construction and 125 full-time jobs.'],
+      ['Power','Grid-connected. No microgrid.'],
+      ['Status','First certified "High Impact" project under HB 2014 (Feb 2026). DEP stormwater construction permit application accepted Jul 2026.'],
+      ['People','Commission President Eddie Gochenour (supportive). No Data Centers in the Eastern Panhandle (Rupok Bhuiyan).'],
+    ],
+    latest:{ d:'Oct 9, 2026', t:'AG J.B. McCuskey declined Berkeley County\'s 10-page request for guidance on HB 2014 preemption of its stormwater MS4 duties, citing the pending Barks lawsuit.' },
+    sources:[
+      ['Governor','https://governor.wv.gov/news/press-releases/2026/pages/gov-morrisey-announces-states-first-high-impact-intelligence-center.aspx'],
+      ['MetroNews: AG','https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/'],
+      ['Observer','https://observerwv.com/bedington-data-center-project-seeks-construction-permit/'],
+    ]},
+  { id:'qts', short:'QTS', name:'QTS Kearneysville Campus', status:'proposed',
+    county:'Berkeley / Jefferson line', lat:39.40, lng:-77.89, lx:1,
+    developer:'QTS Data Centers (Blackstone portfolio company).',
+    facts:[
+      ['Scale','About 300 acres across two counties: two buildings, a switching station, and a water tank.'],
+      ['Status','Berkeley Planning Commission approved the concept plan (Mar 2025). Jefferson County had received no plans.'],
+      ['Legal','Attorney Stephen New has named QTS as a target for future suits.'],
+    ],
+    latest:{ d:'2025–26', t:'Trackers list the first building for 2028. No 2026 Jefferson County filing found.' },
+    sources:[
+      ['Observer','https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved'],
+      ['Baxtel','https://baxtel.com/campus/qts-kearneysville-campus'],
+    ]},
+  { id:'summit', short:'Summit Point', name:'Summit Point Site', status:'proposed',
+    county:'Jefferson Co. · Summit Point', lat:39.235, lng:-77.957, lx:1,
+    developer:'Ryan Stuart Development.',
+    facts:[
+      ['Scale','About 235 acres (thinly sourced).'],
+      ['Status','Developer presentation to the Charles Town Utility Board reported Apr 29, 2026. No state filing found.'],
+      ['People','Jefferson Commissioner Cara Keys has criticized HB 2014 for its missing setbacks and groundwater protections.'],
+    ],
+    latest:{ d:'Apr 2026', t:'The utility board is also weighing a separate Summit Point water and sewer grant. Its link to the site is unconfirmed.' },
+    sources:[
+      ['nearbydatacenters','https://nearbydatacenters.org/wv/'],
+      ['Observer','https://observerwv.com/tag/summit-point-utility-project/'],
+    ]},
+  { id:'hoglick', short:'Hog Lick', name:'Hog Lick Data Center & Microgrid', status:'proposed',
+    county:'Marion Co. · White Hall', lat:39.435, lng:-80.175, lx:-1,
+    developer:'Hog Lick Aggregates (quarry). President Brian Redmond.',
+    facts:[
+      ['Scale','277–300 acres, with 1,500 more available. Phased to as much as 1 GW.'],
+      ['Power','Gas on-site generation and/or grid. Geothermal cooling in the flooded Krissy Mine. Pivoted from the ARCH2 hydrogen hub.'],
+      ['People','Redmond: "too early for anyone to light their hair on fire." The Marion Commission President had not been briefed.'],
+    ],
+    latest:{ d:'May 2026', t:'Feasibility study announced. No state filing found.' },
+    sources:[
+      ['WDTV','https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/'],
+      ['Register-Herald','https://www.register-herald.com/west_virginia/news/fairmont-company-president-defends-data-center-says-too-early-to-protest-his-plan/article_de4430dd-e3f5-5176-9c2a-b45a862f9a88.html'],
+    ]},
+  { id:'warwood', short:'Warwood', name:'Centre Foundry Data Center', status:'contested',
+    county:'Ohio Co. · Wheeling (Warwood)', lat:40.10, lng:-80.705, lx:1,
+    developer:'Silicon Foundation Energy, with Stokes Inc. (SC). Bought the 15-acre former Centre Foundry for $1.5M.',
+    facts:[
+      ['Scale','Stated range of 10 MW, then 20–30 MW, then 100 MW. Later described as 50 MW, which is under HB 2014\'s 90 MW line and so subject to City of Wheeling review.'],
+      ['Power','Grid plus gas backup. Closed-loop Ohio River water cooling.'],
+      ['Legal','Barks v. Silicon Foundation (Ohio Co. Circuit Court): 12 residents challenge HB 2014\'s constitutionality. The AG intervened to defend.'],
+      ['People','Del. Shawn Fluharty (D-Ohio) held town halls at the Warwood Veterans Assn. and Waterfront Hall. Resident Amanda McWhorter (WVDCAP).'],
+    ],
+    latest:{ d:'Oct 2026', t:'The AG\'s office is defending HB 2014 in Barks and cited the case when declining Berkeley County\'s opinion request.' },
+    sources:[
+      ['WVPB','https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/'],
+      ['WTOV9: town hall','https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling'],
+      ['MetroNews: Barks','https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/'],
+    ]},
+  { id:'monroe', short:'Monroe Co.', name:'Monroe County (rumored)', status:'rumored',
+    county:'Monroe Co. · near Ballard', lat:37.505, lng:-80.75, lx:1,
+    developer:'Unnamed. Company representatives have toured sites around the state.',
+    facts:[
+      ['Status','No filing. The County Commission said in Feb 2026 that authority now sits with the state and referred residents to legislators.'],
+      ['People','Protesters gathered outside the Giles Co., VA law office of landowner Jason Buckland. Residents started a "Monroe County Bill of Rights" petition.'],
+    ],
+    latest:{ d:'Oct 26, 2026', t:'Residents protested concerns about farmland, noise, and pollution: "We do not want these centers where we live."' },
+    sources:[
+      ['WVTF / Radio IQ','https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-protest-potential-monroe-county-data-center'],
+      ['Mountain Messenger','https://mountainmessenger.com/?p=100074'],
+    ]},
+  { id:'fortmartin', short:'Fort Martin', name:'Fort Martin Gas Addition', status:'grid',
+    county:'Monongalia Co. · Maidsville', lat:39.71, lng:-79.93, lx:1,
+    developer:'Mon Power & Potomac Edison (FirstEnergy).',
+    facts:[
+      ['Scale','1,200 MW gas plus 70 MW solar, $2.48B. Construction 2027, online by end of 2031.'],
+      ['PSC','CPCN hearings held Jul 15–16, 2026. Statutory decision deadline Feb 2027.'],
+      ['People','Sierra Club WV contests "abandonment" cost recovery and notes no data-center contract has been signed.'],
+    ],
+    latest:{ d:'Nov 2026', t:'No PSC order yet. A decision could come late 2026 and must come by Feb 2027.' },
+    sources:[
+      ['WVPB','https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/'],
+      ['Sierra Club','https://www.sierraclub.org/press-releases/2026/06/sierra-club-west-virginia-files-testimony-mon-power-s-248-billion-gas-plant'],
+    ]},
+];
+
+// Transmission corridors (illustrative, county-to-county)
+const LINES = [
+  { id:'marl', name:'MARL 500 kV (NextEra) · PSC 26-0075-E-CN', color:'#34d399',
+    note:'Monongalia → Preston → Mineral → Hampshire. 190+ landowner intervenors. PSC staff recommended denial. Decision ~Mar 2027.',
+    pts:[[-79.93,39.71],[-79.62,39.60],[-79.25,39.47],[-78.95,39.43],[-78.55,39.36],[-78.35,39.30]] },
+  { id:'valleylink', name:'Valley Link 765 kV (preliminary corridor)', color:'#f97316',
+    note:'Dominion / FirstEnergy / Transource JV. From the Amos plant (Putnam) east to Frederick Co., MD. Barbour, Upshur, Lewis, and Preston commissions opposed. No PSC filing yet.',
+    pts:[[-81.82,38.47],[-81.35,38.75],[-80.95,38.85],[-80.65,38.78],[-80.45,39.00],[-80.10,39.08],[-79.75,39.15],[-79.45,39.12],[-79.00,39.05],[-78.55,39.25],[-77.95,39.35],[-77.72,39.33]] },
+];
+
+// ═══════════════════════════════════════════
+// AI WATCH: RENDERING
+// ═══════════════════════════════════════════
+const watchState = { filter:'all', hover:null, markers:[] };
+const STATUS_ORDER = ['construction','certified','contested','proposed','rumored','grid'];
+
+function escapeHTML(s){ return String(s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function renderWatchCards(){
+  const wrap = document.getElementById('watchCards');
+  if(!wrap) return;
+  const sorted = [...PROJECTS].sort((a,b)=> STATUS_ORDER.indexOf(a.status)-STATUS_ORDER.indexOf(b.status));
+  wrap.innerHTML = sorted.map(p=>{
+    const st = STATUS[p.status];
+    return `<article class="watch-card" id="proj-${p.id}" data-status="${p.status}" tabindex="-1" style="--st:${st.color}">
+      <div class="wc-top"><span class="wc-status">${st.label}</span><span class="wc-county">${escapeHTML(p.county)}</span></div>
+      <h3 class="wc-name">${escapeHTML(p.name)}</h3>
+      <div class="wc-dev">${escapeHTML(p.developer)}</div>
+      <ul class="wc-facts">${p.facts.map(([k,v])=>`<li><b>${escapeHTML(k)}</b>${escapeHTML(v)}</li>`).join('')}</ul>
+      <div class="wc-latest"><span class="d">LATEST · ${escapeHTML(p.latest.d)}</span>${escapeHTML(p.latest.t)}</div>
+      <div class="wc-sources">${p.sources.map(([l,u])=>`<a href="${u}" target="_blank" rel="noopener">${escapeHTML(l)} →</a>`).join('')}</div>
+    </article>`;
+  }).join('');
+}
+
+function renderWatchFilters(){
+  const bar = document.getElementById('watchFilters');
+  const legend = document.getElementById('watchLegend');
+  if(!bar) return;
+  const counts = {};
+  PROJECTS.forEach(p=> counts[p.status]=(counts[p.status]||0)+1);
+  const btn = (key,label,color,n)=>`<button type="button" class="watch-filter" data-f="${key}" aria-pressed="${watchState.filter===key}">${color?`<i style="background:${color}"></i>`:''}${label} · ${n}</button>`;
+  bar.innerHTML = btn('all','All projects',null,PROJECTS.length) +
+    STATUS_ORDER.filter(k=>counts[k]).map(k=>btn(k,STATUS[k].label,STATUS[k].color,counts[k])).join('');
+  bar.querySelectorAll('.watch-filter').forEach(b=> b.addEventListener('click',()=>{
+    watchState.filter = b.dataset.f;
+    bar.querySelectorAll('.watch-filter').forEach(x=>x.setAttribute('aria-pressed', x===b));
+    document.querySelectorAll('.watch-card').forEach(c=>{
+      c.hidden = !(watchState.filter==='all' || c.dataset.status===watchState.filter);
+    });
+    drawWatchMap();
+  }));
+  if(legend){
+    legend.innerHTML = STATUS_ORDER.filter(k=>counts[k]).map(k=>`<span><i style="background:${STATUS[k].color}"></i>${STATUS[k].label}</span>`).join('') +
+      LINES.map(l=>`<span style="color:${l.color}"><i class="line"></i><em style="font-style:normal;color:var(--text-secondary)">${l.id==='marl'?'MARL 500 kV':'Valley Link 765 kV'}</em></span>`).join('');
+  }
+}
+
+function drawWatchMap(){
+  const canvas = document.getElementById('watchMap');
+  if(!canvas) return;
+  const rect = canvas.getBoundingClientRect();
+  if(!rect.width) return;
+  const dpr = Math.min(window.devicePixelRatio||1, 2);
+  canvas.width = rect.width*dpr; canvas.height = rect.height*dpr;
+  const ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  const w = rect.width, h = rect.height;
+  const proj = makeProjector(w, h, 0.06, b.cLng, b.cLat, b.rLng, b.rLat);
+
+  // backdrop
+  const bg = ctx.createRadialGradient(w/2,h/2,0,w/2,h/2,Math.max(w,h)*0.7);
+  bg.addColorStop(0,'#0a1626'); bg.addColorStop(1,'#050a12');
+  ctx.fillStyle = bg; ctx.fillRect(0,0,w,h);
+
+  // state outline
+  ctx.beginPath();
+  WV.forEach(([lng,lat],i)=>{ const [x,y]=proj(lng,lat); i?ctx.lineTo(x,y):ctx.moveTo(x,y); });
+  ctx.closePath();
+  ctx.fillStyle = 'rgba(0,212,255,0.045)'; ctx.fill();
+  ctx.strokeStyle = 'rgba(0,212,255,0.55)'; ctx.lineWidth = 1.2;
+  ctx.shadowColor = 'rgba(0,212,255,0.5)'; ctx.shadowBlur = 8; ctx.stroke(); ctx.shadowBlur = 0;
+
+  // reference towns
+  ctx.font = '10px "JetBrains Mono", monospace';
+  const refs = [...HUBS.map(x=>({name:x.name,lat:x.lat,lng:x.lng})), {name:'Parkersburg',lat:39.2667,lng:-81.5615},{name:'Beckley',lat:37.7782,lng:-81.1882},{name:'Elkins',lat:38.9259,lng:-79.8467}];
+  refs.forEach(t=>{
+    const [x,y]=proj(t.lng,t.lat);
+    ctx.fillStyle='rgba(200,215,240,0.35)'; ctx.beginPath(); ctx.arc(x,y,1.6,0,Math.PI*2); ctx.fill();
+    if(w >= 600){ ctx.fillStyle='rgba(200,215,240,0.32)'; ctx.fillText(t.name, x+5, y+11); }
+  });
+
+  // transmission corridors
+  const showGrid = watchState.filter==='all' || watchState.filter==='grid';
+  LINES.forEach(l=>{
+    ctx.save();
+    ctx.globalAlpha = showGrid ? 0.85 : 0.15;
+    ctx.setLineDash([6,5]); ctx.lineWidth = 2; ctx.strokeStyle = l.color;
+    ctx.beginPath();
+    l.pts.forEach(([lng,lat],i)=>{ const [x,y]=proj(lng,lat); i?ctx.lineTo(x,y):ctx.moveTo(x,y); });
+    ctx.stroke(); ctx.restore();
+  });
+
+  // project markers
+  watchState.markers = [];
+  const small = w < 600;
+  PROJECTS.forEach(p=>{
+    const [x,y] = proj(p.lng,p.lat);
+    const st = STATUS[p.status];
+    const active = watchState.filter==='all' || watchState.filter===p.status;
+    const hot = watchState.hover===p.id;
+    const r = hot ? 9 : 6.5;
+    ctx.save();
+    ctx.globalAlpha = active ? 1 : 0.18;
+    const g = ctx.createRadialGradient(x,y,0,x,y,r*3.2);
+    g.addColorStop(0, st.color+'aa'); g.addColorStop(1, st.color+'00');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x,y,r*3.2,0,Math.PI*2); ctx.fill();
+    ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2);
+    if(p.status==='rumored'){ ctx.setLineDash([2,2]); ctx.strokeStyle=st.color; ctx.lineWidth=1.6; ctx.stroke(); ctx.setLineDash([]); }
+    else { ctx.fillStyle = st.color; ctx.fill(); ctx.strokeStyle='#050a12'; ctx.lineWidth=1.5; ctx.stroke(); }
+    if(active && (!small || hot)){
+      ctx.font = (hot?'600 12px':'500 11px')+' "DM Sans", sans-serif';
+      const label = p.short;
+      const tw = ctx.measureText(label).width;
+      const lx = p.lx<0 ? x - r - 6 - tw : x + r + 6;
+      const ly = y + (p.ly||0);
+      ctx.fillStyle = 'rgba(5,10,18,0.75)'; ctx.fillRect(lx-3, ly-8, tw+6, 16);
+      ctx.fillStyle = hot ? '#fff' : 'rgba(232,237,245,0.9)';
+      ctx.fillText(label, lx, ly+4);
+    }
+    ctx.restore();
+    watchState.markers.push({p,x,y,active});
+  });
+}
+
+let _watchInit = false;
+function initWatch(){
+  if(_watchInit) return; _watchInit = true;
+  renderWatchCards();
+  renderWatchFilters();
+  const canvas = document.getElementById('watchMap');
+  const tip = document.getElementById('watchTip');
+  if(!canvas) return;
+  drawWatchMap();
+  new ResizeObserver(()=>drawWatchMap()).observe(canvas);
+  const hit = (ev)=>{
+    const r = canvas.getBoundingClientRect();
+    const mx = ev.clientX-r.left, my = ev.clientY-r.top;
+    let best=null, bd=18;
+    watchState.markers.forEach(m=>{ if(!m.active) return; const d=Math.hypot(m.x-mx,m.y-my); if(d<bd){bd=d;best=m;} });
+    return {best,mx,my};
+  };
+  canvas.addEventListener('mousemove', ev=>{
+    const {best,mx,my} = hit(ev);
+    const id = best ? best.p.id : null;
+    canvas.style.cursor = best ? 'pointer' : 'crosshair';
+    if(id!==watchState.hover){ watchState.hover=id; drawWatchMap(); }
+    if(best){
+      const st = STATUS[best.p.status];
+      tip.innerHTML = `<b>${escapeHTML(best.p.name)}</b><span class="t-meta" style="color:${st.color}">${st.label}</span> <span class="t-meta">· ${escapeHTML(best.p.county)}</span><br>${escapeHTML(best.p.latest.t)}`;
+      tip.hidden = false;
+      const wrapR = canvas.parentElement.getBoundingClientRect();
+      const left = Math.min(mx + canvas.offsetLeft + 14, wrapR.width - 270);
+      tip.style.left = Math.max(8,left)+'px';
+      tip.style.top = (my + canvas.offsetTop + 14)+'px';
+    } else tip.hidden = true;
+  });
+  canvas.addEventListener('mouseleave', ()=>{ tip.hidden=true; if(watchState.hover){watchState.hover=null; drawWatchMap();} });
+  canvas.addEventListener('click', ev=>{
+    const {best} = hit(ev);
+    if(!best) return;
+    const card = document.getElementById('proj-'+best.p.id);
+    if(!card) return;
+    if(card.hidden){ document.querySelector('.watch-filter[data-f="all"]').click(); }
+    card.scrollIntoView({behavior:'smooth', block:'center'});
+    document.querySelectorAll('.watch-card.hl').forEach(c=>c.classList.remove('hl'));
+    card.classList.add('hl');
+    setTimeout(()=>card.classList.remove('hl'), 2400);
+  });
+  // card hover highlights its marker
+  document.getElementById('watchCards').addEventListener('mouseover', ev=>{
+    const c = ev.target.closest('.watch-card'); const id = c ? c.id.replace('proj-','') : null;
+    if(id!==watchState.hover){ watchState.hover=id; drawWatchMap(); }
+  });
+}
+document.addEventListener('DOMContentLoaded', initWatch);
+if(document.readyState !== 'loading') initWatch();
 
 document.addEventListener('DOMContentLoaded', initSections);
 if(document.readyState !== 'loading') initSections();

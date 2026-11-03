@@ -3,38 +3,58 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://wvaihub.com/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://wvaihub.com/assets/og-image.png</image:loc>
-      <image:title>West Virginia's AI Frontier</image:title>
-      <image:caption>Interactive map of AI innovation hubs across West Virginia.</image:caption>
+      <image:title>West Virginia's AI Watch</image:title>
+      <image:caption>Mapping AI across West Virginia: data centers, dockets, and hubs.</image:caption>
     </image:image>
   </url>
   <url>
+    <loc>https://wvaihub.com/#projects</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#docket</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#calendar</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wvaihub.com/#people</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://wvaihub.com/#sec-morgantown</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wvaihub.com/#sec-fairmont</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wvaihub.com/#sec-charleston</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wvaihub.com/#sec-huntington</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wvaihub.com/#sec-berkeley</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
