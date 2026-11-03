@@ -1,9 +1,40 @@
 # WV AI Watch: Update Plan
 
-> Iteration 1 · Nov 3, 2026. A plan for keeping the site current and honest. It covers who does what, how often, from which sources, with which tools, and where the line is on claims.
+> Iteration 2 · Nov 3, 2026. A plan for keeping the site current and honest. It covers who does what, how often, from which sources, with which tools, and where the line is on claims.
 
 ## The goal in one paragraph
 The site is only useful if its dates are right this week. Countdown chips, the "next" step on every docket card, and the county sheets all go stale fast. The plan is a short **weekly desk shift** (about 60–90 minutes) driven by a checker script that prints a to-do list, plus **same-day updates** for the handful of events that change the story. Automation drafts the work and a person approves it. Nothing publishes without a source.
+
+## How it all fits together
+
+**Every three hours, the news refreshes itself.** A GitHub job (`.github/workflows/news.yml`) runs `tools/fetch_news.py`. It reads 18 West Virginia outlets plus 8 targeted Bing News searches and keeps only stories that are about this beat and mention West Virginia. It tags each story with the projects it names and groups coverage of the same story under one lead headline. If anything is new, it commits `data/news.json` to `main`, and Netlify republishes the site within seconds. The front page's "In the news" section, the News page, and each case file's news section update without anyone touching them. No AI model is involved and it costs nothing. Every headline is labeled as the outlet's own words, unchecked. This is the only part of the site that publishes without a person.
+
+**Every Monday at 5:43 a.m. Eastern, a Sonnet session does the verified work.** The scheduled task "WV AI Watch: weekly desk shift (draft PR)" starts a fresh session on Sonnet 5.5. It reads this plan and `DOCS.md` and makes a `desk/<date>` branch. It runs `tools/check.py` first, and the warnings are its to-do list: docket deadlines that have passed, records not re-checked in 45 days, open ⚠ Verify items, and one-off county meeting dates. Then it works through the sources:
+- **PSC emails:** your case-subscription digests from the past eight days. It moves docket cards, adds hearings and deadlines, and cites the PSC document link for each change.
+- **News:** the headlines the three-hour job gathered that week. It opens each story worth keeping, confirms it, and turns it into a desk-log entry or a project timeline entry with that article as the source.
+- **Official pages:** DEP notices, the Legislature's schedule, and the 17 county agenda pages, for new dates.
+
+It marks what it re-confirmed, runs the checker until there are no errors, and rebuilds the calendar feed and county QR codes. Then it opens a pull request titled "Desk shift: week of …" that lists every change with its source.
+
+It is fenced in by the rules in section 4. It cannot change a project's status, add connections to the people web, or add anything about a named private person; those go into a "Needs your call" list with its suggestion and source. A new docket card for a newly subscribed PSC case also goes under "Needs your call". It never merges. If nothing changed, it opens no pull request and says so.
+
+**The pull request is where you come in.** As soon as it opens, GitHub runs the data check again as a second gate, and Netlify builds a preview: a full working copy of the site with the changes applied, at its own link. You read the change list, click through the preview, decide the "Needs your call" items, and merge. Netlify publishes to wvaihub.com in about 20 seconds, and everything downstream updates at once: the countdowns, the docket board, the county sheets, the `calendar.ics` that subscribers' calendars pull about twice a day, and `feed.json`. What used to be a 60–90 minute shift becomes a 15–30 minute review.
+
+**Between Mondays, big moments don't wait.** A PSC order, a permit decision, a court ruling, a new certification, or a hearing announced on short notice gets a same-day update. Either ask Claude in a session to draft it, or edit the data yourself. It goes through the same pull request, check, preview, and merge path. Tips and corrections from readers come in through the contact form (`#/contact`). They collect in the Netlify dashboard under Forms, or in your inbox if you turn on Netlify's email notifications. Anything you act on goes through that same path, and corrections are logged publicly.
+
+**On a slower rhythm:**
+- **Monthly:** a link check (`tools/check.py --links`) to replace dead sources, a pass at every ⚠ Verify item, and a look at the county meeting schedules.
+- **Every quarter:** a full verification pass like the November one.
+- **During the legislative session (Jan 13 – Mar 13, 2027):** bill tracking needs to be daily, which the weekly task doesn't cover. Either you take it on, or we add a temporary daily task for those two months.
+
+**When something breaks, it fails loudly or harmlessly:**
+- **A dead outlet feed** gets skipped; the news job keeps running.
+- **A failed news run:** GitHub emails you, and the checker warns when headlines are more than a week old.
+- **No Gmail:** the Monday task says so at the top of its pull request.
+- **No pull request on a Monday** means either nothing changed (its summary says so) or the run failed.
+- **An off-topic headline** goes on the `block` list in `data/news-sources.json` and never comes back.
+
+**The one gap right now:** the Monday task was created without Gmail. Until it is opened in claude.ai (scheduled tasks) and the Gmail connector is added, its pull requests skip the PSC step, and that step is the most important source on the site.
 
 ---
 
@@ -21,6 +52,35 @@ The site is only useful if its dates are right this week. Countdown chips, the "
 | **Reporters and outlets**: Mike Tony (Gazette-Mail), Chris Schulz and Curtis Tate (WVPB), Brad McElhinny (MetroNews), Dan Parks (Country Roads News), Steve Pearson (Observer), WV Watch, Mountain State Spotlight, Valley North Record | `desk.json`, project `latest` and `timeline` | One Google Alert per project name and docket number, delivered as RSS | Weekly |
 | **Community groups**: Tucker United, Mason WV United, Putnam United, WVDCAP, Stop Valley Link, WV CAG | `events.json` (town halls, protests) | Their sites and public event pages | Weekly |
 | **Developers** (Valley Link open houses, Nscale) | `events.json`, labeled `developer` | Developer sites | Weekly |
+
+### 1a. PSC case subscriptions: what's covered and what to add
+
+The PSC emails are the backbone of the docket. They are also the only way to follow PSC cases, because the PSC website blocks automated tools. Anything you are not subscribed to, the site will miss.
+
+**Covered now.** As of Nov 3, 2026 there is one subscription, "Maidsville / Fort Martin CPCN". Its digests carry these cases:
+
+| Case | What it is |
+|---|---|
+| 26-0075-E-CN | MARL 500 kV line (NextEra) |
+| 26-0108-E-CN | Fort Martin / "Maidsville Energy Center" gas plant (Mon Power / Potomac Edison) |
+| 25-0450-E-GI | PJM capacity market / AEP "FRR" investigation |
+| 25-0857-E-IRP | Mon Power / Potomac Edison resource plan |
+
+**Add, in this order.** Full reasoning and sources are in `research/psc-subscription-watchlist.md`. These case numbers come from legal notices and news reporting because the PSC site was blocked, so confirm each one in Case Information before subscribing.
+
+| Priority | Case | Why |
+|---|---|---|
+| 1 | **26-0633-E-GI** · HB 2014 generating-capacity rules | The PSC's own HB 2014 rulemaking; already on the docket board, but only through news |
+| 1 | **FP Valley Link 26A** · Valley Link comment file | Holding file for protests. When Valley Link files its formal application, subscribe to the new `E-CN` number the same day |
+| 1 | **25-0859-E-IRP** and **25-0860-E-IRP** · Appalachian Power and Wheeling Power resource plans | Where ApCo's forecast of up to 8,000 MW of new large load gets tested |
+| 1 | **Data-center special contracts** (not filed yet) | FirstEnergy says it will serve data centers through special contracts needing PSC approval. If the subscription system allows criteria, add Mon Power, Potomac Edison, Appalachian Power, and Wheeling Power with keywords such as *special contract*, *data center*, *large load*, *microgrid* |
+| 2 | **26-0508-E-42T** · Mon Power / Potomac Edison base-rate increase | Household-bill context; second step Jun 1, 2027 |
+| 2 | **Mon Power 2026 ENEC** (look up the `26-xxxx-E-ENEC` number) and the next **ApCo ENEC** | Where PJM capacity costs, pushed up by data-center demand, reach bills |
+| 3 | **26-0130-E-CN** · Mitchell plant cooling tower (optional) | Coal-plant life extension under HB 2014's policy |
+
+**How to add one:** on psc.state.wv.us, go to **Case Information**, search the case number, open the case, and choose **Subscribe to Case**. Or use the "Modify" link in any digest email to edit your subscription criteria.
+
+**What happens after you subscribe.** Nothing else needs setting up. The new case starts appearing in the daily digests, and the Monday task reads every digest from `docketnotify@psc.state.wv.us`. The first time it sees activity in a case with no card on the docket board, it drafts one, with the case number, stage, stamp, next date, and the PSC document link. It lists that card under "Needs your call", and you approve it when you merge. Also move the case into the "Already in your digests" table in the watchlist, so the record of what you follow stays current.
 
 ---
 

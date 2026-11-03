@@ -10,7 +10,7 @@ Cases at the Public Service Commission of West Virginia worth adding to your Cas
 
 ## Already in your digests (no action needed)
 
-Your existing "Maidsville / Fort Martin CPCN" subscription already delivers these:
+Your existing "Maidsville / Fort Martin CPCN" subscription already delivers these. *Rechecked Nov 3, 2026 against the latest digest: still the only subscription.* When you add a case, move it into this table. The weekly task drafts a docket card for it the first time it shows up in a digest (see `docs/update-plan.md`, section 1a).
 
 | Case | What it is | Status |
 |---|---|---|
