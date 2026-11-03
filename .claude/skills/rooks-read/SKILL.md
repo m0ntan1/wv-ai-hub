@@ -84,7 +84,7 @@ Then run `python3 -I tools/check.py`. It must report 0 errors: it enforces the 8
 
 ## 6. Audio (only when configured)
 
-If `ELEVENLABS_API_KEY` and `ROOK_VOICE_ID` are set and the Read is CLEARED, run `python3 -I tools/voice_read.py <id>`. It writes `audio/rook/<id>.mp3` and sets `audio`. If they are not set, skip this step silently.
+If `ELEVENLABS_API_KEY` and `ROOK_VOICE_ID` are set and the Read is CLEARED, run `python3 -I tools/voice_read.py <id>`. It writes `audio/rook/<id>.mp3` and sets `audio`. If they are not set, skip this step silently. If the script fails (a quota, network, or API error), do not retry more than once: leave `audio` as `null`, open the pull request anyway, and put the error message at the top of its description. Audio is never a reason to hold a Read.
 
 ## 7. Open the pull request
 
