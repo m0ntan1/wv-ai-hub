@@ -29,7 +29,8 @@ const STILLS = [
 const SCROLLS = [['seq_monarch', '#/project/monarch', 760, 14], ['seq_docket', '#/docket', 1300, 9], ['seq_calendar', '#/calendar', 700, 8],
   ['seq_money', '#/money', 2600, 20], ['seq_nscale', '#/company/nscale', 1250, 34]];
 
-// Names of private individuals are blurred on screen: the "People" rows on case files list residents.
+// Optional: BLUR_PEOPLE=1 blurs the "People" rows on case files. Off by default: the video shows the site as published,
+// and the site's own naming rule (sourced, from published reporting) is the editor's policy, not the video's.
 async function redact(page) {
   await page.evaluate(() => {
     document.querySelectorAll('.facts > div').forEach(r => {
@@ -49,7 +50,7 @@ async function open(page, hash) {
     const kill = () => document.querySelectorAll('iframe[src*="netlify" i]').forEach(f => (f.closest('div') || f).remove());
     kill(); new MutationObserver(kill).observe(document.documentElement, { childList: true, subtree: true });
   });
-  await redact(page);
+  if (process.env.BLUR_PEOPLE === '1') await redact(page);
 }
 const want = n => !ONLY || ONLY.has(n);
 
