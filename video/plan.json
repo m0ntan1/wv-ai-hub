@@ -1,0 +1,543 @@
+{
+ "about": "Shots and callouts for the Rook video. Positions are in 'sentence coordinates': 2.5 means halfway through the third sentence of that scene's narration. Shots tile each scene with no gaps. 'kb' is a Ken Burns move: [zoom0, x0, y0, zoom1, x1, y1] with the crop centered at (x, y) in 0..1. 'range' picks part of a frame sequence. The intro uses absolute seconds because it is built around the song.",
+ "asof": "Figures as of Nov 3, 2026",
+ "intro": {
+  "shots": [
+   {
+    "src": "black",
+    "t0": 0,
+    "t1": 2.0
+   },
+   {
+    "src": "map_hero",
+    "t0": 2.0,
+    "t1": "end",
+    "fade": 1.6,
+    "kb": [
+     1.0,
+     0.62,
+     0.5,
+     1.07,
+     0.62,
+     0.5
+    ]
+   }
+  ],
+  "overlays": [
+   {
+    "id": "lt_rook",
+    "t0": 4.0,
+    "t1": 9.6
+   },
+   {
+    "id": "title",
+    "t0": 10.0,
+    "t1": "end"
+   }
+  ]
+ },
+ "scenes": {
+  "2": {
+   "shots": [
+    {
+     "src": "front",
+     "from": 0,
+     "to": 1,
+     "kb": [
+      1.0,
+      0.36,
+      0.38,
+      1.12,
+      0.36,
+      0.4
+     ]
+    },
+    {
+     "src": "projects",
+     "from": 1,
+     "to": 2,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.08,
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "src": "monarch_top",
+     "from": 2,
+     "to": 3,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.07,
+      0.4,
+      0.45
+     ]
+    },
+    {
+     "src": "summit_top",
+     "from": 3,
+     "to": 5,
+     "kb": [
+      1.0,
+      0.4,
+      0.3,
+      1.25,
+      0.34,
+      0.2
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_13",
+     "from": 0.1,
+     "to": 2.0
+    },
+    {
+     "id": "chip_verify",
+     "from": 3.0,
+     "to": 4.0
+    }
+   ]
+  },
+  "3": {
+   "shots": [
+    {
+     "src": "seq_map",
+     "range": [
+      0,
+      1
+     ],
+     "from": 0,
+     "to": 2.2
+    },
+    {
+     "src": "seq_map",
+     "range": [
+      1,
+      1
+     ],
+     "from": 2.2,
+     "to": 5,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.06,
+      0.4717,
+      0.5
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_certified",
+     "from": 2.0,
+     "to": 3.0
+    },
+    {
+     "id": "chip_hb2014",
+     "from": 3.0,
+     "to": 5.0
+    }
+   ]
+  },
+  "4": {
+   "shots": [
+    {
+     "src": "seq_monarch",
+     "from": 0,
+     "to": 2
+    },
+    {
+     "src": "seq_docket",
+     "from": 2,
+     "to": 3
+    },
+    {
+     "src": "seq_calendar",
+     "from": 3,
+     "to": 5
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_docket",
+     "from": 2.0,
+     "to": 5.0
+    }
+   ]
+  },
+  "5": {
+   "shots": [
+    {
+     "src": "people",
+     "from": 0,
+     "to": 3,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.08,
+      0.62,
+      0.55
+     ]
+    },
+    {
+     "src": "county",
+     "from": 3,
+     "to": 4,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.08,
+      0.45,
+      0.5
+     ]
+    },
+    {
+     "src": "news",
+     "from": 4,
+     "to": 6,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.08,
+      0.4,
+      0.5
+     ]
+    },
+    {
+     "src": "receipts",
+     "from": 6,
+     "to": 8,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.12,
+      0.5,
+      0.55
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_people",
+     "from": 1.0,
+     "to": 2.0
+    },
+    {
+     "id": "chip_receipts",
+     "from": 7.0,
+     "to": 8.0
+    }
+   ]
+  },
+  "6": {
+   "shots": [
+    {
+     "src": "money_top",
+     "from": 0,
+     "to": 2,
+     "kb": [
+      1.0,
+      0.5,
+      0.45,
+      1.08,
+      0.45,
+      0.4
+     ]
+    },
+    {
+     "src": "seq_money",
+     "from": 2,
+     "to": 4
+    },
+    {
+     "src": "seq_money_hover",
+     "from": 4,
+     "to": 5
+    },
+    {
+     "src": "nscale_top",
+     "from": 5,
+     "to": 6,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.18,
+      0.2,
+      0.45
+     ]
+    },
+    {
+     "src": "anthropic_top",
+     "from": 6,
+     "to": 7,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.35,
+      0.4,
+      0.28
+     ]
+    },
+    {
+     "src": "seq_nscale",
+     "from": 7,
+     "to": 10
+    },
+    {
+     "src": "nscale_top",
+     "from": 10,
+     "to": 11,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      2.0,
+      0.84,
+      0.2
+     ]
+    },
+    {
+     "src": "nscale_top",
+     "from": 11,
+     "to": 13,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.7,
+      0.74,
+      0.62
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "id": "bar_disclaimer",
+     "from": 0,
+     "to": 13
+    },
+    {
+     "id": "chip_s1",
+     "from": 5.0,
+     "to": 6.0
+    },
+    {
+     "id": "chip_fin",
+     "from": 7.0,
+     "to": 8.0
+    },
+    {
+     "id": "chip_anthropic",
+     "from": 9.0,
+     "to": 10.0
+    },
+    {
+     "id": "chip_watch",
+     "from": 10.0,
+     "to": 11.0
+    }
+   ]
+  },
+  "7": {
+   "shots": [
+    {
+     "src": "anthropic_top",
+     "from": 0,
+     "to": 1,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.35,
+      0.4,
+      0.28
+     ]
+    },
+    {
+     "src": "desk_rook",
+     "from": 1,
+     "to": 2,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.12,
+      0.4,
+      0.4
+     ]
+    },
+    {
+     "src": "anthropic_top",
+     "from": 2,
+     "to": 3,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.2,
+      0.5,
+      0.3
+     ]
+    },
+    {
+     "src": "anthropic_filing",
+     "from": 3,
+     "to": 4,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.1,
+      0.4,
+      0.5
+     ]
+    },
+    {
+     "src": "desk_mercer",
+     "from": 4,
+     "to": 5,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.12,
+      0.4,
+      0.4
+     ]
+    },
+    {
+     "src": "desk",
+     "from": 5,
+     "to": 6,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.1,
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "src": "rook_archive",
+     "from": 6,
+     "to": 7,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.12,
+      0.42,
+      0.45
+     ]
+    },
+    {
+     "src": "money_top",
+     "from": 7,
+     "to": 10,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.7,
+      0.36,
+      0.3
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_ai",
+     "from": 1.0,
+     "to": 2.0
+    },
+    {
+     "id": "chip_mercer",
+     "from": 4.0,
+     "to": 5.0
+    },
+    {
+     "id": "chip_rick",
+     "from": 5.0,
+     "to": 6.0
+    },
+    {
+     "id": "chip_notadvice",
+     "from": 7.0,
+     "to": 10.0
+    }
+   ]
+  },
+  "8": {
+   "shots": [
+    {
+     "src": "front",
+     "from": 0,
+     "to": 1,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.08,
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "src": "contact",
+     "from": 1,
+     "to": 3,
+     "kb": [
+      1.0,
+      0.5,
+      0.5,
+      1.1,
+      0.4,
+      0.45
+     ]
+    },
+    {
+     "src": "map_hero",
+     "from": 3,
+     "to": "end",
+     "kb": [
+      1.0,
+      0.62,
+      0.5,
+      1.06,
+      0.62,
+      0.5
+     ],
+     "dim": 0.5,
+     "fade": 0.8
+    }
+   ],
+   "overlays": [
+    {
+     "id": "chip_url",
+     "from": 0,
+     "to": 1.0
+    },
+    {
+     "id": "end_card",
+     "from": 3.0,
+     "to": "end"
+    }
+   ]
+  }
+ }
+}
