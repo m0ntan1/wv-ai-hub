@@ -375,7 +375,7 @@
    },
    {
     "title": "Nscale takes over Monarch; Anthropic signs on.",
-    "html": "UK-based Nscale bought Fidelis-affiliated American Intelligence & Power Corp. (AIPCorp) in March 2026 and now runs the Mason County Monarch Compute Campus. The phase-one 2.16 GW gas microgrid is under DEP air review, and Anthropic holds a $44.6B contract for the first 460 MW building. See <a href=\"#proj-monarch\">Project Watch</a>.",
+    "html": "UK-based Nscale bought Fidelis-affiliated American Intelligence & Power Corp. (AIPCorp) in March 2026 and now runs the Mason County Monarch Compute Campus. The phase-one 2.16 GW gas microgrid is under DEP air review, and Anthropic agreed to pay up to approximately $44.6B for GPU capacity there (Nscale S-1). See <a href=\"#proj-monarch\">Project Watch</a>.",
     "sources": [
      {
       "label": "TechCrunch, Oct 2026",
@@ -384,6 +384,10 @@
      {
       "label": "Charleston Gazette-Mail",
       "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+     },
+     {
+      "label": "Nscale S-1 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
      }
     ]
    },

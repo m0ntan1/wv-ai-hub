@@ -7,13 +7,20 @@ export const D = {};
 export async function loadData() {
   const v = document.documentElement.dataset.v || '';
   // News is optional (a fork may not have run the collector yet), so it never blocks the site.
-  const newsP = fetch(`data/news.json${v ? '?v=' + v : ''}`).then(r => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] }));
+  const opt = (f, empty) => fetch(`data/${f}.json${v ? '?v=' + v : ''}`).then(r => r.ok ? r.json() : empty).catch(() => empty);
+  const newsP = opt('news', { items: [] });
+  // The Money Desk roster and Rook's Reads are small and optional; the filings file is larger, so it loads on demand.
+  const coP = opt('companies', { tranches: [], signals: [], secSearch: [], companies: [] });
+  const readsP = opt('reads', { reads: [] });
+  D.loadFilings = () => D.filingsP || (D.filingsP = opt('filings', { sec: {}, search: {}, fred: {} }).then(x => { D.filings = x; return x; }));
   const got = await Promise.all(FILES.map(f => fetch(`data/${f}.json${v ? '?v=' + v : ''}`).then(r => {
     if (!r.ok) throw new Error(`data/${f}.json: HTTP ${r.status}`);
     return r.json();
   })));
   FILES.forEach((f, i) => { D[f] = got[i]; });
   D.news = await newsP;
+  D.companies = await coP;
+  D.reads = ((await readsP).reads || []).filter(r => r.mercer && r.mercer.status === 'CLEARED').sort((x, y) => x.d < y.d ? 1 : -1);
   derive();
   return D;
 }
@@ -48,6 +55,9 @@ function derive() {
 
   // Receipts lookup: section|title -> row
   D.receiptFor = (sec, title) => D.receipts.rows.find(r => r.sec === sec && r.title.startsWith(title.slice(0, 60)));
+
+  // Money Desk lookups
+  D.coById = Object.fromEntries((D.companies.companies || []).map(c => [c.id, c]));
 
   // Network adjacency
   D.net = { byId: Object.fromEntries(D.network.nodes.map(n => [n.id, n])) };

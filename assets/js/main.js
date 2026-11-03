@@ -10,8 +10,11 @@ import { counties, county } from './views/county.js';
 import { projectsIndex, mapPage, hubs, receipts, notFound } from './views/misc.js';
 import { contact } from './views/contact.js';
 import { news } from './views/news.js';
+import { money, company } from './views/money.js';
+import { rook } from './views/reads.js';
+import { desk } from './views/desk.js';
 
-const NAV = [['', 'Front'], ['map', 'Map'], ['news', 'News'], ['projects', 'Projects'], ['docket', 'Docket'], ['calendar', 'Calendar'], ['people', 'People'], ['counties', 'Counties'], ['hubs', 'Hubs'], ['receipts', 'Receipts']];
+const NAV = [['', 'Front'], ['map', 'Map'], ['news', 'News'], ['money', 'Money'], ['projects', 'Projects'], ['docket', 'Docket'], ['calendar', 'Calendar'], ['people', 'People'], ['counties', 'Counties'], ['hubs', 'Hubs'], ['receipts', 'Receipts']];
 // Old single-page anchors keep working.
 const LEGACY = { projects: 'projects', docket: 'docket', calendar: 'calendar', people: 'people', hero: '', watch: 'map' };
 
@@ -34,6 +37,12 @@ function render() {
   if (r.redirect) { history.replaceState(null, '', r.redirect); return render(); }
   const [a = '', b] = r.parts;
   const main = $('#app');
+  // The filings file loads on first visit to the Money pages.
+  if ((a === 'money' || a === 'company') && !D.filings) {
+    main.innerHTML = '<div class="wrap loading">Loading the filings…</div>';
+    D.loadFilings().then(() => { if (parse().parts[0] === a) render(); });
+    return;
+  }
   let title;
   window.scrollTo(0, 0);
   switch (a) {
@@ -50,10 +59,14 @@ function render() {
     case 'receipts': title = receipts(main, r.q); break;
     case 'contact': title = contact(main, r.q); break;
     case 'news': title = news(main, r.q); break;
+    case 'money': title = money(main, r.q); break;
+    case 'company': title = company(main, b); break;
+    case 'rook': title = rook(main, b); break;
+    case 'desk': title = desk(main, b); break;
   }
   if (!title) title = notFound(main);
   document.title = title === 'West Virginia AI Watch' ? 'West Virginia AI Watch: Data Centers, PSC Filings, Lawsuits, and Hearings Mapped' : `${title} · WV AI Watch`;
-  const cur = a === 'project' ? 'projects' : a === 'county' ? 'counties' : a;
+  const cur = a === 'project' ? 'projects' : a === 'county' ? 'counties' : a === 'company' ? 'money' : a === 'rook' ? 'news' : a;
   $$('[data-nav]').forEach(x => x.toggleAttribute('aria-current', false));
   $$(`[data-nav="${cur}"]`).forEach(x => x.setAttribute('aria-current', 'page'));
   $('#drawer').classList.remove('open');

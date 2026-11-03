@@ -1,0 +1,353 @@
+{
+ "updated": "2026-11-03",
+ "note": "The Money Desk roster. Hand-curated: a company enters only with a sourced reason. tools/fetch_filings.py reads the sec.cik fields and fills data/filings.json. Health reads are editorial and change only with the editor's approval (status 'pending' until then).",
+ "tranches": [
+  {"id": "industry", "name": "The Industry", "blurb": "The weather the whole buildout flies in: how fast the biggest buyers are spending, what power and gas cost, and what money costs. Every number comes from a government source or a company filing."},
+  {"id": "companies", "name": "The Companies", "blurb": "The developers and utilities on the ground in West Virginia. If one of them stumbles, a project here stalls."},
+  {"id": "backers", "name": "The Backers", "blurb": "The money behind the projects: tenants, financiers, parent companies, and public money."},
+  {"id": "shovels", "name": "The Shovel Sellers", "blurb": "Makers of the chips, turbines, engines, switchgear, cooling, steel, and gas the buildout runs on. Their order books move before projects do, so we watch them as a leading indicator. None is named here as a supplier to a West Virginia project unless a source says so."}
+ ],
+ "signals": [
+  {"id": "capex", "name": "Hyperscaler capital spending", "kind": "capex", "companies": ["alphabet", "microsoft", "amazon", "meta"],
+   "what": "Cash spent on property and equipment each quarter by Alphabet, Microsoft, Amazon, and Meta, as reported in their SEC filings.",
+   "why": "These four are the biggest buyers of data-center capacity. If their spending slows, every speculative campus gets harder to finance.",
+   "source": {"label": "SEC EDGAR (XBRL)", "url": "https://www.sec.gov/edgar/search/"}},
+  {"id": "henryhub", "name": "Henry Hub natural gas", "kind": "fred", "fred": "DHHNGSP", "unit": "$/MMBtu", "dp": 2,
+   "what": "The benchmark U.S. spot price for natural gas, daily, from the U.S. Energy Information Administration (via FRED).",
+   "why": "Fuel cost for gas-fired microgrids like Monarch's, Ridgeline's, and Adams Fork's, and for the gas plants that set many power prices.",
+   "source": {"label": "FRED: DHHNGSP (EIA)", "url": "https://fred.stlouisfed.org/series/DHHNGSP"}},
+  {"id": "fedfunds", "name": "Federal funds rate", "kind": "fred", "fred": "DFF", "unit": "%", "dp": 2,
+   "what": "The effective federal funds rate, daily, from the Federal Reserve (via FRED).",
+   "why": "The floor under borrowing costs. Campuses that cost tens of billions are built mostly with borrowed money.",
+   "source": {"label": "FRED: DFF (Federal Reserve)", "url": "https://fred.stlouisfed.org/series/DFF"}},
+  {"id": "tenyear", "name": "10-year Treasury yield", "kind": "fred", "fred": "DGS10", "unit": "%", "dp": 2,
+   "what": "The market yield on 10-year U.S. Treasury notes, daily, from the Federal Reserve (via FRED).",
+   "why": "Long-term project debt is priced off long-term rates.",
+   "source": {"label": "FRED: DGS10 (Federal Reserve)", "url": "https://fred.stlouisfed.org/series/DGS10"}},
+  {"id": "pjm", "name": "PJM capacity prices", "kind": "link",
+   "what": "Prices from PJM's capacity auctions, which pay power plants to be available in the 13-state grid that includes West Virginia.",
+   "why": "Data-center demand is a major reason capacity prices have risen, and those costs reach household bills. PJM publishes results as reports; we link to them rather than retype them.",
+   "source": {"label": "PJM: capacity market (RPM)", "url": "https://www.pjm.com/markets-and-operations/rpm"}}
+ ],
+ "secSearch": [
+  {"q": "Monarch Compute Campus", "project": "monarch"},
+  {"q": "TransGas Development Systems", "project": "adams-tg"},
+  {"q": "American Intelligence & Power", "project": "monarch"},
+  {"q": "Starwood Digital Ventures", "project": "tamarack"},
+  {"q": "Valley Link Transmission", "project": "valleylink"},
+  {"q": "Mid-Atlantic Resiliency Link", "project": "marl"}
+ ],
+ "companies": [
+  {
+   "id": "nscale", "name": "Nscale", "tranche": "companies", "listing": "ipo", "ticker": "NSCL", "exchange": "NYSE",
+   "sec": {"cik": "0002110365"}, "hq": "London, United Kingdom", "projects": ["monarch"], "node": "nscale", "conflict": true,
+   "tie": "Developer of the Monarch Compute Campus in Mason County, through Monarch Cloud Campus LLC. Nscale bought the site's owner, AIPCorp, in March 2026. Its S-1 describes Monarch as an approximately 2,250-acre site that can deliver up to 8 GW of gross behind-the-meter power.",
+   "sources": [
+    {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"},
+    {"label": "Gazette-Mail: permits", "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"}
+   ],
+   "factsAsOf": "From the S-1 filed Sep 18, 2026. Six months ended June 30, 2026 unless noted. No amended S-1 or final prospectus was on EDGAR as of Nov 3, 2026.",
+   "facts": [
+    {"k": "Revenue", "v": "$140.6 million in the first half of 2026, up from $10.4 million a year earlier. Full-year 2025: $33.0 million."},
+    {"k": "Net loss", "v": "$1,020.1 million in the first half of 2026, up from $368.9 million. That includes a $457.1 million loss on fair-value adjustments (convertible notes, warrants, options, and SAFEs carried at fair value)."},
+    {"k": "Operating loss", "v": "$492.0 million in the first half of 2026."},
+    {"k": "Spending", "v": "$3,230.1 million on property and equipment in the first half of 2026."},
+    {"k": "Cash flow", "v": "Operating cash flow was $1,686.1 million, which the filing attributes mainly to upfront customer prepayments on long-term take-or-pay contracts."},
+    {"k": "Balance sheet", "v": "As of June 30, 2026: cash $1,478.4 million, total assets $17,252.0 million, total liabilities $12,359.8 million."},
+    {"k": "Anthropic", "v": "Four agreements signed Aug 25, 2026 provide for payments of up to approximately $44.6 billion for GPU infrastructure at Monarch, subject to delivery and service-availability requirements. Nscale must use best efforts to obtain financing for the GPUs and buildings. As of the filing it had no binding commitments for any of that financing."},
+    {"k": "Customers", "v": "The largest customer was 52% of revenue in the first half of 2026 and 73% in 2025. Separately, Microsoft statements of work provide for up to approximately $43.8 billion through December 2033."},
+    {"k": "Nvidia", "v": "At least $3.1 billion of convertible notes, including $1.0 billion to be issued to Nvidia, expected to close on or around Nov 16, 2026."},
+    {"k": "Controls", "v": "The company reports material weaknesses in its internal control over financial reporting."},
+    {"k": "Going concern", "v": "Reliance on uncommitted financing \"initially raised substantial doubt\" about the company continuing as a going concern; management concluded its plan to defer or cut capital spending if needed resolves that doubt."},
+    {"k": "Offering", "v": "Lead bookrunners: Goldman Sachs, J.P. Morgan, and Morgan Stanley. The price range is blank in the S-1."}
+   ],
+   "risks": [
+    "Concentration: the filing expects Microsoft and Anthropic to be significant customers in future periods.",
+    "The Monarch build depends on financing that was not committed when the S-1 was filed.",
+    "Payments depend on delivering capacity on time and keeping it available.",
+    "Building and running its own power plants at sites like Monarch.",
+    "Material weaknesses in financial controls."
+   ],
+   "watch": [
+    "An amended S-1 with a price range, then a final prospectus (form 424B4) when the IPO prices.",
+    "The Nvidia note sale closing, expected around Nov 16, 2026.",
+    "DEP's decision on Monarch's air permit (R14-0042).",
+    "Any 8-K or amendment announcing financing for the Anthropic build."
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "starwood-dv", "name": "Starwood Digital Ventures", "tranche": "companies", "listing": "private",
+   "hq": "Miami Beach, Florida", "projects": ["tamarack"], "node": "starwood", "parent": "starwood-capital",
+   "tie": "Developer of Project Tamarack in Mason County, part of Starwood Capital Group.",
+   "sources": [
+    {"label": "WV Watch", "url": "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/"},
+    {"label": "Herald-Dispatch: certification", "url": "https://www.herald-dispatch.com/business/morrisey-hails-state-certifications-for-two-mason-county-data-center-projects/article_924875e0-77b4-45ab-9115-2ff4b193a6ae.html"}
+   ],
+   "unknown": "Privately held. Its finances, its investors in Tamarack, and any tenant are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "alphabet", "name": "Alphabet (Google)", "tranche": "companies", "also": ["industry"], "listing": "public", "ticker": "GOOGL",
+   "sec": {"cik": "0001652044"}, "projects": ["google"], "node": "cumulus",
+   "tie": "Google, through affiliate Cumulus Group LLC, is developing a data center campus near Buffalo in Putnam County. Alphabet is also one of the four hyperscalers in the capital-spending indicator.",
+   "sources": [
+    {"label": "Governor's Office", "url": "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county"},
+    {"label": "MetroNews", "url": "https://wvmetronews.com/2026/04/14/putnam-county-residents-speak-out-about-proposed-google-data-center-near-buffalo/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "fundamental", "name": "Fundamental Data", "tranche": "companies", "listing": "private",
+   "hq": "Purcellville, Virginia", "projects": ["ridgeline"], "node": "fundamental",
+   "tie": "Developer of the Ridgeline gas plant and data center campus in Tucker and Grant counties.",
+   "sources": [
+    {"label": "POWER: site control, 785 MW", "url": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/"},
+    {"label": "NPR", "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"}
+   ],
+   "unknown": "Privately held. Its owners, investors, finances, and any tenant are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "transgas", "name": "TransGas Development Systems", "tranche": "companies", "listing": "private",
+   "hq": "New York, New York", "projects": ["adams-tg", "adams-h"], "node": "transgas",
+   "tie": "Developer of the Adams Fork gas plants and data centers in Mingo and Logan counties.",
+   "sources": [
+    {"label": "WV Watch: lawsuit", "url": "https://westvirginiawatch.com/2025/12/05/mingo-county-residents-file-federal-lawsuit-against-company-building-power-plants-data-center-in-wv/"},
+    {"label": "Herald-Dispatch", "url": "https://www.herald-dispatch.com/news/dep-to-hold-meeting-on-permit-requests-for-gas-powered-mingo-county-data-center-sites/article_06330c90-3488-4504-9a10-da0d2996d76b.html"}
+   ],
+   "unknown": "Privately held. Financing, investors, and tenants for Adams Fork are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "penzance", "name": "Penzance (Bedington Owner LLC)", "tranche": "companies", "listing": "private",
+   "hq": "Washington, D.C.", "projects": ["penzance"], "node": "penzance-co",
+   "tie": "Developer of the $4 billion Bedington campus in Berkeley County, the first project certified as High Impact under HB 2014.",
+   "sources": [
+    {"label": "Governor's Office", "url": "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"},
+    {"label": "Observer", "url": "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"}
+   ],
+   "unknown": "Privately held. Financing and any tenant are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "qts", "name": "QTS Data Centers", "tranche": "companies", "listing": "private", "parent": "blackstone",
+   "projects": ["qts"],
+   "tie": "Proposed campus near Kearneysville in Berkeley and Jefferson counties. QTS is a Blackstone portfolio company, so Blackstone's filings are the closest public window into it.",
+   "sources": [
+    {"label": "Observer", "url": "https://observerwv.com/plan-for-data-center-complex-near-kearneysville-approved"},
+    {"label": "Baxtel", "url": "https://baxtel.com/campus/qts-kearneysville-campus"}
+   ],
+   "unknown": "Privately held by Blackstone funds. QTS's own finances are not reported separately to the SEC.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "silicon-foundation", "name": "Silicon Foundation Energy", "tranche": "companies", "listing": "private",
+   "projects": ["warwood"], "node": "silicon",
+   "tie": "Developer of the Warwood data center in Wheeling (Ohio County), with Stokes Inc. of South Carolina. Defendant in Barks v. Silicon Foundation, the HB 2014 challenge.",
+   "sources": [
+    {"label": "WVPB", "url": "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/"},
+    {"label": "Herald-Star: Stokes Inc.", "url": "https://www.heraldstaronline.com/news/local-news/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/"}
+   ],
+   "unknown": "Privately held. Finances and investors are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "hoglick", "name": "Hog Lick Aggregates", "tranche": "companies", "listing": "private",
+   "projects": ["hoglick"],
+   "tie": "Quarry company marketing a data center site in White Hall, Marion County.",
+   "sources": [
+    {"label": "WDTV", "url": "https://www.wdtv.com/2026/05/05/local-company-proposes-data-center-marion-county/"}
+   ],
+   "unknown": "Privately held. No developer or tenant has been announced.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "ryan-stuart", "name": "Ryan Stuart Development", "tranche": "companies", "listing": "private",
+   "projects": ["summit"],
+   "tie": "Developer behind the Summit Point proposal in Jefferson County.",
+   "sources": [
+    {"label": "Observer", "url": "https://observerwv.com/tag/summit-point-utility-project/"}
+   ],
+   "unknown": "Privately held. Little is public about the project's backers.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "firstenergy", "name": "FirstEnergy (Mon Power, Potomac Edison)", "tranche": "companies", "listing": "public", "ticker": "FE",
+   "sec": {"cik": "0001031296"}, "projects": ["fortmartin", "valleylink"], "node": "monpower",
+   "tie": "Its West Virginia utilities want to convert the Fort Martin coal plant to a $2.48 billion gas plant (PSC case 26-0108-E-CN). FirstEnergy is also a partner in the Valley Link 765 kV line.",
+   "sources": [
+    {"label": "WVPB: Fort Martin", "url": "https://wvpublic.org/story/energy-environment/application-to-convert-coal-fired-fort-martin-to-gas-submitted-to-psc/"},
+    {"label": "Dominion Post: Valley Link", "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "aep", "name": "American Electric Power (Appalachian Power)", "tranche": "companies", "listing": "public", "ticker": "AEP",
+   "sec": {"cik": "0000004904"}, "projects": ["tamarack", "google", "valleylink"],
+   "tie": "Its Appalachian Power subsidiary would serve Tamarack over existing lines, and Google's Buffalo site sits next to an Appalachian Power 765 kV line. AEP co-owns Transource, a Valley Link partner.",
+   "sources": [
+    {"label": "WOWK: Tamarack", "url": "https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/"},
+    {"label": "MetroNews: 765 kV line", "url": "https://wvmetronews.com/2026/03/29/googles-proposed-data-center-in-buffalo-draws-both-support-and-concern/"},
+    {"label": "Transource Energy", "url": "https://www.transourceenergy.com/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "nextera", "name": "NextEra Energy", "tranche": "companies", "listing": "public", "ticker": "NEE",
+   "sec": {"cik": "0000753308"}, "projects": ["marl"],
+   "tie": "Its subsidiary NextEra Energy Transmission MidAtlantic wants to build the MARL 500 kV line through Monongalia, Preston, Mineral, and Hampshire counties (PSC case 26-0075-E-CN).",
+   "sources": [
+    {"label": "PSC case 26-0075-E-CN", "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "dominion", "name": "Dominion Energy", "tranche": "companies", "listing": "public", "ticker": "D",
+   "sec": {"cik": "0000715957"}, "projects": ["valleylink"],
+   "tie": "A partner in the Valley Link 765 kV line, with FirstEnergy and Transource.",
+   "sources": [
+    {"label": "Dominion Post: Valley Link", "url": "https://www.dominionpost.com/2026/09/16/psc-opens-case-file-for-valley-link-transmission-line-protests/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+
+  {
+   "id": "anthropic", "name": "Anthropic", "tranche": "backers", "listing": "ipo", "ticker": "ANT", "exchange": "Nasdaq",
+   "sec": {"cik": "0002130357"}, "hq": "San Francisco, California", "projects": ["monarch"], "node": "anthropic", "conflict": true, "selfConflict": true,
+   "tie": "Monarch's anchor tenant. Anthropic agreed to spend up to approximately $44.6 billion with Nscale for GPU capacity over terms extending into 2033, with fees accruing only as capacity is delivered and accepted. Anthropic's filing names Nscale but not Monarch or West Virginia; Nscale's S-1 places the agreements at Monarch.",
+   "sources": [
+    {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"},
+    {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}
+   ],
+   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted.",
+   "facts": [
+    {"k": "Revenue", "v": "$33,242 million in the first nine months of 2026, up from $2,545 million a year earlier. Full-year 2025: $4,585 million."},
+    {"k": "Operating loss", "v": "$1,260 million in the first nine months of 2026. Full-year 2025: $8,060 million."},
+    {"k": "Net loss", "v": "$104,039 million in the first nine months of 2026, of which $94.3 billion is a change in the fair value of convertible notes, derivative liabilities, and SAFEs. The filing says that change was driven mainly by the rise in the company's valuation. Full-year 2025 net loss: $41,965 million."},
+    {"k": "Balance sheet", "v": "As of Sep 30, 2026: cash, cash equivalents, and short-term investments $131,845 million; total assets $154,320 million; total liabilities $146,683 million."},
+    {"k": "Commitments", "v": "Purchase commitments and leases with aggregate committed spend of approximately $895.4 billion, substantially all for compute and infrastructure. About $447.5 billion of that is expected before the end of 2030."},
+    {"k": "Nscale terms", "v": "Nscale must use best efforts to obtain financing. Otherwise Anthropic's commitment under each agreement is non-cancelable except in limited cases, including Nscale missing delivery or availability requirements."},
+    {"k": "Structure", "v": "A Delaware public benefit corporation. A Long-Term Benefit Trust generally has the power to elect and remove a majority of the board."},
+    {"k": "Offering", "v": "Applied to list Class A shares on the Nasdaq Global Select Market as ANT. Lead underwriters listed first: Goldman Sachs, Morgan Stanley, and J.P. Morgan. The price range is blank in the S-1/A."}
+   ],
+   "risks": [
+    "The filing says its long-term compute agreements include minimum purchase commitments and take-or-pay terms that require payment whether or not the capacity is used.",
+    "Compute capacity from partners such as Nscale depends on those partners financing and delivering it."
+   ],
+   "watch": [
+    "A further amendment with a price range, then the final prospectus.",
+    "Whether Nscale's financing for Monarch closes, since Anthropic's fees accrue only as capacity is delivered."
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "nvidia", "name": "Nvidia", "tranche": "backers", "also": ["shovels"], "listing": "public", "ticker": "NVDA",
+   "sec": {"cik": "0001045810"}, "projects": ["monarch"], "node": "nvidia",
+   "tie": "Investor and supplier at Monarch: $1.0 billion of Nscale convertible notes or shares (Nscale S-1), and the Vera Rubin GPUs in the Anthropic agreements. Reported to be in talks to guarantee Monarch construction debt.",
+   "sources": [
+    {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"},
+    {"label": "TechCrunch: debt guarantee talks", "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "blackstone", "name": "Blackstone", "tranche": "backers", "listing": "public", "ticker": "BX",
+   "sec": {"cik": "0001393818"}, "projects": ["qts"],
+   "tie": "Owner of QTS Data Centers, which proposed the Kearneysville campus.",
+   "sources": [
+    {"label": "Baxtel: QTS Kearneysville", "url": "https://baxtel.com/campus/qts-kearneysville-campus"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "starwood-capital", "name": "Starwood Capital Group", "tranche": "backers", "listing": "private",
+   "hq": "Miami Beach, Florida", "projects": ["tamarack"],
+   "tie": "Parent of Starwood Digital Ventures, the Tamarack developer. Its 1.2 GW Project Washington data center was denied in Delaware, and a board upheld the denial in March 2026.",
+   "sources": [
+    {"label": "WV Watch", "url": "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/"}
+   ],
+   "unknown": "Privately held investment firm. Its funds' finances are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "fidelis", "name": "Fidelis New Energy / 8090 Industries", "tranche": "backers", "listing": "private",
+   "projects": ["monarch"], "node": "fidelis",
+   "tie": "Monarch's original backer. The WV EDA approved a forgivable $62.5 million loan to its subsidiary Mountaineer GigaSystem LLC for an earlier hydrogen plan on the site; $25 million was paid out. Its affiliate AIPCorp was sold to Nscale in March 2026.",
+   "sources": [
+    {"label": "Gazette-Mail: permits and state support", "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"}
+   ],
+   "unknown": "Privately held. What it received for AIPCorp, and whether any state money is owed back, are not public.",
+   "health": {"status": "nodata"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "microsoft", "name": "Microsoft", "tranche": "backers", "also": ["industry"], "listing": "public", "ticker": "MSFT",
+   "sec": {"cik": "0000789019"}, "projects": ["monarch"],
+   "tie": "A major Nscale customer: statements of work worth up to approximately $43.8 billion through December 2033 (Nscale S-1). Microsoft once held a 1.35 GW letter of interest for Monarch that was never produced to reporters. Also one of the four hyperscalers in the capital-spending indicator.",
+   "verify": "Bloomberg reported that Microsoft walked away from Monarch. We have not linked that report, so check it before relying on it.",
+   "sources": [
+    {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "evergy", "name": "Evergy", "tranche": "backers", "listing": "public", "ticker": "EVRG",
+   "sec": {"cik": "0001711269"}, "projects": ["valleylink"],
+   "tie": "Co-owns Transource with AEP. Transource is a Valley Link partner.",
+   "sources": [
+    {"label": "Transource Energy", "url": "https://www.transourceenergy.com/"}
+   ],
+   "health": {"status": "pending"}, "checked": "2026-11-03"
+  },
+  {
+   "id": "wv-eda", "name": "State of West Virginia (Economic Development Authority)", "tranche": "backers", "listing": "public-body",
+   "projects": ["monarch"],
+   "tie": "Public money: the EDA's forgivable $62.5 million loan to a Fidelis subsidiary on the Monarch site, of which $25 million was paid out.",
+   "sources": [
+    {"label": "Gazette-Mail: permits and state support", "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"}
+   ],
+   "unknown": "A public agency, not a company. Its records are public through board minutes and the state's open-records law.",
+   "health": {"status": "na"}, "checked": "2026-11-03"
+  },
+
+  {"id": "amazon", "name": "Amazon", "tranche": "industry", "listing": "public", "ticker": "AMZN", "sec": {"cik": "0001018724"},
+   "tie": "Tracked for its capital spending only, as one of the four hyperscalers. No West Virginia project is tied to Amazon on this site.", "sources": [], "health": {"status": "na"}, "checked": "2026-11-03"},
+  {"id": "meta", "name": "Meta Platforms", "tranche": "industry", "listing": "public", "ticker": "META", "sec": {"cik": "0001326801"},
+   "tie": "Tracked for its capital spending only, as one of the four hyperscalers. No West Virginia project is tied to Meta on this site.", "sources": [], "health": {"status": "na"}, "checked": "2026-11-03"},
+
+  {"id": "gev", "name": "GE Vernova", "tranche": "shovels", "group": "Power generation", "listing": "public", "ticker": "GEV", "sec": {"cik": "0001996810"},
+   "tie": "Gas turbines and grid equipment. An indicator of how much new generation is being ordered.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "caterpillar", "name": "Caterpillar", "tranche": "shovels", "group": "Power generation", "listing": "public", "ticker": "CAT", "sec": {"cik": "0000018230"},
+   "tie": "Reciprocating engines and generators, the technology behind engine-based microgrids.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "cummins", "name": "Cummins", "tranche": "shovels", "group": "Power generation", "listing": "public", "ticker": "CMI", "sec": {"cik": "0000026172"},
+   "tie": "Engines and backup generators for data centers.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "wartsila", "name": "Wärtsilä", "tranche": "shovels", "group": "Power generation", "listing": "foreign", "ticker": "WRT1V", "exchange": "Nasdaq Helsinki",
+   "tie": "Large gas engines for power plants.", "sources": [], "unknown": "Listed in Finland, so it does not file with the SEC. Its reports are on its own investor site.", "irUrl": "https://www.wartsila.com/investors", "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "siemens-energy", "name": "Siemens Energy", "tranche": "shovels", "group": "Power generation", "listing": "foreign", "ticker": "ENR", "exchange": "Frankfurt",
+   "tie": "Gas turbines and grid equipment.", "sources": [], "unknown": "Listed in Germany, so it does not file with the SEC.", "irUrl": "https://www.siemens-energy.com/global/en/home/investor-relations.html", "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "eaton", "name": "Eaton", "tranche": "shovels", "group": "Electrical gear", "listing": "public", "ticker": "ETN", "sec": {"cik": "0001551182"},
+   "tie": "Switchgear, transformers, and power distribution for data centers.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "vertiv", "name": "Vertiv", "tranche": "shovels", "group": "Electrical gear", "listing": "public", "ticker": "VRT", "sec": {"cik": "0001674101"},
+   "tie": "Power and cooling systems built for data centers.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "hubbell", "name": "Hubbell", "tranche": "shovels", "group": "Electrical gear", "listing": "public", "ticker": "HUBB", "sec": {"cik": "0000048898"},
+   "tie": "Utility and electrical components, a read on grid build-out.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "schneider", "name": "Schneider Electric", "tranche": "shovels", "group": "Electrical gear", "listing": "foreign", "ticker": "SU", "exchange": "Euronext Paris",
+   "tie": "Power distribution and cooling for data centers.", "sources": [], "unknown": "Listed in France, so it does not file with the SEC.", "irUrl": "https://www.se.com/ww/en/about-us/investor-relations/", "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "trane", "name": "Trane Technologies", "tranche": "shovels", "group": "Cooling", "listing": "public", "ticker": "TT", "sec": {"cik": "0001466258"},
+   "tie": "Chillers and cooling systems.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "daikin", "name": "Daikin", "tranche": "shovels", "group": "Cooling", "listing": "foreign", "ticker": "6367", "exchange": "Tokyo",
+   "tie": "Cooling systems.", "sources": [], "unknown": "Listed in Japan, so it does not file with the SEC.", "irUrl": "https://www.daikin.com/investor", "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "quanta", "name": "Quanta Services", "tranche": "shovels", "group": "Construction and transmission", "listing": "public", "ticker": "PWR", "sec": {"cik": "0001050915"},
+   "tie": "Builds transmission lines and substations.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "mastec", "name": "MasTec", "tranche": "shovels", "group": "Construction and transmission", "listing": "public", "ticker": "MTZ", "sec": {"cik": "0000015615"},
+   "tie": "Builds power, pipeline, and communications infrastructure.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "eqt", "name": "EQT", "tranche": "shovels", "group": "Appalachian gas", "listing": "public", "ticker": "EQT", "sec": {"cik": "0000033213"},
+   "tie": "A major natural gas producer in the Appalachian Basin.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "williams", "name": "Williams", "tranche": "shovels", "group": "Appalachian gas", "listing": "public", "ticker": "WMB", "sec": {"cik": "0000107263"},
+   "tie": "Gas pipelines, including lines that serve the Appalachian Basin.", "sources": [], "health": {"status": "pending"}, "checked": "2026-11-03"},
+  {"id": "nucor", "name": "Nucor", "tranche": "shovels", "group": "Steel", "listing": "public", "ticker": "NUE", "sec": {"cik": "0000073309"},
+   "tie": "Building Nucor Steel West Virginia in Mason County, a mill the Gazette-Mail reports is driven in part by data-center demand.",
+   "sources": [{"label": "Gazette-Mail: Nucor", "url": "https://www.wvgazettemail.com/business/tip-of-the-spear-nucor-steel-wv-plans-fall-completion-driven-by-gm-data-centers/article_59e8c4c0-a253-46e2-9bea-14e39f5b263b.html"}],
+   "health": {"status": "pending"}, "checked": "2026-11-03"}
+ ]
+}

@@ -3,6 +3,7 @@ import { esc, fmtDate, toDate, DAYS, MONTHS, STAGES, store, srcLink, rx, ymd } f
 import { mountMap } from '../map.js';
 import { countdownItems, chipsHTML, eventRow, projectCard } from '../parts.js';
 import { stories, storyHTML, newsNote } from './news.js';
+import { readCard, latestRead } from './reads.js';
 
 export function front(main) {
   const T = D.today, td = toDate(T);
@@ -63,6 +64,7 @@ export function front(main) {
 
     ${D.news.items && D.news.items.length ? `<section class="sec">
       <div class="sec-h">In the news <a class="src act" href="#/news">All news →</a></div>
+      ${latestRead() ? readCard(latestRead(), { compact: true }) : ''}
       <div class="news-grid">${stories().slice(0, 8).map(s => storyHTML(s)).join('')}</div>
       <p class="dim" style="font-size:12.5px;margin-top:12px">${esc(newsNote())}</p>
     </section>` : ''}
