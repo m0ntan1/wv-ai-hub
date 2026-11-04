@@ -6,6 +6,26 @@
   "major": true,
   "stories": [
    {
+    "title": "WVU leads a $321 million energy and AI engine, with up to $160 million from NSF.",
+    "html": "The Resilient Energy Technology and Infrastructure Consortium, led by WVU with the University of Pittsburgh, Carnegie Mellon, and more than 60 regional partners, will receive up to $160 million from the National Science Foundation over ten years, plus $161 million from industry, workforce, philanthropy, state government, and community partners. WVU's release says the consortium will develop hardware, software, and AI technologies to help secure the nation's energy supply and strengthen the grid. It says the funding is projected to generate 21,000 jobs, 150 startups, and more than $1 billion in economic growth for the region. Those are projections, not results.",
+    "sources": [
+     {
+      "label": "WVU Today, Jul 14, 2026",
+      "url": "https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs"
+     }
+    ]
+   },
+   {
+    "title": "WVU researchers are building AI into field sensors.",
+    "html": "With an NSF Early-Concept Grant for Exploratory Research, biologist Steve Kannenberg and postdoctoral researcher Jie Hu are building AI and very small on-site computers into environmental monitoring sensors, so scientists could see how ecosystems respond to droughts and wildfires in near real time instead of waiting months or years. The project also includes a plain-language AI chatbot for the data. The researchers plan to test the approach at sites in Colorado and Massachusetts.",
+    "sources": [
+     {
+      "label": "WVU Today, Aug 24, 2026",
+      "url": "https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems"
+     }
+    ]
+   },
+   {
     "title": "WVU launches M.S. in Artificial Intelligence.",
     "html": "A fully online graduate program from the Statler College's <a href=\"https://lcsee.statler.wvu.edu\" rel=\"noopener\" target=\"_blank\">Lane Department of Computer Science and Electrical Engineering</a>, covering machine learning, cybersecurity, intelligent systems, and energy applications. Enrollment opened Spring 2026, alongside companion M.S. tracks in Applied AI & Data Analytics and AI Marketing.",
     "sources": [
@@ -106,6 +126,20 @@
   "major": true,
   "stories": [
    {
+    "title": "NOAA announced a supercomputer, Rhea, for its Fairmont computing center.",
+    "html": "In September 2024 NOAA announced a $99 million investment in Rhea, a high-performance computer for its Environmental Security Computing Center in Fairmont. NOAA said it will strengthen the agency's AI and machine learning work on weather, ocean, and climate forecasting. The money comes from the Bipartisan Infrastructure Law and the Inflation Reduction Act. This entry reports the announcement. NOAA's computing-systems page lists Hera, Ursa, and Mercury at Fairmont and does not mention Rhea, so we have not confirmed whether Rhea is installed or running.",
+    "sources": [
+     {
+      "label": "NOAA, Sep 3, 2024 (updated Jan 31, 2025)",
+      "url": "https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system"
+     },
+     {
+      "label": "NOAA, high-performance computing systems page",
+      "url": "https://www.noaa.gov/organization/information-technology/hpcc-locations-and-systems"
+     }
+    ]
+   },
+   {
     "title": "NOAA Fairmont facility deemed mission-critical.",
     "html": "Despite federal workforce reductions in 2026, the WV High Technology Foundation confirmed no cuts at the Fairmont NOAA Environmental Security Computing Center, citing the satellite ground stations and supercomputing role in national weather infrastructure.",
     "sources": [
@@ -155,6 +189,50 @@
   "tag": "Hub 03 · State Capital",
   "major": true,
   "stories": [
+   {
+    "title": "Thunkable's AI pilot gets about 120 West Virginia students building apps.",
+    "html": "In a pilot run with the State of West Virginia and supported by the Rockefeller Foundation, about 120 high school students in Monongalia, Kanawha, and Berkeley counties built an estimated 80 mobile apps with Thunkable's no-code app builder and its AI tools, and four schools completed the curriculum. Thunkable reports that 44% of students said they were more interested in starting a business. These figures come from Thunkable's own press release, which the Rockefeller Foundation posted.",
+    "sources": [
+     {
+      "label": "Thunkable pilot release, Rockefeller Foundation, Sep 10, 2026",
+      "url": "https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/"
+     }
+    ]
+   },
+   {
+    "title": "West Virginia is building a statewide AI training model for teachers.",
+    "html": "The West Virginia Department of Education is developing a train-the-trainer approach to AI professional learning, designed for a state of 55 counties and thousands of educators. Regional specialists will support local leaders known as AI Mountaineers, who will help deliver the training in their counties and schools. The department's professional learning initiative is called PAINT, for Pedagogical AI for New Teaching, and the broader plan has three levels: Pioneer, Trailblazer, and Ridge Climber. The Southern Regional Education Board's account of a podcast conversation with the department's AI coordinator says the model is still being implemented and its long-term outcomes remain to be seen. State Superintendent Michele Blatt told a U.S. House committee in February 2026 that the department provides ongoing professional development focused on the science of teaching with AI integration, which it calls PAiNT. We found no count of teachers trained.",
+    "sources": [
+     {
+      "label": "Southern Regional Education Board, Oct 20, 2026",
+      "url": "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice"
+     },
+     {
+      "label": "State Superintendent's written testimony, U.S. House Education and Workforce Committee, Feb 24, 2026",
+      "url": "https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf"
+     }
+    ]
+   },
+   {
+    "title": "Secretary of State's AI-powered knowledge center wins an international award.",
+    "html": "The Secretary of State's office says its Internal Knowledge Center, which integrates knowledge management and artificial intelligence into a single employee experience, earned a 2026 Merit Award at the International Association of Commercial Administrators' annual conference. The office is a repeat winner of the association's awards.",
+    "sources": [
+     {
+      "label": "WV Secretary of State, Jun 8, 2026",
+      "url": "https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai"
+     }
+    ]
+   },
+   {
+    "title": "Southern WV Community & Technical College wins $1.8 million to bring AI across the college.",
+    "html": "The U.S. Department of Education's Fund for the Improvement of Postsecondary Education (FIPSE) program funded a four-year AI Readiness and Capacity Initiative at the college, to bring AI into academic programs and student services.",
+    "sources": [
+     {
+      "label": "Southern WV Community & Technical College, Jan 13, 2026",
+      "url": "https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/"
+     }
+    ]
+   },
    {
     "title": "Morrisey unveils a 20-year data center plan.",
     "html": "The Responsible Data Center Development Plan (Aug 11, 2026) sets seven principles, puts Chris Morris's Data Economy Office in charge, and promises an advisory council on setbacks and noise. Critics say it leaves HB 2014's regulatory gaps in place.",
@@ -270,6 +348,44 @@
   "major": true,
   "stories": [
    {
+    "title": "Marshall's medical school builds AI into training and clinics.",
+    "html": "The Joan C. Edwards School of Medicine says it is integrating AI across education, with adaptive-learning platforms and AI-assisted case generation for students. It describes clinical tools including an AI system that detects polyps during colonoscopies and an AI documentation assistant, alongside bioinformatics and AI research, including its Translational Bioinformatics and AI Innovations Lab.",
+    "sources": [
+     {
+      "label": "Marshall School of Medicine, \"AI & Medicine,\" Mar 19, 2026",
+      "url": "https://jcesom.marshall.edu/news/musom-news/ai-medicine/"
+     }
+    ]
+   },
+   {
+    "title": "Marshall plans an AI simulation pilot for counseling training.",
+    "html": "In January 2026 Marshall announced that its Department of Counseling had signed an agreement with Soma Lab Inc. (SimCare AI), a for-profit maker of AI-driven clinical simulation software, for design, a pilot program, and evaluation. Marshall said it would receive early access to the software beginning that spring, contribute faculty expertise, help gather user feedback, take part in pilot testing, and seek grant funding for a wider rollout. The announcement names no funding, and we have not confirmed the pilot's current status.",
+    "sources": [
+     {
+      "label": "Marshall University News, Jan 21, 2026",
+      "url": "https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/"
+     }
+    ]
+   },
+   {
+    "title": "Marshall builds a $45 million cybersecurity institute.",
+    "html": "Neighborgall Construction is building the $45 million, roughly 72,000-square-foot Institute for Cyber Security in Huntington, due to open in August 2027. It will hold advanced cyber ranges, digital forensics labs, unmanned-systems research space, and operational-technology environments. WSAZ reported in August 2026 that cyber defense work is already under way at several campus locations, and that Intuit launched a security operations center on campus in June.",
+    "sources": [
+     {
+      "label": "WSAZ, Oct 15, 2025",
+      "url": "https://www.wsaz.com/2025/10/15/new-rendering-marshalls-institute-cyber-security/"
+     },
+     {
+      "label": "Marshall Institute for Cyber Security, \"ICS Building Updates\"",
+      "url": "https://www.marshall.edu/cyber/building/"
+     },
+     {
+      "label": "WSAZ, Aug 13, 2026",
+      "url": "https://www.wsaz.com/2026/08/13/cybersecurity-operations-already-running-marshalls-campus-ahead-new-institute-buildings-completion/"
+     }
+    ]
+   },
+   {
     "title": "Quality Insights gifts $1.2M to Marshall iCenter.",
     "html": "The funding pays for a full-time gener8tor program manager in Huntington, two gBETA accelerator cohorts per year for three years, and a new gALPHA ideation cohort for early-stage startup testing.",
     "sources": [
@@ -343,6 +459,20 @@
   "tag": "Hub 05 · Eastern Panhandle",
   "major": true,
   "stories": [
+   {
+    "title": "Helsing plans a $50 million AI-enabled drone factory in Martinsburg.",
+    "html": "The Governor announced on July 13, 2026 that the German defense company Helsing will invest an initial $50 million in Berkeley County to make its HX-2 AI-enabled strike drone. The Governor's office says the plant will create at least 60 full-time jobs averaging $125,000 a year. Metro News reports that Helsing's U.S. general manager said the plant would produce 2,000 drones a month. The state developed a customized workforce training program with West Virginia Advance and Blue Ridge Community and Technical College. This is defense manufacturing, and the jobs and production figures are announced plans, not results.",
+    "sources": [
+     {
+      "label": "WV Governor's Office, Jul 13, 2026",
+      "url": "https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high"
+     },
+     {
+      "label": "WV MetroNews, Jul 13, 2026",
+      "url": "https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/"
+     }
+    ]
+   },
    {
     "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
     "html": "Ratepayer advocates and Appalachian Power warn that the law's microgrid backup provisions could raise customer bills, while environmental groups flag gaps in air-quality oversight for fast-tracked sites.",
@@ -432,6 +562,20 @@
   "pop": "Pop. 29,025 · #4 in WV",
   "major": false,
   "stories": [
+   {
+    "title": "PowerFlo Solutions plans a $20 million manufacturing site in Williamstown.",
+    "html": "PowerFlo Solutions, led by West Virginia native Jim Vuksic, will invest $20 million to establish advanced manufacturing operations in the 240,000-square-foot former Hino plant in Williamstown, the Governor's office announced. The Governor's release says the project will create between 120 and 200 full-time jobs, and Metro News reports at least 120. Metro News says the company, which is based in Marietta, Ohio, designs and builds electrical equipment for data centers and AI, such as power distribution units, static transfer switches, dry-type transformers, and custom control panels. The state made an adjacent 11-acre parcel available for expansion. The job figures are announced plans, not results.",
+    "sources": [
+     {
+      "label": "WV Governor's Office, Jul 8, 2026",
+      "url": "https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county"
+     },
+     {
+      "label": "WV MetroNews, Jul 8, 2026",
+      "url": "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
+     }
+    ]
+   },
    {
     "title": "WVU-P Innovation and Technology Center opens.",
     "html": "WVU-P invested nearly $35 million to turn the former Ohio Valley University campus in Vienna into its Innovation and Technology Center. Classes began in August 2025 with 159 students, including hands-on cybersecurity and networking work.",
@@ -581,6 +725,16 @@
   "pop": "Pop. 15,489 · #10 in WV",
   "major": false,
   "stories": [
+   {
+    "title": "The FBI's biometrics center in Clarksburg marks ten years.",
+    "html": "The FBI's biometrics center opened in 2015 on the Criminal Justice Information Services Division campus in Clarksburg, a 360,000-square-foot facility. The FBI's anniversary story is mostly about fingerprint and iris systems. It says the algorithms for fingerprints, latent prints, face, and iris have each been upgraded, and it quotes an FBI assistant director crediting artificial intelligence for the accuracy of the fingerprint and iris algorithms.",
+    "sources": [
+     {
+      "label": "FBI, Sep 22, 2025",
+      "url": "https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years"
+     }
+    ]
+   },
    {
     "title": "TekSynap acquires JBA, strengthening FBI tech support.",
     "html": "The acquisition expands TekSynap's IT, cloud, and cyber support for FBI programs, including the CJIS Division in Clarksburg.",

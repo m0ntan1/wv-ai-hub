@@ -1,5 +1,7 @@
 # Verification log (Nov 3, 2026)
 
+*Update, Nov 4, 2026: 13 hub stories were added after this pass, bringing the total to 215 items with 196 confirmed. They are listed under "Hub refresh" below.*
+
 Every claim on wvaihub.com was checked against the source it links to. **202 items:**
 - **183** confirmed against their linked source.
 - **11** confirmed against the PSC's own docket notifications. The PSC website blocks automated tools, so those links may not open for a script, but they work in a browser.
@@ -270,6 +272,49 @@ Every claim on wvaihub.com was checked against the source it links to. **202 ite
 | Standing meetings | Putnam County Development Authority | ✓ Confirmed | extract, page | [pcda.org](https://pcda.org/meetings/) |
 | Standing meetings | Tucker County Commission | ✓ Confirmed | page | [tuckercountycommission.com](https://tuckercountycommission.com/county-commission) |
 | Standing meetings | Tucker County Development Authority | ✓ Confirmed | page | [tuckerwv.com](https://tuckerwv.com/about-us/meeting-information/) |
+
+## Hub refresh (added Nov 4, 2026)
+Thirteen hub stories were added after the Nov 3 pass. Each source page was opened and each fact checked by hand against it; these were not the Nov 3 scripts. An independent audit (makenomistakes, Heavy tier) then re-opened every cited page and found problems, which were fixed before publishing.
+
+**Corrections made before publishing (Nov 4, 2026):**
+- **State AI teacher training (PAINT):** the first draft said regional specialists were "AI Mountaineers" and described the model as operating. SREB says the specialists support local leaders known as AI Mountaineers, and that the model is still being implemented. Rewritten as a plan, with a note that the only source is secondhand.
+- **Secretary of State award:** called "national"; the source says international (IACA).
+- **PowerFlo:** the job figure was credited to "the announcement" and given as "at least 120"; the Governor's release says between 120 and 200 (Metro News says at least 120). The Governor's release was added as a source. The product list is described as the company's, per Metro News.
+- **Helsing:** the 2,000-a-month rate is credited to what Helsing's U.S. general manager said, per Metro News.
+- **WVU energy engine:** the jobs, startup, and growth numbers are described as projections in WVU's release, not goals; the headline now says NSF's share is up to $160 million.
+- **WVU field sensors:** worded as work in progress, with test sites noted as outside West Virginia.
+- **Thunkable:** removed the claim that apps were placed in classrooms; figures are credited to Thunkable's press release.
+- **FBI Clarksburg:** removed the phrase "facial recognition" (the page does not use it); the story is mostly about fingerprints and iris, with AI mentioned by one official.
+- **Marshall cybersecurity institute:** removed the claim that students work full-time at several locations; the security operations center is credited to Intuit, per WSAZ.
+- **Marshall counseling pilot:** worded as a planned pilot, with a note that current status is unconfirmed; date taken from the page's markup (Jan 21, 2026).
+- **NOAA Rhea:** added NOAA's systems page, which lists Hera, Ursa, and Mercury at Fairmont and does not mention Rhea.
+
+**Corrected in the author's own pass, before the independent audit:** Marshall School of Medicine, "research labs" corrected to the one named lab.
+
+**Corrected after the audit's second round (Nov 4, 2026):**
+- **Marshall counseling pilot:** "pilot to begin that spring" was not on the page; the page says Marshall would receive early access to the software beginning that spring.
+- **State AI teacher training:** the entry said the department's own description could not be found. The State Superintendent's Feb 24, 2026 testimony to a U.S. House committee names PAiNT and ongoing professional development, and is now cited. The train-the-trainer detail still rests on SREB's account alone.
+- **FBI Clarksburg:** removed "face and palm-print matching"; the page mentions palm prints only as a goal when the building opened, and face only in a list of upgraded algorithms.
+- **PowerFlo:** added that Metro News says the company is based in Marietta, Ohio.
+- **WVU energy engine:** defined "the Engine" as the consortium.
+
+Wording rules applied: paraphrase, no quotes; announced jobs, investment, and production figures are labeled plans or projections.
+
+| Section | Item | Result | Method | Sources |
+|---|---|---|---|---|
+| Hub stories | WVU leads a $321 million energy and AI engine, with up to $160 million from NSF. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs) |
+| Hub stories | WVU researchers are building AI into field sensors. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems) |
+| Hub stories | Thunkable's AI pilot gets about 120 West Virginia students building apps. | ✓ Confirmed | page | [rockefellerfoundation.org](https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/) |
+| Hub stories | West Virginia is building a statewide AI training model for teachers. | ✓ Confirmed | page | [sreb.org](https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice) · [edworkforce.house.gov](https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf) |
+| Hub stories | Secretary of State's AI-powered knowledge center wins an international award. | ✓ Confirmed | page | [sos.wv.gov](https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai) |
+| Hub stories | Southern WV Community & Technical College wins $1.8 million to bring AI across the college. | ✓ Confirmed | page | [southernwv.edu](https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/) |
+| Hub stories | Marshall's medical school builds AI into training and clinics. | ✓ Confirmed | page | [jcesom.marshall.edu](https://jcesom.marshall.edu/news/musom-news/ai-medicine/) |
+| Hub stories | Marshall plans an AI simulation pilot for counseling training. | ✓ Confirmed | page | [marshall.edu](https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/) |
+| Hub stories | Marshall builds a $45 million cybersecurity institute. | ✓ Confirmed | page | [wsaz.com](https://www.wsaz.com/2025/10/15/new-rendering-marshalls-institute-cyber-security/) · [marshall.edu](https://www.marshall.edu/cyber/building/) · [wsaz.com](https://www.wsaz.com/2026/08/13/cybersecurity-operations-already-running-marshalls-campus-ahead-new-institute-buildings-completion/) |
+| Hub stories | NOAA announced a supercomputer, Rhea, for its Fairmont computing center. | ✓ Confirmed | page | [noaa.gov](https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system) · [noaa.gov](https://www.noaa.gov/organization/information-technology/hpcc-locations-and-systems) |
+| Hub stories | The FBI's biometrics center in Clarksburg marks ten years. | ✓ Confirmed | page | [fbi.gov](https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years) |
+| Hub stories | Helsing plans a $50 million AI-enabled drone factory in Martinsburg. | ✓ Confirmed | page | [governor.wv.gov](https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high) · [wvmetronews.com](https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/) |
+| Hub stories | PowerFlo Solutions plans a $20 million manufacturing site in Williamstown. | ✓ Confirmed | page | [governor.wv.gov](https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county) · [wvmetronews.com](https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/) |
 
 ## Re-running
 Serve the site locally, run `node verification/inventory.js` (with `SP` set to a scratch folder), fetch each URL into `pages/`, convert with `python3 -I verification/html2txt.py pages`, write extracts with `python3 -I verification/extracts.py extracts`, then run `python3 -I verification/verify_final.py <scratch>`.
