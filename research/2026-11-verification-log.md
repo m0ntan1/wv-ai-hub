@@ -1,5 +1,7 @@
 # Verification log (Nov 3, 2026)
 
+*Update, Nov 4, 2026: 13 hub stories were added after this pass, bringing the total to 215 items with 196 confirmed. They are listed under "Hub refresh" below.*
+
 Every claim on wvaihub.com was checked against the source it links to. **202 items:**
 - **183** confirmed against their linked source.
 - **11** confirmed against the PSC's own docket notifications. The PSC website blocks automated tools, so those links may not open for a script, but they work in a browser.
@@ -270,6 +272,25 @@ Every claim on wvaihub.com was checked against the source it links to. **202 ite
 | Standing meetings | Putnam County Development Authority | ✓ Confirmed | extract, page | [pcda.org](https://pcda.org/meetings/) |
 | Standing meetings | Tucker County Commission | ✓ Confirmed | page | [tuckercountycommission.com](https://tuckercountycommission.com/county-commission) |
 | Standing meetings | Tucker County Development Authority | ✓ Confirmed | page | [tuckerwv.com](https://tuckerwv.com/about-us/meeting-information/) |
+
+## Hub refresh (added Nov 4, 2026)
+Thirteen hub stories were added after the Nov 3 pass. Each was checked by opening its source page and confirming the facts it states; these were hand checks, not the Nov 3 scripts, and the Receipts page notes each row's check date. Wording rules applied: paraphrase, no quotes; announced jobs, investment, and production figures are labeled plans or goals; NOAA's Rhea entry reports a Sept 2024 announcement and says current status is unconfirmed; the Helsing production rate comes from Metro News only.
+
+| Section | Item | Result | Method | Sources |
+|---|---|---|---|---|
+| Hub stories | WVU leads a $321 million NSF-backed energy and AI engine. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs) |
+| Hub stories | WVU researchers put AI inside field sensors. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems) |
+| Hub stories | Thunkable's AI pilot puts student-built apps in West Virginia classrooms. | ✓ Confirmed | page | [rockefellerfoundation.org](https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/) |
+| Hub stories | The state trains teachers on AI through PAINT. | ✓ Confirmed | page | [sreb.org](https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice) |
+| Hub stories | Secretary of State's AI-powered knowledge center wins a national award. | ✓ Confirmed | page | [sos.wv.gov](https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai) |
+| Hub stories | Southern WV Community & Technical College wins $1.8 million to bring AI across the college. | ✓ Confirmed | page | [southernwv.edu](https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/) |
+| Hub stories | Marshall's medical school builds AI into training and clinics. | ✓ Confirmed | page | [jcesom.marshall.edu](https://jcesom.marshall.edu/news/musom-news/ai-medicine/) |
+| Hub stories | Marshall pilots AI simulations for counseling training. | ✓ Confirmed | page | [marshall.edu](https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/) |
+| Hub stories | Marshall builds a $45 million cybersecurity institute. | ✓ Confirmed | page | [wsaz.com](https://www.wsaz.com/2025/10/15/new-rendering-marshalls-institute-cyber-security/) · [marshall.edu](https://www.marshall.edu/cyber/building/) · [wsaz.com](https://www.wsaz.com/2026/08/13/cybersecurity-operations-already-running-marshalls-campus-ahead-new-institute-buildings-completion/) |
+| Hub stories | NOAA announced a supercomputer, Rhea, for its Fairmont computing center. | ✓ Confirmed | page | [noaa.gov](https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system) |
+| Hub stories | The FBI's biometrics center in Clarksburg marks ten years. | ✓ Confirmed | page | [fbi.gov](https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years) |
+| Hub stories | Helsing plans a $50 million AI-enabled drone factory in Martinsburg. | ✓ Confirmed | page | [governor.wv.gov](https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high) · [wvmetronews.com](https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/) |
+| Hub stories | PowerFlo Solutions will build data-center power equipment in Williamstown. | ✓ Confirmed | page | [wvmetronews.com](https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/) |
 
 ## Re-running
 Serve the site locally, run `node verification/inventory.js` (with `SP` set to a scratch folder), fetch each URL into `pages/`, convert with `python3 -I verification/html2txt.py pages`, write extracts with `python3 -I verification/extracts.py extracts`, then run `python3 -I verification/verify_final.py <scratch>`.

@@ -43,7 +43,7 @@ export function hubs(main) {
     <header style="padding-top:28px">
       <div class="kicker">Hubs · the other AI story</div>
       <h1 class="page-h">Research, classrooms, <em>startups</em></h1>
-      <p class="lede">Not every AI story in West Virginia is a data center. These are the universities, schools, companies, and programs building AI skills and businesses in the state. Stories were compiled in May 2026 and checked against their sources on Nov 3, 2026.</p>
+      <p class="lede">Not every AI story in West Virginia is a data center. These are the universities, schools, companies, and programs building AI skills and businesses in the state, plus the energy, computing, cybersecurity, and manufacturing work around them. Stories were first compiled in May 2026, and 13 were added on Nov 4, 2026. Each one links its source. Where a story reports an announcement, plan, or goal, it says so: jobs and investment figures are what was announced, not what has been delivered. See Receipts for how each was checked.</p>
     </header>
     <section class="sec"><div class="sec-h">Major hubs</div>${major.map(hubHTML).join('')}</section>
     <section class="sec"><div class="sec-h">Emerging hubs</div>${emerging.map(hubHTML).join('')}</section>
@@ -60,7 +60,7 @@ export function receipts(main, q) {
     <header style="padding-top:28px">
       <div class="kicker">Receipts · checked ${esc(fmtDate(R.checked))}</div>
       <h1 class="page-h">How we know <em>what we say</em></h1>
-      <p class="lede">On ${esc(fmtDate(R.checked))}, every item on this site was checked against the source it links to. A script fetched each source and confirmed that the key facts (numbers, names, dates) appear in it. Items we could not confirm stay on the site, marked ⚠ Verify with the reason, so you can check them yourself.</p>
+      <p class="lede">On ${esc(fmtDate(R.checked))}, every item on this site was checked against the source it links to. A script fetched each source and confirmed that the key facts (numbers, names, dates) appear in it. Items we could not confirm stay on the site, marked ⚠ Verify with the reason, so you can check them yourself. Items added after that date, such as the hub stories added Nov 4, 2026, say when they were checked.</p>
     </header>
     <div class="rc-stats">
       <div><b style="color:var(--ok)">${S.ok || 0}</b><span>confirmed against the linked source</span></div>

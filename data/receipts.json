@@ -1,7 +1,7 @@
 {
  "checked": "2026-11-03",
  "summary": {
-  "ok": 183,
+  "ok": 196,
   "psc": 11,
   "verify": 8
  },
@@ -2565,6 +2565,165 @@
    "note": "",
    "urls": [
     "https://tuckerwv.com/about-us/meeting-information/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU leads a $321 million NSF-backed energy and AI engine.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The stated jobs and startup figures are the consortium's goals, not results.",
+   "urls": [
+    "https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Morgantown",
+   "title": "WVU researchers put AI inside field sensors.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Grant amount not stated. WVU is the only source.",
+   "urls": [
+    "https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Thunkable's AI pilot puts student-built apps in West Virginia classrooms.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The program operator's own release; the 44% is self-reported.",
+   "urls": [
+    "https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "The state trains teachers on AI through PAINT.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The source gives no count of teachers trained and no start date, so the entry gives none.",
+   "urls": [
+    "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Secretary of State's AI-powered knowledge center wins a national award.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The office's own release. An internal tool; no outcomes quantified.",
+   "urls": [
+    "https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Charleston",
+   "title": "Southern WV Community & Technical College wins $1.8 million to bring AI across the college.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Placed in the Charleston hub at the editor's direction. The source does not name counties or campuses.",
+   "urls": [
+    "https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall's medical school builds AI into training and clinics.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The school's own description of its efforts. No outcomes, funding, or partners stated.",
+   "urls": [
+    "https://jcesom.marshall.edu/news/musom-news/ai-medicine/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall pilots AI simulations for counseling training.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The page shows no date; Jan 2026 comes from its address. A pilot with a for-profit partner.",
+   "urls": [
+    "https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Huntington",
+   "title": "Marshall builds a $45 million cybersecurity institute.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Funding sources not stated in the sources. Size: WSAZ says 72,000 sq ft; the architect lists 73,000. Cybersecurity, not AI.",
+   "urls": [
+    "https://www.wsaz.com/2025/10/15/new-rendering-marshalls-institute-cyber-security/",
+    "https://www.marshall.edu/cyber/building/",
+    "https://www.wsaz.com/2026/08/13/cybersecurity-operations-already-running-marshalls-campus-ahead-new-institute-buildings-completion/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Fairmont",
+   "title": "NOAA announced a supercomputer, Rhea, for its Fairmont computing center.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Reports the 2024 announcement only; current installation status not confirmed. Headlines round to $100M; NOAA's release says $99 million.",
+   "urls": [
+    "https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Clarksburg",
+   "title": "The FBI's biometrics center in Clarksburg marks ten years.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. The FBI's own account. Facial recognition is a contested technology; the entry describes and does not endorse.",
+   "urls": [
+    "https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Berkeley County",
+   "title": "Helsing plans a $50 million AI-enabled drone factory in Martinsburg.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Announced plans, not results. The 2,000-a-month rate is from Metro News only; the Governor's release gives no production rate. The product is a weapon system.",
+   "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high",
+    "https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/"
+   ],
+   "method": [
+    "page"
+   ]
+  },
+  {
+   "sec": "hub:Parkersburg",
+   "title": "PowerFlo Solutions will build data-center power equipment in Williamstown.",
+   "status": "ok",
+   "note": "Added and checked Nov 4, 2026. Announced plan. Other outlets reported up to 200 jobs; this entry uses the figure from the source it cites.",
+   "urls": [
+    "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
    ],
    "method": [
     "page"
