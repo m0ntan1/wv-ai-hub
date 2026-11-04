@@ -288,7 +288,15 @@ Thirteen hub stories were added after the Nov 3 pass. Each source page was opene
 - **Marshall cybersecurity institute:** removed the claim that students work full-time at several locations; the security operations center is credited to Intuit, per WSAZ.
 - **Marshall counseling pilot:** worded as a planned pilot, with a note that current status is unconfirmed; date taken from the page's markup (Jan 21, 2026).
 - **NOAA Rhea:** added NOAA's systems page, which lists Hera, Ursa, and Mercury at Fairmont and does not mention Rhea.
-- **Marshall School of Medicine:** "research labs" corrected to the one named lab.
+
+**Corrected in the author's own pass, before the independent audit:** Marshall School of Medicine, "research labs" corrected to the one named lab.
+
+**Corrected after the audit's second round (Nov 4, 2026):**
+- **Marshall counseling pilot:** "pilot to begin that spring" was not on the page; the page says Marshall would receive early access to the software beginning that spring.
+- **State AI teacher training:** the entry said the department's own description could not be found. The State Superintendent's Feb 24, 2026 testimony to a U.S. House committee names PAiNT and ongoing professional development, and is now cited. The train-the-trainer detail still rests on SREB's account alone.
+- **FBI Clarksburg:** removed "face and palm-print matching"; the page mentions palm prints only as a goal when the building opened, and face only in a list of upgraded algorithms.
+- **PowerFlo:** added that Metro News says the company is based in Marietta, Ohio.
+- **WVU energy engine:** defined "the Engine" as the consortium.
 
 Wording rules applied: paraphrase, no quotes; announced jobs, investment, and production figures are labeled plans or projections.
 
@@ -297,7 +305,7 @@ Wording rules applied: paraphrase, no quotes; announced jobs, investment, and pr
 | Hub stories | WVU leads a $321 million energy and AI engine, with up to $160 million from NSF. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs) |
 | Hub stories | WVU researchers are building AI into field sensors. | ✓ Confirmed | page | [wvutoday.wvu.edu](https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems) |
 | Hub stories | Thunkable's AI pilot gets about 120 West Virginia students building apps. | ✓ Confirmed | page | [rockefellerfoundation.org](https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/) |
-| Hub stories | West Virginia is building a statewide AI training model for teachers. | ✓ Confirmed | page | [sreb.org](https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice) |
+| Hub stories | West Virginia is building a statewide AI training model for teachers. | ✓ Confirmed | page | [sreb.org](https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice) · [edworkforce.house.gov](https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf) |
 | Hub stories | Secretary of State's AI-powered knowledge center wins an international award. | ✓ Confirmed | page | [sos.wv.gov](https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai) |
 | Hub stories | Southern WV Community & Technical College wins $1.8 million to bring AI across the college. | ✓ Confirmed | page | [southernwv.edu](https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/) |
 | Hub stories | Marshall's medical school builds AI into training and clinics. | ✓ Confirmed | page | [jcesom.marshall.edu](https://jcesom.marshall.edu/news/musom-news/ai-medicine/) |

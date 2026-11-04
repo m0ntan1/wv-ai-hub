@@ -7,7 +7,7 @@
   "stories": [
    {
     "title": "WVU leads a $321 million energy and AI engine, with up to $160 million from NSF.",
-    "html": "The Resilient Energy Technology and Infrastructure Consortium, led by WVU with the University of Pittsburgh, Carnegie Mellon, and more than 60 regional partners, will receive up to $160 million from the National Science Foundation over ten years, plus $161 million from industry, workforce, philanthropy, state government, and community partners. WVU's release says the Engine will develop hardware, software, and AI technologies to help secure the nation's energy supply and strengthen the grid. It says the funding is projected to generate 21,000 jobs, 150 startups, and more than $1 billion in economic growth for the region. Those are projections, not results.",
+    "html": "The Resilient Energy Technology and Infrastructure Consortium, led by WVU with the University of Pittsburgh, Carnegie Mellon, and more than 60 regional partners, will receive up to $160 million from the National Science Foundation over ten years, plus $161 million from industry, workforce, philanthropy, state government, and community partners. WVU's release says the consortium will develop hardware, software, and AI technologies to help secure the nation's energy supply and strengthen the grid. It says the funding is projected to generate 21,000 jobs, 150 startups, and more than $1 billion in economic growth for the region. Those are projections, not results.",
     "sources": [
      {
       "label": "WVU Today, Jul 14, 2026",
@@ -201,11 +201,15 @@
    },
    {
     "title": "West Virginia is building a statewide AI training model for teachers.",
-    "html": "The West Virginia Department of Education is developing a train-the-trainer approach to AI professional learning, designed for a state of 55 counties and thousands of educators. Regional specialists will support local leaders known as AI Mountaineers, who will help deliver the training in their counties and schools. The department's professional learning initiative is called PAINT, for Pedagogical AI for New Teaching, and the broader plan has three levels: Pioneer, Trailblazer, and Ridge Climber. The Southern Regional Education Board's account of an interview with the department's AI coordinator says the model is still being implemented and its long-term outcomes remain to be seen. We found no count of teachers trained, and this is a secondhand account: we did not find the department's own description.",
+    "html": "The West Virginia Department of Education is developing a train-the-trainer approach to AI professional learning, designed for a state of 55 counties and thousands of educators. Regional specialists will support local leaders known as AI Mountaineers, who will help deliver the training in their counties and schools. The department's professional learning initiative is called PAINT, for Pedagogical AI for New Teaching, and the broader plan has three levels: Pioneer, Trailblazer, and Ridge Climber. The Southern Regional Education Board's account of a podcast conversation with the department's AI coordinator says the model is still being implemented and its long-term outcomes remain to be seen. State Superintendent Michele Blatt told a U.S. House committee in February 2026 that the department provides ongoing professional development focused on the science of teaching with AI integration, which it calls PAiNT. We found no count of teachers trained.",
     "sources": [
      {
       "label": "Southern Regional Education Board, Oct 20, 2026",
       "url": "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice"
+     },
+     {
+      "label": "State Superintendent's written testimony, U.S. House Education and Workforce Committee, Feb 24, 2026",
+      "url": "https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf"
      }
     ]
    },
@@ -355,7 +359,7 @@
    },
    {
     "title": "Marshall plans an AI simulation pilot for counseling training.",
-    "html": "In January 2026 Marshall announced that its Department of Counseling had signed an agreement with Soma Lab Inc. (SimCare AI), a for-profit maker of AI-driven clinical simulation software, for design, a pilot program, and evaluation, with the pilot to begin that spring. Marshall said it would contribute faculty expertise, help gather user feedback, take part in pilot testing, and seek grant funding for a wider rollout. The announcement names no funding, and we have not confirmed the pilot's current status.",
+    "html": "In January 2026 Marshall announced that its Department of Counseling had signed an agreement with Soma Lab Inc. (SimCare AI), a for-profit maker of AI-driven clinical simulation software, for design, a pilot program, and evaluation. Marshall said it would receive early access to the software beginning that spring, contribute faculty expertise, help gather user feedback, take part in pilot testing, and seek grant funding for a wider rollout. The announcement names no funding, and we have not confirmed the pilot's current status.",
     "sources": [
      {
       "label": "Marshall University News, Jan 21, 2026",
@@ -560,7 +564,7 @@
   "stories": [
    {
     "title": "PowerFlo Solutions plans a $20 million manufacturing site in Williamstown.",
-    "html": "PowerFlo Solutions, led by West Virginia native Jim Vuksic, will invest $20 million to establish advanced manufacturing operations in the 240,000-square-foot former Hino plant in Williamstown, the Governor's office announced. The Governor's release says the project will create between 120 and 200 full-time jobs, and Metro News reports at least 120. Metro News says the company designs and builds electrical equipment for data centers and AI, such as power distribution units, static transfer switches, dry-type transformers, and custom control panels. The state made an adjacent 11-acre parcel available for expansion. The job figures are announced plans, not results.",
+    "html": "PowerFlo Solutions, led by West Virginia native Jim Vuksic, will invest $20 million to establish advanced manufacturing operations in the 240,000-square-foot former Hino plant in Williamstown, the Governor's office announced. The Governor's release says the project will create between 120 and 200 full-time jobs, and Metro News reports at least 120. Metro News says the company, which is based in Marietta, Ohio, designs and builds electrical equipment for data centers and AI, such as power distribution units, static transfer switches, dry-type transformers, and custom control panels. The state made an adjacent 11-acre parcel available for expansion. The job figures are announced plans, not results.",
     "sources": [
      {
       "label": "WV Governor's Office, Jul 8, 2026",
@@ -723,7 +727,7 @@
   "stories": [
    {
     "title": "The FBI's biometrics center in Clarksburg marks ten years.",
-    "html": "The FBI's biometrics center opened in 2015 on the Criminal Justice Information Services Division campus in Clarksburg, a 360,000-square-foot facility. The FBI's anniversary story is mostly about fingerprint and iris systems, with some work on face and palm-print matching, and it quotes an FBI assistant director crediting artificial intelligence for the accuracy of its fingerprint and iris algorithms.",
+    "html": "The FBI's biometrics center opened in 2015 on the Criminal Justice Information Services Division campus in Clarksburg, a 360,000-square-foot facility. The FBI's anniversary story is mostly about fingerprint and iris systems. It says the algorithms for fingerprints, latent prints, face, and iris have each been upgraded, and it quotes an FBI assistant director crediting artificial intelligence for the accuracy of the fingerprint and iris algorithms.",
     "sources": [
      {
       "label": "FBI, Sep 22, 2025",

@@ -2610,9 +2610,10 @@
    "sec": "hub:Charleston",
    "title": "West Virginia is building a statewide AI training model for teachers.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: the AI Mountaineers are the local leaders, and the specialists support them; the model is a plan still being implemented. Single secondhand source (SREB's account of an interview); the department's own page was not found. No teacher count or start date.",
+   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: the AI Mountaineers are the local leaders, and the specialists support them; the model is a plan still being implemented. The train-the-trainer model, AI Mountaineers, levels, and implementation status come from SREB's account only; the Superintendent's testimony confirms PAiNT and ongoing professional development. No teacher count or start date.",
    "urls": [
-    "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice"
+    "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice",
+    "https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf"
    ],
    "method": [
     "page"
@@ -2697,7 +2698,7 @@
    "sec": "hub:Clarksburg",
    "title": "The FBI's biometrics center in Clarksburg marks ten years.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The FBI's own account. Corrected Nov 4 after audit: the page does not use the term facial recognition and is mostly about fingerprints and iris; AI appears in one official's remark. Biometrics are a contested technology; the entry describes and does not endorse.",
+   "note": "Added and checked Nov 4, 2026. The FBI's own account. Corrected Nov 4 after audit: the page does not use the term facial recognition and is mostly about fingerprints and iris; face appears only in a list of upgraded algorithms, and AI in one official's remark. Biometrics are a contested technology; the entry describes and does not endorse.",
    "urls": [
     "https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years"
    ],
@@ -2722,7 +2723,7 @@
    "sec": "hub:Parkersburg",
    "title": "PowerFlo Solutions plans a $20 million manufacturing site in Williamstown.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Announced plans. Corrected Nov 4 after audit: the Governor's release says 120 to 200 jobs; Metro News says at least 120. The product list describes the company in Metro News's words, not necessarily this plant.",
+   "note": "Added and checked Nov 4, 2026. Announced plans. Corrected Nov 4 after audit: the Governor's release says 120 to 200 jobs; Metro News says at least 120. The product list describes the company in Metro News's words, not necessarily this plant. Metro News says the company is based in Marietta, Ohio.",
    "urls": [
     "https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county",
     "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
