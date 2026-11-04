@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:04:18Z",
+ "updated": "2026-11-04T01:27:29Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,34 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "2026-11-03-marl-back-on-preston-county-agenda",
+   "d": "2026-11-03T21:33:52Z",
+   "title": "MARL back on Preston County agenda",
+   "url": "https://www.dominionpost.com/2026/11/03/marl-back-on-preston-county-agenda/",
+   "source": "The Dominion Post",
+   "summary": "KINGWOOD – The Mid-Atlantic Resiliency Link project was back on the County Commission agenda this week with commissioners working to put together and file a second resolution opposing the project. County Administrator Nathan Raybeck told commissioners he received an update from M",
+   "projects": [
+    "marl"
+   ],
+   "via": "dompost",
+   "seen": "2026-11-04T01:27:29Z",
+   "story": "2026-11-03-marl-back-on-preston-county-agenda"
+  },
+  {
+   "id": "ine-pushed-article-308235f2-791f-4317-8c2f-580c8aa21d56-html",
+   "d": "2026-11-03T13:39:00Z",
+   "title": "Valley Link Cost Estimates Increase to $5.1B, Timeline Pushed",
+   "url": "https://www.loudounnow.com/news/valley-link-cost-estimates-increase-to-5-1b-timeline-pushed/article_308235f2-791f-4317-8c2f-580c8aa21d56.html",
+   "source": "Loudoun Now",
+   "summary": "The cost estimates for the Valley Link transmission lines planned to cross through northern Loudoun have nearly doubled since the electrical grid expansion was first commissioned by the regional power ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-04T01:27:29Z",
+   "story": "ine-pushed-article-308235f2-791f-4317-8c2f-580c8aa21d56-html"
+  },
   {
    "id": "nty-landowners-oppose-proposed-valley-link-transmission-line",
    "d": "2026-11-03T01:06:54Z",
@@ -153,6 +181,20 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "it-guarantee-for-nscale-data-center-project-in-west-virginia",
+   "d": "2026-10-30T03:23:00Z",
+   "title": "NVIDIA Considers Credit Guarantee for Nscale Data Center Project in West Virginia",
+   "url": "https://www.kucoin.com/news/flash/nvidia-considers-credit-guarantee-for-nscale-data-center-project-in-west-virginia",
+   "source": "kucoin",
+   "summary": "IT Home, October 30 news, according to Bloomberg, sources familiar with the matter say NVIDIA is discussing providing a credit guarantee for a ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-04T01:27:29Z",
    "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
   },
   {
@@ -300,6 +342,30 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "2026-10-25-politics-data-center-powerline-fight"
+  },
+  {
+   "id": "-consent-as-proposed-data-centers-raise-concerns-ar-aa2fzueq",
+   "d": "2026-10-24T16:23:01Z",
+   "title": "West Virginia group urges public consent as proposed data centers raise concerns",
+   "url": "https://www.msn.com/en-us/news/other/west-virginia-group-urges-public-consent-as-proposed-data-centers-raise-concerns/ar-AA2fZUEQ",
+   "source": "WTOV on MSN",
+   "summary": "As proposed data centers move into West Virginia, residents are organizing to learn more about the projects and press for a greater say in what gets built in th ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-04T01:27:29Z",
+   "story": "-consent-as-proposed-data-centers-raise-concerns-ar-aa2fzueq"
+  },
+  {
+   "id": "l-concerns-article-c3a4d229-37c1-425e-b2bf-e49a02a19373-html",
+   "d": "2026-10-23T06:30:00Z",
+   "title": "West Virginia officials weigh data center growth against farmland, local concerns",
+   "url": "https://www.wvnews.com/news/wvnews/west-virginia-officials-weigh-data-center-growth-against-farmland-local-concerns/article_c3a4d229-37c1-425e-b2bf-e49a02a19373.html",
+   "source": "WV News",
+   "summary": "As West Virginia pursues billions of dollars in data center investments, state and local officials have called for protections for farmland, clearer communication with communities and assurances ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-04T01:27:29Z",
+   "story": "l-concerns-article-c3a4d229-37c1-425e-b2bf-e49a02a19373-html"
   },
   {
    "id": "video-west-virginia-gov-highlights-key-175742696-html",
@@ -510,6 +576,20 @@
    "via": "bing-ridgeline",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
+  },
+  {
+   "id": "project-will-desecrate-counties-if-moves-forward-ar-aa2aetzv",
+   "d": "2026-08-21T08:14:00Z",
+   "title": "Ken Burns says new Valley Link project will ‘desecrate’ counties if moves forward",
+   "url": "https://www.msn.com/en-us/news/other/ken-burns-says-new-valley-link-project-will-desecrate-counties-if-moves-forward/ar-AA2aEtZV",
+   "source": "MSN",
+   "summary": "RICHMOND, Va. (WRIC) — Legendary filmmaker Ken Burns has joined the fight against a new Valley Link project slated to bring over 250 miles of power lines to parts of Virginia, West Virginia and ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-04T01:27:29Z",
+   "story": "project-will-desecrate-counties-if-moves-forward-ar-aa2aetzv"
   },
   {
    "id": "p-top-county-officials-plead-not-guilty",

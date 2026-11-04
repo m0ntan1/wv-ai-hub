@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:06:13Z",
+ "updated": "2026-11-04T01:29:53Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -649,7 +649,6 @@
      ]
     }
    ],
-   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1009,7 +1008,8 @@
      "filed": "2026-04-28"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0001031296-26-000144",
+   "factsChecked": "2026-11-04"
   },
   "aep": {
    "cik": "0000004904",
@@ -1136,7 +1136,6 @@
      ]
     }
    ],
-   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1481,7 +1480,8 @@
      "filed": "2026-05-05"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0000004904-26-000072",
+   "factsChecked": "2026-11-04"
   },
   "nextera": {
    "cik": "0000753308",
@@ -1628,7 +1628,6 @@
      ]
     }
    ],
-   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1873,7 +1872,8 @@
      "filed": "2026-04-23"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0000753308-26-000081",
+   "factsChecked": "2026-11-04"
   },
   "dominion": {
    "cik": "0000715957",
@@ -2007,7 +2007,6 @@
      ]
     }
    ],
-   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2248,7 +2247,8 @@
      "filed": "2026-05-01"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0001193125-26-440697",
+   "factsChecked": "2026-11-04"
   },
   "anthropic": {
    "cik": "0002130357",
@@ -3881,7 +3881,6 @@
      "period": "2025-12-31"
     }
    ],
-   "factsFrom": "0001711269-26-000100",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4243,7 +4242,8 @@
      "filed": "2026-05-07"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0001711269-26-000100",
+   "factsChecked": "2026-11-04"
   },
   "amazon": {
    "cik": "0001018724",
@@ -6739,6 +6739,7 @@
      ]
     }
    ],
+   "factsFrom": "0001551182-26-000040",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -7101,7 +7102,6 @@
      "filed": "2026-11-03"
     }
    },
-   "factsFrom": "0001551182-26-000040",
    "factsChecked": "2026-11-03"
   },
   "vertiv": {
@@ -10212,7 +10212,6 @@
      ]
     }
    ],
-   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10575,7 +10574,8 @@
      "filed": "2026-08-03"
     }
    },
-   "factsChecked": "2026-11-03"
+   "factsFrom": "0000107263-26-000036",
+   "factsChecked": "2026-11-04"
   },
   "nucor": {
    "cik": "0000073309",
@@ -11241,8 +11241,18 @@
    ]
   },
   "Valley Link Transmission": {
-   "total": 26,
+   "total": 27,
    "hits": [
+    {
+     "d": "2026-11-03",
+     "form": "10-Q",
+     "who": [
+      "FirstEnergy Transmission, LLC"
+     ],
+     "cik": "0002038118",
+     "accn": "0002038118-26-000030",
+     "doc": "fet-20260930.htm"
+    },
     {
      "d": "2026-10-30",
      "form": "10-Q",
@@ -11337,16 +11347,6 @@
      "cik": "0000053456",
      "accn": "0001193125-26-282890",
      "doc": "d298485ds4.htm"
-    },
-    {
-     "d": "2026-05-20",
-     "form": "8-K",
-     "who": [
-      "FirstEnergy Transmission, LLC"
-     ],
-     "cik": "0002038118",
-     "accn": "0002038118-26-000021",
-     "doc": "ex31-fet5x20x2026.htm"
     }
    ]
   },
@@ -11481,14 +11481,10 @@
   },
   "DFF": {
    "last": {
-    "d": "2026-10-30",
+    "d": "2026-11-02",
     "v": 3.88
    },
    "monthly": [
-    [
-     "2024-10",
-     4.83
-    ],
     [
      "2024-11",
      4.638
@@ -11584,23 +11580,23 @@
     [
      "2026-10",
      3.88
+    ],
+    [
+     "2026-11",
+     3.88
     ]
    ],
    "yearAgo": {
-    "d": "2025-10-30",
-    "v": 3.87
+    "d": "2025-11-02",
+    "v": 3.86
    }
   },
   "DGS10": {
    "last": {
-    "d": "2026-10-30",
-    "v": 4.94
+    "d": "2026-11-02",
+    "v": 4.91
    },
    "monthly": [
-    [
-     "2024-10",
-     4.095
-    ],
     [
      "2024-11",
      4.356
@@ -11696,10 +11692,14 @@
     [
      "2026-10",
      5.131
+    ],
+    [
+     "2026-11",
+     4.91
     ]
    ],
    "yearAgo": {
-    "d": "2025-10-30",
+    "d": "2025-10-31",
     "v": 4.11
    }
   }
