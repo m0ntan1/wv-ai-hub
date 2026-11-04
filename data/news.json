@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:27:29Z",
+ "updated": "2026-11-04T11:06:45Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,18 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ginia-mason-county-wv-mason-county-passes-school-excess-levy",
+   "d": "2026-11-04T02:43:39Z",
+   "title": "Mason County passes school excess levy",
+   "url": "https://www.wowktv.com/news/west-virginia/mason-county-wv/mason-county-passes-school-excess-levy/",
+   "source": "WOWK 13",
+   "summary": "MASON COUNTY, W.Va. (WOWK) - The excess levy for Mason County Schools has passed at the polls, and schools could now see major tax revenue from two high-impact data centers coming to the county. According to the Mason County Clerk's office, the levy passed with 52.8% of the vote,",
+   "projects": [],
+   "via": "wowk",
+   "seen": "2026-11-04T11:06:45Z",
+   "story": "ginia-mason-county-wv-mason-county-passes-school-excess-levy"
+  },
   {
    "id": "2026-11-03-marl-back-on-preston-county-agenda",
    "d": "2026-11-03T21:33:52Z",
@@ -417,7 +429,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
-   "story": "-45-billion-ai-deal-nvidia-could-be-a-big-winner-ar-aa2fgcva"
+   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
   },
   {
    "id": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal",
@@ -444,6 +456,20 @@
    "via": "bing-hb2014",
    "seen": "2026-11-03T13:03:33Z",
    "story": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk"
+  },
+  {
+   "id": "n-ai-cloud-computing-deal-bloomberg-news-reports-ar-aa2fbqp9",
+   "d": "2026-10-19T13:19:55Z",
+   "title": "Nscale, Anthropic in talks for $45 billion AI cloud computing deal, Bloomberg News reports",
+   "url": "https://www.msn.com/en-us/money/general/nscale-anthropic-in-talks-for-45-billion-ai-cloud-computing-deal-bloomberg-news-reports/ar-AA2fBQp9",
+   "source": "Reuters on MSN",
+   "summary": "Oct 19 (Reuters) - Nscale is in talks to sell computing power to AI lab Anthropic in a deal that could be worth about $45 billion, Bloomberg News reported on Monday, citing people familiar with the ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-04T11:06:45Z",
+   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
   },
   {
    "id": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w",
@@ -576,6 +602,20 @@
    "via": "bing-ridgeline",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
+  },
+  {
+   "id": "-link-over-historical-legacy-of-jefferson-county-ar-aa2agz7u",
+   "d": "2026-08-21T17:37:00Z",
+   "title": "Ken Burns condemns North Valley Link over historical legacy of Jefferson County",
+   "url": "https://www.msn.com/en-us/money/general/ken-burns-condemns-north-valley-link-over-historical-legacy-of-jefferson-county/ar-AA2aGz7U",
+   "source": "MSN",
+   "summary": "CHARLESTON, W.Va. (WOWK) — Nationally acclaimed documentary film producer Ken Burns is weighing in on the proposed Valley Link North Power Line project. \"There is no more important fight than Valley ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-04T11:06:45Z",
+   "story": "project-will-desecrate-counties-if-moves-forward-ar-aa2aetzv"
   },
   {
    "id": "project-will-desecrate-counties-if-moves-forward-ar-aa2aetzv",
