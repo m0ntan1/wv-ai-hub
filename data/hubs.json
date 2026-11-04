@@ -6,8 +6,8 @@
   "major": true,
   "stories": [
    {
-    "title": "WVU leads a $321 million NSF-backed energy and AI engine.",
-    "html": "The Resilient Energy Technology and Infrastructure Consortium, led by WVU with the University of Pittsburgh, Carnegie Mellon, and more than 60 regional partners, will receive up to $160 million from the National Science Foundation over ten years, plus $161 million from industry, workforce, philanthropy, state government, and community partners. It will develop AI technology to strengthen the power grid. Its stated goals are 21,000 jobs, 150 startups, and more than $1 billion in economic growth for the region. Those are targets, not results.",
+    "title": "WVU leads a $321 million energy and AI engine, with up to $160 million from NSF.",
+    "html": "The Resilient Energy Technology and Infrastructure Consortium, led by WVU with the University of Pittsburgh, Carnegie Mellon, and more than 60 regional partners, will receive up to $160 million from the National Science Foundation over ten years, plus $161 million from industry, workforce, philanthropy, state government, and community partners. WVU's release says the Engine will develop hardware, software, and AI technologies to help secure the nation's energy supply and strengthen the grid. It says the funding is projected to generate 21,000 jobs, 150 startups, and more than $1 billion in economic growth for the region. Those are projections, not results.",
     "sources": [
      {
       "label": "WVU Today, Jul 14, 2026",
@@ -16,8 +16,8 @@
     ]
    },
    {
-    "title": "WVU researchers put AI inside field sensors.",
-    "html": "With an NSF Early-Concept Grant for Exploratory Research, biologist Steve Kannenberg and postdoctoral researcher Jie Hu are building AI and small on-site computers into environmental sensors, so scientists can see how ecosystems respond to droughts and wildfires in near real time instead of waiting months or years. The project also adds a plain-language AI chatbot for the data.",
+    "title": "WVU researchers are building AI into field sensors.",
+    "html": "With an NSF Early-Concept Grant for Exploratory Research, biologist Steve Kannenberg and postdoctoral researcher Jie Hu are building AI and very small on-site computers into environmental monitoring sensors, so scientists could see how ecosystems respond to droughts and wildfires in near real time instead of waiting months or years. The project also includes a plain-language AI chatbot for the data. The researchers plan to test the approach at sites in Colorado and Massachusetts.",
     "sources": [
      {
       "label": "WVU Today, Aug 24, 2026",
@@ -127,11 +127,15 @@
   "stories": [
    {
     "title": "NOAA announced a supercomputer, Rhea, for its Fairmont computing center.",
-    "html": "In September 2024 NOAA announced a $99 million investment in Rhea, a high-performance computer for its Environmental Security Computing Center in Fairmont. NOAA said it will strengthen the agency's AI and machine learning work on weather, ocean, and climate forecasting. The money comes from the Bipartisan Infrastructure Law and the Inflation Reduction Act. This entry reports the announcement; we have not confirmed whether Rhea is installed and running.",
+    "html": "In September 2024 NOAA announced a $99 million investment in Rhea, a high-performance computer for its Environmental Security Computing Center in Fairmont. NOAA said it will strengthen the agency's AI and machine learning work on weather, ocean, and climate forecasting. The money comes from the Bipartisan Infrastructure Law and the Inflation Reduction Act. This entry reports the announcement. NOAA's computing-systems page lists Hera, Ursa, and Mercury at Fairmont and does not mention Rhea, so we have not confirmed whether Rhea is installed or running.",
     "sources": [
      {
       "label": "NOAA, Sep 3, 2024 (updated Jan 31, 2025)",
       "url": "https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system"
+     },
+     {
+      "label": "NOAA, high-performance computing systems page",
+      "url": "https://www.noaa.gov/organization/information-technology/hpcc-locations-and-systems"
      }
     ]
    },
@@ -186,8 +190,8 @@
   "major": true,
   "stories": [
    {
-    "title": "Thunkable's AI pilot puts student-built apps in West Virginia classrooms.",
-    "html": "In a pilot run with the State of West Virginia and supported by the Rockefeller Foundation, about 120 high school students in Monongalia, Kanawha, and Berkeley counties built an estimated 80 mobile apps with AI tools, and four schools completed the curriculum. Thunkable reports that 44% of students said they were more interested in starting a business. These figures come from the program's own report.",
+    "title": "Thunkable's AI pilot gets about 120 West Virginia students building apps.",
+    "html": "In a pilot run with the State of West Virginia and supported by the Rockefeller Foundation, about 120 high school students in Monongalia, Kanawha, and Berkeley counties built an estimated 80 mobile apps with Thunkable's no-code app builder and its AI tools, and four schools completed the curriculum. Thunkable reports that 44% of students said they were more interested in starting a business. These figures come from Thunkable's own press release, which the Rockefeller Foundation posted.",
     "sources": [
      {
       "label": "Thunkable pilot release, Rockefeller Foundation, Sep 10, 2026",
@@ -196,8 +200,8 @@
     ]
    },
    {
-    "title": "The state trains teachers on AI through PAINT.",
-    "html": "The West Virginia Department of Education uses a train-the-trainer model, Pedagogical AI for New Teaching, built for a state of 55 counties and thousands of educators. It has three learning levels, Pioneer, Trailblazer, and Ridge Climber, and regional specialists called AI Mountaineers who support local leaders.",
+    "title": "West Virginia is building a statewide AI training model for teachers.",
+    "html": "The West Virginia Department of Education is developing a train-the-trainer approach to AI professional learning, designed for a state of 55 counties and thousands of educators. Regional specialists will support local leaders known as AI Mountaineers, who will help deliver the training in their counties and schools. The department's professional learning initiative is called PAINT, for Pedagogical AI for New Teaching, and the broader plan has three levels: Pioneer, Trailblazer, and Ridge Climber. The Southern Regional Education Board's account of an interview with the department's AI coordinator says the model is still being implemented and its long-term outcomes remain to be seen. We found no count of teachers trained, and this is a secondhand account: we did not find the department's own description.",
     "sources": [
      {
       "label": "Southern Regional Education Board, Oct 20, 2026",
@@ -206,8 +210,8 @@
     ]
    },
    {
-    "title": "Secretary of State's AI-powered knowledge center wins a national award.",
-    "html": "The Secretary of State's Internal Knowledge Center, which combines knowledge management and artificial intelligence into one employee experience, earned a 2026 Merit Award at the International Association of Commercial Administrators' annual conference. The office is a repeat winner.",
+    "title": "Secretary of State's AI-powered knowledge center wins an international award.",
+    "html": "The Secretary of State's office says its Internal Knowledge Center, which integrates knowledge management and artificial intelligence into a single employee experience, earned a 2026 Merit Award at the International Association of Commercial Administrators' annual conference. The office is a repeat winner of the association's awards.",
     "sources": [
      {
       "label": "WV Secretary of State, Jun 8, 2026",
@@ -350,18 +354,18 @@
     ]
    },
    {
-    "title": "Marshall pilots AI simulations for counseling training.",
-    "html": "Marshall's Department of Counseling signed an agreement with Soma Lab Inc. (SimCare AI), a for-profit maker of AI-driven clinical simulation software, for design, a pilot program, and evaluation. Marshall says it will contribute faculty expertise, help gather user feedback, take part in pilot testing, and seek grant funding for a wider rollout. It is a pilot, and the announcement names no funding yet.",
+    "title": "Marshall plans an AI simulation pilot for counseling training.",
+    "html": "In January 2026 Marshall announced that its Department of Counseling had signed an agreement with Soma Lab Inc. (SimCare AI), a for-profit maker of AI-driven clinical simulation software, for design, a pilot program, and evaluation, with the pilot to begin that spring. Marshall said it would contribute faculty expertise, help gather user feedback, take part in pilot testing, and seek grant funding for a wider rollout. The announcement names no funding, and we have not confirmed the pilot's current status.",
     "sources": [
      {
-      "label": "Marshall University News, Jan 2026",
+      "label": "Marshall University News, Jan 21, 2026",
       "url": "https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/"
      }
     ]
    },
    {
     "title": "Marshall builds a $45 million cybersecurity institute.",
-    "html": "Neighborgall Construction is building the $45 million, roughly 72,000-square-foot Institute for Cyber Security in Huntington, due to open in August 2027. It will hold advanced cyber ranges, digital forensics labs, unmanned-systems research space, and operational-technology environments. Students already work full-time providing cyber defense at several campus locations, and a security operations center opened on campus in June.",
+    "html": "Neighborgall Construction is building the $45 million, roughly 72,000-square-foot Institute for Cyber Security in Huntington, due to open in August 2027. It will hold advanced cyber ranges, digital forensics labs, unmanned-systems research space, and operational-technology environments. WSAZ reported in August 2026 that cyber defense work is already under way at several campus locations, and that Intuit launched a security operations center on campus in June.",
     "sources": [
      {
       "label": "WSAZ, Oct 15, 2025",
@@ -453,7 +457,7 @@
   "stories": [
    {
     "title": "Helsing plans a $50 million AI-enabled drone factory in Martinsburg.",
-    "html": "The German defense company Helsing announced on July 13, 2026 an initial $50 million investment in Berkeley County to make its HX-2 AI-enabled strike drone. The Governor's office says the plant will create at least 60 full-time jobs averaging $125,000 a year, and Metro News reports a production rate of 2,000 drones a month. The state developed a customized workforce training program with West Virginia Advance and Blue Ridge Community and Technical College. This is defense manufacturing, and the jobs and production figures are announced plans, not results.",
+    "html": "The Governor announced on July 13, 2026 that the German defense company Helsing will invest an initial $50 million in Berkeley County to make its HX-2 AI-enabled strike drone. The Governor's office says the plant will create at least 60 full-time jobs averaging $125,000 a year. Metro News reports that Helsing's U.S. general manager said the plant would produce 2,000 drones a month. The state developed a customized workforce training program with West Virginia Advance and Blue Ridge Community and Technical College. This is defense manufacturing, and the jobs and production figures are announced plans, not results.",
     "sources": [
      {
       "label": "WV Governor's Office, Jul 13, 2026",
@@ -555,9 +559,13 @@
   "major": false,
   "stories": [
    {
-    "title": "PowerFlo Solutions will build data-center power equipment in Williamstown.",
-    "html": "PowerFlo Solutions, led by West Virginia native Jim Vuksic, announced a $20 million investment to turn the 240,000-square-foot former Hino plant in Williamstown into a factory for power distribution units, static transfer switches, dry-type transformers, and custom control panels used in data centers and AI facilities. The announcement says it will add at least 120 full-time jobs. The state made an adjacent 11-acre parcel available for expansion. The job figure is an announced plan, not a result.",
+    "title": "PowerFlo Solutions plans a $20 million manufacturing site in Williamstown.",
+    "html": "PowerFlo Solutions, led by West Virginia native Jim Vuksic, will invest $20 million to establish advanced manufacturing operations in the 240,000-square-foot former Hino plant in Williamstown, the Governor's office announced. The Governor's release says the project will create between 120 and 200 full-time jobs, and Metro News reports at least 120. Metro News says the company designs and builds electrical equipment for data centers and AI, such as power distribution units, static transfer switches, dry-type transformers, and custom control panels. The state made an adjacent 11-acre parcel available for expansion. The job figures are announced plans, not results.",
     "sources": [
+     {
+      "label": "WV Governor's Office, Jul 8, 2026",
+      "url": "https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county"
+     },
      {
       "label": "WV MetroNews, Jul 8, 2026",
       "url": "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
@@ -715,7 +723,7 @@
   "stories": [
    {
     "title": "The FBI's biometrics center in Clarksburg marks ten years.",
-    "html": "The FBI's Criminal Justice Information Services Division opened its 360,000-square-foot Biometric Technology Center in Clarksburg in 2015. The FBI's anniversary story describes work in biometrics, including facial recognition, and in artificial intelligence.",
+    "html": "The FBI's biometrics center opened in 2015 on the Criminal Justice Information Services Division campus in Clarksburg, a 360,000-square-foot facility. The FBI's anniversary story is mostly about fingerprint and iris systems, with some work on face and palm-print matching, and it quotes an FBI assistant director crediting artificial intelligence for the accuracy of its fingerprint and iris algorithms.",
     "sources": [
      {
       "label": "FBI, Sep 22, 2025",

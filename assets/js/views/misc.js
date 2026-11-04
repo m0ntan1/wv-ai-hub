@@ -60,7 +60,7 @@ export function receipts(main, q) {
     <header style="padding-top:28px">
       <div class="kicker">Receipts · checked ${esc(fmtDate(R.checked))}</div>
       <h1 class="page-h">How we know <em>what we say</em></h1>
-      <p class="lede">On ${esc(fmtDate(R.checked))}, every item on this site was checked against the source it links to. A script fetched each source and confirmed that the key facts (numbers, names, dates) appear in it. Items we could not confirm stay on the site, marked ⚠ Verify with the reason, so you can check them yourself. Items added after that date, such as the hub stories added Nov 4, 2026, say when they were checked.</p>
+      <p class="lede">On ${esc(fmtDate(R.checked))}, every item on this site was checked against the source it links to. A script fetched each source and confirmed that the key facts (numbers, names, dates) appear in it. Items we could not confirm stay on the site, marked ⚠ Verify with the reason, so you can check them yourself. Items added after that date, such as the hub stories added Nov 4, 2026, were checked by hand against the page they cite, and each says when.</p>
     </header>
     <div class="rc-stats">
       <div><b style="color:var(--ok)">${S.ok || 0}</b><span>confirmed against the linked source</span></div>

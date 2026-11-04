@@ -2572,9 +2572,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU leads a $321 million NSF-backed energy and AI engine.",
+   "title": "WVU leads a $321 million energy and AI engine, with up to $160 million from NSF.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The stated jobs and startup figures are the consortium's goals, not results.",
+   "note": "Added and checked Nov 4, 2026. The jobs, startup, and growth figures are projections in WVU's release, not results. NSF's share is up to $160 million of the $321 million.",
    "urls": [
     "https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs"
    ],
@@ -2584,9 +2584,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU researchers put AI inside field sensors.",
+   "title": "WVU researchers are building AI into field sensors.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Grant amount not stated. WVU is the only source.",
+   "note": "Added and checked Nov 4, 2026. Work in progress, per the source. Test sites named are outside West Virginia. Grant amount not stated. WVU is the only source.",
    "urls": [
     "https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems"
    ],
@@ -2596,9 +2596,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "Thunkable's AI pilot puts student-built apps in West Virginia classrooms.",
+   "title": "Thunkable's AI pilot gets about 120 West Virginia students building apps.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The program operator's own release; the 44% is self-reported.",
+   "note": "Added and checked Nov 4, 2026. All figures are from the operator's press release; the 44% is self-reported. The source does not say the apps are used in classrooms.",
    "urls": [
     "https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/"
    ],
@@ -2608,9 +2608,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "The state trains teachers on AI through PAINT.",
+   "title": "West Virginia is building a statewide AI training model for teachers.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The source gives no count of teachers trained and no start date, so the entry gives none.",
+   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: the AI Mountaineers are the local leaders, and the specialists support them; the model is a plan still being implemented. Single secondhand source (SREB's account of an interview); the department's own page was not found. No teacher count or start date.",
    "urls": [
     "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice"
    ],
@@ -2620,9 +2620,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "Secretary of State's AI-powered knowledge center wins a national award.",
+   "title": "Secretary of State's AI-powered knowledge center wins an international award.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The office's own release. An internal tool; no outcomes quantified.",
+   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: an international (IACA) award, not national. The office's own release; the AI description is the office's. An internal tool; no outcomes quantified.",
    "urls": [
     "https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai"
    ],
@@ -2656,9 +2656,9 @@
   },
   {
    "sec": "hub:Huntington",
-   "title": "Marshall pilots AI simulations for counseling training.",
+   "title": "Marshall plans an AI simulation pilot for counseling training.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The page shows no date; Jan 2026 comes from its address. A pilot with a for-profit partner.",
+   "note": "Added and checked Nov 4, 2026. Date is from the page's own markup (published Jan 21, 2026). A pilot with a for-profit partner; current status not confirmed.",
    "urls": [
     "https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/"
    ],
@@ -2670,7 +2670,7 @@
    "sec": "hub:Huntington",
    "title": "Marshall builds a $45 million cybersecurity institute.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Funding sources not stated in the sources. Size: WSAZ says 72,000 sq ft; the architect lists 73,000. Cybersecurity, not AI.",
+   "note": "Added and checked Nov 4, 2026. Funding sources not stated in the sources. Size: WSAZ says 72,000 sq ft; the architect lists 73,000. The security operations center was launched by a for-profit company, per WSAZ. Cybersecurity, not AI.",
    "urls": [
     "https://www.wsaz.com/2025/10/15/new-rendering-marshalls-institute-cyber-security/",
     "https://www.marshall.edu/cyber/building/",
@@ -2684,9 +2684,10 @@
    "sec": "hub:Fairmont",
    "title": "NOAA announced a supercomputer, Rhea, for its Fairmont computing center.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Reports the 2024 announcement only; current installation status not confirmed. Headlines round to $100M; NOAA's release says $99 million.",
+   "note": "Added and checked Nov 4, 2026. Reports the 2024 announcement only. NOAA's systems page does not mention Rhea; current status not confirmed. Headlines round to $100M; NOAA's release says $99 million.",
    "urls": [
-    "https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system"
+    "https://www.noaa.gov/news-release/biden-harris-administration-invests-100-million-in-new-high-performance-computer-system",
+    "https://www.noaa.gov/organization/information-technology/hpcc-locations-and-systems"
    ],
    "method": [
     "page"
@@ -2696,7 +2697,7 @@
    "sec": "hub:Clarksburg",
    "title": "The FBI's biometrics center in Clarksburg marks ten years.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The FBI's own account. Facial recognition is a contested technology; the entry describes and does not endorse.",
+   "note": "Added and checked Nov 4, 2026. The FBI's own account. Corrected Nov 4 after audit: the page does not use the term facial recognition and is mostly about fingerprints and iris; AI appears in one official's remark. Biometrics are a contested technology; the entry describes and does not endorse.",
    "urls": [
     "https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years"
    ],
@@ -2708,7 +2709,7 @@
    "sec": "hub:Berkeley County",
    "title": "Helsing plans a $50 million AI-enabled drone factory in Martinsburg.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Announced plans, not results. The 2,000-a-month rate is from Metro News only; the Governor's release gives no production rate. The product is a weapon system.",
+   "note": "Added and checked Nov 4, 2026. Announced plans, not results. The 2,000-a-month rate is Metro News's report of what Helsing's U.S. general manager said; the Governor's release gives no production rate. The product is a weapon system.",
    "urls": [
     "https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high",
     "https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/"
@@ -2719,10 +2720,11 @@
   },
   {
    "sec": "hub:Parkersburg",
-   "title": "PowerFlo Solutions will build data-center power equipment in Williamstown.",
+   "title": "PowerFlo Solutions plans a $20 million manufacturing site in Williamstown.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Announced plan. Other outlets reported up to 200 jobs; this entry uses the figure from the source it cites.",
+   "note": "Added and checked Nov 4, 2026. Announced plans. Corrected Nov 4 after audit: the Governor's release says 120 to 200 jobs; Metro News says at least 120. The product list describes the company in Metro News's words, not necessarily this plant.",
    "urls": [
+    "https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county",
     "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
    ],
    "method": [
