@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:06:45Z",
+ "updated": "2026-11-05T11:07:12Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,20 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "content-668e6ef8-88a1-4bef-8664-8f495baf09f8",
+   "d": "2026-11-04T15:59:00Z",
+   "title": "Microsoft rejects multibillion-dollar AI deal with UK’s Nscale",
+   "url": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "summary": "Fresh blow ahead of start-up’s IPO as tech giant turns down option to more than double Texas data centre contract ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-05T11:07:12Z",
+   "story": "content-668e6ef8-88a1-4bef-8664-8f495baf09f8"
+  },
   {
    "id": "ginia-mason-county-wv-mason-county-passes-school-excess-levy",
    "d": "2026-11-04T02:43:39Z",
@@ -332,6 +346,18 @@
    "story": "ta-centers-article-59e8c4c0-a253-46e2-9bea-14e39f5b263b-html"
   },
   {
+   "id": "es-firstenergy-data-center-pipeline-increases-130002357-html",
+   "d": "2026-10-29T06:00:00Z",
+   "title": "FirstEnergy data center pipeline increases to 26 GW in Q3",
+   "url": "https://finance.yahoo.com/energy/articles/firstenergy-data-center-pipeline-increases-130002357.html",
+   "source": "Yahoo Finance",
+   "summary": "Two FirstEnergy utilities reserved combined cycle turbines for a 1.2-GW data center-focused project in West Virginia and issued a solicitation for an additional 3 GW, company officials said.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-05T11:07:12Z",
+   "story": "es-firstenergy-data-center-pipeline-increases-130002357-html"
+  },
+  {
    "id": "2026-10-28-data-center-opposition",
    "d": "2026-10-28T15:34:59Z",
    "title": "West Virginia groups and local governments demand data center oversight. The state is continuing to develop them anyway.",
@@ -429,6 +455,20 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
+   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+  },
+  {
+   "id": "econd-multibillion-dollar-deal-source-tells-cnbc-ar-aa2fersu",
+   "d": "2026-10-20T07:12:38Z",
+   "title": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
+   "url": "https://www.msn.com/en-us/money/markets/anthropic-in-talks-with-neocloud-nscale-over-second-multibillion-dollar-deal-source-tells-cnbc/ar-AA2fERsU",
+   "source": "CNBC on MSN",
+   "summary": "Anthropic and Nscale previously inked a similar deal for a data center on the same site in the U.S.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-05T11:07:12Z",
    "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
   },
   {
