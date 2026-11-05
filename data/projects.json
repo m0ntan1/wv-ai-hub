@@ -34,8 +34,8 @@
    }
   ],
   "latest": {
-   "d": "Oct 30, 2026",
-   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). DEP's written comment period on the air permit stays open until Nov 13, after meetings on Oct 20 and Oct 29."
+   "d": "Nov 5, 2026",
+   "t": "FT reports Nscale is in talks with Anthropic over a second 460 MW data center at its biggest West Virginia site, with no named source (unconfirmed). Nvidia is reported in talks to guarantee construction debt (The Information / Bloomberg, Oct 30). DEP's written comment period on the air permit stays open until Nov 13."
   },
   "history": [
    {
@@ -121,6 +121,13 @@
     "t": "Nvidia is reported in talks to guarantee construction debt.",
     "kind": "company",
     "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+   },
+   {
+    "d": "2026-11-05",
+    "t": "FT reports Nscale is in talks with Anthropic over leasing a second 460 MW data center at its biggest West Virginia site.",
+    "kind": "company",
+    "src": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
+    "verify": "One paywalled outlet, with no named source for this line. We have not seen confirmation from Nscale or Anthropic."
    },
    {
     "d": "2026-11-13",
