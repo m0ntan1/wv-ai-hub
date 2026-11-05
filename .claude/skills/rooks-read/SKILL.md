@@ -14,9 +14,18 @@ The public site says what this process is (`#/desk`). Keep the work matching tha
 1. `git fetch origin main`. If this session assigns you a branch name, use that branch; otherwise use `rook/YYYY-MM-DD` (today's date, Eastern time).
    - If the branch has no open pull request (or its last one was merged), reset it to `origin/main` and work from there.
    - If it still has an **open** pull request holding an earlier Read the editor hasn't merged, keep that work: rebase the branch onto `origin/main`, add today's Read on top (newest first in `reads.json`), and update that pull request's title and description to cover every Read in it. Never drop or overwrite an unmerged Read.
+   - The scheduled run is handed a new branch every day, so it always lands in the first case and never sees yesterday's pull request. Step 4 covers that.
 2. If today is Saturday or Sunday, stop: no Read on weekends. Monday's Read covers Friday evening through Monday morning.
 3. If `data/reads.json` already has a Read with today's id, stop.
-4. Read `docs/update-plan.md` (verification rules) and `.claude/skills/makenomistakes/SKILL.md` (Mercer's audit). Follow both.
+4. **Carry forward unmerged Reads from other pull requests.** Yesterday's Read may still be waiting on the editor in a pull request on a different branch. Dropping it would delete it from the site's queue, and branching from an old `main` is how two Read pull requests end up conflicting in `data/reads.json`. So look before you write:
+   1. List the repository's open pull requests (GitHub MCP `list_pull_requests`, state open) and keep those whose title starts with `Rook's Read` and whose head branch is not yours. If there are none, go on to step 5.
+   2. For each, `git fetch origin <its head branch>` and read its `data/reads.json` with `git show origin/<head>:data/reads.json`. The Reads to carry are the entries whose `id` is not in `origin/main`'s `data/reads.json`.
+   3. If one of those entries already has **today's id**, stop and report that pull request's link. Today's Read is already drafted.
+   4. Carry only entries whose `mercer.status` is `CLEARED`. Copy each whole, Mercer's fields untouched, into your branch's `data/reads.json` in date order, newest first. If an entry's `audio` is set, bring its file too: `git checkout origin/<head> -- audio/rook/<id>.mp3`. Do not merge or rebase the other branch: it probably started from an older `main`, and its `reads.json` will conflict. A HOLD or CONDITIONAL entry stays on its own pull request; list it under "Needs your call".
+   5. Check what else that pull request changes: `git diff --stat origin/main...origin/<head>`. If it touches anything besides `data/reads.json` and `audio/rook/`, do not copy those files. List them under "Needs your call" so the editor can decide.
+   6. Never close, edit, or merge the other pull request. Your pull request says `Replaces #<number>` for each one whose Reads you carried, and tells the editor to close it after merging yours (step 7).
+   7. If you cannot list or fetch pull requests, start from `origin/main` anyway. Say so at the top of the pull request description, and put "Check for an open Rook's Read pull request before merging" under "Needs your call".
+5. Read `docs/update-plan.md` (verification rules) and `.claude/skills/makenomistakes/SKILL.md` (Mercer's audit). Follow both.
 
 ## 1. Gather (Rook)
 
@@ -90,8 +99,9 @@ If `ELEVENLABS_API_KEY` and `ROOK_VOICE_ID` are set and the Read is CLEARED, run
 
 ## 7. Open the pull request
 
-Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`, or update the open one as described in step 0. Never merge it. The body has:
+Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`, or update the open one as described in step 0.1. Never merge it. The body has:
 
+0. If you carried Reads over in step 0.4, open with one line per pull request: `Replaces #<number>. Merging is the editor's approval; close #<number> after merging this.` and name the carried Reads by date and title. Then the Read from item 1 below.
 1. The Read as it will appear, with its numbered sources, and the word count.
 2. Mercer's review: the audit line, the four duty lines, and the outcome. If Anthropic is a subject: a line reading **Anthropic: conflict disclosed**.
 3. **Health reads and catalysts:** if a filing in the window changes the picture for a company, propose a change to its health read (Stable / Watch / Stressed, with the one-paragraph reason from the filings). If you found a new catalyst (an event or open question that could move a company or its projects, for better or worse), propose it with its text, date if any, and source. Propose only; never edit `data/companies.json` in this pull request.
