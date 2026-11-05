@@ -357,6 +357,10 @@ a.tag:hover { color: var(--fg); }
 
 /* ---------- county sheet ---------- */
 .sheet-tools { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 14px 0; }
+.print-hint { margin: 0 0 14px; padding: 10px 14px; border: 1px solid var(--rule); border-left: 3px solid var(--signal); border-radius: 8px; background: var(--bg-2); font-size: 13.5px; line-height: 1.5; color: var(--fg-2); }
+.print-hint[hidden] { display: none; }
+.print-hint .btn { margin-top: 8px; }
+@media (hover: none) { .sheet-tools .btn { min-height: 44px; } }
 .sheet { background: var(--bg); border: 1px solid var(--rule); border-radius: 12px; padding: clamp(18px, 4vw, 48px); }
 .sh-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; border-bottom: 4px solid var(--fg); padding-bottom: 12px; }
 .sh-title { font-family: var(--serif); font-size: clamp(48px, 7vw, 76px); line-height: .9; font-weight: 400; margin-top: 6px; }
