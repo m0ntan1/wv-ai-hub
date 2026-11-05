@@ -34,8 +34,8 @@
    }
   ],
   "latest": {
-   "d": "Nov 5, 2026",
-   "t": "FT reports Nscale is in talks with Anthropic over a second 460 MW data center at its biggest West Virginia site, with no named source (unconfirmed). Nvidia is reported in talks to guarantee construction debt (The Information / Bloomberg, Oct 30). DEP's written comment period on the air permit stays open until Nov 13."
+   "d": "Oct 30, 2026",
+   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). DEP's written comment period on the air permit stays open until Nov 13, after meetings on Oct 20 and Oct 29."
   },
   "history": [
    {
@@ -105,6 +105,13 @@
     "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
    },
    {
+    "d": "2026-10-19",
+    "t": "Bloomberg reports Nscale and Anthropic are in talks on a second deal, for a second 460 MW data center at the Monarch campus. The FT and CNBC reported it too, and the FT repeated it Nov 5.",
+    "kind": "company",
+    "src": "https://www.datacenterdynamics.com/en/news/anthropic-and-nscale-in-talks-for-second-45bn-deal-report/",
+    "verify": "Every report cites unnamed people (Reuters relayed Bloomberg's). Nscale and Anthropic have not confirmed it; both declined to comment to the FT on Oct 19."
+   },
+   {
     "d": "2026-10-20",
     "t": "DEP air-permit workshop at Point Pleasant High School.",
     "kind": "hearing",
@@ -121,13 +128,6 @@
     "t": "Nvidia is reported in talks to guarantee construction debt.",
     "kind": "company",
     "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
-   },
-   {
-    "d": "2026-11-05",
-    "t": "FT reports Nscale is in talks with Anthropic over leasing a second 460 MW data center at its biggest West Virginia site.",
-    "kind": "company",
-    "src": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
-    "verify": "One paywalled outlet, with no named source for this line. We have not seen confirmation from Nscale or Anthropic."
    },
    {
     "d": "2026-11-13",
