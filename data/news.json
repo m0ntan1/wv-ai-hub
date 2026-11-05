@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:07:12Z",
+ "updated": "2026-11-05T20:04:00Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,48 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "nvidia-credit-guarantees-nscale-west-virginia",
+   "d": "2026-11-05T11:53:00Z",
+   "title": "Nvidia weighs billions in credit guarantees for Nscale’s West Virginia AI campus",
+   "url": "https://cryptobriefing.com/nvidia-credit-guarantees-nscale-west-virginia/",
+   "source": "Crypto Briefing",
+   "summary": "Nvidia is in non-binding talks to guarantee billions in debt for Nscale's West Virginia AI campus, backed by Anthropic's $45 billion deal.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-05T20:04:00Z",
+   "story": "nvidia-credit-guarantees-nscale-west-virginia"
+  },
+  {
+   "id": "-deals-fresh-blow-to-nscale-s-35bn-ipo-ambitions-ar-aa2gp5yp",
+   "d": "2026-11-05T05:17:00Z",
+   "title": "Microsoft deals fresh blow to Nscale’s $35bn IPO ambitions",
+   "url": "https://www.msn.com/en-gb/news/other/microsoft-deals-fresh-blow-to-nscale-s-35bn-ipo-ambitions/ar-AA2gP5yP",
+   "source": "City A.M. on MSN",
+   "summary": "British AI darling Nscale has suffered another setback ahead of its planned $35bn (£26bn) stock market listing after Microsoft walked away from a potential data centre deal worth tens of billions of ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-05T20:04:00Z",
+   "story": "-deals-fresh-blow-to-nscale-s-35bn-ipo-ambitions-ar-aa2gp5yp"
+  },
+  {
+   "id": "les-microsoft-declines-nscale-texas-expansion-062524546-html",
+   "d": "2026-11-04T22:25:00Z",
+   "title": "Microsoft declines Nscale Texas expansion ahead of $35 bln IPO - report",
+   "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-declines-nscale-texas-expansion-062524546.html",
+   "source": "Yahoo Finance",
+   "summary": "Microsoft has declined to expand its Texas data center lease with Nscale, the Financial Times reported on Thursday, a fresh setback for the British AI infrastructure firm as it prepares a roughly $35 ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-05T20:04:00Z",
+   "story": "les-microsoft-declines-nscale-texas-expansion-062524546-html"
+  },
   {
    "id": "content-668e6ef8-88a1-4bef-8664-8f495baf09f8",
    "d": "2026-11-04T15:59:00Z",
@@ -404,6 +446,18 @@
    "via": "bing-dc",
    "seen": "2026-11-04T01:27:29Z",
    "story": "l-concerns-article-c3a4d229-37c1-425e-b2bf-e49a02a19373-html"
+  },
+  {
+   "id": "west-virginia-data-centers-farmland-protection",
+   "d": "2026-10-22T16:18:00Z",
+   "title": "West Virginia agriculture commissioner warns data centers could threaten valuable farmland",
+   "url": "https://wvexplorer.com/west-virginia-data-centers-farmland-protection/",
+   "source": "wvexplorer",
+   "summary": "West Virginia's agriculture commissioner warns that massive data centers and new transmission lines could threaten valuable farmland as development expands.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-05T20:04:00Z",
+   "story": "west-virginia-data-centers-farmland-protection"
   },
   {
    "id": "video-west-virginia-gov-highlights-key-175742696-html",
