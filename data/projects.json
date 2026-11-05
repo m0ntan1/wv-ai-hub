@@ -106,9 +106,9 @@
    },
    {
     "d": "2026-10-19",
-    "t": "Bloomberg reports Nscale and Anthropic are in talks on a second deal, for a second 460 MW data center at the Monarch campus. The FT and CNBC reported it too, and the FT repeated it Nov 5.",
+    "t": "Bloomberg reports Nscale and Anthropic are in talks on a second deal, for a second 460 MW data center at the Monarch campus. The FT and CNBC reported it too, and the FT repeated it Nov 5 without naming the campus.",
     "kind": "company",
-    "src": "https://www.datacenterdynamics.com/en/news/anthropic-and-nscale-in-talks-for-second-45bn-deal-report/",
+    "src": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
     "verify": "Every report cites unnamed people (Reuters relayed Bloomberg's). Nscale and Anthropic have not confirmed it; both declined to comment to the FT on Oct 19."
    },
    {

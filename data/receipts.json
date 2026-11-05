@@ -1526,7 +1526,7 @@
    "sec": "project",
    "title": "Monarch Compute Campus",
    "status": "ok",
-   "note": "Permits fact and application date corrected Nov 3, 2026 from DEP's notice. Nov 5, 2026: added a timeline item for the Oct 19 reports that Nscale and Anthropic are in talks on a second 460 MW building at Monarch. Checked against Datacenter Dynamics (citing Bloomberg) and the FT's Oct 19 story, which names Monarch and says Nscale and Anthropic declined to comment. Shown with ⚠ Verify because every report cites unnamed people. The FT repeated it Nov 5.",
+   "note": "Permits fact and application date corrected Nov 3, 2026 from DEP's notice. Nov 5, 2026: added a timeline item for the Oct 19 reports that Nscale and Anthropic are in talks on a second 460 MW building at Monarch. Checked against Bloomberg, Reuters' relay of it, CNBC, Datacenter Dynamics and the FT's Oct 19 story, which names Monarch and says Nscale and Anthropic declined to comment. The FT repeated the talks Nov 5 without naming the campus. Shown with ⚠ Verify because every report cites unnamed people.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html",
     "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
@@ -1538,7 +1538,11 @@
     "https://wvcag.org/?p=16377",
     "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx",
     "https://www.datacenterdynamics.com/en/news/anthropic-and-nscale-in-talks-for-second-45bn-deal-report/",
-    "https://www.ft.com/content/26a604d8-1a9d-4801-bd73-6ac588b63bdc"
+    "https://www.ft.com/content/26a604d8-1a9d-4801-bd73-6ac588b63bdc",
+    "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+    "https://www.msn.com/en-us/money/general/nscale-anthropic-in-talks-for-45-billion-ai-cloud-computing-deal-bloomberg-news-reports/ar-AA2fBQp9",
+    "https://www.msn.com/en-us/money/markets/anthropic-in-talks-with-neocloud-nscale-over-second-multibillion-dollar-deal-source-tells-cnbc/ar-AA2fERsU",
+    "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8"
    ],
    "method": [
     "page"
