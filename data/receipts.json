@@ -119,9 +119,9 @@
   },
   {
    "sec": "hub:Fairmont",
-   "title": "NOAA Fairmont facility deemed mission-critical.",
+   "title": "Foundation CEO: NOAA's Fairmont computing center is unlikely to feel federal layoffs.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 while dating the feed: the text said 'federal workforce reductions in 2026' and that the foundation 'confirmed no cuts'. The article (WBOY via Yahoo News, Feb 28, 2025) says the foundation's CEO had not been made aware of any cuts and would be surprised by a disruption. Headline and text rewritten; the source label, which said Times West Virginian, 2026, corrected.",
    "urls": [
     "https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html"
    ],
@@ -364,7 +364,7 @@
    "sec": "hub:Berkeley County",
    "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
    "status": "ok",
-   "note": "",
+   "note": "Source label corrected Nov 5, 2026: the Gazette-Mail article was published May 2, 2026, not April.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html"
    ],

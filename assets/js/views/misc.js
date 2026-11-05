@@ -1,4 +1,4 @@
-// Smaller pages: projects index, full map, hubs, receipts, not found.
+// Smaller pages: projects index, full map, receipts, not found. (Hubs lives in hubs.js.)
 import { D } from '../data.js';
 import { esc, fmtDate, STATUS, STATUS_ORDER, statusColor, srcLink, srcLinks, hostOf } from '../lib.js';
 import { mountMap } from '../map.js';
@@ -33,22 +33,6 @@ export function mapPage(main) {
   mountMap(main.querySelector('#bigMap'), { mode: 'full', scrubber: true, layerPills: true, layers: ['projects', 'lines', 'dates', 'names'],
     note: 'Markers are approximate (town or road level), not parcel boundaries. Lines are illustrative corridors; Valley Link has no approved route. County lines: U.S. Census Bureau.' });
   return 'Map';
-}
-
-export function hubs(main) {
-  const major = D.hubs.filter(h => h.major), emerging = D.hubs.filter(h => !h.major);
-  const hubHTML = h => `<article class="hub" id="hub-${esc(h.id)}"><div><h2>${esc(h.name)}</h2><div class="tagl">${esc(h.tag)}${h.pop ? ' · ' + esc(h.pop) : ''}</div><div class="tagl" style="color:var(--cyan)">${h.stories.length} ${h.stories.length === 1 ? 'story' : 'stories'}</div></div>
-    <div>${h.stories.map(s => `<div class="story"><strong>${esc(s.title)}</strong>${s.html}${srcLinks(s.sources)}</div>`).join('')}</div></article>`;
-  main.innerHTML = `<div class="wrap">
-    <header style="padding-top:28px">
-      <div class="kicker">Hubs · the other AI story</div>
-      <h1 class="page-h">Research, classrooms, <em>startups</em></h1>
-      <p class="lede">Not every AI story in West Virginia is a data center. These are the universities, schools, companies, and programs building AI skills and businesses in the state, plus the energy, computing, cybersecurity, and manufacturing work around them. Stories were first compiled in May 2026, and 13 were added on Nov 4, 2026. Each one links its source. Where a story reports an announcement, plan, or goal, it says so: jobs and investment figures are what was announced, not what has been delivered. See Receipts for how each was checked.</p>
-    </header>
-    <section class="sec"><div class="sec-h">Major hubs</div>${major.map(hubHTML).join('')}</section>
-    <section class="sec"><div class="sec-h">Emerging hubs</div>${emerging.map(hubHTML).join('')}</section>
-  </div>`;
-  return 'Hubs';
 }
 
 export function receipts(main, q) {

@@ -13,6 +13,15 @@
       "label": "WVU Today, Jul 14, 2026",
       "url": "https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs"
      }
+    ],
+    "d": "2026-07-14",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "research",
+     "grants",
+     "energy"
     ]
    },
    {
@@ -23,6 +32,14 @@
       "label": "WVU Today, Aug 24, 2026",
       "url": "https://wvutoday.wvu.edu/stories/2026/08/24/wvu-ai-research-could-transform-how-scientists-monitor-ecosystems"
      }
+    ],
+    "d": "2026-08-24",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "research",
+     "grants"
     ]
    },
    {
@@ -33,6 +50,13 @@
       "label": "WVU Online, Spring 2026",
       "url": "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
      }
+    ],
+    "d": "2026",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -43,6 +67,13 @@
       "label": "WVU Today, Feb 2026",
       "url": "https://wvutoday.wvu.edu/stories/2026/02/20/wvu-to-seed-innovation-in-support-of-strategic-compass"
      }
+    ],
+    "d": "2026-02-20",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "grants"
     ]
    },
    {
@@ -53,6 +84,13 @@
       "label": "Sramana Mitra, Feb 2026",
       "url": "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
      }
+    ],
+    "d": "2026-02-11",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "startups"
     ]
    },
    {
@@ -63,6 +101,15 @@
       "label": "WVU Statler Directory",
       "url": "https://directory.statler.wvu.edu/faculty-staff-directory/anurag-srivastava"
      }
+    ],
+    "d": null,
+    "dnote": "Faculty profile page; no publication date.",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "research",
+     "energy"
     ]
    },
    {
@@ -73,6 +120,14 @@
       "label": "WVU Today",
       "url": "https://wvutoday.wvu.edu/resources/wvu-assistant-professor-helps-students-build-solve-and-create-with-applied-ai-and-data-analytics"
      }
+    ],
+    "d": null,
+    "dnote": "Center page; no publication date shown.",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -83,6 +138,13 @@
       "label": "Statler College, Aug 2025",
       "url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
      }
+    ],
+    "d": "2025-08-01",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -93,6 +155,13 @@
       "label": "Statler College Media Hub, Aug 2025",
       "url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
      }
+    ],
+    "d": "2025-08-01",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -103,6 +172,13 @@
       "label": "WVU Health Sciences, May 2025",
       "url": "https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/"
      }
+    ],
+    "d": "2025-05",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "research"
     ]
    },
    {
@@ -113,11 +189,22 @@
       "label": "GovTech, Mar 2024",
       "url": "https://www.govtech.com/artificial-intelligence/ai-is-the-latest-tool-in-w-va-s-fight-against-opioid-use"
      }
+    ],
+    "d": "2024-03-15",
+    "place": "morgantown",
+    "county": "Monongalia",
+    "region": "North Central",
+    "topics": [
+     "startups",
+     "research"
     ]
    }
   ],
   "lat": 39.6295,
-  "lng": -79.9559
+  "lng": -79.9559,
+  "region": "North Central",
+  "label": "Morgantown",
+  "county": "Monongalia"
  },
  {
   "id": "fairmont",
@@ -137,16 +224,32 @@
       "label": "NOAA, high-performance computing systems page",
       "url": "https://www.noaa.gov/organization/information-technology/hpcc-locations-and-systems"
      }
+    ],
+    "d": "2024-09-03",
+    "place": "fairmont",
+    "county": "Marion",
+    "region": "North Central",
+    "topics": [
+     "energy",
+     "research"
     ]
    },
    {
-    "title": "NOAA Fairmont facility deemed mission-critical.",
-    "html": "Despite federal workforce reductions in 2026, the WV High Technology Foundation confirmed no cuts at the Fairmont NOAA Environmental Security Computing Center, citing the satellite ground stations and supercomputing role in national weather infrastructure.",
+    "title": "Foundation CEO: NOAA's Fairmont computing center is unlikely to feel federal layoffs.",
+    "html": "After new federal layoffs hit NOAA in February 2025, the president and CEO of the West Virginia High Technology Foundation, which developed the I-79 Technology Park, told WBOY he had not been made aware of any cuts at the NOAA facility there and would be surprised by any disruption, because the work is considered \"mission critical.\" He said he does not speak for NOAA or the federal government. He also said the agency signed a new 20-year lease at the park in September 2024.",
     "sources": [
      {
-      "label": "Times West Virginian, 2026",
+      "label": "WBOY via Yahoo News, Feb 28, 2025",
       "url": "https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html"
      }
+    ],
+    "d": "2025-02-28",
+    "place": "fairmont",
+    "county": "Marion",
+    "region": "North Central",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -157,6 +260,14 @@
       "label": "HPCwire",
       "url": "https://www.hpcwire.com/off-the-wire/noaa-expands-hpc-capabilities-with-100m-investment-in-rhea-supercomputer/"
      }
+    ],
+    "d": "2024-09-03",
+    "place": "fairmont",
+    "county": "Marion",
+    "region": "North Central",
+    "topics": [
+     "energy",
+     "research"
     ]
    },
    {
@@ -167,6 +278,15 @@
       "label": "NASA",
       "url": "https://www.nasa.gov/katherine-johnson-ivv-facility/"
      }
+    ],
+    "d": null,
+    "dnote": "Facility profile; the page shows only an 'Updated' stamp, not a publication date.",
+    "place": "fairmont",
+    "county": "Marion",
+    "region": "North Central",
+    "topics": [
+     "research",
+     "jobs"
     ]
    },
    {
@@ -177,11 +297,22 @@
       "label": "WV Executive Magazine, 2022",
       "url": "https://wvexecutive.com/the-future-is-data/"
      }
+    ],
+    "d": "2022",
+    "place": "fairmont",
+    "county": "Marion",
+    "region": "North Central",
+    "topics": [
+     "energy",
+     "startups"
     ]
    }
   ],
   "lat": 39.4851,
-  "lng": -80.1426
+  "lng": -80.1426,
+  "region": "North Central",
+  "label": "Fairmont",
+  "county": "Marion"
  },
  {
   "id": "charleston",
@@ -197,6 +328,13 @@
       "label": "Thunkable pilot release, Rockefeller Foundation, Sep 10, 2026",
       "url": "https://www.rockefellerfoundation.org/news/thunkable-education-pilot-west-virginia-students-builds-future-ready-ai-entrepreneurship-app-development-skills/"
      }
+    ],
+    "d": "2026-09-10",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -211,6 +349,13 @@
       "label": "State Superintendent's written testimony, U.S. House Education and Workforce Committee, Feb 24, 2026",
       "url": "https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf"
      }
+    ],
+    "d": "2026-10-20",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -221,6 +366,13 @@
       "label": "WV Secretary of State, Jun 8, 2026",
       "url": "https://sos.wv.gov/article/wv-secretary-states-office-recognized-repeat-international-innovation-award-winner-ai"
      }
+    ],
+    "d": "2026-06-08",
+    "place": "charleston",
+    "county": "Kanawha",
+    "region": "Kanawha Valley",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -231,6 +383,14 @@
       "label": "Southern WV Community & Technical College, Jan 13, 2026",
       "url": "https://www.southernwv.edu/news-and-media/southern-wv-community-technical-college-awarded-1-8-million-grant-to-launch-ai-readiness-capacity-initiative-to-transform-teaching-learning-and-student-support/"
      }
+    ],
+    "d": "2026-01-13",
+    "place": "charleston",
+    "county": null,
+    "region": "Kanawha Valley",
+    "topics": [
+     "grants",
+     "classrooms"
     ]
    },
    {
@@ -241,6 +401,14 @@
       "label": "WDTV, Aug 2026",
       "url": "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
      }
+    ],
+    "d": "2026-08-11",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -251,6 +419,13 @@
       "label": "GovTech Events, Oct 2026",
       "url": "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
      }
+    ],
+    "d": "2026-10",
+    "place": "charleston",
+    "county": "Kanawha",
+    "region": "Kanawha Valley",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -265,6 +440,14 @@
       "label": "Nearby Data Centers tracker",
       "url": "https://nearbydatacenters.org/wv/"
      }
+    ],
+    "d": "2026-04",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -275,6 +458,14 @@
       "label": "WV Gazette-Mail, Feb 2026",
       "url": "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
      }
+    ],
+    "d": "2026-02-18",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -285,6 +476,14 @@
       "label": "Mountain State Spotlight, Feb 2026",
       "url": "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/"
      }
+    ],
+    "d": "2026-02-25",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -295,6 +494,13 @@
       "label": "WV Office of Technology, Jan 2026",
       "url": "https://technology.wv.gov/policy-governance/artificial-intelligence"
      }
+    ],
+    "d": "2026-01",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -305,6 +511,13 @@
       "label": "Bowles Rice, Nov 2025",
       "url": "https://www.bowlesrice.com/views-and-visions/how-ai-is-transforming-government-services-in-wv"
      }
+    ],
+    "d": "2025-11",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -315,6 +528,13 @@
       "label": "Fortune, Feb 2025",
       "url": "https://fortune.com/2025/02/06/openai-stargate-ai-data-centers-locations-search/"
      }
+    ],
+    "d": "2025-02-06",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "energy"
     ]
    },
    {
@@ -325,6 +545,14 @@
       "label": "TechConnect WV",
       "url": "https://techconnectwv.org/"
      }
+    ],
+    "d": null,
+    "dnote": "Organization profile; no publication date.",
+    "place": "charleston",
+    "county": "Kanawha",
+    "region": "Kanawha Valley",
+    "topics": [
+     "startups"
     ]
    },
    {
@@ -335,11 +563,22 @@
       "label": "WVIAIS",
       "url": "https://wviais.com/"
      }
+    ],
+    "d": null,
+    "dnote": "Organization profile; no publication date.",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "startups"
     ]
    }
   ],
   "lat": 38.3498,
-  "lng": -81.6326
+  "lng": -81.6326,
+  "region": "Kanawha Valley",
+  "label": "Charleston",
+  "county": "Kanawha"
  },
  {
   "id": "huntington",
@@ -355,6 +594,14 @@
       "label": "Marshall School of Medicine, \"AI & Medicine,\" Mar 19, 2026",
       "url": "https://jcesom.marshall.edu/news/musom-news/ai-medicine/"
      }
+    ],
+    "d": "2026-03-19",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "classrooms",
+     "research"
     ]
    },
    {
@@ -365,6 +612,13 @@
       "label": "Marshall University News, Jan 21, 2026",
       "url": "https://www.marshall.edu/news/2026/01/marshall-to-pilot-artificial-intelligence-software-in-counseling-training/"
      }
+    ],
+    "d": "2026-01-21",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -383,6 +637,14 @@
       "label": "WSAZ, Aug 13, 2026",
       "url": "https://www.wsaz.com/2026/08/13/cybersecurity-operations-already-running-marshalls-campus-ahead-new-institute-buildings-completion/"
      }
+    ],
+    "d": "2026-08-13",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "classrooms",
+     "research"
     ]
    },
    {
@@ -393,6 +655,14 @@
       "label": "Marshall University, Feb 2026",
       "url": "https://www.marshall.edu/news/2026/02/quality-insights-gift/"
      }
+    ],
+    "d": "2026-02-02",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "startups",
+     "grants"
     ]
    },
    {
@@ -407,6 +677,13 @@
       "label": "Marshall University, AI Training",
       "url": "https://www.marshall.edu/ai/training/"
      }
+    ],
+    "d": "2025-03-06",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -417,6 +694,14 @@
       "label": "Marshall University, Dec 2025",
       "url": "https://www.marshall.edu/news/2025/12/marshall-university-provides-update-on-transformative-idea-district-development/"
      }
+    ],
+    "d": "2025-12-15",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "startups",
+     "classrooms"
     ]
    },
    {
@@ -427,6 +712,14 @@
       "label": "Marshall University, Mar 2025",
       "url": "https://www.marshall.edu/news/2025/03/marshall-university-and-intuit-forge-strategic-partnership-to-enhance-education-and-economic-development-in-west-virginia/"
      }
+    ],
+    "d": "2025-03-25",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "jobs",
+     "classrooms"
     ]
    },
    {
@@ -437,6 +730,13 @@
       "label": "Marshall University, Jun 2025",
       "url": "https://www.marshall.edu/news/2025/06/marshall-university-icenter-launches-inaugural-gbeta-accelerator-cohort-to-fuel-statewide-innovation/"
      }
+    ],
+    "d": "2025-06-27",
+    "place": "huntington",
+    "county": "Cabell",
+    "region": "Southwestern",
+    "topics": [
+     "startups"
     ]
    },
    {
@@ -447,11 +747,22 @@
       "label": "Generation West Virginia, Jul 2025",
       "url": "https://generationwv.org/ai-ready-workforce/"
      }
+    ],
+    "d": "2025-07-17",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "jobs",
+     "public"
     ]
    }
   ],
   "lat": 38.4192,
-  "lng": -82.4452
+  "lng": -82.4452,
+  "region": "Southwestern",
+  "label": "Huntington",
+  "county": "Cabell"
  },
  {
   "id": "martinsburg",
@@ -471,6 +782,14 @@
       "label": "WV MetroNews, Jul 13, 2026",
       "url": "https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/"
      }
+    ],
+    "d": "2026-07-13",
+    "place": "martinsburg",
+    "county": "Berkeley",
+    "region": "Eastern Panhandle",
+    "topics": [
+     "jobs",
+     "startups"
     ]
    },
    {
@@ -478,9 +797,17 @@
     "html": "Ratepayer advocates and Appalachian Power warn that the law's microgrid backup provisions could raise customer bills, while environmental groups flag gaps in air-quality oversight for fast-tracked sites.",
     "sources": [
      {
-      "label": "WV Gazette-Mail, Apr 2026",
+      "label": "WV Gazette-Mail, May 2, 2026",
       "url": "https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html"
      }
+    ],
+    "d": "2026-05-02",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -491,6 +818,14 @@
       "label": "West Virginia Watch, Mar 2026",
       "url": "https://westvirginiawatch.com/2026/03/31/empty-promises-residents-lament-lack-of-protections-as-data-center-developments-unfold-across-wv/"
      }
+    ],
+    "d": "2026-03-31",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -501,6 +836,13 @@
       "label": "Governor's Office, Feb 26, 2026",
       "url": "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
      }
+    ],
+    "d": "2026-02-26",
+    "place": "martinsburg",
+    "county": "Berkeley",
+    "region": "Eastern Panhandle",
+    "topics": [
+     "energy"
     ]
    },
    {
@@ -519,6 +861,13 @@
       "label": "Nscale S-1 (SEC)",
       "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
      }
+    ],
+    "d": "2026-10-30",
+    "place": null,
+    "county": "Mason",
+    "region": "Southwestern",
+    "topics": [
+     "energy"
     ]
    },
    {
@@ -529,6 +878,14 @@
       "label": "WV Legislature, 2025",
       "url": "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill"
      }
+    ],
+    "d": "2025",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -539,6 +896,14 @@
       "label": "Governor's Office, Feb 2026",
       "url": "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
      }
+    ],
+    "d": "2026-02-26",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -549,11 +914,22 @@
       "label": "WV MetroNews, Oct 2026",
       "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
      }
+    ],
+    "d": "2026-10-26",
+    "place": "martinsburg",
+    "county": "Berkeley",
+    "region": "Eastern Panhandle",
+    "topics": [
+     "public",
+     "energy"
     ]
    }
   ],
   "lat": 39.4562,
-  "lng": -77.9639
+  "lng": -77.9639,
+  "region": "Eastern Panhandle",
+  "label": "Martinsburg",
+  "county": "Berkeley"
  },
  {
   "id": "parkersburg",
@@ -574,6 +950,15 @@
       "label": "WV MetroNews, Jul 8, 2026",
       "url": "https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/"
      }
+    ],
+    "d": "2026-07-08",
+    "place": "parkersburg",
+    "county": "Wood",
+    "region": "Mid-Ohio Valley",
+    "topics": [
+     "jobs",
+     "startups",
+     "energy"
     ]
    },
    {
@@ -588,11 +973,21 @@
       "label": "News & Sentinel, Aug 2025",
       "url": "https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/"
      }
+    ],
+    "d": "2025-08-18",
+    "place": "parkersburg",
+    "county": "Wood",
+    "region": "Mid-Ohio Valley",
+    "topics": [
+     "classrooms"
     ]
    }
   ],
   "lat": 39.2667,
-  "lng": -81.5615
+  "lng": -81.5615,
+  "region": "Mid-Ohio Valley",
+  "label": "Parkersburg",
+  "county": "Wood"
  },
  {
   "id": "wheeling",
@@ -609,6 +1004,13 @@
       "label": "GovTech Events, Oct 2026",
       "url": "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
      }
+    ],
+    "d": "2026-10",
+    "place": "wheeling",
+    "county": "Ohio",
+    "region": "Northern Panhandle",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -619,11 +1021,21 @@
       "label": "Sramana Mitra, Feb 2026",
       "url": "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
      }
+    ],
+    "d": "2026-02-11",
+    "place": "wheeling",
+    "county": "Ohio",
+    "region": "Northern Panhandle",
+    "topics": [
+     "startups"
     ]
    }
   ],
   "lat": 40.064,
-  "lng": -80.7209
+  "lng": -80.7209,
+  "region": "Northern Panhandle",
+  "label": "Wheeling",
+  "county": "Ohio"
  },
  {
   "id": "weirton",
@@ -640,6 +1052,14 @@
       "label": "Tech Startups, Feb 2026",
       "url": "https://techstartups.com/2026/02/26/form-energy-lands-1b-google-deal-for-100-hour-iron-air-battery-eyes-ipo/"
      }
+    ],
+    "d": "2026-02-26",
+    "place": "weirton",
+    "county": "Hancock",
+    "region": "Northern Panhandle",
+    "topics": [
+     "energy",
+     "startups"
     ]
    },
    {
@@ -650,11 +1070,21 @@
       "label": "WTRF, Feb 2026",
       "url": "https://www.wtrf.com/top-stories/form-energy-in-weirton-to-build-batteries-for-largest-energy-storage-project-announced/"
      }
+    ],
+    "d": "2026-02",
+    "place": "weirton",
+    "county": "Hancock",
+    "region": "Northern Panhandle",
+    "topics": [
+     "energy"
     ]
    }
   ],
   "lat": 40.4189,
-  "lng": -80.5895
+  "lng": -80.5895,
+  "region": "Northern Panhandle",
+  "label": "Weirton",
+  "county": "Hancock"
  },
  {
   "id": "princeton",
@@ -671,6 +1101,13 @@
       "label": "WVVA News, Mar 2026",
       "url": "https://www.wvva.com/2026/03/02/west-virginia-department-education-moves-integrate-ai-tools-classrooms/"
      }
+    ],
+    "d": "2026-03-02",
+    "place": "princeton",
+    "county": "Mercer",
+    "region": "Southern",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -681,11 +1118,21 @@
       "label": "WVVA News, Aug 2026",
       "url": "https://www.wvva.com/2026/08/17/mercer-county-schools-trains-teachers-ai-back-to-school-assembly/"
      }
+    ],
+    "d": "2026-08-17",
+    "place": "princeton",
+    "county": "Mercer",
+    "region": "Southern",
+    "topics": [
+     "classrooms"
     ]
    }
   ],
   "lat": 37.3668,
-  "lng": -81.1026
+  "lng": -81.1026,
+  "region": "Southern",
+  "label": "Princeton",
+  "county": "Mercer"
  },
  {
   "id": "beckley",
@@ -702,6 +1149,13 @@
       "label": "WVU Tech, Oct 2025",
       "url": "https://www.wvutech.edu/news/2025/10/29/wvu-tech-to-host-governor-s-computer-science-institute-for-next-three-years"
      }
+    ],
+    "d": "2025-10-29",
+    "place": "beckley",
+    "county": "Raleigh",
+    "region": "Southern",
+    "topics": [
+     "classrooms"
     ]
    },
    {
@@ -712,11 +1166,21 @@
       "label": "WVU Tech",
       "url": "https://www.wvutech.edu/news/fall-2024/09/06/wvu-tech-president-t-ramon-stuart-ph-d-appointed-to-rnl-s-ai-leadership-council"
      }
+    ],
+    "d": "2024-09-06",
+    "place": "beckley",
+    "county": "Raleigh",
+    "region": "Southern",
+    "topics": [
+     "classrooms"
     ]
    }
   ],
   "lat": 37.7782,
-  "lng": -81.1882
+  "lng": -81.1882,
+  "region": "Southern",
+  "label": "Beckley",
+  "county": "Raleigh"
  },
  {
   "id": "clarksburg",
@@ -733,6 +1197,13 @@
       "label": "FBI, Sep 22, 2025",
       "url": "https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years"
      }
+    ],
+    "d": "2025-09-22",
+    "place": "clarksburg",
+    "county": "Harrison",
+    "region": "North Central",
+    "topics": [
+     "public"
     ]
    },
    {
@@ -743,6 +1214,14 @@
       "label": "TekSynap, Nov 2025",
       "url": "https://teksynap.com/teksynap-corporation-acquires-jba-inc/"
      }
+    ],
+    "d": "2025-11-18",
+    "place": "clarksburg",
+    "county": "Harrison",
+    "region": "North Central",
+    "topics": [
+     "startups",
+     "public"
     ]
    },
    {
@@ -753,11 +1232,23 @@
       "label": "FBI CJIS",
       "url": "https://www.fbi.gov/services/cjis"
      }
+    ],
+    "d": null,
+    "dnote": "FBI division profile; no publication date (the page blocks automated readers).",
+    "place": "clarksburg",
+    "county": "Harrison",
+    "region": "North Central",
+    "topics": [
+     "public",
+     "jobs"
     ]
    }
   ],
   "lat": 39.2806,
-  "lng": -80.3445
+  "lng": -80.3445,
+  "region": "North Central",
+  "label": "Clarksburg",
+  "county": "Harrison"
  },
  {
   "id": "tucker-county",
@@ -774,6 +1265,14 @@
       "label": "WTAP, Aug 2026",
       "url": "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
      }
+    ],
+    "d": "2026-08-26",
+    "place": "tucker-county",
+    "county": "Tucker",
+    "region": "Allegheny Highlands",
+    "topics": [
+     "public",
+     "energy"
     ]
    },
    {
@@ -784,6 +1283,14 @@
       "label": "Charleston Gazette-Mail",
       "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-report-projects-up-to-35m-in-health-damages-from-expected-tucker-co-data-center/article_0e44b758-b9d7-4040-92fa-ddf7db274333.html"
      }
+    ],
+    "d": "2026-01-14",
+    "place": "tucker-county",
+    "county": "Tucker",
+    "region": "Allegheny Highlands",
+    "topics": [
+     "research",
+     "energy"
     ]
    },
    {
@@ -794,10 +1301,21 @@
       "label": "WV Public Broadcasting, Oct 2025",
       "url": "https://wvpublic.org/story/energy-environment/citizen-groups-appeal-for-information-on-tucker-county-data-center/"
      }
+    ],
+    "d": "2025-10-20",
+    "place": "tucker-county",
+    "county": "Tucker",
+    "region": "Allegheny Highlands",
+    "topics": [
+     "public",
+     "energy"
     ]
    }
   ],
   "lat": 39.128,
-  "lng": -79.465
+  "lng": -79.465,
+  "region": "Allegheny Highlands",
+  "label": "Tucker County",
+  "county": "Tucker"
  }
 ]

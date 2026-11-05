@@ -79,7 +79,7 @@ Every claim on wvaihub.com was checked against the source it links to. **202 ite
 | Hub stories · Morgantown | WVU F1Tenth team takes second nationally. | ✓ Confirmed | page | [media.statler.wvu.edu](https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems) |
 | Hub stories · Morgantown | WVU AI Symposium 2025. | ✓ Confirmed | page | [hsc.wvu.edu](https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/) |
 | Hub stories · Morgantown | GATC Health expands AI drug discovery. | ✓ Confirmed | page | [govtech.com](https://www.govtech.com/artificial-intelligence/ai-is-the-latest-tool-in-w-va-s-fight-against-opioid-use) |
-| Hub stories · Fairmont | NOAA Fairmont facility deemed mission-critical. | ✓ Confirmed | page | [yahoo.com](https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html) |
+| Hub stories · Fairmont | Foundation CEO: NOAA's Fairmont computing center is unlikely to feel federal layoffs. | ✓ Confirmed | page | [yahoo.com](https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html) |
 | Hub stories · Fairmont | NOAA's Rhea supercomputer comes online at NESCC Fairmont. | ✓ Confirmed | page | [hpcwire.com](https://www.hpcwire.com/off-the-wire/noaa-expands-hpc-capabilities-with-100m-investment-in-rhea-supercomputer/) |
 | Hub stories · Fairmont | NASA Katherine Johnson IV&V Facility. | ✓ Confirmed | page | [nasa.gov](https://www.nasa.gov/katherine-johnson-ivv-facility/) |
 | Hub stories · Fairmont | I-79 Technology Park and NOAA supercomputing. | ✓ Confirmed | page | [wvexecutive.com](https://wvexecutive.com/the-future-is-data/) |
@@ -315,6 +315,88 @@ Wording rules applied: paraphrase, no quotes; announced jobs, investment, and pr
 | Hub stories | The FBI's biometrics center in Clarksburg marks ten years. | ✓ Confirmed | page | [fbi.gov](https://www.fbi.gov/news/stories/cjis-biometric-technology-center-celebrates-10-years) |
 | Hub stories | Helsing plans a $50 million AI-enabled drone factory in Martinsburg. | ✓ Confirmed | page | [governor.wv.gov](https://governor.wv.gov/article/governor-morrisey-announces-50-million-helsing-investment-berkeley-county-creating-high) · [wvmetronews.com](https://wvmetronews.com/2026/07/13/officials-announce-manufacturer-of-artificial-intelligence-and-autonomous-military-systems-for-berkeley-county/) |
 | Hub stories | PowerFlo Solutions plans a $20 million manufacturing site in Williamstown. | ✓ Confirmed | page | [governor.wv.gov](https://governor.wv.gov/article/governor-morrisey-announces-powerflo-expansion-wood-county) · [wvmetronews.com](https://wvmetronews.com/2026/07/08/powerflo-solutions-plans-manufacturing-center-at-former-site-of-hino-motors/) |
+
+## Hub feed: dates, places, topics (added Nov 5, 2026)
+
+The Hubs page became one feed tagged by place and topic. Every story got a date, a place, a county, a region, and topics. No claim was added; two corrections came out of the dating (below).
+
+**How each date was found.** A script fetched all 70 source URLs (65 opened; 5 returned 403 to a plain fetch). For each source the date was taken in this order: a full date in our source label; a date in the URL path that agrees with the label's month; the page's own publication date (`article:published_time`, schema.org `datePublished`, or the dateline) that agrees with the label's month; then the label's month or year. A story's date is its newest dated source. A page's `<time>` tag or "Updated" stamp was not treated as a publication date (those items show month or year only, or are Background). Six stories are profiles with no publication date: they carry a `dnote` and sort last.
+
+**Corrections found while dating**
+- **NOAA Fairmont facility:** the label said "Times West Virginian, 2026" and the text said "Despite federal workforce reductions in 2026, the WV High Technology Foundation confirmed no cuts." The source is a WBOY article on Yahoo News dated Feb 28, 2025. It says the foundation's CEO had not been made aware of any cuts, would be surprised by a disruption, and does not speak for NOAA or the federal government. Headline, text, and label rewritten to match; the Receipts row now says so.
+- **Berkeley County, one year after HB 2014:** the label said April 2026. The Gazette-Mail article was published May 2, 2026 (April 18 appears only in a photo caption). Label corrected.
+
+**Judgment calls to review**
+- Place is where the activity happens (a campus, plant, office, event); laws, programs, and services that apply across the state are tagged Statewide. Stories that sat under the Charleston and Berkeley County hubs but are about the whole state (HB 2014, the Legislature, the Governor's plan, the teacher-training model) are now Statewide. Their position inside `hubs.json` was left alone so Receipts rows keep matching.
+- Southern WV Community & Technical College stays in the Charleston hub, as placed earlier, with no county. The college's release names Logan County.
+- "Nscale takes over Monarch" is about Mason County, which has no hub; it is tagged by county, with the region Southwestern.
+- The eight regions are editorial groupings (North Central, Northern Panhandle, Eastern Panhandle, Allegheny Highlands, Mid-Ohio Valley, Kanawha Valley, Southwestern, Southern), not official ones. Topics are one story, one to three topics, assigned by judgment.
+
+| Hub | Story | Date | How the date was found | Place | County | Region | Topics |
+|---|---|---|---|---|---|---|---|
+| Morgantown | WVU leads a $321 million energy and AI engine, with up to $160 million from NSF. | 2026-07-14 | label (full date) (from: WVU Today, Jul 14, 2026) | morgantown | Monongalia | North Central | Research, Grants and funding, Energy and compute |
+| Morgantown | WVU researchers are building AI into field sensors. | 2026-08-24 | label (full date) (from: WVU Today, Aug 24, 2026) | morgantown | Monongalia | North Central | Research, Grants and funding |
+| Morgantown | WVU launches M.S. in Artificial Intelligence. | 2026 | label says 'Spring 2026'; the page's <time> tag (2026-06-19) looks like a last-updated stamp, so year only | morgantown | Monongalia | North Central | Classrooms and training |
+| Morgantown | WVU launches Strategic Compass seed innovation fund. | 2026-02-20 | URL path + label month (from: WVU Today, Feb 2026) | morgantown | Monongalia | North Central | Grants and funding |
+| Morgantown | 1Mby1M Virtual Accelerator and AI Mentor launches for WV. | 2026-02-11 | URL path + label month (from: Sramana Mitra, Feb 2026) | morgantown | Monongalia | North Central | Startups and business |
+| Morgantown | Anurag Srivastava leads WVU cyber-power research. | none | Faculty profile page; no publication date. | morgantown | Monongalia | North Central | Research, Energy and compute |
+| Morgantown | Data Driven WV pairs students with real-world AI work. | none | Center page; no publication date shown. | morgantown | Monongalia | North Central | Classrooms and training |
+| Morgantown | WVU BOG approves new AI and Smart Systems tracks. | 2025-08-01 | URL path + label month (from: Statler College, Aug 2025) | morgantown | Monongalia | North Central | Classrooms and training |
+| Morgantown | WVU F1Tenth team takes second nationally. | 2025-08-01 | URL path + label month (from: Statler College Media Hub, Aug 2025) | morgantown | Monongalia | North Central | Classrooms and training |
+| Morgantown | WVU AI Symposium 2025. | 2025-05 | label says May 2025; the page's <time> tag (2025-05-01) is not a publication date, so month only | morgantown | Monongalia | North Central | Research |
+| Morgantown | GATC Health expands AI drug discovery. | 2024-03-15 | page metadata + label month (from: GovTech, Mar 2024) | morgantown | Monongalia | North Central | Startups and business, Research |
+| Fairmont | NOAA announced a supercomputer, Rhea, for its Fairmont computing center. | 2024-09-03 | label (full date) (from: NOAA, Sep 3, 2024 (updated Jan 31, 2) | fairmont | Marion | North Central | Energy and compute, Research |
+| Fairmont | NOAA Fairmont facility deemed mission-critical. | 2025-02-28 | the article's own dateline (Feb 28, 2025); the old label said 2026 | fairmont | Marion | North Central | Public safety and government, Energy and compute |
+| Fairmont | NOAA's Rhea supercomputer comes online at NESCC Fairmont. | 2024-09-03 | schema.org datePublished and article text (Sep 3, 2024) | fairmont | Marion | North Central | Energy and compute, Research |
+| Fairmont | NASA Katherine Johnson IV&V Facility. | none | Facility profile; the page shows only an 'Updated' stamp, not a publication date. | fairmont | Marion | North Central | Research, Jobs |
+| Fairmont | I-79 Technology Park and NOAA supercomputing. | 2022 | label (label-year) (from: WV Executive Magazine, 2022) | fairmont | Marion | North Central | Energy and compute, Startups and business |
+| Charleston | Thunkable's AI pilot gets about 120 West Virginia students building apps. | 2026-09-10 | label (full date) (from: Thunkable pilot release, Rockefeller) | statewide | (none) | Statewide | Classrooms and training |
+| Charleston | West Virginia is building a statewide AI training model for teachers. | 2026-10-20 | label (full date) (from: Southern Regional Education Board, O) | statewide | (none) | Statewide | Classrooms and training |
+| Charleston | Secretary of State's AI-powered knowledge center wins an international award. | 2026-06-08 | label (full date) (from: WV Secretary of State, Jun 8, 2026) | charleston | Kanawha | Kanawha Valley | Public safety and government |
+| Charleston | Southern WV Community & Technical College wins $1.8 million to bring AI across the college. | 2026-01-13 | label (full date) (from: Southern WV Community & Technical Co) | charleston | (none) | Kanawha Valley | Grants and funding, Classrooms and training |
+| Charleston | Morrisey unveils a 20-year data center plan. | 2026-08-11 | URL path + label month (from: WDTV, Aug 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Charleston | WV Digital Government Summit returns to Charleston. | 2026-10 | label (label-month) (from: GovTech Events, Oct 2026) | charleston | Kanawha | Kanawha Valley | Public safety and government |
+| Charleston | Morrisey closes 2026 session: 12 vetoes, 10 bills unsigned. | 2026-04 | label (label-month) (from: The Intelligencer, Apr 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Charleston | HB 4983 clears House 78-16: data-center confidentiality. | 2026-02-18 | page metadata + label month (from: WV Gazette-Mail, Feb 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Charleston | Legislature blocks local-control restoration bills. | 2026-02-25 | URL path + label month (from: Mountain State Spotlight, Feb 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Charleston | State AI Task Force ongoing oversight. | 2026-01 | label (label-month) (from: WV Office of Technology, Jan 2026) | statewide | (none) | Statewide | Public safety and government |
+| Charleston | S.O.LO: WV's first government AI chatbot. | 2025-11 | label (label-month) (from: Bowles Rice, Nov 2025) | statewide | (none) | Statewide | Public safety and government |
+| Charleston | WV named among 16 states for OpenAI's Stargate project. | 2025-02-06 | URL path + label month (from: Fortune, Feb 2025) | statewide | (none) | Statewide | Energy and compute |
+| Charleston | TechConnect WV: 20+ years of tech innovation. | none | Organization profile; no publication date. | charleston | Kanawha | Kanawha Valley | Startups and business |
+| Charleston | WVIAIS: AI consulting for small business. | none | Organization profile; no publication date. | statewide | (none) | Statewide | Startups and business |
+| Huntington | Marshall's medical school builds AI into training and clinics. | 2026-03-19 | label (full date) (from: Marshall School of Medicine, "AI & M) | huntington | Cabell | Southwestern | Classrooms and training, Research |
+| Huntington | Marshall plans an AI simulation pilot for counseling training. | 2026-01-21 | label (full date) (from: Marshall University News, Jan 21, 20) | huntington | Cabell | Southwestern | Classrooms and training |
+| Huntington | Marshall builds a $45 million cybersecurity institute. | 2026-08-13 | label (full date) (from: WSAZ, Aug 13, 2026) | huntington | Cabell | Southwestern | Classrooms and training, Research |
+| Huntington | Quality Insights gifts $1.2M to Marshall iCenter. | 2026-02-02 | page metadata + label month (from: Marshall University, Feb 2026) | huntington | Cabell | Southwestern | Startups and business, Grants and funding |
+| Huntington | Marshall University's AI governance. | 2025-03-06 | page metadata only (from: Marshall University, AI Training) | huntington | Cabell | Southwestern | Classrooms and training |
+| Huntington | IDEA District and the $45M Institute for Cyber Security. | 2025-12-15 | page metadata + label month (from: Marshall University, Dec 2025) | huntington | Cabell | Southwestern | Startups and business, Classrooms and training |
+| Huntington | Marshall and Intuit forge a strategic partnership. | 2025-03-25 | page metadata + label month (from: Marshall University, Mar 2025) | huntington | Cabell | Southwestern | Jobs, Classrooms and training |
+| Huntington | Marshall's first gBETA cohort. | 2025-06-27 | page metadata + label month (from: Marshall University, Jun 2025) | huntington | Cabell | Southwestern | Startups and business |
+| Huntington | Generation WV AI workforce panel. | 2025-07-17 | page metadata + label month (from: Generation West Virginia, Jul 2025) | statewide | (none) | Statewide | Jobs, Public safety and government |
+| Berkeley County | Helsing plans a $50 million AI-enabled drone factory in Martinsburg. | 2026-07-13 | label (full date) (from: WV Governor's Office, Jul 13, 2026) | martinsburg | Berkeley | Eastern Panhandle | Jobs, Startups and business |
+| Berkeley County | One year post-HB 2014: transparency and grid-cost concerns surface. | 2026-05-02 | schema.org datePublished (May 2, 2026); the old label said April | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Berkeley County | Residents call for protections as data-center buildout accelerates. | 2026-03-31 | URL path + label month (from: West Virginia Watch, Mar 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Berkeley County | $4 billion Penzance data center announced. | 2026-02-26 | label (full date) (from: Governor's Office, Feb 26, 2026) | martinsburg | Berkeley | Eastern Panhandle | Energy and compute |
+| Berkeley County | Nscale takes over Monarch; Anthropic signs on. | 2026-10-30 | URL path + label month (from: TechCrunch, Oct 2026) | (county only) | Mason | Southwestern | Energy and compute |
+| Berkeley County | HB 2014: Certified Microgrid Program. | 2025 | label (label-year) (from: WV Legislature, 2025) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Berkeley County | Microgrid revenue reinvestment. | 2026-02-26 | page metadata + label month (from: Governor's Office, Feb 2026) | statewide | (none) | Statewide | Public safety and government, Energy and compute |
+| Berkeley County | Berkeley County asks the AG how HB 2014 preemption works. The AG declines. | 2026-10-26 | URL path + label month (from: WV MetroNews, Oct 2026) | martinsburg | Berkeley | Eastern Panhandle | Public safety and government, Energy and compute |
+| Parkersburg | PowerFlo Solutions plans a $20 million manufacturing site in Williamstown. | 2026-07-08 | label (full date) (from: WV Governor's Office, Jul 8, 2026) | parkersburg | Wood | Mid-Ohio Valley | Jobs, Startups and business, Energy and compute |
+| Parkersburg | WVU-P Innovation and Technology Center opens. | 2025-08-18 | URL path + label month (from: WTAP, Aug 2025) | parkersburg | Wood | Mid-Ohio Valley | Classrooms and training |
+| Wheeling | WV Digital Government Summit, Wheeling participation. | 2026-10 | label (label-month) (from: GovTech Events, Oct 2026) | wheeling | Ohio | Northern Panhandle | Public safety and government |
+| Wheeling | Emerging IT-enabled services hub. | 2026-02-11 | URL path + label month (from: Sramana Mitra, Feb 2026) | wheeling | Ohio | Northern Panhandle | Startups and business |
+| Weirton | Form Energy lands $1B Google deal. | 2026-02-26 | URL path + label month (from: Tech Startups, Feb 2026) | weirton | Hancock | Northern Panhandle | Energy and compute, Startups and business |
+| Weirton | Weirton plant targets 500 MW a year by 2028. | 2026-02 | label (label-month) (from: WTRF, Feb 2026) | weirton | Hancock | Northern Panhandle | Energy and compute |
+| Princeton | State guidance brings AI into classrooms. | 2026-03-02 | URL path + label month (from: WVVA News, Mar 2026) | princeton | Mercer | Southern | Classrooms and training |
+| Princeton | Mercer County trains teachers on AI. | 2026-08-17 | URL path + label month (from: WVVA News, Aug 2026) | princeton | Mercer | Southern | Classrooms and training |
+| Beckley | WVU Tech hosts Governor's Computer Science Institute. | 2025-10-29 | URL path + label month (from: WVU Tech, Oct 2025) | beckley | Raleigh | Southern | Classrooms and training |
+| Beckley | WVU Tech President joins national AI Leadership Council. | 2024-09-06 | the page's own date text (Sep 6, 2024) | beckley | Raleigh | Southern | Classrooms and training |
+| Clarksburg | The FBI's biometrics center in Clarksburg marks ten years. | 2025-09-22 | label (full date) (from: FBI, Sep 22, 2025) | clarksburg | Harrison | North Central | Public safety and government |
+| Clarksburg | TekSynap acquires JBA, strengthening FBI tech support. | 2025-11-18 | page metadata + label month (from: TekSynap, Nov 2025) | clarksburg | Harrison | North Central | Startups and business, Public safety and government |
+| Clarksburg | FBI CJIS Division in Clarksburg. | none | FBI division profile; no publication date (the page blocks automated readers). | clarksburg | Harrison | North Central | Public safety and government, Jobs |
+| Tucker County | Ridgeline appeals tossed on jurisdiction; groups vow to refile. | 2026-08-26 | URL path + label month (from: WTAP, Aug 2026) | tucker-county | Tucker | Allegheny Highlands | Public safety and government, Energy and compute |
+| Tucker County | Harvard study projects $19M to $35M in health damages. | 2026-01-14 | schema.org datePublished and article text (Jan 14, 2026) | tucker-county | Tucker | Allegheny Highlands | Research, Energy and compute |
+| Tucker County | Groups appeal for blacked-out Ridgeline permit data. | 2025-10-20 | page metadata + label month (from: WV Public Broadcasting, Oct 2025) | tucker-county | Tucker | Allegheny Highlands | Public safety and government, Energy and compute |
 
 ## Re-running
 Serve the site locally, run `node verification/inventory.js` (with `SP` set to a scratch folder), fetch each URL into `pages/`, convert with `python3 -I verification/html2txt.py pages`, write extracts with `python3 -I verification/extracts.py extracts`, then run `python3 -I verification/verify_final.py <scratch>`.
