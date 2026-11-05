@@ -1,16 +1,16 @@
 {
  "checked": "2026-11-03",
  "summary": {
-  "ok": 196,
+  "ok": 195,
   "psc": 11,
   "verify": 8
  },
  "rows": [
   {
    "sec": "hub:Morgantown",
-   "title": "WVU launches M.S. in Artificial Intelligence.",
+   "title": "WVU offers an online M.S. in Artificial Intelligence.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: removed a launch claim, the Lane Department attribution, and two companion tracks that the cited program page does not mention. Rewritten from the page, which has no publication date.",
    "urls": [
     "https://lcsee.statler.wvu.edu/",
     "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
@@ -83,9 +83,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU F1Tenth team takes second nationally.",
+   "title": "WVU's F1Tenth team placed second at an IEEE international competition.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the headline said \"nationally\" and the text said scale cars within the Lane Department; the source says an IEEE international competition and an autonomous car.",
    "urls": [
     "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
    ],
@@ -119,7 +119,7 @@
   },
   {
    "sec": "hub:Fairmont",
-   "title": "Foundation CEO: NOAA's Fairmont computing center is unlikely to feel federal layoffs.",
+   "title": "Foundation CEO: NOAA's Fairmont facility is unlikely to feel federal layoffs.",
    "status": "ok",
    "note": "Corrected Nov 5, 2026 while dating the feed: the text said 'federal workforce reductions in 2026' and that the foundation 'confirmed no cuts'. The article (WBOY via Yahoo News, Feb 28, 2025) says the foundation's CEO had not been made aware of any cuts and would be surprised by a disruption. Headline and text rewritten; the source label, which said Times West Virginian, 2026, corrected.",
    "urls": [
@@ -131,9 +131,9 @@
   },
   {
    "sec": "hub:Fairmont",
-   "title": "NOAA's Rhea supercomputer comes online at NESCC Fairmont.",
+   "title": "NOAA awards $100 million to build Rhea, a new supercomputer for Fairmont.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the headline said Rhea \"comes online\" and the text said it was delivered, with about 30 petaflops. The article says the contract was awarded and Rhea will be installed, adding about eight petaflops.",
    "urls": [
     "https://www.hpcwire.com/off-the-wire/noaa-expands-hpc-capabilities-with-100m-investment-in-rhea-supercomputer/"
    ],
@@ -352,9 +352,10 @@
    "sec": "hub:Huntington",
    "title": "Generation WV AI workforce panel.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the text said \"the July 2025 panel\"; July 17 is the date of the recap. The conference was May 8, 2025, in Charleston (Generation WV release added as a source).",
    "urls": [
-    "https://generationwv.org/ai-ready-workforce/"
+    "https://generationwv.org/ai-ready-workforce/",
+    "https://generationwv.org/generation-west-virginia-to-host-workforce-development-conference-on-may-8-in-charleston/"
    ],
    "method": [
     "page"
@@ -362,9 +363,9 @@
   },
   {
    "sec": "hub:Berkeley County",
-   "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
+   "title": "One year after HB 2014, state approvals show limits on environmental review and transparency.",
    "status": "ok",
-   "note": "Source label corrected Nov 5, 2026: the Gazette-Mail article was published May 2, 2026, not April.",
+   "note": "Source label corrected Nov 5, 2026: the Gazette-Mail article was published May 2, 2026, not April. Corrected Nov 5, 2026: the headline and text described ratepayer, microgrid-backup and air-quality concerns that the article does not contain. Rewritten from the article.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html"
    ],
@@ -454,18 +455,6 @@
    "urls": [
     "https://www.wtap.com/2025/08/18/wvu-ps-innovation-technology-center-opens-classes/",
     "https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/"
-   ],
-   "method": [
-    "page"
-   ]
-  },
-  {
-   "sec": "hub:Wheeling",
-   "title": "WV Digital Government Summit, Wheeling participation.",
-   "status": "ok",
-   "note": "",
-   "urls": [
-    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
    ],
    "method": [
     "page"
@@ -584,9 +573,9 @@
   },
   {
    "sec": "hub:Tucker County",
-   "title": "Ridgeline appeals tossed on jurisdiction; groups vow to refile.",
+   "title": "Appeals court dismisses Ridgeline permit appeals on jurisdiction; groups can take them to the state Supreme Court.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: removed a February Air Quality Board date and an Oct 31 NPR item that the cited article does not contain, and \"vow to refile\", which the article does not say. Rewritten from the article.",
    "urls": [
     "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
    ],

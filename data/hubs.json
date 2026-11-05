@@ -43,21 +43,22 @@
     ]
    },
    {
-    "title": "WVU launches M.S. in Artificial Intelligence.",
-    "html": "A fully online graduate program from the Statler College's <a href=\"https://lcsee.statler.wvu.edu\" rel=\"noopener\" target=\"_blank\">Lane Department of Computer Science and Electrical Engineering</a>, covering machine learning, cybersecurity, intelligent systems, and energy applications. Enrollment opened Spring 2026, alongside companion M.S. tracks in Applied AI & Data Analytics and AI Marketing.",
+    "title": "WVU offers an online M.S. in Artificial Intelligence.",
+    "html": "The Statler College of Engineering and Mineral Resources offers a 30-credit online M.S. in Artificial Intelligence: ten 8-week courses, asynchronous with synchronous office hours, with specialized tracks in machine learning or intelligent systems. The program page lists Fall, Spring and Summer starts, with the next start on January 11, 2027, and says the degree prepares graduates for careers in healthcare, cybersecurity, energy systems and intelligent automation.",
     "sources": [
      {
-      "label": "WVU Online, Spring 2026",
+      "label": "WVU Online, program page",
       "url": "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
      }
     ],
-    "d": "2026",
+    "d": null,
     "place": "morgantown",
     "county": "Monongalia",
     "region": "North Central",
     "topics": [
      "classrooms"
-    ]
+    ],
+    "dnote": "Program page; no publication date."
    },
    {
     "title": "WVU launches Strategic Compass seed innovation fund.",
@@ -86,9 +87,9 @@
      }
     ],
     "d": "2026-02-11",
-    "place": "morgantown",
-    "county": "Monongalia",
-    "region": "North Central",
+    "place": "statewide",
+    "county": null,
+    "region": "Statewide",
     "topics": [
      "startups"
     ]
@@ -148,8 +149,8 @@
     ]
    },
    {
-    "title": "WVU F1Tenth team takes second nationally.",
-    "html": "Students built AI-powered self-driving scale cars and placed second at the IEEE international competition, an experiential learning initiative within the Lane Department.",
+    "title": "WVU's F1Tenth team placed second at an IEEE international competition.",
+    "html": "The Statler College's Aug 1, 2025 report on new program offerings says WVU's AI-powered F1Tenth team, which builds an autonomous car, placed second in the previous year's Institute of Electrical and Electronics Engineers international competition.",
     "sources": [
      {
       "label": "Statler College Media Hub, Aug 2025",
@@ -235,7 +236,7 @@
     ]
    },
    {
-    "title": "Foundation CEO: NOAA's Fairmont computing center is unlikely to feel federal layoffs.",
+    "title": "Foundation CEO: NOAA's Fairmont facility is unlikely to feel federal layoffs.",
     "html": "After new federal layoffs hit NOAA in February 2025, the president and CEO of the West Virginia High Technology Foundation, which developed the I-79 Technology Park, told WBOY he had not been made aware of any cuts at the NOAA facility there and would be surprised by any disruption, because the work is considered \"mission critical.\" He said he does not speak for NOAA or the federal government. He also said the agency signed a new 20-year lease at the park in September 2024.",
     "sources": [
      {
@@ -253,8 +254,8 @@
     ]
    },
    {
-    "title": "NOAA's Rhea supercomputer comes online at NESCC Fairmont.",
-    "html": "General Dynamics IT delivered the $100M Rhea HPC at the NOAA Environmental Security Computing Center, adding roughly 30 petaflops of research capacity for next-generation weather and climate AI/ML modeling.",
+    "title": "NOAA awards $100 million to build Rhea, a new supercomputer for Fairmont.",
+    "html": "HPCwire carried NOAA's September 2024 announcement that $100 million had been awarded to General Dynamics Information Technology for Rhea, a high-performance computer to be installed in a new modular facility at the NOAA Environmental Security Computing Center in Fairmont. The article says Rhea will add about eight petaflops to NOAA's existing research computing capacity of 35 petaflops, for weather, climate, ocean and ecosystem prediction.",
     "sources": [
      {
       "label": "HPCwire",
@@ -298,7 +299,7 @@
       "url": "https://wvexecutive.com/the-future-is-data/"
      }
     ],
-    "d": "2022",
+    "d": "2022-06-01",
     "place": "fairmont",
     "county": "Marion",
     "region": "North Central",
@@ -385,9 +386,9 @@
      }
     ],
     "d": "2026-01-13",
-    "place": "charleston",
-    "county": null,
-    "region": "Kanawha Valley",
+    "place": null,
+    "county": "Logan",
+    "region": "Southern",
     "topics": [
      "grants",
      "classrooms"
@@ -441,7 +442,7 @@
       "url": "https://nearbydatacenters.org/wv/"
      }
     ],
-    "d": "2026-04",
+    "d": "2026-04-03",
     "place": "statewide",
     "county": null,
     "region": "Statewide",
@@ -512,7 +513,7 @@
       "url": "https://www.bowlesrice.com/views-and-visions/how-ai-is-transforming-government-services-in-wv"
      }
     ],
-    "d": "2025-11",
+    "d": "2025-11-19",
     "place": "statewide",
     "county": null,
     "region": "Statewide",
@@ -678,13 +679,14 @@
       "url": "https://www.marshall.edu/ai/training/"
      }
     ],
-    "d": "2025-03-06",
+    "d": null,
     "place": "huntington",
     "county": "Cabell",
     "region": "Southwestern",
     "topics": [
      "classrooms"
-    ]
+    ],
+    "dnote": "Living policy pages, first published Feb to Mar 2025 and updated since; no single publication date."
    },
    {
     "title": "IDEA District and the $45M Institute for Cyber Security.",
@@ -741,17 +743,21 @@
    },
    {
     "title": "Generation WV AI workforce panel.",
-    "html": "Josh Spence, chair of the WV Task Force on Artificial Intelligence and CIO at Alpha Innovations, told the July 2025 panel: \"AI is the priority.\" On infrastructure: \"Broadband is not a nice-to-have. It is a must-have.\"",
+    "html": "Josh Spence, chair of the WV Task Force on Artificial Intelligence and chief information officer at Alpha Innovations, spoke on an AI workforce panel at Generation West Virginia's Pathways to Progress conference, held May 8, 2025, in Charleston. In the organization's July 17, 2025 recap he is quoted: \"AI is the priority.\" On infrastructure: \"Broadband is not a nice-to-have. It is a must-have.\"",
     "sources": [
      {
       "label": "Generation West Virginia, Jul 2025",
       "url": "https://generationwv.org/ai-ready-workforce/"
+     },
+     {
+      "label": "Generation West Virginia, Apr 9, 2025",
+      "url": "https://generationwv.org/generation-west-virginia-to-host-workforce-development-conference-on-may-8-in-charleston/"
      }
     ],
     "d": "2025-07-17",
-    "place": "statewide",
-    "county": null,
-    "region": "Statewide",
+    "place": "charleston",
+    "county": "Kanawha",
+    "region": "Kanawha Valley",
     "topics": [
      "jobs",
      "public"
@@ -793,8 +799,8 @@
     ]
    },
    {
-    "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
-    "html": "Ratepayer advocates and Appalachian Power warn that the law's microgrid backup provisions could raise customer bills, while environmental groups flag gaps in air-quality oversight for fast-tracked sites.",
+    "title": "One year after HB 2014, state approvals show limits on environmental review and transparency.",
+    "html": "On the law's first anniversary, the Gazette-Mail reported that recent state approvals of data center projects in Mason and Putnam counties show tight limits on environmental protection and public transparency. In response to public comments on the Monarch stormwater permit, the DEP acknowledged that the permit does not require routine water sampling and does not consider cumulative impacts from multiple projects in a watershed. A Department of Commerce letter, obtained through a records request, said Commerce staff had held standing bi-weekly meetings with a Google affiliate about a Putnam County project for more than six months, with Appalachian Power and the county development authority present but not the public.",
     "sources": [
      {
       "label": "WV Gazette-Mail, May 2, 2026",
@@ -974,7 +980,7 @@
       "url": "https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/"
      }
     ],
-    "d": "2025-08-18",
+    "d": "2025-08-22",
     "place": "parkersburg",
     "county": "Wood",
     "region": "Mid-Ohio Valley",
@@ -996,23 +1002,6 @@
   "pop": "Pop. 26,208 · #5 in WV",
   "major": false,
   "stories": [
-   {
-    "title": "WV Digital Government Summit, Wheeling participation.",
-    "html": "Wheeling leaders are slated to join state and local officials at the October 29, 2026 statewide summit in Charleston to plan digital transformation, AI implementation, and cybersecurity strategy.",
-    "sources": [
-     {
-      "label": "GovTech Events, Oct 2026",
-      "url": "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
-     }
-    ],
-    "d": "2026-10",
-    "place": "wheeling",
-    "county": "Ohio",
-    "region": "Northern Panhandle",
-    "topics": [
-     "public"
-    ]
-   },
    {
     "title": "Emerging IT-enabled services hub.",
     "html": "Niche IT and tech startups are forming in Wheeling, with founders gaining access to the 1Mby1M equity-free virtual accelerator and AI Mentor for market validation and growth.",
@@ -1216,7 +1205,7 @@
      }
     ],
     "d": "2025-11-18",
-    "place": "clarksburg",
+    "place": null,
     "county": "Harrison",
     "region": "North Central",
     "topics": [
@@ -1234,7 +1223,7 @@
      }
     ],
     "d": null,
-    "dnote": "FBI division profile; no publication date (the page blocks automated readers).",
+    "dnote": "Profile page; no article date.",
     "place": "clarksburg",
     "county": "Harrison",
     "region": "North Central",
@@ -1258,8 +1247,8 @@
   "major": false,
   "stories": [
    {
-    "title": "Ridgeline appeals tossed on jurisdiction; groups vow to refile.",
-    "html": "The Air Quality Board upheld Fundamental Data's permit in February. On Aug 26 the Intermediate Court of Appeals dismissed the appeals by Tucker United, the WV Highlands Conservancy, and the Sierra Club on jurisdictional grounds, not the merits. NPR covered the fight nationally on Oct 31.",
+    "title": "Appeals court dismisses Ridgeline permit appeals on jurisdiction; groups can take them to the state Supreme Court.",
+    "html": "In two orders filed Aug 26, the Intermediate Court of Appeals ruled that it lacks jurisdiction over the appeals by Tucker United, the WV Highlands Conservancy and the Sierra Club of the Air Quality Board's approval of the Ridgeline air permit, pointing to conflicting state statutes about where such appeals belong. The court noted the groups would have \"good cause\" to file late with the state Supreme Court of Appeals, which WTAP says clears the way for them to take the legal fight there. Ridgeline is a proposed 1,600-megawatt, off-grid gas-and-diesel power plant and data center being developed by Fundamental Data.",
     "sources": [
      {
       "label": "WTAP, Aug 2026",
