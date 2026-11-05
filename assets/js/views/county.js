@@ -49,7 +49,8 @@ export function county(main, slugName) {
       <span class="dim" style="font-size:13px">Prints on one letter-size page in the light newsprint style.</span>
     </div>
     <div class="print-hint no-print" id="printHint" role="status" hidden>
-      <b>Nothing opened?</b> Some phone browsers do not support printing from a web page. <b>iPhone:</b> open this page in Safari, tap Share, then Print (or Save to Files as a PDF). <b>Android:</b> open it in Chrome, tap the ⋮ menu, then Share, then Print. Opened it from Facebook, Instagram, or an email? Copy the link and open it in your browser.
+      <p id="printHintGsa" hidden><b>This is the Google app's built-in viewer, and it cannot print.</b> Look for a menu or Share button with an Open in Safari option, or tap Copy link below and paste the link into Safari. Then tap Share, then Print.</p>
+      <p id="printHintGeneric"><b>Nothing opened?</b> Some phone browsers do not support printing from a web page. <b>iPhone:</b> open this page in Safari, tap Share, then Print (or Save to Files as a PDF). <b>Android:</b> open it in Chrome, tap the ⋮ menu, then Share, then Print. Opened it from Facebook, Instagram, or an email? Copy the link and open it in your browser.</p>
       <button type="button" class="btn" id="copyLinkBtn">Copy link</button>
     </div>
     <article class="sheet sh">
@@ -89,7 +90,11 @@ export function county(main, slugName) {
   </div>`;
   // window.print() does nothing in some phone browsers (in-app browsers, some iPhone browsers) and gives no error.
   // The browser fires "beforeprint" when a print dialog really opens, so if it does not fire, say what to do instead.
+  // The Google app on iPhone puts "GSA/" in its user agent and never prints, so it gets its own message right away.
   const printHint = main.querySelector('#printHint');
+  const inGoogleApp = /\bGSA\//.test(navigator.userAgent);
+  main.querySelector('#printHintGsa').hidden = !inGoogleApp;
+  main.querySelector('#printHintGeneric').hidden = inGoogleApp;
   let printTimer;
   main.querySelector('#printBtn').addEventListener('click', () => {
     let opened = false;
@@ -98,7 +103,7 @@ export function county(main, slugName) {
     printHint.hidden = true;
     window.print();
     clearTimeout(printTimer);
-    printTimer = setTimeout(() => { window.removeEventListener('beforeprint', mark); if (!opened) printHint.hidden = false; }, 900);
+    printTimer = setTimeout(() => { window.removeEventListener('beforeprint', mark); if (!opened) printHint.hidden = false; }, inGoogleApp ? 0 : 900);
   });
   main.querySelector('#copyLinkBtn').addEventListener('click', async ev => {
     const btn = ev.currentTarget, link = location.href.split('?')[0] + '#/county/' + c.slug;
