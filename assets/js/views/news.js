@@ -1,6 +1,6 @@
 // News aggregator: headlines gathered by tools/fetch_news.py (data/news.json), grouped into stories.
 import { D } from '../data.js';
-import { esc, MON } from '../lib.js';
+import { esc, safeUrl, MON } from '../lib.js';
 import { readCard, latestRead } from './reads.js';
 
 const when = iso => { const d = new Date(iso); return isNaN(d) ? '' : MON[d.getMonth()] + ' ' + d.getDate(); };
@@ -30,12 +30,12 @@ export function storyHTML(s, { summary = false, tags = true } = {}) {
   const l = s.lead;
   return `<article class="news-item">
     <div class="news-meta"><time datetime="${esc(l.d)}">${esc(when(l.d))}</time><span>${esc(l.source)}</span></div>
-    <h3><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></h3>
+    <h3><a href="${esc(safeUrl(l.url))}" target="_blank" rel="noopener">${esc(l.title)}</a></h3>
     ${summary && l.summary ? `<p class="news-sum">${esc(l.summary)}</p>` : ''}
     <div class="news-foot">
       ${tags && [s.lead, ...s.also].some(i => i.energy) ? `<span class="tag tag-energy" title="Coal, gas, utilities and the grid">Energy</span>` : ''}
       ${tags ? s.projects.map(id => `<a class="tag" href="${D.projLink(id)}">${esc(D.projName(id))}</a>`).join('') : ''}
-      ${s.also.length ? `<details class="news-also"><summary>+${s.also.length} more outlet${s.also.length > 1 ? 's' : ''}</summary>${s.also.map(i => `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}: ${esc(i.title)}</a>`).join('')}</details>` : ''}
+      ${s.also.length ? `<details class="news-also"><summary>+${s.also.length} more outlet${s.also.length > 1 ? 's' : ''}</summary>${s.also.map(i => `<a href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener">${esc(i.source)}: ${esc(i.title)}</a>`).join('')}</details>` : ''}
     </div>
   </article>`;
 }

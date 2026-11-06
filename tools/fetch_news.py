@@ -60,7 +60,8 @@ def clean_url(u):
         q = urllib.parse.parse_qs(p.query).get('url')
         if q: u = q[0]; p = urllib.parse.urlparse(u)
     qs = [(k, v) for k, v in urllib.parse.parse_qsl(p.query) if not k.lower().startswith(('utm_', 'fbclid', 'gclid', 'mc_', 'ref'))]
-    scheme = 'https' if p.scheme in ('http', 'https') else p.scheme
+    if p.scheme.lower() not in ('http', 'https') or not p.netloc: return ''  # feeds are untrusted: never keep javascript:, data:, or relative links
+    scheme = 'https'
     return urllib.parse.urlunparse((scheme, p.netloc.lower(), p.path, '', urllib.parse.urlencode(qs), ''))
 
 def items_of(xml_bytes):
@@ -129,6 +130,7 @@ for src_list, search in ((CFG['feeds'], False), (CFG['searches'], True)):
             blob = it['title'] + ' ' + it['summary']
             if not relevant(blob, f.get('wvOutlet', False)): continue
             url = clean_url(it['url'])
+            if not url: continue
             if any(b in (url + ' ' + blob).lower() for b in BLOCK): continue
             d = it['date'] or now
             if (now - d).days > KEEP_DAYS or d > now + dt.timedelta(days=1): continue

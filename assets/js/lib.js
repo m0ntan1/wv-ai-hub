@@ -1,6 +1,8 @@
 // Shared helpers for WV AI Watch. No dependencies.
 
 export const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// Only http(s) links may reach an href. Data files are edited by people and by automated feeds, so this is the last gate.
+export const safeUrl = u => { try { const p = new URL(String(u ?? ''), 'https://wvaihub.com/'); return (p.protocol === 'https:' || p.protocol === 'http:') ? String(u) : '#'; } catch (e) { return '#'; } };
 export const $ = (sel, root = document) => root.querySelector(sel);
 export const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 export const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -93,7 +95,7 @@ export const BODIES = { courts: 'Courts', psc: 'PSC', dep: 'DEP', legislature: '
 // ---------------------------------------------------------------- bits of markup
 export const vfy = note => note ? `<span class="vfy" title="${esc(note)}" tabindex="0">⚠ Verify</span>` : '';
 export const stamp = (text, tone, big) => `<span class="stamp t-${esc(tone || 'dim')}${big ? ' big' : ''}">${esc(text)}</span>`;
-export const srcLink = (s, extra = '') => `<a class="src" href="${esc(s.url)}" target="_blank" rel="noopener"${extra}>${esc(s.label)} ↗</a>`;
+export const srcLink = (s, extra = '') => `<a class="src" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener"${extra}>${esc(s.label)} ↗</a>`;
 export const srcLinks = list => (list && list.length) ? `<div class="srcs">${list.map(s => srcLink(s)).join('')}</div>` : '';
 export const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
 export const urlSrc = u => u ? { label: hostOf(u), url: u } : null;
