@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:36:43Z",
+ "updated": "2026-11-06T11:04:07Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,34 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "2026-11-06-open-house-held-valley-link-north-project",
+   "d": "2026-11-06T03:49:27Z",
+   "title": "Open house held for Valley Link North project",
+   "url": "https://www.wsaz.com/2026/11/06/open-house-held-valley-link-north-project/",
+   "source": "WSAZ",
+   "summary": "The proposed project is a 260-mile, high-voltage transmission line spanning from the John Amos power plant in Putnam County all the way to Frederick County, Maryland.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "wsaz",
+   "seen": "2026-11-06T11:04:07Z",
+   "story": "nty-landowners-oppose-proposed-valley-link-transmission-line"
+  },
+  {
+   "id": "valley-link-transmission-line-open-house-held-in-sissonville",
+   "d": "2026-11-06T03:37:47Z",
+   "title": "Valley Link transmission line open house held in Sissonville",
+   "url": "https://www.wowktv.com/news/west-virginia/kanawha-county-wv/valley-link-transmission-line-open-house-held-in-sissonville/",
+   "source": "WOWK 13",
+   "summary": "SISSONVILLE, W.Va. (WOWK) — Valley Link hosted another open house at Sissonville Middle School Thursday, giving residents a chance to ask questions and voice concerns about the proposed Valley North transmission line project. The project would run a 250-mile transmission line fro",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "wowk",
+   "seen": "2026-11-06T11:04:07Z",
+   "story": "nty-landowners-oppose-proposed-valley-link-transmission-line"
+  },
   {
    "id": "60-mile-transmission-line-hear-from-kanawha-county-residents",
    "d": "2026-11-06T00:52:11Z",
