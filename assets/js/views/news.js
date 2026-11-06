@@ -33,6 +33,7 @@ export function storyHTML(s, { summary = false, tags = true } = {}) {
     <h3><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></h3>
     ${summary && l.summary ? `<p class="news-sum">${esc(l.summary)}</p>` : ''}
     <div class="news-foot">
+      ${tags && [s.lead, ...s.also].some(i => i.energy) ? `<span class="tag tag-energy" title="Coal, gas, utilities and the grid">Energy</span>` : ''}
       ${tags ? s.projects.map(id => `<a class="tag" href="${D.projLink(id)}">${esc(D.projName(id))}</a>`).join('') : ''}
       ${s.also.length ? `<details class="news-also"><summary>+${s.also.length} more outlet${s.also.length > 1 ? 's' : ''}</summary>${s.also.map(i => `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}: ${esc(i.title)}</a>`).join('')}</details>` : ''}
     </div>
@@ -49,7 +50,7 @@ export function news(main, q) {
     <header style="padding-top:28px">
       <div class="kicker">News · ${all.length} stories</div>
       <h1 class="page-h">In the <em>news</em></h1>
-      <p class="lede">Coverage of West Virginia's data centers, microgrids, and power lines from local papers, TV stations, newsletters, and national outlets. When several outlets cover the same story, it appears once, with the others listed under it.</p>
+      <p class="lede">Coverage of West Virginia's data centers, microgrids, and power lines, and the energy fight behind them (coal and the miners, gas, power plants, utilities and rates; tagged Energy), from local papers, TV stations, newsletters, and national outlets. When several outlets cover the same story, it appears once, with the others listed under it.</p>
       <p class="dim" style="font-size:13.5px;margin-top:10px;max-width:820px">${esc(newsNote())}</p>
     </header>
     <div class="cx-toolbar">

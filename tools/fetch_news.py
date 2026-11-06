@@ -72,7 +72,7 @@ def items_of(xml_bytes):
         get = lambda name: next((c for c in it if c.tag.split('}')[-1] == name), None)
         link = get('link')
         href = (link.get('href') if link is not None and link.get('href') else (link.text if link is not None else '')) or ''
-        src = get('Source')
+        src = get('Source') if get('Source') is not None else get('source')  # Bing: News:Source; Google News: source
         out.append({
             'title': text(get('title').text if get('title') is not None else ''),
             'url': href.strip(),
@@ -84,13 +84,17 @@ def items_of(xml_bytes):
 
 low = lambda s: ' ' + s.lower() + ' '
 MATCH = [m.lower() for m in CFG['match']]
+ENERGY = [m.lower() for m in CFG.get('energyMatch', [])]  # the coal, gas, utility and grid side; those items are tagged "energy"
 COUNTY_NAMES = [c['name'].lower() + ' county' for c in json.loads((ROOT / 'data' / 'geo.json').read_text())['counties']]
 WV = [w.lower() for w in CFG['wv']] + COUNTY_NAMES
 BLOCK = [b.lower() for b in CFG.get('block', [])]
-def relevant(t):
-    """On the beat (a match term) and in West Virginia (a WV term, a county, or a tracked project)."""
+def relevant(t, wv_outlet=False):
+    """On the beat (a match or energy term) and in West Virginia (a WV term, a county, a tracked project,
+    or a search limited to a West Virginia outlet)."""
     s = low(t)
-    return any(m in s for m in MATCH) and (any(w in s for w in WV) or bool(projects_of(t)))
+    return any(m in s for m in MATCH + ENERGY) and (wv_outlet or any(w in s for w in WV) or bool(projects_of(t)))
+def energy_of(t):
+    return any(m in low(t) for m in ENERGY)
 def projects_of(t):
     s = low(t)
     return [pid for pid, words in CFG['projects'].items() if any(w in s for w in words)]
@@ -98,6 +102,7 @@ HOST_NAMES = {f['url'].split('/')[2].replace('www.', ''): f['name'] for f in CFG
 def outlet_for(url, given):
     host = urllib.parse.urlparse(url).netloc.replace('www.', '')
     return HOST_NAMES.get(host) or given or host
+src_is_google = lambda f: 'news.google.com' in f['url']
 norm_title = lambda t: re.sub(r'[^a-z0-9]+', '', t.lower())[:70]
 
 old = json.loads(OUT.read_text()) if OUT.exists() else {'items': []}
@@ -108,14 +113,21 @@ added, report = [], []
 for src_list, search in ((CFG['feeds'], False), (CFG['searches'], True)):
     for f in src_list:
         try:
-            got = items_of(fetch(f['url']))
+            raw = fetch(f['url'])
+            if raw.lstrip()[:15].lower().startswith(b'<!doctype html'):  # Bing now and then serves a web page instead of RSS
+                time.sleep(5); raw = fetch(f['url'])
+            got = items_of(raw)
         except Exception as e:  # one bad feed never stops the run
             report.append(f"FAIL {f['id']}: {type(e).__name__} {str(e)[:80]}"); continue
         kept = 0
         for it in got:
             if not it['title'] or not it['url']: continue
+            if src_is_google(f):  # Google News titles end in " - Outlet", and its summary is just the title again
+                if it['outlet'] and it['title'].endswith(' - ' + it['outlet']): it['title'] = it['title'][:-len(it['outlet']) - 3].strip()
+                it['summary'] = ''
+                if f.get('wvOutlet'): it['outlet'] = f['name']
             blob = it['title'] + ' ' + it['summary']
-            if not relevant(blob): continue
+            if not relevant(blob, f.get('wvOutlet', False)): continue
             url = clean_url(it['url'])
             if any(b in (url + ' ' + blob).lower() for b in BLOCK): continue
             d = it['date'] or now
@@ -125,7 +137,7 @@ for src_list, search in ((CFG['feeds'], False), (CFG['searches'], True)):
             rec = {'id': re.sub(r'[^a-z0-9]+', '-', urllib.parse.urlparse(url).path.lower()).strip('-')[-60:] or nt[:40],
                    'd': d.strftime('%Y-%m-%dT%H:%M:%SZ'), 'title': it['title'], 'url': url,
                    'source': outlet_for(url, it['outlet'] or f['name']), 'summary': it['summary'][:280],
-                   'projects': projects_of(blob), 'via': f['id'], 'seen': now.strftime('%Y-%m-%dT%H:%M:%SZ')}
+                   'projects': projects_of(blob), **({'energy': True} if energy_of(blob) else {}), 'via': f['id'], 'seen': now.strftime('%Y-%m-%dT%H:%M:%SZ')}
             by_url[url] = rec; seen_titles.add(nt); added.append(rec); kept += 1
         report.append(f"ok   {f['id']}: {len(got)} items, {kept} new")
 
@@ -157,7 +169,7 @@ items = cluster(items[:MAX_ITEMS])
 print('\n'.join(report))
 print(f'{len(added)} new, {len(items)} total')
 for a in sorted(added, key=lambda i: i['d'], reverse=True)[:40]:
-    print(f"  + {a['d'][:10]} {a['source'][:22]:22} {a['title'][:90]}  {a['projects']}")
+    print(f"  + {a['d'][:10]} {a['source'][:22]:22} {'E ' if a.get('energy') else '  '}{a['title'][:90]}  {a['projects']}")
 stories = len({i['story'] for i in items})
 print(f'{stories} stories after grouping duplicate coverage')
 gh = __import__('os').environ.get('GITHUB_OUTPUT')

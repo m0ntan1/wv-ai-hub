@@ -31,14 +31,16 @@ The public site says what this process is (`#/desk`). Keep the work matching tha
 
 Look back 24 hours (72 on Monday). In order:
 
-- `data/news.json`: headlines whose `d` falls in the window. These are leads, not facts. A headline is the outlet's claim until you open the article.
+- `data/news.json`: headlines whose `d` falls in the window. These are leads, not facts. A headline is the outlet's claim until you open the article. Items with `"energy": true` are the supply side: coal and the miners, gas, power plants, utilities and rates, PJM and the grid. Read them as closely as the data-center headlines. Links from Google News (`news.google.com`) redirect to the outlet; cite the outlet's own URL, never the Google link.
 - `data/filings.json`: SEC filings with `d` in the window for every roster company (`sec.<id>.filings`), new hits in `search`, and FRED moves (`fred`). 8-K items 2.02 (results), 1.01 (material agreement), 2.03 (new debt), 2.05/2.06 (restructuring, impairment), 3.01 (listing notice), and 4.02 (restatement) matter most.
 - The site's own records: `data/projects.json`, `data/docket.json`, `data/desk.json`, `data/events.json` (what's coming up), and `data/companies.json` (the roster, curated S-1 facts, and health reads).
 - To confirm a fact, open the source: the article, the filing on sec.gov (send the `SEC_USER_AGENT` environment variable as the User-Agent if it is set), the court record, or the PSC docket listing **as linked from the site's data**. Use Firecrawl for pages that block plain fetching, at most 5 calls per shift. Never fetch or scrape psc.state.wv.us.
 
 ## 2. Decide what the day is about
 
-Pick the one thread that matters most to whether these projects get built and who pays if they don't: money (filings, financing, earnings of the companies on the roster), the regulators and courts, the community fight, or the industry signals. Tie the others in only if they belong.
+Pick the one thread that matters most to whether these projects get built and who pays if they don't: money (filings, financing, earnings of the companies on the roster), the regulators and courts, the community fight, **energy supply** (which plants run, on what fuel, and who pays for the power and the lines), or the industry signals. Tie the others in only if they belong.
+
+**Energy is part of this beat, not a side story.** HB 2014 tied data centers to power generation, and its rules set a coal-plant capacity factor (PSC Case 26-0633-E-GI: 69%, now "a goal, not a mandate"). Coal mines, gas supply, plant conversions like Fort Martin, rate cases, and PJM's demand forecasts all decide who carries the cost. These are factions with their own interests. Name them, fairly, by what they said and filed: the coal miners and their union (UMWA), the WV Coal Association, the Gas & Oil Association, the utilities (Mon Power and Potomac Edison, Appalachian Power, Dominion), PJM, large industrial users (WVEUG, the Manufacturers Association), the building trades, the Consumer Advocate and PSC Staff, environmental groups, and the residents. A link between an energy story and a data center is a claim like any other: if the source doesn't make it, say it's your read and show the facts it rests on.
 
 **Length follows the news.** The cap is 850 words. A quiet day gets a short Read (150 to 300 words is fine): what moved, what didn't, and what to watch. Never pad.
 
