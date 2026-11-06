@@ -37,7 +37,7 @@
     "valleylink"
    ],
    "anthropic": false,
-   "audio": null,
+   "audio": "audio/rook/2026-11-06.mp3",
    "mercer": {
     "status": "CLEARED",
     "d": "2026-11-06",
