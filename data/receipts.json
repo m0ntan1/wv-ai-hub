@@ -1,16 +1,16 @@
 {
  "checked": "2026-11-03",
  "summary": {
-  "ok": 196,
+  "ok": 195,
   "psc": 11,
   "verify": 8
  },
  "rows": [
   {
    "sec": "hub:Morgantown",
-   "title": "WVU launches M.S. in Artificial Intelligence.",
+   "title": "WVU offers an online M.S. in Artificial Intelligence.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: removed a launch claim, the Lane Department attribution, and two companion tracks that the cited program page does not mention. Rewritten from the page, which has no publication date.",
    "urls": [
     "https://lcsee.statler.wvu.edu/",
     "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
@@ -21,9 +21,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU launches Strategic Compass seed innovation fund.",
+   "title": "WVU plans a Strategic Compass seed funding initiative.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page says the initiative \"will fully launch later this year\", not that it launched or was unveiled; the priorities list was missing \"experiences\".",
    "urls": [
     "https://wvutoday.wvu.edu/stories/2026/02/20/wvu-to-seed-innovation-in-support-of-strategic-compass"
    ],
@@ -33,9 +33,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "1Mby1M Virtual Accelerator and AI Mentor launches for WV.",
+   "title": "1Mby1M says its virtual accelerator and AI Mentor can serve West Virginia founders.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source is the vendor's own blog post and announces no West Virginia launch.",
    "urls": [
     "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
    ],
@@ -46,9 +46,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "Anurag Srivastava leads WVU cyber-power research.",
+   "title": "Anurag Srivastava leads power and energy systems research at WVU.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the profile does not say he leads \"cyber-power research\" or list cybersecurity as a field, and the $66 million is career-wide project funding from agencies \"such as\" those named.",
    "urls": [
     "https://directory.statler.wvu.edu/faculty-staff-directory/anurag-srivastava"
    ],
@@ -59,9 +59,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "Data Driven WV pairs students with real-world AI work.",
+   "title": "Data Driven WV pairs students with West Virginia organizations.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: removed broadband, faculty teams, \"center\" and AI claims that the cited page does not carry.",
    "urls": [
     "https://wvutoday.wvu.edu/resources/wvu-assistant-professor-helps-students-build-solve-and-create-with-applied-ai-and-data-analytics"
    ],
@@ -71,9 +71,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU BOG approves new AI and Smart Systems tracks.",
+   "title": "WVU Board of Governors approves new program offerings in AI and smart systems.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page says the Board approved the online MS; the concentrations were graduate areas of emphasis, and the dual degrees pair computing with robotics engineering, not mechanical engineering.",
    "urls": [
     "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
    ],
@@ -83,9 +83,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "WVU F1Tenth team takes second nationally.",
+   "title": "WVU's F1Tenth team placed second at an IEEE international competition.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the headline said \"nationally\" and the text said scale cars within the Lane Department; the source says an IEEE international competition and an autonomous car.",
    "urls": [
     "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
    ],
@@ -97,7 +97,7 @@
    "sec": "hub:Morgantown",
    "title": "WVU AI Symposium 2025.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the cited page is a program, not a recap, so the text now lists scheduled talks.",
    "urls": [
     "https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/"
    ],
@@ -107,9 +107,9 @@
   },
   {
    "sec": "hub:Morgantown",
-   "title": "GATC Health expands AI drug discovery.",
+   "title": "West Virginia partners with GATC on AI drug discovery for opioid use disorder.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source describes a new partnership and an approved investment for one drug candidate, not an expansion or multiple treatments.",
    "urls": [
     "https://www.govtech.com/artificial-intelligence/ai-is-the-latest-tool-in-w-va-s-fight-against-opioid-use"
    ],
@@ -119,9 +119,9 @@
   },
   {
    "sec": "hub:Fairmont",
-   "title": "NOAA Fairmont facility deemed mission-critical.",
+   "title": "Foundation CEO: NOAA's Fairmont facility is unlikely to feel federal layoffs.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 while dating the feed: the text said 'federal workforce reductions in 2026' and that the foundation 'confirmed no cuts'. The article (WBOY via Yahoo News, Feb 28, 2025) says the foundation's CEO had not been made aware of any cuts and would be surprised by a disruption. Headline and text rewritten; the source label, which said Times West Virginian, 2026, corrected.",
    "urls": [
     "https://www.yahoo.com/news/foundation-official-noaa-layoffs-unlikely-194833047.html"
    ],
@@ -131,9 +131,9 @@
   },
   {
    "sec": "hub:Fairmont",
-   "title": "NOAA's Rhea supercomputer comes online at NESCC Fairmont.",
+   "title": "NOAA awards $100 million to build Rhea, a new supercomputer for Fairmont.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the headline said Rhea \"comes online\" and the text said it was delivered, with about 30 petaflops. The article says the contract was awarded and Rhea will be installed, adding about eight petaflops.",
    "urls": [
     "https://www.hpcwire.com/off-the-wire/noaa-expands-hpc-capabilities-with-100m-investment-in-rhea-supercomputer/"
    ],
@@ -145,7 +145,7 @@
    "sec": "hub:Fairmont",
    "title": "NASA Katherine Johnson IV&V Facility.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page does not name programs and says \"275+ people\", not employees.",
    "urls": [
     "https://www.nasa.gov/katherine-johnson-ivv-facility/"
    ],
@@ -157,7 +157,7 @@
    "sec": "hub:Fairmont",
    "title": "I-79 Technology Park and NOAA supercomputing.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the article gives a 2022 snapshot and the foundation president's projections, not current facts or a plan to apply AI.",
    "urls": [
     "https://wvexecutive.com/the-future-is-data/"
    ],
@@ -169,7 +169,7 @@
    "sec": "hub:Charleston",
    "title": "Morrisey unveils a 20-year data center plan.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: removed a \"critics say\" sentence and a name that the cited WDTV report does not carry.",
    "urls": [
     "https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsible-data-center-development-plan/"
    ],
@@ -179,9 +179,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "WV Digital Government Summit returns to Charleston.",
+   "title": "WV Digital Government Summit returned to Charleston.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the event page lists the summit as complete; the text no longer reads as upcoming.",
    "urls": [
     "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
    ],
@@ -191,9 +191,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "Morrisey closes 2026 session: 12 vetoes, 10 bills unsigned.",
+   "title": "Morrisey finishes 2026 bills: 12 vetoes, 10 unsigned.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: he finished acting on bills; the Intelligencer does not say he closed the session.",
    "urls": [
     "https://www.theintelligencer.net/news/top-headlines/2026/04/morrisey-finishes-work-on-legislation-with-12-vetoes-10-bills-not-signed/",
     "https://nearbydatacenters.org/wv/"
@@ -206,7 +206,7 @@
    "sec": "hub:Charleston",
    "title": "HB 4983 clears House 78-16: data-center confidentiality.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: removed a \"critics say\" sentence the Gazette-Mail does not contain.",
    "urls": [
     "https://www.wvgazettemail.com/news/legislative_session/wv-house-passes-data-center-enticement-bill-that-would-keep-project-details-hidden/article_d93196ac-1291-4a25-8f34-629ca46f2604.html"
    ],
@@ -216,9 +216,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "Legislature blocks local-control restoration bills.",
+   "title": "Lawmakers reject efforts to restore local control over data centers.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the cited article, written mid-session, describes one stalled Senate bill and one House amendment voted down; it does not say the bills died.",
    "urls": [
     "https://mountainstatespotlight.org/2026/02/25/lawmakers-block-data-center-bills/"
    ],
@@ -229,9 +229,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "State AI Task Force ongoing oversight.",
+   "title": "State AI Task Force works with WVOT on AI policy.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page describes policy development with WVOT, not an assessment of AI's impact on employment, services and economic development.",
    "urls": [
     "https://technology.wv.gov/policy-governance/artificial-intelligence"
    ],
@@ -241,9 +241,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "S.O.LO: WV's first government AI chatbot.",
+   "title": "S.O.LO: Secretary of State calls it the state's first agency AI chatbot.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: \"first\" is the Secretary's own claim in a post he wrote; the source label hid that, and the award is not described as being for a business-registry implementation.",
    "urls": [
     "https://www.bowlesrice.com/views-and-visions/how-ai-is-transforming-government-services-in-wv"
    ],
@@ -253,9 +253,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "WV named among 16 states for OpenAI's Stargate project.",
+   "title": "OpenAI said it was looking at 16 states for Stargate sites, including West Virginia.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source says OpenAI was looking across 16 states, not that West Virginia was on a shortlist, and the $500 billion is the joint venture's eventual ceiling.",
    "urls": [
     "https://fortune.com/2025/02/06/openai-stargate-ai-data-centers-locations-search/"
    ],
@@ -265,9 +265,9 @@
   },
   {
    "sec": "hub:Charleston",
-   "title": "TechConnect WV: 20+ years of tech innovation.",
+   "title": "TechConnect WV: supporting tech startups from the earliest stages.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the 20 years refers to collaboration, research and scientific innovation, and \"industry\" and \"economic development\" are not on the cited page.",
    "urls": [
     "https://techconnectwv.org/"
    ],
@@ -291,7 +291,7 @@
    "sec": "hub:Huntington",
    "title": "Quality Insights gifts $1.2M to Marshall iCenter.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: gALPHA is one cohort per year, not a single cohort.",
    "urls": [
     "https://www.marshall.edu/news/2026/02/quality-insights-gift/"
    ],
@@ -303,7 +303,7 @@
    "sec": "hub:Huntington",
    "title": "Marshall University's AI governance.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page says the work continues through the committees, not that the task force became one, and Coursera access is by license request.",
    "urls": [
     "https://www.marshall.edu/ai/aboutai/",
     "https://www.marshall.edu/ai/training/"
@@ -316,7 +316,7 @@
    "sec": "hub:Huntington",
    "title": "IDEA District and the $45M Institute for Cyber Security.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the page gives an expected completion, not an opening, and the two buildings anchor opposite ends of the district.",
    "urls": [
     "https://www.marshall.edu/news/2025/12/marshall-university-provides-update-on-transformative-idea-district-development/"
    ],
@@ -326,9 +326,9 @@
   },
   {
    "sec": "hub:Huntington",
-   "title": "Marshall and Intuit forge a strategic partnership.",
+   "title": "Marshall and Intuit announce a strategic partnership.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the release describes plans; AI appears only in an Intuit quote about the hub.",
    "urls": [
     "https://www.marshall.edu/news/2025/03/marshall-university-and-intuit-forge-strategic-partnership-to-enhance-education-and-economic-development-in-west-virginia/"
    ],
@@ -352,9 +352,10 @@
    "sec": "hub:Huntington",
    "title": "Generation WV AI workforce panel.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: the text said \"the July 2025 panel\"; July 17 is the date of the recap. The conference was May 8, 2025, in Charleston (Generation WV release added as a source).",
    "urls": [
-    "https://generationwv.org/ai-ready-workforce/"
+    "https://generationwv.org/ai-ready-workforce/",
+    "https://generationwv.org/generation-west-virginia-to-host-workforce-development-conference-on-may-8-in-charleston/"
    ],
    "method": [
     "page"
@@ -362,9 +363,9 @@
   },
   {
    "sec": "hub:Berkeley County",
-   "title": "One year post-HB 2014: transparency and grid-cost concerns surface.",
+   "title": "One year after HB 2014, state approvals show limits on environmental review and transparency.",
    "status": "ok",
-   "note": "",
+   "note": "Source label corrected Nov 5, 2026: the Gazette-Mail article was published May 2, 2026, not April. Corrected Nov 5, 2026: the headline and text described ratepayer, microgrid-backup and air-quality concerns that the article does not contain. Rewritten from the article.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/1-year-post-hb-2014-data-center-environmental-protection-transparency-limits-loom/article_e166f9fb-6ec8-4d1e-945a-5ec010e661bd.html"
    ],
@@ -374,9 +375,9 @@
   },
   {
    "sec": "hub:Berkeley County",
-   "title": "Residents call for protections as data-center buildout accelerates.",
+   "title": "Residents press for data center protections as projects move forward.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the article does not say the buildout is accelerating or discuss grid impact, and \"empty promises\" refers to lawmakers' pledges.",
    "urls": [
     "https://westvirginiawatch.com/2026/03/31/empty-promises-residents-lament-lack-of-protections-as-data-center-developments-unfold-across-wv/"
    ],
@@ -389,7 +390,7 @@
    "sec": "hub:Berkeley County",
    "title": "$4 billion Penzance data center announced.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the figures are for full buildout, the designation is not a completed campus, and \"no state funding\" is the Governor's office's statement.",
    "urls": [
     "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
    ],
@@ -401,10 +402,11 @@
    "sec": "hub:Berkeley County",
    "title": "Nscale takes over Monarch; Anthropic signs on.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: \"phase-one\" and \"now runs\" are not in the cited sources (the S-1 calls it a prospective site); the DEP notice was added for the air-review status.",
    "urls": [
     "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"
+    "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html",
+    "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    ],
    "method": [
     "page"
@@ -414,7 +416,7 @@
    "sec": "hub:Berkeley County",
    "title": "HB 2014: Certified Microgrid Program.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the cited page is a bill-status page; the data center permitting and \"Data Center Alley\" claims are not on it.",
    "urls": [
     "https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill"
    ],
@@ -426,7 +428,7 @@
    "sec": "hub:Berkeley County",
    "title": "Microgrid revenue reinvestment.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the release says \"the microgrid legislation\" and uses the future tense; it does not name HB 2014 as the source of the split.",
    "urls": [
     "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact"
    ],
@@ -438,7 +440,7 @@
    "sec": "hub:Berkeley County",
    "title": "Berkeley County asks the AG how HB 2014 preemption works. The AG declines.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: MetroNews does not say the letter was about the Penzance site.",
    "urls": [
     "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
    ],
@@ -461,21 +463,9 @@
   },
   {
    "sec": "hub:Wheeling",
-   "title": "WV Digital Government Summit, Wheeling participation.",
+   "title": "Wheeling named among cities emerging with IT-enabled services ventures.",
    "status": "ok",
-   "note": "",
-   "urls": [
-    "https://events.govtech.com/West-Virginia-Digital-Government-Summit"
-   ],
-   "method": [
-    "page"
-   ]
-  },
-  {
-   "sec": "hub:Wheeling",
-   "title": "Emerging IT-enabled services hub.",
-   "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source is the vendor founder's promotional post and names no Wheeling startup.",
    "urls": [
     "https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/"
    ],
@@ -486,11 +476,12 @@
   },
   {
    "sec": "hub:Weirton",
-   "title": "Form Energy lands $1B Google deal.",
+   "title": "Form Energy reportedly lands $1B battery deal for Google data center.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the $1 billion is a report, the system is planned and still needs approval, and \"first commercial deployment\" was not in the cited source (WTRF added).",
    "urls": [
-    "https://techstartups.com/2026/02/26/form-energy-lands-1b-google-deal-for-100-hour-iron-air-battery-eyes-ipo/"
+    "https://techstartups.com/2026/02/26/form-energy-lands-1b-google-deal-for-100-hour-iron-air-battery-eyes-ipo/",
+    "https://www.wtrf.com/top-stories/form-energy-in-weirton-to-build-batteries-for-largest-energy-storage-project-announced/"
    ],
    "method": [
     "page"
@@ -511,9 +502,9 @@
   },
   {
    "sec": "hub:Princeton",
-   "title": "State guidance brings AI into classrooms.",
+   "title": "State education department moves to bring AI tools into classrooms.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source describes plans and the existence of a guidance document, not schools adopting AI tools.",
    "urls": [
     "https://www.wvva.com/2026/03/02/west-virginia-department-education-moves-integrate-ai-tools-classrooms/"
    ],
@@ -523,9 +514,9 @@
   },
   {
    "sec": "hub:Princeton",
-   "title": "Mercer County trains teachers on AI.",
+   "title": "Mercer County teachers attend AI assembly.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source describes an assembly, not a training session on tools.",
    "urls": [
     "https://www.wvva.com/2026/08/17/mercer-county-schools-trains-teachers-ai-back-to-school-assembly/"
    ],
@@ -535,9 +526,9 @@
   },
   {
    "sec": "hub:Beckley",
-   "title": "WVU Tech hosts Governor's Computer Science Institute.",
+   "title": "WVU Tech to host Governor's Computer Science Institute.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the source (Oct 2025) is a plan; no source shows a session has run.",
    "urls": [
     "https://www.wvutech.edu/news/2025/10/29/wvu-tech-to-host-governor-s-computer-science-institute-for-next-three-years"
    ],
@@ -547,9 +538,9 @@
   },
   {
    "sec": "hub:Beckley",
-   "title": "WVU Tech President joins national AI Leadership Council.",
+   "title": "WVU Tech president joins RNL's AI Leadership Council.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the \"pipeline for AI professionals\" line is from a different page and about another program.",
    "urls": [
     "https://www.wvutech.edu/news/fall-2024/09/06/wvu-tech-president-t-ramon-stuart-ph-d-appointed-to-rnl-s-ai-leadership-council"
    ],
@@ -584,9 +575,9 @@
   },
   {
    "sec": "hub:Tucker County",
-   "title": "Ridgeline appeals tossed on jurisdiction; groups vow to refile.",
+   "title": "Appeals court dismisses Ridgeline permit appeals on jurisdiction; groups can take them to the state Supreme Court.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026: removed a February Air Quality Board date and an Oct 31 NPR item that the cited article does not contain, and \"vow to refile\", which the article does not say. Rewritten from the article.",
    "urls": [
     "https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environmental-groups-lawsuits-over-tucker-county-data-center-plant/"
    ],
@@ -596,9 +587,9 @@
   },
   {
    "sec": "hub:Tucker County",
-   "title": "Harvard study projects $19M to $35M in health damages.",
+   "title": "Report projects $19M to $35M in health damages from the Ridgeline project in Tucker County.",
    "status": "ok",
-   "note": "",
+   "note": "Corrected Nov 5, 2026 after a text-against-source check: the article does not call it a Harvard study and says Tucker United commissioned it.",
    "urls": [
     "https://www.wvgazettemail.com/news/energy_and_environment/new-report-projects-up-to-35m-in-health-damages-from-expected-tucker-co-data-center/article_0e44b758-b9d7-4040-92fa-ddf7db274333.html"
    ],
@@ -2580,7 +2571,7 @@
    "sec": "hub:Morgantown",
    "title": "WVU leads a $321 million energy and AI engine, with up to $160 million from NSF.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. The jobs, startup, and growth figures are projections in WVU's release, not results. NSF's share is up to $160 million of the $321 million.",
+   "note": "Added and checked Nov 4, 2026. The jobs, startup, and growth figures are projections in WVU's release, not results. NSF's share is up to $160 million of the $321 million. Corrected Nov 5, 2026 after a text-against-source check: that sentence is a quote from an NSF official, not the release's own voice; attributed.",
    "urls": [
     "https://wvutoday.wvu.edu/stories/2026/07/14/powering-up-economies-wvu-with-pitt-and-carnegie-mellon-will-recharge-energy-security-and-resilience-with-320m-for-new-technology-ai-infrastructure-and-jobs"
    ],
@@ -2616,7 +2607,7 @@
    "sec": "hub:Charleston",
    "title": "West Virginia is building a statewide AI training model for teachers.",
    "status": "ok",
-   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: the AI Mountaineers are the local leaders, and the specialists support them; the model is a plan still being implemented. The train-the-trainer model, AI Mountaineers, levels, and implementation status come from SREB's account only; the Superintendent's testimony confirms PAiNT and ongoing professional development. No teacher count or start date.",
+   "note": "Added and checked Nov 4, 2026. Corrected Nov 4 after audit: the AI Mountaineers are the local leaders, and the specialists support them; the model is a plan still being implemented. The train-the-trainer model, AI Mountaineers, levels, and implementation status come from SREB's account only; the Superintendent's testimony confirms PAiNT and ongoing professional development. No teacher count or start date. Corrected Nov 5, 2026 after a text-against-source check: the source is written testimony submitted for the record, not testimony she delivered.",
    "urls": [
     "https://www.sreb.org/blog-post/how-west-virginia-turning-ai-training-classroom-practice",
     "https://edworkforce.house.gov/uploadedfiles/michele_blatt_testimony_final.pdf"

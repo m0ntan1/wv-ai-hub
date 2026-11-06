@@ -27,5 +27,45 @@
    "v": "{events}",
    "l": "public dates on the calendar, with addresses where we have them"
   }
+ ],
+ "hubTopics": [
+  {
+   "id": "research",
+   "label": "Research"
+  },
+  {
+   "id": "classrooms",
+   "label": "Classrooms and training"
+  },
+  {
+   "id": "startups",
+   "label": "Startups and business"
+  },
+  {
+   "id": "jobs",
+   "label": "Jobs"
+  },
+  {
+   "id": "grants",
+   "label": "Grants and funding"
+  },
+  {
+   "id": "energy",
+   "label": "Energy and compute"
+  },
+  {
+   "id": "public",
+   "label": "Public safety and government"
+  }
+ ],
+ "hubRegions": [
+  "North Central",
+  "Northern Panhandle",
+  "Eastern Panhandle",
+  "Allegheny Highlands",
+  "Mid-Ohio Valley",
+  "Kanawha Valley",
+  "Southwestern",
+  "Southern"
  ]
 }

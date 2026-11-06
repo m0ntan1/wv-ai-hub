@@ -7,7 +7,8 @@ import { docket } from './views/docket.js';
 import { calendar } from './views/calendar.js';
 import { people } from './views/people.js';
 import { counties, county } from './views/county.js';
-import { projectsIndex, mapPage, hubs, receipts, notFound } from './views/misc.js';
+import { projectsIndex, mapPage, receipts, notFound } from './views/misc.js';
+import { hubs } from './views/hubs.js';
 import { contact } from './views/contact.js';
 import { news } from './views/news.js';
 import { money, company } from './views/money.js';
@@ -55,7 +56,7 @@ function render() {
     case 'people': title = people(main, r.q); break;
     case 'counties': title = counties(main); break;
     case 'county': title = county(main, b); break;
-    case 'hubs': title = hubs(main); break;
+    case 'hubs': title = hubs(main, r.q); break;
     case 'receipts': title = receipts(main, r.q); break;
     case 'contact': title = contact(main, r.q); break;
     case 'news': title = news(main, r.q); break;

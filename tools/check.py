@@ -169,8 +169,42 @@ deg = {n: 0 for n in nids}
 for e in NET['edges']: deg[e['a']] += 1; deg[e['b']] += 1
 for n, d in deg.items():
     if d == 0: warn(f'network/{n}: node has no connections')
+# Hubs feed: every story carries a date (or says why not), a place, a county where there is one, a region, and topics from the published list.
+TOPIC_IDS = {t['id'] for t in META.get('hubTopics', [])}
+REGIONS = set(META.get('hubRegions', [])) | {'Statewide'}
+if not TOPIC_IDS or len(REGIONS) < 2: err('meta.json: hubTopics and hubRegions are required for the Hubs feed')
+HUB_IDS = {h['id'] for h in HUBS}
+try: RECEIPT_HUB_TITLES = {r['title'] for r in json.loads((ROOT / 'data' / 'receipts.json').read_text())['rows'] if r['sec'].startswith('hub:')}
+except Exception as ex: RECEIPT_HUB_TITLES = None; err(f'data/receipts.json: cannot parse ({ex})')
+hub_titles = set()
 for h in HUBS:
-    for s in h['stories']: sources_ok(s.get('sources'), f"hubs/{h['id']}/{s['title'][:40]}")
+    hw = f"hubs/{h['id']}"
+    for k in ('label', 'region', 'county'):
+        if not h.get(k): err(f'{hw}: missing {k}')
+    if h.get('region') not in REGIONS: err(f"{hw}: unknown region {h.get('region')!r}")
+    if h.get('county') not in COUNTIES: err(f"{hw}: unknown county {h.get('county')!r}")
+    for s in h['stories']:
+        w = f"{hw}/{s['title'][:40]}"
+        sources_ok(s.get('sources'), w)
+        if s['title'] in hub_titles: err(f'{w}: duplicate story title (Receipts rows are matched by title)')
+        hub_titles.add(s['title'])
+        if RECEIPT_HUB_TITLES is not None and s['title'] not in RECEIPT_HUB_TITLES: err(f'{w}: no Receipts row with this title (a story without a check is not allowed; if you changed a title, change the row)')
+        d = s.get('d')
+        if d:
+            if is_date(d, w) and as_day(d) > TODAY: err(f'{w}: date {d} is in the future')
+        elif not s.get('dnote'): err(f'{w}: no date and no dnote (say why the story is undated, for example an organization profile)')
+        pl, co, rg, tp = s.get('place'), s.get('county'), s.get('region'), s.get('topics') or []
+        if pl is not None and pl != 'statewide' and pl not in HUB_IDS: err(f'{w}: unknown place {pl!r} (a hub id, "statewide", or null)')
+        if co is not None and co not in COUNTIES: err(f'{w}: unknown county {co!r}')
+        if rg not in REGIONS: err(f'{w}: unknown region {rg!r}')
+        if pl == 'statewide' and (rg != 'Statewide' or co): err(f'{w}: a statewide story has region "Statewide" and no county')
+        elif pl in HUB_IDS and rg != next(x['region'] for x in HUBS if x['id'] == pl): err(f'{w}: region {rg!r} does not match the hub {pl!r}')
+        elif pl is None and not co: err(f'{w}: a story with no place needs a county')
+        elif pl in HUB_IDS and co and co != next(x['county'] for x in HUBS if x['id'] == pl): warn(f"{w}: county {co} differs from hub {pl}'s county; fine if the story is about that county")
+        if not tp: err(f'{w}: no topics')
+        for x in tp:
+            if x not in TOPIC_IDS: err(f'{w}: unknown topic {x!r} (see meta.json hubTopics)')
+        if len(set(tp)) != len(tp): err(f'{w}: duplicate topics')
 for x in DESK:
     is_date(x.get('d'), 'desk')
     if not x.get('src', '').startswith('http'): err(f"desk/{x.get('d')}: missing source")
