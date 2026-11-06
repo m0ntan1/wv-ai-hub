@@ -1,0 +1,9 @@
+# Netlify response headers. Hardening that cannot break the static site.
+# A Content-Security-Policy is deliberately not set yet: index.html has inline scripts (theme boot, JSON-LD).
+# See docs/SECURITY-SCAN-2026-11-06.md, finding M2, for the plan to add one.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=31536000

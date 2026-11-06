@@ -39,11 +39,14 @@ jobs:
         run: python3 -I tools/fetch_filings.py
       - run: python3 -I tools/check.py
       - name: Commit if anything changed
+        env:
+          NEW_NEWS: ${{ steps.fetch.outputs.new || 0 }}
+          NEW_FILINGS: ${{ steps.filings.outputs.new || 0 }}
         run: |
           if git diff --quiet -- data/news.json data/filings.json; then echo "Nothing new."; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news.json data/filings.json
-          git commit -m "News: ${{ steps.fetch.outputs.new || 0 }} new headline(s), ${{ steps.filings.outputs.new || 0 }} new filing(s) [automated]"
+          git commit -m "News: ${NEW_NEWS} new headline(s), ${NEW_FILINGS} new filing(s) [automated]"
           git pull --rebase origin main
           git push origin HEAD:main

@@ -2,6 +2,8 @@
 # A failing check means data/ has an error (missing source, bad date, broken reference). See docs/update-plan.md.
 name: check-data
 on: [push, pull_request]
+permissions:
+  contents: read   # least privilege: this job only reads the repo
 jobs:
   check:
     runs-on: ubuntu-latest

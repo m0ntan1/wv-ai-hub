@@ -53,14 +53,20 @@ def parse_date(s):
     if d.tzinfo is None: d = d.replace(tzinfo=dt.timezone.utc)
     return d.astimezone(dt.timezone.utc)
 
+def host_is(host, domain):
+    """True for the domain itself or a subdomain of it. A substring test would also accept evilbing.com."""
+    host = (host or '').lower()
+    return host == domain or host.endswith('.' + domain)
+
 def clean_url(u):
     """Unwrap Bing redirect links and drop tracking parameters, so links go straight to the publisher."""
     p = urllib.parse.urlparse(u)
-    if 'bing.com' in p.netloc and 'apiclick' in p.path:
+    if host_is(p.hostname, 'bing.com') and 'apiclick' in p.path:
         q = urllib.parse.parse_qs(p.query).get('url')
         if q: u = q[0]; p = urllib.parse.urlparse(u)
     qs = [(k, v) for k, v in urllib.parse.parse_qsl(p.query) if not k.lower().startswith(('utm_', 'fbclid', 'gclid', 'mc_', 'ref'))]
-    scheme = 'https' if p.scheme in ('http', 'https') else p.scheme
+    if p.scheme.lower() not in ('http', 'https') or not p.netloc: return ''  # feeds are untrusted: never keep javascript:, data:, or relative links
+    scheme = 'https'
     return urllib.parse.urlunparse((scheme, p.netloc.lower(), p.path, '', urllib.parse.urlencode(qs), ''))
 
 def items_of(xml_bytes):
@@ -102,7 +108,7 @@ HOST_NAMES = {f['url'].split('/')[2].replace('www.', ''): f['name'] for f in CFG
 def outlet_for(url, given):
     host = urllib.parse.urlparse(url).netloc.replace('www.', '')
     return HOST_NAMES.get(host) or given or host
-src_is_google = lambda f: 'news.google.com' in f['url']
+src_is_google = lambda f: urllib.parse.urlparse(f['url']).hostname == 'news.google.com'
 norm_title = lambda t: re.sub(r'[^a-z0-9]+', '', t.lower())[:70]
 
 old = json.loads(OUT.read_text()) if OUT.exists() else {'items': []}
@@ -129,6 +135,7 @@ for src_list, search in ((CFG['feeds'], False), (CFG['searches'], True)):
             blob = it['title'] + ' ' + it['summary']
             if not relevant(blob, f.get('wvOutlet', False)): continue
             url = clean_url(it['url'])
+            if not url: continue
             if any(b in (url + ' ' + blob).lower() for b in BLOCK): continue
             d = it['date'] or now
             if (now - d).days > KEEP_DAYS or d > now + dt.timedelta(days=1): continue
