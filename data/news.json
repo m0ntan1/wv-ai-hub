@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:04:00Z",
+ "updated": "2026-11-06T01:36:43Z",
  "sources": [
   "Bing News search",
   "Charleston Gazette-Mail",
@@ -21,6 +21,32 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "60-mile-transmission-line-hear-from-kanawha-county-residents",
+   "d": "2026-11-06T00:52:11Z",
+   "title": "Developers continue second round of open houses on Valley North 260-mile transmission line, hear from Kanawha County residents",
+   "url": "https://wvmetronews.com/2026/11/05/developers-continue-second-round-of-open-houses-on-valley-north-260-mile-transmission-line-hear-from-kanawha-county-residents/",
+   "source": "WV MetroNews",
+   "summary": "Valley Link hosted an open house at Sissonville Middle School on Thursday night. The post Developers continue second round of open houses on Valley North 260-mile transmission line, hear from Kanawha County residents appeared first on WV MetroNews .",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "metronews",
+   "seen": "2026-11-06T01:36:43Z",
+   "story": "60-mile-transmission-line-hear-from-kanawha-county-residents"
+  },
+  {
+   "id": "2026-11-05-how-west-virginia-democrats-won",
+   "d": "2026-11-05T21:45:13Z",
+   "title": "Anger over data centers, insurance and education helped these Democrats win seats in West Virginia",
+   "url": "https://mountainstatespotlight.org/2026/11/05/how-west-virginia-democrats-won/",
+   "source": "Mountain State Spotlight",
+   "summary": "Democrats chipped away at the Republican majority gaining 12 seats in the House and 2 in the Senate. Anger over data centers, insurance and education helped these Democrats win seats in West Virginia appeared first on Mountain State Spotlight , West Virginia's civic newsroom.",
+   "projects": [],
+   "via": "spotlight",
+   "seen": "2026-11-06T01:36:43Z",
+   "story": "2026-11-05-how-west-virginia-democrats-won"
+  },
   {
    "id": "nvidia-credit-guarantees-nscale-west-virginia",
    "d": "2026-11-05T11:53:00Z",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T20:06:17Z",
+ "updated": "2026-11-06T01:39:30Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -33,6 +33,17 @@
     "Nasdaq"
    ],
    "filings": [
+    {
+     "form": "8-K",
+     "d": "2026-11-05",
+     "accn": "0001193125-26-449835",
+     "doc": "d174184d8k.htm",
+     "period": "2026-11-05",
+     "items": [
+      "8.01",
+      "9.01"
+     ]
+    },
     {
      "form": "10-Q",
      "d": "2026-10-29",
@@ -149,13 +160,6 @@
       "8.01",
       "9.01"
      ]
-    },
-    {
-     "form": "10-Q",
-     "d": "2026-04-30",
-     "accn": "0001652044-26-000048",
-     "doc": "goog-20260331.htm",
-     "period": "2026-03-31"
     }
    ],
    "factsFrom": "0001652044-26-000084",
@@ -649,7 +653,6 @@
      ]
     }
    ],
-   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1009,7 +1012,8 @@
      "filed": "2026-04-28"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0001031296-26-000144",
+   "factsChecked": "2026-11-06"
   },
   "aep": {
    "cik": "0000004904",
@@ -1136,7 +1140,6 @@
      ]
     }
    ],
-   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1481,7 +1484,8 @@
      "filed": "2026-05-05"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0000004904-26-000072",
+   "factsChecked": "2026-11-06"
   },
   "nextera": {
    "cik": "0000753308",
@@ -1505,6 +1509,17 @@
     "NYSE"
    ],
    "filings": [
+    {
+     "form": "8-K",
+     "d": "2026-11-05",
+     "accn": "0000753308-26-000084",
+     "doc": "nee-20261105.htm",
+     "period": "2026-11-05",
+     "items": [
+      "8.01",
+      "9.01"
+     ]
+    },
     {
      "form": "10-Q",
      "d": "2026-10-21",
@@ -1615,20 +1630,8 @@
       "8.01",
       "9.01"
      ]
-    },
-    {
-     "form": "8-K",
-     "d": "2026-06-15",
-     "accn": "0000753308-26-000046",
-     "doc": "nee-20260615.htm",
-     "period": "2026-06-15",
-     "items": [
-      "8.01",
-      "9.01"
-     ]
     }
    ],
-   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1873,7 +1876,8 @@
      "filed": "2026-04-23"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0000753308-26-000081",
+   "factsChecked": "2026-11-06"
   },
   "dominion": {
    "cik": "0000715957",
@@ -2007,7 +2011,6 @@
      ]
     }
    ],
-   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2248,7 +2251,8 @@
      "filed": "2026-05-01"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0001193125-26-440697",
+   "factsChecked": "2026-11-06"
   },
   "anthropic": {
    "cik": "0002130357",
@@ -3885,7 +3889,6 @@
      ]
     }
    ],
-   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4247,7 +4250,8 @@
      "filed": "2026-05-07"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0001711269-26-000117",
+   "factsChecked": "2026-11-06"
   },
   "amazon": {
    "cik": "0001018724",
@@ -4753,6 +4757,17 @@
    "filings": [
     {
      "form": "8-K",
+     "d": "2026-11-05",
+     "accn": "0001193125-26-450074",
+     "doc": "d166273d8k.htm",
+     "period": "2026-11-03",
+     "items": [
+      "8.01",
+      "9.01"
+     ]
+    },
+    {
+     "form": "8-K",
      "d": "2026-10-29",
      "accn": "0001193125-26-438017",
      "doc": "d183592d8k.htm",
@@ -4857,13 +4872,6 @@
      "items": [
       "5.02"
      ]
-    },
-    {
-     "form": "10-K",
-     "d": "2026-01-29",
-     "accn": "0001628280-26-003942",
-     "doc": "meta-20251231.htm",
-     "period": "2025-12-31"
     }
    ],
    "factsFrom": "0001628280-26-066773",
@@ -6333,6 +6341,7 @@
      ]
     }
    ],
+   "factsFrom": "0000026172-26-000037",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -6644,7 +6653,6 @@
      "filed": "2026-11-05"
     }
    },
-   "factsFrom": "0000026172-26-000037",
    "factsChecked": "2026-11-05"
   },
   "eaton": {
@@ -10247,7 +10255,6 @@
      ]
     }
    ],
-   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10610,7 +10617,8 @@
      "filed": "2026-08-03"
     }
    },
-   "factsChecked": "2026-11-05"
+   "factsFrom": "0000107263-26-000036",
+   "factsChecked": "2026-11-06"
   },
   "nucor": {
    "cik": "0000073309",
@@ -11516,7 +11524,7 @@
   },
   "DFF": {
    "last": {
-    "d": "2026-11-03",
+    "d": "2026-11-04",
     "v": 3.88
    },
    "monthly": [
@@ -11622,14 +11630,14 @@
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-03",
+    "d": "2025-11-04",
     "v": 3.87
    }
   },
   "DGS10": {
    "last": {
-    "d": "2026-11-03",
-    "v": 4.95
+    "d": "2026-11-04",
+    "v": 4.9
    },
    "monthly": [
     [
@@ -11730,12 +11738,12 @@
     ],
     [
      "2026-11",
-     4.93
+     4.92
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-03",
-    "v": 4.13
+    "d": "2025-11-04",
+    "v": 4.1
    }
   }
  }
