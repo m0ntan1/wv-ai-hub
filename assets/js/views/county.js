@@ -1,5 +1,5 @@
 import { D } from '../data.js';
-import { esc, fmtDate, timeRange, plural, srcLink, vfy, toDate, ymd } from '../lib.js';
+import { esc, plainText, fmtDate, timeRange, plural, srcLink, vfy, toDate, ymd } from '../lib.js';
 import { mountMap } from '../map.js';
 import { statusStamp } from '../parts.js';
 
@@ -68,7 +68,7 @@ export function county(main, slugName) {
             <p><b>Latest (${esc(p.latest.d)}):</b> ${esc(p.latest.t)}</p></div>`).join('')}` : ''}
           ${lines.length ? `<h3 style="margin-top:20px">Transmission lines</h3>${lines.map(l => `<div class="sh-proj"><h4>${esc(l.name)}</h4><p>${esc(l.note)}</p></div>`).join('')}` : ''}
           ${!projs.length && !lines.length ? '<h3 style="margin-top:20px">On the record</h3><p class="dim">No mapped project here. This county is on the calendar for the dates listed on this sheet.</p>' : ''}
-          ${who.length ? `<h3 style="margin-top:6px">Who to know</h3><p style="font-size:13px;line-height:1.55">${who.map(x => `<b>${esc(x.name)}</b> <span class="dim">${esc(x.role.replace(/<[^>]+>/g, '').replace(/\s*\.$/, ''))}</span>`).join(' · ')}</p>` : ''}
+          ${who.length ? `<h3 style="margin-top:6px">Who to know</h3><p style="font-size:13px;line-height:1.55">${who.map(x => `<b>${esc(x.name)}</b> <span class="dim">${esc(plainText(x.role).replace(/\s*\.$/, ''))}</span>`).join(' · ')}</p>` : ''}
         </div>
         <div>
           <div class="sh-box" style="margin-top:20px">

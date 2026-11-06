@@ -1,7 +1,7 @@
 // The Money Desk: who is paying for West Virginia's AI buildout, and how healthy they are.
 // Roster: data/companies.json (hand-curated). Filings and figures: data/filings.json (tools/fetch_filings.py).
 import { D } from '../data.js';
-import { esc, fmtDate, MON, srcLink, srcLinks, vfy, stamp, plural } from '../lib.js';
+import { esc, hostIs, fmtDate, MON, srcLink, srcLinks, vfy, stamp, plural } from '../lib.js';
 import { chartBox, mountCharts, fmtVal } from '../charts.js';
 import { stories, storyHTML } from './news.js';
 import { readCard } from './reads.js';
@@ -293,7 +293,7 @@ export function company(main, id) {
           ${kids.length ? `<p class="dim" style="margin-top:10px">Owns ${kids.map(k => `<a href="#/company/${esc(k.id)}">${esc(k.name)}</a>`).join(', ')}.</p>` : ''}
         </section>
         ${c.facts ? `<section class="cf-sec" id="s-facts"><div class="sec-h">From the filing</div><p class="dim" style="font-size:13.5px;margin-bottom:6px">${esc(c.factsAsOf)}</p>
-          <dl class="facts">${c.facts.map(f => `<div><dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd></div>`).join('')}</dl>${srcLinks(c.sources.filter(s => s.url.includes('sec.gov')))}</section>` : ''}
+          <dl class="facts">${c.facts.map(f => `<div><dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd></div>`).join('')}</dl>${srcLinks(c.sources.filter(s => hostIs(s.url, 'sec.gov')))}</section>` : ''}
         ${metricsHTML(c)}
         ${c.unknown ? `<section class="cf-sec"><div class="redact-block"><div class="lbl">What isn't public</div><p>${esc(c.unknown)}</p>${c.irUrl ? `<div class="srcs">${srcLink({ label: 'Investor relations', url: c.irUrl })}</div>` : ''}</div></section>` : ''}
         ${c.risks ? `<section class="cf-sec"><div class="sec-h">Risks the filing names</div><ul class="bul">${c.risks.map(x => `<li>${esc(x)}</li>`).join('')}</ul><p class="dim" style="font-size:12.5px">Paraphrased from the filing's own risk factors; not a complete list.</p></section>` : ''}
