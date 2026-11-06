@@ -1,12 +1,10 @@
 {
- "updated": "2026-11-06T11:04:07Z",
+ "updated": "2026-11-06T15:12:47Z",
  "sources": [
   "Bing News search",
-  "Charleston Gazette-Mail",
   "Country Roads News",
   "Mountain State Spotlight",
   "The Dominion Post",
-  "The Herald-Dispatch",
   "The Observer",
   "Valley North Record",
   "WBOY 12",
@@ -74,6 +72,32 @@
    "via": "spotlight",
    "seen": "2026-11-06T01:36:43Z",
    "story": "2026-11-05-how-west-virginia-democrats-won"
+  },
+  {
+   "id": "tucker-tucker-county-coal-mine-to-restart-operations-in-2027",
+   "d": "2026-11-05T20:49:15Z",
+   "title": "Tucker County coal mine to restart operations in 2027",
+   "url": "https://www.wboy.com/news/tucker/tucker-county-coal-mine-to-restart-operations-in-2027/",
+   "source": "WBOY 12",
+   "summary": "The operators of the Mettiki coal mine near Davis in Tucker County will restart operations next year, according to the CEO of Alliance Partners, the mine's operator.",
+   "projects": [],
+   "energy": true,
+   "via": "wboy",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "tucker-tucker-county-coal-mine-to-restart-operations-in-2027"
+  },
+  {
+   "id": "erconnection-prepared-for-winter-demand-even-as-demand-grows",
+   "d": "2026-11-05T20:15:13Z",
+   "title": "PJM Interconnection prepared for winter demand – even as demand grows",
+   "url": "https://www.dominionpost.com/2026/11/05/pjm-interconnection-prepared-for-winter-demand-even-as-demand-grows/",
+   "source": "The Dominion Post",
+   "summary": "MORGANTOWN – Regional electric grid operator PJM Interconnection said Thursday it’s ready for winter. It expects to have sufficient resources to meet demand under expected conditions, it said. But reserve margins continue to tighten as demand outpaces new power supplies. Reliable",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "erconnection-prepared-for-winter-demand-even-as-demand-grows"
   },
   {
    "id": "nvidia-credit-guarantees-nscale-west-virginia",
@@ -172,6 +196,19 @@
    "story": "ine-pushed-article-308235f2-791f-4317-8c2f-580c8aa21d56-html"
   },
   {
+   "id": "dzzntgcxthlvodnswud4cmrsclyxrfjwzhjlakpqm0vwn3f2q2uybdlyywcw",
+   "d": "2026-11-03T12:51:00Z",
+   "title": "New supply contract prompts restart of idled West Virginia coal mine",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSzFleFo2Y2pXQjc2ZW43cjlIV25XUW92OUJQZWg2NThwWkE5dkhNXzBjd205UHNJQkJSaWVxcmxzblhjVTdJQ3hicG9mY0ZRQTRBeloxQmVJYU0tb3JPaUVOcG9nM1plT08tZVBQb2xiU3VtQnIxdGg5UkpPVmIyc2xzalBQb2RpenBDUjBBMXo0UVA2bmxTN04wUHdDZU5JNzd6RUlxU19Yb0FJSG1oNzFPSlZHLUtNaDlEdzZNTGcxTHlVODNSWUd4cmRsclYxRFJWZHJlakpqM0VWN3F2Q2UybDlyYWcw?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "tucker-tucker-county-coal-mine-to-restart-operations-in-2027"
+  },
+  {
    "id": "nty-landowners-oppose-proposed-valley-link-transmission-line",
    "d": "2026-11-03T01:06:54Z",
    "title": "Barbour County landowners oppose proposed Valley Link transmission line",
@@ -198,6 +235,34 @@
    "via": "wboy",
    "seen": "2026-11-03T13:03:33Z",
    "story": "our-protesters-in-barbour-county-gather-to-block-valley-link"
+  },
+  {
+   "id": "against-west-virginia-coal-safety-officials-over-silica-dust",
+   "d": "2026-11-02T18:06:49Z",
+   "title": "Miners file case against West Virginia coal safety officials over silica dust",
+   "url": "https://westvirginiawatch.com/2026/11/02/miners-file-case-against-west-virginia-coal-safety-officials-over-silica-dust/",
+   "source": "West Virginia Watch",
+   "summary": "The United Mine Workers of America and 52 miners have filed a lawsuit against the state Board of Coal Mine Health and Safety, asking it pass a limit on the amount of silica dust being produced in coal mines.",
+   "projects": [],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "against-west-virginia-coal-safety-officials-over-silica-dust"
+  },
+  {
+   "id": "94qllmnkxoujczdhgyvnpvykvfrth0vtlqotjjm0d0lvj5bdljlw5fmzkteq",
+   "d": "2026-11-02T14:15:00Z",
+   "title": "WV PSC wraps up MARL transmission line hearings early; decision expected in March",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZEVmb2xIYjJ3QU9QRzdrQXQzZVFCeEJWc0gybmVKUlZuZjh1Q3QycHg4dUU3VGduWG5nNGpFQ3RqN0tOWlpZSkdodW1DeVN0V3o2VFM5Y3ZXOFliRW5fSml4ZlVsLVE4eXM2SmxuU2ZETVYyZ01iOTY2em5Ualk1TWpxSGdkYUllVWFLVE05dTJSWGVjSlU4b1dVMkNLZ0ozOHhVemEzclpFYS1KMnFoRXJCZjJOM2NZaTJPUFBYLUNETGtDZFd6WFN4Ql94QllMNkxOUjczdHgyVnpVYkVFRTh0VTlQOTJJM0d0LVJ5bDlJLW5FMzkteQ?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "94qllmnkxoujczdhgyvnpvykvfrth0vtlqotjjm0d0lvj5bdljlw5fmzkteq"
   },
   {
    "id": "-nscales-monarch-compute-campus-project-for-anthropic-report",
@@ -466,6 +531,77 @@
    "story": "2026-10-28-data-center-opposition"
   },
   {
+   "id": "rty-and-rate-impacts-of-grid-expansion-through-west-virginia",
+   "d": "2026-10-27T17:00:00Z",
+   "title": "PSC questions local property and rate impacts of grid expansion through West Virginia",
+   "url": "https://www.newsandsentinel.com/news/local-news/2026/10/psc-questions-local-property-and-rate-impacts-of-grid-expansion-through-west-virginia/",
+   "source": "News and Sentinel",
+   "summary": "Two out of the three members of the West Virginia Public Service Commission questioned the necessity of proposed 500 kilovolt electric transmission line through parts of the state during the second ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-wvrates",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "rty-and-rate-impacts-of-grid-expansion-through-west-virginia"
+  },
+  {
+   "id": "rfvwzwalpuzxjubvrhtvlysxy1vvffnkntamnozmliund0cfu5re5xy1ppoa",
+   "d": "2026-10-27T15:17:00Z",
+   "title": "PJM official confirms plans for additional 765-kV transmission line through West Virginia",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWnJIN3dHRmVhZ25yamYxUGhNTTNoRDV0alUydTRaTjVSUkdZWWZ2ZE5oSDBKZUtnTDVrcUI5d2NUWnNjc01mNkRTWkhYaVJ0QktsYkFTNW5TOVJWaGRxTG1uTFRKWDg1VkV6bGhWczRuOFpkRERSS2VjcVM3dGZBeWZzUVdxVjFvVVpxS2FTN1Z3Tm92Mjg1dTlJREZOVmtuRHJHclA4UnhOa0luYUdaclZGZDBsRHdlQ1ZRc0N2Z2dnVzk4dFdVSjM1Z1BtT0p1QVdaajd2VjRFVWZwalpUZXJubVRHTVlYSXY1VVFFNkNTamNoZmlIUnd0cFU5RE5XY1pPOA?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "rfvwzwalpuzxjubvrhtvlysxy1vvffnkntamnozmliund0cfu5re5xy1ppoa"
+  },
+  {
+   "id": "emand-cited-in-need-for-marl-additional-mountain-state-765kv",
+   "d": "2026-10-27T09:37:00Z",
+   "title": "PJM: Increased demand cited in need for MARL, additional Mountain State 765kV",
+   "url": "https://wvmetronews.com/2026/10/27/pjm-increased-demand-cited-in-need-for-marl-additional-mountain-state-765kv/",
+   "source": "WV MetroNews",
+   "summary": "The power grid where West Virginians get their electricity took center stage in second day of testimony before the state Public Service Commission on the MARL transmission line project. Sami ...",
+   "projects": [
+    "marl"
+   ],
+   "energy": true,
+   "via": "bing-pjm",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "emand-cited-in-need-for-marl-additional-mountain-state-765kv"
+  },
+  {
+   "id": "nutzlbekxioedbumcwzk9kvefha3l5yna5bzaym1vkake5dwtaqwjkbm5huq",
+   "d": "2026-10-26T14:54:00Z",
+   "title": "Hearings begin on proposed MARL transmission line in West Virginia",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUWZCbHA3aVRuamRnU19IMlQ0MHQ1UXRtSkU0aVZKYkxjZzFnd0lCOHlwU1BfZ2ZkWWw3dy1jOVNMYkZ0REtkOTNYVENvbzVNX3doQnE1TWNEVEEwS0tuT0wyY1ZPMGRmMVVxLS04clUwY2I5MkMxN1paMzVVYjItNXBCR1V0UzN2amZKY2dWaFJBNUdKNXgyMFNtbGtodFZQdHBpNXBDVl9ldFNHc290NDNKRUUtMUo4WENUTzlBekxiOEdBUmcwZk9kVEFHa3l5YnA5bzAyM1VkakE5dWtaQWJKbm5HUQ?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "line-has-sparked-a-familiar-debate-over-land-resources-power"
+  },
+  {
+   "id": "line-has-sparked-a-familiar-debate-over-land-resources-power",
+   "d": "2026-10-26T10:00:13Z",
+   "title": "Valley North’s proposed transmission line has sparked a familiar debate over land, resources, power",
+   "url": "https://westvirginiawatch.com/2026/10/26/valley-norths-proposed-transmission-line-has-sparked-a-familiar-debate-over-land-resources-power/",
+   "source": "West Virginia Watch",
+   "summary": "The proposed Valley North Project would span approximately 260 miles, carrying new 765-kilovolt transmission lines from the coal-fired John E. Amos Power Plant in Putnam County, West Virginia, to Frederick County, Maryland — a colossal infrastructure undertaking that could cut th",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "line-has-sparked-a-familiar-debate-over-land-resources-power"
+  },
+  {
    "id": "2026-10-25-politics-data-center-powerline-fight",
    "d": "2026-10-25T09:00:00Z",
    "title": "‘We are the extension cord’: Data center boom sparks power line fights hundreds of miles away",
@@ -502,6 +638,30 @@
    "story": "l-concerns-article-c3a4d229-37c1-425e-b2bf-e49a02a19373-html"
   },
   {
+   "id": "jycerdyxbkbndsbvi4vxvoei1jt1lqwmkwoff2wejkdvu0tffhdgrkr05qsq",
+   "d": "2026-10-23T04:30:00Z",
+   "title": "Gazette-Mail editorial: Sadly, no incentive to fix WV data center rules",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX2Uzbm1ZZktGZjhZZDdqUFJvVzJzMDVzd0FhcUx2TmRTSXNJenVQQnVHNUZVc0tzcEh6MW9QX3E4RmlibnRaR29fVlItdWRqcG1Qd2QyeWwwU004Y3NYSVhReGtCZjhCbFFndWt3S1lZU2J4UzE2b3JYN1ozNm9ZZVF5ajJXcE8wa2JKNzAzTTZOd2ZtMjl1TkRSbDA0ZExXSGo3TW5PTEE5V1pEV2ExSm1BWklDejRieWRSNkM5Q1R6OUZZSUszS1hjd0IwZjJycERDYXBkbndSbVI4VXVoei1JT1lqWmkwOFF2WEJkdVU0TFFHdGRKR05qSQ?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "jycerdyxbkbndsbvi4vxvoei1jt1lqwmkwoff2wejkdvu0tffhdgrkr05qsq"
+  },
+  {
+   "id": "lyq3zxnho0s0joz25vwtzbn3vmuflqnmlfee0zmlhptdy0u0zjnhlhckq0zw",
+   "d": "2026-10-22T17:22:00Z",
+   "title": "West Virginia agriculture commissioner urges data centers to avoid farmland",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRTZpQzRMSHhfbUx3V3VnOE5BTXdSNkFKOEFjelVsTkRuQzh5Y1haNXVTUEptWDF5dmJNQ1NqSEFYeWFTTEFlc2dMZ1RvNHhuSi1TTnhMWmx2WldoM3VBZHd2QXJDVDZPNUJmQmlxYzJNSXZ6aTNNYnlsODVkcjR2R3VTLXhIbDR6cEhjOVJ0OXZpNmZaRW9UOVdLWjczaGw1TnFvUks0dTB4Q3VWSkFfRDBqci1PMDNlekRsTFprQVhfejE4eHlYQ3ZxNHo0S0JOZ25vWTZBN3VMUFlQNmlFeE0zMlhPTDY0U0ZjNHlhckQ0Zw?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "west-virginia-data-centers-farmland-protection"
+  },
+  {
    "id": "west-virginia-data-centers-farmland-protection",
    "d": "2026-10-22T16:18:00Z",
    "title": "West Virginia agriculture commissioner warns data centers could threaten valuable farmland",
@@ -514,6 +674,18 @@
    "story": "west-virginia-data-centers-farmland-protection"
   },
   {
+   "id": "m2xcwmw3blvozzrgnfj4mtmywun3vu5vouxzvvr0d01hcxo0rmwzbmyyszfv",
+   "d": "2026-10-22T07:00:00Z",
+   "title": "Health concerns aired during meeting on Mason data center permit request",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOUGJJUkZOZjA4MGZ2NlJfcG1KMkNjSUFMdmhiSGd3ZnJkUmxNMm1VQXVQT0VjWG1PaUkzU1Z6c3FGenpJRzNxVVdTS1c3dUVnZUpaUTk4S1VHUXVkak9vcnhPT2phTUFaeTQ3c0dKdnRZaERhcmlmUkJfQUJJOTE5ZUdPLVpOYkJHVEstRFU0cjk4TDBWaGNOZ2tEVUFzaUpzUXRlZUpzNzZpdnJZTUJVR2wxMlFBU1FBNEpMX0tqVTNQTW9GQTR2dVh3MUxJT09oeHM2bTN6eVlwOThmTDBQM2xCWmw3blVOZzRGNFJ4MTMyWUN3VU5VOUxZVVR0d01HcXo0RmwzbmYySzFV?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "m2xcwmw3blvozzrgnfj4mtmywun3vu5vouxzvvr0d01hcxo0rmwzbmyyszfv"
+  },
+  {
    "id": "video-west-virginia-gov-highlights-key-175742696-html",
    "d": "2026-10-21T10:57:00Z",
    "title": "West Virginia gov highlights the 'key' to growth from AI buildout: 'We must get it right'",
@@ -524,6 +696,43 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "video-west-virginia-gov-highlights-key-175742696-html"
+  },
+  {
+   "id": "dkqkw3ddlesfzmdmc2al9nv2n0wthksgx2rxmyuun1rmlmy25mnhzmtflvqq",
+   "d": "2026-10-21T07:00:00Z",
+   "title": "PSC OKs utility suggestions, scaled-back rules prioritizing coal-fired plant use",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNczR1cVg4Nzd6RjZ6cC1RT1Jic28wYkZqWjNUZElGUzNTMzFTWFZVeFBIT0lOZl9vdVp2aEVETVREU0VxeWhSOEhfSDVxZWttakk1Rm5nTjBDRENZb3hUdF92S0hhUGlqQ1kxa2s5MG5uRHF5dnEzWVBNYTRLNFlLaHFnUF9OUHlTUmROVWpGU1FJVW41dWpLYl95ZVlNbHJWUk9mLXdrRy1hczdkeGNCcy1ZVjNiZmpxVkFBc280Z3pFLUlkSGk5ekR2Zm1DNTdwcFBxMXU4cC15akd3NTdPY0JIb3VVT3hTZ1dKQkw3dDlESFZMdmc2al9NV2N0WThKSGx2RXMyUUN1RmlmY25MNHZMTFlVQQ?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "dkqkw3ddlesfzmdmc2al9nv2n0wthksgx2rxmyuun1rmlmy25mnhzmtflvqq"
+  },
+  {
+   "id": "fnffkexntzghra0tgzlzvrg1mv1lwdffbui1fx3bosddrducwaefcvgliq2k",
+   "d": "2026-10-21T07:00:00Z",
+   "title": "State, data center developer scramble to save rare Mason County chestnut grove",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRWJ3WDNuenZDbDV5LV91ZGFVX1pkYUlQM3lsMUMzaG15elFRVE4weVY1S0pNYWJfS242eGI2VDhsT1Y3RWFYTzBLZ3VBOV93NloxUVdCaTZxS2JpQ3E0MVBuSlF2anFqTGpIOGRRZUU4UmY3ekVlUG9mU19iM18ySTd4RkxDd1U5YVlaMXVHXzRPa3g5ZF9tZmwzZmhzb0h5NWFPcU9HVHo2YnQ5MXFYNHY5T2VfXzJZcERFVEk1bFBEOXl5SkpULWlHRHY1SEdGOFh6c3BRR1QtUW5FNFFKeXNtZGhRa0tGZlZVRG1MV1lWdFFBUi1FX3BoSDdRdUcwaEFCVGlIQ2k?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "fnffkexntzghra0tgzlzvrg1mv1lwdffbui1fx3bosddrducwaefcvgliq2k"
+  },
+  {
+   "id": "ouy0rutzbxh4ynu5bkt5t2t1awqywfhsamp5tlg3dnnycehrtmjus1bhy2l3",
+   "d": "2026-10-21T07:00:00Z",
+   "title": "Election 2026: Akers & Dasaro in District 55 talk data centers, school funding",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOSkI4SHdKaWR2V1k3MjRkeF9feklTR2dMd2lRcG9JVFZFaTlnXzhJcUd1M3BlTVhIa2pWZnozTHdXZDJsNTRrNl9vay1tc21WamM2QVIyaXh5c3dRRnYxQkNXcjBubDZrTkxURnhPM3ZKcDFJRUhVNFkyMTN3elFtVUFKSGFQVXJuWDEzclJPWU1GRFUzRmZ0cWtoR1FEbHI3S2dyWndiQkhRVjUxa2pOQXVEaUVIaTVudWd5aWFmVjJiS2xpM0FuUDRjOUY0RUtzbXh4YnU5bkt5T2t1aWQyWFhSamp5Tlg3dnNycEhrTmJuS1BHY2l3?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "tlljthlnefh5ck1juwpxn2fpmhj0ymjuexz1r0nhxzjyovrobmpks28tq2zn"
   },
   {
    "id": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate",
@@ -566,6 +775,18 @@
    "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
   },
   {
+   "id": "tlljthlnefh5ck1juwpxn2fpmhj0ymjuexz1r0nhxzjyovrobmpks28tq2zn",
+   "d": "2026-10-20T08:45:00Z",
+   "title": "Election 2026: State senate candidates share thoughts on school funding, data centers",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOTDJvVGI4WHZwV2RWWWRlZ2l2TXc0ckJqelBRZUdBeVh1N2xLbjNfYWlhZkxuaWpYd3pkWjRpeDZRaTA1bjVyX1RFQ3l6aFFJS19RUjZyTUNRU3NkZk8tc1lVVkEtNF92VG5USGNPdUZOVlB3NkpRTTZZQnZUam1IOEtVRzhINjhXMHFjd0sxTEh0Uk0wbUYxS0JuMzJLZDNIMFd4SG82Zm8xTlJBTEFWc3Y0eWY5dFdDNlNpTENXNmM2QlRpd2E1cnZSblBlVkZzenRUSDB4aGdCTlljTHlNeFh5ck1jUWpxN2FpMHJ0YmJueXZ1R0NHXzJyOVRObmpKS28tQ2Zn?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "tlljthlnefh5ck1juwpxn2fpmhj0ymjuexz1r0nhxzjyovrobmpks28tq2zn"
+  },
+  {
    "id": "econd-multibillion-dollar-deal-source-tells-cnbc-ar-aa2fersu",
    "d": "2026-10-20T07:12:38Z",
    "title": "Anthropic in talks with neocloud Nscale over second multibillion-dollar deal, source tells CNBC",
@@ -578,6 +799,58 @@
    "via": "bing-nscale",
    "seen": "2026-11-05T11:07:12Z",
    "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+  },
+  {
+   "id": "dm5aaljnoevfwhl0ugdkzugzb0rnajhns1oynkd5zggyrtdwofnktu1qt21n",
+   "d": "2026-10-20T07:00:00Z",
+   "title": "Is a data center worth $90M a year for schools? Mason County will soon decide",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNa3F0SGpDTERaaGtfOXhGWmdJX3pkRHh4WFZSM3B1a0hKc0l3T3BCS2kwQ0RjWVN4T2hvN0R2WjhKUmJUZFhXazY5VDR0N1Q4dWh5Q3RoOXJDcWhSNmRjS1lOZEowQUktdUltd1lSVlExVmkzUkxyMHlNNDI2ZWpSdDE0bFpRMlRubGdQZl9UTDcxMlNTOW4tY3V3bTJoNWtZenVndkw3ZWphd0hIc09UUVJ5UDN2YWh4VFBLNWYzekx4THNob0NwdGNlendrZzRVdXppYVNaa003dm5aalJnOEVfWHl0UGdkZUgzb0RNajhnS1oyNkd5ZGgyRTdWOFNKTU1qT21n?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "dm5aaljnoevfwhl0ugdkzugzb0rnajhns1oynkd5zggyrtdwofnktu1qt21n"
+  },
+  {
+   "id": "tts3rqsthdddjuv3jdawyws015qvjveurfv3ozz3dytek2n3m0r0j3dxvnvq",
+   "d": "2026-10-20T07:00:00Z",
+   "title": "Data center developer to host job fair on June 30",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdEtQbmhUdC1jVlkwOVYybGp4YTZ1LTVuRWZWSEw3LWZvd193S3pGMmhUa2FLOWFJTHdvR29RQmZEQnpFOG8wVkdaN0d4aTBQVkdTblE2b2l5WENJdV80SkVhMjVkS1VhM21xWUpXdGJjcHNWTWtQRVM2d1VuY2RacE82TGhTTjJXUHdMOGZGdkxpcFZZanFYc0xteEZDSEI4ajdGSFUwc3R6R0tTS3RqSThDdDJUV3JDaWYwS015QVJveURFV3ozZ3dYTEk2N3M0R0J3dXVNVQ?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "tts3rqsthdddjuv3jdawyws015qvjveurfv3ozz3dytek2n3m0r0j3dxvnvq"
+  },
+  {
+   "id": "bzszhwmwfjdmltrmnrrdrtvti3qi1hrwtxz2jpnfzqreq3wmxisg1eymhpuq",
+   "d": "2026-10-20T07:00:00Z",
+   "title": "MSHA report details how West Virginia coal miner Travis Price died at Kanawha County facility",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZFZhblNJUkEzRmo2aGt0dVFPMTB5TlAtMGx3b1QzMmlqN0dTLWZyN0hNeGFmdUEwR3VmeHdoSkFITFFNZ0VDQ1ZZTjYxUDVULU5PZHNPMUVRcDJpNURxTHZXRHFiVU96ZnBjampIOG51ZWZRbERrRUZ3VnhpUy02YTBteGp4cjNkbjdsbG9NWjJUYnUxb2JlQnltM2JfWGo4ZFZ6enNySjhubVh3V1ZqLW4zY2k0X1pxVGpEMWFlTkYxb3FXUXIzWGJXTlJiMDBtVnJLUk8xZHo2ZWljdTBZSzhwMWFJdmltRmNrRDRtVTI3Qi1HRWtxZ2JPNFZQREQ3WmxISG1EYmhpUQ?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "bzszhwmwfjdmltrmnrrdrtvti3qi1hrwtxz2jpnfzqreq3wmxisg1eymhpuq"
+  },
+  {
+   "id": "avfxymh2a2y2cvuwbjb2vjfgy3hkcexrwfzqcnfad0tnceo3wlv1akphwfvh",
+   "d": "2026-10-20T07:00:00Z",
+   "title": "West Virginia to hear public comments on Mason County data center power plant",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdS1RNlhudUxiNkZOTG5XcnVmM3BkUXEtUWFmRGdfcTg1TGpJWTVobEptUnJzQjVUYVVFVEtoeUk5dEp2Vi1hVGV5TklSNEE5bTFYNGtnV2Vwc25CSEQ0QWF6OWRtTkFQb0tGdE81OERmTTRpUEhiQTlRRklfVHltdDFZRW5GMmw2Ui1wS3BWWE5VZjhCOU1EZnZldW5sbUR6REQwZ1ZpY09Mb3VZakpKVjFza1JpSDZvM0JuS0tIdUZUTG5hQmdaaVFxYmh2a2Y2cVUwbjB2VjFGY3hKcExrWFZQcnFad0tNcEo3WlV1akpHWFVh?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate"
   },
   {
    "id": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal",
@@ -606,6 +879,19 @@
    "story": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk"
   },
   {
+   "id": "-commission-releases-proposed-rules-for-power-plant-capacity",
+   "d": "2026-10-19T17:00:00Z",
+   "title": "Public Service Commission Releases Proposed Rules For Power Plant Capacity",
+   "url": "https://www.theintelligencer.net/news/top-headlines/2026/10/west-virginia-public-service-commission-releases-proposed-rules-for-power-plant-capacity/",
+   "source": "The Intelligencer",
+   "summary": "CHARLESTON - Reaction to new proposed rules by utility regulators in West Virginia required by the state's data center law determining how coal-fired power plants operate received both praise and ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate"
+  },
+  {
    "id": "n-ai-cloud-computing-deal-bloomberg-news-reports-ar-aa2fbqp9",
    "d": "2026-10-19T13:19:55Z",
    "title": "Nscale, Anthropic in talks for $45 billion AI cloud computing deal, Bloomberg News reports",
@@ -620,6 +906,33 @@
    "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
   },
   {
+   "id": "sc1mreptetjpbw5lawzwdxb2ni1fzlo2z1bscettzedxau9pvwviek5lnuj0",
+   "d": "2026-10-19T07:00:00Z",
+   "title": "Officials say Mason County school levy renewal could unlock millions in data center tax revenue",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPV1lRQTR3bnczandkc0s4OHdXRk9IYkdCa0h5ak5qcV81OEpaLXFuN0tseUFDOXhUYUNZYzg2SllTOHNBOGs4VDk4QmVOcEZqanlQX0d5QXBvMHllcmxCMmh1UTNFOXVpNTNCVUdOVk5iV05iNFBGN2pLWDYzZS1RZDNrV0RTM1VsbUZweTJLUGhncERHak5EMEpLSWEyb3R4cUl2X2JTaWlaaF90c0NRY3VIUlN0R1ZFa2hURG5xdFlTaFlNd1VGb2Z6dmVmb001NG1WemNyQXhaak9QQmZCSC1mREpTeTJpbW5laWZWdXB2Ni1fZlo2Z1BScEttZEdxaU9pVWViek5lNUJ0?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "sc1mreptetjpbw5lawzwdxb2ni1fzlo2z1bscettzedxau9pvwviek5lnuj0"
+  },
+  {
+   "id": "sbgvstnp3bk9lovbjekrtr1bzrnp4rjfurvcxwdv3tkg5zhbinw1ox3g2v1e",
+   "d": "2026-10-19T07:00:00Z",
+   "title": "West Virginia PSC to begin MARL transmission line hearings Oct. 26",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVm54Z011N2JyYXp6bDJYaWN4WmROZmNXLUdHcUVzQmU3WTJNNTF6c0ZYQVJvN2tRdDFLN1EtaVFlZ0wyS183YzJ6cHBYUmFwb1VKMS1FbG9WUW9oZFZzZkpCQUJfVU9QYk5ITXZ2WHJYUUM4UlRuaGhvWDZuS05DUVQ2SmZ5eWxEcExCanB3Uk16MjVUT2tZT3ItQ2I3a21UcTh0VjN1MjU3YjN0SHZVWW8yUGVqRkVsbGVSTnp3bk9lOVBJekRtR1BzRnp4RjFuRVcxWDV3Tkg5ZHBiNW1oX3g2V1E?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "sbgvstnp3bk9lovbjekrtr1bzrnp4rjfurvcxwdv3tkg5zhbinw1ox3g2v1e"
+  },
+  {
    "id": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w",
    "d": "2026-10-17T10:08:00Z",
    "title": "West Virginia's rare chestnut grove could be bulldozed to make room for an AI data center",
@@ -630,6 +943,45 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w"
+  },
+  {
+   "id": "eklvb29qsxbvsvdxvudzzi1nchlmtnd4mwk0ls1wedyyqkdqetdeclfdsnzl",
+   "d": "2026-10-17T07:00:00Z",
+   "title": "DEP permit bids detail significant Mason County data center environmental impacts",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPWllBY3B5b05DX3BkazBMb3UxUmJjdWRseGtMR2hBcGFCRXhoUGN1SGhyTDBnNU9nNE5nQnBSVGlaQi1FSkh5REJrbkd0RUhwTjJSUzRldlNHaW40U3JfX2VJUlRva0VMM0FjVTluZDVIaWFnWGliRXFVVGhINkRqbURfRFU4VUUzSHFOb0ZRWjRLRkxJSjZQc1NvUWlSX1E2R25LNUU0VGI5b3ZJanRjT1QyNktsQmh2VDEtcXBXREFlVTZtXzRsNm1CT200aWNqZkVoamtLTllxRXdfcVNwX3E3cTNHS2FGWUIyeklvb29qSXBvSVdXVUdZZi1NcHlmTnd4MWk0LS1weDYyQkdqeTdEclFDSnZL?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "eklvb29qsxbvsvdxvudzzi1nchlmtnd4mwk0ls1wedyyqkdqetdeclfdsnzl"
+  },
+  {
+   "id": "ymvffutqtdxdkmgfjwxuxu2toufptcgzamlplodngumhfvgf1buxtnlzxzlk",
+   "d": "2026-10-16T07:00:00Z",
+   "title": "Appalachian Power Foundation supports EMS training with $50K grant",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYWRHWDdJTms1cnZPS1pob1Z4aXZMV3lZMl94VmU2bWpLWUFDZFExcG5Ka2oyQ3llUGdsNXJnNUFUS0d5ZFZPWWhCX0s0cVNjUHVoYk9GcERkbDN0TUdwTlJhNVNhdXJUSHE4OFBBdXd4SU5YU0dpc25GWHRmZXROSnNaSUNlNGdLWVVPOVJBbjhzUVBzMUJ3aUQyaVJlTTlYVm94YmpoTU0wM3dHMk5wZS1raUdPM3ZpNk9yMVFFUTQtdXdkMGFjWXUxU2toUFptcGZaMlpLODNGUmhfVGF1bUxTNlZXZlk?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "ymvffutqtdxdkmgfjwxuxu2toufptcgzamlplodngumhfvgf1buxtnlzxzlk"
+  },
+  {
+   "id": "vhek14x01ccdjya3oxudbuxzd6cvpsz1burddhnerweliwrdlybuprq1uxma",
+   "d": "2026-10-16T07:00:00Z",
+   "title": "Former Commerce Secretary Ed Gaunch urges West Virginians to follow facts, not feelings on data center development",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPOGx0V1FpcDN3dHZUWlFQSC1sN2hwekJnQ213Y1k2X1JDTkpzbEo4bHduMjNycnU1NldvMmdMakV2bDlOT0FxTnlLTVo4TjgwakZhaUI3VE9KWFlsX0FQM0hGSHdZUlpRc2FHMzB4SVZDY1ZYb0dMV21jRi1HRWNRcWw2S2Q3V1FWM0lqZjRfZm11d3BXTHBlTjhnNDJkUkRqMTl6UDRDTzJoNHUxSlhZLXVrSENMbnlBc09uRW10TTRqTnJxZkhKZDFucmN6V3RrSzNQc1VQQTR5enh5MTRfOWRBU1E1VWVHek14X01CcDJya3oxUDBuXzd6cVpsZ1BURDdHNERWelIwRDlybUpRQ1UxMA?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "vhek14x01ccdjya3oxudbuxzd6cvpsz1burddhnerweliwrdlybuprq1uxma"
   },
   {
    "id": "valley-north-transmission-line-project-has-revised-maps",
@@ -646,6 +998,83 @@
    "story": "valley-north-transmission-line-project-has-revised-maps"
   },
   {
+   "id": "rg44zjbnmunlvzlqrevls1zkyukty2rqq01zaevflwi1d0zrlwv3mlfwt0fr",
+   "d": "2026-10-15T04:38:54Z",
+   "title": "Robert Beanblossom: Wildfires, climate change and data centers (Opinion)",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOc0dqMUplWmNONlVQd0NZYTZSckFZNE4wRHFtaGxPR2M5OWNzMks5dXJ2Z3B0R1kzT2gzYWpDMVVQUElRMWRIbjZzU0VUSDNaR0s3M2d4cDJaaGx0WF9IazBZZlBkOUdOQTRNaVRURXgyRWtuWG9JOXNfMGozZXRJa2FUTmdxLTdJT2xWMU5feG00LThGSXVqc1A4TDZobEd4M3pOWERRcTlMTU1WcXQwZE1HTkpoMDlYaVJWOExhZWpFdDJZVEFCRkFjbFdrSWhJSGQxcVNLbjJTRG44ZjBNMUNLVzlqREVLS1ZkYUktY2RqQ01zaEVFLWI1d0ZRLWV3MlFWT0FR?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "rg44zjbnmunlvzlqrevls1zkyukty2rqq01zaevflwi1d0zrlwv3mlfwt0fr"
+  },
+  {
+   "id": "xy1vtm9nqvpkx3zcbxnmde1yeuvlejrbmzvrmnpytthpahlfdlptt2d0cjjn",
+   "d": "2026-10-13T07:00:00Z",
+   "title": "Ken SIlverstein: AI boom here, secret data centers shouldn't be (Opinion)",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQVHVHcVJ4Q3JMejJMVi11WGJ5QXEtczdjSGdJUTFqY05xaVd3TEpHcGNDS21uNnJKTEI5b25MTWpxSXRQemEwMWYtYVpCNEVJYXBCWEhuQkxjR21mNWVkbmxEZWRGVnhWeWdpSm5SdmFXUUE2dHBrbnZlanpqczRyV3RJdGZSbjNGTkVLMnlwejhZdy1yUWdzNGN0VUZ6RE9nRG4xd3ZWNXdIOTNWaTBJd3MyQzFpUUtHV2tMUUNKQXRlelJGNW1QWGxYalFkZXlabE9wRk5WdWdFXy1vTm9nQVpKX3ZCbXNMdE1yeUVLejRBMzVRMnpYTThpaHlfdlpTT2d0cjJn?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "xy1vtm9nqvpkx3zcbxnmde1yeuvlejrbmzvrmnpytthpahlfdlptt2d0cjjn"
+  },
+  {
+   "id": "bur3rhmux0tvu1nmpczvr0rfq0tnc0zxboqwhzrmftcmpprhlsbjhnc3fhdw",
+   "d": "2026-10-13T07:00:00Z",
+   "title": "Brian Abraham: Data centers are an economic opportunity for WV",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdzZlQzVVTWVqX2t5MXJ6TDRmbUFSbmRoVm83Z1AxalhIcG1wRzB6RExRVlQzYWFVbHpyRXZlQ1hNc0R0cU80Y2pwVk94Q1dCc1g2MnZZbkdMS2F3Tm5yUHBqYy1zcUF3MFV1YXJzYTNsclJFWU5qcHJMSC12VGVXQjBiWEZGdDNDRWZiMFBkS3RzUlNUQ1VKSzkzR2QwYVMzSVl1cFJKYTRQQzFUQnVPSlRsVmhvMmZrYzBUR3RhMUx0TVU1NmpCZVR0RFQ0Tnc0ZXBOQWhZRmFtcmpPRHlsbjhnc3FHdw?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "bur3rhmux0tvu1nmpczvr0rfq0tnc0zxboqwhzrmftcmpprhlsbjhnc3fhdw"
+  },
+  {
+   "id": "bhnytlrla1dfwhdlthhbwheydvvnu0fltdvsm1ddajhjneh6sejkqu5tuutu",
+   "d": "2026-10-13T07:00:00Z",
+   "title": "Mason County data centers could generate $231 million in annual tax revenue, report says",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRTNGTEtXWG8yazhSNmhJMDQybWlEUWZCUUl3Rk9vLTZPTnBlSGg2SVN5dGc4aVE1b1FEcHhvSWFQeW85Uk5mNThiWkNUTi1vY3dtWFBNUDNHQXNWdmJ0SUlLS2p3Y09ET3hzSzlnd204Nk5HZDhyclJZUFBFbDVYOTJONV9od1VPbzBaaEJmaFlZQVNzOUw3dk43ZUFWQ0tzSUswZFVRS0FOcGtsaUZPN0RSMnVFNlNjSVJiZW9MdlYwbWVXN3NYZm1jSW03OHktYWMxbHNyTlRLa1dFWHdLTHhBWHEydVVNU0FlTDVsM1dDajhJNEh6SEJKQU5TUUtu?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "bhnytlrla1dfwhdlthhbwheydvvnu0fltdvsm1ddajhjneh6sejkqu5tuutu"
+  },
+  {
+   "id": "vnv5sg4xb2oycwtgdnriruczbhy0dzjhzu92nnzxdhfenjzzahvfls10qvqy",
+   "d": "2026-10-13T07:00:00Z",
+   "title": "Valley North transmission line project schedules November open houses in West Virginia",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPV2RfRG5USHp0S3l4RC1rSDFpVTM5TlFBczNTRlAzTTBndVh4ZG9zbHFSbk5IOVFIbEhNUThMUUM1b3RxU1BZd0lSXzlUQXVxSXFXZ0trSmNtalR4ZW8zMjJ5RHBVdEZfenpYb0hFNFEwUTVFUEdaTjZmbE9DQUtsMzRpSjBSTHhMNFBucHdNczlvUVVYYzFjRk8zUnp4OTFSaW5qTVRsS05vODYtQUIwNkszcy1ZVlZKdVF1c2Y0YmxmTENaMlk4MTVnaTVhQmZSODBoVnV5SG4xb2oycWtGdnRiRUczbHY0dzJhZU92NnZXdHFENjZzaHVfLS10QVQy?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "valley-north-transmission-line-project-has-revised-maps"
+  },
+  {
+   "id": "zghcrgk4mddxwjnybxhsam5qtfvqwnfvrjn0rddganppy0hgeeszrjiymwvb",
+   "d": "2026-10-10T07:00:00Z",
+   "title": "TeraWulf to double size of data center near Ashland; Ky. Power to add unit at Big Sandy",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSUdOUnFEeGt4Mi1maUIwRHNzRnlBZ0xYbFVESEhVUkZGSEV2dDJYcjI1N28tUEVIR1BOVThtRnpqWVdxclFkRHRqWWMtbnVIU05kMW5VUVB1Y0VGR2JmN2lkazBwVWRuTGZ3S3Y2QkJqR2E2QThwLUotZ3pna1Q3QVlRUFJfVnpuMURoWk55OXBkYlFWZ29IaUNWS3RVb2tiRWZOajFNX3FRU3NNeVBVMFpNSXNNV2dFU1NBV3MwZGJlb1g5cnBXZTRQSHlpZGhCRGk4MDdXWjNYbXhsam5QTFVQWnFvRjN0RDdGanpPY0hGeEszRjIyMWVB?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "zghcrgk4mddxwjnybxhsam5qtfvqwnfvrjn0rddganppy0hgeeszrjiymwvb"
+  },
+  {
    "id": "ion-line-moving-forward-despite-local-opposition-ar-aa2dvuzm",
    "d": "2026-10-09T14:23:29Z",
    "title": "Plans for Valley Link Transmission Line moving forward despite local opposition",
@@ -658,6 +1087,43 @@
    "via": "bing-valleylink",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ion-line-moving-forward-despite-local-opposition-ar-aa2dvuzm"
+  },
+  {
+   "id": "vt3jocf84luptohdmtetcwu5yvvdwsmh6wtrsdxbdawnnymh3te1qzerlzti",
+   "d": "2026-10-09T07:00:00Z",
+   "title": "West Virginia coal miner Travis Price dies in Kanawha County mine accident",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQaGQzTTIyZ09FRGttZTRZZjAtT0xuOFN6a1pMTTBMU1RkV1NxN09zcm1VcXM1NWRfV3hNVEpIbzRRX1lsSkhxcWpfRzVSeW5vOHI4QXp3d3pHTlBBMG1qRlQ1RXRIdE1WZWNNNXRzUlFuWE9WZkJjNVFjWEZLVnpqLUw1MUdMNDZoa1lwUlllUHEtZXozVXZYWmN0elhXS1lzVEdXUWQxYndNU0NEdUNKWmNOLXV2aEduLTZEbU1LVEdCMENvT3JocF84LUpTOHdmTEtCWU5YVVdwSmh6WTRSdXBDaWNnYmh3TE1QZERlZTI?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "vt3jocf84luptohdmtetcwu5yvvdwsmh6wtrsdxbdawnnymh3te1qzerlzti"
+  },
+  {
+   "id": "wr1nnynh3zza1ck9lref1cwzia3zpwvdma1jjvmu1bvvfcnflvmf5uf9acza",
+   "d": "2026-10-09T07:00:00Z",
+   "title": "Opinion/Op-Ed: Data centers are an economic opportunity for West Virginia",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWDJsUHRFMXpwQ1RUeGRzVTJGN19tTGpad1MxS182TmdyVnlDcjZ4aC14NmlZYWJBdnY5Z1d0aXB3cDdFcU1kcmQzMGJBX1lmNlN0YmNLYTRVdGtLcUQycUZUd0daQW5iRm1UY3B3ZFB1YjJKeFJiRGpoN01CQjBScTZmWENaeERXMkpDQmJlVzNxWUtLV3pZMXo3WHJHZXVqczZIN2xtZ1JwWXF0LVJ0Q3JTRWZaM1Fvb0Zla0xWTFRSMklWR1NnYnh3ZzA1ck9LREF1cWZia3ZPWVdma1JjVmU1bVVFcnFLVmF5UF9aczA?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "wr1nnynh3zza1ck9lref1cwzia3zpwvdma1jjvmu1bvvfcnflvmf5uf9acza"
+  },
+  {
+   "id": "kddc0shleztfodwzaofzwsurrck93owhgyu9dnvfnbfp4vfdpmutoxzr5a1u",
+   "d": "2026-10-08T07:00:00Z",
+   "title": "Data center regulations and East End renewal plans introduced to City Council",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRUtDVnVld185QmVlYjZxT25HVnhOR1N2MEFKMlNOc0haUDRxYlVPZkRWNHFNTHhxTF9xeDByM1FhTEFpV2JTUzN3M294XzBKbDRxaWVSZ3dJYy1nS3BWNWh2R0VPeFJwWUJtWGFUWnNuRU1PTzhaaDA2MzU2X0ZNZGpLajJPQU1STUxMN0I1el94MzMyaXNDQVZDTjFLWGJUZVZ4WXdLclVwS3JVbHVMdFZtalJkTVVGU3N4UzViM3U4ZjgzUGw4SHAzX0lVV1hRWWI0b2hZbTR0RE5KdDc0SHlEZTFOdWZaOFZwSURRck93OWhGYU9DNVFNbFp4VFdPMUtOXzR5a1U?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "kddc0shleztfodwzaofzwsurrck93owhgyu9dnvfnbfp4vfdpmutoxzr5a1u"
   },
   {
    "id": "p-old-shop-n-save-property-in-davis",
@@ -696,6 +1162,19 @@
    "story": "p-county-commission-debate-with-mike"
   },
   {
+   "id": "row-membership-while-keeping-west-virginia-roots-ar-aa2bkswd",
+   "d": "2026-09-07T12:58:00Z",
+   "title": "UMWA looks beyond coal to grow membership while keeping West Virginia roots",
+   "url": "https://www.msn.com/en-us/society-culture-and-history/social-issues/umwa-looks-beyond-coal-to-grow-membership-while-keeping-west-virginia-roots/ar-AA2bKswd",
+   "source": "MSN",
+   "summary": "The United Mine Workers of America has long been closely tied to West Virginia’s coalfields, but union leaders said the organization is working to grow as the industry changes. UMWA ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-umwa",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "row-membership-while-keeping-west-virginia-roots-ar-aa2bkswd"
+  },
+  {
    "id": "p-geologists-study-cites-abandoned",
    "d": "2026-09-02T13:01:06Z",
    "title": "Geologists’ Study Cites Abandoned Mine Dangers at Power Plant Site",
@@ -722,6 +1201,20 @@
    "via": "wvhc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ter-procedural-dismissals-in-fundamental-data-permit-appeals"
+  },
+  {
+   "id": "ains-momentum-with-reported-45-billion-agreement-ar-aa2b876u",
+   "d": "2026-08-28T10:21:16Z",
+   "title": "West Virginia’s AI push gains momentum with reported $45 billion agreement",
+   "url": "https://www.msn.com/en-us/news/other/west-virginia-s-ai-push-gains-momentum-with-reported-45-billion-agreement/ar-AA2b876u",
+   "source": "WVNS-TV on MSN",
+   "summary": "CHARLESTON, WV (WVNS) – Governor Patrick Morrisey applauded Nscale over a reported $45 billion investment in AI at its West Virginia data center campus. According to a press release from the West ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "ains-momentum-with-reported-45-billion-agreement-ar-aa2b876u"
   },
   {
    "id": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html",
@@ -906,6 +1399,19 @@
    "story": "ticles-barbour-county-citizens-voice-concerns-152713000-html"
   },
   {
+   "id": "ans-speak-out-against-proposed-monongalia-county-power-plant",
+   "d": "2026-07-15T17:55:00Z",
+   "title": "Concerned West Virginians speak out against proposed Monongalia County power plant",
+   "url": "https://wvmetronews.com/2026/07/15/concerned-west-virginians-speak-out-against-proposed-monongalia-county-power-plant/",
+   "source": "WV MetroNews",
+   "summary": "CHARLESTON, W.Va. — Concerned citizens, coal miners, and political candidates made a unified stand against a proposed gas-fired power plant in Monongalia County. 32 people spoke during the state ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-fortmartin",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "ans-speak-out-against-proposed-monongalia-county-power-plant"
+  },
+  {
    "id": "ticles-concerned-barbour-county-citizens-meet-222727000-html",
    "d": "2026-07-08T15:27:00Z",
    "title": "Concerned Barbour County citizens meet to discuss Valley North Transmission Line Project",
@@ -944,6 +1450,58 @@
    "via": "bing-microgrid",
    "seen": "2026-11-03T13:03:33Z",
    "story": "-announces-new-microgrid-data-center-application-ar-aa25qfts"
+  },
+  {
+   "id": "babcock-wilcox-support-terraspark-development-103000867-html",
+   "d": "2026-06-08T03:30:00Z",
+   "title": "Babcock & Wilcox to Support TerraSpark’s Development Efforts for 1.6 GW Coal-fired Power Plant Project in West Virginia",
+   "url": "https://finance.yahoo.com/sectors/energy/articles/babcock-wilcox-support-terraspark-development-103000867.html",
+   "source": "Yahoo Finance",
+   "summary": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "babcock-wilcox-support-terraspark-development-103000867-html"
+  },
+  {
+   "id": "cles-new-coal-plants-win-trumps-backing-but-questions-remain",
+   "d": "2026-06-04T10:31:00Z",
+   "title": "New coal plants win Trump’s backing, but questions remain",
+   "url": "https://www.eenews.net/articles/new-coal-plants-win-trumps-backing-but-questions-remain/",
+   "source": "E&E",
+   "summary": "President Donald Trump is slated to unveil millions of dollars Thursday to build the nation’s first new coal plants since 2013 in West Virginia and Alaska And yet the fate of those projects — like the ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "cles-new-coal-plants-win-trumps-backing-but-questions-remain"
+  },
+  {
+   "id": "ia-files-testimony-in-mon-powers-2-48-billion-gas-plant-cpcn",
+   "d": "2026-06-01T16:57:00Z",
+   "title": "Sierra Club West Virginia Files Testimony in Mon Power’s $2.48 Billion Gas Plant CPCN",
+   "url": "https://cleantechnica.com/2026/06/01/sierra-club-west-virginia-files-testimony-in-mon-powers-2-48-billion-gas-plant-cpcn/",
+   "source": "cleantechnica",
+   "summary": "CHARLESTON, W.Va. — Sierra Club submitted Direct Testimony on Friday in the Certificate of Public Convenience and Necessity (CPCN) case for Mon Power’s proposed $2.48 billion, 1,200 MW combined cycle ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-fortmartin",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "ia-files-testimony-in-mon-powers-2-48-billion-gas-plant-cpcn"
+  },
+  {
+   "id": "seek-approval-for-reliability-and-infrastructure-investments",
+   "d": "2026-05-19T17:00:00Z",
+   "title": "Mon Power and Potomac Edison Seek Approval for Reliability and Infrastructure Investments",
+   "url": "https://www.tdworld.com/utility-business/news/55379019/mon-power-and-potomac-edison-seek-approval-for-reliability-and-infrastructure-investments",
+   "source": "T&D",
+   "summary": "FirstEnergy subsidiaries Mon Power and Potomac Edison have filed a request with the Public Service Commission of West Virginia to review electric rates as the companies continue investing in grid ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-fortmartin",
+   "seen": "2026-11-06T15:12:47Z",
+   "story": "seek-approval-for-reliability-and-infrastructure-investments"
   },
   {
    "id": "te-near-davis-after-receiving-74-protest-letters-ar-aa23ikeo",
