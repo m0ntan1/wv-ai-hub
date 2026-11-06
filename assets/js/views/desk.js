@@ -72,7 +72,7 @@ export function desk(main, who) {
         <li><b>Weekday mornings.</b> Rook reads the past day's headlines and filings and the site's own case files, then drafts a Read of up to 850 words, with a numbered source for every fact.</li>
         <li><b>Same run.</b> Mercer audits the draft (every claim checked against its source, then a second, independent auditor) and applies his four duties. He stamps it CLEARED, CONDITIONAL, or HOLD.</li>
         <li><b>The editor.</b> The draft arrives as a pull request with Mercer's review attached. Nothing publishes until Rick Thomas reads it and merges it. A HOLD never ships.</li>
-        <li><b>Audio.</b> Planned: a cleared Read can be voiced in a synthetic Rook voice with ElevenLabs. Audio is labeled as synthetic.</li>
+        <li><b>Audio.</b> Every cleared Read is voiced in a synthetic Rook voice with ElevenLabs. Rook first rewrites it for listening (shorter sentences, numbers spelled out), and Mercer checks that the spoken version says nothing the page doesn't. A transcript of the audio is then checked against the script, so quotes are heard word for word. Audio is labeled as synthetic.</li>
       </ol>
       <p class="dim" style="font-size:13.5px;margin-top:12px">The procedure is public: <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/.claude/skills/rooks-read/SKILL.md" target="_blank" rel="noopener">the desk's instructions ↗</a> · <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/.claude/skills/makenomistakes/SKILL.md" target="_blank" rel="noopener">Mercer's audit ↗</a> · <a class="src" href="https://github.com/m0ntan1/WV-AI-HUB/blob/main/docs/update-plan.md" target="_blank" rel="noopener">the update plan ↗</a></p>
     </section>

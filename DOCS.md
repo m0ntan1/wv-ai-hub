@@ -32,7 +32,8 @@ tools/check.py             Validator: run before every publish.
 tools/build_feeds.py       Builds calendar.ics, feed.json, QR codes, sitemap.
 tools/build_geo.py         Builds data/geo.json from Census-derived county GeoJSON (run once; rerun only to change the boundaries).
 tools/fetch_filings.py     Money Desk collector: SEC EDGAR filings and figures plus FRED indicators -> data/filings.json (needs SEC_USER_AGENT).
-tools/voice_read.py        Voices a cleared Rook's Read with ElevenLabs (needs ELEVENLABS_API_KEY and ROOK_VOICE_ID).
+tools/voice_read.py        Voices a cleared Rook's Read from its spoken script with ElevenLabs eleven_v4, checks each section by transcript (needs ELEVENLABS_API_KEY, ROOK_VOICE_ID, ffmpeg).
+audio/rook/                Per Read: <id>.script.md (spoken script + fidelity table), <id>.mp3 (the audio), <id>.voice.json (voicing receipt).
 tools/migrate/             One-time migration from the old single-file site (kept as a receipt).
 research/                  Sourced dossier, calendar receipts, PSC watchlist, verification log and scripts.
 design/                    Revamp proposal, concept board, screenshots.
