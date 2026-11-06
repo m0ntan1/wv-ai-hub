@@ -21,7 +21,7 @@ The public site says what this process is (`#/desk`). Keep the work matching tha
    1. List the repository's open pull requests (GitHub MCP `list_pull_requests`, state open) and keep those whose title starts with `Rook's Read` and whose head branch is not yours. If there are none, go on to step 5.
    2. For each, `git fetch origin <its head branch>` and read its `data/reads.json` with `git show origin/<head>:data/reads.json`. The Reads to carry are the entries whose `id` is not in `origin/main`'s `data/reads.json`.
    3. If one of those entries already has **today's id**, stop and report that pull request's link. Today's Read is already drafted.
-   4. Carry only entries whose `mercer.status` is `CLEARED`. Copy each whole, Mercer's fields untouched, into your branch's `data/reads.json` in date order, newest first. If an entry's `audio` is set, bring its file too: `git checkout origin/<head> -- audio/rook/<id>.mp3`. Do not merge or rebase the other branch: it probably started from an older `main`, and its `reads.json` will conflict. A HOLD or CONDITIONAL entry stays on its own pull request; list it under "Needs your call".
+   4. Carry only entries whose `mercer.status` is `CLEARED`. Copy each whole, Mercer's fields untouched, into your branch's `data/reads.json` in date order, newest first. Bring its audio files too, whichever exist: `git checkout origin/<head> -- audio/rook/<id>.script.md audio/rook/<id>.mp3 audio/rook/<id>.voice.json`. Do not merge or rebase the other branch: it probably started from an older `main`, and its `reads.json` will conflict. A HOLD or CONDITIONAL entry stays on its own pull request; list it under "Needs your call".
    5. Check what else that pull request changes: `git diff --stat origin/main...origin/<head>`. If it touches anything besides `data/reads.json` and `audio/rook/`, do not copy those files. List them under "Needs your call" so the editor can decide.
    6. Never close, edit, or merge the other pull request. Your pull request says `Replaces #<number>` for each one whose Reads you carried, and tells the editor to close it after merging yours (step 7).
    7. If you cannot list or fetch pull requests, start from `origin/main` anyway. Say so at the top of the pull request description, and put "Check for an open Rook's Read pull request before merging" under "Needs your call".
@@ -93,17 +93,71 @@ Then run `python3 -I tools/check.py`. It must report 0 errors: it enforces the 8
 
 **On HOLD:** still record the Read with `"status": "HOLD"` so the editor can see it, and open the pull request as a draft. The site never shows a Read that isn't CLEARED, and the check will fail on purpose.
 
-## 6. Audio (only when configured)
+## 6. The spoken Read (every CLEARED Read, Monday to Friday)
 
-If `ELEVENLABS_API_KEY` and `ROOK_VOICE_ID` are set and the Read is CLEARED, run `python3 -I tools/voice_read.py <id>`. It writes `audio/rook/<id>.mp3` and sets `audio`. If they are not set, skip this step silently. If the script fails (a quota, network, or API error), do not retry more than once: leave `audio` as `null`, open the pull request anyway, and put the error message at the top of its description. Audio is never a reason to hold a Read.
+Every CLEARED Read gets audio. The page text is written for the eye; the audio is made from a separate **spoken script** written for the ear. The page text does not change.
+
+### 6a. Write the spoken script (Rook)
+
+Write `audio/rook/<id>.script.md`. Format:
+
+```markdown
+# Rook's Read, <Day Mon D, YYYY>: spoken script
+
+One line saying this is the audio version of the cleared Read and does not replace the page text.
+
+## intro
+Rook's Read for <Weekday>, <Month> <ordinal day, spelled out>. <The title.>
+
+## p0
+<paragraph 1 of the page, rewritten for the ear>
+
+## p1
+...
+
+## outro
+I'm Rook Calloway, an AI persona with a synthetic voice. This has been Rook's Read. It's analysis and opinion, for education only, and it's not investment advice. Sources and Mercer's review are on the page, at W-V-A-I hub dot com.
+
+---
+
+## Fidelity check
+<table: one row per claim on the page, where it is in the script, and Same / what changed>
+**Added beyond the page:** ... **Dropped:** ...
+```
+
+One `## pN` section per page paragraph (a section may hold several spoken paragraphs; keep each under about 1,200 characters, and split a long page paragraph into `p2a`, `p2b`). Everything after the `---` line is notes and is not spoken. If `anthropic` is true, the outro adds: "Rook runs on Claude, made by Anthropic, which is Monarch's anchor tenant."
+
+Rules for the ear:
+- **Same Read, said aloud.** Every claim, attribution ("they say", "by the article's count"), hedge ("I can't verify that count"), and opinion label ("my read") on the page stays. Add no facts, names, numbers, or opinions. Drop only the `[n]` markers.
+- **Short sentences.** One idea each, mostly under 20 words. Split stacked clauses and attributions into their own sentences. No parentheses: say it as its own sentence.
+- **Spoken transitions** between paragraphs are welcome when they're plain: "Now, the politics." "Here's the thing." "Why mention it here?" They carry no claims.
+- **Spell out for the voice:** numbers and money in words ("fourteen million dollars"), dates ("November fifth"), years ("twenty twenty-five"), abbreviations read as letters with hyphens ("eight-K", "S-E-C", "A-E-P", "S-S-R-S"), units ("seven hundred and sixty-five kilovolts"), "p.m." as "p.m.", the site as "W-V-A-I hub dot com". Write "Nov." as "November".
+- **Quotations are verbatim**, in straight double quotes, introduced with "quote," and followed by "End quote." Never change a word inside a quote, even for the ear. `tools/voice_read.py` refuses a script whose quotes don't match the page.
+- No em dashes, no stage directions, no audio tags, no Markdown inside sections.
+
+### 6b. Fidelity check (Mercer)
+
+Fill in the fidelity table: every claim on the page, where it sits in the script, and whether it is the same. Any added claim, dropped hedge or attribution, changed quote, or opinion that lost its label is a CONTRADICTED finding: fix the script as Rook and check again. Record the result as one line in `mercer.notes`: `Spoken script: fidelity checked, n/n claims same; added: <transitions, disclosures>.`
+
+### 6c. Voice it
+
+Run `python3 -I tools/voice_read.py --dry-run <id>` first. It checks the script (sections, outro disclaimer, synthetic-voice line, Anthropic line, quotes verbatim) without spending credits. Fix anything it reports. Then run `python3 -I tools/voice_read.py <id>`.
+
+It voices each section on `eleven_v4` with its neighbors as context, transcribes each take, re-voices any section that misses a quote or drifts from the script (up to two retakes), joins the sections with pauses, and writes `audio/rook/<id>.mp3`, the `audio` field, and a receipt, `audio/rook/<id>.voice.json`. A normal Read costs about 900 credits.
+
+- **Exit 0:** done.
+- **Exit 3:** the audio was written, but a section still failed its transcript check. List each entry in the receipt's `needs_ear_check` under "Needs your call", with the section and the quote, so the editor listens before merging.
+- **Any other failure** (missing key, quota, network, API error): retry once at most. Then leave `audio` as `null`, delete any partial `audio/rook/<id>.mp3`, keep the script, open the pull request anyway, and put the error message at the top of its description. Audio is never a reason to hold a Read.
+- **Never skip silently.** If `ELEVENLABS_API_KEY` or `ROOK_VOICE_ID` is not set, still write the script, and put "Audio: not voiced, <which variable> is not set" at the top of the pull request description.
 
 ## 7. Open the pull request
 
-Commit `data/reads.json` (and the MP3, if any) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`, or update the open one as described in step 0.1. Never merge it. The body has:
+Commit `data/reads.json` and `audio/rook/<id>.*` (the script, and the MP3 and receipt if voiced) and push the branch. Open a pull request titled `Rook's Read: <Day, Mon D>: <title>`, or update the open one as described in step 0.1. Never merge it. The body has:
 
 0. If you carried Reads over in step 0.4, open with one line per pull request: `Replaces #<number>. Merging is the editor's approval; close #<number> after merging this.` and name the carried Reads by date and title. Then the Read from item 1 below.
 1. The Read as it will appear, with its numbered sources, and the word count.
 2. Mercer's review: the audit line, the four duty lines, and the outcome. If Anthropic is a subject: a line reading **Anthropic: conflict disclosed**.
+2b. **Audio:** duration, model, takes per section (from the receipt), credits used, the spoken-script fidelity line, and any `needs_ear_check` entries. Or the reason there is no audio.
 3. **Health reads and catalysts:** if a filing in the window changes the picture for a company, propose a change to its health read (Stable / Watch / Stressed, with the one-paragraph reason from the filings). If you found a new catalyst (an event or open question that could move a company or its projects, for better or worse), propose it with its text, date if any, and source. Propose only; never edit `data/companies.json` in this pull request.
 4. **Needs your call:** anything you were unsure about, and anything from the window you left out and why.
-5. The Netlify deploy preview will appear on the pull request; tell the editor to read the Read there before merging.
+5. The Netlify deploy preview will appear on the pull request; tell the editor to read the Read and listen to it there before merging.
