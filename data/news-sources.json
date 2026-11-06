@@ -1,21 +1,6 @@
 {
- "note": "Config for tools/fetch_news.py, run every few hours by .github/workflows/news.yml. An item is kept only if its title or summary (1) matches a 'match' term and (2) mentions West Virginia: a 'wv' term, any WV county ('<name> county', from data/geo.json), or a tracked project. Add a URL, host, or phrase to 'block' to drop matching items for good.",
+ "note": "Config for tools/fetch_news.py, run every few hours by .github/workflows/news.yml. An item is kept only if its title or summary (1) matches a 'match' term or an 'energyMatch' term (those items are tagged energy: the coal, gas, utility and grid side of the buildout) and (2) mentions West Virginia: a 'wv' term, any WV county ('<name> county', from data/geo.json), or a tracked project. Add a URL, host, or phrase to 'block' to drop matching items for good. The Gazette-Mail, Herald-Dispatch and WV News run on a platform that refuses automated requests (HTTP 429), so they are read through Google News searches limited to their sites; those links go through news.google.com to the article. Searches marked wvOutlet are limited to a West Virginia outlet, so an item from them does not also need to name the state.",
  "feeds": [
-  {
-   "id": "gazette",
-   "name": "Charleston Gazette-Mail",
-   "url": "https://www.wvgazettemail.com/search/?f=rss&t=article&q=%22data+center%22&l=50&s=start_time&sd=desc"
-  },
-  {
-   "id": "gazette-grid",
-   "name": "Charleston Gazette-Mail",
-   "url": "https://www.wvgazettemail.com/search/?f=rss&t=article&q=microgrid+OR+%22Valley+Link%22+OR+%22Fort+Martin%22&l=30&s=start_time&sd=desc"
-  },
-  {
-   "id": "herald-dispatch",
-   "name": "The Herald-Dispatch",
-   "url": "https://www.herald-dispatch.com/search/?f=rss&t=article&q=%22data+center%22&l=30&s=start_time&sd=desc"
-  },
   {
    "id": "wvwatch",
    "name": "West Virginia Watch",
@@ -94,6 +79,23 @@
  ],
  "searches": [
   {
+   "id": "gnews-gazette",
+   "name": "Charleston Gazette-Mail",
+   "url": "https://news.google.com/rss/search?q=site%3Awvgazettemail.com+%28%22data+center%22+OR+microgrid+OR+coal+OR+%22power+plant%22+OR+PJM+OR+%22Mon+Power%22+OR+%22Appalachian+Power%22+OR+UMWA+OR+%22natural+gas%22+OR+%22Public+Service+Commission%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+   "wvOutlet": true
+  },
+  {
+   "id": "gnews-herald",
+   "name": "The Herald-Dispatch",
+   "url": "https://news.google.com/rss/search?q=site%3Aherald-dispatch.com+%28%22data+center%22+OR+microgrid+OR+coal+OR+%22power+plant%22+OR+PJM+OR+%22Mon+Power%22+OR+%22Appalachian+Power%22+OR+UMWA+OR+%22natural+gas%22+OR+%22Public+Service+Commission%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+   "wvOutlet": true
+  },
+  {
+   "id": "gnews-wvnews",
+   "name": "WV News",
+   "url": "https://news.google.com/rss/search?q=site%3Awvnews.com+%28%22data+center%22+OR+microgrid+OR+coal+OR+%22power+plant%22+OR+PJM+OR+%22Mon+Power%22+OR+%22Appalachian+Power%22+OR+UMWA+OR+%22natural+gas%22+OR+%22Public+Service+Commission%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
    "id": "bing-dc",
    "name": "Bing News",
    "url": "https://www.bing.com/news/search?q=%22West+Virginia%22+%22data+center%22&format=rss"
@@ -132,6 +134,26 @@
    "id": "bing-fortmartin",
    "name": "Bing News",
    "url": "https://www.bing.com/news/search?q=%22Fort+Martin%22+Mon+Power&format=rss"
+  },
+  {
+   "id": "bing-coalplant",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22West+Virginia%22+coal+plant&format=rss"
+  },
+  {
+   "id": "bing-umwa",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=UMWA+%22West+Virginia%22&format=rss"
+  },
+  {
+   "id": "bing-pjm",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=PJM+%22West+Virginia%22+capacity&format=rss"
+  },
+  {
+   "id": "bing-wvrates",
+   "name": "Bing News",
+   "url": "https://www.bing.com/news/search?q=%22West+Virginia%22+%22Public+Service+Commission%22+electric+rates&format=rss"
   }
  ],
  "match": [
@@ -265,7 +287,8 @@
   ]
  },
  "block": [
-  "androguider.com"
+  "androguider.com",
+  "game note gems"
  ],
  "syndicators": [
   "yahoo.com",
@@ -292,5 +315,54 @@
   "newsandsentinel.com",
   "theintermountain.com",
   "theet.com"
+ ],
+ "energyMatch": [
+  "coal-fired",
+  "coal fired",
+  "coal plant",
+  "coal plants",
+  "coal mine",
+  "coal miners",
+  "coal production",
+  "coal supply",
+  "coal association",
+  "mine workers",
+  "umwa",
+  "metallurgical coal",
+  "power plant",
+  "power plants",
+  "power station",
+  "generating station",
+  "mount storm",
+  "harrison power",
+  "john amos",
+  "mountaineer plant",
+  "mitchell plant",
+  "pleasants power",
+  "longview power",
+  "grant town",
+  "capacity factor",
+  "pjm",
+  "capacity auction",
+  "capacity market",
+  "mon power",
+  "monongahela power",
+  "potomac edison",
+  "appalachian power",
+  "wheeling power",
+  "dominion energy",
+  "firstenergy",
+  "rate case",
+  "electric rates",
+  "electric bills",
+  "utility bills",
+  "public service commission",
+  "transmission line",
+  "natural gas",
+  "gas-fired",
+  "gas plant",
+  "gas and oil association",
+  "mountain valley pipeline",
+  "gas pipeline"
  ]
 }
