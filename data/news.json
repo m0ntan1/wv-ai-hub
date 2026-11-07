@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:24:04Z",
+ "updated": "2026-11-07T17:46:01Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,45 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "sc-approves-settlement-to-mountaineer-gas-base-rate-increase",
+   "d": "2026-11-07T17:05:03Z",
+   "title": "PSC approves settlement to Mountaineer Gas’ base rate increase",
+   "url": "https://wvmetronews.com/2026/11/07/psc-approves-settlement-to-mountaineer-gas-base-rate-increase/",
+   "source": "WV MetroNews",
+   "summary": "Customers of Mountaineer Gas may notice a higher rate for service when December arrives. The state Public Service Commission has approved a settlement to the company’s latest rate case. The approved agreement allows for higher base rates which are expected to generate about $17.3",
+   "projects": [],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "sc-approves-settlement-to-mountaineer-gas-base-rate-increase"
+  },
+  {
+   "id": "matzfmnh4zmzptldnay1qytuyd2dvudvuoxnqbgqts2nvutmtwtbozniwcmm",
+   "d": "2026-11-07T11:00:00Z",
+   "title": "WV certified Boone County data center campus project without public announcement",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTWhPTWdCX2oxaXRmeWF6V3JWVXhlUU1rM1k5czR6eG15RFlMdVlWMUxzU3JDQk9fc3NGTmphTlhyY3dSa1o0bmxCYW9XLTBJSVN1Z1NHRy1saEdmMGJyTzdQaHctZG1qa1RHd3lVTGo1X21Bakgxa2V6YlVsQlJ5TlBMWTctVTdyN182MGZnZlNkMUtBU0tSek1iUlBYVTNBbk4zY21JaHZsRTFMVkFIQnJHY3hxSTFKZWdoT0pPS2dRRnAxZnVlVWdmLVJmNGRXYzYyczJkd3RpYk9vVHFwM2NMSkNDcjFYM0lMaTZFMnh4ZmZPTldNay1QYTUyd2dvUDVUOXNQbGQtS2NvUTMtWTBOZnIwcmM?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "matzfmnh4zmzptldnay1qytuyd2dvudvuoxnqbgqts2nvutmtwtbozniwcmm"
+  },
+  {
+   "id": "0n19qu1bqehbrv2phzi0wm084zexwx3jyu05rawo5znhcwxmtvg53rgxkuje",
+   "d": "2026-11-07T10:30:00Z",
+   "title": "Franklin Furnace residents raise Google data center concerns at Scioto commission meeting",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPUmlnalZRSkN1a3pkUHU4ZlpxMndZV0JkbjVoeTBCMDkzdG1nc2VoTnoyVnlLNTltaWdYWlFGMWVHZk1IdGJ2S0tTVWZqVzdzc1Y4N0ZaTGpiV3pHZklzZDM1NnAyWWRqaTFkU2E4M2NOTDFfYWM2ZFpsMWU5UV8tQ1lpN0l3QVpFYXVlOTA1TmN2WW1jRk0xSXl2a0RPQVlrX3lJYkdOTUhLV2lnalU3LVZJYjZkOTIxZl82dEl4d3NWR1dBVDdrbjZNdUMxZmU5c0VkWE5ESDdXNEw1ZVRqZ2gtMktidkc0N19QU1BQeHBRV2pHZi0wM084ZExwX3JYU05RaWo5ZnhCWXMtVG53RGxkUjE?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [
+    "google"
+   ],
+   "via": "gnews-herald",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "0n19qu1bqehbrv2phzi0wm084zexwx3jyu05rawo5znhcwxmtvg53rgxkuje"
+  },
   {
    "id": "-fire-training-held-in-clarksburg-for-local-first-responders",
    "d": "2026-11-06T23:45:54Z",
@@ -665,6 +704,18 @@
    "story": "-consent-as-proposed-data-centers-raise-concerns-ar-aa2fzueq"
   },
   {
+   "id": "3s1doelu5mlnfn0jnagpczxy3ohdez1o0be03te9ov3ntatbyuy1hzgrnt3c",
+   "d": "2026-10-23T07:00:00Z",
+   "title": "Meta to build multibillion-dollar data center near Maysville KY",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSXczblktZERMblQ0cVZ6ak9VaDBqOTMtUnVBc09xSU01Y0pTVU1KVk9Ia3RwOEF0b2o3aXhOa2NFYWp0ZVN2VlZrcnFYdVZTS25Ia2JjeWdLalRsT0FYNmJkMTZ5YUFUVDJadnhCUU9tV21wdy1jN3pIRzM0ZjFxeTJja0k0eE1yc2tGeTJFTTkwLWZCYXNSUlhjTFpBRV93V2t6emtJRm4tdGhicTdGcE1jRWJyY0lNeDZ0cFY3S1doelU5MlNfN0JNaGpCZXY3OHdEZ1o0bE03TE9OV3NTaTByUy1hZGRNT3c?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "3s1doelu5mlnfn0jnagpczxy3ohdez1o0be03te9ov3ntatbyuy1hzgrnt3c"
+  },
+  {
    "id": "l-concerns-article-c3a4d229-37c1-425e-b2bf-e49a02a19373-html",
    "d": "2026-10-23T06:30:00Z",
    "title": "West Virginia officials weigh data center growth against farmland, local concerns",
@@ -811,7 +862,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
-   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
   },
   {
    "id": "tlljthlnefh5ck1juwpxn2fpmhj0ymjuexz1r0nhxzjyovrobmpks28tq2zn",
@@ -837,7 +888,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-05T11:07:12Z",
-   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
   },
   {
    "id": "dm5aaljnoevfwhl0ugdkzugzb0rnajhns1oynkd5zggyrtdwofnktu1qt21n",
@@ -903,7 +954,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T16:16:37Z",
-   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
   },
   {
    "id": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk",
@@ -931,6 +982,34 @@
    "story": "lic-service-commission-makes-power-rule-a-goal-not-a-mandate"
   },
   {
+   "id": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report",
+   "d": "2026-10-19T17:00:00Z",
+   "title": "Anthropic and Nscale in talks for second $45bn deal - report",
+   "url": "https://www.datacenterdynamics.com/en/news/anthropic-and-nscale-in-talks-for-second-45bn-deal-report/",
+   "source": "Datacenter Dynamics",
+   "summary": "Anthropic is reportedly in talks to lease more compute capacity from Nscale's Monach data center campus. As reported by Bloomberg, citing a person familiar with the matter, the contract could be ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
+  },
+  {
+   "id": "n-ai-cloud-computing-deal-bloomberg-news-reports-ar-aa2faxyk",
+   "d": "2026-10-19T13:45:00Z",
+   "title": "Anthropic, Nscale in talks for new $45 billion AI cloud computing deal, Bloomberg News reports",
+   "url": "https://www.msn.com/en-us/technology/tech-companies/anthropic-nscale-in-talks-for-new-45-billion-ai-cloud-computing-deal-bloomberg-news-reports/ar-AA2fAXyK",
+   "source": "MSN",
+   "summary": "Oct 19 (Reuters) - Nvidia-backed Nscale is in talks to sell computing power to Claude maker Anthropic in a new deal that could be worth about $45 billion, Bloomberg News reported on Monday, citing ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-07T17:46:01Z",
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
+  },
+  {
    "id": "n-ai-cloud-computing-deal-bloomberg-news-reports-ar-aa2fbqp9",
    "d": "2026-10-19T13:19:55Z",
    "title": "Nscale, Anthropic in talks for $45 billion AI cloud computing deal, Bloomberg News reports",
@@ -942,7 +1021,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-04T11:06:45Z",
-   "story": "cale-and-anthropic-reportedly-in-talks-over-second-45bn-deal"
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
   },
   {
    "id": "sc1mreptetjpbw5lawzwdxb2ni1fzlo2z1bscettzedxau9pvwviek5lnuj0",
