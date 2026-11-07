@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:12:47Z",
+ "updated": "2026-11-07T00:58:13Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,31 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "-fire-training-held-in-clarksburg-for-local-first-responders",
+   "d": "2026-11-06T23:45:54Z",
+   "title": "Gas fire training held in Clarksburg for local first responders",
+   "url": "https://www.wboy.com/news/harrison/gas-fire-training-held-in-clarksburg-for-local-first-responders/",
+   "source": "WBOY 12",
+   "summary": "Hope Gas plans to continue hosting these hands-on safety sessions to support local emergency personnel and help prepare them for natural gas emergencies.",
+   "projects": [],
+   "energy": true,
+   "via": "wboy",
+   "seen": "2026-11-07T00:58:13Z",
+   "story": "-fire-training-held-in-clarksburg-for-local-first-responders"
+  },
+  {
+   "id": "q05dyl9nze9wd041txles1bmsjvcc2vqbtfgcepjq1fxvvnbmmlosmdcbgn3",
+   "d": "2026-11-06T19:16:00Z",
+   "title": "AI data centers took beating in midterms; a reckoning may be ahead for tech giants",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNejdBeGpPRjRRQnl3NDJDWU9FdEpmWkRWd0pYdmgwc2d4X2d5Y0xBdVpXbnI2bVFxa3ZaQ3dydzQ4cXJEMURKOGcyUk5wc29xM09aeHRGWDExSjM5MmlfX3VxbGZyUzBjcmMxbHFBdktTZzdsMF9xUVhiWm1mR2hUTnZsWmZCdFN6enJadU9YcFV0QU5pWUJnSWN6aUJfSG1WQy1jaG5lZjNxbzBrMkVzTk5IRE5Yb2NJaDZodlFacU94OWNwc2RZY254VGl2RlVYWXk4QjYzQ05DYl9NZE9wd041TXlES1BMSjVCc2VQbTFGcEpJQ1FxVVNBMmloSmdCbGN3?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-07T00:58:13Z",
+   "story": "q05dyl9nze9wd041txles1bmsjvcc2vqbtfgcepjq1fxvvnbmmlosmdcbgn3"
+  },
   {
    "id": "2026-11-06-open-house-held-valley-link-north-project",
    "d": "2026-11-06T03:49:27Z",
@@ -517,6 +542,20 @@
    "via": "bing-dc",
    "seen": "2026-11-05T11:07:12Z",
    "story": "es-firstenergy-data-center-pipeline-increases-130002357-html"
+  },
+  {
+   "id": "sfbqyxvuugqzvja3utrkq2vtethfx2c3yvdnr3diznrrnwnncm5anhpkr1f4",
+   "d": "2026-10-28T19:39:00Z",
+   "title": "WVU economist projects $135 million economic impact from MARL in West Virginia",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUFAxNjhXU21HRHZvZDRTcUo5c2pveVY0ZU5kcXRReXN4N1ZkSVVuYzRGVzFqeDg4cml4bDlVSkpvc3E2WEh4WGd2dnJOR1FMcVhRZHZHQ1ZQRFoxd2U1aXU4MU90U2JLS0xUdzV2aVp5VWV4X201WWk1ZElKVFh1NkwwTUJDYnpJa2lVeEItcjJ5SGl0TXg3X241TVNibG1rQkFIWTJLS3VsNVM0UXpzRkNNN0w0aHJVdy1TbWFLbjhNMzZ5Rm5SSFBQYXVUUGQzVjA3UTRkQ2VTeThfX2c3YVdnR3dIZnRRNWNncm5aNHpKR1F4?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-07T00:58:13Z",
+   "story": "sfbqyxvuugqzvja3utrkq2vtethfx2c3yvdnr3diznrrnwnncm5anhpkr1f4"
   },
   {
    "id": "2026-10-28-data-center-opposition",
