@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:14:55Z",
+ "updated": "2026-11-08T13:38:35Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -1266,6 +1266,19 @@
    "via": "bing-microgrid",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ublic-comment-on-west-virginia-s-microgrid-rules-ar-aa2d9kye"
+  },
+  {
+   "id": "gh-costly-upgrades-to-aging-coal-plants-to-meet-power-demand",
+   "d": "2026-09-15T12:06:00Z",
+   "title": "West Virginia lawmakers weigh future of aging coal plants as power demand grows",
+   "url": "https://wchstv.com/news/local/west-virginia-lawmakers-weigh-costly-upgrades-to-aging-coal-plants-to-meet-power-demand",
+   "source": "WCHS-TV",
+   "summary": "CHARLESTON, W.Va. (WCHS) — West Virginia lawmakers are weighing how much to invest in keeping the state’s aging coal-fired power plants running as demand for electricity grows. Representatives from ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-08T13:38:35Z",
+   "story": "gh-costly-upgrades-to-aging-coal-plants-to-meet-power-demand"
   },
   {
    "id": "p-county-commission-debate-with-mike",
