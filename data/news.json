@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:46:01Z",
+ "updated": "2026-11-08T06:14:55Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -1431,6 +1431,19 @@
    "via": "bing-ridgeline",
    "seen": "2026-11-07T10:24:04Z",
    "story": "ideos-fundamental-data-responds-west-virginia-225545213-html"
+  },
+  {
+   "id": "energy-articles-coal-back-favour-us-plant-100010647-html",
+   "d": "2026-07-31T03:00:00Z",
+   "title": "Coal back in favour as US plant bidding war highlights rising demand to power AI",
+   "url": "https://finance.yahoo.com/energy/articles/coal-back-favour-us-plant-100010647.html",
+   "source": "Yahoo Finance",
+   "summary": "One of the US's biggest utilities has outbid a data centre developer to buy a coal plant in West Virginia, as the AI-driven electricity crunch spurs competition for a power source in structural ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-08T06:14:55Z",
+   "story": "energy-articles-coal-back-favour-us-plant-100010647-html"
   },
   {
    "id": "alley-link-hosts-open-house-about-proposed-transmission-line",
