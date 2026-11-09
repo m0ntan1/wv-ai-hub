@@ -318,7 +318,7 @@
   "county": "Statewide",
   "host": "PSC, Case 26-0075-E-CN",
   "how": "Filed by parties. Anyone can read the briefs on the PSC docket.",
-  "flag": "Date from Valley North Record. No briefing order appeared in PSC docket notices through Nov 2.",
+  "flag": "Date from Valley North Record. WV News (Nov 2) says briefs are due in November but gives no date, and no briefing order appeared in PSC docket notices through Nov 6.",
   "project": "marl",
   "sources": [
    {
@@ -328,6 +328,10 @@
    {
     "label": "PSC docket",
     "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   },
+   {
+    "label": "WV News",
+    "url": "https://www.wvnews.com/news/wvnews/wv-psc-wraps-up-marl-transmission-line-hearings-early-decision-expected-in-march/article_a1fb5fa1-a2f7-4b2f-89d4-cc1670893763.html"
    }
   ]
  },

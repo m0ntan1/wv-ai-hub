@@ -240,7 +240,7 @@
     {"t": "IPO pricing on Nasdaq (ANT): a further amendment with a price range, then the final prospectus", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}},
     {"t": "Nscale's financing for the Monarch build, since Anthropic's fees accrue only as capacity is delivered and accepted", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}}
    ],
-   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-03"
+   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-09"
   },
   {
    "id": "nvidia", "name": "Nvidia", "tranche": "backers", "also": ["shovels"], "listing": "public", "ticker": "NVDA",
@@ -259,7 +259,7 @@
    "sources": [
     {"label": "Baxtel: QTS Kearneysville", "url": "https://baxtel.com/campus/qts-kearneysville-campus"}
    ],
-   "health": {"status": "stable", "why": "Revenue of $5.0 billion in the quarter ended Jun 30, 2026, up 36% from a year earlier, with a profit in each of the last four quarters.", "approved": "2026-11-03"}, "checked": "2026-11-03"
+   "health": {"status": "stable", "why": "Revenue of $5.0 billion in the quarter ended Jun 30, 2026, up 36% from a year earlier, with a profit in each of the last four quarters.", "approved": "2026-11-03"}, "checked": "2026-11-09"
   },
   {
    "id": "starwood-capital", "name": "Starwood Capital Group", "tranche": "backers", "listing": "private",
