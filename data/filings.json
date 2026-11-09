@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T01:00:28Z",
+ "updated": "2026-11-09T22:29:50Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -653,6 +653,7 @@
      ]
     }
    ],
+   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1012,7 +1013,6 @@
      "filed": "2026-04-28"
     }
    },
-   "factsFrom": "0001031296-26-000144",
    "factsChecked": "2026-11-09"
   },
   "aep": {
@@ -1140,6 +1140,7 @@
      ]
     }
    ],
+   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1484,7 +1485,6 @@
      "filed": "2026-05-05"
     }
    },
-   "factsFrom": "0000004904-26-000072",
    "factsChecked": "2026-11-09"
   },
   "nextera": {
@@ -1632,6 +1632,7 @@
      ]
     }
    ],
+   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1876,7 +1877,6 @@
      "filed": "2026-04-23"
     }
    },
-   "factsFrom": "0000753308-26-000081",
    "factsChecked": "2026-11-09"
   },
   "dominion": {
@@ -2011,6 +2011,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2251,7 +2252,6 @@
      "filed": "2026-05-01"
     }
    },
-   "factsFrom": "0001193125-26-440697",
    "factsChecked": "2026-11-09"
   },
   "anthropic": {
@@ -3885,6 +3885,7 @@
      ]
     }
    ],
+   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4246,7 +4247,6 @@
      "filed": "2026-05-07"
     }
    },
-   "factsFrom": "0001711269-26-000117",
    "factsChecked": "2026-11-09"
   },
   "amazon": {
@@ -10251,6 +10251,7 @@
      ]
     }
    ],
+   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10613,7 +10614,6 @@
      "filed": "2026-08-03"
     }
    },
-   "factsFrom": "0000107263-26-000036",
    "factsChecked": "2026-11-09"
   },
   "nucor": {
@@ -11205,8 +11205,18 @@
    ]
   },
   "Starwood Digital Ventures": {
-   "total": 9,
+   "total": 10,
    "hits": [
+    {
+     "d": "2026-11-09",
+     "form": "10-Q",
+     "who": [
+      "MARA Holdings, Inc.  (MARA)"
+     ],
+     "cik": "0001507605",
+     "accn": "0001507605-26-000028",
+     "doc": "mara-20260930.htm"
+    },
     {
      "d": "2026-08-06",
      "form": "10-Q",
@@ -11520,7 +11530,7 @@
   },
   "DFF": {
    "last": {
-    "d": "2026-11-05",
+    "d": "2026-11-06",
     "v": 3.88
    },
    "monthly": [
@@ -11626,14 +11636,14 @@
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-05",
+    "d": "2025-11-06",
     "v": 3.87
    }
   },
   "DGS10": {
    "last": {
-    "d": "2026-11-05",
-    "v": 4.84
+    "d": "2026-11-06",
+    "v": 4.86
    },
    "monthly": [
     [
@@ -11734,12 +11744,12 @@
     ],
     [
      "2026-11",
-     4.9
+     4.892
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-05",
-    "v": 4.17
+    "d": "2025-11-06",
+    "v": 4.11
    }
   }
  }
