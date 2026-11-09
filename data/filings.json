@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:16:40Z",
+ "updated": "2026-11-09T01:00:28Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -1013,7 +1013,7 @@
     }
    },
    "factsFrom": "0001031296-26-000144",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "aep": {
    "cik": "0000004904",
@@ -1485,7 +1485,7 @@
     }
    },
    "factsFrom": "0000004904-26-000072",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "nextera": {
    "cik": "0000753308",
@@ -1877,7 +1877,7 @@
     }
    },
    "factsFrom": "0000753308-26-000081",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "dominion": {
    "cik": "0000715957",
@@ -2252,7 +2252,7 @@
     }
    },
    "factsFrom": "0001193125-26-440697",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "anthropic": {
    "cik": "0002130357",
@@ -4247,7 +4247,7 @@
     }
    },
    "factsFrom": "0001711269-26-000117",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "amazon": {
    "cik": "0001018724",
@@ -10614,7 +10614,7 @@
     }
    },
    "factsFrom": "0000107263-26-000036",
-   "factsChecked": "2026-11-08"
+   "factsChecked": "2026-11-09"
   },
   "nucor": {
    "cik": "0000073309",
