@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:44:40Z",
+ "updated": "2026-11-09T11:45:31Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "board-of-coal-mine-health-and-safety-over-silica-dust-limits",
+   "d": "2026-11-08T11:41:00Z",
+   "title": "UMWA files lawsuit with miners against State Board of Coal Mine Health and Safety over silica dust limits",
+   "url": "https://wajr.com/2026/11/08/umwa-files-lawsuit-with-miners-against-state-board-of-coal-mine-health-and-safety-over-silica-dust-limits/",
+   "source": "WAJR",
+   "summary": "OAK HILL, W.Va. — A lawsuit has been filed against the West Virginia Board of Coal Mine Health and Safety in an effort to have a standard set on the amount of silica dust allowed to be produced by ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-umwa",
+   "seen": "2026-11-09T11:45:31Z",
+   "story": "board-of-coal-mine-health-and-safety-over-silica-dust-limits"
+  },
   {
    "id": "sc-approves-settlement-to-mountaineer-gas-base-rate-increase",
    "d": "2026-11-07T17:05:03Z",
@@ -1386,6 +1399,20 @@
    "via": "bing-ridgeline",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
+  },
+  {
+   "id": "ould-lift-data-center-appeal-to-wv-supreme-court-ar-aa2b453z",
+   "d": "2026-08-27T13:35:39Z",
+   "title": "Judges’ orders could lift data center appeal to WV Supreme Court",
+   "url": "https://www.msn.com/en-us/news/other/judges-orders-could-lift-data-center-appeal-to-wv-supreme-court/ar-AA2b453z",
+   "source": "WBOY 12 News on MSN",
+   "summary": "West Virginia's Intermediate Court of Appeals ruled in two orders issued Wednesday that it lacks jurisdiction in the legal dispute over a state air quality permit for a Tucker County data center.",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-09T11:45:31Z",
+   "story": "ould-lift-data-center-appeal-to-wv-supreme-court-ar-aa2b453z"
   },
   {
    "id": "wv-intermediate-court-dismisses-environmental-202218200-html",
