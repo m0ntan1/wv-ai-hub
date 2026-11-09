@@ -27,7 +27,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:election@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261103T063000
 DTEND;TZID=America/New_York:20261103T193000
 SUMMARY:General Election Day
@@ -42,7 +42,7 @@ URL:https://wvmetronews.com/2026/10/30/data-centers-transmission-lines-hig
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-fisher@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261104T160000
 DTEND;TZID=America/New_York:20261104T190000
 SUMMARY:Valley Link open house: Fisher
@@ -62,7 +62,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-hambleton@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261104T170000
 DTEND;TZID=America/New_York:20261104T200000
 SUMMARY:Valley Link open house: Hambleton
@@ -81,7 +81,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-sissonville@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261105T170000
 DTEND;TZID=America/New_York:20261105T200000
 SUMMARY:Valley Link open house: Sissonville
@@ -100,7 +100,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:interims-nov@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261112
 SUMMARY:Legislative interim meetings
@@ -115,7 +115,7 @@ URL:https://www.wvlegislature.gov/committees/interims/interims.cfm
 END:VEVENT
 BEGIN:VEVENT
 UID:rmr-150csr41@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261110T120000
 DTEND;TZID=America/New_York:20261110T170000
 SUMMARY:Rule-Making Review Committee: the PSC's HB 2014 capacity rule
@@ -136,7 +136,7 @@ URL:https://www.wvlegislature.gov/committees/interims/intcomsched_agenda.c
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-buckhannon@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261112T160000
 DTEND;TZID=America/New_York:20261112T190000
 SUMMARY:Valley Link open house: Buckhannon
@@ -155,7 +155,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-spencer@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261117T160000
 DTEND;TZID=America/New_York:20261117T190000
 SUMMARY:Valley Link open house: Spencer
@@ -173,7 +173,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-capon@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261117T160000
 DTEND;TZID=America/New_York:20261117T190000
 SUMMARY:Valley Link open house: Capon Bridge
@@ -192,7 +192,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:tu-smallbiz@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261117T170000
 DTEND;TZID=America/New_York:20261117T190000
 SUMMARY:Tucker United small business meeting
@@ -205,7 +205,7 @@ URL:https://www.tuckerunited.com/about-7
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-roanoke@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261118T160000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Valley Link open house: Roanoke
@@ -224,7 +224,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-ranson@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261118T160000
 DTEND;TZID=America/New_York:20261118T190000
 SUMMARY:Valley Link open house: Ranson
@@ -242,7 +242,7 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:vl-glenville@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T190000
 SUMMARY:Valley Link open house: Glenville
@@ -261,26 +261,25 @@ URL:https://vltransmission.com/valley-north/
 END:VEVENT
 BEGIN:VEVENT
 UID:marl-briefs@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-SUMMARY:MARL initial briefs due (unconfirmed)
-DESCRIPTION:Parties in PSC Case 26-0075-E-CN file their initial briefs or 
- proposed orders on NextEra's 500 kV line.\nHow to take part: Filed by par
- ties. Anyone can read the briefs on the PSC docket.\nNote: Date from Vall
- ey North Record. WV News (Nov 2) says briefs are due in November but give
- s no date\, and no briefing order appeared in PSC docket notices through 
- Nov 6.\nValley North Record: https://valleynorthrecord.substack.com/p/reg
- ional-osint-db7\nPSC docket: https://www.psc.state.wv.us/scripts/WebDocke
- t/viewCaseForWebViewForm.cfm?CaseID=85745\nWV News: https://www.wvnews.co
- m/news/wvnews/wv-psc-wraps-up-marl-transmission-line-hearings-early-decis
- ion-expected-in-march/article_a1fb5fa1-a2f7-4b2f-89d4-cc1670893763.html\n
- Via WV AI Watch: https://wvaihub.com/#/calendar?e=marl-briefs
+SUMMARY:MARL initial briefs and proposed orders due
+DESCRIPTION:Parties in PSC Case 26-0075-E-CN file their initial briefs and
+  proposed orders on NextEra's 500 kV line\, under the existing procedural
+  schedule as reported by WV News.\nHow to take part: Filed by parties. An
+ yone can read the briefs on the PSC docket.\nValley North Record: https:/
+ /valleynorthrecord.substack.com/p/regional-osint-db7\nPSC docket: https:/
+ /www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=
+ 85745\nWV News: https://www.wvnews.com/news/wvnews/wv-psc-wraps-up-marl-t
+ ransmission-line-hearings-early-decision-expected-in-march/article_a1fb5f
+ a1-a2f7-4b2f-89d4-cc1670893763.html\nVia WV AI Watch: https://wvaihub.com
+ /#/calendar?e=marl-briefs
 URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
 END:VEVENT
 BEGIN:VEVENT
 UID:irp-data@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Mon Power IRP data due
@@ -295,19 +294,21 @@ URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
 END:VEVENT
 BEGIN:VEVENT
 UID:marl-reply@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
-SUMMARY:MARL reply briefs due (unconfirmed)
-DESCRIPTION:Reply briefs in PSC Case 26-0075-E-CN.\nNote: Date from Valley
-  North Record. Not yet confirmed by a PSC order.\nValley North Record: ht
- tps://valleynorthrecord.substack.com/p/regional-osint-db7\nVia WV AI Watc
- h: https://wvaihub.com/#/calendar?e=marl-reply
+SUMMARY:MARL reply briefs due
+DESCRIPTION:Reply briefs in PSC Case 26-0075-E-CN.\nValley North Record: h
+ ttps://valleynorthrecord.substack.com/p/regional-osint-db7\nWV News: http
+ s://www.wvnews.com/news/wvnews/wv-psc-wraps-up-marl-transmission-line-hea
+ rings-early-decision-expected-in-march/article_a1fb5fa1-a2f7-4b2f-89d4-cc
+ 1670893763.html\nVia WV AI Watch: https://wvaihub.com/#/calendar?e=marl-r
+ eply
 URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
 END:VEVENT
 BEGIN:VEVENT
 UID:interims-dec@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261209
 SUMMARY:Legislative interim meetings
@@ -321,7 +322,7 @@ URL:https://www.wvlegislature.gov/committees/interims/interims.cfm
 END:VEVENT
 BEGIN:VEVENT
 UID:session-open@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20270113T120000
 DTEND;TZID=America/New_York:20270113T140000
 SUMMARY:2027 Regular Session convenes
@@ -336,7 +337,7 @@ URL:https://home.wvlegislature.gov/
 END:VEVENT
 BEGIN:VEVENT
 UID:affordable-rally@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20270126T100000
 DTEND;TZID=America/New_York:20270126T120000
 SUMMARY:WV Rally for Affordable Energy
@@ -351,7 +352,7 @@ URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
 END:VEVENT
 BEGIN:VEVENT
 UID:marl-decision@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:MARL decision due
@@ -365,7 +366,7 @@ URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
 END:VEVENT
 BEGIN:VEVENT
 UID:session-end@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:2027 Regular Session ends (Day 60)
@@ -376,7 +377,7 @@ URL:https://www.multistate.us/resources/2027-legislative-session-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:mp-rate2@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:Mon Power rate increase\, step 2
@@ -392,7 +393,7 @@ URL:https://wvlegals.com/public-service-commission-of-west-virginia-charle
 END:VEVENT
 BEGIN:VEVENT
 UID:p-stopvl@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261102T140000
 DTEND;TZID=America/New_York:20261102T180000
 SUMMARY:Stop Valley Link peaceful protest
@@ -404,7 +405,7 @@ URL:https://valleynorthrecord.substack.com/p/regional-osint-db7
 END:VEVENT
 BEGIN:VEVENT
 UID:p-marl-hearing@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261103
 SUMMARY:MARL evidentiary hearing
@@ -419,7 +420,7 @@ URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monarch-deadline@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Monarch air permit: written comments due before 5 p.m.
@@ -437,7 +438,7 @@ URL:https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Partici
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monarch-virtual@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:DEP virtual hearing: Monarch air permit R14-0042
@@ -452,7 +453,7 @@ URL:https://www.wvgazettemail.com/news/energy_and_environment/health-conce
 END:VEVENT
 BEGIN:VEVENT
 UID:p-digigov@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:WV Digital Government Summit
@@ -465,7 +466,7 @@ URL:https://events.govtech.com/West-Virginia-Digital-Government-Summit
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monarch-water@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261026T170000
 DTEND;TZID=America/New_York:20261026T200000
 SUMMARY:DEP water-permit workshop and hearing: Monarch
@@ -479,7 +480,7 @@ URL:https://wchstv.com/news/local/public-hearing-input-used-in-massive-dat
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monroe@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:Monroe County data center protest
@@ -494,7 +495,7 @@ URL:https://www.wvtf.org/news/2026-10-26/residents-gather-in-giles-to-prot
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monarch-air@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:DEP air-permit workshop: Monarch
@@ -511,7 +512,7 @@ URL:https://www.wvgazettemail.com/news/energy_and_environment/health-conce
 END:VEVENT
 BEGIN:VEVENT
 UID:p-tu-townhall@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20261019T180000
 DTEND;TZID=America/New_York:20261019T200000
 SUMMARY:Tucker United town hall on Ridgeline
@@ -522,7 +523,7 @@ URL:https://www.tuckerunited.com/about-7
 END:VEVENT
 BEGIN:VEVENT
 UID:p-capitol-protest@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Data center protest at the State Capitol
@@ -535,7 +536,7 @@ URL:https://mountainstatespotlight.org/2026/10/28/data-center-opposition/
 END:VEVENT
 BEGIN:VEVENT
 UID:p-wvdcap@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:WV Data Center Accountability Project launches
@@ -548,7 +549,7 @@ URL:https://wvcag.org/?p=16377
 END:VEVENT
 BEGIN:VEVENT
 UID:p-marl-order@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:PSC refuses to pause or dismiss MARL
@@ -562,7 +563,7 @@ URL:https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseAct
 END:VEVENT
 BEGIN:VEVENT
 UID:p-greenbrier@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Monarch and Tamarack certified at The Greenbrier
@@ -579,7 +580,7 @@ URL:https://www.herald-dispatch.com/business/morrisey-hails-state-certific
 END:VEVENT
 BEGIN:VEVENT
 UID:p-ica@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:ICA dismisses Ridgeline air-permit appeals
@@ -592,7 +593,7 @@ URL:https://www.wtap.com/2026/08/26/state-appeals-court-dismisses-environm
 END:VEVENT
 BEGIN:VEVENT
 UID:p-putnam-res@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20260825T170000
 DTEND;TZID=America/New_York:20260825T190000
 SUMMARY:Putnam United resolution at the County Commission
@@ -608,7 +609,7 @@ URL:https://www.wvgazettemail.com/news/energy_and_environment/monarch-goog
 END:VEVENT
 BEGIN:VEVENT
 UID:p-naacp@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260816
 SUMMARY:WV NAACP convention calls for a moratorium
@@ -623,7 +624,7 @@ URL:https://blackbygod.org/articles/news/wv-naacp-demands-moratorium-on-da
 END:VEVENT
 BEGIN:VEVENT
 UID:p-govplan@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:Governor unveils the Responsible Data Center Development Plan
@@ -635,7 +636,7 @@ URL:https://www.wdtv.com/2026/08/11/west-virginia-unveils-20-year-responsi
 END:VEVENT
 BEGIN:VEVENT
 UID:p-fm-hearing@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20260715T173000
 DTEND;TZID=America/New_York:20260715T193000
 SUMMARY:Fort Martin public comment hearing (virtual and in person)
@@ -650,7 +651,7 @@ URL:https://www.wdtv.com/2026/05/15/public-hearing-set-monpowers-proposed-
 END:VEVENT
 BEGIN:VEVENT
 UID:p-psc-rule-hearing@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20260928T093000
 DTEND;TZID=America/New_York:20260928T120000
 SUMMARY:PSC public hearing on HB 2014 generating-capacity rules
@@ -666,7 +667,7 @@ URL:https://www.wdtv.com/2026/08/20/state-psc-schedules-public-hearing-pow
 END:VEVENT
 BEGIN:VEVENT
 UID:p-canaan@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260617
 SUMMARY:Interims at Canaan Valley\, with Tucker United picnic and Davis pa
@@ -682,7 +683,7 @@ URL:https://www.wvhighlands.org/?p=15053
 END:VEVENT
 BEGIN:VEVENT
 UID:p-monarch-sw@wvaihub.com
-DTSTAMP:20261109T104554Z
+DTSTAMP:20261109T104730Z
 DTSTART;TZID=America/New_York:20260615T180000
 DTEND;TZID=America/New_York:20260615T200000
 SUMMARY:DEP hearing: Monarch pipeline stormwater permit (WVR312628)
