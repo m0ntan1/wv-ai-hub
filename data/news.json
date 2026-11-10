@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:27:48Z",
+ "updated": "2026-11-10T17:07:08Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,18 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ctdxlfsc1qoe1emmz2dk9kaetqyu96u19rz2febunoze5ynxfpmwlncvd4zw",
+   "d": "2026-11-10T10:15:00Z",
+   "title": "Letter to the editor: Data center levy money requires scrutiny",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZDJzSjlYd3JFUWkwQ0cteVFjR0drcmVCMVl4OWJnOVRpQkVrbkVHcHJxRnFKRWtubXl3LUhOdmRiaUFwS2ZqeGNKUklmNk9iOWF3ZmJnTF9KOFFjSllOc1ZBVjJNOTJlZ2U2OVc4TjJiVUpzdi1rY21BcDVJcnd6UkpsS1pGSEtnYU4zTnJJN0JDQ09BM2lHV0wxbzhBQmplMnhNWEktMUxiT003bnQzWXRSbmRHWjB3akctdXlfSC1QOE1EMmZ2dk9kaEtqYU96U19RZ2FEbUNOZE5YNXFpMWlncVd4Zw?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-10T17:07:08Z",
+   "story": "ctdxlfsc1qoe1emmz2dk9kaetqyu96u19rz2febunoze5ynxfpmwlncvd4zw"
+  },
   {
    "id": "for-economic-development-beyond-data-centers-in-boone-county",
    "d": "2026-11-10T01:02:45Z",
@@ -84,6 +96,18 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-09T22:28:28Z",
    "story": "ahc1zgdnovgxvnvwav9qqldruknmcexyluxvbgflohh4c2vwtmnkz2j3twnm"
+  },
+  {
+   "id": "rginia-quietly-certifies-massive-boone-county-ai-data-center",
+   "d": "2026-11-08T15:00:00Z",
+   "title": "West Virginia Quietly Certifies Massive Boone County AI Data Center",
+   "url": "https://hoodline.com/2026/11/west-virginia-quietly-certifies-massive-boone-county-ai-data-center/",
+   "source": "Hoodline",
+   "summary": "West Virginia's Department of Commerce certified a sprawling artificial-intelligence data center on a former surface mine north of Danville in Boone County without telling the public it had happened.",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-10T17:07:08Z",
+   "story": "rginia-quietly-certifies-massive-boone-county-ai-data-center"
   },
   {
    "id": "board-of-coal-mine-health-and-safety-over-silica-dust-limits",
@@ -474,6 +498,20 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "zuzvuc0kzdwg2ddfztdm4s1jhcwmxr1zum28yq1zqc1vfwuvprhiwwdu5oxi",
+   "d": "2026-10-30T14:51:00Z",
+   "title": "'The enemy is my fellow citizens': Preston landowner speaks out against MARL project",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNVTdDQ2EtUXI3azlLdmlwaURKa3RidHJPdTEzTDI4NFdLLXlZaEJad2luTE1KMGl4YnotQ1FfYUhNTW5vaFJsbnJEXzVfUlhJcG92bTh6b2VNWkV2ZmJDanhLclF1cWZ6MjZuQ3FEdF9BeW9ObUpMRHgzdDdCem96TnpVM1gzbjJTSk9qTmlZOExUODh0R1p3V3FJTzF4RE5qNEdYNGhZRmV1VWZoX255dG9uUWZyejZGdWcwSjBqMUhGbWMwT0tuZTNVY1phbEFFMzM0XzNBYXZoYjMzUzVUc0kzdWg2dDFZTDM4S1JHcWMxR1ZuM28yQ1Zqc1VFWUVPRHIwWDU5OXI?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-10T17:07:08Z",
+   "story": "zuzvuc0kzdwg2ddfztdm4s1jhcwmxr1zum28yq1zqc1vfwuvprhiwwdu5oxi"
   },
   {
    "id": "nia-expands-data-center-footprint-with-streamlined-approvals",
