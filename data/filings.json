@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:08:34Z",
+ "updated": "2026-11-10T23:30:17Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -10751,6 +10751,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-454565",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -11111,7 +11112,6 @@
      "filed": "2026-11-10"
     }
    },
-   "factsFrom": "0001193125-26-454565",
    "factsChecked": "2026-11-10"
   }
  },
@@ -11536,7 +11536,7 @@
   },
   "DFF": {
    "last": {
-    "d": "2026-11-06",
+    "d": "2026-11-09",
     "v": 3.88
    },
    "monthly": [
@@ -11642,14 +11642,14 @@
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-06",
+    "d": "2025-11-09",
     "v": 3.87
    }
   },
   "DGS10": {
    "last": {
-    "d": "2026-11-06",
-    "v": 4.86
+    "d": "2026-11-09",
+    "v": 4.88
    },
    "monthly": [
     [
@@ -11750,11 +11750,11 @@
     ],
     [
      "2026-11",
-     4.892
+     4.89
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-06",
+    "d": "2025-11-07",
     "v": 4.11
    }
   }

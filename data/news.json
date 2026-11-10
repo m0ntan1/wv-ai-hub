@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:07:08Z",
+ "updated": "2026-11-10T23:28:52Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,33 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "cwfbvm9vyv9jmdzjyxvvswdlehzhck9nsndjztnytkfnym04rhpvngk2x0pc",
+   "d": "2026-11-10T17:07:55Z",
+   "title": "West Virginia Approves Proposed $9.65B Boone County Data Center Project",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRFBQTGJzcl9hdDF2VVY2LUtMWlhRLTh5NlJQZk1pMFhpMHd3LVFvSXd1amtmM1hYc0h2RF9UeEszamdtMVV6bDZ3R2hWd0xQb3AxTG5RYlFHUUxBeXVGb2FJSkxDMC1EV2hwTmt4TkZ3Qk5pOE4wYWRSaTZvWXZJMnhqYXkzTVBpRUZMOG0yN2R6ZXhQYjhUTWRvNVZmSm9BcEhkWEpObWZ3cWNqbjFZcWFBVm9VYV9JMDZJYXVVSWdleHZhck9NSndjZTNyTkFnYm04RHpVNGk2X0pC?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-10T23:28:52Z",
+   "story": "cwfbvm9vyv9jmdzjyxvvswdlehzhck9nsndjztnytkfnym04rhpvngk2x0pc"
+  },
+  {
+   "id": "151121-valley-link-at-5-1b-who-pays-is-settled",
+   "d": "2026-11-10T14:56:00Z",
+   "title": "Valley Link at $5.1B; Who Pays is Settled",
+   "url": "https://www.rtoinsider.com/151121-valley-link-at-5-1b-who-pays-is-settled/",
+   "source": "RTO Insider",
+   "summary": "Materials for PJM's most recent Transmission Expansion Advisory Committee meeting included a schedule and cost update for Valley Link.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-10T23:28:52Z",
+   "story": "151121-valley-link-at-5-1b-who-pays-is-settled"
+  },
   {
    "id": "ctdxlfsc1qoe1emmz2dk9kaetqyu96u19rz2febunoze5ynxfpmwlncvd4zw",
    "d": "2026-11-10T10:15:00Z",
