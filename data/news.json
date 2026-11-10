@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:28:28Z",
+ "updated": "2026-11-10T07:27:48Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,18 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "for-economic-development-beyond-data-centers-in-boone-county",
+   "d": "2026-11-10T01:02:45Z",
+   "title": "Former state lawmaker hoping for economic development beyond data centers in Boone County",
+   "url": "https://wvmetronews.com/2026/11/09/former-state-lawmaker-hoping-for-economic-development-beyond-data-centers-in-boone-county/",
+   "source": "WV MetroNews",
+   "summary": "Dr. Ron Stollings calls for more investments beyond a proposed data center on the old Hobet mine. The post Former state lawmaker hoping for economic development beyond data centers in Boone County appeared first on WV MetroNews .",
+   "projects": [],
+   "via": "metronews",
+   "seen": "2026-11-10T07:27:48Z",
+   "story": "for-economic-development-beyond-data-centers-in-boone-county"
+  },
   {
    "id": "ton-county-commission-adopts-second-resolution-opposing-marl",
    "d": "2026-11-09T22:21:29Z",
@@ -700,6 +712,21 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-06T15:12:47Z",
    "story": "rfvwzwalpuzxjubvrhtvlysxy1vvffnkntamnozmliund0cfu5re5xy1ppoa"
+  },
+  {
+   "id": "y-north-jefferson-county-opponents-question-power-line-plans",
+   "d": "2026-10-27T13:06:00Z",
+   "title": "Who benefits from Valley North? Jefferson County opponents question power line plans",
+   "url": "https://www.mybuckhannon.com/who-benefits-from-valley-north-jefferson-county-opponents-question-power-line-plans/",
+   "source": "My Buckhannon",
+   "summary": "In Jefferson County, Valley North’s proposed transmission line route has sparked a familiar debate over land, resources and who ultimately holds the power.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-10T07:27:48Z",
+   "story": "line-has-sparked-a-familiar-debate-over-land-resources-power"
   },
   {
    "id": "emand-cited-in-need-for-marl-additional-mountain-state-765kv",
