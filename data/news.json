@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T23:28:52Z",
+ "updated": "2026-11-11T17:14:54Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,45 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "grant-to-extend-gas-service-to-taz-hardwoods-industrial-site",
+   "d": "2026-11-11T15:53:25Z",
+   "title": "Preston County EDA using federal grant to extend gas service to TAZ Hardwoods industrial site",
+   "url": "https://www.dominionpost.com/2026/11/11/preston-county-eda-using-federal-grant-to-extend-gas-service-to-taz-hardwoods-industrial-site/",
+   "source": "The Dominion Post",
+   "summary": "By David Beard dbeard@dominionpost.com MORGANTOWN – The Preston County Economic Development Authority has contracted with Atlanta-based PS Energy Group to extend natural gas service to the county’s new industrial site on the former TAZ Hardwoods sawmill property in Hazelton. The ",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "grant-to-extend-gas-service-to-taz-hardwoods-industrial-site"
+  },
+  {
+   "id": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants",
+   "d": "2026-11-11T15:09:20Z",
+   "title": "West Virginia lawmakers approve 69% capacity rule for coal-fired power plants",
+   "url": "https://westvirginiawatch.com/2026/11/11/west-virginia-lawmakers-approve-69-capacity-rule-for-coal-fired-power-plants/",
+   "source": "West Virginia Watch",
+   "summary": "Lawmakers agreed with a Public Service Commission rule on Tuesday that would keep a requirement for electrical generation capacity on coal-fired plants as a goal, rather than a mandate.",
+   "projects": [],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants"
+  },
+  {
+   "id": "a4ti1puunhdgrpswjib21emzhqcudpm213zhrnzlflmxfyc2tblwtirwljna",
+   "d": "2026-11-11T15:06:00Z",
+   "title": "PJM report shows rising costs, delays for major West Virginia transmission projects",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQUXR4RkxnZGw0cm54bTUxb3J0bVY3UkRxMndlY2gyamNZOTJTV2o5OThOc2k1Ui1DN0JXOHRnUVdvN0ZsUE1VRHZTWndnaDNObloydFFONnplNnhUYWE2bS1QVnRHQ2JnRDFTRmNySTd6aXZ2MGlNbUlsejR4dWZ2cV9kYTNzUjFPMjQ1MEI5TXpVeDhFVDRxWXlZcHFVQWoyRXctcEx2dnNmRlRHRTY3cS04OXVmdWktaHJHc3RBbnJXVjM0MVhDZmxjT0xZVlA4Ti1pUUNhdGRPSWJib21EMzhqcUdPM213ZHRNZlFLMXFyc2tBLWtiRWlJNA?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "a4ti1puunhdgrpswjib21emzhqcudpm213zhrnzlflmxfyc2tblwtirwljna"
+  },
   {
    "id": "cwfbvm9vyv9jmdzjyxvvswdlehzhck9nsndjztnytkfnym04rhpvngk2x0pc",
    "d": "2026-11-10T17:07:55Z",
@@ -348,6 +387,19 @@
    "via": "bing-nscale",
    "seen": "2026-11-05T11:07:12Z",
    "story": "content-668e6ef8-88a1-4bef-8664-8f495baf09f8"
+  },
+  {
+   "id": "articles-2546249-judge-oks-353m-bid-for-power-plant-in-ch-11",
+   "d": "2026-11-04T12:54:00Z",
+   "title": "Judge OKs $353M Bid For Power Plant In Ch. 11",
+   "url": "https://www.law360.com/bankruptcy-authority/articles/2546249/judge-oks-353m-bid-for-power-plant-in-ch-11",
+   "source": "Law360",
+   "summary": "A Delaware bankruptcy judge has given West Virginia coal plant operator Omnis Pleasants the go-ahead to accept an approximately $353 million baseline bid for its assets in an auction to be held next ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "articles-2546249-judge-oks-353m-bid-for-power-plant-in-ch-11"
   },
   {
    "id": "ginia-mason-county-wv-mason-county-passes-school-excess-levy",
@@ -1236,6 +1288,18 @@
    "story": "eklvb29qsxbvsvdxvudzzi1nchlmtnd4mwk0ls1wedyyqkdqetdeclfdsnzl"
   },
   {
+   "id": "noe1hq1ncajbqn19ddkfev3nmq1jurupqa19slv9oazvqdthxqup1yzjnshk",
+   "d": "2026-10-17T07:00:00Z",
+   "title": "Beshear issues executive order to protect against ‘harmful impacts’ of data centers",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYzc5RjRDWldhdi14YlRfSW42N1gzQ1JjajlkYXRaN1lEQnFMTGtKak1pV243Y3dYV2ZMX2gxb2V1REdHaTgyeXlOTGRjUFlCZngwVnNpQUZZeER5QzE0R3h0TF9UU3EtS2FMVzdNS09nRkxVaGV6cDlyZ21ocW5HZ3UybUlZY1VDM0RwRUVwR3d4SHJmSXZySmF0SElMZGg3YzZSdkd4R0szU01EWVZLdG83WkRVdEF5M2QycFdQbk9iVWJ4QzI1aEZ2VDlsZ2NnOE1HQ1NCajBqN19DdkFEV3NMQ1JuRUpQa19SLV9OazVQdThxQUp1YzJNSHk?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "noe1hq1ncajbqn19ddkfev3nmq1jurupqa19slv9oazvqdthxqup1yzjnshk"
+  },
+  {
    "id": "ymvffutqtdxdkmgfjwxuxu2toufptcgzamlplodngumhfvgf1buxtnlzxzlk",
    "d": "2026-10-16T07:00:00Z",
    "title": "Appalachian Power Foundation supports EMS training with $50K grant",
@@ -1437,6 +1501,20 @@
    "via": "bing-microgrid",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ublic-comment-on-west-virginia-s-microgrid-rules-ar-aa2d9kye"
+  },
+  {
+   "id": "news-videos-bill-danoff-co-writer-country-214900739-html",
+   "d": "2026-09-16T14:49:00Z",
+   "title": "Bill Danoff, co-writer of 'Country roads' says proposed Valley Link power line would 'bludgeon' West Virginia",
+   "url": "https://www.yahoo.com/news/videos/bill-danoff-co-writer-country-214900739.html",
+   "source": "Yahoo",
+   "summary": "Add Yahoo as a preferred source to see more of our stories on Google. Bill Danoff, co-writer of the iconic West Virginia anthem \"Take Me Home Country Roads\" has joined country music legend Marty ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-11T17:14:54Z",
+   "story": "news-videos-bill-danoff-co-writer-country-214900739-html"
   },
   {
    "id": "gh-costly-upgrades-to-aging-coal-plants-to-meet-power-demand",
@@ -1859,20 +1937,6 @@
    "via": "bing-fortmartin",
    "seen": "2026-11-06T15:12:47Z",
    "story": "seek-approval-for-reliability-and-infrastructure-investments"
-  },
-  {
-   "id": "te-near-davis-after-receiving-74-protest-letters-ar-aa23ikeo",
-   "d": "2026-05-15T11:47:00Z",
-   "title": "Public hearing set on MonPower’s proposed gas plant in Mon County & solar site near Davis after receiving 74 protest letters",
-   "url": "https://www.msn.com/en-us/money/general/public-hearing-set-on-monpower-s-proposed-gas-plant-in-mon-county-solar-site-near-davis-after-receiving-74-protest-letters/ar-AA23iKEO",
-   "source": "MSN",
-   "summary": "BRIDGEPORT, W.Va (WDTV) - A case involving a proposed natural gas facility at the Fort Martin Power Station in Monongalia County and three solar projects — near Albright, adjacent to the Town of Davis ...",
-   "projects": [
-    "fortmartin"
-   ],
-   "via": "bing-fortmartin",
-   "seen": "2026-11-03T13:03:33Z",
-   "story": "te-near-davis-after-receiving-74-protest-letters-ar-aa23ikeo"
   }
  ]
 }
