@@ -1,5 +1,22 @@
 [
  {
+  "d": "2026-11-07",
+  "t": "The Gazette-Mail reports the state certified a Boone County data center campus, \"Project Country Roads\" (certification notice: about 3,557 acres and 1.4 GW; developer materials: up to 10 GW), by a Sept. 30 Commerce letter, without public notice.",
+  "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+ },
+ {
+  "d": "2026-11-05",
+  "t": "Valley Link starts a second round of open houses and says it expects to file its preferred and alternate routes with state regulators early next year.",
+  "project": "valleylink",
+  "src": "https://wvmetronews.com/2026/11/05/developers-continue-second-round-of-open-houses-on-valley-north-260-mile-transmission-line/"
+ },
+ {
+  "d": "2026-10-30",
+  "t": "The PSC ends the MARL evidentiary hearings a day early. Initial briefs and proposed orders are due Nov 23, reply briefs Dec 4, and a decision is expected by March 6, 2027.",
+  "project": "marl",
+  "src": "https://www.wvnews.com/news/wvnews/wv-psc-wraps-up-marl-transmission-line-hearings-early-decision-expected-in-march/article_a1fb5fa1-a2f7-4b2f-89d4-cc1670893763.html"
+ },
+ {
   "d": "2026-11-03",
   "t": "Correction: DEP's own notice says written comments on Monarch's air permit R14-0042 are due before 5 p.m. Nov 13, not Oct 30 as earlier reported.",
   "project": "monarch",
