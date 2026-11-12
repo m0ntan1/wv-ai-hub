@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T17:14:54Z",
+ "updated": "2026-11-12T00:49:17Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "11-11-city-asks-mon-power-to-pause-amid-pushback-over-lights",
+   "d": "2026-11-11T20:00:06Z",
+   "title": "City asks Mon Power to pause amid pushback over lights",
+   "url": "https://www.dominionpost.com/2026/11/11/city-asks-mon-power-to-pause-amid-pushback-over-lights/",
+   "source": "The Dominion Post",
+   "summary": "MORGANTOWN – Morgantown City Manager Jamie Miller said the city has asked Mon Power to pause the conversion of streetlights to 50-watt LED bulbs in residential areas based on concerns expressed by residents. Some of those concerns were delivered Tuesday evening, when seven speake",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-12T00:49:17Z",
+   "story": "11-11-city-asks-mon-power-to-pause-amid-pushback-over-lights"
+  },
   {
    "id": "grant-to-extend-gas-service-to-taz-hardwoods-industrial-site",
    "d": "2026-11-11T15:53:25Z",
@@ -985,6 +998,18 @@
    "via": "gnews-gazette",
    "seen": "2026-11-06T15:12:47Z",
    "story": "m2xcwmw3blvozzrgnfj4mtmywun3vu5vouxzvvr0d01hcxo0rmwzbmyyszfv"
+  },
+  {
+   "id": "mxvupiz19mnkp5aerzmtvmt2c1blnmnk95rfjty2p1wwjvs2liukrjtdhjtq",
+   "d": "2026-10-22T07:00:00Z",
+   "title": "Ukraine's strikes on Russian data centers disrupt key services and derail AI research",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNcGVhNXFoYlhnWDhWc25SLWFnVV8tZHVTUXhmWFVtSUZpTVc1TnlrSU9VRDJhMWZGZGo5bEFGQlRKeHk5T1UtLTlwSjBYMUJDRTV5SkVEc3lJZHBiQ3AtaG45ZXN3VzRfQ0EtN0M3UmlDdWVhZ1lwa2I4TjZCd01CQlBmYUotNENacldYTlhBMU9HaTNzTjI4TGh5TzRfZzYtaDZaMmpBUmljcGlXMk5CaHNicWczSzhzM1IxdnBveldkeGcyR0x0LXAxZlhmaHZFZ3UwZVF2UXdhMDMxVUpiZ19MNkp5aERZMTVmT2c1blNmNk95RFJtY2p1WWJvS2liUkRJTDhjTQ?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-12T00:49:17Z",
+   "story": "mxvupiz19mnkp5aerzmtvmt2c1blnmnk95rfjty2p1wwjvs2liukrjtdhjtq"
   },
   {
    "id": "video-west-virginia-gov-highlights-key-175742696-html",
