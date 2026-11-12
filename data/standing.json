@@ -4,7 +4,6 @@
   "county": "Berkeley",
   "rule": "Weekly on Thursdays (the time is on each agenda)",
   "where": "Commission Chambers, 400 W. Stephen St., Suite 205, Martinsburg",
-  "next": "Nov 5",
   "projects": [
    "penzance",
    "qts"
@@ -39,7 +38,6 @@
   "county": "Jefferson",
   "rule": "1st Thursday 9:30 a.m. and 3rd Thursday 6:00 p.m. (5th Thursday 9:30 a.m.)",
   "where": "Charles Town",
-  "next": "Nov 5 (9:30 a.m.)",
   "projects": [
    "qts",
    "summit"
@@ -106,7 +104,6 @@
   "county": "Monroe",
   "rule": "1st Wednesday, 9:00 a.m.",
   "where": "Monroe County Courthouse, Union",
-  "next": "Nov 4",
   "projects": [
    "monroe"
   ],
@@ -127,7 +124,7 @@
   "county": "Ohio",
   "rule": "1st and 3rd Tuesdays, 5:30 p.m.",
   "where": "Council Chambers, City-County Building, Wheeling",
-  "next": "Nov 4 (moved for the election) and Nov 17",
+  "next": "Nov 17",
   "projects": [
    "warwood"
   ],

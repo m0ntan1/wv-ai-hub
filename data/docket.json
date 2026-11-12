@@ -125,7 +125,7 @@
   "stage": "briefing",
   "stamp": "Decision due Mar 6, 2027",
   "tone": "cyan",
-  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The hearing ran Oct 26–30 and Nov 2 and was live-streamed.",
+  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments.",
   "projects": [
    "marl"
   ],
@@ -146,9 +146,21 @@
    {
     "label": "Docket",
     "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85745"
+   },
+   {
+    "label": "WV News: PSC wraps up hearings early",
+    "url": "https://www.wvnews.com/news/wvnews/wv-psc-wraps-up-marl-transmission-line-hearings-early-decision-expected-in-march/article_a1fb5fa1-a2f7-4b2f-89d4-cc1670893763.html"
+   },
+   {
+    "label": "PSC docket activity, Nov 4 (hearing transcripts, 199-signature petition)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673490&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 6 (72-signature petition, 25 protest letters)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673726&NotType=WebDocket"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-09"
  },
  {
   "id": "fortmartin",
@@ -160,7 +172,7 @@
   "stage": "awaiting",
   "stamp": "Fully briefed",
   "tone": "signal",
-  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. A statutory decision deadline of Feb 2027 has been reported.",
+  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. A statutory decision deadline of Feb 2027 has been reported. Two more letters of protest were filed Nov 6.",
   "projects": [
    "fortmartin"
   ],
@@ -182,10 +194,14 @@
    {
     "label": "Docket",
     "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+   },
+   {
+    "label": "PSC docket activity, Nov 6 (two protest letters)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673730&NotType=WebDocket"
    }
   ],
   "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
-  "checked": "2026-11-03"
+  "checked": "2026-11-09"
  },
  {
   "id": "apco-tariff",
