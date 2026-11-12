@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:27:32Z",
+ "updated": "2026-11-12T20:03:38Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,58 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ulti-billion-dollar-investment-in-west-virginia-power-plants",
+   "d": "2026-11-12T19:28:44Z",
+   "title": "Gov. Morrisey announces multi-billion dollar investment in West Virginia power plants",
+   "url": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/",
+   "source": "West Virginia Watch",
+   "summary": "Gov. Patrick Morrisey announced Thursday a $24 billion investment by Appalachian Power into natural gas and coal fire power plants throughout the state.",
+   "projects": [],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-12T20:03:38Z",
+   "story": "ulti-billion-dollar-investment-in-west-virginia-power-plants"
+  },
+  {
+   "id": "wysgo0rzdoduu1mndkae9ethq4djlfcme4afbsm1pmdve4efd6c08xy0fhqq",
+   "d": "2026-11-12T17:32:00Z",
+   "title": "Appalachian Power commits $17 billion to three West Virginia natural gas power plants",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRG4xcFZvLUtjaFFWRHVXTVNtcTFZWXpzLVRDalZ3a0tPVFBpdXFzMjI5RHREUWxmQWxhRjBPWEVtcXk5Q1JtWGtHODVyaHl2Q1JNeUx4RTFqT2pwZU9PWnFjU2FYZ2NFYjM3T0wyLWV4WVdlbmk2UlJEQ0xGckRkS29RWmdZSVR0NWl4UHBfNWdiemJwUEh5U3NHQlRCdndzek5OeGFvSTNFTG5SbEZ1VzlLbjdOVEtSVTVoSEVJNnVjVU1DbmpPR0E3alJqRnl0aUwySGo0RzdodUU1MndKaE9ETHQ4djlFcmE4aFBsM1pmdVE4eFd6c08xY0FhQQ?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-12T20:03:38Z",
+   "story": "wysgo0rzdoduu1mndkae9ethq4djlfcme4afbsm1pmdve4efd6c08xy0fhqq"
+  },
+  {
+   "id": "eexymzfuvulxmem1ei1bevrvnzvyn054a1aycgxzzujqtvlavwxyem0xu2nx",
+   "d": "2026-11-12T15:33:00Z",
+   "title": "Equitrans seeks FERC approval for $46.7M Harrison County gas pipeline",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUkdZZXFZVVpxS0FVcXpLLUZWVFkyV05hWWVwcVhWUHVvc0YxWlZfYnV3d2FGcTRWRjg0cll4MEY1WGNPd3drVTZuMzVQYjRXNjQtR0w4MFVzdnhya1BJT0ZMYjJJcDZERzZnd04tWGtKZlphMDJ6V3ZhMGFaMktyRlVyN1hhMmZYS3NCbnNLZ2JIVmVhclg1UVM2dUozY21Ia0lMekxtWTdoSGc3dXhPUDNYcFlxVjJkc1E3eExyMzFUVUlXMEM1ei1BeVRVNzVyN054a1AycGxZZUJQTVlaVWxYem0xU2NX?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-12T20:03:38Z",
+   "story": "eexymzfuvulxmem1ei1bevrvnzvyn054a1aycgxzzujqtvlavwxyem0xu2nx"
+  },
+  {
+   "id": "nvestments-17b-in-natural-gas-75b-in-coal-plants-ar-aa2hjsvt",
+   "d": "2026-11-12T10:40:23Z",
+   "title": "Gov. Morrisey announces energy investments: $17B in natural gas, $7.5B in coal plants",
+   "url": "https://www.msn.com/en-us/news/other/gov-morrisey-announces-energy-investments-17b-in-natural-gas-75b-in-coal-plants/ar-AA2hjSvt",
+   "source": "WCHS on MSN",
+   "summary": "State officials announced a major investment aimed at expanding West Virginia’s electricity supply.Appalachian Power has pledged $17 billion for natural gas-fired electricity generation along with ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-12T20:03:38Z",
+   "story": "ulti-billion-dollar-investment-in-west-virginia-power-plants"
+  },
   {
    "id": "ve-rules-on-coal-fired-energy-storage-tanks-hope-scholarship",
    "d": "2026-11-12T03:00:13Z",

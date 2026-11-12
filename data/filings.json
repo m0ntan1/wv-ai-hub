@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T00:50:52Z",
+ "updated": "2026-11-12T20:05:31Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -653,6 +653,7 @@
      ]
     }
    ],
+   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1012,7 +1013,6 @@
      "filed": "2026-04-28"
     }
    },
-   "factsFrom": "0001031296-26-000144",
    "factsChecked": "2026-11-12"
   },
   "aep": {
@@ -1140,6 +1140,7 @@
      ]
     }
    ],
+   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1484,7 +1485,6 @@
      "filed": "2026-05-05"
     }
    },
-   "factsFrom": "0000004904-26-000072",
    "factsChecked": "2026-11-12"
   },
   "nextera": {
@@ -1632,6 +1632,7 @@
      ]
     }
    ],
+   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1876,7 +1877,6 @@
      "filed": "2026-04-23"
     }
    },
-   "factsFrom": "0000753308-26-000081",
    "factsChecked": "2026-11-12"
   },
   "dominion": {
@@ -2011,6 +2011,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2251,7 +2252,6 @@
      "filed": "2026-05-01"
     }
    },
-   "factsFrom": "0001193125-26-440697",
    "factsChecked": "2026-11-12"
   },
   "anthropic": {
@@ -2293,6 +2293,17 @@
     "Nasdaq"
    ],
    "filings": [
+    {
+     "form": "8-K",
+     "d": "2026-11-12",
+     "accn": "0001045810-26-000082",
+     "doc": "nvda-20261111.htm",
+     "period": "2026-11-11",
+     "items": [
+      "5.02",
+      "9.01"
+     ]
+    },
     {
      "form": "8-K",
      "d": "2026-09-03",
@@ -2395,16 +2406,6 @@
      "accn": "0001045810-26-000028",
      "doc": "nvda-20260507.htm",
      "period": "2026-05-07",
-     "items": [
-      "5.02"
-     ]
-    },
-    {
-     "form": "8-K",
-     "d": "2026-04-27",
-     "accn": "0001045810-26-000026",
-     "doc": "nvda-20260424.htm",
-     "period": "2026-04-24",
      "items": [
       "5.02"
      ]
@@ -3891,6 +3892,7 @@
      ]
     }
    ],
+   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4252,7 +4254,6 @@
      "filed": "2026-05-07"
     }
    },
-   "factsFrom": "0001711269-26-000117",
    "factsChecked": "2026-11-12"
   },
   "amazon": {
@@ -10257,6 +10258,7 @@
      ]
     }
    ],
+   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10619,7 +10621,6 @@
      "filed": "2026-08-03"
     }
    },
-   "factsFrom": "0000107263-26-000036",
    "factsChecked": "2026-11-12"
   },
   "nucor": {
@@ -11424,8 +11425,8 @@
  "fred": {
   "DHHNGSP": {
    "last": {
-    "d": "2026-11-03",
-    "v": 2.63
+    "d": "2026-11-11",
+    "v": 3.0
    },
    "monthly": [
     [
@@ -11526,12 +11527,12 @@
     ],
     [
      "2026-11",
-     2.585
+     2.737
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-03",
-    "v": 3.37
+    "d": "2025-11-10",
+    "v": 3.8
    }
   },
   "DFF": {
