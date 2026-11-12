@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T00:49:17Z",
+ "updated": "2026-11-12T11:27:32Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ve-rules-on-coal-fired-energy-storage-tanks-hope-scholarship",
+   "d": "2026-11-12T03:00:13Z",
+   "title": "Golden Rules: Lawmakers consider legislative rules on coal-fired energy, storage tanks, Hope Scholarship",
+   "url": "https://www.dominionpost.com/2026/11/11/golden-rules-lawmakers-consider-legislative-rules-on-coal-fired-energy-storage-tanks-hope-scholarship/",
+   "source": "The Dominion Post",
+   "summary": "CHARLESTON – With the 2027 regular session of the West Virginia Legislature more than 60 days away, it appears lawmakers have wrapped up their review of legislative rules provided by state departments and agencies. The Legislative Rule-Making Review Committee met Monday and Tuesd",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-12T11:27:32Z",
+   "story": "ve-rules-on-coal-fired-energy-storage-tanks-hope-scholarship"
+  },
   {
    "id": "11-11-city-asks-mon-power-to-pause-amid-pushback-over-lights",
    "d": "2026-11-11T20:00:06Z",
@@ -1441,6 +1454,20 @@
    "story": "valley-north-transmission-line-project-has-revised-maps"
   },
   {
+   "id": "rticles-west-virginia-historic-chestnut-trees-174902075-html",
+   "d": "2026-10-11T10:49:00Z",
+   "title": "West Virginia’s Historic Chestnut Trees Threatened By Data Center To Be Relocated, Nscale To Pay Full Cost",
+   "url": "https://www.yahoo.com/news/science/articles/west-virginia-historic-chestnut-trees-174902075.html",
+   "source": "Yahoo",
+   "summary": "Add Yahoo as a preferred source to see more of our stories on Google. Image: American Chestnut Foundation An AI infrastructure company is covering the cost to preserve chestnut and chinquapin trees at ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-12T11:27:32Z",
+   "story": "rticles-west-virginia-historic-chestnut-trees-174902075-html"
+  },
+  {
    "id": "zghcrgk4mddxwjnybxhsam5qtfvqwnfvrjn0rddganppy0hgeeszrjiymwvb",
    "d": "2026-10-10T07:00:00Z",
    "title": "TeraWulf to double size of data center near Ashland; Ky. Power to add unit at Big Sandy",
@@ -1678,6 +1705,20 @@
    "story": "ata-permit-article-8cab2537-09ff-4f66-b690-3a2ea0aa11b1-html"
   },
   {
+   "id": "or-computing-at-nscales-mason-county-data-center-ar-aa2b3oze",
+   "d": "2026-08-27T11:11:05Z",
+   "title": "Report: Anthropic reaches $45B deal for computing at Nscale's Mason County data center",
+   "url": "https://www.msn.com/en-us/news/other/report-anthropic-reaches-45b-deal-for-computing-at-nscales-mason-county-data-center/ar-AA2b3OZE",
+   "source": "WCHS on MSN",
+   "summary": "An artificial intelligence company has reportedly reached a deal totaling $45 billion for computing at a West Virginia data center.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-12T11:27:32Z",
+   "story": "or-computing-at-nscales-mason-county-data-center-ar-aa2b3oze"
+  },
+  {
    "id": "-link-over-historical-legacy-of-jefferson-county-ar-aa2agz7u",
    "d": "2026-08-21T17:37:00Z",
    "title": "Ken Burns condemns North Valley Link over historical legacy of Jefferson County",
@@ -1772,6 +1813,21 @@
    ],
    "via": "bing-valleylink",
    "seen": "2026-11-03T13:03:33Z",
+   "story": "alley-link-hosts-open-house-about-proposed-transmission-line"
+  },
+  {
+   "id": "ross-west-virginia-for-transmission-line-project-ar-aa28wvf3",
+   "d": "2026-07-28T20:36:00Z",
+   "title": "Valley Link holds open houses across West Virginia for transmission line project",
+   "url": "https://www.msn.com/en-us/urban-infrastructure/energy-infrastructure/valley-link-holds-open-houses-across-west-virginia-for-transmission-line-project/ar-AA28WVF3",
+   "source": "MSN",
+   "summary": "KANAWHA COUNTY, W.Va. (WOWK) – A potential transmission line running from Putnam County, West Virginia, to Frederick County, Maryland, has sparked a lot of conversation among West Virginia residents.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-12T11:27:32Z",
    "story": "alley-link-hosts-open-house-about-proposed-transmission-line"
   },
   {
