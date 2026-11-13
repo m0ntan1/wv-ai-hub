@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T11:10:58Z",
+ "updated": "2026-11-13T19:49:42Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -20,6 +20,46 @@
  ],
  "items": [
   {
+   "id": "news-investments-in-energy-headed-to-west-virginia",
+   "d": "2026-11-13T14:29:33Z",
+   "title": "Investments in energy headed to West Virginia",
+   "url": "https://www.wowktv.com/news/investments-in-energy-headed-to-west-virginia/",
+   "source": "WOWK 13",
+   "summary": "CHARLESTON, W.Va. (WOWK) - A large amount of funding is headed toward energy investments, including coal-fired power plants in West Virginia. According to the Governor's office, Appalachian Power Company is investing $17 billion in new gas-fired electrical generation and another ",
+   "projects": [],
+   "energy": true,
+   "via": "wowk",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "news-investments-in-energy-headed-to-west-virginia"
+  },
+  {
+   "id": "c2xarxfuvhv1sgg4u2vovef1vkhcrtr4aeu0sfzgm0rtodngbzlzefvhtedn",
+   "d": "2026-11-13T12:30:00Z",
+   "title": "WV News Friday News Roundup: Power plant investments, wildfire response and policy changes",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWU5WZldFeloyUktQRG1qLTY2TUlCM3JyNkRqZkZScFVpdHlITXlOc3Y5QWI3eF9vTVBVU21uUmRqY19jU29qRms2T1F1UERlYlNWd0FqUDg3Rm1pVWZlMXMtRUJwN05GTm5fd1NKb0hwT2JmSFJweU5BdTg2Q20wYUVpQXZEd0ItMVFDM1VjVF9peUpzZ0h5UDFpU1g4NG41V3N2NUoycW1MWExqVEdYalBzOHR0V3U2SEt0RFhQNTJPbXRvZDFEaktmcXQ3NDZUQ2lzNTdXc2xaRXFuVHV1SGg4U2VOVEF1VkhCRTR4aEU0SFZGM0RtODNGbzlzeFVhTEdN?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "c2xarxfuvhv1sgg4u2vovef1vkhcrtr4aeu0sfzgm0rtodngbzlzefvhtedn"
+  },
+  {
+   "id": "en-nscale-ipo",
+   "d": "2026-11-13T10:13:00Z",
+   "title": "Nscale IPO Filing Warns It Needs More Cash for Anthropic Build",
+   "url": "https://shiftdelete.net/en/nscale-ipo",
+   "source": "ShiftDelete.Net",
+   "summary": "The Nscale IPO filing shows $5.5B in debt, a $1.69B nine-month loss and a warning that it needs more financing for 2027 as it builds GPUs for Anthropic.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "en-nscale-ipo"
+  },
+  {
    "id": "4vzrsmwhmak1ywlbztkrrnwqzmwxmqi1hn3bzmk9pvvzjnxnraw9qy3brd18",
    "d": "2026-11-13T10:00:00Z",
    "title": "Bonner Cohen: Is the Northeast's natural gas pipeline bottleneck ending?",
@@ -31,6 +71,62 @@
    "via": "gnews-herald",
    "seen": "2026-11-13T11:10:58Z",
    "story": "4vzrsmwhmak1ywlbztkrrnwqzmwxmqi1hn3bzmk9pvvzjnxnraw9qy3brd18"
+  },
+  {
+   "id": "ology-ai-articles-nscale-100-billion-ai-dream-153343854-html",
+   "d": "2026-11-13T07:33:00Z",
+   "title": "Nscale Has a $100 Billion AI Dream and a Very Expensive Funding Problem",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nscale-100-billion-ai-dream-153343854.html",
+   "source": "Yahoo Finance",
+   "summary": "Nvidia-backed Nscale is growing at warp speed, but so are its losses and capital needs. The British AI infrastructure startup now says it needs more financing to deliver on giant customer contracts, ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "ology-ai-articles-nscale-100-billion-ai-dream-153343854-html"
+  },
+  {
+   "id": "news-nscale-ipo-filing-debt-nvidia-anthropic",
+   "d": "2026-11-13T07:21:00Z",
+   "title": "Nscale’s debt hits $5.5bn as it leans harder on Nvidia ahead of its IPO",
+   "url": "https://thenextweb.com/news/nscale-ipo-filing-debt-nvidia-anthropic",
+   "source": "The Next Web",
+   "summary": "Nscale’s IPO filing shows $5.5bn in debt. “We will require additional capital to fund our business,” the Anthropic supplier wrote.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "news-nscale-ipo-filing-debt-nvidia-anthropic"
+  },
+  {
+   "id": "nscale-32-billion-funding-gap-ipo",
+   "d": "2026-11-13T05:21:00Z",
+   "title": "Nscale faces a $32 billion funding puzzle as losses balloon",
+   "url": "https://cryptobriefing.com/nscale-32-billion-funding-gap-ipo/",
+   "source": "Crypto Briefing",
+   "summary": "Nscale faces a $32B funding dilemma amid 1,344% revenue growth and $1.69B in losses, as it prepares for an IPO with major financing gaps.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "nscale-32-billion-funding-gap-ipo"
+  },
+  {
+   "id": "-needs-additional-financing-ahead-of-planned-ipo-ar-aa2hmvbg",
+   "d": "2026-11-13T04:29:00Z",
+   "title": "Nvidia-backed Nscale says it needs additional financing ahead of planned IPO",
+   "url": "https://www.msn.com/en-us/money/economy/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo/ar-AA2hmvBG",
+   "source": "The Wall Street Journal on MSN",
+   "summary": "The data center builder said it must tap markets to fund a significant increase in its short-term spending forecasts.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "news-nscale-ipo-filing-debt-nvidia-anthropic"
   },
   {
    "id": "ulti-billion-dollar-investment-in-west-virginia-power-plants",
@@ -138,6 +234,20 @@
    "via": "dompost",
    "seen": "2026-11-12T00:49:17Z",
    "story": "11-11-city-asks-mon-power-to-pause-amid-pushback-over-lights"
+  },
+  {
+   "id": "e-brings-online-two-data-centers-and-25000-gpus-in-25-months",
+   "d": "2026-11-11T16:00:00Z",
+   "title": "Nscale brings online two data centers and 25,000 GPUs in 2.5 months",
+   "url": "https://www.datacenterdynamics.com/en/news/nscale-brings-online-two-data-centers-and-25000-gpus-in-25-months",
+   "source": "DatacenterDynamics",
+   "summary": "The September prospectus, dated 31 August, 2026, listed just 25,000 active GPUs, which was around five percent of the company's goal. In addition, Nscale now has seven active data center sites, up ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "e-brings-online-two-data-centers-and-25000-gpus-in-25-months"
   },
   {
    "id": "grant-to-extend-gas-service-to-taz-hardwoods-industrial-site",
@@ -1743,6 +1853,18 @@
    "story": "p-geologists-study-cites-abandoned"
   },
   {
+   "id": "outpacing-west-virginia-s-outdated-revenue-model-ar-aa2bmlul",
+   "d": "2026-09-01T07:50:49Z",
+   "title": "‘Negotiating the pennies left in the couch’: Data centers outpacing West Virginia’s outdated revenue model",
+   "url": "https://www.msn.com/en-us/money/general/negotiating-the-pennies-left-in-the-couch-data-centers-outpacing-west-virginia-s-outdated-revenue-model/ar-AA2bmlUL",
+   "source": "WBOY 12 News on MSN",
+   "summary": "CHARLESTON, W.Va. (WOWK) — West Virginia could be falling behind its neighbors if it stays committed to the decades-old revenue models for taxing multi-billion-dollar data center developments. One by ...",
+   "projects": [],
+   "via": "bing-hb2014",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "outpacing-west-virginia-s-outdated-revenue-model-ar-aa2bmlul"
+  },
+  {
    "id": "ter-procedural-dismissals-in-fundamental-data-permit-appeals",
    "d": "2026-08-28T17:09:45Z",
    "title": "Groups seek a hearing after procedural dismissals in Fundamental Data permit appeals",
@@ -1881,6 +2003,18 @@
    "via": "countryroads",
    "seen": "2026-11-03T13:03:33Z",
    "story": "p-top-county-officials-plead-not-guilty"
+  },
+  {
+   "id": "n-west-virginia-spark-concerns-over-water-usage-transparency",
+   "d": "2026-08-17T13:39:00Z",
+   "title": "Data center announcements in West Virginia spark concerns over water usage, transparency",
+   "url": "https://wchstv.com/news/local/data-center-announcements-in-west-virginia-spark-concerns-over-water-usage-transparency",
+   "source": "WCHS-TV",
+   "summary": "WEST VIRGINIA (WCHS) — As data center projects continue to pop up across West Virginia, water usage remains one of the largest concerns. Environmental advocates have been raising those concerns and ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-13T19:49:42Z",
+   "story": "n-west-virginia-spark-concerns-over-water-usage-transparency"
   },
   {
    "id": "news-us-articles-wv-dep-says-fundamental-data-100044868-html",
