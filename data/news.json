@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:03:38Z",
+ "updated": "2026-11-13T01:54:31Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -57,6 +57,20 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-12T20:03:38Z",
    "story": "eexymzfuvulxmem1ei1bevrvnzvyn054a1aycgxzzujqtvlavwxyem0xu2nx"
+  },
+  {
+   "id": "-nscale-updates-ipo-prospectus-that-shows-widening-loss-html",
+   "d": "2026-11-12T14:58:00Z",
+   "title": "Nscale updates IPO prospectus that shows widening loss",
+   "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+   "source": "CNBC",
+   "summary": "Nvidia-backed neocloud Nscale on Thursday released updated paperwork for a U.S. initial public offering showing a widening loss.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T01:54:31Z",
+   "story": "-nscale-updates-ipo-prospectus-that-shows-widening-loss-html"
   },
   {
    "id": "nvestments-17b-in-natural-gas-75b-in-coal-plants-ar-aa2hjsvt",
@@ -1258,6 +1272,20 @@
    "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
   },
   {
+   "id": "gy-articles-nscale-anthropic-talks-45-billion-192406047-html",
+   "d": "2026-10-20T02:06:00Z",
+   "title": "Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal",
+   "url": "https://finance.yahoo.com/technology/articles/nscale-anthropic-talks-45-billion-192406047.html",
+   "source": "Yahoo Finance",
+   "summary": "The above button links to Coinbase. Yahoo Finance is not a broker-dealer or investment adviser and does not offer securities or cryptocurrencies for sale or facilitate trading. Coinbase pays us for ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-13T01:54:31Z",
+   "story": "ws-anthropic-and-nscale-in-talks-for-second-45bn-deal-report"
+  },
+  {
    "id": "news-other-psc-modifies-coal-fired-plant-mandate-ar-aa2fcusk",
    "d": "2026-10-19T19:32:03Z",
    "title": "PSC modifies coal-fired plant mandate",
@@ -1350,6 +1378,20 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-06T15:12:47Z",
    "story": "sbgvstnp3bk9lovbjekrtr1bzrnp4rjfurvcxwdv3tkg5zhbinw1ox3g2v1e"
+  },
+  {
+   "id": "2mzdybxdvcwvou2nvsu5vtunxu1i1budoy3q4agzdc0llx3dmtkr6wghzdda",
+   "d": "2026-10-19T07:00:00Z",
+   "title": "Morrisey hails state certifications for two Mason County data center projects",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSENQRmxmbVZCZE4wWEdNMGQ3VVNsU2ljTFhpSDRlRXRmbmdoZTE2a0RTRXhkS2Z5ekFRWExwVDI1dXU1MFYwOWR1UnFkdlFFSndUS3JzUUdaY1JTWEV3NVZCek9NMmVDTEhnU3BRY2FvQWYyQjd1bHNBel9xRnhuR2ZiZ3FSUVdpRktqYkVvcjR1NzFrcmZ6b250aVBucE9DQV8zYkkxaGRTUU01d0RQRDEtWllKSGI5alkwSjYwUWMzaFE5ZDJPY1lnbTJFcjB2MzdYbXdVcWVoU2NVSU5vTUNxU1I1bUdoY3Q4aGZDc0lLX3dMTkR6WGhZdDA?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-herald",
+   "seen": "2026-11-13T01:54:31Z",
+   "story": "2mzdybxdvcwvou2nvsu5vtunxu1i1budoy3q4agzdc0llx3dmtkr6wghzdda"
   },
   {
    "id": "-be-bulldozed-to-make-room-for-an-ai-data-center-ar-aa2es61w",
