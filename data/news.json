@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:54:31Z",
+ "updated": "2026-11-13T11:10:58Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "4vzrsmwhmak1ywlbztkrrnwqzmwxmqi1hn3bzmk9pvvzjnxnraw9qy3brd18",
+   "d": "2026-11-13T10:00:00Z",
+   "title": "Bonner Cohen: Is the Northeast's natural gas pipeline bottleneck ending?",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVENsQzF2VTJJdlI5Vjk1RXh4dmVrYTB0bUJFdFNLeWxJYlFiT1hUdl9YQ3Z2blhscjBxSjlYQ1ZtUXJ0blJNU0lqVU1xUXhDSHF2WnRUNTBqQXcyUEZMQXJ3YXVjQ3hHQ2c5U0NQckFVR3VLQURFQy1NYjJFdWdMbE5WSk01TGxKd212Y2tGTUpGT1JFVmJNd0ZRRVdMQmd0NmN2VldELU1VbnA3QXpGbjZLZm1RZHloQTVZakdISFJnRDh4VzRsMWhmak1YWlBzTkRRNWQzMWxmQi1hN3BzMk9PVVZJNXNraW9qY3Brd18?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-13T11:10:58Z",
+   "story": "4vzrsmwhmak1ywlbztkrrnwqzmwxmqi1hn3bzmk9pvvzjnxnraw9qy3brd18"
+  },
   {
    "id": "ulti-billion-dollar-investment-in-west-virginia-power-plants",
    "d": "2026-11-12T19:28:44Z",
@@ -57,6 +70,21 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-12T20:03:38Z",
    "story": "eexymzfuvulxmem1ei1bevrvnzvyn054a1aycgxzzujqtvlavwxyem0xu2nx"
+  },
+  {
+   "id": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html",
+   "d": "2026-11-12T15:01:00Z",
+   "title": "'This isn't for the people here': Valley Link faces landowner pushback over proposed Valley North Transmission Line",
+   "url": "https://www.wvnews.com/news/wvnews/this-isnt-for-the-people-here-valley-link-faces-landowner-pushback-over-proposed-valley-north/article_14c40ae2-a128-43b5-9e4a-402dbcfe2be7.html",
+   "source": "WV News",
+   "summary": "Residents and landowners gathered in Buckhannon on Thursday to review updated route proposals and voice opposition to the Valley North Transmission Line Project during an open house ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-13T11:10:58Z",
+   "story": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html"
   },
   {
    "id": "-nscale-updates-ipo-prospectus-that-shows-widening-loss-html",
