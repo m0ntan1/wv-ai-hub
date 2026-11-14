@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:29:10Z",
+ "updated": "2026-11-14T10:37:27Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,32 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "2026-11-14-mary-josephine-tenney",
+   "d": "2026-11-14T05:00:54Z",
+   "title": "Mary Josephine Tenney",
+   "url": "https://www.dominionpost.com/2026/11/14/mary-josephine-tenney/",
+   "source": "The Dominion Post",
+   "summary": "Mary Josephine “Josie” Tenney, 79, of Morgantown, passed away peacefully Saturday morning, November 7, 2026, in Ruby Memorial Hospital. Born near Oakland, Md. July 31, 1947, she was a daughter of the late Clyde Elmer and Martha Miller Clark. Over the years, Josie worked as a coal",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-14T10:37:27Z",
+   "story": "2026-11-14-mary-josephine-tenney"
+  },
+  {
+   "id": "2026-11-14-jack-e-marks",
+   "d": "2026-11-14T05:00:50Z",
+   "title": "Jack E. Marks",
+   "url": "https://www.dominionpost.com/2026/11/14/jack-e-marks/",
+   "source": "The Dominion Post",
+   "summary": "Jack E. Marks, 85, of Maidsville, passed away on Friday, November 13, 2026, at J.W. Ruby Memorial Hospital in Morgantown. He was born in Cassville, a son of the late William W. and Gladys Lawler Marks. Jack worked as a coal miner for CONSOL at Humphrey No. 7 until his retirement.",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-14T10:37:27Z",
+   "story": "2026-11-14-jack-e-marks"
+  },
   {
    "id": "2026-11-13-davis-v-goliath-small-town-fight-against-big-data",
    "d": "2026-11-13T20:11:46Z",
