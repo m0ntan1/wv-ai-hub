@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:37:27Z",
+ "updated": "2026-11-14T22:34:13Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "llion-into-upgrading-west-virginia-s-coal-plants-ar-aa2hrv3i",
+   "d": "2026-11-14T13:50:00Z",
+   "title": "Appalachian Power plans to pour $7.5 billion into upgrading West Virginia’s coal plants",
+   "url": "https://www.msn.com/en-us/money/general/appalachian-power-plans-to-pour-7-5-billion-into-upgrading-west-virginia-s-coal-plants/ar-AA2hrv3I",
+   "source": "Morning Overview on MSN",
+   "summary": "Coal-fired units in West Virginia now have a spending commitment that runs to 2050. On Thursday, Nov. 12, Gov. Patrick Morrisey announced in Charleston that Appalachian Power has set aside $7.5 ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-14T22:34:13Z",
+   "story": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants"
+  },
   {
    "id": "2026-11-14-mary-josephine-tenney",
    "d": "2026-11-14T05:00:54Z",
