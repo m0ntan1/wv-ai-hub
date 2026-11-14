@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:49:42Z",
+ "updated": "2026-11-14T01:29:10Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -20,6 +20,18 @@
  ],
  "items": [
   {
+   "id": "2026-11-13-davis-v-goliath-small-town-fight-against-big-data",
+   "d": "2026-11-13T20:11:46Z",
+   "title": "Davis V. Goliath: a small town fight against big data",
+   "url": "https://www.wsaz.com/2026/11/13/davis-v-goliath-small-town-fight-against-big-data/",
+   "source": "WSAZ",
+   "summary": "Residents of one West Virginia town said they were not given a choice in the decision to build a 10,000 acre data center in their community.",
+   "projects": [],
+   "via": "wsaz",
+   "seen": "2026-11-14T01:29:10Z",
+   "story": "2026-11-13-davis-v-goliath-small-town-fight-against-big-data"
+  },
+  {
    "id": "news-investments-in-energy-headed-to-west-virginia",
    "d": "2026-11-13T14:29:33Z",
    "title": "Investments in energy headed to West Virginia",
@@ -31,6 +43,19 @@
    "via": "wowk",
    "seen": "2026-11-13T19:49:42Z",
    "story": "news-investments-in-energy-headed-to-west-virginia"
+  },
+  {
+   "id": "er-investing-nearly-25-billion-for-gas-and-coal-power-plants",
+   "d": "2026-11-13T13:05:00Z",
+   "title": "Appalachian Power Investing Nearly $25 Billion For Gas and Coal Power Plants",
+   "url": "https://www.powermag.com/appalachian-power-investing-nearly-25-billion-for-gas-and-coal-power-plants/",
+   "source": "POWER Magazine",
+   "summary": "West Virginia Gov. Patrick Morrisey said major state electric utility Appalachian Power will invest $17 billion to build new natural gas-fired power ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-14T01:29:10Z",
+   "story": "ulti-billion-dollar-investment-in-west-virginia-power-plants"
   },
   {
    "id": "c2xarxfuvhv1sgg4u2vovef1vkhcrtr4aeu0sfzgm0rtodngbzlzefvhtedn",
@@ -180,6 +205,21 @@
    "energy": true,
    "via": "bing-valleylink",
    "seen": "2026-11-13T11:10:58Z",
+   "story": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html"
+  },
+  {
+   "id": "ssion-line-article-59f37edd-d065-43fd-8370-92894a12b7df-html",
+   "d": "2026-11-12T15:01:00Z",
+   "title": "Valley Link faces landowner pushback over proposed Valley North Transmission Line",
+   "url": "https://www.wvnews.com/valley-link-faces-landowner-pushback-over-proposed-valley-north-transmission-line/article_59f37edd-d065-43fd-8370-92894a12b7df.html",
+   "source": "WV News",
+   "summary": "Residents and landowners gathered in Buckhannon on Thursday to review updated route proposals and voice opposition to the Valley North Transmission Line Project during an open house ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-14T01:29:10Z",
    "story": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html"
   },
   {
