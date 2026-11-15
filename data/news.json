@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T06:44:52Z",
+ "updated": "2026-11-15T22:56:06Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "fry1vdmxwstn2qjhvr3qyq0pwwl9tvu9dn2zzz2trekneagtjqmnlmje4duu",
+   "d": "2026-11-15T17:22:00Z",
+   "title": "Appalachian Power commits $7.5B to upgrade coal plants",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdXphTkV3cTlWeDZCVUdfYkE5czJBeDJZSUYtN3hlaU1qQmZiUTZQeFFDaDdsMXpQcXVxLTZMMlRFeTE0LUFyYWhZLXJHUU1EY1VYSTZoVlZNOGtqd3kyWl9NdUplOWQ1d0RZR00zXy1zMHFoTnFCUENiRHBkbGFUcnFzbW5kQjBRMmlSRWpkMnNYbzFsazFWdDF1cUVQMmRyLVRDU3RyYkdLamRWRnRMSDA5eGdlclpWUXBFRy1VdmxWSTN2QjhVR3QyQ0pwWl9tVU9DN2ZzZ2tRekNEaGtJQmNlMjE4dUU?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-15T22:56:06Z",
+   "story": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants"
+  },
   {
    "id": "llion-into-upgrading-west-virginia-s-coal-plants-ar-aa2hrv3i",
    "d": "2026-11-14T13:50:00Z",
@@ -2354,19 +2367,6 @@
    "via": "bing-fortmartin",
    "seen": "2026-11-06T15:12:47Z",
    "story": "ia-files-testimony-in-mon-powers-2-48-billion-gas-plant-cpcn"
-  },
-  {
-   "id": "seek-approval-for-reliability-and-infrastructure-investments",
-   "d": "2026-05-19T17:00:00Z",
-   "title": "Mon Power and Potomac Edison Seek Approval for Reliability and Infrastructure Investments",
-   "url": "https://www.tdworld.com/utility-business/news/55379019/mon-power-and-potomac-edison-seek-approval-for-reliability-and-infrastructure-investments",
-   "source": "T&D",
-   "summary": "FirstEnergy subsidiaries Mon Power and Potomac Edison have filed a request with the Public Service Commission of West Virginia to review electric rates as the companies continue investing in grid ...",
-   "projects": [],
-   "energy": true,
-   "via": "bing-fortmartin",
-   "seen": "2026-11-06T15:12:47Z",
-   "story": "seek-approval-for-reliability-and-infrastructure-investments"
   }
  ]
 }
