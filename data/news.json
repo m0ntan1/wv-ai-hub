@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:34:13Z",
+ "updated": "2026-11-15T06:44:52Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -378,6 +378,20 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-10T23:28:52Z",
    "story": "cwfbvm9vyv9jmdzjyxvvswdlehzhck9nsndjztnytkfnym04rhpvngk2x0pc"
+  },
+  {
+   "id": "jiaf9koutymlpkvmvweu1wufh1bnpwmlhpanb2z0vvahyyv0fjmfvnujvyyw",
+   "d": "2026-11-10T16:30:00Z",
+   "title": "NScale named presenting sponsor of 2027 Sleighbell Ball",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPU3plSzVXSFlFTllyalYzaHlpWDBWMlZ2cVpnMU9NSkx1R3FLOVdON2NJd3hVYUwweXRSRXlqQnpOdUZoczh3cTNXc2FoVUR0U2ZMVjFtbXA5Q3A2cUNHTXNzcmlETS1CU3ZPN1k2UVRFOVlja1B4R3Bld21fYWVwbVVBWmZ4MWJZcFl3ZnNPN05oaFlYbFJ4Qm11czdsMXVwcnU4S0NRZnFSY2JIaF9kOUtYMlpkVmVweU1wUFh1bnpwMlhpanB2Z0VVaHYyV0FjMFVnUjVyYw?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-15T06:44:52Z",
+   "story": "jiaf9koutymlpkvmvweu1wufh1bnpwmlhpanb2z0vvahyyv0fjmfvnujvyyw"
   },
   {
    "id": "151121-valley-link-at-5-1b-who-pays-is-settled",
