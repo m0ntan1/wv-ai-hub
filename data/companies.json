@@ -44,14 +44,16 @@
    "sec": {"cik": "0002110365"}, "hq": "London, United Kingdom", "projects": ["monarch"], "node": "nscale", "conflict": true,
    "tie": "Developer of the Monarch Compute Campus in Mason County, through Monarch Cloud Campus LLC. Nscale bought the site's owner, AIPCorp, in March 2026. Its S-1 describes Monarch as an approximately 2,250-acre site that can deliver up to 8 GW of gross behind-the-meter power.",
    "sources": [
+    {"label": "Nscale S-1/A, Nov 12, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"},
     {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"},
     {"label": "Gazette-Mail: permits", "url": "https://www.wvgazettemail.com/news/energy_and_environment/new-permits-eyed-for-mason-co-data-center-tied-project-after-eight-figure-wv-support/article_6a2e5e86-a19e-442d-831c-24f1760bbf80.html"}
    ],
-   "factsAsOf": "From the S-1 filed Sep 18, 2026. Six months ended June 30, 2026 unless noted. No amended S-1 or final prospectus was on EDGAR as of Nov 3, 2026.",
+   "factsAsOf": "From the S-1 filed Sep 18, 2026. Six months ended June 30, 2026 unless noted. Nscale filed an amended S-1 on Nov 12, 2026; it still has no price range.",
    "facts": [
     {"k": "Revenue", "v": "$140.6 million in the first half of 2026, up from $10.4 million a year earlier. Full-year 2025: $33.0 million."},
     {"k": "Net loss", "v": "$1,020.1 million in the first half of 2026, up from $368.9 million. That includes a $457.1 million loss on fair-value adjustments (convertible notes, warrants, options, and SAFEs carried at fair value)."},
     {"k": "Operating loss", "v": "$492.0 million in the first half of 2026."},
+    {"k": "Nine months (preliminary)", "v": "The Nov 12 amended S-1 gives estimated results for the nine months ended Sep 30, 2026: revenue $307.5 million (up from $21.3 million), operating loss $837.5 million, and net loss $1,691.9 million (up from $433.3 million)."},
     {"k": "Spending", "v": "$3,230.1 million on property and equipment in the first half of 2026."},
     {"k": "Cash flow", "v": "Operating cash flow was $1,686.1 million, which the filing attributes mainly to upfront customer prepayments on long-term take-or-pay contracts."},
     {"k": "Balance sheet", "v": "As of June 30, 2026: cash $1,478.4 million, total assets $17,252.0 million, total liabilities $12,359.8 million."},
@@ -71,11 +73,11 @@
    ],
    "catalysts": [
     {"t": "Nvidia's $1.0 billion note purchase is expected to close", "d": "2026-11-16", "approx": true, "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
-    {"t": "IPO pricing: an amended S-1 with a price range, then a final prospectus (form 424B4)", "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
+    {"t": "IPO pricing: the Nov 12 amended S-1 still has no price range; a further amendment with one, then a final prospectus (form 424B4), comes next", "src": {"label": "Nscale S-1/A, Nov 12, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"}},
     {"t": "Financing for the Anthropic build at Monarch: none committed as of the S-1; watch for an 8-K or amendment announcing it", "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
     {"t": "DEP decision on Monarch's air permit (R14-0042)", "src": {"label": "Gazette-Mail: Oct 20 permit hearing", "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"}}
    ],
-   "health": {"status": "watch", "why": "From its S-1 (six months to June 30, 2026): a net loss of $1,020.1 million on revenue of $140.6 million. The Anthropic build at Monarch depends on financing it had no binding commitments for when it filed, its largest customer was 52% of revenue, and it reports material weaknesses in its financial controls. The filing says an earlier going-concern doubt is resolved by management's plan to defer or cut spending if needed, which is why this is Watch rather than Stressed.", "approved": "2026-11-03"}, "checked": "2026-11-03"
+   "health": {"status": "watch", "why": "From its S-1 (six months to June 30, 2026): a net loss of $1,020.1 million on revenue of $140.6 million. The Anthropic build at Monarch depends on financing it had no binding commitments for when it filed, its largest customer was 52% of revenue, and it reports material weaknesses in its financial controls. The filing says an earlier going-concern doubt is resolved by management's plan to defer or cut spending if needed, which is why this is Watch rather than Stressed.", "approved": "2026-11-03"}, "checked": "2026-11-16"
   },
   {
    "id": "starwood-dv", "name": "Starwood Digital Ventures", "tranche": "companies", "listing": "private",
@@ -190,7 +192,11 @@
    "sources": [
     {"label": "WOWK: Tamarack", "url": "https://www.wowktv.com/news/west-virginia/mason-county-wv/second-mason-co-data-center-will-land-in-west-columbia/"},
     {"label": "MetroNews: 765 kV line", "url": "https://wvmetronews.com/2026/03/29/googles-proposed-data-center-in-buffalo-draws-both-support-and-concern/"},
+    {"label": "West Virginia Watch: Appalachian Power $24B announcement", "url": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/"},
     {"label": "Transource Energy", "url": "https://www.transourceenergy.com/"}
+   ],
+   "catalysts": [
+    {"t": "Appalachian Power's announced $17 billion for new gas generation (3.3 GW, three projects, completion in 2031): locations and further details are still to come", "src": {"label": "West Virginia Watch, Nov 12, 2026", "url": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/"}}
    ],
    "health": {"status": "stable", "why": "Revenue of $6.0 billion in the quarter ended Mar 31, 2026, up 10% from a year earlier, with a profit in each of the last four quarters. Like most regulated utilities, it carries large long-term debt ($46.9 billion). Figures run through Mar 31, 2026, the latest in the SEC's structured data; a newer report was filed Oct 28, 2026.", "approved": "2026-11-03"}, "checked": "2026-11-03"
   },
@@ -218,29 +224,30 @@
    "sec": {"cik": "0002130357"}, "hq": "San Francisco, California", "projects": ["monarch"], "node": "anthropic", "conflict": true, "selfConflict": true,
    "tie": "Monarch's anchor tenant. Anthropic agreed to spend up to approximately $44.6 billion with Nscale for GPU capacity over terms extending into 2033, with fees accruing only as capacity is delivered and accepted. Anthropic's filing names Nscale but not Monarch or West Virginia; Nscale's S-1 places the agreements at Monarch.",
    "sources": [
+    {"label": "Anthropic S-1/A, Nov 10, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"},
     {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"},
     {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}
    ],
-   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted.",
+   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted. A further amendment filed Nov 10, 2026 shows the same balance-sheet figures and Nscale terms, updates committed spend to about $900.9 billion, and adds an estimated price range.",
    "facts": [
     {"k": "Revenue", "v": "$33,242 million in the first nine months of 2026, up from $2,545 million a year earlier. Full-year 2025: $4,585 million."},
     {"k": "Operating loss", "v": "$1,260 million in the first nine months of 2026. Full-year 2025: $8,060 million."},
     {"k": "Net loss", "v": "$104,039 million in the first nine months of 2026, of which $94.3 billion is a change in the fair value of convertible notes, derivative liabilities, and SAFEs. The filing says that change was driven mainly by the rise in the company's valuation. Full-year 2025 net loss: $41,965 million."},
     {"k": "Balance sheet", "v": "As of Sep 30, 2026: cash, cash equivalents, and short-term investments $131,845 million; total assets $154,320 million; total liabilities $146,683 million."},
-    {"k": "Commitments", "v": "Purchase commitments and leases with aggregate committed spend of approximately $895.4 billion, substantially all for compute and infrastructure. About $447.5 billion of that is expected before the end of 2030."},
+    {"k": "Commitments", "v": "Purchase commitments and leases as of and after Sep 30, 2026, with aggregate committed spend of approximately $900.9 billion, substantially all for compute and infrastructure. About $451.6 billion of that is expected before Dec 31, 2030, and about $70.7 billion is due in the 12 months after Sep 30, 2026."},
     {"k": "Nscale terms", "v": "Nscale must use best efforts to obtain financing. Otherwise Anthropic's commitment under each agreement is non-cancelable except in limited cases, including Nscale missing delivery or availability requirements."},
     {"k": "Structure", "v": "A Delaware public benefit corporation. A Long-Term Benefit Trust generally has the power to elect and remove a majority of the board."},
-    {"k": "Offering", "v": "Applied to list Class A shares on the Nasdaq Global Select Market as ANT. Lead underwriters listed first: Goldman Sachs, Morgan Stanley, and J.P. Morgan. The price range is blank in the S-1/A."}
+    {"k": "Offering", "v": "The Nov 10 S-1/A estimates an initial price of $70.00 to $78.00 per share for 825,000,000 Class A shares (801,351,354 from the company and 23,648,646 from selling stockholders), with an additional $26.0 billion of Class N stock sold privately to Google, Nvidia, AMD, Broadcom, Micron, Microsoft, and TSMC Partners. Applied to list on the Nasdaq Global Select Market as ANT."}
    ],
    "risks": [
     "The filing says its long-term compute agreements include minimum purchase commitments and take-or-pay terms that require payment whether or not the capacity is used.",
     "Compute capacity from partners such as Nscale depends on those partners financing and delivering it."
    ],
    "catalysts": [
-    {"t": "IPO pricing on Nasdaq (ANT): a further amendment with a price range, then the final prospectus", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}},
+    {"t": "IPO pricing on Nasdaq (ANT): the Nov 10 amendment estimates $70.00 to $78.00 a share; the final prospectus (form 424B4) comes next", "src": {"label": "Anthropic S-1/A, Nov 10, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"}},
     {"t": "Nscale's financing for the Monarch build, since Anthropic's fees accrue only as capacity is delivered and accepted", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}}
    ],
-   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-09"
+   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-16"
   },
   {
    "id": "nvidia", "name": "Nvidia", "tranche": "backers", "also": ["shovels"], "listing": "public", "ticker": "NVDA",
