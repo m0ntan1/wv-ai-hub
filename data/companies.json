@@ -196,9 +196,9 @@
     {"label": "Transource Energy", "url": "https://www.transourceenergy.com/"}
    ],
    "catalysts": [
-    {"t": "Appalachian Power's announced $17 billion for new gas generation (3.3 GW, three projects, completion in 2031): locations and any PSC filings are not yet public", "src": {"label": "West Virginia Watch, Nov 12, 2026", "url": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/"}}
+    {"t": "Appalachian Power's announced $17 billion for new gas generation (3.3 GW, three projects, completion in 2031): locations and further details are still to come", "src": {"label": "West Virginia Watch, Nov 12, 2026", "url": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/"}}
    ],
-   "health": {"status": "stable", "why": "Revenue of $6.0 billion in the quarter ended Mar 31, 2026, up 10% from a year earlier, with a profit in each of the last four quarters. Like most regulated utilities, it carries large long-term debt ($46.9 billion). Figures run through Mar 31, 2026, the latest in the SEC's structured data; a newer report was filed Oct 28, 2026.", "approved": "2026-11-03"}, "checked": "2026-11-16"
+   "health": {"status": "stable", "why": "Revenue of $6.0 billion in the quarter ended Mar 31, 2026, up 10% from a year earlier, with a profit in each of the last four quarters. Like most regulated utilities, it carries large long-term debt ($46.9 billion). Figures run through Mar 31, 2026, the latest in the SEC's structured data; a newer report was filed Oct 28, 2026.", "approved": "2026-11-03"}, "checked": "2026-11-03"
   },
   {
    "id": "nextera", "name": "NextEra Energy", "tranche": "companies", "listing": "public", "ticker": "NEE",
@@ -228,13 +228,13 @@
     {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"},
     {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}
    ],
-   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted. A further amendment filed Nov 10, 2026 shows the same balance-sheet figures and Nscale terms, and adds an estimated price range.",
+   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted. A further amendment filed Nov 10, 2026 shows the same balance-sheet figures and Nscale terms, updates committed spend to about $900.9 billion, and adds an estimated price range.",
    "facts": [
     {"k": "Revenue", "v": "$33,242 million in the first nine months of 2026, up from $2,545 million a year earlier. Full-year 2025: $4,585 million."},
     {"k": "Operating loss", "v": "$1,260 million in the first nine months of 2026. Full-year 2025: $8,060 million."},
     {"k": "Net loss", "v": "$104,039 million in the first nine months of 2026, of which $94.3 billion is a change in the fair value of convertible notes, derivative liabilities, and SAFEs. The filing says that change was driven mainly by the rise in the company's valuation. Full-year 2025 net loss: $41,965 million."},
     {"k": "Balance sheet", "v": "As of Sep 30, 2026: cash, cash equivalents, and short-term investments $131,845 million; total assets $154,320 million; total liabilities $146,683 million."},
-    {"k": "Commitments", "v": "Purchase commitments and leases with aggregate committed spend of approximately $895.4 billion, substantially all for compute and infrastructure. About $447.5 billion of that is expected before the end of 2030."},
+    {"k": "Commitments", "v": "Purchase commitments and leases as of and after Sep 30, 2026, with aggregate committed spend of approximately $900.9 billion, substantially all for compute and infrastructure. About $451.6 billion of that is expected before Dec 31, 2030, and about $70.7 billion is due in the 12 months after Sep 30, 2026."},
     {"k": "Nscale terms", "v": "Nscale must use best efforts to obtain financing. Otherwise Anthropic's commitment under each agreement is non-cancelable except in limited cases, including Nscale missing delivery or availability requirements."},
     {"k": "Structure", "v": "A Delaware public benefit corporation. A Long-Term Benefit Trust generally has the power to elect and remove a majority of the board."},
     {"k": "Offering", "v": "The Nov 10 S-1/A estimates an initial price of $70.00 to $78.00 per share for 825,000,000 Class A shares (801,351,354 from the company and 23,648,646 from selling stockholders), with an additional $26.0 billion of Class N stock sold privately to Google, Nvidia, AMD, Broadcom, Micron, Microsoft, and TSMC Partners. Applied to list on the Nasdaq Global Select Market as ANT."}
