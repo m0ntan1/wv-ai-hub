@@ -1,5 +1,28 @@
 [
  {
+  "d": "2026-11-12",
+  "t": "Gov. Morrisey announces a $24 billion Appalachian Power investment: $17 billion in new natural gas generation (3.3 GW, three projects, to be completed in 2031) and $7.5 billion to keep its coal plants running until 2050. Locations are not yet announced.",
+  "src": "https://westvirginiawatch.com/2026/11/12/gov-morrisey-announces-multi-billion-dollar-investment-in-west-virginia-power-plants/"
+ },
+ {
+  "d": "2026-11-10",
+  "t": "The Legislature's Rule-Making Review Committee approves the PSC's HB 2014 capacity rules, which keep the 69% coal capacity requirement as a goal. The full Legislature reviews them in January.",
+  "project": "hb2014",
+  "src": "https://westvirginiawatch.com/2026/11/11/west-virginia-lawmakers-approve-69-capacity-rule-for-coal-fired-power-plants/"
+ },
+ {
+  "d": "2026-11-09",
+  "t": "The Preston County Commission adopts a second resolution opposing the MARL line.",
+  "project": "marl",
+  "src": "https://www.wboy.com/news/preston/preston-county-commission-adopts-second-resolution-opposing-marl/"
+ },
+ {
+  "d": "2026-11-12",
+  "t": "Nscale files an amended S-1 for its NYSE listing. It still shows no price range and gives preliminary nine-month figures: a net loss of $1,691.9 million on revenue of $307.5 million.",
+  "project": "monarch",
+  "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"
+ },
+ {
   "d": "2026-11-07",
   "t": "The Gazette-Mail reports the state certified a Boone County data center campus, \"Project Country Roads\" (certification notice: about 3,557 acres and 1.4 GW; developer materials: up to 10 GW), by a Sept. 30 Commerce letter, without public notice.",
   "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"

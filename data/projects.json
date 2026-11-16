@@ -34,8 +34,8 @@
    }
   ],
   "latest": {
-   "d": "Oct 30, 2026",
-   "t": "Nvidia is in talks to guarantee billions in construction debt for the Anthropic building (The Information / Bloomberg). DEP's written comment period on the air permit stays open until Nov 13, after meetings on Oct 20 and Oct 29."
+   "d": "Nov 13, 2026",
+   "t": "DEP's written comment period on the air permit closed Nov 13, and we found no announced decision date. Nscale filed an amended S-1 on Nov 12 with the price range still blank."
   },
   "history": [
    {
@@ -130,11 +130,16 @@
     "src": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
    },
    {
+    "d": "2026-11-12",
+    "t": "Nscale files an amended S-1; the price range is still blank.",
+    "kind": "company",
+    "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"
+   },
+   {
     "d": "2026-11-13",
-    "t": "Written comments on air permit R14-0042 are due before 5 p.m.",
+    "t": "Written comment period on air permit R14-0042 closes at 5 p.m.",
     "kind": "permit",
-    "src": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx",
-    "next": true
+    "src": "https://dep.wv.gov/news/Pages/Public-Comment-Period-and-Public-Participation-Opportunities-for-Monarch-Cloud-Campus.aspx"
    },
    {
     "t": "DEP final decision on air permit R14-0042.",
@@ -184,7 +189,7 @@
     "url": "https://wvcag.org/?p=16377"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-16",
   "scale": {
    "n": 864,
    "unit": "reciprocating gas engines",
@@ -1345,6 +1350,6 @@
     "url": "https://www.dominionpost.com/?p=557367"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-16"
  }
 ]
