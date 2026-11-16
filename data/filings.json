@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:45:25Z",
+ "updated": "2026-11-16T19:42:45Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -659,6 +659,7 @@
      ]
     }
    ],
+   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1018,7 +1019,6 @@
      "filed": "2026-04-28"
     }
    },
-   "factsFrom": "0001031296-26-000144",
    "factsChecked": "2026-11-16"
   },
   "aep": {
@@ -1146,6 +1146,7 @@
      ]
     }
    ],
+   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1490,7 +1491,6 @@
      "filed": "2026-05-05"
     }
    },
-   "factsFrom": "0000004904-26-000072",
    "factsChecked": "2026-11-16"
   },
   "nextera": {
@@ -1638,6 +1638,7 @@
      ]
     }
    ],
+   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1882,7 +1883,6 @@
      "filed": "2026-04-23"
     }
    },
-   "factsFrom": "0000753308-26-000081",
    "factsChecked": "2026-11-16"
   },
   "dominion": {
@@ -1895,6 +1895,17 @@
     "NYSE"
    ],
    "filings": [
+    {
+     "form": "8-K",
+     "d": "2026-11-16",
+     "accn": "0001193125-26-462496",
+     "doc": "d157968d8k.htm",
+     "period": "2026-11-02",
+     "items": [
+      "8.01",
+      "9.01"
+     ]
+    },
     {
      "form": "10-Q",
      "d": "2026-10-30",
@@ -2005,18 +2016,9 @@
       "7.01",
       "9.01"
      ]
-    },
-    {
-     "form": "8-K",
-     "d": "2026-05-07",
-     "accn": "0001193125-26-212457",
-     "doc": "d113691d8k.htm",
-     "period": "2026-05-05",
-     "items": [
-      "5.07"
-     ]
     }
    ],
+   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2257,7 +2259,6 @@
      "filed": "2026-05-01"
     }
    },
-   "factsFrom": "0001193125-26-440697",
    "factsChecked": "2026-11-16"
   },
   "anthropic": {
@@ -3898,6 +3899,7 @@
      ]
     }
    ],
+   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4259,7 +4261,6 @@
      "filed": "2026-05-07"
     }
    },
-   "factsFrom": "0001711269-26-000117",
    "factsChecked": "2026-11-16"
   },
   "amazon": {
@@ -10265,6 +10266,7 @@
      ]
     }
    ],
+   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10627,7 +10629,6 @@
      "filed": "2026-08-03"
     }
    },
-   "factsFrom": "0000107263-26-000036",
    "factsChecked": "2026-11-16"
   },
   "nucor": {

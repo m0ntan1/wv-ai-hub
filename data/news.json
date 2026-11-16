@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:56:06Z",
+ "updated": "2026-11-16T19:41:03Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,21 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "mthvz0dtz0rkntu5m0jtd04zq1y0x3hnmuldudzovkfkyvp6vzhsx2u4v3pz",
+   "d": "2026-11-16T18:38:00Z",
+   "title": "Public open house set for Valley North Transmission Line Project in Lewis County",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUmtyUHFmRTd0dmE5R2dFVVloTlpoa3pqM1g0R2N4SkRhbTdxSktJbjhyaVNrc1ZIQVJFMVhxWXh2YXhQR3FrQ1BlUDdtSm5lY2hiS1dWMTl2WW83dGE0eXVhRkUzR2VzekhiUDZERmpHNjlYSTJwLThnXzU3V1ZmQjFKQ3hnT1BYallUb0l1MzlWdldwX3BvUHVfbmRjOVJmN2RSRHBMbjRNZktnV2tSZkloUFY0bC15eHNHYnYzc3lqbk9HQ1FPWE9zTXM3aXhNVHA4MkFBMThvZ0dtZ0RKNTU5M0JTd04zQ1Y0X3hnMUlDUDZOVkFKYVp6VzhSX2U4V3pz?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-16T19:41:03Z",
+   "story": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html"
+  },
   {
    "id": "fry1vdmxwstn2qjhvr3qyq0pwwl9tvu9dn2zzz2trekneagtjqmnlmje4duu",
    "d": "2026-11-15T17:22:00Z",
