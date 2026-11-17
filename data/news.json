@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:58:25Z",
+ "updated": "2026-11-17T16:11:26Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,30 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ntbtr0muu0cvzly1jxntjeyw4tytv3mgq5vzlfzjjet2pudxztwkhmmm1yqq",
+   "d": "2026-11-17T10:45:00Z",
+   "title": "WV leaders set data center and nuclear concerns aside during, after legislative session",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQWmdidFBfekVpcmhSa3RvOGdMaDdGZVFEVTA1clpoX1liNGZWaGhid3N4YWxnMVhORC05SlZBWW1BNXc0c2pNUWxlU0cxTGV6MjJONEVMbDFqN041RFFLMV9NY01QdTJXUjFBVTNOcjQtam1Yb2tlYndFNjNGdzZsSjhPclVVelNzZ1hld1IyVks1NFN5T2lEdmlleHdscEtNdnVqeDRxOFFOeGJCRjdRcXc1bDhLY3R1dWVpMVZJdnFwUmJvWllwWFpKUndkSFRJLW5xN1VPbUJheURtSmhJSnVqZFZXNDcyOFY2RjFSWm0tODNtbTR0MUU0cVZlY1JXNTJEYW4tYTV3MGQ5VzlfZjJET2pudXZTWkhmMm1yQQ?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-17T16:11:26Z",
+   "story": "ntbtr0muu0cvzly1jxntjeyw4tytv3mgq5vzlfzjjet2pudxztwkhmmm1yqq"
+  },
+  {
+   "id": "hjmjztqlbjzjhflxfeuwvkruzpngp6q3jqcf9wudnwv05ormwtr3nxwtc3zw",
+   "d": "2026-11-17T05:00:00Z",
+   "title": "Eric Engle: Speed running pipelines for data centers a problem (Opinion)",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRjRrQVpEdVA3Y2JUdllGT3pFb2U3bGtTRmo5NTAtZGFGcl9LRkMwOE56Q2RQQWhEYUZILTlLR2RaZVl6ZGxwa3U2bWxPWFpSVHRpUnE4cFVxTzI3OXRmRWs1RVZZT0dFeVRPVFJDSnBXeGZXUXpBWlZUc1c5UzRtcFZoYmFNUE9tWEJ4S3FmdXM3cFFncWo4VDF6Mlk4UkpxZDBDSjdESFNQaktPZUpjaUJNajlnd1FaRV9mT21iWTllRGtIcGZXcFd1UnR4dnR1LXg4YVlVbHZxYUhJMjZTQlBjZjhfLXFEUWVkRUZpNGp6Q3JqcF9wUDNwV05ORmwtR3NXWTc3Zw?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-17T16:11:26Z",
+   "story": "hjmjztqlbjzjhflxfeuwvkruzpngp6q3jqcf9wudnwv05ormwtr3nxwtc3zw"
+  },
   {
    "id": "mthvz0dtz0rkntu5m0jtd04zq1y0x3hnmuldudzovkfkyvp6vzhsx2u4v3pz",
    "d": "2026-11-16T18:38:00Z",
@@ -1897,6 +1921,18 @@
    "via": "gnews-gazette",
    "seen": "2026-11-06T15:12:47Z",
    "story": "kddc0shleztfodwzaofzwsurrck93owhgyu9dnvfnbfp4vfdpmutoxzr5a1u"
+  },
+  {
+   "id": "ratjrfsjqxd0jdegvjajhpculxem96mtzoy2m0tjdzmjlwdgzuvy1nnjzpyw",
+   "d": "2026-10-05T14:23:29Z",
+   "title": "Trump defends data centers in Ohio as he rallies to boost Jon Husted in a tight Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPX01vZ0hjVDJKb2pXWDY5cENmUDdfcmtHMFcyel81VFIyRXFiTmtvSjl3Unp6dzhjMnRZS09hSUZYdnh1UUJnVXktY1hpSHNJRlF5Y0d1Y25vODZVSEFWSDlyWHBqZHFBZHVuOUk3dks0SEhJeFg5TWtOWXVqREprM21xNThoek9uSnprNE43VUpYc2I1bndCNVcwcUtxLVRJZVV4Y1libWpHZEJRWlZyYmtCcGFNR1EwRUVrNGxCSnRua18wbGYwcXk1R1ZIWWRaTjRFSjQxd0JDeGVjajhPcUlxem96MTZOY2M0TjdZMjlwdGZuVy1NNjZpYw?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-17T16:11:26Z",
+   "story": "ratjrfsjqxd0jdegvjajhpculxem96mtzoy2m0tjdzmjlwdgzuvy1nnjzpyw"
   },
   {
    "id": "p-old-shop-n-save-property-in-davis",
