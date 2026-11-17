@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:41:03Z",
+ "updated": "2026-11-17T03:58:25Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -33,6 +33,21 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-16T19:41:03Z",
    "story": "lley-north-article-14c40ae2-a128-43b5-9e4a-402dbcfe2be7-html"
+  },
+  {
+   "id": "-ecosystem-article-4362ee21-88b7-4de0-bcf0-b784ef7f8ff4-html",
+   "d": "2026-11-16T14:00:00Z",
+   "title": "Valley Link makes donations to Capitol Market, Entrepreneurship Ecosystem",
+   "url": "https://www.wvnews.com/news/wvnews/valley-link-makes-donations-to-capitol-market-entrepreneurship-ecosystem/article_4362ee21-88b7-4de0-bcf0-b784ef7f8ff4.html",
+   "source": "WV News",
+   "summary": "As Valley Link Transmission Company continues to advocate for its Valley North Transmission Line project, the company has made $40,000 in donations to support statewide initiatives.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-17T03:58:25Z",
+   "story": "-ecosystem-article-4362ee21-88b7-4de0-bcf0-b784ef7f8ff4-html"
   },
   {
    "id": "fry1vdmxwstn2qjhvr3qyq0pwwl9tvu9dn2zzz2trekneagtjqmnlmje4duu",
