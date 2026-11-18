@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:11:26Z",
+ "updated": "2026-11-18T01:00:22Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,73 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "c-approves-natural-gas-plant-mon-county-three-solar-projects",
+   "d": "2026-11-17T22:39:59Z",
+   "title": "West Virginia PSC approves natural gas plant in Mon County, three solar projects",
+   "url": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/",
+   "source": "WDTV 5",
+   "summary": "The Public Service Commission of West Virginia approved plans for a new 1,200-megawatt natural gas plant in Monongalia County and three solar projects across West Virginia on Tuesday.",
+   "projects": [],
+   "energy": true,
+   "via": "wdtv",
+   "seen": "2026-11-18T01:00:22Z",
+   "story": "approves-application-for-new-natural-gas-plant-in-mon-county"
+  },
+  {
+   "id": "wow01bdvczgo5ee1bu1zprevfrljfswnys1djnzhkoxryenezblfvaml1txe",
+   "d": "2026-11-17T21:30:00Z",
+   "title": "West Virginia PSC gives approval for new 1,200 MW gas plant at Fort Martin site",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVk9qa3h4WmhQNVkybndzRWJ5MS1WN3Q4YnpzejNVQ3FRbzRDZUxIR0tnYUhqcHg2RmwxbEFzWmk3Y2pMS3lSU092MFhqcGFXaHdIQlhNS0NKZktUZzBrZ2NtaVdlcTFEWk5aaEd4d2ZoU043bko4NWRkSHFvNktjQjI4V2tDbEdGLXRqLVR3aU5xbGNKN0JkaS1YNzdwaG0wWDZSNkZPcmJyeGFuaTRfeV9ZQUVrU2pkeG10N0pKRFhyTzFwOW01bDVCZGo5eE1BU1ZPREVfRlJFSWNYS1dJNzhKOXRyenEzblFVaml1TXE?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "fortmartin"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-18T01:00:22Z",
+   "story": "wow01bdvczgo5ee1bu1zprevfrljfswnys1djnzhkoxryenezblfvaml1txe"
+  },
+  {
+   "id": "approves-application-for-new-natural-gas-plant-in-mon-county",
+   "d": "2026-11-17T21:23:39Z",
+   "title": "PSC approves application for new natural gas plant in Mon County",
+   "url": "https://www.wboy.com/news/monongalia/psc-approves-application-for-new-natural-gas-plant-in-mon-county/",
+   "source": "WBOY 12",
+   "summary": "Monongalia County and northern West Virginia will be getting more power in the near future.",
+   "projects": [],
+   "energy": true,
+   "via": "wboy",
+   "seen": "2026-11-18T01:00:22Z",
+   "story": "approves-application-for-new-natural-gas-plant-in-mon-county"
+  },
+  {
+   "id": "jozulsqudisne3anz6ckvqueczbuhwcm9nlwxnr2owdljzcmz5vxhxtgi4rw",
+   "d": "2026-11-17T19:35:50Z",
+   "title": "PUBLIC SERVICE COMMISSION OF WEST VIRGINIA CHARLESTON",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNX0pCVklGTHM4cmNySzF5SGVZZDQ1b1ZYLVMwVnlQNTdTb0VTbG9MeVpQOURPMGt3S29hMGFad2ZuLUxyVGN0dTQzNTU0ZHRvalVkZE9LLWpjTVozU0hkTFJIekZ2X0lEd0E2QmZJekFCX2tTd2p4RHk2Rl8ySGdscVlubC02QXJBdTdiZ0tMOVgwVWR5aTV3TE8teFpmaWMxQ3JXbF9tZ2pSdFZqTjV5amVrU2k2SW00eWgyR1o0bDRReTZuV0Rkc2NzNl9mcmFfSFJBOFBmbFJoZUlsQUdiSnE3anZ6ckVQUEczbUhwcm9NLWxNR2owdlJZcmZ5VXhXTGI4Rw?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-18T01:00:22Z",
+   "story": "jozulsqudisne3anz6ckvqueczbuhwcm9nlwxnr2owdljzcmz5vxhxtgi4rw"
+  },
+  {
+   "id": "d1nosuf2wc1by0q0z0ndnnotwv91n0xqrelkzzbhmu03ugfry1pymvzrzgdr",
+   "d": "2026-11-17T17:37:00Z",
+   "title": "West Virginia AG backs Mon Power in $145M PJM dispute",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLUdxT1FLQ1Z5LVVodGV4cHdwd01qVVRYSWFiOHI3bWZJVUV5TzBzcHBQWE1uVG8wc0tKdkhHSjZsYkdaaWhJbHNHVnBvc1dRRHRfWGxveGFpTnhEU0FSeXFJZ1lQZmkwNUxtOVc2dVZLQTJnd0MyX2NFR19KX2ROTmc5OXVxOF9vX0VxUU15cUg0Tkp3Rm4wUmd6T19QMjA3YngtSmNzd1NoSUF2WC1BY0Q0Z0NDNnotWV91N0xQRElkZzBHMU03UGFrY1pYMVZrZGdR?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-18T01:00:22Z",
+   "story": "d1nosuf2wc1by0q0z0ndnnotwv91n0xqrelkzzbhmu03ugfry1pymvzrzgdr"
+  },
   {
    "id": "ntbtr0muu0cvzly1jxntjeyw4tytv3mgq5vzlfzjjet2pudxztwkhmmm1yqq",
    "d": "2026-11-17T10:45:00Z",
