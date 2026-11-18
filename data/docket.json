@@ -192,19 +192,18 @@
   "title": "Fort Martin 1,200 MW gas plant + 70 MW solar ($2.48B)",
   "where": "Case 26-0108-E-CN",
   "case": "Case 26-0108-E-CN",
-  "status": "Fully briefed · order pending",
-  "stage": "awaiting",
-  "stamp": "Fully briefed",
-  "tone": "signal",
-  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. A statutory decision deadline of Feb 2027 has been reported. Two more letters of protest were filed Nov 6 and one more on Nov 10.",
+  "status": "Approved Nov 17, 2026",
+  "stage": "closed",
+  "stamp": "Approved Nov 17",
+  "tone": "ok",
+  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. On Nov 17 the PSC approved the gas plant and three solar projects ($182M), with a customer surcharge the companies estimate starts at about $1.18 a month for residential customers. The companies must update the PSC on construction and costs starting January 2027.",
   "projects": [
    "fortmartin"
   ],
   "counties": [],
   "next": {
-   "t": "Decision deadline (reported)",
-   "d": "2027-02",
-   "verify": true
+   "t": "First construction and cost update to the PSC",
+   "d": "2027-01"
   },
   "sources": [
    {
@@ -226,10 +225,18 @@
    {
     "label": "PSC docket activity, Nov 10 (protest letter)",
     "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673992&NotType=WebDocket"
+   },
+   {
+    "label": "WDTV: PSC approval, Nov 17, 2026",
+    "url": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/"
+   },
+   {
+    "label": "WV MetroNews: PSC approval, Nov 17, 2026",
+    "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
    }
   ],
-  "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
-  "checked": "2026-11-16"
+  "verify": "Approval terms are from WDTV and MetroNews; we have not opened the order. Confirm from the PSC notice.",
+  "checked": "2026-11-18"
  },
  {
   "id": "apco-tariff",

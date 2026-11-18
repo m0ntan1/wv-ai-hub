@@ -451,21 +451,21 @@
   ]
  },
  {
-  "id": "fm-deadline",
-  "date": "2027-02-28",
-  "label": "By Feb 2027",
+  "id": "fm-update",
+  "date": "2027-01-31",
+  "label": "Jan 2027",
   "approx": true,
   "type": "psc",
-  "title": "Fort Martin decision deadline",
-  "desc": "The statutory deadline for the PSC to rule on Mon Power's 1,200 MW gas plant plus 70 MW of solar (Case 26-0108-E-CN). Briefing closed Sep 14, 2026.",
+  "title": "Fort Martin: first construction and cost update",
+  "desc": "Under the PSC's Nov 17, 2026 approval of Mon Power and Potomac Edison's 1,200 MW gas plant and solar projects, the companies must start updating the commission on construction and costs in January 2027 (Case 26-0108-E-CN).",
   "county": "Statewide",
   "host": "PSC, Case 26-0108-E-CN",
   "project": "fortmartin",
-  "flag": "The Feb 2027 deadline was reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
+  "flag": "From WDTV's report of the order; we have not opened the order itself.",
   "sources": [
    {
-    "label": "PSC docket",
-    "url": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
+    "label": "WDTV: PSC approval, Nov 17, 2026",
+    "url": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/"
    }
   ]
  },

@@ -1270,8 +1270,8 @@
    },
    {
     "k": "PSC",
-    "v": "Case 26-0108-E-CN. Hearings Jul 15–16. Initial briefs Aug 28, reply briefs Sep 14. Statutory decision deadline Feb 2027.",
-    "verify": "The Feb 2027 deadline was reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket."
+    "v": "Case 26-0108-E-CN. Hearings Jul 15–16. Initial briefs Aug 28, reply briefs Sep 14. Approved Nov 17, 2026, with a customer surcharge the companies estimate starts at about $1.18 a month (0.9%) for residential customers. Construction and cost updates to the PSC start January 2027; at least 30 days' notice before construction.",
+    "verify": "Approval terms are from WDTV and MetroNews; we have not opened the order. The two outlets describe the surcharge differently (financing costs vs. construction and service costs). Confirm from the PSC notice."
    },
    {
     "k": "Parties",
@@ -1279,14 +1279,19 @@
    }
   ],
   "latest": {
-   "d": "Sep 14, 2026",
-   "t": "Briefing closed. The case is with the Commission, and only public letters have been filed since. Related: Mon Power must file detailed IRP data by Dec 1 (Case 25-0857-E-IRP)."
+   "d": "Nov 17, 2026",
+   "t": "PSC approves the 1,200 MW gas plant and the solar projects ($182M), with a customer surcharge. First construction and cost update due January 2027."
   },
   "history": [
    {
     "d": "2026-02",
     "status": "grid",
     "t": "Mon Power files at the PSC"
+   },
+   {
+    "d": "2026-11-17",
+    "status": "grid",
+    "t": "PSC approves the plant"
    }
   ],
   "timeline": [
@@ -1321,11 +1326,18 @@
     "src": "https://www.psc.state.wv.us/scripts/WebDocket/viewCaseForWebViewForm.cfm?CaseID=85785"
    },
    {
-    "d": "2027-02",
-    "t": "Decision deadline reported by the Dominion Post.",
+    "d": "2026-11-17",
+    "t": "PSC approves the gas plant and three solar projects (Valley Point near Albright, Davis, Wylie Ridge in Weirton; $182M combined), with a customer surcharge estimated at about $1.18 a month to start.",
+    "kind": "psc",
+    "src": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/",
+    "verify": "From news reports; confirm against the PSC order."
+   },
+   {
+    "d": "2027-01",
+    "t": "First construction and cost update to the PSC due.",
     "kind": "psc",
     "next": true,
-    "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket."
+    "src": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/"
    }
   ],
   "sources": [
@@ -1346,10 +1358,14 @@
     "url": "https://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=670444"
    },
    {
-    "label": "Dominion Post: timeline",
-    "url": "https://www.dominionpost.com/?p=557367"
+    "label": "WDTV: PSC approval, Nov 17, 2026",
+    "url": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/"
+   },
+   {
+    "label": "WV MetroNews: PSC approval, Nov 17, 2026",
+    "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
    }
   ],
-  "checked": "2026-11-16"
+  "checked": "2026-11-18"
  }
 ]
