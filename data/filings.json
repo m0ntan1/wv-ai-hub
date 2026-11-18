@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T01:01:51Z",
+ "updated": "2026-11-18T20:41:28Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -659,6 +659,7 @@
      ]
     }
    ],
+   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1018,7 +1019,6 @@
      "filed": "2026-04-28"
     }
    },
-   "factsFrom": "0001031296-26-000144",
    "factsChecked": "2026-11-18"
   },
   "aep": {
@@ -1146,6 +1146,7 @@
      ]
     }
    ],
+   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1490,7 +1491,6 @@
      "filed": "2026-05-05"
     }
    },
-   "factsFrom": "0000004904-26-000072",
    "factsChecked": "2026-11-18"
   },
   "nextera": {
@@ -1638,6 +1638,7 @@
      ]
     }
    ],
+   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1882,7 +1883,6 @@
      "filed": "2026-04-23"
     }
    },
-   "factsFrom": "0000753308-26-000081",
    "factsChecked": "2026-11-18"
   },
   "dominion": {
@@ -2018,6 +2018,7 @@
      ]
     }
    ],
+   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2258,7 +2259,6 @@
      "filed": "2026-05-01"
     }
    },
-   "factsFrom": "0001193125-26-440697",
    "factsChecked": "2026-11-18"
   },
   "anthropic": {
@@ -3906,6 +3906,7 @@
      ]
     }
    ],
+   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4267,7 +4268,6 @@
      "filed": "2026-05-07"
     }
    },
-   "factsFrom": "0001711269-26-000117",
    "factsChecked": "2026-11-18"
   },
   "amazon": {
@@ -10273,6 +10273,7 @@
      ]
     }
    ],
+   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10635,7 +10636,6 @@
      "filed": "2026-08-03"
     }
    },
-   "factsFrom": "0000107263-26-000036",
    "factsChecked": "2026-11-18"
   },
   "nucor": {
@@ -11460,8 +11460,8 @@
  "fred": {
   "DHHNGSP": {
    "last": {
-    "d": "2026-11-11",
-    "v": 3.0
+    "d": "2026-11-17",
+    "v": 3.1
    },
    "monthly": [
     [
@@ -11562,12 +11562,12 @@
     ],
     [
      "2026-11",
-     2.737
+     2.872
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-10",
-    "v": 3.8
+    "d": "2025-11-17",
+    "v": 3.71
    }
   },
   "DFF": {
