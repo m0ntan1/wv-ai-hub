@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T01:00:22Z",
+ "updated": "2026-11-18T11:53:26Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,100 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "jbgpbbzriu1ruoglvnvvmrzmzdhvpuvnbtnzlqy16njdzyxzjs2pnwgfkeue",
+   "d": "2026-11-18T10:45:00Z",
+   "title": "Justice coal firms scheming to gut retiree healthcare coverage, UMWA and miners say",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOUTRpcDFIWUdVTU5oQ2w2akotYzRrVGJzRzNVUG5tWC1vek10NklSZUdLaWkwYkRSalhhd0tYMktneDBvdEZCcHJPaVhaLTgtMDNZdEVuNnc4Y1RoTDJoYVdsMVpUSHFCeXhCODhmM2FybjdOWkpmYjNGZ0FlZlVmUlRoSVdYU3BDYmI5eTRjYWlNeDVXUGdqNFk3elB4bEMwWG45M0RSVm95elN2VmNoaUJQLWZKa1RlSDBRak4yWFdPWDUxZkFabDlVdFd4NHlSWFdxTkdlNTdMUFdnSTMtakhJbGpBbzRiU1RUOGlvNVVmRzMzdHVPUVNBTnZLQy16NjdzYXZjS2pNWGFKeUE?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-gazette",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "jbgpbbzriu1ruoglvnvvmrzmzdhvpuvnbtnzlqy16njdzyxzjs2pnwgfkeue"
+  },
+  {
+   "id": "c0rtyxexb0ttnv8wswhfz18zqtvkqnuwq2w2ck9oevnzyuxwyy1bvm5uuvpt",
+   "d": "2026-11-18T10:00:00Z",
+   "title": "Clark Barnes: Data centers provide economic opportunities for WV",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZjRTbDlzdU4tdGN0NkpmS0MyMFRzaWx0N3FDY2dsbUJCeUZvQmtvSjFRQm95bmpYZGU1TWJvYmNRRVZVNXE0WktKMW96UmZ3dnpyeHFnbXZDRUdTdk44NGZsRGFndFJadkFOTDZQQkVnU3ZSaGtiZjhZUlhUZF90OEtrR1FPdGRuSnBwNGszNXNMWkhJb2RCYXlvNng0SUFvVjFCNFpQb1lQYVprYndrWDczcTNXcXdsV3hvc0RtYXExb0tTNV8wSWhFZ18zQTVkQnUwQ2w2ck9oeVNZYUxwYy1BVm5UUVpt?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "q2gznxvvwk9jy2nmmwpim3iyzfbcvug1chnruvi2c2hlzjnxbmdnbgrjdwvn"
+  },
+  {
+   "id": "ounty-residents-push-back-against-proposed-transmission-line",
+   "d": "2026-11-18T05:22:17Z",
+   "title": "Roane County residents push back against proposed transmission line",
+   "url": "https://www.wsaz.com/2026/11/18/roane-county-residents-push-back-against-proposed-transmission-line/",
+   "source": "WSAZ",
+   "summary": "A public meeting was held Tuesday for the Valley North transmission line, which would connect electricity between West Virginia and Maryland.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "wsaz",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "ounty-residents-push-back-against-proposed-transmission-line"
+  },
+  {
+   "id": "q2gznxvvwk9jy2nmmwpim3iyzfbcvug1chnruvi2c2hlzjnxbmdnbgrjdwvn",
+   "d": "2026-11-18T05:00:00Z",
+   "title": "Clark S. Barnes: Data centers provide economic opportunity (Opinion)",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdXVpOUxOQUZoZktMY2NtcmpGYjMyMjVVc3lkR0tuRTJjVVU1aDlZN0kxWVQ1T0FmSDRLbms1TVVIU3NNWGtMNmJaSnFIUHdfZGh3eVN3bG1uNTBqb2dnZkE1SllvYUFobG8tTktMWmFqdGUzTFdnSzFrQU4tODRQU1pYU3pUYjVFUEhCSjJPNzM3VTR1eUdPYkJpOC1hV3Z0MlBjekh2eGJBdFBkWEZNaEpRMzdZdXVxMGhQV3V3ZGQwaWd5c3B4UEpQUGktU1BHb0tvQ2gzNXVvWk9jY2NMMWpIM3IyZFBCVUg1cHNRUVI2c2hlZjNxbmdNbGRJdWVn?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-gazette",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "q2gznxvvwk9jy2nmmwpim3iyzfbcvug1chnruvi2c2hlzjnxbmdnbgrjdwvn"
+  },
+  {
+   "id": "cer-open-house-for-transmission-line-project-amid-opposition",
+   "d": "2026-11-18T04:23:41Z",
+   "title": "Valley Link holds Spencer open house for transmission line project amid opposition",
+   "url": "https://www.wowktv.com/news/west-virginia/roane-county-wv/valley-link-holds-spencer-open-house-for-transmission-line-project-amid-opposition/",
+   "source": "WOWK 13",
+   "summary": "SPENCER, W.Va. (WOWK) — Valley Link is continuing its second round of open houses across West Virginia, stopping in Spencer on Tuesday to discuss its proposed Valley North Project. The company plans to build a 260-mile transmission line from the John Amos Power Plant in Putnam Co",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "wowk",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "-wheeling-city-council-reads-first-ordinance-on-data-centers",
+   "d": "2026-11-18T03:19:03Z",
+   "title": "Wheeling City Council reads first ordinance on data centers",
+   "url": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/",
+   "source": "WTRF 7",
+   "summary": "WHEELING, W.VA (WTRF) - During tonight’s Wheeling City Council meeting, the first reading of an ordinance involving data centers was brought to the city’s attention. The ordinance included the regulations on data centers in industrial districts, and to establish the application s",
+   "projects": [],
+   "via": "wtrf",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "-wheeling-city-council-reads-first-ordinance-on-data-centers"
+  },
+  {
+   "id": "atural-gas-plant-project-at-fort-martin-in-monongalia-county",
+   "d": "2026-11-18T01:09:00Z",
+   "title": "State Public Service Commission approves $2.48 billion natural gas plant project at Fort Martin in Monongalia County",
+   "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/",
+   "source": "WV MetroNews",
+   "summary": "Commission also approves $1.18 per month surcharge for customers. The post State Public Service Commission approves $2.48 billion natural gas plant project at Fort Martin in Monongalia County appeared first on WV MetroNews .",
+   "projects": [
+    "fortmartin"
+   ],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "atural-gas-plant-project-at-fort-martin-in-monongalia-county"
+  },
   {
    "id": "c-approves-natural-gas-plant-mon-county-three-solar-projects",
    "d": "2026-11-17T22:39:59Z",
@@ -85,6 +179,21 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-18T01:00:22Z",
    "story": "d1nosuf2wc1by0q0z0ndnnotwv91n0xqrelkzzbhmu03ugfry1pymvzrzgdr"
+  },
+  {
+   "id": "s-videos-valley-holds-open-house-transmission-040620457-html",
+   "d": "2026-11-17T16:00:00Z",
+   "title": "Valley Link holds open house for transmission line project in Spencer",
+   "url": "https://www.yahoo.com/news/videos/valley-holds-open-house-transmission-040620457.html",
+   "source": "Yahoo",
+   "summary": "Residents and project officials gathered in Spencer as Valley Link continues its second round of open houses on the proposed Valley North transmission project. Opponents raised concerns about ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-18T11:53:26Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
   },
   {
    "id": "ntbtr0muu0cvzly1jxntjeyw4tytv3mgq5vzlfzjjet2pudxztwkhmmm1yqq",
