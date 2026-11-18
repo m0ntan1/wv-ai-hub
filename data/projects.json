@@ -31,11 +31,15 @@
    {
     "k": "Permits",
     "v": "Air permit R14-0042: written comments are due before 5 p.m. Nov 13, 2026 (DEP notice); no final decision yet. DEP violations for sediment and dust May through Aug. About 6 homes flooded May 23–24."
+   },
+   {
+    "k": "Money",
+    "v": "Building 1: $10B to $10.5B for the data center and power, about $1B of it spent by Sep 30, 2026, plus $21B to $22B for GPUs and other compute. No binding commitments yet for any of the financing the Anthropic agreements need (Nscale S-1/A, Nov 12)."
    }
   ],
   "latest": {
    "d": "Nov 13, 2026",
-   "t": "DEP's written comment period on the air permit closed Nov 13, and DEP's notice lists no date for the final decision. Nscale filed an amended S-1 on Nov 12 with the price range still blank."
+   "t": "DEP's written comment period on the air permit closed Nov 13, with no date set for a final decision. Nscale's Nov 12 amended S-1 discloses that Anthropic exercised a right on Sep 29 to negotiate for Building 2, with 60 days to reach a deal."
   },
   "history": [
    {
@@ -105,11 +109,17 @@
     "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"
    },
    {
+    "d": "2026-09-29",
+    "t": "Anthropic exercises its right to contract for more compute at Building 2 on the Monarch campus, opening 60 days (subject to mutual extension) to negotiate an agreement. If one is signed, Anthropic has 15 business days to exercise a similar right for Building 3 (Nscale S-1/A, Nov 12).",
+    "kind": "company",
+    "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"
+   },
+   {
     "d": "2026-10-19",
     "t": "Bloomberg reports Nscale and Anthropic are in talks on a second deal, for a second 460 MW data center at the Monarch campus. The FT and CNBC reported it too, and the FT repeated it Nov 5 without naming the campus.",
     "kind": "company",
     "src": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
-    "verify": "Every report cites unnamed people (Reuters relayed Bloomberg's). Nscale and Anthropic have not confirmed it; both declined to comment to the FT on Oct 19."
+    "verify": "The dollar value and 460 MW size still rest on unnamed sources. Nscale's Nov 12 S-1/A confirms only that Anthropic exercised a right to negotiate for Building 2 on Sep 29, and gives no value or size. Anthropic's Nov 17 S-1/A lists only the August agreements (up to approximately $44.6B)."
    },
    {
     "d": "2026-10-20",
@@ -145,6 +155,13 @@
     "t": "DEP final decision on air permit R14-0042.",
     "kind": "permit",
     "next": true
+   },
+   {
+    "t": "Building 2: Nscale and Anthropic sign an agreement, extend the 60-day window (which by our count runs out around Nov 28), or let it lapse. Nscale would then be free to contract Building 2 with someone else.",
+    "kind": "company",
+    "next": true,
+    "src": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm",
+    "verify": "The end date is our count of 60 days from Sep 29. The S-1/A does not say whether these are calendar days, and the window can be extended by mutual agreement."
    }
   ],
   "sources": [
@@ -189,7 +206,7 @@
     "url": "https://wvcag.org/?p=16377"
    }
   ],
-  "checked": "2026-11-16",
+  "checked": "2026-11-18",
   "scale": {
    "n": 864,
    "unit": "reciprocating gas engines",
@@ -263,8 +280,8 @@
    }
   ],
   "latest": {
-   "d": "Sep 3, 2026",
-   "t": "Certified as a High Impact Data Center at the WV Chamber summit at The Greenbrier. Residents called it a \"total shocker.\" No construction timeline has been released."
+   "d": "Oct 17, 2026",
+   "t": "A stormwater plan filed with the DEP estimates construction from Mar 1, 2027 to Apr 5, 2029 on six building pads (Gazette-Mail). Starwood has announced no timeline of its own."
   },
   "history": [
    {
@@ -281,6 +298,13 @@
     "src": "https://westvirginiawatch.com/2026/09/08/new-data-center-project-coming-to-mason-county-wv-spearheaded-by-florida-based-real-estate-group/"
    },
    {
+    "d": "2026-09",
+    "t": "A stormwater pollution prevention plan filed with the DEP for Starwood affiliate Tamarack Investment Holdings LLC covers six building pads, about 227 acres of disturbance, and estimates construction from Mar 1, 2027 to Apr 5, 2029.",
+    "kind": "permit",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/dep-permit-bids-detail-significant-mason-county-data-center-environmental-impacts/article_9acbc337-14be-4421-98cf-dc07dcca7254.html",
+    "verify": "Only the Gazette-Mail has reported the plan; we have not opened the DEP filing. The dates are the plan's estimates."
+   },
+   {
     "d": "2026-09-03",
     "t": "Certified as a High Impact Data Center at The Greenbrier.",
     "kind": "certified",
@@ -293,9 +317,11 @@
     "src": "https://www.wsaz.com/2026/09/04/total-shocker-residents-react-second-data-center-coming-mason-county/"
    },
    {
-    "t": "Construction timeline. None has been released.",
+    "t": "DEP action on the stormwater construction permit, and whether work starts on the plan's estimated Mar 1, 2027 date.",
     "kind": "permit",
-    "next": true
+    "next": true,
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/dep-permit-bids-detail-significant-mason-county-data-center-environmental-impacts/article_9acbc337-14be-4421-98cf-dc07dcca7254.html",
+    "verify": "The start date comes from one news report of the plan."
    }
   ],
   "sources": [
@@ -318,9 +344,13 @@
    {
     "label": "Gazette-Mail: Oct 20 hearing",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"
+   },
+   {
+    "label": "Gazette-Mail, Oct 17, 2026 (DEP permit bids)",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/dep-permit-bids-detail-significant-mason-county-data-center-environmental-impacts/article_9acbc337-14be-4421-98cf-dc07dcca7254.html"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "redactions": [
    {
     "label": "Certification petition",
@@ -360,8 +390,8 @@
    }
   ],
   "latest": {
-   "d": "Aug 2026",
-   "t": "Putnam United brought a resolution to the County Commission asking for resident input. The Gazette-Mail found certification followed six-plus months of closed-door meetings, revealed through FOIA."
+   "d": "Sep 29, 2026",
+   "t": "The County Commission adopted a resolution saying data center developers should pay for all water, sewer, and power upgrades and follow county rules. The DEP air permit application (R13-3782) is still pending, with no comment period posted."
   },
   "history": [
    {
@@ -402,9 +432,16 @@
     "src": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
    },
    {
-    "t": "DEP decision on the air permit application.",
+    "d": "2026-09-29",
+    "t": "The County Commission adopts its own data center resolution, written after Putnam United's. It says developers should fund 100% of water, sewer, and power upgrades and follow county rules \"as if House Bill 2014 didn't exist.\" President Andy Skidmore says Google is going through the county planning commission.",
+    "kind": "government",
+    "src": "https://wvmetronews.com/2026/09/29/putnam-county-commission-approves-data-center-resolution-developers-must-comply-with-county-rules-going-forward/"
+   },
+   {
+    "t": "DEP preliminary determination and public comment period on air permit application R13-3782 (none posted yet).",
     "kind": "permit",
-    "next": true
+    "next": true,
+    "src": "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx"
    }
   ],
   "sources": [
@@ -427,9 +464,13 @@
    {
     "label": "WV CAG: Putnam United",
     "url": "https://wvcag.org/?p=16377"
+   },
+   {
+    "label": "WV MetroNews, Sep 29, 2026 (county resolution)",
+    "url": "https://wvmetronews.com/2026/09/29/putnam-county-commission-approves-data-center-resolution-developers-must-comply-with-county-rules-going-forward/"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "scale": {
    "n": 288,
    "unit": "diesel emergency generators",
@@ -482,8 +523,8 @@
    }
   ],
   "latest": {
-   "d": "Oct 31, 2026",
-   "t": "NPR national feature on threats to dark skies, ski areas, and the Monongahela National Forest. A Sep 2 geologists' study flagged mine-subsidence and methane risk. A Harvard Dominici Lab study projects $19–35M in health damages."
+   "d": "Nov 13, 2026",
+   "t": "WSAZ's \"Davis V. Goliath\" feature on Davis residents and tourism. The groups have not yet refiled their air-permit appeal at the Supreme Court of Appeals."
   },
   "history": [
    {
@@ -565,9 +606,16 @@
     "src": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
    },
    {
-    "t": "Appeals refiled in circuit court or at the Supreme Court of Appeals.",
+    "d": "2026-11-13",
+    "t": "WSAZ feature \"Davis V. Goliath\" on Davis residents and tourism businesses. Gov. Morrisey: \"Nothing's been approved.\"",
+    "kind": "media",
+    "src": "https://www.wsaz.com/2026/11/13/davis-v-goliath-small-town-fight-against-big-data/"
+   },
+   {
+    "t": "Appeals refiled at the Supreme Court of Appeals, which the ICA said has jurisdiction over the final-permit appeal. None found as of Nov 18, 2026.",
     "kind": "court",
-    "next": true
+    "next": true,
+    "src": "https://www.wvhighlands.org/?p=15160"
    }
   ],
   "sources": [
@@ -602,9 +650,13 @@
    {
     "label": "WVHC update",
     "url": "https://www.wvhighlands.org/?p=15053"
+   },
+   {
+    "label": "WSAZ: Davis V. Goliath, Nov 13, 2026",
+    "url": "https://www.wsaz.com/2026/11/13/davis-v-goliath-small-town-fight-against-big-data/"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "scale": {
    "n": 30,
    "unit": "million gallons of diesel storage",
@@ -717,7 +769,7 @@
     "url": "https://nearbydatacenters.org/wv/"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "scale": {
    "n": 117,
    "unit": "gas engines at this plant",
@@ -754,7 +806,7 @@
    }
   ],
   "latest": {
-   "d": "Dec 2025",
+   "d": "Jun 22, 2026",
    "t": "DEP filings describe the plant powering a data center near the Mingo–Logan county line at Harless Industrial Park. Residents' federal suit over the project was dismissed without prejudice in June 2026."
   },
   "history": [
@@ -803,7 +855,7 @@
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "scale": {
    "n": 117,
    "unit": "gas engines at this plant",
@@ -835,7 +887,7 @@
    },
    {
     "k": "Status",
-    "v": "First certified \"High Impact\" project under HB 2014 (Feb 2026). DEP stormwater construction permit application accepted Jul 2026."
+    "v": "First certified \"High Impact\" project under HB 2014 (Feb 2026). DEP stormwater construction permit application (WVR 113565, 147.66 acres of Phase 1 grading) accepted Jul 2026."
    },
    {
     "k": "People",
@@ -843,8 +895,8 @@
    }
   ],
   "latest": {
-   "d": "Oct 9, 2026",
-   "t": "AG J.B. McCuskey declined Berkeley County's 10-page request for guidance on HB 2014 preemption of its stormwater MS4 duties, citing the pending Barks lawsuit."
+   "d": "Oct 27, 2026",
+   "t": "The DEP told Berkeley County it must still meet its federal stormwater permit, including ordinances, across the area that covers the data center site. The AG had declined a related request Oct 9, citing the Barks lawsuit."
   },
   "history": [
    {
@@ -877,6 +929,19 @@
     "t": "AG J.B. McCuskey declines, citing the pending Barks lawsuit.",
     "kind": "government",
     "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "d": "2026-10",
+    "t": "The DEP tells Berkeley County it remains bound by its federal MS4 stormwater permit, including stormwater ordinances, across the whole covered area. The county had asked on Aug 28.",
+    "kind": "permit",
+    "src": "https://wvmetronews.com/2026/10/27/as-county-officials-navigate-loss-of-local-control-at-data-center-sites-a-responsibility-stands-stormwater/",
+    "verify": "Single news report; the DEP letter's exact date is not given (\"this week\" in an Oct 27 story)."
+   },
+   {
+    "t": "DEP draft decision and 30-day public comment on the Phase 1 grading permit (WVR 113565). The application listed a Nov 15, 2026 start; no public notice or grading reported as of Nov 18.",
+    "kind": "permit",
+    "next": true,
+    "src": "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
    }
   ],
   "sources": [
@@ -895,9 +960,13 @@
    {
     "label": "Observer",
     "url": "https://observerwv.com/bedington-data-center-project-seeks-construction-permit/"
+   },
+   {
+    "label": "WV MetroNews: stormwater, Oct 27, 2026",
+    "url": "https://wvmetronews.com/2026/10/27/as-county-officials-navigate-loss-of-local-control-at-data-center-sites-a-responsibility-stands-stormwater/"
    }
   ],
-  "checked": "2026-11-03",
+  "checked": "2026-11-18",
   "redactions": [
    {
     "label": "Certification petition",
@@ -988,11 +1057,12 @@
   "facts": [
    {
     "k": "Scale",
-    "v": "About 235 acres (thinly sourced)."
+    "v": "235 acres northwest of Summit Point village, bought Apr 9, 2026 for $2.3 million. No end user named. Developer estimate: 100,000 to 130,000 gallons of water per day.",
+    "verify": "Purchase price from one report (Prince William Times)."
    },
    {
     "k": "Status",
-    "v": "Developer presentation to the Charles Town Utility Board reported Apr 29, 2026. No state filing found."
+    "v": "Ryan Stuart Development briefed the Charles Town Utility Board Apr 29, 2026. No state filing found."
    },
    {
     "k": "People",
@@ -1000,26 +1070,43 @@
    }
   ],
   "latest": {
-   "d": "Apr 2026",
-   "t": "The utility board is also weighing a separate Summit Point water and sewer grant. Its link to the site is unconfirmed."
+   "d": "Apr 29, 2026",
+   "t": "The developer told the Charles Town Utility Board it is gathering water and sewer options and raised a possible connection through the Summit Point Motorsports Park water and sewer project. No end user, and no state filing found."
   },
   "history": [
    {
     "d": "2026-04-29",
     "status": "proposed",
-    "t": "Presentation to the Charles Town Utility Board reported"
+    "t": "Developer briefs the Charles Town Utility Board"
    }
   ],
   "timeline": [
    {
-    "d": "2026-04-29",
-    "t": "A developer presentation to the Charles Town Utility Board is reported.",
+    "d": "2026-04-09",
+    "t": "Ryan Stuart Development buys a 235-acre tract northwest of Summit Point village.",
     "kind": "company",
-    "src": "https://nearbydatacenters.org/wv/",
-    "verify": "Single tracker source; no filing or news story found."
+    "src": "https://observerwv.news/posts/data-center-in-summit-point-politics-not-as-usual"
+   },
+   {
+    "d": "2026-04-29",
+    "t": "Ryan Stuart's Kenny Boddye briefs the Charles Town Utility Board on a potential data center and a possible connection through the Summit Point Motorsports Park water and sewer project. No board action.",
+    "kind": "company",
+    "src": "https://d3n9y02raazwpg.cloudfront.net/ctubwv/849db805-dc17-11f0-bb28-005056a89546-b40c45bd-14cb-4cec-99d7-878d4bbb4578-1778690512.pdf"
    }
   ],
   "sources": [
+   {
+    "label": "Charles Town Utility Board minutes, Apr 29, 2026 (in May 13 packet)",
+    "url": "https://d3n9y02raazwpg.cloudfront.net/ctubwv/849db805-dc17-11f0-bb28-005056a89546-b40c45bd-14cb-4cec-99d7-878d4bbb4578-1778690512.pdf"
+   },
+   {
+    "label": "Observer, Apr 30, 2026",
+    "url": "https://observerwv.news/posts/data-center-in-summit-point-politics-not-as-usual"
+   },
+   {
+    "label": "Prince William Times, May 7, 2026",
+    "url": "https://www.princewilliamtimes.com/localnews/county-supervisor-s-job-with-land-developer-raises-concerns/article_af53790b-44a0-4856-97cc-57257783f685.html"
+   },
    {
     "label": "nearbydatacenters",
     "url": "https://nearbydatacenters.org/wv/"
@@ -1033,8 +1120,7 @@
     "url": "https://observerwv.com/state-proposes-rule-for-fast-tracking-data-center-projects/"
    }
   ],
-  "checked": "2026-11-03",
-  "verify": "The site, acreage, and utility-board presentation come from one data-center tracker. We found no filing or news story confirming them."
+  "checked": "2026-11-18"
  },
  {
   "id": "hoglick",
@@ -1122,7 +1208,7 @@
    },
    {
     "k": "Legal",
-    "v": "Barks v. Silicon Foundation (Ohio Co. Circuit Court): 12 residents challenge HB 2014's constitutionality. The AG intervened to defend."
+    "v": "Barks v. Silicon Foundation (Ohio Co. Circuit Court, Judge David Sims, filed Jul 2026): 12 residents challenge HB 2014's constitutionality and the site's zoning. The AG intervened to defend HB 2014. Silicon Foundation moved to dismiss (Sep 2026); no ruling reported."
    },
    {
     "k": "People",
@@ -1130,14 +1216,14 @@
    }
   ],
   "latest": {
-   "d": "Oct 2026",
-   "t": "The AG's office is defending HB 2014 in Barks and cited the case when declining Berkeley County's opinion request."
+   "d": "Nov 17, 2026",
+   "t": "Wheeling City Council heard the first reading of data center rules (Article 1365); a vote is expected Dec 1. Silicon Foundation's motion to dismiss Barks is pending before Judge David Sims."
   },
   "history": [
    {
     "d": "2026-06",
     "status": "contested",
-    "t": "Town halls; residents challenge HB 2014 in court"
+    "t": "Town halls against the project"
    }
   ],
   "timeline": [
@@ -1148,20 +1234,48 @@
     "src": "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
    },
    {
-    "t": "Twelve residents file Barks v. Silicon Foundation in Ohio County Circuit Court, challenging HB 2014 (filing date not confirmed).",
+    "d": "2026-07",
+    "t": "Twelve Warwood residents file Barks v. Silicon Foundation in Ohio County Circuit Court (Judge David Sims), challenging HB 2014 and the site's zoning.",
     "kind": "court",
-    "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+    "src": "https://www.heraldstaronline.com/news/community/2026/07/warwood-residents-file-civil-suit-to-stop-data-center-development/"
    },
    {
     "t": "The project is revised to 50 MW, under the 90 MW HB 2014 line, so the City of Wheeling keeps review.",
     "kind": "company",
-    "src": "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty"
+    "src": "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty",
+    "d": "2026-07-02"
+   },
+   {
+    "d": "2026-07-31",
+    "t": "AG J.B. McCuskey moves to intervene to defend HB 2014's constitutionality. The court grants it.",
+    "kind": "court",
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/08/attorney-general-intervenes-in-suit-against-warwood-data-center-project/"
+   },
+   {
+    "d": "2026-09",
+    "t": "Silicon Foundation moves to dismiss, arguing there is no ripe controversy. Judge Sims later denies the plaintiffs' request for 90 to 120 days of discovery. Response due Oct 28.",
+    "kind": "court",
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/10/silicon-foundation-moves-to-dismiss-lawsuit-over-data-center-project/",
+    "verify": "Single report; exact filing date not given."
    },
    {
     "d": "2026-10-09",
     "t": "The AG's office cites Barks in declining Berkeley County's opinion request.",
     "kind": "court",
     "src": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "d": "2026-11-17",
+    "t": "Wheeling City Council hears the first reading of Article 1365, data center rules for Industrial districts.",
+    "kind": "government",
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
+   },
+   {
+    "d": "2026-12-01",
+    "t": "Wheeling City Council second reading and vote on Article 1365.",
+    "kind": "government",
+    "next": true,
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
    }
   ],
   "sources": [
@@ -1188,9 +1302,25 @@
    {
     "label": "WV CAG: McWhorter",
     "url": "https://wvcag.org/?p=16377"
+   },
+   {
+    "label": "Herald-Star, Jul 24, 2026 (suit filed)",
+    "url": "https://www.heraldstaronline.com/news/community/2026/07/warwood-residents-file-civil-suit-to-stop-data-center-development/"
+   },
+   {
+    "label": "Intelligencer, Aug 20, 2026 (AG intervenes)",
+    "url": "https://www.theintelligencer.net/news/top-headlines/2026/08/attorney-general-intervenes-in-suit-against-warwood-data-center-project/"
+   },
+   {
+    "label": "Intelligencer, Oct 15, 2026 (motion to dismiss)",
+    "url": "https://www.theintelligencer.net/news/top-headlines/2026/10/silicon-foundation-moves-to-dismiss-lawsuit-over-data-center-project/"
+   },
+   {
+    "label": "Intelligencer, Nov 18, 2026 (Article 1365)",
+    "url": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "monroe",
@@ -1249,7 +1379,7 @@
     "url": "https://mountainmessenger.com/?p=100074"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "fortmartin",
@@ -1364,6 +1494,307 @@
    {
     "label": "WV MetroNews: PSC approval, Nov 17, 2026",
     "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
+   }
+  ],
+  "checked": "2026-11-18"
+ },
+ {
+  "id": "country-roads",
+  "short": "Country Roads",
+  "name": "Project Country Roads",
+  "status": "certified",
+  "place": "Boone Co. · north of Danville (former Hobet mine)",
+  "counties": [
+   "Boone"
+  ],
+  "lat": 38.1,
+  "lng": -81.84,
+  "developer": "LM Core Energy Services, Inc. (Houston). CEO Jarrette Lewis. Anticipated tenant named in the petition: TensorWave (Las Vegas).",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "Certification notice: roughly 3,557 acres and about 1.4 GW of anticipated full-campus demand. An unsigned June 22 MOU: about 3,702 acres, $9.65 billion through the first phase, 2,000 to 3,000 peak construction jobs and 200 to 400 permanent. Other project documents: up to 10 GW and 8,000 acres.",
+    "verify": "All figures come from confidential documents described by one outlet (Gazette-Mail, Nov 7). The $9.65 billion is from an unsigned MOU, not a state announcement."
+   },
+   {
+    "k": "Schedule",
+    "v": "MOU target: 50 MW initial power in Q4 2026, 1,000 MW commercial operation in Q4 2028, 10 GW buildout from 2026 through 2034. Investor deck: 400 MW by Q4 2027.",
+    "verify": "Company targets in unsigned and private documents, reported only by the Gazette-Mail."
+   },
+   {
+    "k": "Power",
+    "v": "Petition: Appalachian Power issued a conceptual service plan in July and costs for the first 400 MW in August; 200 MW temporary service at 138 kV, then permanent 765 kV service from a new station cut into the Culloden-Wyoming line. The MOU also proposes on-site generation and energy storage. No fuel has been reported.",
+    "verify": "From the petition and MOU as reported by the Gazette-Mail. Appalachian Power declined to comment on the project."
+   },
+   {
+    "k": "Air permits",
+    "v": "The unsigned MOU would have the DEP hold a pre-application session on a \"synthetic minor source pathway\" for phase one, \"following the Fundamental Data, LLC precedent.\" The DEP says it has held no preapplication meeting and received no permit application."
+   },
+   {
+    "k": "Water",
+    "v": "Petition: on-site wastewater treatment plant discharging to the Little Coal River. Average and peak daily water use listed as 4,000 to 5,000 gallons per day.",
+    "verify": "Petition figure reported by one outlet. Confirm the figure and units if the petition becomes public."
+   },
+   {
+    "k": "Land",
+    "v": "Held by LM Core under a July 24 purchase and sale agreement with Cassingham LLC (the Dickinson Family of Companies), with $500,000 earnest money in escrow at United Bank.",
+    "verify": "From the petition as reported by the Gazette-Mail."
+   },
+   {
+    "k": "Nearby",
+    "v": "Petition lists Lick Creek Community Church at 0.8 miles, Brookview Elementary at 2.6 miles, and a Morrisvale Volunteer Fire Department site as the nearest residence at 1.9 miles."
+   },
+   {
+    "k": "Who it says it knows",
+    "v": "LM Core's August investor deck says it \"co-authored\" HB 2014. House Deputy Chief of Staff Ann Ali says the Governor's Office drafted the bill and no company was involved once it reached the House.",
+    "verify": "Company claim to investors, reported by one outlet."
+   },
+   {
+    "k": "People",
+    "v": "Commerce Secretary Matthew Herridge signed the approval. Commerce spokesperson Andy Malinoski: projects \"remain confidential until they receive final approval.\" CEO Jarrette Lewis: LM Core is \"exploring a potential development.\" Former state Sen. Ron Stollings says he is not against it but wants other development on the site too."
+   }
+  ],
+  "latest": {
+   "d": "Nov 10, 2026",
+   "t": "The Gazette-Mail reports a Dec. 2025 letter in which then-Del. Daniel Linville pitched fast-track permitting to LM Core's CEO. The state still has not announced the Sept. 30 certification, and the DEP has received no permit application."
+  },
+  "history": [
+   {
+    "d": "2026-09-30",
+    "status": "certified",
+    "t": "Certified by a Commerce letter, not announced (reported Nov 7)"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2025-12",
+    "t": "Then-Del. Daniel Linville writes LM Core CEO Jarrette Lewis, thanking his team for a visit the month before and touting HB 2002 fast-track permitting.",
+    "kind": "government",
+    "src": "https://www.wvgazettemail.com/news/politics/wv-one-stop-shop-permitting-program-sparks-concern-about-potential-rubber-stamping/article_4a3844f6-11cb-4793-9f64-d339549bed8e.html",
+    "verify": "Letter described by one outlet; not public."
+   },
+   {
+    "d": "2026-01",
+    "t": "Republicans on the rule-making committee reject Del. Kayla Young's amendment to make redacted certification filings public.",
+    "kind": "government",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "d": "2026-06-22",
+    "t": "Date on an unsigned MOU between LM Core and the state: $9.65 billion through phase one, 10 GW by 2034, a DEP pre-application session on a synthetic minor air pathway.",
+    "kind": "company",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html",
+    "verify": "Unsigned document described by one outlet."
+   },
+   {
+    "d": "2026-07",
+    "t": "Appalachian Power issues a conceptual service plan, per LM Core's petition.",
+    "kind": "company",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html",
+    "verify": "Petition claim; Appalachian Power declined to comment."
+   },
+   {
+    "d": "2026-07-24",
+    "t": "LM Core signs a purchase and sale agreement for the land with Cassingham LLC; $500,000 earnest money in escrow.",
+    "kind": "money",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html",
+    "verify": "From the petition as reported by one outlet."
+   },
+   {
+    "d": "2026-08",
+    "t": "LM Core investor deck pitches a 1 GW first phase scaling to 10 GW and says the company \"co-authored\" HB 2014.",
+    "kind": "company",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html",
+    "verify": "Private investor document described by one outlet."
+   },
+   {
+    "d": "2026-08-17",
+    "t": "LM Core petitions Commerce for High-Impact Data Center certification.",
+    "kind": "company",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "d": "2026-09-30",
+    "t": "Commerce Secretary Matthew Herridge signs the certification, conditioned on an unspecified \"Supplemental Project Commitment.\" No public announcement.",
+    "kind": "certified",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html",
+    "verify": "Notice obtained and described by one outlet; the state has not released it."
+   },
+   {
+    "d": "2026-11-07",
+    "t": "The Gazette-Mail reports the certification. Commerce says projects stay confidential until final approval; the DEP says it has no permit application.",
+    "kind": "media",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "d": "2026-11-09",
+    "t": "Former state Sen. Ron Stollings questions the approach and HB 2014's tax split on MetroNews \"Midday.\"",
+    "kind": "community",
+    "src": "https://wvmetronews.com/2026/11/09/former-state-lawmaker-hoping-for-economic-development-beyond-data-centers-in-boone-county/"
+   },
+   {
+    "d": "2026-11-10",
+    "t": "The Gazette-Mail reports Linville's Dec. 2025 letter to LM Core. Linville became the governor's director of special projects in June.",
+    "kind": "media",
+    "src": "https://www.wvgazettemail.com/news/politics/wv-one-stop-shop-permitting-program-sparks-concern-about-potential-rubber-stamping/article_4a3844f6-11cb-4793-9f64-d339549bed8e.html"
+   },
+   {
+    "t": "Commerce's formal release of the certification. None yet.",
+    "kind": "government",
+    "next": true,
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "t": "DEP air and water permit applications. None filed as of Nov 7.",
+    "kind": "permit",
+    "next": true,
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "t": "Eight listening sessions proposed in the petition (Madison, Danville, Van, Foster/Julian, Hamlin, West Hamlin, Alum Creek, Griffithsville/Duval). No dates.",
+    "kind": "community",
+    "next": true,
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   }
+  ],
+  "redactions": [
+   {
+    "label": "Certification petition and letters of intent",
+    "why": "Confidential under the HB 2014 legislative rule. Commerce says details stay confidential until final approval.",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "label": "Supplemental Project Commitment",
+    "why": "A condition of the certification; its terms were not disclosed.",
+    "src": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Gazette-Mail: certified without announcement (Nov 7)",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-certified-boone-county-data-center-campus-project-without-public-announcement/article_71b7db6a-652f-44fb-a6ba-b3cd7f17babf.html"
+   },
+   {
+    "label": "Gazette-Mail: Linville letter, One-Stop Shop (Nov 10)",
+    "url": "https://www.wvgazettemail.com/news/politics/wv-one-stop-shop-permitting-program-sparks-concern-about-potential-rubber-stamping/article_4a3844f6-11cb-4793-9f64-d339549bed8e.html"
+   },
+   {
+    "label": "WV MetroNews: Stollings (Nov 9)",
+    "url": "https://wvmetronews.com/2026/11/09/former-state-lawmaker-hoping-for-economic-development-beyond-data-centers-in-boone-county/"
+   },
+   {
+    "label": "Coal Zoom (Nov 9)",
+    "url": "https://www.coalzoom.com/article.cfm?articleid=45188"
+   }
+  ],
+  "checked": "2026-11-18",
+  "verify": "Every project fact traces to documents the Gazette-Mail obtained. The state has not announced or released the certification, and other coverage repeats that report."
+ },
+ {
+  "id": "mtstorm",
+  "short": "Mt. Storm",
+  "name": "Mt. Storm Combined Cycle Station",
+  "status": "grid",
+  "place": "Grant Co. · Mount Storm",
+  "counties": [
+   "Grant"
+  ],
+  "lat": 39.19,
+  "lng": -79.27,
+  "developer": "Dominion Energy (Virginia Electric and Power Company, d/b/a Dominion Energy Virginia).",
+  "facts": [
+   {
+    "k": "Scale",
+    "v": "About 2,600 MW of gas-fired combined-cycle generation (Dominion and the governor). The air permit application gives about 2,752 MW nominal net at ISO conditions: four combustion turbines in two 2x1 power trains, with fuel oil backup. About 130 acres on Dominion's existing Mt. Storm property, next to the 1.6 GW coal plant, which stays open."
+   },
+   {
+    "k": "Who it serves",
+    "v": "A Dominion spokesperson told West Virginia Watch it will \"serve (Dominion Energy's) customers in Virginia,\" with excess energy available to the PJM grid."
+   },
+   {
+    "k": "Data centers",
+    "v": "Dominion's application says PJM's demand growth reflects \"development of large new loads, such as data centers and advanced manufacturing facilities.\" No specific data-center customer is named."
+   },
+   {
+    "k": "Permits",
+    "v": "DEP air permit application R14-0043, dated July 24, 2026. Commercial startup is planned \"on or about\" 2033. The application lists two 4,000,000-gallon fuel oil tanks for the turbines. No PSC filing has been reported.",
+    "verify": "We have not seen a DEP draft permit, public notice or comment period for R14-0043. Check the DEP DAQ notice page."
+   },
+   {
+    "k": "Jobs",
+    "v": "More than 1,400 construction jobs and 150 permanent jobs, per the governor's office. Company officials estimate nearly $950 million in tax revenue for Grant County over the first 36 years."
+   }
+  ],
+  "latest": {
+   "d": "Nov 9, 2026",
+   "t": "The Gas and Oil Association of WV listed the plant (2,600 MW, startup around 2033) among eight gas projects it told lawmakers total about 11 GW. The DEP air permit application, filed in July, is still pending."
+  },
+  "history": [
+   {
+    "d": "2026-07",
+    "status": "grid",
+    "t": "Dominion files its DEP air permit application, and the governor announces the plant"
+   }
+  ],
+  "timeline": [
+   {
+    "d": "2026-07-24",
+    "t": "Dominion's DEP air permit application (R14-0043) is dated. It cites PJM load growth from data centers and advanced manufacturing and plans startup around 2033.",
+    "kind": "permit",
+    "src": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/023-00003/Draft/023-00003_APPL_R14-0043.pdf"
+   },
+   {
+    "d": "2026-07-28",
+    "t": "Gov. Morrisey announces a 2.6 GW gas plant at Mt. Storm. The 1.6 GW coal station stays open.",
+    "kind": "government",
+    "src": "https://governor.wv.gov/article/governor-morrisey-announces-26-gw-natural-gas-power-plant-grant-county-existing-coal"
+   },
+   {
+    "d": "2026-07-28",
+    "t": "Dominion tells West Virginia Watch the power will serve its Virginia customers, with excess going to PJM.",
+    "kind": "company",
+    "src": "https://westvirginiawatch.com/2026/07/28/proposed-wv-natural-gas-plant-to-generate-power-for-dominion-energy-customers-in-virginia-pjm-grid/"
+   },
+   {
+    "d": "2026-09-15",
+    "t": "Dominion holds a project open house at Union Educational Complex, Mt. Storm.",
+    "kind": "company",
+    "src": "https://www.dominionenergy.com/about/making-energy/power-stations/mt-storm-combined-cycle-station"
+   },
+   {
+    "d": "2026-11-09",
+    "t": "The Gas and Oil Association of WV lists the plant among about 11 GW of proposed gas projects at a legislative interim meeting.",
+    "kind": "context",
+    "src": "https://www.wvnews.com/bridgeportnews/news/west-virginia-natural-gas-industry-rep-outlines-11-gigawatts-in-proposed-power-projects/article_16795502-7fdb-44e3-9880-f0d79dd795e4.html"
+   },
+   {
+    "d": "2033",
+    "t": "Planned commercial startup, \"on or about\" 2033, per the application.",
+    "kind": "permit",
+    "next": true,
+    "src": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/023-00003/Draft/023-00003_APPL_R14-0043.pdf"
+   }
+  ],
+  "sources": [
+   {
+    "label": "DEP air permit application R14-0043 (Dominion, Jul 24, 2026)",
+    "url": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/023-00003/Draft/023-00003_APPL_R14-0043.pdf"
+   },
+   {
+    "label": "Office of the Governor, Jul 28, 2026",
+    "url": "https://governor.wv.gov/article/governor-morrisey-announces-26-gw-natural-gas-power-plant-grant-county-existing-coal"
+   },
+   {
+    "label": "West Virginia Watch (Caity Coyne), Jul 28, 2026",
+    "url": "https://westvirginiawatch.com/2026/07/28/proposed-wv-natural-gas-plant-to-generate-power-for-dominion-energy-customers-in-virginia-pjm-grid/"
+   },
+   {
+    "label": "Dominion Energy project page",
+    "url": "https://www.dominionenergy.com/about/making-energy/power-stations/mt-storm-combined-cycle-station"
+   },
+   {
+    "label": "WV News (Charles Young), Nov 9, 2026",
+    "url": "https://www.wvnews.com/bridgeportnews/news/west-virginia-natural-gas-industry-rep-outlines-11-gigawatts-in-proposed-power-projects/article_16795502-7fdb-44e3-9880-f0d79dd795e4.html"
    }
   ],
   "checked": "2026-11-18"
