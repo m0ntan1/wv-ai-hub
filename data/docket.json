@@ -17,7 +17,7 @@
   "next": {
    "t": "Ruling on the motion to dismiss (no date set)",
    "d": "",
-   "verify": true
+   "verify": "Only The Intelligencer has reported the motion and the briefing schedule."
   },
   "sources": [
    {
@@ -106,7 +106,7 @@
   "stage": "prefiling",
   "stamp": "Under discussion",
   "tone": "dim",
-  "summary": "Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed. On Sep 29 the Putnam Commission instead adopted a non-binding resolution asking data center developers to follow county rules \"as if House Bill 2014 didn't exist\" and fund 100 percent of utility upgrades.",
+  "summary": "Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed. On Sep 29 the Putnam Commission instead adopted a resolution saying data center developers should fund 100 percent of water, sewer, and power upgrades. Skidmore said developers should follow county rules \"as if House Bill 2014 didn't exist.\"",
   "projects": [
    "google",
    "fortmartin"
@@ -146,7 +146,7 @@
   "stage": "briefing",
   "stamp": "Decision due Mar 6, 2027",
   "tone": "cyan",
-  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual. PSC Chair <strong>Charlotte Lane</strong> said at the close of testimony that the Commission would try to rule by the end of 2026; the statutory deadline is Mar 6, 2027. The Preston County Commission adopted a second resolution opposing the line Nov 9.",
+  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual. PSC Chair <strong>Charlotte Lane</strong> said at the close of testimony that the Commission would try to rule by the end of 2026; the statutory deadline is Mar 6, 2027. WBOY reports the Preston County Commission adopted a second resolution opposing the line Nov 9.",
   "projects": [
    "marl"
   ],
@@ -217,7 +217,8 @@
     "url": "https://www.wboy.com/news/preston/preston-county-commission-adopts-second-resolution-opposing-marl/"
    }
   ],
-  "checked": "2026-11-18"
+  "checked": "2026-11-18",
+  "verify": "The Preston second resolution comes from one report (WBOY)."
  },
  {
   "id": "fortmartin",

@@ -281,7 +281,7 @@
   ],
   "latest": {
    "d": "Oct 17, 2026",
-   "t": "A stormwater plan filed with the DEP estimates construction from Mar 1, 2027 to Apr 5, 2029 on six building pads (Gazette-Mail). Starwood has announced no timeline of its own."
+   "t": "A stormwater plan filed with the DEP estimates construction from Mar 1, 2027 to Apr 5, 2029 on six building pads (Gazette-Mail). Starwood has announced no timeline of its own. (One report; we have not opened the plan.)"
   },
   "history": [
    {
@@ -391,7 +391,7 @@
   ],
   "latest": {
    "d": "Sep 29, 2026",
-   "t": "The County Commission adopted a resolution saying data center developers should pay for all water, sewer, and power upgrades and follow county rules. The DEP air permit application (R13-3782) is still pending, with no comment period posted."
+   "t": "The County Commission adopted a resolution saying data center developers should fund all water, sewer, and power upgrades. The DEP air permit application (R13-3782) is still pending, with no comment period posted."
   },
   "history": [
    {
@@ -433,7 +433,7 @@
    },
    {
     "d": "2026-09-29",
-    "t": "The County Commission adopts its own data center resolution, written after Putnam United's. It says developers should fund 100% of water, sewer, and power upgrades and follow county rules \"as if House Bill 2014 didn't exist.\" President Andy Skidmore says Google is going through the county planning commission.",
+    "t": "The County Commission adopts its own data center resolution, written after Putnam United's. It says developers should fund 100 percent of water, sewer, and power upgrades. President Andy Skidmore said developers should follow county rules \"as if House Bill 2014 didn't exist,\" and that Google is going through the county planning commission.",
     "kind": "government",
     "src": "https://wvmetronews.com/2026/09/29/putnam-county-commission-approves-data-center-resolution-developers-must-comply-with-county-rules-going-forward/"
    },
@@ -1058,7 +1058,7 @@
    {
     "k": "Scale",
     "v": "235 acres northwest of Summit Point village, bought Apr 9, 2026 for $2.3 million. No end user named. Developer estimate: 100,000 to 130,000 gallons of water per day.",
-    "verify": "Purchase price from one report (Prince William Times)."
+    "verify": "Purchase price from one report (Prince William Times); water estimate from one report (Observer)."
    },
    {
     "k": "Status",
@@ -1249,7 +1249,8 @@
     "d": "2026-07-31",
     "t": "AG J.B. McCuskey moves to intervene to defend HB 2014's constitutionality. The court grants it.",
     "kind": "court",
-    "src": "https://www.theintelligencer.net/news/top-headlines/2026/08/attorney-general-intervenes-in-suit-against-warwood-data-center-project/"
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/08/attorney-general-intervenes-in-suit-against-warwood-data-center-project/",
+    "verify": "Single report (The Intelligencer)."
    },
    {
     "d": "2026-09",
@@ -1268,14 +1269,16 @@
     "d": "2026-11-17",
     "t": "Wheeling City Council hears the first reading of Article 1365, data center rules for Industrial districts.",
     "kind": "government",
-    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/",
+    "verify": "Single report (The Intelligencer)."
    },
    {
     "d": "2026-12-01",
     "t": "Wheeling City Council second reading and vote on Article 1365.",
     "kind": "government",
     "next": true,
-    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
+    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/",
+    "verify": "Single report (The Intelligencer)."
    }
   ],
   "sources": [
@@ -1709,7 +1712,8 @@
    },
    {
     "k": "Who it serves",
-    "v": "A Dominion spokesperson told West Virginia Watch it will \"serve (Dominion Energy's) customers in Virginia,\" with excess energy available to the PJM grid."
+    "v": "A Dominion spokesperson told West Virginia Watch it will \"serve (Dominion Energy's) customers in Virginia,\" with excess energy available to the PJM grid.",
+    "verify": "West Virginia Watch blocks automated fetching; the quote was read once through a scraping service. Confirm the wording on the page."
    },
    {
     "k": "Data centers",
