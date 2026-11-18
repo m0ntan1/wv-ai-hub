@@ -9,25 +9,34 @@
   "stage": "open",
   "stamp": "Pending",
   "tone": "legal",
-  "summary": "Twelve Warwood residents argue HB 2014 unconstitutionally strips local land-use and zoning control. AG <strong>J.B. McCuskey</strong>'s office intervened to defend the statute, and on Oct 9 it cited this case in declining Berkeley County's request for a legal opinion.",
+  "summary": "Twelve Warwood residents argue HB 2014 unconstitutionally strips local land-use and zoning control. AG <strong>J.B. McCuskey</strong>'s office intervened to defend the statute, and on Oct 9 it cited this case in declining Berkeley County's request for a legal opinion. In late September the defendants moved to dismiss, arguing there is no ripe controversy. Judge <strong>David Sims</strong> denied the plaintiffs' request for discovery first and set Oct 28 for their response.",
   "projects": [
    "warwood"
   ],
   "counties": [],
-  "next": null,
+  "next": {
+   "t": "Ruling on the motion to dismiss (no date set)",
+   "d": "",
+   "verify": "Only The Intelligencer has reported the motion and the briefing schedule."
+  },
   "sources": [
    {
     "label": "WV MetroNews, Oct 26, 2026",
     "url": "https://wvmetronews.com/2026/10/26/county-wants-more-specifics-on-local-control-of-high-impact-data-centers-but-ag-declines/"
+   },
+   {
+    "label": "The Intelligencer, Oct 15, 2026",
+    "url": "https://www.theintelligencer.net/news/top-headlines/2026/10/silicon-foundation-moves-to-dismiss-lawsuit-over-data-center-project/"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18",
+  "verify": "Only The Intelligencer has reported the motion to dismiss and the briefing schedule."
  },
  {
   "id": "ridgeline-appeal",
   "body": "courts",
   "title": "Tucker United, WVHC & Sierra Club v. DEP (Ridgeline air permit)",
-  "where": "ICA → Circuit Ct. / SCAWV",
+  "where": "ICA → SCAWV",
   "case": "",
   "status": "Refiling",
   "stage": "closed",
@@ -39,7 +48,7 @@
   ],
   "counties": [],
   "next": {
-   "t": "Appeals refiled",
+   "t": "Appeals refiled at the Supreme Court of Appeals",
    "d": ""
   },
   "sources": [
@@ -54,9 +63,13 @@
    {
     "label": "WVHC (refiling)",
     "url": "https://www.wvhighlands.org/?p=15160"
+   },
+   {
+    "label": "News and Sentinel, Sep 1, 2026",
+    "url": "https://www.newsandsentinel.com/news/business/2026/09/tucker-county-data-center-opponents-seek-hearing/"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "mingo-suit",
@@ -81,7 +94,7 @@
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "county-challenge",
@@ -93,7 +106,7 @@
   "stage": "prefiling",
   "stamp": "Under discussion",
   "tone": "dim",
-  "summary": "Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed.",
+  "summary": "Putnam Commission President <strong>Andy Skidmore</strong> says the county has talked with Monongalia County about suing over HB 2014. Monongalia Commissioner <strong>Sean Sikora</strong> says the law takes rights from counties. No suit has been filed. On Sep 29 the Putnam Commission instead adopted a resolution saying data center developers should fund 100 percent of water, sewer, and power upgrades. Skidmore said developers should follow county rules \"as if House Bill 2014 didn't exist.\"",
   "projects": [
    "google",
    "fortmartin"
@@ -111,9 +124,17 @@
    {
     "label": "Charleston Gazette-Mail, Aug 2026",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "label": "WCHS, Sep 29, 2026 (Putnam resolution)",
+    "url": "https://wchsnetwork.com/2026/09/29/putnam-county-commission-approves-data-center-resolution-developers-must-comply-with-county-rules-going-forward/"
+   },
+   {
+    "label": "The Parthenon, Oct 9, 2026",
+    "url": "https://marshallparthenon.com/42324/news/data-center-resolution-signed-by-putnam-co-commission/"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "marl",
@@ -125,7 +146,7 @@
   "stage": "briefing",
   "stamp": "Decision due Mar 6, 2027",
   "tone": "cyan",
-  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual.",
+  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual. PSC Chair <strong>Charlotte Lane</strong> said at the close of testimony that the Commission would try to rule by the end of 2026; the statutory deadline is Mar 6, 2027. WBOY reports the Preston County Commission adopted a second resolution opposing the line Nov 9.",
   "projects": [
    "marl"
   ],
@@ -182,9 +203,22 @@
    {
     "label": "PSC docket activity, Nov 13 (comments from an individual)",
     "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674115&NotType=WebDocket"
+   },
+   {
+    "label": "WDTV, Nov 9, 2026 (briefs, year-end target)",
+    "url": "https://www.wdtv.com/2026/11/09/marl-hearings-end-landowners-state-staff-question-transmission-project/"
+   },
+   {
+    "label": "Dominion Post, Nov 3, 2026",
+    "url": "https://www.dominionpost.com/2026/11/03/marl-back-on-preston-county-agenda/"
+   },
+   {
+    "label": "WBOY, Nov 9, 2026 (Preston resolution)",
+    "url": "https://www.wboy.com/news/preston/preston-county-commission-adopts-second-resolution-opposing-marl/"
    }
   ],
-  "checked": "2026-11-16"
+  "checked": "2026-11-18",
+  "verify": "The Preston second resolution comes from one report (WBOY)."
  },
  {
   "id": "fortmartin",
@@ -192,19 +226,18 @@
   "title": "Fort Martin 1,200 MW gas plant + 70 MW solar ($2.48B)",
   "where": "Case 26-0108-E-CN",
   "case": "Case 26-0108-E-CN",
-  "status": "Fully briefed · order pending",
-  "stage": "awaiting",
-  "stamp": "Fully briefed",
-  "tone": "signal",
-  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. A statutory decision deadline of Feb 2027 has been reported. Two more letters of protest were filed Nov 6 and one more on Nov 10.",
+  "status": "Approved Nov 17, 2026",
+  "stage": "closed",
+  "stamp": "Approved Nov 17",
+  "tone": "ok",
+  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. On Nov 17 the PSC approved the gas plant and three solar projects ($182M), with a customer surcharge the companies estimate starts at about $1.18 a month for residential customers. The companies must update the PSC on construction and costs starting January 2027.",
   "projects": [
    "fortmartin"
   ],
   "counties": [],
   "next": {
-   "t": "Decision deadline (reported)",
-   "d": "2027-02",
-   "verify": true
+   "t": "First construction and cost update to the PSC",
+   "d": "2027-01"
   },
   "sources": [
    {
@@ -226,10 +259,18 @@
    {
     "label": "PSC docket activity, Nov 10 (protest letter)",
     "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=673992&NotType=WebDocket"
+   },
+   {
+    "label": "WDTV: PSC approval, Nov 17, 2026",
+    "url": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/"
+   },
+   {
+    "label": "WV MetroNews: PSC approval, Nov 17, 2026",
+    "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
    }
   ],
-  "verify": "Reported by the Dominion Post, but we could not open the article to confirm it. Check the PSC docket.",
-  "checked": "2026-11-16"
+  "verify": "Approval terms are from WDTV and MetroNews; we have not opened the order. Confirm from the PSC notice.",
+  "checked": "2026-11-18"
  },
  {
   "id": "apco-tariff",
@@ -371,7 +412,7 @@
   "stage": "prefiling",
   "stamp": "Pre-filing",
   "tone": "grid",
-  "summary": "On Sep 14, 2026 the PSC opened this file so residents can comment before Valley Link (Dominion / FirstEnergy / Transource) files for a certificate. It is not the official case. The real application will get its own number, expected late 2026 or early 2027, with a preferred route due early 2027. The Barbour, Upshur, Lewis, and Preston County Commissions oppose the line.",
+  "summary": "On Sep 14, 2026 the PSC opened this file so residents can comment before Valley Link (Dominion / FirstEnergy / Transource) files for a certificate. It is not the official case. The real application will get its own number, expected late 2026 or early 2027, with a preferred route due early 2027. The Barbour, Upshur, Lewis, and Preston County Commissions oppose the line. PJM's latest update puts Valley Link at $5.1 billion, up from $2.9 billion in 2024, and moves in-service past 2029.",
   "projects": [
    "valleylink"
   ],
@@ -389,9 +430,17 @@
    {
     "label": "WMRA (county opposition)",
     "url": "https://www.wmra.org/2026-08-25/the-growing-county-government-opposition-to-valley-link"
+   },
+   {
+    "label": "Loudoun Now, Nov 3, 2026",
+    "url": "https://www.loudounnow.com/news/valley-link-cost-estimates-increase-to-5-1b-timeline-pushed/article_308235f2-791f-4317-8c2f-580c8aa21d56.html"
+   },
+   {
+    "label": "RTO Insider, Nov 10, 2026",
+    "url": "https://www.rtoinsider.com/151121-valley-link-at-5-1b-who-pays-is-settled/"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "monarch-air",
@@ -429,7 +478,7 @@
     "url": "https://nearbydatacenters.org/wv/"
    }
   ],
-  "checked": "2026-11-16"
+  "checked": "2026-11-18"
  },
  {
   "id": "monarch-enforcement",
@@ -441,7 +490,7 @@
   "stage": "open",
   "stamp": "Enforcement",
   "tone": "alarm",
-  "summary": "Notices on May 28, Jun 4, and Jun 10, an early-July enforcement order, and an Aug 11 particulate-dust letter from DAQ Director <strong>Laura Crowder</strong>. Runoff flooded about six homes on May 23–24.",
+  "summary": "Violation notices on May 24, May 28, Jun 4, and Jun 10; a July enforcement order after Jul 11 rain overwhelmed erosion controls; and an Aug 11 particulate-dust letter from DAQ Director <strong>Laura Crowder</strong>. Runoff flooded about six homes on May 23–24. Monarch reported corrective actions in an Aug 18 letter.",
   "projects": [
    "monarch"
   ],
@@ -451,33 +500,44 @@
    {
     "label": "Charleston Gazette-Mail",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "label": "Gazette-Mail, Oct 17, 2026",
+    "url": "https://www.wvgazettemail.com/news/energy_and_environment/dep-permit-bids-detail-significant-mason-county-data-center-environmental-impacts/article_9acbc337-14be-4421-98cf-dc07dcca7254.html"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "google-air",
   "body": "dep",
   "title": "Buffalo campus: 288 diesel generators, 128 cooling towers",
-  "where": "Google / Cumulus Group LLC",
-  "case": "",
+  "where": "Air permit R13-3782 (Cumulus Group LLC)",
+  "case": "Air permit R13-3782",
   "status": "Application filed Jul 22",
   "stage": "open",
   "stamp": "Application filed Jul 22",
   "tone": "signal",
-  "summary": "Projected 249 tons/yr of NOx. The Army Corps application shows 34+ acres of wetlands and 45,000+ feet of streams affected.",
+  "summary": "Application received Jul 22, 2026 (DEP permit R13-3782, facility 079-00208). Projected 249 tons/yr of NOx. The Army Corps application shows 34+ acres of wetlands and 45,000+ feet of streams affected. As of Nov 18 the DEP lists no preliminary determination or comment deadline.",
   "projects": [
    "google"
   ],
   "counties": [],
-  "next": null,
+  "next": {
+   "t": "DEP preliminary determination and comment period (no date posted)",
+   "d": ""
+  },
   "sources": [
    {
     "label": "Charleston Gazette-Mail",
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/monarch-google-data-center-project-environmental-dangers-driving-resident-opposition/article_b35e6ed1-15af-4975-9772-54b89bb5a013.html"
+   },
+   {
+    "label": "DEP DAQ: NSR permit applications (R13-3782)",
+    "url": "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "adams-air",
@@ -514,7 +574,7 @@
     "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-data-center-project-pushback-from-state-and-citizens-runs-into-legal-obstacles/article_b7a4f8f7-4fae-4dab-b808-cb8d0b0c1c94.html"
    }
   ],
-  "checked": "2026-11-03"
+  "checked": "2026-11-18"
  },
  {
   "id": "hb2014",
