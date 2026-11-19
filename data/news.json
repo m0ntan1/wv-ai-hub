@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:39:37Z",
+ "updated": "2026-11-19T02:38:26Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,87 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "s-voice-concerns-valley-north-transmission-line-open-house-2",
+   "d": "2026-11-19T01:07:56Z",
+   "title": "Residents voice concerns at Valley North transmission line open house",
+   "url": "https://www.wdtv.com/2026/11/19/residents-voice-concerns-valley-north-transmission-line-open-house-2/",
+   "source": "WDTV 5",
+   "summary": "People from across central West Virginia gathered at Stonewall Resort to learn more about the proposed Valley North Transmission Line project, which would create approximately 260 miles of new 765-kilovolt transmission line between Putnam County, West Virginia, and Frederick Coun",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "wdtv",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "c195eg5frdftuxb6xzhncxrocw8wwu1lv0r0ewuzyjrfow9oath1qmszsxpj",
+   "d": "2026-11-19T00:00:00Z",
+   "title": "WV Coal Association warns of problems with UP-NS merger",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNG5XeFJmSVJwTDh1MnI3Qk1ZNlo5TlVaMGEyOF9RVVozRmpwVXNGTjBpM01ldi1yS2ZmamtKbHc5T09aR3o4RHE3bTRKaGF4c1VyaG9sang2WFdMSk5ZSEt0dWRfZG5McDk2ZjRBTzdyTWh5MFBZY2dvV0JrRFgwQ2FrUzdqb09DZzVaaVo2VG10eFp6VjVmTUxDOFlZMUlHX0JuLWtscGQ2Y29rVlh4QWg4c195eG5FRDFTUXB6XzhncXRocW8wWU1lV0R0eWUzYjRFOW9OaTh1QmszSXpJ?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "c195eg5frdftuxb6xzhncxrocw8wwu1lv0r0ewuzyjrfow9oath1qmszsxpj"
+  },
+  {
+   "id": "lity-pay-data-centers-tax-cuts-in-his-legislative-priorities",
+   "d": "2026-11-18T23:26:47Z",
+   "title": "West Virginia Treasurer Pack urges locality pay, data centers, tax cuts in his legislative priorities",
+   "url": "https://www.wboy.com/news/west-virginia/west-virginia-politics/west-virginia-treasurer-pack-urges-locality-pay-data-centers-tax-cuts-in-his-legislative-priorities/",
+   "source": "WBOY 12",
+   "summary": "CHARLESTON, W.Va. (WOWK) -- West Virginia State Treasurer Larry Pack is advocating substantial teacher pay raises, data center taxes, and eliminating the business inventory tax ahead of the 2027 legislative session. Pack rolled out his legislative priorities before the press on W",
+   "projects": [],
+   "via": "wboy",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "uts-term-limits-top-legislative-push-by-state-treasurer-pack"
+  },
+  {
+   "id": "5chrbclfxsgp5rfrayuxadvzfbfvvmv91yy1zvkfpew5zuk5rcm5pazdztwc",
+   "d": "2026-11-18T22:55:00Z",
+   "title": "West Virginia landowners voice opposition to proposed Valley North Transmission Line at Lewis County open house",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOOW9ZWEdtNWFVVm1QSGJZZFRfVWJzRWcxOEgxV3lFOVdsUDRoT2xUa2VGaUh0OS1vMjhJdm96dDVCWWo0M3djY01DSUdtamVBU016NWswekIzN0RiM1oydEZsM25kMWxoalhyNUVrblVJYXNidlpWd0hzOV9MV0RLZUdsOWhNYWNVcVh0bmd3aWFWSWZGaFFOMXJlR0ZTVDItOVdHSE1salRaSUNFQmw0MUk4N1ZWTXVUdERTcmlOSENTdmhpOWZEaWpONTMtaEUxeGltSEtoMUNVUlZaamJrNTZxVEVsLThmVEdsYWI5cHRBclFXSGp5RFRaYUxadVZfbFVVMV91Yy1zVkFPeW5ZUk5rcm5pazdZTWc?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "ng-companies-allegedly-still-owe-benefits-to-retired-workers",
+   "d": "2026-11-18T21:52:34Z",
+   "title": "UMWA lawsuit: Justice family mining companies allegedly still owe benefits to retired workers",
+   "url": "https://www.wowktv.com/news/umwa-lawsuit-justice-family-mining-companies-allegedly-still-owe-benefits-to-retired-workers/",
+   "source": "WOWK 13",
+   "summary": "Video is from previous coverage CHARLESTON, W.Va. (WOWK) -- The United Mine Workers of America (UMWA) is seeking injunctive relief from five mining companies owned by Sen. Jim Justice (R-W.Va.)'s family over allegedly failing to provide employee benefits. The dispute dates back t",
+   "projects": [],
+   "energy": true,
+   "via": "wowk",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "ng-companies-allegedly-still-owe-benefits-to-retired-workers"
+  },
+  {
+   "id": "ce-commission-approves-mon-power-plant-raises-electric-bills",
+   "d": "2026-11-18T20:43:10Z",
+   "title": "West Virginia Public Service Commission approves Mon Power plant, raises electric bills",
+   "url": "https://westvirginiawatch.com/2026/11/18/west-virginia-public-service-commission-approves-mon-power-plant-raises-electric-bills/",
+   "source": "West Virginia Watch",
+   "summary": "The West Virginia Public Service Commission approved Tuesday a $2.48 billion gas plant in Monongalia County, and another $182 million in solar projects for Potomac Edison, to accommodate projected increases in power from the regional grid being driven by data center development.",
+   "projects": [],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-19T02:38:26Z",
+   "story": "-power-potomac-edison-plan-for-gas-fired-plant-in-maidsville"
+  },
   {
    "id": "lity-pay-data-centers-tax-cuts-in-his-legislative-priorities",
    "d": "2026-11-18T20:15:29Z",
