@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:38:26Z",
+ "updated": "2026-11-19T11:50:40Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,18 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "teacher-pay-data-center-tax-distribution-legislative-session",
+   "d": "2026-11-19T02:36:46Z",
+   "title": "W.Va. Treasurer prioritizing teacher pay, data center tax distribution for legislative session",
+   "url": "https://www.wsaz.com/2026/11/19/wva-treasurer-prioritizing-teacher-pay-data-center-tax-distribution-legislative-session/",
+   "source": "WSAZ",
+   "summary": "West Virginia Treasurer Larry Pack presented his legislative priorities Tuesday, ahead of the state legislative session that begins in January.",
+   "projects": [],
+   "via": "wsaz",
+   "seen": "2026-11-19T11:50:40Z",
+   "story": "uts-term-limits-top-legislative-push-by-state-treasurer-pack"
+  },
   {
    "id": "s-voice-concerns-valley-north-transmission-line-open-house-2",
    "d": "2026-11-19T01:07:56Z",
@@ -2385,6 +2397,18 @@
    "via": "countryroads",
    "seen": "2026-11-03T13:03:33Z",
    "story": "p-geologists-study-cites-abandoned"
+  },
+  {
+   "id": "-center-impact-report-released-by-treasurer-pack-ar-aa2bn258",
+   "d": "2026-09-01T14:37:32Z",
+   "title": "Data center impact report released by Treasurer Pack",
+   "url": "https://www.msn.com/en-us/news/other/data-center-impact-report-released-by-treasurer-pack/ar-AA2bn258",
+   "source": "WVNS-TV on MSN",
+   "summary": "CHARLESTON, WV (WVNS) – A tax analysis report on two key data center projects in West Virginia was released by State Treasurer Larry Pack. According to a press release from the West Virginia State ...",
+   "projects": [],
+   "via": "bing-dc",
+   "seen": "2026-11-19T11:50:40Z",
+   "story": "-center-impact-report-released-by-treasurer-pack-ar-aa2bn258"
   },
   {
    "id": "outpacing-west-virginia-s-outdated-revenue-model-ar-aa2bmlul",
