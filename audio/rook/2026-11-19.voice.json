@@ -1,0 +1,79 @@
+{
+ "id": "2026-11-19",
+ "model": "eleven_v4",
+ "voice_id": "u1vKrnJxYEQ6x1XJDwJt",
+ "script": "audio/rook/2026-11-19.script.md",
+ "characters": 4635,
+ "duration_s": 317.2,
+ "sections": [
+  {
+   "section": "intro",
+   "chars": 71,
+   "takes": 1,
+   "match": 0.9,
+   "missed_quotes": []
+  },
+  {
+   "section": "p0",
+   "chars": 497,
+   "takes": 1,
+   "match": 0.957,
+   "missed_quotes": []
+  },
+  {
+   "section": "p1",
+   "chars": 985,
+   "takes": 1,
+   "match": 1.0,
+   "missed_quotes": []
+  },
+  {
+   "section": "p2",
+   "chars": 752,
+   "takes": 1,
+   "match": 1.0,
+   "missed_quotes": []
+  },
+  {
+   "section": "p3",
+   "chars": 786,
+   "takes": 3,
+   "match": 0.989,
+   "missed_quotes": [
+    "nothing in 2014 that talks about a tax cut."
+   ]
+  },
+  {
+   "section": "p4",
+   "chars": 914,
+   "takes": 1,
+   "match": 0.974,
+   "missed_quotes": []
+  },
+  {
+   "section": "p5",
+   "chars": 399,
+   "takes": 1,
+   "match": 0.985,
+   "missed_quotes": []
+  },
+  {
+   "section": "outro",
+   "chars": 231,
+   "takes": 1,
+   "match": 0.914,
+   "missed_quotes": []
+  }
+ ],
+ "needs_ear_check": [
+  {
+   "section": "p3",
+   "match": 0.989,
+   "missed_quotes": [
+    "nothing in 2014 that talks about a tax cut."
+   ]
+  }
+ ],
+ "credits_used": 883,
+ "note": "credits_used is the account counter before and after; it can lag by a minute."
+}
