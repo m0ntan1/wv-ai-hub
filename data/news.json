@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:50:40Z",
+ "updated": "2026-11-19T20:45:59Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,62 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner",
+   "d": "2026-11-19T16:32:02Z",
+   "title": "Hundreds attend Valley Link project meeting in Ranson under shadow of tower-sized banner",
+   "url": "https://wvmetronews.com/2026/11/19/hundreds-attend-valley-link-project-meeting-in-ranson-under-shadow-of-tower-sized-banner/",
+   "source": "WV MetroNews",
+   "summary": "Residents and elected leaders express concerns. The post Hundreds attend Valley Link project meeting in Ranson under shadow of tower-sized banner appeared first on WV MetroNews .",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "metronews",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner"
+  },
+  {
+   "id": "ia-furious-citizens-energy-companies-square-off-data-centers",
+   "d": "2026-11-19T12:18:00Z",
+   "title": "DAVID MARCUS: In West Virginia, furious citizens and energy companies square off over data centers",
+   "url": "https://www.foxnews.com/opinion/david-marcus-west-virginia-furious-citizens-energy-companies-square-off-data-centers",
+   "source": "Fox News",
+   "summary": "West Virginia residents say the Valley Link Transmission Project could seize property through eminent domain to send electricity to data centers.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "ia-furious-citizens-energy-companies-square-off-data-centers"
+  },
+  {
+   "id": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html",
+   "d": "2026-11-19T08:57:00Z",
+   "title": "UMWA, energy advocates blast approval of $2.48 billion West Virginia gas plant",
+   "url": "https://www.wvnews.com/news/wvnews/umwa-energy-advocates-blast-approval-of-2-48-billion-west-virginia-gas-plant/article_adff36ab-c268-4edc-9c21-ec766f3f4910.html",
+   "source": "WV News",
+   "summary": "CHARLESTON, W.Va. — West Virginia's approval of a nearly $2.5 billion natural gas power plant in Monongalia County is drawing criticism from coal miners and energy advocacy organizations, which warn ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html"
+  },
+  {
+   "id": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html",
+   "d": "2026-11-19T08:57:00Z",
+   "title": "Coal miners warn of job losses after West Virginia approves Fort Martin gas plant",
+   "url": "https://www.wvnews.com/news/wvnews/coal-miners-warn-of-job-losses-after-west-virginia-approves-fort-martin-gas-plant/article_adff36ab-c268-4edc-9c21-ec766f3f4910.html",
+   "source": "WV News",
+   "summary": "The United Mine Workers of America is accusing state regulators and political leaders of putting the interests of natural gas companies and data center developers ahead of ...",
+   "projects": [
+    "fortmartin"
+   ],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html"
+  },
   {
    "id": "teacher-pay-data-center-tax-distribution-legislative-session",
    "d": "2026-11-19T02:36:46Z",
@@ -45,6 +101,20 @@
    "via": "wdtv",
    "seen": "2026-11-19T02:38:26Z",
    "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "video-6408613468112",
+   "d": "2026-11-19T00:12:00Z",
+   "title": "West Virginians fight proposed power line amid AI boom: 'They're going to take your property'",
+   "url": "https://www.foxnews.com/video/6408613468112",
+   "source": "Fox News",
+   "summary": "West Virginia residents protest the Valley Link Transmission Project, raising concerns over eminent domain, property rights and power demands from AI data centers.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "video-6408613468112"
   },
   {
    "id": "c195eg5frdftuxb6xzhncxrocw8wwu1lv0r0ewuzyjrfow9oath1qmszsxpj",
@@ -307,7 +377,7 @@
    "energy": true,
    "via": "gnews-wvnews",
    "seen": "2026-11-18T01:00:22Z",
-   "story": "wow01bdvczgo5ee1bu1zprevfrljfswnys1djnzhkoxryenezblfvaml1txe"
+   "story": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html"
   },
   {
    "id": "approves-application-for-new-natural-gas-plant-in-mon-county",
@@ -472,6 +542,19 @@
    "via": "bing-coalplant",
    "seen": "2026-11-14T22:34:13Z",
    "story": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants"
+  },
+  {
+   "id": "as-plants-and-its-governor-vows-bills-won-t-rise-ar-aa2hqhgp",
+   "d": "2026-11-14T09:45:00Z",
+   "title": "West Virginia is slated to get $17 billion in gas plants, and its governor vows bills won’t rise",
+   "url": "https://www.msn.com/en-us/money/general/west-virginia-is-slated-to-get-17-billion-in-gas-plants-and-its-governor-vows-bills-won-t-rise/ar-AA2hqHgp",
+   "source": "Morning Overview on MSN",
+   "summary": "Electric bills have been climbing for West Virginia households, and on Thursday, Nov. 12, the governor answered that worry with a construction plan and a promise stapled together. Appalachian Power ...",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-19T20:45:59Z",
+   "story": "as-plants-and-its-governor-vows-bills-won-t-rise-ar-aa2hqhgp"
   },
   {
    "id": "2026-11-14-mary-josephine-tenney",
