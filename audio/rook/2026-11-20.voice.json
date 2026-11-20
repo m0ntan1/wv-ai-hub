@@ -1,0 +1,83 @@
+{
+ "id": "2026-11-20",
+ "model": "eleven_v4",
+ "voice_id": "u1vKrnJxYEQ6x1XJDwJt",
+ "script": "audio/rook/2026-11-20.script.md",
+ "characters": 5785,
+ "duration_s": 391.9,
+ "sections": [
+  {
+   "section": "intro",
+   "chars": 102,
+   "takes": 1,
+   "match": 0.941,
+   "missed_quotes": []
+  },
+  {
+   "section": "p0",
+   "chars": 458,
+   "takes": 1,
+   "match": 0.986,
+   "missed_quotes": []
+  },
+  {
+   "section": "p1",
+   "chars": 880,
+   "takes": 1,
+   "match": 0.974,
+   "missed_quotes": []
+  },
+  {
+   "section": "p2",
+   "chars": 933,
+   "takes": 1,
+   "match": 0.962,
+   "missed_quotes": []
+  },
+  {
+   "section": "p3",
+   "chars": 543,
+   "takes": 1,
+   "match": 0.968,
+   "missed_quotes": []
+  },
+  {
+   "section": "p4",
+   "chars": 954,
+   "takes": 1,
+   "match": 0.945,
+   "missed_quotes": []
+  },
+  {
+   "section": "p5",
+   "chars": 657,
+   "takes": 1,
+   "match": 0.932,
+   "missed_quotes": []
+  },
+  {
+   "section": "p6",
+   "chars": 535,
+   "takes": 1,
+   "match": 0.937,
+   "missed_quotes": []
+  },
+  {
+   "section": "p7",
+   "chars": 418,
+   "takes": 1,
+   "match": 0.957,
+   "missed_quotes": []
+  },
+  {
+   "section": "outro",
+   "chars": 305,
+   "takes": 1,
+   "match": 0.933,
+   "missed_quotes": []
+  }
+ ],
+ "needs_ear_check": [],
+ "credits_used": 1256,
+ "note": "credits_used is the account counter before and after; it can lag by a minute."
+}
