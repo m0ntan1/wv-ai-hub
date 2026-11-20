@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:23:33Z",
+ "updated": "2026-11-20T11:51:44Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,19 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "zmdxc1heczjjvgxdevz1ahdnnkvyt2iwnnfzu2xuu1fyt09rm0z1vhu1si1x",
+   "d": "2026-11-20T11:15:00Z",
+   "title": "'Bad for ratepayers': PSC approval of $2.4B Mon County gas plant and surcharge panned",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPWXRxMDhnNnhyczRyQ1ZjRmoyNTVDb01lbjRJcEo4VTFUNWROdDJyaFNtVHBlYy1OVml0Q0hBbm8yOTVNWlJrdUVSSnJNOTltcFBEb2UxeEw5ODJqRzhHQjExSjFZbDBVWDVBdXYwSjI2TW1sLTkxeFRpQVhFMWdTZEFKZi10STRNN0dXTTU1ZjMzZlN6a0g0cGlRZFVEYWg3RG1QQ1hCYUh0cjRxOElXN1M0TUtKak5QeTdINWJVWnQxQVJGT3o2Q0k3UzZCNkhqc2d3dTdldmxIS2JwLWNRbXFCQ05nNEpWcVVIZmdxc1hEczJjVGxDeVZ1aHdNNkVYT2IwNnFzU2xuU1FYT09rM0Z1VHU1Si1x?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-gazette",
+   "seen": "2026-11-20T11:51:44Z",
+   "story": "-power-potomac-edison-plan-for-gas-fired-plant-in-maidsville"
+  },
   {
    "id": "2026-11-19-solidarity-should-apply-at-fort-martin-too",
    "d": "2026-11-19T23:30:52Z",
@@ -101,6 +114,21 @@
    "story": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner"
   },
   {
+   "id": "ines-route-article-7b5e8f44-9572-56af-8eb3-808dd072032f-html",
+   "d": "2026-11-19T15:00:00Z",
+   "title": "Residents wait, worry about proposed transmission line's route",
+   "url": "https://www.nvdaily.com/nvdaily/residents-wait-worry-about-proposed-transmission-lines-route/article_7b5e8f44-9572-56af-8eb3-808dd072032f.html",
+   "source": "Northern Virginia Daily",
+   "summary": "While Clarke County residents no longer have to worry about the Valley North transmission line running across their locality, as that route was scrapped, two routes are still being considered ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-20T11:51:44Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
    "id": "proposed-tri-state-valley-link-transmission-line-vi-aa2hntz6",
    "d": "2026-11-19T14:17:22Z",
    "title": "Local residents raising concerns over proposed tri-state Valley Link transmission line",
@@ -156,6 +184,21 @@
    "via": "bing-valleylink",
    "seen": "2026-11-19T20:45:59Z",
    "story": "ia-furious-citizens-energy-companies-square-off-data-centers"
+  },
+  {
+   "id": "-panhandle-article-98370883-091a-5c30-b579-8cb24b71f926-html",
+   "d": "2026-11-19T12:01:00Z",
+   "title": "Valley Link project draws nearly 1,000 residents as opposition grows in Eastern Panhandle",
+   "url": "https://www.journal-news.net/news/continuing_coverage/transmission_lines/valley-link-project-draws-nearly-1-000-residents-as-opposition-grows-in-eastern-panhandle/article_98370883-091a-5c30-b579-8cb24b71f926.html",
+   "source": "Journal-News",
+   "summary": "Nearly 1,000 residents gathered to question and oppose the proposed Valley Link transmission line through Jefferson and Berkeley counties. Meanwhile, project representatives outlined potential routes, ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-20T11:51:44Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
   },
   {
    "id": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html",
