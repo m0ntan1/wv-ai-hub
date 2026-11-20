@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:45:59Z",
+ "updated": "2026-11-20T02:23:33Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -20,6 +20,73 @@
  ],
  "items": [
   {
+   "id": "2026-11-19-solidarity-should-apply-at-fort-martin-too",
+   "d": "2026-11-19T23:30:52Z",
+   "title": "Solidarity Should Apply at Fort Martin, Too",
+   "url": "https://wvmetronews.com/2026/11/19/solidarity-should-apply-at-fort-martin-too/",
+   "source": "WV MetroNews",
+   "summary": "Listen to “Solidarity Should Apply at Fort Martin, Too” on Spreaker. The United Mine Workers of America is upset that the West Virginia Public Service Commission approved the Fort Martin natural gas power plant. That is the union’s prerogative, but its objections ring hollow, esp",
+   "projects": [
+    "fortmartin"
+   ],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "2026-11-19-solidarity-should-apply-at-fort-martin-too"
+  },
+  {
+   "id": "natural-gas-plant-solar-projects-expected-to-start-next-year",
+   "d": "2026-11-19T23:23:12Z",
+   "title": "Construction on FirstEnergy’s $2.48 billion natural gas plant, solar projects expected to start next year",
+   "url": "https://wvmetronews.com/2026/11/19/construction-on-firstenergys-2-48-billion-natural-gas-plant-solar-projects-expected-to-start-next-year/",
+   "source": "WV MetroNews",
+   "summary": "State Public Service Commission gave projects approval this week. The post Construction on FirstEnergy’s $2.48 billion natural gas plant, solar projects expected to start next year appeared first on WV MetroNews .",
+   "projects": [],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "-power-potomac-edison-plan-for-gas-fired-plant-in-maidsville"
+  },
+  {
+   "id": "lsznlnhzpuxbsshr2uuw2mmsyvm1hekzewv80r05lcktya2tjdlfwu3uttdq",
+   "d": "2026-11-19T23:00:00Z",
+   "title": "Ky. Power seeks permit to build gas-fired unit at Big Sandy Power Plant",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdHlhXzREZkNqeGNENmlNT3h3LUZ5VWhfMkM1ekN5LXdRcVFCSnJTRnJIcFM5cWo0dXFMVlhTa2Nqam5YSVNnOHBOVFpOWm5Ta1dfemRncDAtYWtVOG9VRnN0R2ZnMXhDUlJVcnRrLV9RTnl3UDM5X2pDWHg2YmpvZmNoYkNNZjZpbFBLMWpOeDNzRnB6TVZBR2Z1MERBbkN1a3hUQlpSOEFwNnA1MkdsRTdzNzZESWRRaG9fRlZ2NUtLNlVSYnNLSzNLNHZPUXBSSHR2UUw2MmsyVm1hekZEWV80R05Lcktya2tJdlFWU3UtTDQ?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "-power-potomac-edison-plan-for-gas-fired-plant-in-maidsville"
+  },
+  {
+   "id": "1-19-fayette-county-residents-voice-concerns-at-marl-hearing",
+   "d": "2026-11-19T21:44:15Z",
+   "title": "Fayette County residents voice concerns at MARL hearing",
+   "url": "https://www.dominionpost.com/2026/11/19/fayette-county-residents-voice-concerns-at-marl-hearing/",
+   "source": "The Dominion Post",
+   "summary": "Fayette County residents concerned about the route of a proposed high-power electric line running near or through their properties testified for nearly three hours Wednesday night at a Pennsylvania Public Utility Commission hearing in Point Marion on NextEra’s application to oper",
+   "projects": [
+    "marl"
+   ],
+   "via": "dompost",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "dxz4z3qxaxrvmgt4ovromgxcznjncvfzoxrrtlpmmev6nxzzsvnowc1xekr3",
+   "d": "2026-11-19T20:43:00Z",
+   "title": "Mason United holds protest against data centers in Mason County",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSWNxTFljMEpyX056WmQ2RTFLbHY2ZU1CeEU3eHpNU3NBQUZiaURvMjlrMHh2WG5hbHVuSHFvQUpGT21fU09KSzVwWmRqaVRpQzcxeTBoVlpEWVdla0RqMXpGdml3eEdfV0pNRmJHOVNIR0xvTktIVlRZbC1adGdncjlRVWJaQThvNGx5czBOYUZDRC1PREhBZ1JKSnh6TnRYemRhUS1jWDhveVBQbzRfVmVrWGVDdXZ4Z3QxaXRVMGt4OVRoMGxCZnJncVFzOXRRTlpMMEV6NXZZSVNoWC1xekR3?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "dxz4z3qxaxrvmgt4ovromgxcznjncvfzoxrrtlpmmev6nxzzsvnowc1xekr3"
+  },
+  {
    "id": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner",
    "d": "2026-11-19T16:32:02Z",
    "title": "Hundreds attend Valley Link project meeting in Ranson under shadow of tower-sized banner",
@@ -32,6 +99,49 @@
    "via": "metronews",
    "seen": "2026-11-19T20:45:59Z",
    "story": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner"
+  },
+  {
+   "id": "proposed-tri-state-valley-link-transmission-line-vi-aa2hntz6",
+   "d": "2026-11-19T14:17:22Z",
+   "title": "Local residents raising concerns over proposed tri-state Valley Link transmission line",
+   "url": "https://www.msn.com/en-us/news/other/local-residents-raising-concerns-over-proposed-tri-state-valley-link-transmission-line/vi-AA2hNTZ6",
+   "source": "WDVM Hagerstown on MSN",
+   "summary": "Here in Frederick County and neighboring counties in West Virginia's eastern panhandle, residents are raising concerns about a power line transmission project proposed for the region.",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "y-meetings-article-8bbb90ec-264b-4d59-83a3-1a50a5e82c59-html",
+   "d": "2026-11-19T13:00:00Z",
+   "title": "Valley North transmission project wraps up November community meetings",
+   "url": "https://www.wvnews.com/news/wvnews/valley-north-transmission-project-wraps-up-november-community-meetings/article_8bbb90ec-264b-4d59-83a3-1a50a5e82c59.html",
+   "source": "WV News",
+   "summary": "A proposed 260-mile high-voltage transmission line crossing West Virginia has drawn opposition from landowners and local governments concerned about private property rights, environmental impacts and ...",
+   "projects": [
+    "valleylink"
+   ],
+   "energy": true,
+   "via": "bing-valleylink",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
+  },
+  {
+   "id": "z3h2ynjvnmpta285dfjkzetwuepudjvinvjpqtzmy0l3d1pnejeyc2jdr1hz",
+   "d": "2026-11-19T12:22:00Z",
+   "title": "Energy group questions ratepayer protections in $2.48 billion West Virginia power plant approval",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPeG9OZlA4UFItM3p5S210elYwM3VWNi1MNUhFVmVKc01CdEFBY2JEaFJhbjZxZWdLUFBtQnd3dHNxR1F5QlM4MnhGNGlFLXVmVVM1MGEyUk9BTkJteUdhZUFhUGlLamZ3M05NSTZWZVBlZ2s5ek5haUpzLTl4Z2F1bXI5Qi1aX0pUMjExa0wwazZ5Mk4zUVBBcDJkR1pnRHpYZ2VrZjJ4OEZsdzNsRWt4S0xOVmgxZ241cHBveC1wdmVBMkhzaFZsSXpKeGUxSnRBd1Y2TVlqSk1FX01rc2pYZ3h2YnJVNmpTa285dFJKZEtwUEpudjViNVJPQTZMY0l3d1pNejEyc2JDR1hZ?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-wvnews",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html"
   },
   {
    "id": "ia-furious-citizens-energy-companies-square-off-data-centers",
@@ -1100,6 +1210,20 @@
    "story": "q05dyl9nze9wd041txles1bmsjvcc2vqbtfgcepjq1fxvvnbmmlosmdcbgn3"
   },
   {
+   "id": "4skhaa24xwel5zjzqsk1wmufha2rsn0notwq0by1uq2dyehjfykvimllmrf8",
+   "d": "2026-11-06T08:00:00Z",
+   "title": "Time to sell?: Mason County data center developer offers to buy neighbors' homes",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPdVBMVEdsQWJTd094OVpIVHJYaHJoeHM2M1g0STNGOW9kQ2hoTkZIc0dNeHB3UmpzYTZWaEV4aldiMklKakVvNXJsSWRJMDE5X3FqN2lvd3g3N1BrY0lrNTlIbUQwRXJOc1JyRjcyTUxybUJQVHY4VVRaU0FQdmp5V2EwSlZPRHZRTVRJX0FGcmVYT1dTc2dHcTctRkk1SEdvUTNMbjd0VlhHR19yV1dBcFFBOUFyMU4tWWdYRE9Dc1ZZcndueU80aFV0UFlIRVpiYmxPUUhaTDdLY0F4Skhaa24xWEl5ZjZQSk1wMUFha2RsN0NoTWQ0by1uQ2dYeHJFYkViMllMRF8?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-gazette",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "4skhaa24xwel5zjzqsk1wmufha2rsn0notwq0by1uq2dyehjfykvimllmrf8"
+  },
+  {
    "id": "2026-11-06-open-house-held-valley-link-north-project",
    "d": "2026-11-06T03:49:27Z",
    "title": "Open house held for Valley Link North project",
@@ -1383,7 +1507,7 @@
    ],
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
-   "story": "reak-ai-mega-project-behind-nscale-s-50b-ipo-20261101-p61abv"
+   "story": "content-ee86c4b6-1fe4-467e-8f18-9c08df288aff"
   },
   {
    "id": "news-nvidia-nscale-anthropic-data-centre-debt-guarantee",
@@ -1518,6 +1642,20 @@
    "via": "bing-nscale",
    "seen": "2026-11-03T13:03:33Z",
    "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
+  },
+  {
+   "id": "content-ee86c4b6-1fe4-467e-8f18-9c08df288aff",
+   "d": "2026-10-29T22:00:00Z",
+   "title": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+   "url": "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff?syn-25a6b1a6=1",
+   "source": "Financial Times",
+   "summary": "Nvidia-backed neocloud bets on West Virginia data centre campus hit by construction issues, local opposition and financing risks ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "content-ee86c4b6-1fe4-467e-8f18-9c08df288aff"
   },
   {
    "id": "ales-deal-with-anthropic-the-information-reports-ar-aa2gmss0",
@@ -1748,6 +1886,20 @@
    "via": "bing-dc",
    "seen": "2026-11-03T13:03:33Z",
    "story": "2026-10-25-politics-data-center-powerline-fight"
+  },
+  {
+   "id": "lrtv6t25fthfvoxpmzmvdueltv1hvrvjjyuw1ndd2cutxzjlyzvntvjewukk",
+   "d": "2026-10-25T07:00:00Z",
+   "title": "Point Pleasant data center to have 3 buildings, almost 1,000 generators",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOWhmSXdrSkYyRkQ4T05DeTdBVnlPMmc1cEpyZ2xhYllsUGJpUW8xQjEyMHZGZC03Nmp5U2pzVGNFSjZWNUM2UVFfR2psdnhLZW9aWms5YWdLVTg5V0V0WWd6LVZKOUxJSzFlRFU2bktiNkVqSFI3LWZXSzQzUHMxRnJEaVFYT0Rjeklob2loaHhyMmxiS2NJaWs0b3Jjc1lua3l3X1E1M3VzVmllNWpSSEw1SEIwRU8wMGUwSmtPNmEzNFlNNnJLRTV6T25FTHFVOXpMZmVDUElTV1hvRVJJYUw1NDd2cUtxZjlyZVNTVjEwUkk?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [
+    "monarch"
+   ],
+   "via": "gnews-herald",
+   "seen": "2026-11-20T02:23:33Z",
+   "story": "lrtv6t25fthfvoxpmzmvdueltv1hvrvjjyuw1ndd2cutxzjlyzvntvjewukk"
   },
   {
    "id": "-consent-as-proposed-data-centers-raise-concerns-ar-aa2fzueq",
