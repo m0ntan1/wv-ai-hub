@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:51:44Z",
+ "updated": "2026-11-20T20:29:15Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -20,6 +20,33 @@
  ],
  "items": [
   {
+   "id": "martin-gas-plant-could-have-hidden-costs-for-west-virginians",
+   "d": "2026-11-20T16:44:39Z",
+   "title": "Fort Martin gas plant could have hidden costs for West Virginians",
+   "url": "https://westvirginiawatch.com/2026/11/20/fort-martin-gas-plant-could-have-hidden-costs-for-west-virginians/",
+   "source": "West Virginia Watch",
+   "summary": "The recently approved Fort Martin gas plant could lead to larger power bill increases for West Virginians if data center construction doesn’t materialize.",
+   "projects": [
+    "fortmartin"
+   ],
+   "energy": true,
+   "via": "wvwatch",
+   "seen": "2026-11-20T20:29:15Z",
+   "story": "-gas-plant-article-adff36ab-c268-4edc-9c21-ec766f3f4910-html"
+  },
+  {
+   "id": "uujnawndrmfhtnldyy1nazfoqnjqy0ixblh5wnhrauctc1o0yv91vmutb3lh",
+   "d": "2026-11-20T12:21:00Z",
+   "title": "Mason County Commission hears data center concerns, approves funding for animal shelter",
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOenFXZGVlWUhpemhVZFczVXlUemwzTml0eFZ0WS1KbTFwemRFYlBpcjhXeGRHUDgtaTRINjdfazR3M0NRcDVUcVhveTFJSC1HUlVDN2tabFFjSmRiVV9RNEkwcWJJQWI0MUNyWFFqbkV4Mmh1MlRNdEVFMzJSVFZIZEFOVTZnYUZtMkt4a0ZzU1FPMXZLWWpFY09MblV3bGdWeHdYTWJHbGp4c1daWGVJYVM3OWlhcGtNc0Q2S0R1WkI1VjhjVXJpRHRhWEljM0NqdUxfUUJnaWNDRmFHTnlDYy1NazFoQnJQY0Ixblh5WnhraUctc1o0YV91VmUtb3lH?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-20T20:29:15Z",
+   "story": "uujnawndrmfhtnldyy1nazfoqnjqy0ixblh5wnhrauctc1o0yv91vmutb3lh"
+  },
+  {
    "id": "zmdxc1heczjjvgxdevz1ahdnnkvyt2iwnnfzu2xuu1fyt09rm0z1vhu1si1x",
    "d": "2026-11-20T11:15:00Z",
    "title": "'Bad for ratepayers': PSC approval of $2.4B Mon County gas plant and surcharge panned",
@@ -31,6 +58,20 @@
    "via": "gnews-gazette",
    "seen": "2026-11-20T11:51:44Z",
    "story": "-power-potomac-edison-plan-for-gas-fired-plant-in-maidsville"
+  },
+  {
+   "id": "orce-nscale-to-seek-us-export-license-in-90-days-ar-aa2hqqbr",
+   "d": "2026-11-20T03:49:42Z",
+   "title": "ByteDance's Nvidia chips in Norway may force Nscale to seek US export license in 90 days",
+   "url": "https://www.msn.com/en-us/news/other/bytedances-nvidia-chips-in-norway-may-force-nscale-to-seek-us-export-license-in-90-days/ar-AA2hQQbr",
+   "source": "Tech Times on MSN",
+   "summary": "Nscale ByteDance export license risk emerged Thursday, when Bloomberg reported the London AI cloud company will have to seek US approval to keep renting Nvidia chips to ByteDance in Norway and Iceland ...",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-20T20:29:15Z",
+   "story": "orce-nscale-to-seek-us-export-license-in-90-days-ar-aa2hqqbr"
   },
   {
    "id": "2026-11-19-solidarity-should-apply-at-fort-martin-too",
