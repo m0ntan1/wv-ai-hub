@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:29:15Z",
+ "updated": "2026-11-21T11:19:35Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,31 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "yqm9swxlxevlfvmjuz21ubjfimdvabwnwrfzwzfjmmvb5vexychviau8yd0w",
+   "d": "2026-11-21T10:45:00Z",
+   "title": "Pike County officials outline proposed $3.3B agreement on data center",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVGdWamVBdk1GVnVFbTEwQlU5Z2pkaUlmSzBoS3RzSXRWSERmSDRsMmsyc0V3bWJnTEF0YjFVYkNkSnhyV25MTTVtUlJkbVJpUE1ydS1DUE1XRjgyX0tnSlZ6cXZ0RHdEWjlpaHROd29rQ3o3QTM2c0JsLTJNMTlpaDY3MV93dEUxVlVnZGtvU3B3RWpqZ1NEWEtHVTZrSTJMcWVzNktVZVhkNkVJSTdpTkdQZjlrRTBmYm5qQkRTVWJ2dEJyQm9sWXlxeVlfVmJuZ21ubjFIMDVabWNWRFZwZFJMMVB5VExycHViaU8yd0w?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-herald",
+   "seen": "2026-11-21T11:19:35Z",
+   "story": "yqm9swxlxevlfvmjuz21ubjfimdvabwnwrfzwzfjmmvb5vexychviau8yd0w"
+  },
+  {
+   "id": "2026-11-21-john-a-lewis",
+   "d": "2026-11-21T05:00:59Z",
+   "title": "John A. Lewis",
+   "url": "https://www.dominionpost.com/2026/11/21/john-a-lewis/",
+   "source": "The Dominion Post",
+   "summary": "John A. Lewis, 73, of Morgantown, passed away November 12, 2026, in Morgantown Healthcare Center. He was born September 19, 1953, to Mary Golden Lewis and the late John W. Lewis. John was a retired coal miner who took great pride in his years working in the mines. He enjoyed walk",
+   "projects": [],
+   "energy": true,
+   "via": "dompost",
+   "seen": "2026-11-21T11:19:35Z",
+   "story": "2026-11-21-john-a-lewis"
+  },
   {
    "id": "martin-gas-plant-could-have-hidden-costs-for-west-virginians",
    "d": "2026-11-20T16:44:39Z",
