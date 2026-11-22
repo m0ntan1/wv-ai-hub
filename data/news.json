@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:25:14Z",
+ "updated": "2026-11-22T11:37:23Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -191,6 +191,20 @@
    "via": "metronews",
    "seen": "2026-11-19T20:45:59Z",
    "story": "project-meeting-in-ranson-under-shadow-of-tower-sized-banner"
+  },
+  {
+   "id": "ns-over-proposed-260-mile-valley-link-power-line-ar-aa2hnuty",
+   "d": "2026-11-19T15:22:36Z",
+   "title": "Residents raise concerns over proposed 260-mile Valley Link power line",
+   "url": "https://www.msn.com/en-us/news/other/residents-raise-concerns-over-proposed-260-mile-valley-link-power-line/ar-AA2hNUtY",
+   "source": "DC News Now on MSN",
+   "summary": "Residents across Maryland are raising concerns about a power line transmission project proposed for the region.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-22T11:37:23Z",
+   "story": "cer-open-house-for-transmission-line-project-amid-opposition"
   },
   {
    "id": "ines-route-article-7b5e8f44-9572-56af-8eb3-808dd072032f-html",
@@ -748,6 +762,19 @@
    "via": "bing-valleylink",
    "seen": "2026-11-17T03:58:25Z",
    "story": "-ecosystem-article-4362ee21-88b7-4de0-bcf0-b784ef7f8ff4-html"
+  },
+  {
+   "id": "s-us-articles-west-virginia-proposed-69-power-195900067-html",
+   "d": "2026-11-16T11:59:00Z",
+   "title": "What West Virginia’s proposed 69% power plant rule means for coal plants and electricity bills",
+   "url": "https://www.yahoo.com/news/us/articles/west-virginia-proposed-69-power-195900067.html",
+   "source": "Yahoo",
+   "summary": "The post What West Virginia’s proposed 69% power plant rule means for coal plants and electricity bills appeared first on When In Your State.",
+   "projects": [],
+   "energy": true,
+   "via": "bing-coalplant",
+   "seen": "2026-11-22T11:37:23Z",
+   "story": "wmakers-approve-69-capacity-rule-for-coal-fired-power-plants"
   },
   {
    "id": "fry1vdmxwstn2qjhvr3qyq0pwwl9tvu9dn2zzz2trekneagtjqmnlmje4duu",
