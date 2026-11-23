@@ -1,15 +1,15 @@
 [
  {
+  "d": "2026-11-20",
+  "t": "PSC docket, MARL case: from Nov 18 to Nov 20 the docket adds six briefs, two protest letters, and a petition to protest with 27 signatures.",
+  "project": "marl",
+  "src": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674346&NotType=WebDocket"
+ },
+ {
   "d": "2026-11-19",
   "t": "The United Mine Workers of America and West Virginians for Energy Freedom criticize the PSC's Fort Martin approval, saying it could threaten coal jobs and leave existing customers paying for data center demand. FirstEnergy has said the gas plant is meant as an addition to the coal plant, not a replacement.",
   "project": "fortmartin",
   "src": "https://www.wvnews.com/news/wvnews/coal-miners-warn-of-job-losses-after-west-virginia-approves-fort-martin-gas-plant/article_adff36ab-c268-4edc-9c21-ec766f3f4910.html"
- },
- {
-  "d": "2026-11-18",
-  "t": "PSC docket, MARL case: from Nov 18 to Nov 20 the docket adds six briefs, two protest letters, and a petition to protest with 27 signatures.",
-  "project": "marl",
-  "src": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674346&NotType=WebDocket"
  },
  {
   "d": "2026-11-17",

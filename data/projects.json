@@ -1269,14 +1269,16 @@
     "d": "2026-11-17",
     "t": "Wheeling City Council hears the first reading of an ordinance regulating data centers in industrial districts.",
     "kind": "government",
-    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/"
+    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/",
+    "verify": "WTRF is the one report we opened for this; The Intelligencer also reported it, but we have not reopened that story."
    },
    {
     "d": "2026-12-01",
     "t": "Wheeling City Council vote on the data center ordinance, as reported by WTRF.",
     "kind": "government",
     "next": true,
-    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/"
+    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/",
+    "verify": "WTRF is the one report we opened for this; The Intelligencer also reported it, but we have not reopened that story."
    }
   ],
   "sources": [
