@@ -239,6 +239,18 @@
    {
     "label": "PSC docket activity, Nov 20 (protest letter)",
     "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674528&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 18 (second initial brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674348&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 19 (second post-hearing brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674416&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 20 (joint initial brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674514&NotType=WebDocket"
    }
   ],
   "checked": "2026-11-23",
