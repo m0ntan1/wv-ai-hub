@@ -72,12 +72,12 @@
     "Material weaknesses in financial controls."
    ],
    "catalysts": [
-    {"t": "Nvidia's $1.0 billion note purchase is expected to close", "d": "2026-11-16", "approx": true, "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
+    {"t": "Whether Nvidia's $1.0 billion note purchase closed: the Nov 12 amended S-1 said it would close on or around Nov 16, and no later filing on EDGAR as of Nov 23 reports it", "src": {"label": "Nscale S-1/A, Nov 12, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"}, "verify": "The closing date has passed; we found no filing or report confirming that the sale closed."},
     {"t": "IPO pricing: the Nov 12 amended S-1 still has no price range; a further amendment with one, then a final prospectus (form 424B4), comes next", "src": {"label": "Nscale S-1/A, Nov 12, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526458722/ck0002110365-20261112.htm"}},
     {"t": "Financing for the Anthropic build at Monarch: none committed as of the S-1; watch for an 8-K or amendment announcing it", "src": {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}},
     {"t": "DEP decision on Monarch's air permit (R14-0042)", "src": {"label": "Gazette-Mail: Oct 20 permit hearing", "url": "https://www.wvgazettemail.com/news/energy_and_environment/health-concerns-aired-during-meeting-on-mason-data-center-permit-request/article_58c63958-762f-4a29-a524-87d3b91ed179.html"}}
    ],
-   "health": {"status": "watch", "why": "From its S-1 (six months to June 30, 2026): a net loss of $1,020.1 million on revenue of $140.6 million. The Anthropic build at Monarch depends on financing it had no binding commitments for when it filed, its largest customer was 52% of revenue, and it reports material weaknesses in its financial controls. The filing says an earlier going-concern doubt is resolved by management's plan to defer or cut spending if needed, which is why this is Watch rather than Stressed.", "approved": "2026-11-03"}, "checked": "2026-11-16"
+   "health": {"status": "watch", "why": "From its S-1 (six months to June 30, 2026): a net loss of $1,020.1 million on revenue of $140.6 million. The Anthropic build at Monarch depends on financing it had no binding commitments for when it filed, its largest customer was 52% of revenue, and it reports material weaknesses in its financial controls. The filing says an earlier going-concern doubt is resolved by management's plan to defer or cut spending if needed, which is why this is Watch rather than Stressed.", "approved": "2026-11-03"}, "checked": "2026-11-23"
   },
   {
    "id": "starwood-dv", "name": "Starwood Digital Ventures", "tranche": "companies", "listing": "private",
@@ -224,11 +224,12 @@
    "sec": {"cik": "0002130357"}, "hq": "San Francisco, California", "projects": ["monarch"], "node": "anthropic", "conflict": true, "selfConflict": true,
    "tie": "Monarch's anchor tenant. Anthropic agreed to spend up to approximately $44.6 billion with Nscale for GPU capacity over terms extending into 2033, with fees accruing only as capacity is delivered and accepted. Anthropic's filing names Nscale but not Monarch or West Virginia; Nscale's S-1 places the agreements at Monarch.",
    "sources": [
+    {"label": "Anthropic final prospectus (424B4), Nov 19, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"},
     {"label": "Anthropic S-1/A, Nov 10, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"},
     {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"},
     {"label": "Nscale S-1, Sep 18, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2110365/000119312526395475/ck0002110365-20260918.htm"}
    ],
-   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted. A further amendment filed Nov 10, 2026 shows the same balance-sheet figures and Nscale terms, updates committed spend to about $900.9 billion, and adds an estimated price range.",
+   "factsAsOf": "From the amended S-1 filed Nov 2, 2026. Nine months ended Sep 30, 2026 unless noted. A further amendment filed Nov 10, 2026 shows the same balance-sheet figures and Nscale terms, updates committed spend to about $900.9 billion, and adds an estimated price range. The final prospectus filed Nov 19, 2026 prices the offering at $83.00 a share and repeats the $900.9 billion and Nscale terms.",
    "facts": [
     {"k": "Revenue", "v": "$33,242 million in the first nine months of 2026, up from $2,545 million a year earlier. Full-year 2025: $4,585 million."},
     {"k": "Operating loss", "v": "$1,260 million in the first nine months of 2026. Full-year 2025: $8,060 million."},
@@ -237,17 +238,16 @@
     {"k": "Commitments", "v": "Purchase commitments and leases as of and after Sep 30, 2026, with aggregate committed spend of approximately $900.9 billion, substantially all for compute and infrastructure. About $451.6 billion of that is expected before Dec 31, 2030, and about $70.7 billion is due in the 12 months after Sep 30, 2026."},
     {"k": "Nscale terms", "v": "Nscale must use best efforts to obtain financing. Otherwise Anthropic's commitment under each agreement is non-cancelable except in limited cases, including Nscale missing delivery or availability requirements."},
     {"k": "Structure", "v": "A Delaware public benefit corporation. A Long-Term Benefit Trust generally has the power to elect and remove a majority of the board."},
-    {"k": "Offering", "v": "The Nov 10 S-1/A estimates an initial price of $70.00 to $78.00 per share for 825,000,000 Class A shares (801,351,354 from the company and 23,648,646 from selling stockholders), with an additional $26.0 billion of Class N stock sold privately to Google, Nvidia, AMD, Broadcom, Micron, Microsoft, and TSMC Partners. Applied to list on the Nasdaq Global Select Market as ANT."}
+    {"k": "Offering", "v": "The final prospectus (424B4, Nov 19, 2026) prices 980,000,000 Class A shares at $83.00 each, $81.34 billion in total, with delivery expected on or about Nov 20, 2026. The underwriters can buy up to 147,000,000 more shares from the company. Separately, Google, Nvidia, AMD, Broadcom, Micron, Microsoft, and TSMC Partners agreed to buy $26.0 billion of Class N stock in a private placement at the same price, conditional on the offering closing. The Nov 10 S-1/A had estimated $70.00 to $78.00 a share for 825,000,000 shares. Approved to list on the Nasdaq Global Select Market as ANT."}
    ],
    "risks": [
     "The filing says its long-term compute agreements include minimum purchase commitments and take-or-pay terms that require payment whether or not the capacity is used.",
     "Compute capacity from partners such as Nscale depends on those partners financing and delivering it."
    ],
    "catalysts": [
-    {"t": "IPO pricing on Nasdaq (ANT): the Nov 10 amendment estimates $70.00 to $78.00 a share; the final prospectus (form 424B4) comes next", "src": {"label": "Anthropic S-1/A, Nov 10, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"}},
     {"t": "Nscale's financing for the Monarch build, since Anthropic's fees accrue only as capacity is delivered and accepted", "src": {"label": "Anthropic S-1/A, Nov 2, 2026", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"}}
    ],
-   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-16"
+   "health": {"status": "watch", "why": "From its amended S-1 (nine months to Sep 30, 2026): $131.8 billion in cash and short-term investments, and an operating loss of $1.26 billion on $33.2 billion of revenue. Against that, it has committed to about $895.4 billion of spending, mostly compute and infrastructure, much of it payable whether or not it is used. Most of the $104.0 billion net loss ($94.3 billion) is a non-cash change in the fair value of convertible notes and similar instruments.", "approved": "2026-11-03"}, "checked": "2026-11-23"
   },
   {
    "id": "nvidia", "name": "Nvidia", "tranche": "backers", "also": ["shovels"], "listing": "public", "ticker": "NVDA",

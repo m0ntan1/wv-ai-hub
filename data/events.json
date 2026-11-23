@@ -1002,5 +1002,22 @@
     "url": "https://wtov9.com/news/local/warwood-residents-state-delegate-raise-concerns-over-proposed-data-center-at-town-hall-warwood-data-center-local-control-house-bill-2014-shawn-fluharty-health-concerns-environmental-impact-wheeling"
    }
   ]
+ },
+ {
+  "id": "wheeling-datacenter-vote",
+  "date": "2026-12-01",
+  "type": "government",
+  "title": "Wheeling City Council vote on data center ordinance",
+  "desc": "Council took up the first reading on Nov 17. WTRF reports the ordinance, which regulates data centers in industrial districts, is to be voted on at the Dec. 1 meeting.",
+  "county": "Ohio",
+  "host": "Wheeling City Council",
+  "project": "warwood",
+  "how": "Council meetings are open to the public.",
+  "sources": [
+   {
+    "label": "WTRF, Nov 17, 2026",
+    "url": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/"
+   }
+  ]
  }
 ]
