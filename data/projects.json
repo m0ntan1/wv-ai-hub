@@ -1217,7 +1217,7 @@
   ],
   "latest": {
    "d": "Nov 17, 2026",
-   "t": "Wheeling City Council heard the first reading of data center rules (Article 1365); a vote is expected Dec 1. Silicon Foundation's motion to dismiss Barks is pending before Judge David Sims."
+   "t": "Wheeling City Council heard the first reading of data center rules; a vote is expected Dec 1. Silicon Foundation's motion to dismiss Barks is pending before Judge David Sims."
   },
   "history": [
    {
@@ -1267,18 +1267,18 @@
    },
    {
     "d": "2026-11-17",
-    "t": "Wheeling City Council hears the first reading of Article 1365, data center rules for Industrial districts.",
+    "t": "Wheeling City Council hears the first reading of an ordinance regulating data centers in industrial districts.",
     "kind": "government",
-    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/",
-    "verify": "Single report (The Intelligencer)."
+    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/",
+    "verify": "WTRF is the one report we opened for this; The Intelligencer also reported it, but we have not reopened that story."
    },
    {
     "d": "2026-12-01",
-    "t": "Wheeling City Council second reading and vote on Article 1365.",
+    "t": "Wheeling City Council vote on the data center ordinance, as reported by WTRF.",
     "kind": "government",
     "next": true,
-    "src": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/",
-    "verify": "Single report (The Intelligencer)."
+    "src": "https://www.wtrf.com/top-stories/wheeling-city-council-reads-first-ordinance-on-data-centers/",
+    "verify": "WTRF is the one report we opened for this; The Intelligencer also reported it, but we have not reopened that story."
    }
   ],
   "sources": [
@@ -1323,7 +1323,7 @@
     "url": "https://www.theintelligencer.net/news/top-headlines/2026/11/gratitude-expressed-for-wheelings-proposed-data-center-regulations/"
    }
   ],
-  "checked": "2026-11-18"
+  "checked": "2026-11-23"
  },
  {
   "id": "monroe",
@@ -1463,7 +1463,13 @@
     "t": "PSC approves the gas plant and three solar projects (Valley Point near Albright, Davis, Wylie Ridge in Weirton; $182M combined), with a customer surcharge estimated at about $1.18 a month to start.",
     "kind": "psc",
     "src": "https://www.wdtv.com/2026/11/17/west-virginia-psc-approves-natural-gas-plant-mon-county-three-solar-projects/",
-    "verify": "From news reports; confirm against the PSC order."
+    "verify": "The PSC's Nov 17 notice confirms the certificate, the 1,200 MW plant, 70 MW of solar, and the surcharge. The $182M and $1.18 a month figures come from news reports; we have not opened the order."
+   },
+   {
+    "d": "2026-11-19",
+    "t": "The United Mine Workers of America and West Virginians for Energy Freedom criticize the approval, saying it could threaten coal jobs and leave existing customers paying for data center demand.",
+    "kind": "community",
+    "src": "https://www.wvnews.com/news/wvnews/coal-miners-warn-of-job-losses-after-west-virginia-approves-fort-martin-gas-plant/article_adff36ab-c268-4edc-9c21-ec766f3f4910.html"
    },
    {
     "d": "2027-01",
@@ -1499,7 +1505,7 @@
     "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
    }
   ],
-  "checked": "2026-11-18"
+  "checked": "2026-11-23"
  },
  {
   "id": "country-roads",

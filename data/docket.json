@@ -146,7 +146,7 @@
   "stage": "briefing",
   "stamp": "Decision due Mar 6, 2027",
   "tone": "cyan",
-  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual. PSC Chair <strong>Charlotte Lane</strong> said at the close of testimony that the Commission would try to rule by the end of 2026; the statutory deadline is Mar 6, 2027. WBOY reports the Preston County Commission adopted a second resolution opposing the line Nov 9.",
+  "summary": "About 58.9 WV miles through Monongalia, Preston, Mineral, and Hampshire. On Aug 19 PSC Staff moved to make NextEra toll the case or have it dismissed. The Commission denied that on Sep 4, kept the Mar 6, 2027 decision date, and ordered NextEra to study using the existing Gore–Hampshire right-of-way instead. Staff witness <strong>Daniel Egnatoff</strong> recommended denial. The Jefferson County Commission, Hampshire, Mineral, and Harrison County Commissions, Friends of the Cheat, and the Hampshire County Farmland Protection Board weighed in. More than 2,000 protest signatures and letters were filed Aug–Nov. The evidentiary hearing ran five days, Oct 26–30, and ended a day early. It was live-streamed. Between Nov 2 and Nov 6 the docket added hearing transcripts and exhibits, two petitions to protest (199 and 72 signatures), 28 protest letters, three support letters, and one set of comments. Between Nov 9 and Nov 13 the docket added post-hearing exhibits filed by NextEra's counsel, a petition to protest with 513 signatures, four more protest letters, one support letter, and comments from the Hampshire County Commission's counsel, the Preston County Commission, and one individual. PSC Chair <strong>Charlotte Lane</strong> said at the close of testimony that the Commission would try to rule by the end of 2026; the statutory deadline is Mar 6, 2027. WBOY reports the Preston County Commission adopted a second resolution opposing the line Nov 9. Between Nov 18 and Nov 20 the docket added six briefs (three labeled initial briefs and three post-hearing briefs), two protest letters, and a petition to protest with 27 signatures.",
   "projects": [
    "marl"
   ],
@@ -215,9 +215,45 @@
    {
     "label": "WBOY, Nov 9, 2026 (Preston resolution)",
     "url": "https://www.wboy.com/news/preston/preston-county-commission-adopts-second-resolution-opposing-marl/"
+   },
+   {
+    "label": "PSC docket activity, Nov 18 (initial brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674346&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 18 (protest letter)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674389&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 19 (post-hearing brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674411&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 19 (petition to protest, 27 signatures)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674453&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 20 (post-hearing brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674507&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 20 (protest letter)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674528&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 18 (second initial brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674348&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 19 (second post-hearing brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674416&NotType=WebDocket"
+   },
+   {
+    "label": "PSC docket activity, Nov 20 (joint initial brief)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674514&NotType=WebDocket"
    }
   ],
-  "checked": "2026-11-18",
+  "checked": "2026-11-23",
   "verify": "The Preston second resolution comes from one report (WBOY)."
  },
  {
@@ -230,7 +266,7 @@
   "stage": "closed",
   "stamp": "Approved Nov 17",
   "tone": "ok",
-  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. On Nov 17 the PSC approved the gas plant and three solar projects ($182M), with a customer surcharge the companies estimate starts at about $1.18 a month for residential customers. The companies must update the PSC on construction and costs starting January 2027.",
+  "summary": "Mon Power / Potomac Edison (FirstEnergy). Ten parties filed initial briefs on Aug 28: PSC Staff, the Consumer Advocate, WVEUG, the Sierra Club, Citizen Action Group / Solar United Neighbors / Energy Efficient WV, the WV Coal Association, Gas & Oil Association, WV Manufacturers Association, and the Building & Construction Trades Council. Reply briefs closed Sep 14. On Nov 17 the PSC approved the gas plant and three solar projects ($182M), with a customer surcharge the companies estimate starts at about $1.18 a month for residential customers. The companies must update the PSC on construction and costs starting January 2027. The PSC's Nov 17 notice describes a final order granting the certificate for the 1,200 MW combined cycle plant and 70 MW of solar, authorizing a surcharge, and closing the case. On Nov 19 WV News reported that the United Mine Workers of America and West Virginians for Energy Freedom criticized the approval, and that the final rate structure will be set in a later proceeding.",
   "projects": [
    "fortmartin"
   ],
@@ -267,10 +303,18 @@
    {
     "label": "WV MetroNews: PSC approval, Nov 17, 2026",
     "url": "https://wvmetronews.com/2026/11/17/state-public-service-commission-approves-2-48-billion-natural-gas-plant-project-at-fort-martin-in-monongalia-county/"
+   },
+   {
+    "label": "PSC docket activity, Nov 17 (Commission Final Order)",
+    "url": "http://www.psc.state.wv.us/scripts/WebDocket/ViewDocument.cfm?CaseActivityID=674307&NotType=WebDocket"
+   },
+   {
+    "label": "WV News, Nov 19, 2026 (reaction to the approval)",
+    "url": "https://www.wvnews.com/news/wvnews/coal-miners-warn-of-job-losses-after-west-virginia-approves-fort-martin-gas-plant/article_adff36ab-c268-4edc-9c21-ec766f3f4910.html"
    }
   ],
-  "verify": "Approval terms are from WDTV and MetroNews; we have not opened the order. Confirm from the PSC notice.",
-  "checked": "2026-11-18"
+  "verify": "The PSC's Nov 17 notice confirms the certificate, the 1,200 MW plant, 70 MW of solar, and the surcharge. The $182M solar figure, the $1.18 a month estimate, and the January 2027 update come from news reports; we have not opened the order itself.",
+  "checked": "2026-11-23"
  },
  {
   "id": "apco-tariff",
