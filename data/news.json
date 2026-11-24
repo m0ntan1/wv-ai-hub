@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:37:23Z",
+ "updated": "2026-11-24T02:16:58Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,18 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ekxptkzpm1azovdqvdhumlb4vzhkztu1se5tv1djs1ngetfxq1nurwflztjn",
+   "d": "2026-11-23T17:56:00Z",
+   "title": "West Virginia data center ranks among nation's most polluting proposed projects, report says",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNUUhydFZzdnFGS2laTVNFMmRqQVRaYl93U1NmUlBVRDhXLVM5Y25RdkNVdXZIalZ3Q2pKdy13R0tJNVhUTkdLcHFWSjhpWjBUS2FGbEdCay10bGlZREpLNDVwSk03eGJPLTJUbFhhMnVSTkZUczNRY0hQSVBIc21fTXZMSnA5UzUyb1Q1QXFYZHZ4Q2x0RjM3RmJxd3FVZ0FLVzNpVmZDdE9NSVpNaHdGUWhuNTlRcmI1SHMwU3lfbFRiU2dEOGx1U1k1SDd1TW53emhlNWFrU3l4ekxpTkZPM1AzOVdqVDhuMlB4VzhKZTU1SE5tV1dJS1NGeTFxQ1NuRWFlZTJn?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-24T02:16:58Z",
+   "story": "ekxptkzpm1azovdqvdhumlb4vzhkztu1se5tv1djs1ngetfxq1nurwflztjn"
+  },
   {
    "id": "ugfwuufmetb3szlyuku0svrlq2nsavbzakfmx3vkelpwmeplmmpfrhljm0xr",
    "d": "2026-11-21T11:30:00Z",
@@ -2945,6 +2957,20 @@
    "via": "countryroads",
    "seen": "2026-11-03T13:03:33Z",
    "story": "p-top-county-officials-plead-not-guilty"
+  },
+  {
+   "id": "center-complex-in-west-virginia-clears-site-control-question",
+   "d": "2026-08-18T09:46:00Z",
+   "title": "Contested 5-GW Ridgeline Gas, Solar, and Data-Center Complex in West Virginia Clears Site-Control Question",
+   "url": "https://www.powermag.com/contested-5-gw-ridgeline-gas-solar-and-data-center-complex-in-west-virginia-clears-site-control-question/",
+   "source": "POWER Magazine",
+   "summary": "The West Virginia Department of Environmental Protection’s (WVDEP) Division of Air Quality (DAQ) has determined that Purcellville, Virginia-based Fundamental Data satisfied the site-control ...",
+   "projects": [
+    "ridgeline"
+   ],
+   "via": "bing-dc",
+   "seen": "2026-11-24T02:16:58Z",
+   "story": "center-complex-in-west-virginia-clears-site-control-question"
   },
   {
    "id": "n-west-virginia-spark-concerns-over-water-usage-transparency",
