@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:53:49Z",
+ "updated": "2026-11-24T23:56:41Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,45 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "data-centers-wont-raise-power-bills-he-previews-2027-session",
+   "d": "2026-11-24T20:06:49Z",
+   "title": "Morrisey promises data centers won’t raise power bills as he previews 2027 session",
+   "url": "https://www.wdtv.com/2026/11/24/morrisey-promises-data-centers-wont-raise-power-bills-he-previews-2027-session/",
+   "source": "WDTV 5",
+   "summary": "With a new legislative session less than two months away, Gov. Patrick Morrisey says he wants lawmakers focused on what things cost, and he is promising that data centers will not drive up West Virginians’ power bills.",
+   "projects": [],
+   "via": "wdtv",
+   "seen": "2026-11-24T23:56:41Z",
+   "story": "data-centers-wont-raise-power-bills-he-previews-2027-session"
+  },
+  {
+   "id": "-power-preparing-for-potential-power-outages-on-thanksgiving",
+   "d": "2026-11-24T19:13:10Z",
+   "title": "Appalachian Power preparing for potential power outages on Thanksgiving",
+   "url": "https://wvmetronews.com/2026/11/24/appalachian-power-preparing-for-potential-power-outages-on-thanksgiving/",
+   "source": "WV MetroNews",
+   "summary": "Wind gusts could top 40 mph Thursday. The post Appalachian Power preparing for potential power outages on Thanksgiving appeared first on WV MetroNews .",
+   "projects": [],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-24T23:56:41Z",
+   "story": "-power-preparing-for-potential-power-outages-on-thanksgiving"
+  },
+  {
+   "id": "news-article-0b7eef60-3243-4068-9db5-7739c4671e6a-html",
+   "d": "2026-11-24T13:21:00Z",
+   "title": "Two combat veterans sought answers at Valley Link's Open House in Ranson. They didn't get them, and took their concerns to a rally outside the venue.",
+   "url": "https://www.spiritofjefferson.com/news/article_0b7eef60-3243-4068-9db5-7739c4671e6a.html",
+   "source": "Spirit of Jefferson",
+   "summary": "Pulling into the Ranson Civic Center on Nov. 18 seemed uncanny. A pile of manure sat in one area, a massive crane holding a banner that read “180 FEET VALLEY ...",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-24T23:56:41Z",
+   "story": "news-article-0b7eef60-3243-4068-9db5-7739c4671e6a-html"
+  },
   {
    "id": "wtglrnkroal9pwtjkqw9ns3zhwe9ocmvndhblluj1mlhsrexryluzbv9iee4",
    "d": "2026-11-24T03:25:03Z",
