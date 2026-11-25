@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:56:41Z",
+ "updated": "2026-11-25T19:23:59Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,20 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ntd0lvt1hlu19pb3jkaw1ua3m2cc1kx3lumhffnwe0b0jky3lomy1xvxfmzw",
+   "d": "2026-11-25T14:45:00Z",
+   "title": "New MARL route revision would reduce affected landowners, add $844K in costs, according to PSC filing",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcG10VDE3NlliY3gxLXk3dEl6ZzBua2tERzFhWWlXSEIxalI1TzFNMHBET0tsNjlYQWZhNlZVejhtWWxPRUZWcDVERzVEZko2al9GZzB3d2VCZ01wQmt1cnI5akJiT2dQVVl1c1VKVjdyaUFHQm14VGZZclRybVVUc0lMeTdUb3NPSlUxWGNXMTh4MUhCUzZ2cDFtYzI3VjBaaG96SGM4dUFkbm5EWHFrWEpGRG5VcDhLVnMycEp6QXpzeE9jRE5xOE5paHJYaG5jNXNnTVhGZ002TmNTd0lvT1hLU19Pb3JkaW1Ua3M2cC1kX3lUMHFFNWE0b0JkY3loMy1XVXFMZw?oc=5",
+   "source": "WV News",
+   "summary": "",
+   "projects": [
+    "marl"
+   ],
+   "via": "gnews-wvnews",
+   "seen": "2026-11-25T19:23:59Z",
+   "story": "ntd0lvt1hlu19pb3jkaw1ua3m2cc1kx3lumhffnwe0b0jky3lomy1xvxfmzw"
+  },
   {
    "id": "data-centers-wont-raise-power-bills-he-previews-2027-session",
    "d": "2026-11-24T20:06:49Z",
