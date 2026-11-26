@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:25:28Z",
+ "updated": "2026-11-26T03:39:30Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -546,6 +546,17 @@
     {
      "form": "8-K",
      "d": "2026-11-25",
+     "accn": "0001193125-26-478506",
+     "doc": "d195970d8k.htm",
+     "period": "2026-11-25",
+     "items": [
+      "8.01",
+      "9.01"
+     ]
+    },
+    {
+     "form": "8-K",
+     "d": "2026-11-25",
      "accn": "0001193125-26-476850",
      "doc": "d185350d8k.htm",
      "period": "2026-11-25",
@@ -653,16 +664,8 @@
      "accn": "0001193125-26-138029",
      "doc": "fe-20260401.htm",
      "period": "2026-05-20"
-    },
-    {
-     "form": "10-K",
-     "d": "2026-02-18",
-     "accn": "0001031296-26-000046",
-     "doc": "fe-20251231.htm",
-     "period": "2025-12-31"
     }
    ],
-   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1022,7 +1025,8 @@
      "filed": "2026-04-28"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0001031296-26-000144",
+   "factsChecked": "2026-11-26"
   },
   "aep": {
    "cik": "0000004904",
@@ -1149,7 +1153,6 @@
      ]
     }
    ],
-   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1494,7 +1497,8 @@
      "filed": "2026-05-05"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0000004904-26-000072",
+   "factsChecked": "2026-11-26"
   },
   "nextera": {
    "cik": "0000753308",
@@ -1641,7 +1645,6 @@
      ]
     }
    ],
-   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1886,7 +1889,8 @@
      "filed": "2026-04-23"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0000753308-26-000081",
+   "factsChecked": "2026-11-26"
   },
   "dominion": {
    "cik": "0000715957",
@@ -2019,7 +2023,6 @@
      ]
     }
    ],
-   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2260,7 +2263,8 @@
      "filed": "2026-05-01"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0001193125-26-440697",
+   "factsChecked": "2026-11-26"
   },
   "anthropic": {
    "cik": "0002130357",
@@ -2272,6 +2276,22 @@
     "Nasdaq"
    ],
    "filings": [
+    {
+     "form": "8-K",
+     "d": "2026-11-25",
+     "accn": "0001628280-26-075973",
+     "doc": "ant-20261119.htm",
+     "period": "2026-11-19",
+     "items": [
+      "1.01",
+      "3.02",
+      "3.03",
+      "5.03",
+      "7.01",
+      "8.01",
+      "9.01"
+     ]
+    },
     {
      "form": "424B4",
      "d": "2026-11-19",
@@ -3919,7 +3939,6 @@
      "period": "2026-05-05"
     }
    ],
-   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4281,7 +4300,8 @@
      "filed": "2026-05-07"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0001711269-26-000117",
+   "factsChecked": "2026-11-26"
   },
   "amazon": {
    "cik": "0001018724",
@@ -10294,7 +10314,6 @@
      ]
     }
    ],
-   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10657,7 +10676,8 @@
      "filed": "2026-08-03"
     }
    },
-   "factsChecked": "2026-11-25"
+   "factsFrom": "0000107263-26-000036",
+   "factsChecked": "2026-11-26"
   },
   "nucor": {
    "cik": "0000073309",
@@ -11353,8 +11373,18 @@
    ]
   },
   "Valley Link Transmission": {
-   "total": 25,
+   "total": 26,
    "hits": [
+    {
+     "d": "2026-11-25",
+     "form": "424B5",
+     "who": [
+      "FIRSTENERGY CORP  (FE)"
+     ],
+     "cik": "0001031296",
+     "accn": "0001193125-26-478482",
+     "doc": "d35319d424b5.htm"
+    },
     {
      "d": "2026-11-03",
      "form": "10-Q",
@@ -11449,16 +11479,6 @@
      "cik": "0000053456",
      "accn": "0001193125-26-305407",
      "doc": "d298485d424b3.htm"
-    },
-    {
-     "d": "2026-06-25",
-     "form": "S-4",
-     "who": [
-      "JERSEY CENTRAL POWER & LIGHT CO"
-     ],
-     "cik": "0000053456",
-     "accn": "0001193125-26-282890",
-     "doc": "d298485ds4.htm"
     }
    ]
   },
@@ -11593,7 +11613,7 @@
   },
   "DFF": {
    "last": {
-    "d": "2026-11-23",
+    "d": "2026-11-24",
     "v": 3.88
    },
    "monthly": [
@@ -11699,14 +11719,14 @@
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-23",
+    "d": "2025-11-24",
     "v": 3.88
    }
   },
   "DGS10": {
    "last": {
-    "d": "2026-11-23",
-    "v": 4.92
+    "d": "2026-11-24",
+    "v": 4.91
    },
    "monthly": [
     [
@@ -11807,12 +11827,12 @@
     ],
     [
      "2026-11",
-     4.983
+     4.978
     ]
    ],
    "yearAgo": {
-    "d": "2025-11-21",
-    "v": 4.06
+    "d": "2025-11-24",
+    "v": 4.04
    }
   }
  }
