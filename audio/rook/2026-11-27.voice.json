@@ -1,0 +1,61 @@
+{
+ "id": "2026-11-27",
+ "model": "eleven_v4",
+ "voice_id": "u1vKrnJxYEQ6x1XJDwJt",
+ "script": "audio/rook/2026-11-27.script.md",
+ "characters": 2995,
+ "duration_s": 213.9,
+ "sections": [
+  {
+   "section": "intro",
+   "chars": 83,
+   "takes": 3,
+   "match": 0.889,
+   "missed_quotes": []
+  },
+  {
+   "section": "p0",
+   "chars": 512,
+   "takes": 1,
+   "match": 0.901,
+   "missed_quotes": []
+  },
+  {
+   "section": "p1",
+   "chars": 573,
+   "takes": 1,
+   "match": 0.967,
+   "missed_quotes": []
+  },
+  {
+   "section": "p2",
+   "chars": 775,
+   "takes": 1,
+   "match": 0.935,
+   "missed_quotes": []
+  },
+  {
+   "section": "p3",
+   "chars": 747,
+   "takes": 1,
+   "match": 0.972,
+   "missed_quotes": []
+  },
+  {
+   "section": "outro",
+   "chars": 305,
+   "takes": 1,
+   "match": 0.933,
+   "missed_quotes": []
+  }
+ ],
+ "needs_ear_check": [
+  {
+   "section": "intro",
+   "match": 0.889,
+   "missed_quotes": []
+  }
+ ],
+ "credits_used": 649,
+ "note": "credits_used is the account counter before and after; it can lag by a minute."
+}
