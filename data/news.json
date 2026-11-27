@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:23:59Z",
+ "updated": "2026-11-27T01:47:18Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,32 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "in-resort-reports-widespread-damage-after-thanksgiving-winds",
+   "d": "2026-11-26T22:44:47Z",
+   "title": "Snowshoe Mountain Resort reports widespread damage after Thanksgiving winds",
+   "url": "https://wvmetronews.com/2026/11/26/snowshoe-mountain-resort-reports-widespread-damage-after-thanksgiving-winds/",
+   "source": "WV MetroNews",
+   "summary": "Appalachian Power, Mon Power dealing without outages in several counties. The post Snowshoe Mountain Resort reports widespread damage after Thanksgiving winds appeared first on WV MetroNews .",
+   "projects": [],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-27T01:47:18Z",
+   "story": "in-resort-reports-widespread-damage-after-thanksgiving-winds"
+  },
+  {
+   "id": "wtexmzbbdf83dmpdcfhtyza3ynrxegzur2zwchezak82eukwv3dvvmx1yvj3",
+   "d": "2026-11-25T21:38:00Z",
+   "title": "LS Power Completes Acquisition of 4.4 GW Natural Gas Generation Assets from Constellation",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQSDdXM3pDUXdBODg1OUJrTWh4eV8tc0VDRzlLZlJOR3E5UHNsWl8tUFZkLS1xZkgydGxwRXpNTUM3QXRmZWx1YWpldVZMdndaYjB1RG9GTDRJcmg3SGMyQko2anpGNERBQnliSW1Md3JXblFCMTRVOG95aDFDTFl2cmx6dzgxT0ZqaURnSUlPbXZCZkZFaWNicTRwbXJ3dnFwa0VNVWtZZmlkUDR3YjNRbHJJY3lEeFl2ZjZLNEp2TmoxN3hhTlFiSU5VNVZCX05zaDhWUnVNM0lMZTRYOVhtcGdUeGtpS25PSjhiVmo1R05WWjh1c0d6aEpfZmo1WTExMzBBdF83dmpDcFhtYzA3YnRxeGZUR2ZwcHEzak82eUkwV3dvVmx1YVJ3?oc=5",
+   "source": "The Herald-Dispatch",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-herald",
+   "seen": "2026-11-27T01:47:18Z",
+   "story": "wtexmzbbdf83dmpdcfhtyza3ynrxegzur2zwchezak82eukwv3dvvmx1yvj3"
+  },
   {
    "id": "ntd0lvt1hlu19pb3jkaw1ua3m2cc1kx3lumhffnwe0b0jky3lomy1xvxfmzw",
    "d": "2026-11-25T14:45:00Z",
