@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:47:18Z",
+ "updated": "2026-11-27T12:41:03Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,20 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "ta-center-named-one-of-biggest-potential-polluters-in-the-us",
+   "d": "2026-11-27T11:00:07Z",
+   "title": "Mason County data center named one of biggest potential polluters in the US",
+   "url": "https://westvirginiawatch.com/2026/11/27/mason-county-data-center-named-one-of-biggest-potential-polluters-in-the-us/",
+   "source": "West Virginia Watch",
+   "summary": "The Mason County Monarch Compute Campus could be one of the most polluting data centers in the country, according to a recently released report by the Sierra Club.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "wvwatch",
+   "seen": "2026-11-27T12:41:03Z",
+   "story": "ta-center-named-one-of-biggest-potential-polluters-in-the-us"
+  },
   {
    "id": "in-resort-reports-widespread-damage-after-thanksgiving-winds",
    "d": "2026-11-26T22:44:47Z",
@@ -121,6 +135,20 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-24T02:16:58Z",
    "story": "ekxptkzpm1azovdqvdhumlb4vzhkztu1se5tv1djs1ngetfxq1nurwflztjn"
+  },
+  {
+   "id": "emand-more-article-91e5d426-b1e4-43bf-a788-3eace16acb12-html",
+   "d": "2026-11-23T13:06:00Z",
+   "title": "Opinion: West Virginia should demand more",
+   "url": "https://www.wvnews.com/spencernews/opinion-west-virginia-should-demand-more/article_91e5d426-b1e4-43bf-a788-3eace16acb12.html",
+   "source": "WV News",
+   "summary": "There has been a great deal of discussion about the proposed Valley Link transmission project in recent months, some of it taking place on this newspaper’s own social media pages.",
+   "projects": [
+    "valleylink"
+   ],
+   "via": "bing-valleylink",
+   "seen": "2026-11-27T12:41:03Z",
+   "story": "emand-more-article-91e5d426-b1e4-43bf-a788-3eace16acb12-html"
   },
   {
    "id": "ugfwuufmetb3szlyuku0svrlq2nsavbzakfmx3vkelpwmeplmmpfrhljm0xr",
@@ -1814,6 +1842,20 @@
    "via": "gnews-wvnews",
    "seen": "2026-11-10T17:07:08Z",
    "story": "zuzvuc0kzdwg2ddfztdm4s1jhcwmxr1zum28yq1zqc1vfwuvprhiwwdu5oxi"
+  },
+  {
+   "id": "support-for-nscale-s-deal-with-anthropic-126103001890-1-html",
+   "d": "2026-10-30T09:52:00Z",
+   "title": "Nvidia in talks to give credit support for Nscale's deal with Anthropic",
+   "url": "https://www.business-standard.com/technology/tech-news/nvidia-in-talks-to-give-credit-support-for-nscale-s-deal-with-anthropic-126103001890_1.html",
+   "source": "Business Standard",
+   "summary": "Nvidia is reportedly considering billions of dollars in credit guarantees to help Nscale finance a West Virginia AI data centre for Anthropic, though the deal has not been finalised.",
+   "projects": [
+    "monarch"
+   ],
+   "via": "bing-nscale",
+   "seen": "2026-11-27T12:41:03Z",
+   "story": "ing-the-cosigner-for-nscales-ai-data-center-in-west-virginia"
   },
   {
    "id": "nia-expands-data-center-footprint-with-streamlined-approvals",
