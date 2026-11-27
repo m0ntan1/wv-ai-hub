@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:41:03Z",
+ "updated": "2026-11-27T23:31:23Z",
  "sources": [
   "Bing News search",
   "Country Roads News",
@@ -19,6 +19,32 @@
   "West Virginia Watch"
  ],
  "items": [
+  {
+   "id": "bzyxm0v2x4bnhwv3r5n2vfcvd3nvb6mldwrnawtg95c3o3d0d3whnmaetscq",
+   "d": "2026-11-27T19:30:00Z",
+   "title": "Appalachian Power Company to host open house for project tied to Buffalo data center",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYVdydHFiRWpUM0Q2WXFXM0RrX2h6dl93d2ljUk94QWJVZGVkU01JWnBmTE1pT2kwdWMwVUlKT0drTnpLeHBsRElIX0dZX0RBdml3bnQ5VUt1bXN1b3pFaFpMNlk0TkZ0QmY0QVZJQ2Q4bmVoNUtiVkxwUU5TZV9iTXNmd2xCcTFSOUtGOF9keTY2UnF3T1d0WUtVeTBxNDJuZnFYU2NxdkNtbUF0UGdxcy1jTkdmdUd4cXU0cUhqTXRrdFVKX2Y5dFJjMnpQSGdfd0hJR2NDZ2ZLRExqNVJSLXdDRElVQXhuaVZxZm5tazBzYXM0V2x4bnhwV3R5N2VFcVd3NVB6MldwRnAwTG95c3o3d0d3WHNMaEtScQ?oc=5",
+   "source": "Charleston Gazette-Mail",
+   "summary": "",
+   "projects": [],
+   "energy": true,
+   "via": "gnews-gazette",
+   "seen": "2026-11-27T23:31:23Z",
+   "story": "bzyxm0v2x4bnhwv3r5n2vfcvd3nvb6mldwrnawtg95c3o3d0d3whnmaetscq"
+  },
+  {
+   "id": "rginia-winter-weather-advisory-issued-for-highest-elevations",
+   "d": "2026-11-27T16:52:57Z",
+   "title": "Power restoration efforts down to manageable numbers in West Virginia; winter weather advisory issued for highest elevations",
+   "url": "https://wvmetronews.com/2026/11/27/power-restoration-efforts-down-to-manageable-numbers-in-west-virginia-winter-weather-advisory-issued-for-highest-elevations/",
+   "source": "WV MetroNews",
+   "summary": "Mon Power and Appalachian Power report progress. The post Power restoration efforts down to manageable numbers in West Virginia; winter weather advisory issued for highest elevations appeared first on WV MetroNews .",
+   "projects": [],
+   "energy": true,
+   "via": "metronews",
+   "seen": "2026-11-27T23:31:23Z",
+   "story": "rginia-winter-weather-advisory-issued-for-highest-elevations"
+  },
   {
    "id": "ta-center-named-one-of-biggest-potential-polluters-in-the-us",
    "d": "2026-11-27T11:00:07Z",
