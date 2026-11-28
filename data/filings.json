@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T23:32:51Z",
+ "updated": "2026-11-28T08:00:18Z",
  "about": "Collected by tools/fetch_filings.py from SEC EDGAR and FRED. Figures are as reported in each filing; \"derived\" quarters are a year-to-date figure minus the previous one. accn is the SEC accession number.",
  "sec": {
   "nscale": {
@@ -666,7 +666,6 @@
      "period": "2026-05-20"
     }
    ],
-   "factsFrom": "0001031296-26-000144",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1026,7 +1025,8 @@
      "filed": "2026-04-28"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0001031296-26-000144",
+   "factsChecked": "2026-11-28"
   },
   "aep": {
    "cik": "0000004904",
@@ -1153,7 +1153,6 @@
      ]
     }
    ],
-   "factsFrom": "0000004904-26-000072",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -1498,7 +1497,8 @@
      "filed": "2026-05-05"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0000004904-26-000072",
+   "factsChecked": "2026-11-28"
   },
   "nextera": {
    "cik": "0000753308",
@@ -1645,7 +1645,6 @@
      ]
     }
    ],
-   "factsFrom": "0000753308-26-000081",
    "metrics": {
     "revenue": {
      "concept": "RevenueFromContractWithCustomerIncludingAssessedTax",
@@ -1890,7 +1889,8 @@
      "filed": "2026-04-23"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0000753308-26-000081",
+   "factsChecked": "2026-11-28"
   },
   "dominion": {
    "cik": "0000715957",
@@ -2023,7 +2023,6 @@
      ]
     }
    ],
-   "factsFrom": "0001193125-26-440697",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -2264,7 +2263,8 @@
      "filed": "2026-05-01"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0001193125-26-440697",
+   "factsChecked": "2026-11-28"
   },
   "anthropic": {
    "cik": "0002130357",
@@ -3939,7 +3939,6 @@
      "period": "2026-05-05"
     }
    ],
-   "factsFrom": "0001711269-26-000117",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -4301,7 +4300,8 @@
      "filed": "2026-05-07"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0001711269-26-000117",
+   "factsChecked": "2026-11-28"
   },
   "amazon": {
    "cik": "0001018724",
@@ -10314,7 +10314,6 @@
      ]
     }
    ],
-   "factsFrom": "0000107263-26-000036",
    "metrics": {
     "revenue": {
      "concept": "Revenues",
@@ -10677,7 +10676,8 @@
      "filed": "2026-08-03"
     }
    },
-   "factsChecked": "2026-11-27"
+   "factsFrom": "0000107263-26-000036",
+   "factsChecked": "2026-11-28"
   },
   "nucor": {
    "cik": "0000073309",
